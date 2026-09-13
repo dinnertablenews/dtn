@@ -20,19 +20,23 @@ def api(host, params):
 
 def main(subject, slug=None):
     slug = slug or re.sub(r"[^a-z0-9]+", "-", subject.lower()).strip("-")
+    os.makedirs("data/images", exist_ok=True)
+    log = open(f"data/images/{slug}.log", "w")
+    def fail(msg): log.write(msg + "\n"); log.close(); print(msg, file=sys.stderr); sys.exit(2)
     q = api("en.wikipedia.org", {"action": "query", "prop": "pageimages", "piprop": "name|original", "titles": subject, "redirects": 1})
     page = next(iter(q["query"]["pages"].values()))
+    log.write(json.dumps(page)[:1500] + "\n")
     name = page.get("pageimage"); orig = page.get("original")
-    if not name or not orig: print("no infobox image", file=sys.stderr); sys.exit(2)
+    if not name or not orig: fail("no infobox image")
     w, h = orig.get("width", 0), orig.get("height", 0)
-    if min(w, h) < MIN_PX: print(f"too small: {w}x{h}", file=sys.stderr); sys.exit(2)
+    if min(w, h) < MIN_PX: fail(f"too small: {w}x{h}")
     info = api("commons.wikimedia.org", {"action": "query", "prop": "imageinfo", "iiprop": "url|extmetadata", "titles": f"File:{name}"})
     ii = next(iter(info["query"]["pages"].values())).get("imageinfo", [{}])[0]
     meta = ii.get("extmetadata", {})
     lic = meta.get("LicenseShortName", {}).get("value", "")
-    if not OK.match(lic): print(f"license not usable: {lic!r}", file=sys.stderr); sys.exit(2)
+    log.write(json.dumps({k: v.get("value", "")[:200] for k, v in meta.items()}) + "\n")
+    if not OK.match(lic): fail(f"license not usable: {lic!r}")
     artist = re.sub(r"<[^>]+>", "", meta.get("Artist", {}).get("value", "")).strip()
-    os.makedirs("data/images", exist_ok=True)
     img = requests.get(orig["source"], headers={"User-Agent": UA}, timeout=60); img.raise_for_status()
     ext = ".png" if orig["source"].lower().endswith(".png") else ".jpg"
     open(f"data/images/{slug}{ext}", "wb").write(img.content)
@@ -40,6 +44,7 @@ def main(subject, slug=None):
                "license": lic, "artist": artist, "page": ii.get("descriptionurl", ""),
                "credit": f"Photo: {artist or 'Wikimedia Commons'}, Wikimedia Commons, {lic}"},
               open(f"data/images/{slug}.json", "w"), indent=1, ensure_ascii=False)
+    log.write("ok\n"); log.close()
     print(f"data/images/{slug}{ext} {w}x{h} {lic} {artist}")
 
 
