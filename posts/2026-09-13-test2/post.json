@@ -1,0 +1,54 @@
+{
+  "slot": "2026-09-13 test2 (dry run)",
+  "category": "Good news",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/politics/rep-tom-tiffany-swims-to-safety-after-plane-makes-emergency-landing-in-a-wisconsin-lake",
+  "headline": "A congressman swam away from a sinking plane",
+  "summary": "A small plane lost power coming into Wausau Downtown Airport on Saturday night. The pilot put it down on Lake Wausau. Rep. Tom Tiffany and the pilot stood on the plane until it began to sink, then swam 100 to 150 feet to water shallow enough to stand in. Tiffany came away with minor injuries.",
+  "ages": {
+    "5-7": {
+      "shield": false,
+      "script": "A small airplane stopped working over Wisconsin. The pilot landed it on a lake instead, the way a duck lands on water. Two grown-ups climbed out on top, then swam to where they could stand up. Both of them are okay.",
+      "why": "A plane going down sounds scary in the abstract. Give the ending first and keep it short. Everyone got out is the whole story at this age."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "The engine quit as the plane came in toward Wausau. No engine meant the runway was out of reach, so the pilot took the flattest open space left: the lake. A plane floats for a minute before water gets in, and that is the window you use to get out. Pilots drill it like your school drills a fire alarm.",
+      "why": "Kids this age want to know why someone did the odd-looking thing. The lake was the choice that made sense, and a fire drill is a mechanism they already run."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "The pilot had seconds to choose between stretching a dead engine toward the runway and putting the plane on a lake. Which would you have picked, and what would you need to know to decide? Tiffany is also running for governor. Does a story like this belong anywhere near how you judge a candidate?",
+      "why": "Teenagers argue well when a question has no clean answer. Both of these do. Let them take a side before you take yours."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Could that happen to our plane?",
+        "a": "Planes almost never do this, and pilots practice for it. This one found water to land on, which is what they are trained to look for."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why land on water? Isn't that worse?",
+        "a": "A lake is flat and empty. A road has cars and poles. And a plane floats long enough to climb out, which is the part that saved them."
+      },
+      {
+        "q": "How did they get out before it sank?",
+        "a": "They stood on top of it first. When it started going under, they swam about half a football field to where they could stand up."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Was the pilot good or just lucky?",
+        "a": "Probably both. He picked the lake instead of stretching for the runway. What do you think that call took?"
+      },
+      {
+        "q": "Does this help his campaign?",
+        "a": "Nobody knows yet. The better question is whether it tells you anything about how he would govern."
+      }
+    ]
+  },
+  "caption": "A congressman swam away from a sinking plane.\n\nA small plane lost power coming into Wausau Downtown Airport on Saturday night. The pilot put it down on Lake Wausau. Rep. Tom Tiffany and the pilot stood on the plane until it began to sink, then swam 100 to 150 feet to water shallow enough to stand in. Tiffany came away with minor injuries.\n\nSwipe for how to explain it to kids ages 5–7, 8–12, and 13–17.\n\nSource: PBS NewsHour, pbs.org\n\n#parenting #kidsandnews #aviation #goodnews #dinnertablenews"
+}

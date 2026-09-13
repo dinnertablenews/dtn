@@ -25,5 +25,15 @@
   "headline": "No Atlantic hurricanes yet this season",
   "photo": false,
   "published": null
+ },
+ {
+  "slug": "2026-09-13-test2",
+  "date": "2026-09-13",
+  "slot": "test2",
+  "category": "Good news",
+  "headline": "Rep. Tom Tiffany swims to safety after plane makes emergency landing in a Wisconsin lake",
+  "photo": false,
+  "published": null,
+  "note": "Dry run (config.dry_run=true), slot name supplied by operator; not a real posting slot. data/articles.json was absent, so the post was written from RSS summaries (PBS NewsHour, The Hill, BBC) per TASK.md §3. Top cluster (Trump downplays AI warnings) skipped under §2 rule 1 as the same running story as 2026-09-13-morning. No photo: subject is a person in an accident, and the test run did not dispatch the Commons workflow."
  }
 ]
