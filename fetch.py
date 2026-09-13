@@ -105,17 +105,28 @@ def fetch_articles(items, now):
     except Exception: cache = {}
     fresh = [i for i in items if i.get("counted") and now - datetime.fromisoformat(i["published"]) <= timedelta(hours=30)]
     budget = TEXT_BUDGET
+    status = {}
     for i in fresh:
-        if i["id"] in cache or budget <= 0: continue
+        prev = cache.get(i["id"])
+        if budget <= 0 or (prev and (prev["ok"] or prev.get("tries", 1) >= 2)): continue
         budget -= 1
-        url = resolve(i["link"])
-        text = ""
+        url = prev["url"] if prev else resolve(i["link"])
+        text, code = "", 0
         try:
-            html = trafilatura.fetch_url(url)
-            text = trafilatura.extract(html, include_comments=False, include_tables=False, favor_precision=True) or ""
-        except Exception: pass
-        cache[i["id"]] = {"url": url, "text": text[:TEXT_MAX], "fetched_at": now.isoformat(), "ok": bool(text)}
+            r = requests.get(url, headers={"User-Agent": UA, "Accept": "text/html,*/*", "Accept-Language": "en-US,en"},
+                             timeout=25, allow_redirects=True)
+            code = r.status_code
+            if r.ok:
+                text = trafilatura.extract(r.text, url=url, include_comments=False, include_tables=False,
+                                           favor_precision=True) or ""
+        except Exception as ex:
+            code = str(ex)[:60]
+        status.setdefault(urlparse(url).netloc, []).append(code)
+        cache[i["id"]] = {"url": url, "text": text[:TEXT_MAX], "fetched_at": now.isoformat(), "ok": bool(text),
+                          "tries": (prev.get("tries", 1) + 1) if prev else 1, "http": code}
         time.sleep(0.3)
+    for host, codes in sorted(status.items()):
+        print(f"  {host}: {codes[:8]}", file=sys.stderr)
     # keep cache bounded: drop entries older than 4 days
     cutoff = (now - timedelta(days=4)).isoformat()
     cache = {k: v for k, v in cache.items() if v.get("fetched_at", "") >= cutoff}
