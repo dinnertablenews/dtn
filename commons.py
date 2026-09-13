@@ -34,7 +34,7 @@ def main(subject, slug=None):
     ii = next(iter(info["query"]["pages"].values())).get("imageinfo", [{}])[0]
     meta = ii.get("extmetadata", {})
     lic = meta.get("LicenseShortName", {}).get("value", "")
-    log.write(json.dumps({k: v.get("value", "")[:200] for k, v in meta.items()}) + "\n")
+    log.write(json.dumps({k: str(v.get("value", ""))[:200] for k, v in meta.items()}) + "\n")
     if not OK.match(lic): fail(f"license not usable: {lic!r}")
     artist = re.sub(r"<[^>]+>", "", meta.get("Artist", {}).get("value", "")).strip()
     img = requests.get(orig["source"], headers={"User-Agent": UA}, timeout=60); img.raise_for_status()
