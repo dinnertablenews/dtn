@@ -72,9 +72,10 @@ def from_rss(src, feed, now):
         if now - pub > timedelta(hours=WINDOW_H): continue
         title = re.sub(r"\s+-\s+[^-]{2,40}$", "", clean(e.get("title")))  # Google News appends " - Outlet"
         if "|" in title or len(title) < 30: continue  # section/hub pages, not stories
+        body = clean(e.content[0].value) if e.get("content") else ""   # WordPress feeds ship the full article
         out.append({"title": title, "link": e.get("link", ""),
                     "summary": clean(e.get("summary", ""))[:600],
-                    "published": pub.isoformat()})
+                    "published": pub.isoformat(), "_body": body[:TEXT_MAX]})
     return out
 
 
@@ -108,7 +109,7 @@ def fetch_articles(items, now):
     status = {}
     for i in fresh:
         prev = cache.get(i["id"])
-        if budget <= 0 or (prev and (prev["ok"] or prev.get("tries", 1) >= 2)): continue
+        if budget <= 0 or (prev and (prev["ok"] or (prev.get("tries", 1) >= 2 and len(i.get("_body", "")) < 400))): continue
         budget -= 1
         url = prev["url"] if prev else resolve(i["link"])
         text, code = "", 0
@@ -117,10 +118,14 @@ def fetch_articles(items, now):
                              timeout=25, allow_redirects=True)
             code = r.status_code
             if r.ok:
-                text = trafilatura.extract(r.text, url=url, include_comments=False, include_tables=False,
-                                           favor_precision=True) or ""
+                text = (trafilatura.extract(r.text, url=url, include_comments=False, include_tables=False,
+                                            favor_precision=True)
+                        or trafilatura.extract(r.text, url=url, include_comments=False, include_tables=False)
+                        or trafilatura.baseline(r.text)[1] or "")
         except Exception as ex:
             code = str(ex)[:60]
+        if len(text) < 400 and len(i.get("_body", "")) > 400:
+            text, code = i["_body"], f"{code}/rss"
         status.setdefault(urlparse(url).netloc, []).append(code)
         cache[i["id"]] = {"url": url, "text": text[:TEXT_MAX], "fetched_at": now.isoformat(), "ok": bool(text),
                           "tries": (prev.get("tries", 1) + 1) if prev else 1, "http": code}
@@ -132,6 +137,7 @@ def fetch_articles(items, now):
     cache = {k: v for k, v in cache.items() if v.get("fetched_at", "") >= cutoff}
     json.dump(cache, open(ARTICLES, "w"), ensure_ascii=False)
     for i in items:
+        i.pop("_body", None)
         c = cache.get(i["id"])
         if c: i["article_url"] = c["url"]; i["has_text"] = c["ok"]
     print(f"articles cached: {len(cache)}, with text: {sum(1 for v in cache.values() if v['ok'])}", file=sys.stderr)
