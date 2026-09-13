@@ -1,0 +1,65 @@
+# Dinner Table News — source allowlist. Only these outlets feed the pipeline.
+# kind: rss (feed URL) | html (scrape article links from a hub page)
+# section: extra feeds from an allowlisted outlet, used for category depth
+sources:
+  - id: ap
+    name: AP News
+    domain: apnews.com
+    feeds:
+      - { kind: html, url: https://apnews.com/hub/ap-top-news }
+      - { kind: html, url: https://apnews.com/hub/climate-and-environment, section: climate }
+  - id: bbc
+    name: BBC News
+    domain: bbc.com
+    feeds:
+      - { kind: rss, url: https://feeds.bbci.co.uk/news/world/us_and_canada/rss.xml }
+      - { kind: rss, url: https://feeds.bbci.co.uk/news/world/rss.xml }
+      - { kind: rss, url: https://feeds.bbci.co.uk/news/science_and_environment/rss.xml, section: climate }
+  - id: pbs
+    name: PBS NewsHour
+    domain: pbs.org
+    feeds:
+      - { kind: rss, url: https://www.pbs.org/newshour/feeds/rss/headlines }
+  - id: thehill
+    name: The Hill
+    domain: thehill.com
+    feeds:
+      - { kind: rss, url: https://thehill.com/feed/ }
+  - id: semafor
+    name: Semafor
+    domain: semafor.com
+    feeds:
+      - { kind: rss, url: https://www.semafor.com/rss.xml }
+  - id: axios
+    name: Axios
+    domain: axios.com
+    feeds:
+      - { kind: rss, url: https://api.axios.com/feed/ }
+  - id: kff
+    name: KFF Health News
+    domain: kffhealthnews.org
+    feeds:
+      - { kind: rss, url: https://kffhealthnews.org/feed/ }
+  - id: sciencenews
+    name: Science News
+    domain: sciencenews.org
+    feeds:
+      - { kind: rss, url: https://www.sciencenews.org/feed }
+  - id: defenseone
+    name: Defense One
+    domain: defenseone.com
+    feeds:
+      - { kind: rss, url: https://www.defenseone.com/rss/all/ }
+  - id: insideclimate
+    name: Inside Climate News
+    domain: insideclimatenews.org
+    feeds:
+      - { kind: rss, url: https://insideclimatenews.org/feed/ }
+
+# Background: public-domain image and story sources, not counted in cross-source scoring
+background:
+  - id: nasa
+    name: NASA
+    domain: nasa.gov
+    feeds:
+      - { kind: rss, url: https://www.nasa.gov/feed/ }
