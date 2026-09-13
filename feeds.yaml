@@ -6,8 +6,9 @@ sources:
     name: AP News
     domain: apnews.com
     feeds:
-      - { kind: html, url: https://apnews.com/hub/ap-top-news }
-      - { kind: html, url: https://apnews.com/hub/climate-and-environment, section: climate }
+      # AP blocks datacenter IPs; Google News' public RSS carries AP headlines with links back to apnews.com
+      - { kind: rss, url: "https://news.google.com/rss/search?q=site:apnews.com+when:1d&hl=en-US&gl=US&ceid=US:en" }
+      - { kind: rss, url: "https://news.google.com/rss/search?q=site:apnews.com+climate+when:2d&hl=en-US&gl=US&ceid=US:en", section: climate }
   - id: bbc
     name: BBC News
     domain: bbc.com

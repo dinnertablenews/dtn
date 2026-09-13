@@ -62,7 +62,7 @@ def from_rss(src, feed, now):
         ts = e.get("published_parsed") or e.get("updated_parsed")
         pub = datetime(*ts[:6], tzinfo=timezone.utc) if ts else now
         if now - pub > timedelta(hours=WINDOW_H): continue
-        title = clean(e.get("title"))
+        title = re.sub(r"\s+-\s+[^-]{2,40}$", "", clean(e.get("title")))  # Google News appends " - Outlet"
         if src["id"] == "statnews" and title.startswith("STAT+"): continue
         out.append({"title": title, "link": e.get("link", ""),
                     "summary": clean(e.get("summary", ""))[:600],
