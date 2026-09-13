@@ -4,7 +4,7 @@
 Runs hourly in GitHub Actions. Output is read by the scheduled Claude task that
 selects stories and builds the carousel. Never adds a source that isn't in feeds.yaml.
 """
-import hashlib, json, re, sys, time
+import hashlib, json, os, re, sys, time
 from datetime import datetime, timedelta, timezone
 from html import unescape
 from html.parser import HTMLParser
@@ -82,6 +82,7 @@ def from_html(src, feed, now):
 
 
 def main():
+    os.makedirs("data", exist_ok=True)
     cfg = yaml.safe_load(open("feeds.yaml"))
     now = datetime.now(timezone.utc)
     items, errors = [], []
