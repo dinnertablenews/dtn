@@ -18,19 +18,16 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - run: pip install -q requests
-      - run: python commons.py "${{ inputs.subject }}" "${{ inputs.slug }}"
-        continue-on-error: true
-      - name: Debug
-        if: always()
-        env: { GH_TOKEN: "${{ github.token }}" }
+      - name: Lookup and commit
+        shell: bash
         run: |
-          { echo "== ls"; ls -la data/images 2>&1; echo "== logs"; cat data/images/*.log 2>&1; echo "== status"; git status --short; } > /tmp/debug.txt 2>&1 || true
-          SHA=$(gh api repos/${{ github.repository }}/contents/debug.txt -q .sha 2>/dev/null || true)
-          gh api -X PUT repos/${{ github.repository }}/contents/debug.txt -f message="debug" -f content="$(base64 -w0 /tmp/debug.txt)" ${SHA:+-f sha=$SHA} >/dev/null
-      - name: Commit
-        run: |
+          set +e
+          python commons.py "${{ inputs.subject }}" "${{ inputs.slug }}" > /tmp/py.out 2>&1; rc=$?
+          echo "::notice title=commons.py rc=$rc::$(tr '\n' ' ' < /tmp/py.out | tail -c 900)"
           git config user.name "dtn-bot"; git config user.email "bot@dinnertablenews.com"
-          git add data/images
-          git diff --cached --quiet || git commit -m "image: ${{ inputs.subject }}"
-          git pull --rebase -X theirs origin main || true
-          git push origin HEAD:main
+          git add -A data/images > /tmp/git.out 2>&1
+          git diff --cached --quiet || git commit -m "image: ${{ inputs.subject }}" >> /tmp/git.out 2>&1
+          git pull --rebase origin main >> /tmp/git.out 2>&1
+          git push origin HEAD:main >> /tmp/git.out 2>&1; prc=$?
+          echo "::notice title=git rc=$prc::$(tr '\n' ' ' < /tmp/git.out | tail -c 900)"
+          exit 0
