@@ -1,0 +1,28 @@
+name: Commons image
+on:
+  workflow_dispatch:
+    inputs:
+      subject:
+        description: "Wikipedia article title, e.g. Dario Amodei"
+        required: true
+      slug:
+        description: "file slug (optional)"
+        required: false
+permissions:
+  contents: write
+jobs:
+  image:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -q requests
+      - run: python commons.py "${{ inputs.subject }}" "${{ inputs.slug }}"
+      - name: Commit
+        run: |
+          git config user.name "dtn-bot"; git config user.email "bot@dinnertablenews.com"
+          git pull -q --rebase
+          git add data/images
+          git diff --cached --quiet || git commit -m "image: ${{ inputs.subject }}"
+          git push

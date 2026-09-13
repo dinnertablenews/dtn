@@ -1,0 +1,28 @@
+{
+  "slot": "2026-09-13 12:00 CT",
+  "category": "Security",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/world/attack-on-key-saudi-pipeline-is-blamed-on-iran-backed-militias-in-iraq",
+  "headline": "Drones hit a Saudi oil pipeline. Iraq says they came from its side of the border",
+  "headline_size": 80,
+  "summary": "Saudi Arabia shut one of its biggest oil pipelines after a drone attack. Iraq's government says the drones took off from Iraqi territory, near Iran, and fired two senior officials over it. Nobody was hurt. Oil prices went up.",
+  "ages": {
+    "5-7": {"shield": true,
+      "script": "Far away, some people broke a big pipe that carries oil. Nobody got hurt. The countries are working out who did it. It doesn't change anything here.",
+      "why": "At this age, distance is the reassurance. Far away, nobody hurt, grown-ups handling it. Then move on."},
+    "8-12": {"chip": "Bring it up if it fits the day",
+      "script": "You know how gas comes from oil? A lot of the world's oil moves through Saudi Arabia in big pipes. Someone flew drones into one and shut it down. Iraq, the country next door, says the drones came from its side, and it's investigating. When a pipe like that closes, gas costs a little more everywhere, even here.",
+      "why": "Kids this age can follow a chain: drones, pipe, oil, price at the pump. Give them the chain, not the politics."},
+    "13-17": {"chip": "Ask first, then talk",
+      "script": "Iran-backed groups in Iraq are getting blamed for a drone strike on a Saudi pipeline. Iraq admitted it came from its territory and fired two officials. Why would a government admit that? And who benefits if Saudi oil stops flowing?",
+      "why": "They're ready for motive and incentives. Questions about why a country admits fault get further than a map of the Middle East."}
+  },
+  "questions": {
+    "5-7": [{"q": "Is that near us?", "a": "No. It's on the other side of the world."}],
+    "8-12": [{"q": "Will gas get expensive?", "a": "A little, for a while. It happens whenever a big pipe like this closes."},
+             {"q": "Who did it?", "a": "Iraq says the drones came from its side of the border. Groups tied to Iran are getting the blame. Nobody has proven it yet."}],
+    "13-17": [{"q": "Is this going to turn into a war?", "a": "Probably not from this alone. Watch what Saudi Arabia does next. That's the tell."},
+              {"q": "Why does the US care about Saudi oil?", "a": "Because the price of oil is set worldwide. When Saudi supply drops, our prices move too."}]
+  },
+  "caption": "Drones hit a Saudi oil pipeline. Iraq says they came from its side of the border.\n\nSaudi Arabia shut one of its biggest pipelines after a drone attack. Iraq's government says the drones took off from Iraqi territory, near Iran, and fired two senior officials over it. Nobody was hurt. Oil prices went up.\n\nSwipe for how to explain it to kids ages 5–7, 8–12, and 13–17.\n\nSource: PBS NewsHour, pbs.org/newshour\n\n#parenting #kidsandnews #dinnertablenews"
+}

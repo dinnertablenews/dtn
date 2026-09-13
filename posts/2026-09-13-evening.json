@@ -1,0 +1,27 @@
+{
+  "slot": "2026-09-13 20:00 CT",
+  "category": "Good news",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/science/where-have-all-the-atlantic-hurricanes-gone-el-nino-might-bring-record-slow-storm-season",
+  "headline": "It's mid-September and there hasn't been a single Atlantic hurricane",
+  "headline_size": 80,
+  "summary": "This is the latest the Atlantic has ever gone without a hurricane, at least since satellites started watching in the 1960s. Meteorologists credit El Niño, a warm patch of Pacific water that tears storms apart before they grow. The season runs through November, so it isn't over. But it's a quiet year for the coast.",
+  "ages": {
+    "5-7": {"chip": "Good one to bring up",
+      "script": "You know those giant storms called hurricanes? This year, there haven't been any yet. The ocean is being calm. Scientists are watching to make sure it stays that way.",
+      "why": "Good news works at every age, and this one is simple: no storms. Let them enjoy it."},
+    "8-12": {"chip": "Good one to bring up",
+      "script": "Hurricanes need warm, still air to grow. This year a warm patch of ocean near the equator, called El Niño, is making winds that chop storms up before they get big. So, for the first time since we've had satellites, no Atlantic hurricane by mid-September. That's a record.",
+      "why": "This age loves a mechanism. El Niño as a storm-shredder is a story they'll retell at school."},
+    "13-17": {"chip": "Ask first, then talk",
+      "script": "Zero Atlantic hurricanes this deep into September. It's a record, and El Niño gets the credit. Does one quiet year tell us anything about climate change? What would it take to know?",
+      "why": "Teenagers have heard \"every storm is climate change.\" A quiet year is a chance to talk about what one data point can and can't prove."}
+  },
+  "questions": {
+    "5-7": [{"q": "Are hurricanes gone forever?", "a": "No. Just quiet this year. They'll come back some other year, and people know how to get ready."}],
+    "8-12": [{"q": "What's El Niño?", "a": "A patch of warm water in the Pacific that changes the weather all over the world for a year or two."},
+             {"q": "Does this mean climate change isn't real?", "a": "No. It means weather changes year to year. Climate is the average over decades."}],
+    "13-17": [{"q": "So the scientists were wrong about this season?", "a": "They forecast a busy one, and it hasn't been. Forecasts are odds, not promises. Worth asking how they'll update."}]
+  },
+  "caption": "It's mid-September and there hasn't been a single Atlantic hurricane.\n\nThat's the latest the Atlantic has ever gone without one, at least since satellites started watching in the 1960s. Meteorologists credit El Niño. The season runs through November, so it isn't over. But it's a quiet year for the coast.\n\nSwipe for how to explain it to kids ages 5–7, 8–12, and 13–17.\n\nSource: PBS NewsHour, pbs.org/newshour\n\n#parenting #kidsandnews #goodnews #dinnertablenews"
+}

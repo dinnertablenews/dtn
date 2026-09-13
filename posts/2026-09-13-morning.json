@@ -1,0 +1,27 @@
+{
+  "slot": "2026-09-13 07:00 CT",
+  "category": "Technology",
+  "outlet": "AP News",
+  "source_url": "https://apnews.com/article/anthropic-amodei-ai-safety-slow-down",
+  "headline": "Anthropic's CEO says AI needs to slow down",
+  "summary": "Dario Amodei runs one of the biggest AI companies. Today he said the whole industry should slow down. His reason: AI now helps build the next AI, and he thinks that gets out of hand within a year. He wants outside inspectors inside every lab, starting with his own.",
+  "ages": {
+    "5-7": {"shield": true,
+      "script": "Some grown-ups build computer helpers. Today one of them said, let's slow down and check our work. That's what careful people do. It's why we check your bike before you ride it.",
+      "why": "A 5-year-old has one question: am I safe? Answer that one. Skip the rest."},
+    "8-12": {"chip": "Bring it up if it fits the day",
+      "script": "You know how you can ask AI for help with homework? The people who build it say it's getting better fast. So fast that one of the bosses wants everyone to slow down and let inspectors check their work. Like a pilot running a checklist before takeoff.",
+      "why": "Kids this age care about rules and fairness. Inspectors and checklists make sense to them. Slowing down sounds careful, not scary."},
+    "13-17": {"chip": "Ask first, then talk",
+      "script": "The head of one of the biggest AI companies said today that his own industry is moving too fast. He wants inspectors inside every lab. What do you make of a CEO asking to be regulated? Would the other companies go along?",
+      "why": "Teenagers can hold two ideas at once. Ask first. Say what you think after they say what they think."}
+  },
+  "questions": {
+    "5-7": [{"q": "Are we safe?", "a": "Yes. This has nothing to do with our house. The people building it are being careful on purpose."}],
+    "8-12": [{"q": "Can AI really build itself?", "a": "It helps the people who build the next one, like a calculator helps an engineer. People are still in charge. He wants to keep it that way."},
+             {"q": "Who decides the rules?", "a": "Mostly the companies, right now. He says that's not enough."}],
+    "13-17": [{"q": "Isn't he just saying this to look good?", "a": "Maybe. What would he have to do for you to believe him?"},
+              {"q": "Should I still use AI for school?", "a": "Different question. This one is about how fast the next AI gets built. But let's talk about school too."}]
+  },
+  "caption": "Anthropic's CEO says AI needs to slow down.\n\nDario Amodei runs one of the biggest AI companies. Today he said the whole industry should slow down: AI now helps build the next AI, and he thinks that gets out of hand within a year. He wants outside inspectors inside every lab, starting with his own.\n\nSwipe for how to explain it to kids ages 5–7, 8–12, and 13–17, and the questions they might ask.\n\nSource: AP News, apnews.com\n\n#parenting #kidsandnews #AI #dinnertablenews"
+}
