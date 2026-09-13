@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Render a Dinner Table News post (post.json) to six 1080x1350 PNGs.
 
-usage: python render.py posts/2026-09-13-morning.json out/2026-09-13-morning/
+usage: python render.py posts/2026-09-13-morning/post.json posts/2026-09-13-morning/
 Fonts are self-hosted in fonts/. Requires playwright (chromium).
 """
 import base64, json, os, sys

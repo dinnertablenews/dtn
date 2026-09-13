@@ -1,0 +1,34 @@
+name: Refresh Instagram token
+on:
+  schedule:
+    - cron: "0 9 * * 1"   # weekly, Monday 09:00 UTC
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -q requests pynacl
+      - shell: bash
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          set +e
+          python publish.py refresh > /tmp/out.txt 2>&1; rc=$?
+          echo "::notice title=refresh rc=$rc::$(tr '\n' ' ' < /tmp/out.txt | tail -c 600)"
+          [ $rc = 0 ] && python - <<'PY'
+          import os, base64, requests
+          from nacl import encoding, public
+          repo="dinnertablenews/dtn"; h={"Authorization":"Bearer "+os.environ["GH_PAT"],"Accept":"application/vnd.github+json"}
+          k=requests.get(f"https://api.github.com/repos/{repo}/actions/secrets/public-key",headers=h).json()
+          box=public.SealedBox(public.PublicKey(k["key"].encode(),encoding.Base64Encoder()))
+          enc=base64.b64encode(box.encrypt(open("/tmp/ig_new_token").read().encode())).decode()
+          r=requests.put(f"https://api.github.com/repos/{repo}/actions/secrets/IG_ACCESS_TOKEN",headers=h,json={"encrypted_value":enc,"key_id":k["key_id"]})
+          print("secret update", r.status_code)
+          PY
+          exit $rc

@@ -1,0 +1,47 @@
+name: Instagram
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: "verify | publish | refresh"
+        required: true
+        default: verify
+      folder:
+        description: "post folder for publish, e.g. posts/2026-09-13-morning"
+        required: false
+permissions:
+  contents: write
+jobs:
+  ig:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -q requests pynacl
+      - name: Run
+        shell: bash
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          GH_PAT: ${{ secrets.GH_PAT }}
+        run: |
+          set +e
+          python publish.py "${{ inputs.action }}" "${{ inputs.folder }}" > /tmp/out.txt 2>&1; rc=$?
+          echo "::notice title=publish.py ${{ inputs.action }} rc=$rc::$(tr '\n' ' ' < /tmp/out.txt | tail -c 900)"
+          if [ "${{ inputs.action }}" = "publish" ] && [ $rc = 0 ]; then
+            git config user.name dtn-bot; git config user.email bot@dinnertablenews.com
+            git add "${{ inputs.folder }}/published.json" && git commit -m "published ${{ inputs.folder }}" && git pull --rebase origin main && git push origin HEAD:main
+          fi
+          if [ "${{ inputs.action }}" = "refresh" ] && [ $rc = 0 ] && [ -n "$GH_PAT" ]; then
+            python - <<'PY'
+          import os, json, base64, requests
+          from nacl import encoding, public
+          repo=os.environ.get("IG_REPO","dinnertablenews/dtn"); h={"Authorization":"Bearer "+os.environ["GH_PAT"],"Accept":"application/vnd.github+json"}
+          k=requests.get(f"https://api.github.com/repos/{repo}/actions/secrets/public-key",headers=h).json()
+          box=public.SealedBox(public.PublicKey(k["key"].encode(),encoding.Base64Encoder()))
+          enc=base64.b64encode(box.encrypt(open("/tmp/ig_new_token").read().encode())).decode()
+          r=requests.put(f"https://api.github.com/repos/{repo}/actions/secrets/IG_ACCESS_TOKEN",headers=h,json={"encrypted_value":enc,"key_id":k["key_id"]})
+          print("secret update", r.status_code)
+          PY
+          fi
+          exit $rc
