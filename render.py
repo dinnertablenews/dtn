@@ -19,6 +19,17 @@ CATS = {"Technology": "oklch(0.78 0.11 85)", "Health": "oklch(0.78 0.11 20)", "E
 def col(h, l=0.55, c=0.13): return f"oklch({l} {c} {h})"
 
 
+def prepare_photo(path, scale=0.66):
+    """Pad the photo with white so it lands in the visible lower-left of the disc.
+    White multiplies to the category tint, so the padding disappears. scale = photo width / disc width."""
+    from PIL import Image
+    import io
+    im = Image.open(path).convert("RGB")
+    W = int(im.width / scale); H = max(int(W * 1.3), im.height)  # canvas taller than wide, like the disc's cover box
+    canvas = Image.new("RGB", (W, H), "white"); canvas.paste(im, (0, H - im.height))
+    buf = io.BytesIO(); canvas.save(buf, "JPEG", quality=88); return buf.getvalue()
+
+
 def font_css():
     def face(fam, file, w):
         b = base64.b64encode((ROOT / "fonts" / file).read_bytes()).decode()
@@ -59,9 +70,9 @@ def cover(p):
     photo = p.get("photo")  # path to an image file, optional
     tint = CATS.get(p["category"], CATS["World"])
     if photo:
-        b = base64.b64encode(Path(photo).read_bytes()).decode()
+        b = base64.b64encode(prepare_photo(photo, p.get("photo_scale", 0.66))).decode()
         disc = (f'<div style="position:absolute;top:-260px;right:-300px;width:900px;height:900px;border-radius:999px;background:{tint};overflow:hidden">'
-                f'<img src="data:image/jpeg;base64,{b}" style="width:100%;height:100%;object-fit:cover;object-position:{p.get("photo_focus","35% 60%")};display:block;filter:grayscale(1) contrast(1.05);mix-blend-mode:multiply;opacity:0.9"></div>')
+                f'<img src="data:image/jpeg;base64,{b}" style="width:100%;height:100%;object-fit:cover;object-position:0% 100%;display:block;filter:grayscale(1) contrast(1.05);mix-blend-mode:multiply;opacity:0.9"></div>')
         hdr = header(PAPER, l=0.8)
     else:
         disc = (f'<div style="position:absolute;top:-260px;right:-300px;width:900px;height:900px;border-radius:999px;background:{tint}"></div>'
