@@ -73,6 +73,7 @@ def from_rss(src, feed, now):
         title = re.sub(r"\s+-\s+[^-]{2,40}$", "", clean(e.get("title")))  # Google News appends " - Outlet"
         if "|" in title or len(title) < 30: continue  # section/hub pages, not stories
         body = clean(e.content[0].value) if e.get("content") else ""   # WordPress feeds ship the full article
+        if len(body) < 400: body = clean(e.get("summary", ""))          # some feeds put the first paragraphs here
         out.append({"title": title, "link": e.get("link", ""),
                     "summary": clean(e.get("summary", ""))[:600],
                     "published": pub.isoformat(), "_body": body[:TEXT_MAX]})
@@ -109,7 +110,7 @@ def fetch_articles(items, now):
     status = {}
     for i in fresh:
         prev = cache.get(i["id"])
-        if budget <= 0 or (prev and (prev["ok"] or (prev.get("tries", 1) >= 2 and len(i.get("_body", "")) < 400))): continue
+        if budget <= 0 or (prev and (prev["ok"] or (prev.get("tries", 1) >= 3 and len(i.get("_body", "")) < 400))): continue
         budget -= 1
         url = prev["url"] if prev else resolve(i["link"])
         text, code = "", 0
@@ -124,6 +125,14 @@ def fetch_articles(items, now):
                         or trafilatura.baseline(r.text)[1] or "")
         except Exception as ex:
             code = str(ex)[:60]
+        if len(text) < 400 and code in (401, 403, 429, 503):
+            # outlet blocks datacenter IPs; fetch the same page through a reader proxy
+            try:
+                r = requests.get(f"https://r.jina.ai/{url}", timeout=40,
+                                 headers={"User-Agent": UA, "Accept": "text/plain", "X-Return-Format": "text"})
+                if r.ok and len(r.text) > 400:
+                    text, code = re.sub(r"\n{3,}", "\n\n", r.text).strip(), f"{code}/reader"
+            except Exception: pass
         if len(text) < 400 and len(i.get("_body", "")) > 400:
             text, code = i["_body"], f"{code}/rss"
         status.setdefault(urlparse(url).netloc, []).append(code)
