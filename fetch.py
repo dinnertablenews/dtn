@@ -11,11 +11,19 @@ from html.parser import HTMLParser
 from urllib.parse import urljoin, urlparse
 
 import feedparser, requests, yaml
+import trafilatura
+try:
+    from googlenewsdecoder import gnewsdecoder
+except Exception:  # optional
+    gnewsdecoder = None
 
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/128.0 Safari/537.36")
 WINDOW_H = 48
 OUT = "data/headlines.json"
+ARTICLES = "data/articles.json"   # id -> {url, text, fetched_at}; text is what the writer reads
+TEXT_MAX = 6000
+TEXT_BUDGET = 120                  # new articles fetched per run
 
 
 def get(url):
@@ -81,6 +89,43 @@ def from_html(src, feed, now):
     return out[:40]
 
 
+def resolve(url):
+    """Google News RSS links are encoded redirects; decode to the publisher URL."""
+    if "news.google.com" in url and gnewsdecoder:
+        try:
+            r = gnewsdecoder(url, interval=1)
+            if r.get("status"): return r["decoded_url"]
+        except Exception: pass
+    return url
+
+
+def fetch_articles(items, now):
+    """Store article text for recent counted items so the writer can work from the reporting, not the RSS blurb."""
+    try: cache = json.load(open(ARTICLES))
+    except Exception: cache = {}
+    fresh = [i for i in items if i.get("counted") and now - datetime.fromisoformat(i["published"]) <= timedelta(hours=30)]
+    budget = TEXT_BUDGET
+    for i in fresh:
+        if i["id"] in cache or budget <= 0: continue
+        budget -= 1
+        url = resolve(i["link"])
+        text = ""
+        try:
+            html = trafilatura.fetch_url(url)
+            text = trafilatura.extract(html, include_comments=False, include_tables=False, favor_precision=True) or ""
+        except Exception: pass
+        cache[i["id"]] = {"url": url, "text": text[:TEXT_MAX], "fetched_at": now.isoformat(), "ok": bool(text)}
+        time.sleep(0.3)
+    # keep cache bounded: drop entries older than 4 days
+    cutoff = (now - timedelta(days=4)).isoformat()
+    cache = {k: v for k, v in cache.items() if v.get("fetched_at", "") >= cutoff}
+    json.dump(cache, open(ARTICLES, "w"), ensure_ascii=False)
+    for i in items:
+        c = cache.get(i["id"])
+        if c: i["article_url"] = c["url"]; i["has_text"] = c["ok"]
+    print(f"articles cached: {len(cache)}, with text: {sum(1 for v in cache.values() if v['ok'])}", file=sys.stderr)
+
+
 def main():
     os.makedirs("data", exist_ok=True)
     cfg = yaml.safe_load(open("feeds.yaml"))
@@ -105,6 +150,7 @@ def main():
         if it["id"] in seen: continue
         seen.add(it["id"]); uniq.append(it)
     uniq.sort(key=lambda x: x["published"], reverse=True)
+    fetch_articles(uniq, now)
     json.dump({"fetched_at": now.isoformat(), "window_hours": WINDOW_H,
                "count": len(uniq), "errors": errors, "items": uniq},
               open(OUT, "w"), indent=1, ensure_ascii=False)
