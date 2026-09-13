@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Cluster the last 24h of headlines across outlets and rank the clusters.
 
-usage: python select.py data/headlines.json [hours] > candidates.json
+usage: python rank.py data/headlines.json [hours] > candidates.json
 Ranking: number of distinct counted outlets covering the cluster (the "top story"
 signal), then recency. The Claude task reads the top ~15 clusters, applies the
 7-day category log, picks three (one positive), and writes the post.
