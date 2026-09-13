@@ -110,7 +110,8 @@ def fetch_articles(items, now):
     status = {}
     for i in fresh:
         prev = cache.get(i["id"])
-        if budget <= 0 or (prev and (prev["ok"] or (prev.get("tries", 1) >= 3 and len(i.get("_body", "")) < 400))): continue
+        if prev and (prev["ok"] or now - datetime.fromisoformat(prev["fetched_at"]) < timedelta(hours=3)): continue
+        if budget <= 0: break
         budget -= 1
         url = prev["url"] if prev else resolve(i["link"])
         text, code = "", 0
@@ -132,15 +133,17 @@ def fetch_articles(items, now):
                                  headers={"User-Agent": UA, "Accept": "text/plain", "X-Return-Format": "text"})
                 if r.ok and len(r.text) > 400:
                     text, code = re.sub(r"\n{3,}", "\n\n", r.text).strip(), f"{code}/reader"
-            except Exception: pass
+                else:
+                    code = f"{code}/reader{r.status_code}:{clean(r.text)[:60]}"
+            except Exception as ex:
+                code = f"{code}/reader-err:{str(ex)[:60]}"
         if len(text) < 400 and len(i.get("_body", "")) > 400:
             text, code = i["_body"], f"{code}/rss"
         status.setdefault(urlparse(url).netloc, []).append(code)
-        cache[i["id"]] = {"url": url, "text": text[:TEXT_MAX], "fetched_at": now.isoformat(), "ok": bool(text),
-                          "tries": (prev.get("tries", 1) + 1) if prev else 1, "http": code}
+        cache[i["id"]] = {"url": url, "text": text[:TEXT_MAX], "fetched_at": now.isoformat(), "ok": bool(text), "http": code}
         time.sleep(0.3)
     for host, codes in sorted(status.items()):
-        print(f"  {host}: {codes[:8]}", file=sys.stderr)
+        print(f"  {host}: {codes[:3]}", file=sys.stderr)
     # keep cache bounded: drop entries older than 4 days
     cutoff = (now - timedelta(days=4)).isoformat()
     cache = {k: v for k, v in cache.items() if v.get("fetched_at", "") >= cutoff}
