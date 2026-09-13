@@ -1,9 +1,86 @@
 {
- "fetched_at": "2026-09-13T12:32:05.888949+00:00",
+ "fetched_at": "2026-09-13T13:26:13.207564+00:00",
  "window_hours": 48,
- "count": 312,
+ "count": 305,
  "errors": [],
  "items": [
+  {
+   "title": "Live updates: Lawmakers set to return from recess; Trump attends golf tournament in Ireland",
+   "link": "https://thehill.com/homenews/administration/6086633-live-updates-congress-returns-washington-agenda-trump-ireland/",
+   "summary": "House and Senate lawmakers will return to Washington this week with a packed agenda before much of their focus shifts to the fast-approaching midterm elections. The Senate is expected to continue talks over the budget resolution and hold a procedural vote on the cryptocurrency regulation bill, among other priorities. The House, meanwhile, will reportedly consider…",
+   "published": "2026-09-13T13:02:06+00:00",
+   "source": "thehill",
+   "outlet": "The Hill",
+   "counted": true,
+   "section": "top",
+   "id": "7d85cff558ee"
+  },
+  {
+   "title": "Charlie Kirk, one year later: What he meant to Black America",
+   "link": "https://thehill.com/opinion/civil-rights/6083593-charlie-kirk-anniversary-black-america/",
+   "summary": "Kirk was outlining the opposite doctrine to the soft bigotry of low expectations.",
+   "published": "2026-09-13T13:00:00+00:00",
+   "source": "thehill",
+   "outlet": "The Hill",
+   "counted": true,
+   "section": "top",
+   "id": "4c7ad14af67f"
+  },
+  {
+   "title": "Tiffany suffers minor injuries after plane makes emergency lake landing",
+   "link": "https://thehill.com/homenews/house/6086647-wisconsin-gop-lawmaker-plane-crash/",
+   "summary": "Rep. Tom Tiffany (R-Wis.), who is running for governor of Wisconsin, said Sunday he sustained “minor injuries” after his plane made an emergency landing in a lake. Tiffany wrote on social platform X that his plane lost power as it approached Wausau Downtown Airport earlier Saturday night. The GOP lawmaker, who was returning home after…",
+   "published": "2026-09-13T12:57:19+00:00",
+   "source": "thehill",
+   "outlet": "The Hill",
+   "counted": true,
+   "section": "top",
+   "id": "d544c56f3082"
+  },
+  {
+   "title": "Six dead, 130 missing after Indonesian ferry capsizes in Java Sea",
+   "link": "https://www.bbc.co.uk/news/articles/cvgykzgljlyo?at_medium=RSS&at_campaign=rss",
+   "summary": "Ships and helicopters are searching for those missing from the Virgo Transport 8 ship, which had encountered bad weather.",
+   "published": "2026-09-13T12:56:39+00:00",
+   "source": "bbc",
+   "outlet": "BBC News",
+   "counted": true,
+   "section": "top",
+   "id": "438a4696e998"
+  },
+  {
+   "title": "AI's most powerful CEOs hit the brakes",
+   "link": "https://www.axios.com/2026/09/13/ai-labs-regulation-safety",
+   "summary": "In nine startling hours on Saturday, the four biggest AI labs — which rarely agree on anything — set aside years of feuds and competition to endorse a slower development pace for their models. Their new stance: Prioritize safety over growth , even at a cost. The big picture: AI's unrelenting growth has hit an inflection point with the public, Washington and even the companies building it. Data centers are unpopular . People are panicked about doom scenarios . And 51 days before midterms, legislators suddenly realize there are points to be won by cracking down. Against that backdrop , the indus",
+   "published": "2026-09-13T12:56:34+00:00",
+   "source": "axios",
+   "outlet": "Axios",
+   "counted": true,
+   "section": "top",
+   "id": "cc0d45cace72"
+  },
+  {
+   "title": "Iran-backed Houthis in Yemen claim new attacks on Saudi Arabia",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYmtucHBpX1JrQVh4ZVl5UDVCMER5bjYtb2NPcUVPZzFrZlZSZERNTjN3YTVKTDhxc3BzbkdMRS05YllDZ3VJeW03c2pRSHNmYkxKTnBWNE1IVm9VYndFdjZlQS0zck1zeUM0QTA4S0p5cUM5MTYxRjNxX052S2xOaXE1Ql9zYXBpc19SZThRR1VwVWpEbkFoNE1YMA?oc=5",
+   "summary": "Iran-backed Houthis in Yemen claim new attacks on Saudi Arabia apnews.com",
+   "published": "2026-09-13T12:38:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "9f36956be224"
+  },
+  {
+   "title": "Turkish authorities launch crackdown on LGBTQ+ and HIV support groups",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMlpZeGIyT1VsLUhmN01MUlNmaS1HT3VEMDJ3dlByZ3lvOTNvUzlfckQ3RzZYTTVramRqbmttdWtGRWxBSjdKWXBxVHVPRlU5WEktVnIwMGJkN05SeXFlLVlMM0ZGd3h0NV9MeUJWc2FFNmtPbF8yaElWRERxQ1FtSWRoWm5aYUgtV1cySkdzSQ?oc=5",
+   "summary": "Turkish authorities launch crackdown on LGBTQ+ and HIV support groups apnews.com",
+   "published": "2026-09-13T12:17:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "5f4c6a964fd4"
+  },
   {
    "title": "Iranian ship attacked near Strait of Hormuz: Iranian state media",
    "link": "https://thehill.com/policy/international/6086615-iranian-cargo-ship-struck-hormuz/",
@@ -36,17 +113,6 @@
    "counted": true,
    "section": "top",
    "id": "463683788323"
-  },
-  {
-   "title": "U.S. News: Top U.S. News Today",
-   "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBlSV95cW15dzRMN3BweVV5a2ZVclpfUE5TYWRCWGtHX1VOX1JuNklpQVZ0NnQ1Q3diNDlUbmNPYw?oc=5",
-   "summary": "U.S. News: Top U.S. News Today apnews.com",
-   "published": "2026-09-13T11:21:19+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "e2d8134df88e"
   },
   {
    "title": "AI staff 'genuinely frightened' for humanity's future, ex-Anthropic researcher tells BBC",
@@ -93,17 +159,6 @@
    "id": "e657c641f680"
   },
   {
-   "title": "Iran-backed Houthis in Yemen claim new attacks on Saudi Arabia",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYmtucHBpX1JrQVh4ZVl5UDVCMER5bjYtb2NPcUVPZzFrZlZSZERNTjN3YTVKTDhxc3BzbkdMRS05YllDZ3VJeW03c2pRSHNmYkxKTnBWNE1IVm9VYndFdjZlQS0zck1zeUM0QTA4S0p5cUM5MTYxRjNxX052S2xOaXE1Ql9zYXBpc19SZThRR1VwVWpEbkFoNE1YMA?oc=5",
-   "summary": "Iran-backed Houthis in Yemen claim new attacks on Saudi Arabia apnews.com",
-   "published": "2026-09-13T10:58:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "9f36956be224"
-  },
-  {
    "title": "At BRICS, India's Modi warns geopolitical tensions and supply chain shocks threaten global stability",
    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZExrNlZaeERENWNmaHFtMERIUTVLVl9GWXJJbnBIZ3B3c2dhNTZUQTRnTjlHSVhjWElrdmNuaEJWcEJJNjU4RkszVXNLQWdJNmtPaDN6bjBDX1JrTTB2NmFJNGdXNGpxQmtscTJFeWlOZU1tVWVSaDdKeGJpb3QyMnFEbWFtdEdQZmpoZlpKVkdoTjhRS3FGZVl4WUludzBH?oc=5",
    "summary": "At BRICS, India's Modi warns geopolitical tensions and supply chain shocks threaten global stability apnews.com",
@@ -113,6 +168,17 @@
    "counted": true,
    "section": "top",
    "id": "13e60936d2e5"
+  },
+  {
+   "title": "Pope commemorates 9/11 attacks with prayers for peace and for those who died",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRGlVTndhSlVnOThIQ2ZXX3dCcTZUd1YzVjRvNlBzR05Id2t0aTdTYXZVUm5DSXpfa1c5QUgyMVN2bUZJQ3lsQWE4Qm9ldTg2SmdKWG9QWU1rbjdVTGF5NC1tLTlpOEFjTmJfNk81NTBVdGg2a3Nua2RFUGY2cWRFMDZvS1VtSlBKSF9xSVU2TmpEZw?oc=5",
+   "summary": "Pope commemorates 9/11 attacks with prayers for peace and for those who died apnews.com",
+   "published": "2026-09-13T10:45:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "05c2ad85adbe"
   },
   {
    "title": "An Iranian commercial ship is struck near Strait of Hormuz with 1 dead, Iranian media say",
@@ -168,17 +234,6 @@
    "counted": true,
    "section": "top",
    "id": "5b9ff0ebafb1"
-  },
-  {
-   "title": "Six dead, 107 rescued from Indonesian ferry that went missing in Java Sea",
-   "link": "https://www.bbc.co.uk/news/articles/cvgykzgljlyo?at_medium=RSS&at_campaign=rss",
-   "summary": "Ships and helicopters are searching for the remaining 130 missing people from the Virgo Transport 8 ship, which had encountered bad weather.",
-   "published": "2026-09-13T09:42:08+00:00",
-   "source": "bbc",
-   "outlet": "BBC News",
-   "counted": true,
-   "section": "top",
-   "id": "438a4696e998"
   },
   {
    "title": "Swedish voters go to polls to choose a new parliament as hard right bids for role in government",
@@ -489,6 +544,17 @@
    "id": "a64ca10fc1b3"
   },
   {
+   "title": "Lebanon’s president makes a rare visit to southern city as fears of Israeli attacks grow",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZ29iTjV3OXJvdFI2NUoxUHVNNWpuWWlnTWFaR0ZnVHNWLUh3dm8wNHdhb3VBS0xaTklybkpuamZzWlFyQWJvbTduV0ZqTllJSkxKLU9haWRmQ0dZbXFRUElJdmFWX0Q1SFZ3LVZWMWxXdmxaekpVSUFjLXVZWTdLVHdqWkRLdlJ3YWo1ZFBJZnY0WnFRTnFvSTlQYlR4NzZDdjdhSHBaR2FwWjVIaWtDdzBB?oc=5",
+   "summary": "Lebanon’s president makes a rare visit to southern city as fears of Israeli attacks grow apnews.com",
+   "published": "2026-09-13T01:28:32+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "3635b776b5cb"
+  },
+  {
    "title": "Elena Rybakina beats Aryna Sabalenka to win the US Open title and punctuate her rise to No. 1",
    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeC1fLVdudjJRczJCRVhESkJzR1V2bjQtZjBpR2xYNXBCcVF4QjdPR0pWeDZjZ2l0eDRXQUtvcWNYSk51QUF0RV9wOVlkaHZ1WUptTlJHODJpOHVoSlFlUExGQnEwQXBjQnQ0Q3NTRzRBRXp6ZDhFbkN4cjlycTZmM2FYS1BKMWVScnUwVlBUZnowbDBGNjQxckFlRld0dW9k?oc=5",
    "summary": "Elena Rybakina beats Aryna Sabalenka to win the US Open title and punctuate her rise to No. 1 apnews.com",
@@ -562,7 +628,7 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "climate",
+   "section": "top",
    "id": "ca6dd64bf757"
   },
   {
@@ -643,6 +709,17 @@
    "id": "ed557726a88e"
   },
   {
+   "title": "Michigan shows its resilience in 17-10 win over No. 11 Oklahoma after getting lucky break in opener",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTkVGVDVIUXdnSFVsVGNyR3V2ZWJkaWdrZXdjQktpd3lpam9ObS1EOURYbUpmbW5CQzJsMmtCVk9Wc01xSVhPYzJDWEh2bGVaa0RlZ3loOFhYbkctU3h0aGxCSk1nQkhGTHBVb0F4Nm5UcEJ0bzExRTlBREJyZTdtUWhWT3pIdlRXdVNRRQ?oc=5",
+   "summary": "Michigan shows its resilience in 17-10 win over No. 11 Oklahoma after getting lucky break in opener apnews.com",
+   "published": "2026-09-12T23:03:39+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "7a8b2746ab7c"
+  },
+  {
    "title": "Marshall backtracks on support for $5,000 Trump dividend in Kansas Senate debate",
    "link": "https://thehill.com/homenews/senate/6086408-marshall-shifts-trump-dividends/",
    "summary": "Sen. Roger Marshall (R-Kans.) appeared to shift his opinion on President Trump’s $5,000 dividends announced earlier this week. In a debate at the Kansas State Fair against Democratic opponent Adam Hamilton, a moderator asked both candidates if they supported the dividends, citing the proposal’s $1.2 trillion cost amid the growing national debt. “I’m going to…",
@@ -720,17 +797,6 @@
    "id": "51e789688ed6"
   },
   {
-   "title": "Michigan shows its resilience in 17-10 win over No. 11 Oklahoma after getting lucky break in opener",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTkVGVDVIUXdnSFVsVGNyR3V2ZWJkaWdrZXdjQktpd3lpam9ObS1EOURYbUpmbW5CQzJsMmtCVk9Wc01xSVhPYzJDWEh2bGVaa0RlZ3loOFhYbkctU3h0aGxCSk1nQkhGTHBVb0F4Nm5UcEJ0bzExRTlBREJyZTdtUWhWT3pIdlRXdVNRRQ?oc=5",
-   "summary": "Michigan shows its resilience in 17-10 win over No. 11 Oklahoma after getting lucky break in opener apnews.com",
-   "published": "2026-09-12T21:26:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "7a8b2746ab7c"
-  },
-  {
    "title": "Minnesota churches roiled by legal battle over ICE surveillance and right to protest",
    "link": "https://www.pbs.org/newshour/nation/minnesota-churches-roiled-by-legal-battle-over-ice-surveillance-and-right-to-protest",
    "summary": "Court cases involving Twin Cities churches and immigration enforcement highlight how the acrimonious debate continues to roil faith communities more than six months since the federal surge turned Minnesota into a symbol of defiance of the Trump administration's policies.",
@@ -784,17 +850,6 @@
    "counted": true,
    "section": "top",
    "id": "786248c95ddc"
-  },
-  {
-   "title": "No pressure and no thoughts of revenge for France going into women's FIBA World Cup final",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNmtKSktEWFNZQXhaVFJOZVVtTXVKUzgzNzlVV2RjQU5ScGVqamN4eWRSeTNHb1lEd0hxWm1KdFhpOExEY0FZT3kwcW9FdVJfYzRBTXNoVTFPMVotbnpHRXEyQkNMZ3E1eUlwUUV4RnRHc1ZMc1hrN3lTTlh4bUNBWU9COGUyNFpCNkJ4WEh2YU11MnFuSnVCekNR?oc=5",
-   "summary": "No pressure and no thoughts of revenge for France going into women's FIBA World Cup final apnews.com",
-   "published": "2026-09-12T20:48:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "e5b9227f9dbc"
   },
   {
    "title": "Trump’s childhood home sells for nearly $2 million",
@@ -1037,17 +1092,6 @@
    "counted": true,
    "section": "top",
    "id": "445a7d93de33"
-  },
-  {
-   "title": "Video shows Israeli troops firing on Palestinians in West Bank, shooting one in knee",
-   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPUm96enBaQ2ZqejA4ZllWR3ZfQnd1MS1wQ29lOFA1VTFsLVZpRmFGbktKeFRLMHVpX1NGT1dGemhYdi02eVBGZUFSb0NFYmJGRnVPSFVXakNOeUJ0dVNxUENLSl9Ha3JpX3E2RWJBeTdrQTFzTktQMUNsQ0FldGVsOE1fRWw3c3Z5S0JuZ2tpWWE0NUY0bVB3NE1iYmFzbDk2eFFQSGdrbU1xU005am9WNVc4ZkVGZzVqXzIzaGJid1Btck1GM0VZci1HMklKMllhbWFRb3BDUm8?oc=5",
-   "summary": "Video shows Israeli troops firing on Palestinians in West Bank, shooting one in knee apnews.com",
-   "published": "2026-09-12T17:29:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "5d24f3536483"
   },
   {
    "title": "Trump touches a nerve while in Ireland by saying reunification would be 'fantastic'",
@@ -1501,17 +1545,6 @@
    "id": "cbaabe5f9823"
   },
   {
-   "title": "Lebanon’s president makes a rare visit to southern city as fears of Israeli attacks grow",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZ29iTjV3OXJvdFI2NUoxUHVNNWpuWWlnTWFaR0ZnVHNWLUh3dm8wNHdhb3VBS0xaTklybkpuamZzWlFyQWJvbTduV0ZqTllJSkxKLU9haWRmQ0dZbXFRUElJdmFWX0Q1SFZ3LVZWMWxXdmxaekpVSUFjLXVZWTdLVHdqWkRLdlJ3YWo1ZFBJZnY0WnFRTnFvSTlQYlR4NzZDdjdhSHBaR2FwWjVIaWtDdzBB?oc=5",
-   "summary": "Lebanon’s president makes a rare visit to southern city as fears of Israeli attacks grow apnews.com",
-   "published": "2026-09-12T12:16:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "3635b776b5cb"
-  },
-  {
    "title": "Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq",
    "link": "https://www.bbc.co.uk/news/articles/c62m933465eo?at_medium=RSS&at_campaign=rss",
    "summary": "Iraq removes a military commander and opens investigations into the attack that came from an area bordering Iran.",
@@ -1655,15 +1688,15 @@
    "id": "4d300e0731ab"
   },
   {
-   "title": "The Memo: Trump’s convention may struggle to turn tide for GOP",
-   "link": "https://thehill.com/homenews/campaign/6085663-trump-republican-midterm-convention-impact/",
-   "summary": "President Trump basked in the approval of the MAGA base during this week’s Republican midterm convention in Dallas. But the bigger question is whether the event made any difference to a political landscape that is seriously challenging for Republicans as Election Day looms less than eight weeks away. The Hill’s data partner Decision Desk HQ…",
+   "title": "Trump pledges $5K checks if Republicans do well in the midterms. Can he legally do that?",
+   "link": "https://thehill.com/homenews/administration/6085556-trump-midterm-dividend-legal-questions/",
+   "summary": "President Trump’s pledge to give $5,000 to every U.S. adult if Republicans keep control of both chambers of Congress in the midterm elections has raised questions over whether the plan could cross legal lines. The president announced the so-called “Trump dividends” on the first night of the Republican National Committee’s (RNC) midterm convention in Dallas this…",
    "published": "2026-09-12T10:00:00+00:00",
    "source": "thehill",
    "outlet": "The Hill",
    "counted": true,
    "section": "top",
-   "id": "1df528bb027d"
+   "id": "7153966a3c4c"
   },
   {
    "title": "McConnell’s return shines spotlight on older lawmakers",
@@ -1677,15 +1710,15 @@
    "id": "c5e14f12e9a3"
   },
   {
-   "title": "Trump pledges $5K checks if Republicans do well in the midterms. Can he legally do that?",
-   "link": "https://thehill.com/homenews/administration/6085556-trump-midterm-dividend-legal-questions/",
-   "summary": "President Trump’s pledge to give $5,000 to every U.S. adult if Republicans keep control of both chambers of Congress in the midterm elections has raised questions over whether the plan could cross legal lines. The president announced the so-called “Trump dividends” on the first night of the Republican National Committee’s (RNC) midterm convention in Dallas this…",
+   "title": "The Memo: Trump’s convention may struggle to turn tide for GOP",
+   "link": "https://thehill.com/homenews/campaign/6085663-trump-republican-midterm-convention-impact/",
+   "summary": "President Trump basked in the approval of the MAGA base during this week’s Republican midterm convention in Dallas. But the bigger question is whether the event made any difference to a political landscape that is seriously challenging for Republicans as Election Day looms less than eight weeks away. The Hill’s data partner Decision Desk HQ…",
    "published": "2026-09-12T10:00:00+00:00",
    "source": "thehill",
    "outlet": "The Hill",
    "counted": true,
    "section": "top",
-   "id": "7153966a3c4c"
+   "id": "1df528bb027d"
   },
   {
    "title": "French military jets launch a 40-day global flight to project power and strengthen alliances",
@@ -1785,17 +1818,6 @@
    "counted": true,
    "section": "climate",
    "id": "bcdeb71bc916"
-  },
-  {
-   "title": "American Shelton to face Zverev in US Open final",
-   "link": "https://www.bbc.co.uk/sport/tennis/articles/clykzn81n4go?at_medium=RSS&at_campaign=rss",
-   "summary": "Ben Shelton powers past Frances Tiafoe in an all-American US Open semi-final to earn a spot in Sunday's final against number one seed Alexander Zverev.",
-   "published": "2026-09-12T06:05:34+00:00",
-   "source": "bbc",
-   "outlet": "BBC News",
-   "counted": true,
-   "section": "top",
-   "id": "d3b7995e878c"
   },
   {
    "title": "Town gets in a flap over High Street pigeon mess",
@@ -2445,17 +2467,6 @@
    "counted": true,
    "section": "climate",
    "id": "11eed430ff2a"
-  },
-  {
-   "title": "Diesel prices are hitting record highs at a bad time for many US farmers",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYTBWQ2p3M0JMMExTVzBwV2V0RUVIRzZSS2drMmZJTkpYSUlMN01sUXJsdC1KbVVqRHVZbGVUMFJaRlBlbzdya0ZjaW1ZX1ZybnczeEZoMEdKaHNiekx6N0ZIN3RwZm5IdFBtdnpmbF9vT2lTZ0JwUzhWazJfUERYME1iQTlYRHNXbGpqWG9HdC1Ea2RFNU9lWDRfNmg?oc=5",
-   "summary": "Diesel prices are hitting record highs at a bad time for many US farmers apnews.com",
-   "published": "2026-09-11T19:55:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "6fa6bd914fa3"
   },
   {
    "title": "9/11 widow blasts Saudi Arabia during annual ceremony",
@@ -3316,17 +3327,6 @@
    "id": "24ed5b5c100f"
   },
   {
-   "title": "More than 500,000 Russian troops killed in Ukraine, UK defense chief says",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNam9xc2ktUTRsbll2RHowZTlFeGhHOFhqaUx1bS1YUFNrWHpDbDhkSGg4c3M1R2c0SUpieWMxT1oySUFwTmxzbFpDRXRWR3c2N0s0OHBESnJoMFZRREdUQVZTeDdOTFNIaWhyeVhBNWhzZVpBWUZtT0lkcHFNLWgwU1EzdHJKSGpibWwwN3BIbURyMWxtSy14c21QM1lSUlk?oc=5",
-   "summary": "More than 500,000 Russian troops killed in Ukraine, UK defense chief says apnews.com",
-   "published": "2026-09-11T13:59:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "2af75b61cbc2"
-  },
-  {
    "title": "El-Sayed on GOP convention attendee’s call for him to be shot: ‘Call it out for what it is’",
    "link": "https://thehill.com/homenews/campaign/6084169-elsayed-condemns-convention-threat/",
    "summary": "Democratic Michigan Senate candidate Abdul El-Sayed said Thursday that he hoped Republicans would “call it out for what it is” when discussing shouts from a GOP midterm convention attendee who called for him and other Democratic lawmakers to be shot. In an interview with CNN’s Kaitlan Collins, El-Sayed was asked about a clip that showed a member…",
@@ -3358,83 +3358,6 @@
    "counted": true,
    "section": "top",
    "id": "9ece615ad46b"
-  },
-  {
-   "title": "Democrats top Republicans by 11 points for House control: Survey",
-   "link": "https://thehill.com/homenews/campaign/6083950-democrats-republicans-house-control-midterms-survey/",
-   "summary": "Voters would rather see Democrats take control of the House than Republicans keep their majority in the lower chamber in November’s elections, according to a new survey. The Quinnipiac University poll found respondents preferred Democrats to win over Republicans by 11 points. If the midterms were held today, 49 percent of survey respondents said they…",
-   "published": "2026-09-11T13:23:32+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "a0e6a5725318"
-  },
-  {
-   "title": "Activist Oasis seeks board seats at Vail Resorts",
-   "link": "https://www.semafor.com/article/09/10/2026/activist-oasis-seeks-board-seats-at-vail-resorts",
-   "summary": "The activist investor has a sizable position and is looking to shake up the ski operator’s management.",
-   "published": "2026-09-11T13:02:02+00:00",
-   "source": "semafor",
-   "outlet": "Semafor",
-   "counted": true,
-   "section": "top",
-   "id": "fe87a2f20697"
-  },
-  {
-   "title": "In the shadow of the towers: 25 years of post-9/11 America",
-   "link": "https://thehill.com/opinion/national-security/6079688-post-911-civil-rights-legislation/",
-   "summary": "Congress has the opportunity to begin to rectify some of the harms of the post-9/11 era.",
-   "published": "2026-09-11T13:00:00+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "aa623f1cc216"
-  },
-  {
-   "title": "The Sept. 11 disasters still shape people’s health 25 years later",
-   "link": "https://www.sciencenews.org/article/sept-11-attacks-health-25th-anniversary",
-   "summary": "The anniversaries come and go, but the physical and mental health of workers and survivors is still being affected by September 11, 2001.",
-   "published": "2026-09-11T13:00:00+00:00",
-   "source": "sciencenews",
-   "outlet": "Science News",
-   "counted": true,
-   "section": "top",
-   "id": "bed0dbded7a6"
-  },
-  {
-   "title": "DeSantis knocks Trump’s $5K dividend payment pledge: ‘More debt and more inflation’",
-   "link": "https://thehill.com/homenews/state-watch/6083953-ron-desantis-donald-trump-dividends-midterms/",
-   "summary": "Florida Gov. Ron DeSantis (R) on Thursday criticized President Trump’s controversial proposal to pay out $5,000 checks to every U.S. adult if Republicans win the midterms. “What I would say is, if you are getting surplus revenue, you should cut people’s tax and return it to the people,” DeSantis said during a press conference in…",
-   "published": "2026-09-11T12:57:17+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "69bbaa491e55"
-  },
-  {
-   "title": "Inflation held steady in August as Iran war surges oil prices",
-   "link": "https://thehill.com/business/6083146-inflation-rate-cpi-august/",
-   "summary": "Inflation remained unchanged in August as gas prices continued to rise amid the war with Iran, new data from the Bureau of Labor Statistics (BLS) showed Friday. The consumer price index (CPI) increased 0.4 percent last month and 3.4 percent over the same time last year. This was unchanged from July, when the annual inflation rate also sat at 3.4 percent. …",
-   "published": "2026-09-11T12:42:00+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "058d2ab0b750"
-  },
-  {
-   "title": "Watch live: Vance, former presidents attend 9/11 ceremony at Ground Zero",
-   "link": "https://thehill.com/video-clips/6083822-watch-live-vance-bush-clinton-obama-biden-ground-zero-nyc-911-memorial-25th-anniversary/",
-   "summary": "Vice President Vance and former Presidents George W. Bush, Clinton, Obama and Biden will be in New York City on Friday morning to commemorate the 25th anniversary of the Sept. 11, 2001, terrorist attacks. The event is being held at the 9/11 Memorial and Museum in Manhattan, built adjacent to Ground Zero. During the incident…",
-   "published": "2026-09-11T12:34:24+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "9f76d5901ff1"
   }
  ]
 }
