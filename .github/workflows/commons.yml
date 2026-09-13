@@ -20,6 +20,13 @@ jobs:
       - run: pip install -q requests
       - run: python commons.py "${{ inputs.subject }}" "${{ inputs.slug }}"
         continue-on-error: true
+      - name: Debug
+        if: always()
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          { echo "== ls"; ls -la data/images 2>&1; echo "== logs"; cat data/images/*.log 2>&1; echo "== status"; git status --short; } > /tmp/debug.txt 2>&1 || true
+          SHA=$(gh api repos/${{ github.repository }}/contents/debug.txt -q .sha 2>/dev/null || true)
+          gh api -X PUT repos/${{ github.repository }}/contents/debug.txt -f message="debug" -f content="$(base64 -w0 /tmp/debug.txt)" ${SHA:+-f sha=$SHA} >/dev/null
       - name: Commit
         run: |
           git config user.name "dtn-bot"; git config user.email "bot@dinnertablenews.com"
