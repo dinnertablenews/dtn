@@ -3,11 +3,11 @@
 You are the automated run for one posting slot. Do everything below without asking questions; there is no one to answer. If a step fails after two tries, write what happened to `runs/<slug>.log`, push it, and stop.
 
 ## 0. Setup
-- Clone `https://github.com/dinnertablenews/dtn` and work in the clone. This scheduled task was created with the repo selected, so push and `gh api` work; if either returns 403 "not in this session's authorized repository set", the task lost its repository binding: write that to `runs/<slug>.log` locally, make it the first line of your final message, and stop.
+- Clone `https://github.com/dinnertablenews/dtn` and work in the clone. This scheduled task was created with the repo selected, so `git push` works; if it returns 403 "not in this session's authorized repository set", the task lost its repository binding: write that to `runs/<slug>.log` locally, make it the first line of your final message, and stop.
 - Read `config.json`. If `dry_run` is true, do every step except §7.
 - Determine the slot from the current time in America/Chicago: run at ~06:00 → `morning` (posts 07:00); ~11:00 → `noon` (12:00); ~19:00 → `evening` (20:00). Slug = `YYYY-MM-DD-<slot>`. If `posts/<slug>/` already exists, stop.
 - `pip install --break-system-packages feedparser requests pyyaml playwright pillow` if needed. Playwright's Chromium is preinstalled in this environment.
-- Install `gh` with `sudo apt-get install -y gh` if missing (the release tarball is blocked here). Use only REST calls: `gh api -X POST repos/dinnertablenews/dtn/actions/workflows/<file>.yml/dispatches -f ref=main -f "inputs[key]=value"`. `gh workflow run` (GraphQL) is blocked here.
+- Workflow dispatches: use the GitHub MCP tool available in this session (run a workflow / `actions.createWorkflowDispatch` on `dinnertablenews/dtn`, ref `main`, with the inputs). `gh api` and `gh workflow run` return 403 in scheduled runs; don't try them.
 
 ## 1. Candidates
 - `python rank.py data/headlines.json 30 > /tmp/cand.json`. Output is `{generated, window_hours, clusters: [...]}`; read the top 15 clusters.
@@ -25,7 +25,7 @@ Rules, in order:
 
 ## 3. Facts
 - The outlets are not reachable from this environment. Read the article text from `data/articles.json` (keyed by each headline's `id`; `text` is the extracted article, `url` the resolved publisher link). Use the two or three articles in the cluster that have text. If none has text, use the RSS summaries and say so in the log. Write from what the articles say. No detail that isn't in them. Attribute the summary to the outlet whose article you leaned on most; that outlet's name goes in `outlet` and its URL in `source_url`.
-- If the story has one clear subject who is a public figure, or a landmark/spacecraft/institution, set `photo_subject` to the exact Wikipedia article title. Otherwise leave it out. Never a private individual, victim, suspect, or minor. Never on a death, arrest, or scandal about the subject. Skip the photo if the last two entries in the log both had photos. The positive story may take a photo more freely.
+- If the story has one clear subject who is a public figure, or a landmark/spacecraft/institution, set `photo_subject` to the exact Wikipedia article title. Otherwise leave it out. Never a private individual, victim, suspect, or minor. Never on a death, arrest, or scandal about the subject. Never the same subject as any of the last three log entries. Skip the photo if the last two entries in the log both had photos. The positive story may take a photo more freely.
 
 ## 4. Write `post.json`
 Same schema as `posts/2026-09-13-morning/post.json`. Voice and rules:
@@ -40,7 +40,7 @@ Same schema as `posts/2026-09-13-morning/post.json`. Voice and rules:
 - `caption`: headline, blank line, the summary, blank line, "Swipe for how to explain it to kids ages 5–7, 8–12, and 13–17.", blank line, "Source: <Outlet>, <domain>", photo credit line if a photo ran, blank line, 4–6 hashtags ending with #dinnertablenews.
 
 ## 5. Photo (only if `photo_subject` is set)
-- Dispatch the `Commons image` workflow: `gh api -X POST repos/dinnertablenews/dtn/actions/workflows/commons.yml/dispatches -f ref=main -f "inputs[subject]=<title>" -f "inputs[slug]=<slug>"`. Wait ~90 s, `git pull`. If `data/images/<slug>.json` exists, set `photo` to its `file` and add its `credit` to the caption. If not, no photo; carry on.
+- Dispatch `commons.yml` via the GitHub MCP tool with inputs `subject=<title>`, `slug=<slug>`, ref `main`. Wait ~90 s, `git pull`. If `data/images/<slug>.json` exists, set `photo` to its `file` and add its `credit` to the caption. If not, no photo; carry on.
 
 ## 6. Render and push
 - `python render.py posts/<slug>/post.json posts/<slug>/`
@@ -49,9 +49,10 @@ Same schema as `posts/2026-09-13-morning/post.json`. Voice and rules:
 - Write a two-line summary for the notification: the headline and the slot time. It reaches Dan's phone when this run finishes.
 
 ## 7. Veto window and publish (skipped when `dry_run` is true)
-- Schedule a wake-up for this same session in 50 minutes (send_later). When it fires: if Dan has replied in this conversation with "kill", "skip", or "hold", stop and log it. If he replied with a swap instruction, follow it (re-run §3–6 for the story he named), then publish. Otherwise publish:
-  `gh api -X POST repos/dinnertablenews/dtn/actions/workflows/publish.yml/dispatches -f ref=main -f "inputs[action]=publish" -f "inputs[folder]=posts/<slug>"`
-  Wait ~2 minutes, then read the run's annotations (`gh run view --log` won't work here; use the check-runs annotations API) and confirm a permalink. Record it in the log entry.
+Dan gets a phone notification only when this run's turn ends, so the window works like this:
+- If a `send_later` (schedule a message to this session) tool is available: schedule a wake-up for this same session in 50 minutes, then END YOUR TURN with the two-line summary from §6 plus "Reply kill, skip, or hold here to stop this post." That ending is what pings Dan. When the wake-up fires: if Dan replied with "kill", "skip", or "hold", stop and note it in the log. If he replied with a swap instruction, follow it (re-run §3–6 for the story he named), then publish.
+- If no such tool exists: stay in the turn and wait it out: run `sleep 300` ten times. Dan's replies in this conversation arrive between tool calls; check for "kill", "skip", "hold", or a swap after each sleep and act on them the same way. Then publish.
+- Publish: dispatch `publish.yml` via the GitHub MCP tool with inputs `action=publish`, `folder=posts/<slug>`, ref `main`. Wait ~2 minutes, `git pull`, read `posts/<slug>/published.json` (the workflow commits it) for the permalink, record it in the log entry, push. End with the headline and the permalink.
 
 ## Guardrails
 - Sources are only the outlets in `feeds.yaml`. Never introduce another.
