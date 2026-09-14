@@ -28,25 +28,28 @@ Rules, in order:
 - If the story has one clear subject who is a public figure, or a landmark/spacecraft/institution, set `photo_subject` to the exact Wikipedia article title. Otherwise leave it out. Never a private individual, victim, suspect, or minor. Never on a death, arrest, or scandal about the subject. Never the same subject as any of the last three log entries. Skip the photo if the last two entries in the log both had photos. The positive story may take a photo more freely.
 
 ## 4. Write `post.json`
-Same schema as `posts/2026-09-13-morning/post.json`. Voice and rules:
+Same schema as `posts/samples-v2-2026-09-13-evening/post.json`. The carousel is five slides: cover, one card per age with its questions on it, and a closing dinner-table question. Voice and rules:
 - Dan's voice: open with a concrete fact, not a warm-up. Short declarative sentences, active voice, subject-verb-object. Dry aside allowed, never a joke that takes over. No adjectives that don't do work. Trust the reader with specifics.
 - None of the AI tells: no "not just X but Y", no rule-of-three lists for effect, no "it's important to note", no "serves as", "testament", "underscores", "landscape", "delve", "vibrant", no em-dash chains, no tidy moral at the end, no hedged summary sentence.
-- Cover: `headline` ≤ 60 characters (set `headline_size` 80 if it needs three lines); `summary` 3–5 sentences, ≤ 340 characters, ends before the outlet name (the template adds it).
-- Ages 5–7: 2–4 sentences, concrete, one physical comparison, ends with reassurance or "the grown-ups have it." Set `shield: true` when a parent should not raise the story unprompted (violence, death, abuse, sexual content, anything a 5-year-old can't do anything with). Then the script is what to say only if the child hears about it.
-- Ages 8–12: one cause-and-effect chain they can follow, one familiar mechanism (checklist, referee, thermostat). `chip`: "Bring it up if it fits the day" or "Good one to bring up".
-- Ages 13–17: lead with a real question, then a second one. Treat them as a conversation partner. `chip`: "Ask first, then talk".
+- `date`: the story's date, `YYYY-MM-DD`. The cover shows it written out ("September 13, 2026"). Never a slot or a time of day anywhere on the slides.
+- Cover: `headline` ≤ 60 characters, two lines at most. `summary` 3–5 sentences, ≤ 340 characters. The summary is not on the cover; it goes in the caption.
+- `cover_question`: `{"band": "<5-7|8-12|13-17>", "q": "..."}`. The cover leads with a question a kid would ask about this story, tagged with the age it comes from. Rotation: find the last entry in `data/log.json` that has a `cover_band` and take the next bracket in the order 5–7 → 8–12 → 13–17 → 5–7; if none, 5–7. The question must be one of that bracket's entries in `questions`, so its answer is on that age's card, and it must read as a question about the headline. ≤ 40 characters; ≤ 22 keeps the biggest type.
+- Questions: 1 for 5–7, 2 for 8–12, 2 for 13–17, each with a "Try:" answer ≤ 160 characters. Real questions a kid would ask, including the awkward ones. They render on that age's card in the "They might ask" band.
+- Ages 5–7: 2–4 sentences, concrete, one physical comparison, ends with reassurance or "the grown-ups have it." Open with the story, not a definition. Set `shield: true` when a parent should not raise the story unprompted (violence, death, abuse, sexual content, anything a 5-year-old can't do anything with). Then the script is what to say only if the child hears about it.
+- Ages 8–12: one cause-and-effect chain they can follow, one familiar mechanism (checklist, referee, thermostat). 3–4 sentences. `chip`: "Bring it up if it fits the day" or "Good one to bring up".
+- Ages 13–17: lead with a real question, then a second one. Treat them as a conversation partner. 3–4 sentences. `chip`: "Ask first, then talk".
 - `why` lines: one or two sentences on why this works at that age, in plain language.
-- Questions slide: 1 question for 5–7, 2 for 8–12, 2 for 13–17, each with a "Try:" answer ≤ 160 characters. Real questions a kid would ask, including the awkward ones.
-- `caption`: headline, blank line, the summary, blank line, "Swipe for how to explain it to kids ages 5–7, 8–12, and 13–17.", blank line, "Source: <Outlet>, <domain>", photo credit line if a photo ran, blank line, 4–6 hashtags ending with #dinnertablenews.
+- `table_question`: one question anyone at the table can answer without knowing the news, drawn from the story's tension (a rule, a choice, a fairness call). ≤ 70 characters. It is the last slide and the comment prompt.
+- `caption`: headline, blank line, the summary, blank line, "Swipe for how to explain it to kids ages 5–7, 8–12, and 13–17.", blank line, "The dinner table question: <table_question> Tell us what your kid said in the comments.", blank line, "Source: <Outlet>, <domain>", photo credit line if a photo ran, blank line, 4–6 hashtags ending with #dinnertablenews.
 
 ## 5. Photo (only if `photo_subject` is set)
 - Dispatch `commons.yml` via the GitHub MCP tool with inputs `subject=<title>`, `slug=<slug>`, ref `main`. Wait ~90 s, `git pull`. If `data/images/<slug>.json` exists, set `photo` to its `file` and add its `credit` to the caption. If not, no photo; carry on.
 
 ## 6. Render and push
 - `python render.py posts/<slug>/post.json posts/<slug>/`
-- `render.py` measures every text slide and exits non-zero with a `TOO LOW:` line naming the slide and how many lines to cut when text sits too close to the bottom (cover summary and questions: at least one line of clear space above the "Explain it to kids" row / the bottom margin; age slides: the script and "why" must end above the 300px gradient band, which must never be pushed down). Shorten the text it names and re-render until it exits 0. Never commit or publish a post whose render fails this check, and never work around it by changing sizes or the check itself.
-- Look at the six JPGs (Read them). Fix anything that overflows or wraps badly by shortening text, then re-render. Headline must not exceed three lines. Count lines in the image before telling Dan how many there are.
-- Append an entry to `data/log.json`. Commit `posts/<slug>/` and `data/log.json`, push to `main`.
+- `render.py` measures every slide and exits non-zero with a `TOO LOW:` line naming the slide when text sits too close to what follows it: on each age card at least 72px of paper between the "Why it works" line and the "They might ask" band, and the band must end inside the card; on the cover the question must clear the age-chip row; on the table slide the comment line must clear the save/send/follow block. Shorten the text it names (the script, the why line, a Try answer, the question) and re-render until it exits 0. Never commit or publish a post whose render fails this check, and never work around it by changing sizes or the check itself; the three age cards must match.
+- Look at the five JPGs (Read them). Fix anything that overflows or wraps badly by shortening text, then re-render. Cover headline two lines at most; cover question two lines at most. Count lines in the image before telling Dan how many there are.
+- Append an entry to `data/log.json` with `cover_band` set to the cover question's bracket. Commit `posts/<slug>/` and `data/log.json`, push to `main`.
 - Write a two-line summary for the notification: the headline and the slot time. It reaches Dan's phone when this run finishes.
 
 ## 7. Veto window and publish (skipped when `dry_run` is true)

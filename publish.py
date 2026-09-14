@@ -3,7 +3,7 @@
 
 usage:
   python publish.py verify                      # who is the token, can it publish
-  python publish.py publish posts/<slug>        # publish the six JPGs + caption in that folder
+  python publish.py publish posts/<slug>        # publish the five JPGs + caption in that folder
   python publish.py refresh                     # refresh the long-lived token (prints the new one)
 
 Env: IG_ACCESS_TOKEN (required), IG_REPO (owner/repo, default dinnertablenews/dtn), IG_REF (default main).
@@ -16,7 +16,11 @@ API = "https://graph.instagram.com/v23.0"
 TOKEN = os.environ.get("IG_ACCESS_TOKEN", "")
 REPO = os.environ.get("IG_REPO", "dinnertablenews/dtn")
 REF = os.environ.get("IG_REF", "main")
-SLIDES = ["1-cover", "2-ages-5-7", "3-ages-8-12", "4-ages-13-17", "5-questions", "6-brand"]
+
+
+def slides(folder):
+    """The numbered JPGs in the post folder, in order: 1-cover ... 5-table today, six slides for older posts."""
+    return sorted(f[:-4] for f in os.listdir(folder) if f[:1].isdigit() and f[1:2] == "-" and f.endswith(".jpg"))
 
 
 def call(method, path, **params):
@@ -49,7 +53,7 @@ def publish(folder):
     uid = me()["user_id"]
     base = f"https://raw.githubusercontent.com/{REPO}/{REF}/{folder.rstrip('/')}"
     children = []
-    for s in SLIDES:
+    for s in slides(folder):
         url = f"{base}/{s}.jpg"
         if requests.head(url, timeout=30).status_code != 200:
             raise SystemExit(f"image not reachable: {url} (is the folder pushed?)")

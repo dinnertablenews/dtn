@@ -1,10 +1,20 @@
 #!/usr/bin/env python3
-"""Render a Dinner Table News post (post.json) to six 1080x1350 PNGs.
+"""Render a Dinner Table News post (post.json) to five 1080x1350 JPGs.
 
 usage: python render.py posts/2026-09-13-morning/post.json posts/2026-09-13-morning/
+Slides: 1-cover, 2-ages-5-7, 3-ages-8-12, 4-ages-13-17, 5-table.
 Fonts are self-hosted in fonts/. Requires playwright (chromium).
+
+Layout rule (enforced, not auto-fixed). Every slide has a #text block and a #floor element that
+must stay clear of it: on the cover the question (#text) above the age-chip row (#floor); on each
+age card the "Why it works" line above the "They might ask" band, with at least MIN_GAP px of paper
+between them and the band ending inside the card; on the table slide the comment line above the
+save/send/follow block. A slide that fails is reported as a "TOO LOW:" line on stderr and the
+script exits 1. Fix it by shortening text. Type sizes are never reduced to make room, so the three
+age cards always match.
 """
 import base64, json, os, sys
+from datetime import date
 from pathlib import Path
 from playwright.sync_api import sync_playwright
 
@@ -12,10 +22,13 @@ ROOT = Path(__file__).parent
 PAPER, INK, MUTED, SOFT = "#F5F2EB", "#1B1A17", "#6B675F", "#3D3A34"
 HUES = {"5-7": 155, "8-12": 250, "13-17": 305}
 LABEL = {"5-7": "5–7", "8-12": "8–12", "13-17": "13–17"}
+NEXT = {"5-7": "Ages 8–12 →", "8-12": "Ages 13–17 →", "13-17": "One for the whole table →"}
 CATS = {"Technology": "oklch(0.78 0.11 85)", "Health": "oklch(0.78 0.11 20)", "Economy": "oklch(0.78 0.10 190)",
         "Government": "oklch(0.78 0.10 240)", "Climate": "oklch(0.78 0.11 140)", "Science": "oklch(0.78 0.11 300)",
         "Culture": "oklch(0.78 0.12 350)", "Security": "oklch(0.70 0.04 60)", "Good news": "oklch(0.82 0.13 95)",
         "World": "oklch(0.78 0.10 215)", "Sports": "oklch(0.78 0.12 55)"}
+MIN_GAP = 72            # age cards: paper between the why line and the band
+GAP = {"1-cover": 45, "2-ages-5-7": MIN_GAP, "3-ages-8-12": MIN_GAP, "4-ages-13-17": MIN_GAP, "5-table": 45}
 def col(h, l=0.55, c=0.13): return f"oklch({l} {c} {h})"
 
 
@@ -62,31 +75,13 @@ def wordmark(fg, size=20, dot=9, l=0.55, align="flex-end"):
             + dots(dot, int(dot*0.8), l) + '</div>')
 
 
-def header(fg, l=0.55):
-    return f'<div style="position:relative;display:flex;justify-content:flex-end">{wordmark(fg, l=l)}</div>'
+def header(fg, l=0.55, left=""):
+    return f'<div style="position:relative;display:flex;justify-content:{"space-between" if left else "flex-end"};align-items:flex-start">{left}{wordmark(fg, l=l)}</div>'
 
 
-def cover(p):
-    photo = p.get("photo")  # path to an image file, optional
-    tint = CATS.get(p["category"], CATS["World"])
-    if photo:
-        b = base64.b64encode(prepare_photo(photo, p.get("photo_scale", 0.66))).decode()
-        disc = (f'<div style="position:absolute;top:-260px;right:-300px;width:900px;height:900px;border-radius:999px;background:{tint};overflow:hidden">'
-                f'<img src="data:image/jpeg;base64,{b}" style="width:100%;height:100%;object-fit:cover;object-position:0% 100%;display:block;filter:grayscale(1) contrast(1.05);mix-blend-mode:multiply;opacity:0.9"></div>')
-        hdr = header(PAPER, l=0.8)
-    else:
-        disc = (f'<div style="position:absolute;top:-260px;right:-300px;width:900px;height:900px;border-radius:999px;background:{tint}"></div>'
-                f'<div style="position:absolute;top:120px;right:80px;width:520px;height:520px;border-radius:999px;border:3px solid {INK};opacity:0.5"></div>')
-        hdr = header(INK)
-    ages = ''.join(f'<span style="color:{col(h, 0.72)}">{LABEL[k]}</span>' + ('' if k == "13-17" else f'<span style="color:#A8A295">·</span>') for k, h in HUES.items())
-    return page(INK, PAPER, f'''<div style="width:1080px;height:1350px;box-sizing:border-box;padding:72px;background:{INK};color:{PAPER};display:flex;flex-direction:column;position:relative;overflow:hidden">
-  {disc}{hdr}
-  <div style="position:relative;margin-top:500px;font-size:22px;font-weight:500;letter-spacing:0.08em;text-transform:uppercase;color:#A8A295">{p["category"]}</div>
-  <h1 class="display" style="position:relative;margin:20px 0 0;font-weight:400;font-size:{p.get("headline_size", 92)}px;line-height:1.02;letter-spacing:-0.02em;text-wrap:pretty;max-width:900px">{p["headline"]}</h1>
-  <p id="text" style="position:relative;margin:36px 0 0;font-size:32px;line-height:1.4;color:#C9C3B5;text-wrap:pretty;max-width:840px">{p["summary"]} <span style="color:#A8A295">({p["outlet"]})</span></p>
-  <div style="flex-grow:1"></div>
-  <div id="floor" style="position:relative;display:flex;justify-content:flex-end;align-items:center;gap:14px;font-size:24px;font-weight:500"><span style="color:#C9C3B5;margin-right:4px">Explain it to kids ages</span>{ages}<span style="margin-left:6px">→</span></div>
-</div>''')
+def dateline(p):
+    d = p.get("date") or p.get("slot", "")[:10]
+    return date.fromisoformat(d).strftime("%B %-d, %Y")
 
 
 def chip(kind, h=None, label=""):
@@ -97,82 +92,102 @@ def chip(kind, h=None, label=""):
             f'<svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="{col(h)}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16v11H9l-5 4V5z"/></svg>{label}</div>')
 
 
-def age(p, band, nxt):
-    a = p["ages"][band]; h = HUES[band]; c = col(h); lab = LABEL[band]
+def cover(p):
+    """Dateline top-left, wordmark top-right, category, the headline, then the kid's question in the big type,
+    tagged with the age bracket it comes from. Footer: the three age chips and the swipe prompt."""
+    photo = p.get("photo")  # path to an image file, optional
+    tint = CATS.get(p["category"], CATS["World"])
+    cq = p["cover_question"]; h = HUES[cq["band"]]; hc = col(h, 0.72)
+    if photo:
+        b = base64.b64encode(prepare_photo(photo, p.get("photo_scale", 0.66))).decode()
+        disc = (f'<div style="position:absolute;top:-260px;right:-300px;width:900px;height:900px;border-radius:999px;background:{tint};overflow:hidden">'
+                f'<img src="data:image/jpeg;base64,{b}" style="width:100%;height:100%;object-fit:cover;object-position:0% 100%;display:block;filter:grayscale(1) contrast(1.05);mix-blend-mode:multiply;opacity:0.9"></div>')
+        l = 0.8
+    else:
+        disc = (f'<div style="position:absolute;top:-260px;right:-300px;width:900px;height:900px;border-radius:999px;background:{tint}"></div>'
+                f'<div style="position:absolute;top:120px;right:80px;width:520px;height:520px;border-radius:999px;border:3px solid {INK};opacity:0.5"></div>')
+        l = 0.55
+    small = 'font-size:22px;font-weight:500;letter-spacing:0.08em;text-transform:uppercase;color:#A8A295'
+    left = f'<div style="{small};margin-top:4px">{dateline(p)}</div>'
+    chips = ''.join(f'<span style="display:inline-flex;align-items:center;padding:12px 22px;border-radius:999px;border:2px solid {col(k,0.72)};color:{col(k,0.72)};font-size:28px;font-weight:500">{LABEL[b_]}</span>' for b_, k in HUES.items())
+    qsize = p.get("question_size", 124 if len(cq["q"]) <= 22 else 100)
+    return page(INK, PAPER, f'''<div style="width:1080px;height:1350px;box-sizing:border-box;padding:72px;background:{INK};color:{PAPER};display:flex;flex-direction:column;position:relative;overflow:hidden">
+  {disc}{header(PAPER if photo else INK, l=l, left=left)}
+  <div style="position:relative;margin-top:440px;{small}">{p["category"]}</div>
+  <div class="display" style="position:relative;margin-top:14px;font-size:{p.get("headline_size", 58)}px;line-height:1.08;letter-spacing:-0.015em;max-width:900px;text-wrap:balance">{p["headline"]}</div>
+  <div style="position:relative;margin-top:40px;display:flex;align-items:center;gap:16px">
+    <div style="width:3px;height:64px;background:{hc};border-radius:2px"></div>
+    <div style="display:flex;flex-direction:column;gap:6px">
+      <span style="font-size:22px;font-weight:500;letter-spacing:0.08em;text-transform:uppercase;color:{hc}">Ages {LABEL[cq["band"]]}</span>
+      <span style="font-size:30px;color:#C9C3B5">So your kid asks</span>
+    </div>
+  </div>
+  <h1 id="text" class="display" style="position:relative;margin:18px 0 0;font-weight:400;font-size:{qsize}px;line-height:0.98;letter-spacing:-0.025em;max-width:940px;text-wrap:balance"><span style="color:{hc}">&ldquo;</span>{cq["q"]}<span style="color:{hc}">&rdquo;</span></h1>
+  <div style="flex-grow:1"></div>
+  <div id="floor" style="position:relative;display:flex;justify-content:space-between;align-items:center">
+    <div style="display:flex;gap:12px">{chips}</div>
+    <div style="font-size:30px;font-weight:500">How to answer, by age &rarr;</div>
+  </div>
+</div>''')
+
+
+def age(p, band):
+    """Numeral top-left, chip, script, why line, then the tinted "They might ask" band with that age's questions."""
+    a = p["ages"][band]; h = HUES[band]; c = col(h); lab = LABEL[band]; qs = p["questions"][band]
     ch = chip("shield") if a.get("shield") else chip("talk", h, a.get("chip", "Bring it up if it fits the day"))
-    return page(PAPER, INK, f'''<div style="width:1080px;height:1350px;box-sizing:border-box;padding:72px 72px 0;background:{PAPER};display:flex;flex-direction:column;position:relative;overflow:hidden">
-  {header(INK)}
-  <div style="margin-top:90px;display:flex;flex-direction:column">{ch}</div>
-  <div style="margin-top:36px;display:flex;gap:20px;align-items:flex-start">
+    qa = ''.join(f'<div style="display:flex;flex-direction:column;gap:6px"><div class="serif" style="font-size:38px;line-height:1.15;color:{c}">{q["q"]}</div>'
+                 f'<div style="font-size:26px;line-height:1.35;color:{SOFT}">Try: &ldquo;{q["a"]}&rdquo;</div></div>' for q in qs)
+    return page(PAPER, INK, f'''<div style="width:1080px;height:1350px;box-sizing:border-box;padding:64px 72px 0;background:{PAPER};display:flex;flex-direction:column;position:relative;overflow:hidden">
+  <div style="display:flex;justify-content:space-between;align-items:flex-start">
+    <div class="serif" style="font-size:96px;line-height:0.8;letter-spacing:-0.04em;color:{c};margin-top:8px">{lab}</div>{wordmark(INK)}
+  </div>
+  <div style="margin-top:44px;display:flex;flex-direction:column">{ch}</div>
+  <div style="margin-top:30px;display:flex;gap:20px;align-items:flex-start">
     <div class="serif" style="font-size:140px;line-height:0.6;color:{c};margin-top:30px">&ldquo;</div>
-    <p class="serif" style="margin:0;font-size:{a.get("size", 46)}px;line-height:1.3;letter-spacing:-0.01em;text-wrap:pretty">{a["script"]}</p>
+    <p class="serif" style="margin:0;font-size:46px;line-height:1.28;letter-spacing:-0.01em;text-wrap:pretty">{a["script"]}</p>
   </div>
-  <div id="text" style="margin-top:44px;padding-left:78px;display:flex;flex-direction:column;gap:8px;max-width:900px">
-    <div style="font-size:20px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:{c}">Why this works at {lab}</div>
-    <div style="font-size:27px;line-height:1.4;color:{SOFT};text-wrap:pretty">{a["why"]}</div>
-  </div>
-  <div style="flex-grow:1"></div>
-  <div id="floor" style="margin:0 -72px;height:300px;background:linear-gradient(180deg,{PAPER} 0%,{col(h,0.93,0.045)} 45%,{col(h,0.86,0.08)} 100%);display:flex;justify-content:space-between;align-items:flex-end;padding:0 72px 56px;box-sizing:border-box">
-    <div class="serif" style="font-size:150px;line-height:0.8;letter-spacing:-0.04em;color:{c}">{lab}</div>
-    <div style="font-size:24px;font-weight:500;color:{c};padding-bottom:10px">{nxt}</div>
+  <div id="text" style="margin-top:30px;padding-left:78px;max-width:900px;font-size:26px;line-height:1.4;color:{SOFT};text-wrap:pretty"><span style="font-weight:600;letter-spacing:0.06em;text-transform:uppercase;font-size:19px;color:{c}">Why it works</span><br>{a["why"]}</div>
+  <div style="flex-grow:1;min-height:{MIN_GAP}px"></div>
+  <div id="floor" style="margin:0 -72px;padding:40px 72px 44px;background:{col(h,0.93,0.045)};display:flex;flex-direction:column;gap:22px">
+    <div style="font-size:20px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:{c}">They might ask</div>
+    {qa}
+    <div style="margin-top:6px;display:flex;justify-content:space-between;font-size:24px;font-weight:500;color:{c}"><span>Save this for dinner</span><span>{NEXT[band]}</span></div>
   </div>
 </div>''')
 
 
-def questions(p):
-    def group(band):
-        c = col(HUES[band]); qs = p["questions"].get(band, [])
-        if not qs: return ""
-        items = ''.join(f'<div style="display:flex;flex-direction:column;gap:6px"><div class="serif" style="font-size:36px;line-height:1.2;color:{c}">{q["q"]}</div>'
-                        f'<div style="font-size:25px;line-height:1.35;color:{MUTED}">Try: "{q["a"]}"</div></div>' for q in qs)
-        return (f'<div style="display:flex;flex-direction:column;gap:18px"><div style="display:flex;align-items:center;gap:12px;font-size:22px;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;color:{c}">'
-                f'<span style="display:inline-block;width:16px;height:16px;border-radius:999px;background:{c}"></span>Ages {LABEL[band]}</div>{items}</div>')
-    return page(PAPER, INK, f'''<div style="width:1080px;height:1350px;box-sizing:border-box;padding:72px;background:{PAPER};display:flex;flex-direction:column;position:relative;overflow:hidden">
-  {header(INK)}
-  <h2 class="display" style="margin:70px 0 0;font-weight:400;font-size:68px;line-height:1.05;letter-spacing:-0.02em">Questions they might ask</h2>
-  <div id="text" style="margin-top:56px;display:flex;flex-direction:column;gap:44px">{group("5-7")}{group("8-12")}{group("13-17")}</div>
+def table(p):
+    """Closing slide: one question anyone at the table can answer, the comment ask, then save / send / follow."""
+    return page(INK, PAPER, f'''<div style="width:1080px;height:1350px;box-sizing:border-box;padding:72px;background:{INK};color:{PAPER};display:flex;flex-direction:column;position:relative;overflow:hidden">
+  {header(PAPER, l=0.8)}
+  <div style="flex-grow:0.6"></div>
+  <div style="font-size:26px;font-weight:500;letter-spacing:0.06em;text-transform:uppercase;color:#A8A295">The dinner table question</div>
+  <h2 class="display" style="margin:28px 0 0;font-weight:400;font-size:92px;line-height:1.04;letter-spacing:-0.02em;max-width:920px;text-wrap:balance">{p["table_question"]}</h2>
+  <p id="text" style="margin:44px 0 0;font-size:34px;line-height:1.4;color:#C9C3B5;max-width:840px">Ask it at any age. Tell us what your kid said in the comments.</p>
   <div style="flex-grow:1"></div>
-  <div id="floor" style="height:0"></div>
+  <div id="floor" style="display:flex;justify-content:space-between;align-items:flex-end;font-size:30px;color:#C9C3B5">
+    <div><span style="color:{PAPER};font-weight:500">Save</span> this one for dinner.<br><span style="color:{PAPER};font-weight:500">Send</span> it to another parent.<br><span style="color:{PAPER};font-weight:500">Follow</span> for today's news, explained for your kid's age.</div>{dots(16, 12, 0.65)}
+  </div>
 </div>''')
-
-
-def brand():
-    return page(INK, PAPER, f'''<div style="width:1080px;height:1350px;box-sizing:border-box;padding:72px;background:{INK};color:{PAPER};display:flex;flex-direction:column;align-items:center;justify-content:center;position:relative;overflow:hidden">
-  <div style="flex-grow:1"></div>{wordmark(PAPER, size=96, dot=22, l=0.65, align="center")}
-  <p class="serif" style="margin:64px 0 0;max-width:760px;text-align:center;font-size:40px;line-height:1.35;color:#C9C3B5;text-wrap:pretty">Today's top stories, explained for every age at your table.</p>
-  <div style="flex-grow:1"></div>
-  <div style="width:120px;height:2px;background:{SOFT}"></div>
-  <p style="margin:40px 0 0;text-align:center;font-size:28px;line-height:1.35;color:{PAPER}">Share this with a friend, a parent, or a teacher.</p>
-  <div style="margin-top:20px;font-size:24px;color:#A8A295">@dinnertablenews</div>
-  <div style="height:40px"></div>
-</div>''')
-
-
-# Bottom margin rule. Every text slide has a #text block and a #floor element (the "Explain it to
-# kids" row on the cover, the 300px gradient band on the age slides, the page bottom on the questions
-# slide). The text must end at least FLOOR_GAP px above the floor's natural position. On the age slides
-# the band is a flex item, so long text pushes it down and off the frame instead of overlapping it,
-# which is why the check compares against where the floor belongs, not where it ended up.
-FLOOR_GAP = {"1-cover": 45, "2-ages-5-7": 0, "3-ages-8-12": 0, "4-ages-13-17": 0, "5-questions": 45}
-FLOOR_TOP = {"1-cover": 1350 - 72 - 29, "2-ages-5-7": 1050, "3-ages-8-12": 1050, "4-ages-13-17": 1050, "5-questions": 1350 - 72}
-LINE_PX = {"1-cover": 45, "2-ages-5-7": 60, "3-ages-8-12": 60, "4-ages-13-17": 60, "5-questions": 34}
 
 
 def check(pg, name):
-    """Return a message if the slide's text sits too low, else None."""
-    if name not in FLOOR_TOP: return None
-    bottom = pg.evaluate("Math.round(document.querySelector('#text').getBoundingClientRect().bottom)")
-    limit = FLOOR_TOP[name] - FLOOR_GAP[name]
-    if bottom <= limit: return None
-    over = bottom - limit
-    return (f"TOO LOW: {name}: text ends at {bottom}px, limit {limit}px, over by {over}px "
-            f"(about {-(-over // LINE_PX[name])} line(s) of the main text). Shorten and re-render.")
+    """Return a TOO LOW message if #text sits too close to #floor or #floor runs off the slide, else None."""
+    gap, bottom = pg.evaluate("(() => { const t = document.getElementById('text').getBoundingClientRect(), f = document.getElementById('floor').getBoundingClientRect();"
+                              " return [f.top - t.bottom, f.bottom]; })()")
+    what = {"1-cover": "the question", "5-table": "the question or the comment line"}.get(name, "the script, the why line, or a Try answer")
+    if bottom > 1350 + 0.5:
+        return f"TOO LOW: {name}: the bottom block runs {bottom - 1350:.0f}px past the end of the slide. Shorten {what} and re-render."
+    if gap < GAP[name] - 0.5:
+        return f"TOO LOW: {name}: only {gap:.0f}px of space above the bottom block (minimum {GAP[name]}). Shorten {what} and re-render."
+    return None
 
 
 def render(post, outdir):
-    slides = [("1-cover", cover(post)), ("2-ages-5-7", age(post, "5-7", "Ages 8–12 →")),
-              ("3-ages-8-12", age(post, "8-12", "Ages 13–17 →")), ("4-ages-13-17", age(post, "13-17", "Questions they might ask →")),
-              ("5-questions", questions(post)), ("6-brand", brand())]
+    for k in ("cover_question", "table_question"):
+        if k not in post: raise SystemExit(f"post.json is missing '{k}' (see posts/samples-v2-2026-09-13-evening/post.json)")
+    slides = [("1-cover", cover(post)), ("2-ages-5-7", age(post, "5-7")), ("3-ages-8-12", age(post, "8-12")),
+              ("4-ages-13-17", age(post, "13-17")), ("5-table", table(post))]
     os.makedirs(outdir, exist_ok=True); problems = []
     with sync_playwright() as pw:
         try:
