@@ -45,5 +45,15 @@
   "photo": true,
   "published": "https://www.instagram.com/p/DdQFy-4G3Uo/",
   "note": "Run fired at 21:29 CT for the 20:00 evening slot. No cluster in the top 15 qualified as uplifting once the Tiffany lake-landing rescue was excluded under rule 1 (already in the log from 2026-09-13-test2), so per rule 3 the least grim story was taken and labelled by its real category, Economy. Written from the BBC News article text; the AP and The Hill items had RSS summaries only. AP's headline calls it a 10% tariff and BBC says the standard 15% EU rate, so the post gives no rate. A prior log entry with this slug already existed for the sample folder posts/samples-2026-09-13-evening; posts/2026-09-13-evening did not exist, so the run proceeded. gh api workflow dispatch returned 403 'Resource not accessible by integration' on both tries; the Commons workflow was dispatched through the GitHub MCP tool instead and produced the public-domain official portrait of Donald Trump. Published live at 02:43 UTC on Dan's instruction, skipping the 50-minute veto window."
+ },
+ {
+  "slug": "2026-09-14-morning",
+  "date": "2026-09-14",
+  "slot": "morning",
+  "category": "World",
+  "headline": "Trump tells Ukraine to stop hitting Russian diesel",
+  "photo": true,
+  "published": null,
+  "note": "Run fired at 06:02 CT for the 07:00 morning slot. Took the #1 cluster (4 outlets: AP, PBS NewsHour, Semafor, The Hill) under rule 2; #2 (Tiffany lake landing) is already in the log from 2026-09-13-test2. Written from the PBS NewsHour (AP) article text, with Semafor's text as the second source; AP and The Hill items had RSS summaries only (403). gh api workflow dispatch returned 403 'Resource not accessible by integration' on both tries, so the Commons workflow was dispatched through the GitHub MCP tool; it returned the public-domain official portrait of Donald Trump (same file as 2026-09-13-evening). 8-12 and 13-17 scripts were shortened after the first render because they ran into the gradient."
  }
 ]
