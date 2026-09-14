@@ -152,7 +152,13 @@ def render(post, outdir):
               ("5-questions", questions(post)), ("6-brand", brand())]
     os.makedirs(outdir, exist_ok=True)
     with sync_playwright() as pw:
-        b = pw.chromium.launch(); pg = b.new_page(viewport={"width": 1080, "height": 1350})
+        try:
+            b = pw.chromium.launch()
+        except Exception:  # pip's playwright may pin a different revision than the preinstalled browser
+            import glob
+            exe = (glob.glob("/opt/pw-browsers/chromium-*/chrome-linux/chrome") + ["/opt/pw-browsers/chromium"])[0]
+            b = pw.chromium.launch(executable_path=exe)
+        pg = b.new_page(viewport={"width": 1080, "height": 1350})
         for name, html in slides:
             pg.set_content(html); pg.wait_for_timeout(150)
             pg.screenshot(path=os.path.join(outdir, f"{name}.jpg"), type="jpeg", quality=92)

@@ -3,11 +3,11 @@
 You are the automated run for one posting slot. Do everything below without asking questions; there is no one to answer. If a step fails after two tries, write what happened to `runs/<slug>.log`, push it, and stop.
 
 ## 0. Setup
-- Clone `https://github.com/dinnertablenews/dtn` (it is connected to this account; push works). Work in the clone.
+- Clone `https://github.com/dinnertablenews/dtn` and work in the clone. This scheduled task was created with the repo selected, so push and `gh api` work; if either returns 403 "not in this session's authorized repository set", the task lost its repository binding: write that to `runs/<slug>.log` locally, make it the first line of your final message, and stop.
 - Read `config.json`. If `dry_run` is true, do every step except §7.
 - Determine the slot from the current time in America/Chicago: run at ~06:00 → `morning` (posts 07:00); ~11:00 → `noon` (12:00); ~19:00 → `evening` (20:00). Slug = `YYYY-MM-DD-<slot>`. If `posts/<slug>/` already exists, stop.
 - `pip install --break-system-packages feedparser requests pyyaml playwright pillow` if needed. Playwright's Chromium is preinstalled in this environment.
-- Install `gh` from the GitHub release tarball if missing. Use only REST calls: `gh api -X POST repos/dinnertablenews/dtn/actions/workflows/<file>.yml/dispatches -f ref=main -f "inputs[key]=value"`. `gh workflow run` (GraphQL) is blocked here.
+- Install `gh` with `sudo apt-get install -y gh` if missing (the release tarball is blocked here). Use only REST calls: `gh api -X POST repos/dinnertablenews/dtn/actions/workflows/<file>.yml/dispatches -f ref=main -f "inputs[key]=value"`. `gh workflow run` (GraphQL) is blocked here.
 
 ## 1. Candidates
 - `python rank.py data/headlines.json 30 > /tmp/cand.json`. Output is `{generated, window_hours, clusters: [...]}`; read the top 15 clusters.
