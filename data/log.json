@@ -74,7 +74,8 @@
   "headline": "Speaker says Trump's $5,000 checks need Congress",
   "photo": true,
   "cover_band": "5-7",
-  "published": "https://www.instagram.com/p/DdRr-yuFHfz/",
-  "note": "Off-cycle live test of the five-slide standard, run by Dan at 12:30 CT; the evening slot still runs as scheduled. Story chosen by the noon rule: clusters #1-#4 and #6 were already in the log, Trump had led the morning slot, so the highest remaining cluster was the $5,000 dividend needing Congress, lead subject Mike Johnson. Written from the PBS NewsHour (AP) text with Axios as the second source. Cover question from the 5-7 bracket (first rotation). The render rule fired twice on the 8-12 and 13-17 cards and both scripts were cut to fix it. Photo: Mike Johnson official portrait, public domain."
+  "published": null,
+  "note": "Off-cycle live test of the five-slide standard, run by Dan at 12:30 CT; the evening slot still runs as scheduled. Story chosen by the noon rule: clusters #1-#4 and #6 were already in the log, Trump had led the morning slot, so the highest remaining cluster was the $5,000 dividend needing Congress, lead subject Mike Johnson. Written from the PBS NewsHour (AP) text with Axios as the second source. Cover question from the 5-7 bracket (first rotation). The render rule fired twice on the 8-12 and 13-17 cards and both scripts were cut to fix it. Photo: Mike Johnson official portrait, public domain. REPUBLISHED at Dan's request: the first publish carried the cover-photo bug (a 6px strip of bare category tint down the right edge of the disc, and the frame anchored to the bottom so 145px of the subject's head was cropped off the top). Fixed in render.py (commit a2b6cfe), re-rendered, and published again as a second post; Instagram cannot replace the media on a live post. post.json also gained cover_answer/source_domain/hashtags and the caption was rebuilt to the current standard. The original post stays live until Dan deletes it; its permalink is in superseded_publish.",
+  "superseded_publish": "https://www.instagram.com/p/DdRr-yuFHfz/ (2026-09-14T17:36:39+0000)"
  }
 ]
