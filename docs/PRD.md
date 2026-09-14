@@ -106,7 +106,7 @@ The workflow commits both files to `main` with `git pull --rebase -X theirs` so 
 | `table_question` | One question anyone at the table can answer without knowing the news. ≤ 70 characters. |
 | `ages.<band>` | `chip`, `script`, `why`, optional `shield: true`. |
 | `questions.<band>` | 1 for 5–7, 2 each for 8–12 and 13–17; each `{q, a}` with the "Try:" answer ≤ 160 characters. |
-| `hashtags` | 3–5 CamelCase tags, last is `#DinnerTableNews`. |
+| `hashtags` | Exactly 4: `#Parenting`, `#KidsAndNews`, one story tag, `#DinnerTableNews`. The story tag is never a category label. Enforced, see the hashtag rule. |
 | `photo`, `photo_credit` | Set when a Commons image landed. Optional `photo_focus_x` (default `50%`) shifts the crop left or right; the vertical anchor is fixed, see the photo rule. |
 | `caption` | Built by render.py from the fields above. Not hand-written. |
 
@@ -143,6 +143,10 @@ Built by `render.py` on the first render and written into `post.json`; a caption
 4. `Swipe for what to say at 5, at 10, and at 15.`
 5. `The dinner table question: <table_question> Tell us what your kid said, and how old they are.`
 6. hashtags
+
+**Hashtag rule** (enforced by `render.py`, not auto-fixed). Exactly four tags, three of them fixed: `#Parenting`, `#KidsAndNews`, **one story tag**, `#DinnerTableNews`. The third slot is the only free one and it names what the story is actually about — a person, place, bill, company, event. It is never a category label (`#Economy`, `#Government`, `#GoodNews`, `#World`…) or a catch-all (`#News`, `#Politics`): the cover already prints the category, so repeating it spends the one free tag on nothing. `check_hashtags()` fails the render with a `HASHTAGS:` line on a wrong count, a wrong shape, or a generic story tag.
+
+This rule exists because the guidance used to be "3–5 tags, last is `#DinnerTableNews`", which permitted both a fifth tag and a generic one. Under it, four of the first nine posts shipped a category label as a tag (`#economy` three times, `#goodnews` twice). Posts published before this rule are left as they went out.
 
 ## 10. Images from Wikimedia Commons
 

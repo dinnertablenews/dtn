@@ -13,6 +13,11 @@ save/send/follow block. A slide that fails is reported as a "TOO LOW:" line on s
 script exits 1. Fix it by shortening text. Type sizes are never reduced to make room, so the three
 age cards always match.
 
+Hashtag rule (enforced, not auto-fixed). Exactly four tags: #Parenting, #KidsAndNews, one tag naming
+what this story is about, #DinnerTableNews. The third slot is the only free one, and it is never a
+category label — the cover already prints the category, so #Economy or #GoodNews spends a tag saying
+nothing. check_hashtags() reports a "HASHTAGS:" line on stderr and the script exits 1.
+
 Photo rule (enforced, not auto-fixed). The cover disc hangs off the top and right of the slide, so
 only its lower-left part is visible. The photo is sized to that visible part and anchored to its TOP
 edge, which means two things: it covers every on-slide pixel of the disc, so no strip of bare
@@ -34,6 +39,15 @@ CATS = {"Technology": "oklch(0.78 0.11 85)", "Health": "oklch(0.78 0.11 20)", "E
         "Government": "oklch(0.78 0.10 240)", "Climate": "oklch(0.78 0.11 140)", "Science": "oklch(0.78 0.11 300)",
         "Culture": "oklch(0.78 0.12 350)", "Security": "oklch(0.70 0.04 60)", "Good news": "oklch(0.82 0.13 95)",
         "World": "oklch(0.78 0.10 215)", "Sports": "oklch(0.78 0.12 55)"}
+SWIPE_TAGS = ["#Parenting", "#KidsAndNews"]   # every post opens with these two
+BRAND_TAG = "#DinnerTableNews"                # and closes with this one
+# Tags that tell a reader nothing the cover hasn't already told them: the category labels
+# themselves (the cover prints the category), plus the catch-alls every news account uses.
+# The one story tag has to be the thing the story is actually about.
+GENERIC_TAGS = {t.replace(" ", "").lower() for t in
+                ["Technology", "Health", "Economy", "Government", "Climate", "Science", "Culture",
+                 "Security", "Good news", "World", "Sports", "News", "Politics", "Breaking news",
+                 "Current affairs", "Daily news", "World news", "US news", "Kids", "Parenting tips"]}
 MIN_GAP = 72            # age cards: paper between the why line and the band
 GAP = {"1-cover": 45, "2-ages-5-7": MIN_GAP, "3-ages-8-12": MIN_GAP, "4-ages-13-17": MIN_GAP, "5-table": 45}
 # Cover disc, positioned against the top-right corner of the 1080x1350 slide. It hangs off both
@@ -201,6 +215,25 @@ def build_caption(p):
                         " ".join(p["hashtags"])])
 
 
+def check_hashtags(p):
+    """Return a HASHTAGS message if the tag list breaks the rule, else None. Four tags, fixed at both
+    ends, with exactly one tag in the middle that names what this story is about. The middle one is
+    where generic category labels kept creeping in: #Economy on a Government story says nothing."""
+    tags = p.get("hashtags", [])
+    shape = f"{SWIPE_TAGS[0]}, {SWIPE_TAGS[1]}, <one story tag>, {BRAND_TAG}"
+    if len(tags) != 4:
+        return f"HASHTAGS: {len(tags)} tags, must be exactly 4 — {shape}. Got: {' '.join(tags) or '(none)'}"
+    if list(tags[:2]) != SWIPE_TAGS or tags[-1] != BRAND_TAG:
+        return f"HASHTAGS: the list must read {shape}. Got: {' '.join(tags)}"
+    story = tags[2]
+    if story.lstrip("#").replace(" ", "").lower() in GENERIC_TAGS:
+        return (f"HASHTAGS: {story} is a category label, not a story tag. Use what the story is actually "
+                f"about — a name, place, bill, company, event — not the section it files under.")
+    if story in SWIPE_TAGS or story == BRAND_TAG:
+        return f"HASHTAGS: {story} is already a fixed tag; the third slot is the story tag."
+    return None
+
+
 def check_photo(pg):
     """Return a PHOTO message if the cover photo leaves bare tint on the slide or is anchored anywhere
     but the top of its frame, else None. Measures what actually rendered, not what we meant to write."""
@@ -240,6 +273,8 @@ def render(post, outdir, post_path=None):
     slides = [("1-cover", cover(post)), ("2-ages-5-7", age(post, "5-7")), ("3-ages-8-12", age(post, "8-12")),
               ("4-ages-13-17", age(post, "13-17")), ("5-table", table(post))]
     os.makedirs(outdir, exist_ok=True); problems = []
+    tagmsg = check_hashtags(post)
+    if tagmsg: problems.append(tagmsg)
     caption = build_caption(post)
     if not post.get("caption") and post_path:  # first render: write the caption into post.json
         post["caption"] = caption
