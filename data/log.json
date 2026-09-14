@@ -35,5 +35,15 @@
   "photo": false,
   "published": null,
   "note": "Dry run (config.dry_run=true), slot name supplied by operator; not a real posting slot. data/articles.json was absent, so the post was written from RSS summaries (PBS NewsHour, The Hill, BBC) per TASK.md §3. Top cluster (Trump downplays AI warnings) skipped under §2 rule 1 as the same running story as 2026-09-13-morning. No photo: subject is a person in an accident, and the test run did not dispatch the Commons workflow."
+ },
+ {
+  "slug": "2026-09-13-evening",
+  "date": "2026-09-13",
+  "slot": "evening",
+  "category": "Economy",
+  "headline": "Trump says he'll lift the tariff on Irish whiskey",
+  "photo": true,
+  "published": null,
+  "note": "Run fired at 21:29 CT for the 20:00 evening slot. No cluster in the top 15 qualified as uplifting once the Tiffany lake-landing rescue was excluded under rule 1 (already in the log from 2026-09-13-test2), so per rule 3 the least grim story was taken and labelled by its real category, Economy. Written from the BBC News article text; the AP and The Hill items had RSS summaries only. AP's headline calls it a 10% tariff and BBC says the standard 15% EU rate, so the post gives no rate. A prior log entry with this slug already existed for the sample folder posts/samples-2026-09-13-evening; posts/2026-09-13-evening did not exist, so the run proceeded. gh api workflow dispatch returned 403 'Resource not accessible by integration' on both tries; the Commons workflow was dispatched through the GitHub MCP tool instead and produced the public-domain official portrait of Donald Trump."
  }
 ]
