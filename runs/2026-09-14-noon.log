@@ -11,3 +11,5 @@ Both failed on the first Instagram call, before any image was uploaded:
 Nothing was posted. The last successful publish with this token was 2026-09-14-morning at 12:24 UTC.
 
 Needs Dan: the Instagram token or app is blocked on Meta's side (OAuthException code 200). Check the Meta app status / the Instagram account's API access, then re-run publish.yml with action=publish, folder=posts/2026-09-14-noon (or action=verify first).
+
+Update: Dan confirmed the account with Meta (email and text) and asked for a retry. Third publish.yml run succeeded at 2026-09-14T17:30:00+0000: https://www.instagram.com/p/DdRrN7BmLxj/
