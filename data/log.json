@@ -55,5 +55,15 @@
   "photo": true,
   "published": "https://www.instagram.com/p/DdRIS93ln58/",
   "note": "Run fired at 06:02 CT for the 07:00 morning slot. Took the #1 cluster (4 outlets: AP, PBS NewsHour, Semafor, The Hill) under rule 2; #2 (Tiffany lake landing) is already in the log from 2026-09-13-test2. Written from the PBS NewsHour (AP) article text, with Semafor's text as the second source; AP and The Hill items had RSS summaries only (403). gh api workflow dispatch returned 403 'Resource not accessible by integration' on both tries, so the Commons workflow was dispatched through the GitHub MCP tool; it returned the public-domain official portrait of Donald Trump (same file as 2026-09-13-evening). 8-12 and 13-17 scripts were shortened after the first render because they ran into the gradient."
+ },
+ {
+  "slug": "2026-09-14-noon",
+  "date": "2026-09-14",
+  "slot": "noon",
+  "category": "Economy",
+  "headline": "Canada courts the world's investors as US tariffs bite",
+  "photo": false,
+  "published": null,
+  "note": "Run fired at 11:10 CT for the 12:00 noon slot. Clusters #1 (Tiffany lake landing), #2 (Irish whiskey), #3 and #12 (Trump on AI risks), #5 (Ukraine diesel) and #10 (Saudi pipeline) skipped under rule 1 as stories already in the 7-day log. Took #4 Carney's Canada Investment Summit (3 outlets: AP, BBC, PBS NewsHour). #6 Johnson on Trump's $5,000 dividend (3 outlets) was skipped under rule 2: the story is Trump's promise with Johnson responding, and Trump led 2026-09-14-morning; it is not the clear top story, so the rule 5 diversity tie-break (Government appears least in the log) did not apply. Written from the PBS NewsHour (AP) article text with the BBC pieces as second sources; the AP item had no text. No photo: the last two log entries both ran photos. 8-12 script shortened after the first render because it ran into the gradient. Veto window: no send_later tool in this session; ScheduleWakeup used to wake the session in 50 minutes."
  }
 ]
