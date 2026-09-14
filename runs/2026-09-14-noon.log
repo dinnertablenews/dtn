@@ -1,0 +1,13 @@
+2026-09-14-noon: publish failed twice, stopped.
+
+Post: posts/2026-09-14-noon (Canada courts the world's investors as US tariffs bite), committed and pushed to main.
+
+Veto window: the ScheduleWakeup wake-up set for 17:05 UTC never fired. Dan replied three times during the window (trim two slides, fix the cover line count, add a bottom-margin rule) and each reply replaced the pending wake-up; it was not re-armed. Dan asked at 17:20 UTC why it hadn't published; no kill/skip/hold was given, so publish was dispatched at 17:21 UTC.
+
+publish.yml run 1: https://github.com/dinnertablenews/dtn/actions/runs/34874243317 (17:21:23Z) failed.
+publish.yml run 2: https://github.com/dinnertablenews/dtn/actions/runs/34874334231 (17:22:16Z) failed.
+Both failed on the first Instagram call, before any image was uploaded:
+  GET me -> 400: {"error": {"message": "API access blocked.", "type": "OAuthException", "code": 200}}
+Nothing was posted. The last successful publish with this token was 2026-09-14-morning at 12:24 UTC.
+
+Needs Dan: the Instagram token or app is blocked on Meta's side (OAuthException code 200). Check the Meta app status / the Instagram account's API access, then re-run publish.yml with action=publish, folder=posts/2026-09-14-noon (or action=verify first).
