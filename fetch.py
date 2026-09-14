@@ -126,17 +126,6 @@ def fetch_articles(items, now):
                         or trafilatura.baseline(r.text)[1] or "")
         except Exception as ex:
             code = str(ex)[:60]
-        if len(text) < 400 and code in (401, 403, 429, 503):
-            # outlet blocks datacenter IPs; fetch the same page through a reader proxy
-            try:
-                r = requests.get(f"https://r.jina.ai/{url}", timeout=40,
-                                 headers={"User-Agent": UA, "Accept": "text/plain", "X-Return-Format": "text"})
-                if r.ok and len(r.text) > 400:
-                    text, code = re.sub(r"\n{3,}", "\n\n", r.text).strip(), f"{code}/reader"
-                else:
-                    code = f"{code}/reader{r.status_code}:{clean(r.text)[:60]}"
-            except Exception as ex:
-                code = f"{code}/reader-err:{str(ex)[:60]}"
         if len(text) < 400 and len(i.get("_body", "")) > 400:
             text, code = i["_body"], f"{code}/rss"
         status.setdefault(urlparse(url).netloc, []).append(code)
