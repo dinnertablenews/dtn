@@ -171,6 +171,18 @@ def table(p):
 </div>''')
 
 
+SWIPE = "Swipe for what to say at 5, at 10, and at 15."
+
+
+def build_caption(p):
+    """The Instagram caption, in the standard order. The first line answers the cover question, so in the
+    feed the cover asks and the caption answers; the table question is the last thing before the hashtags."""
+    source = f'Source: {p["outlet"]}, {p["source_domain"]}' + (f'\n{p["photo_credit"]}' if p.get("photo") and p.get("photo_credit") else "")
+    return "\n\n".join([p["cover_answer"], p["summary"], source, SWIPE,
+                        f'The dinner table question: {p["table_question"]} Tell us what your kid said, and how old they are.',
+                        " ".join(p["hashtags"])])
+
+
 def check(pg, name):
     """Return a TOO LOW message if #text sits too close to #floor or #floor runs off the slide, else None."""
     gap, bottom = pg.evaluate("(() => { const t = document.getElementById('text').getBoundingClientRect(), f = document.getElementById('floor').getBoundingClientRect();"
@@ -183,12 +195,20 @@ def check(pg, name):
     return None
 
 
-def render(post, outdir):
-    for k in ("cover_question", "table_question"):
+def render(post, outdir, post_path=None):
+    for k in ("date", "cover_question", "cover_answer", "table_question", "source_domain", "hashtags"):
         if k not in post: raise SystemExit(f"post.json is missing '{k}' (see posts/samples-v2-2026-09-13-evening/post.json)")
     slides = [("1-cover", cover(post)), ("2-ages-5-7", age(post, "5-7")), ("3-ages-8-12", age(post, "8-12")),
               ("4-ages-13-17", age(post, "13-17")), ("5-table", table(post))]
     os.makedirs(outdir, exist_ok=True); problems = []
+    caption = build_caption(post)
+    if not post.get("caption") and post_path:  # first render: write the caption into post.json
+        post["caption"] = caption
+        json.dump(post, open(post_path, "w"), indent=2, ensure_ascii=False); open(post_path, "a").write("\n")
+        print(f"caption written to {post_path}", file=sys.stderr)
+    elif post.get("caption") != caption:
+        problems.append("CAPTION: post.json's caption is not the standard caption built from its fields. Delete the caption "
+                        "field and re-render, or replace it with:\n" + caption)
     with sync_playwright() as pw:
         try:
             b = pw.chromium.launch()
@@ -208,7 +228,7 @@ def render(post, outdir):
 
 if __name__ == "__main__":
     post = json.load(open(sys.argv[1]))
-    files, problems = render(post, sys.argv[2])
+    files, problems = render(post, sys.argv[2], post_path=sys.argv[1])
     for f in files: print(f)
     for m in problems: print(m, file=sys.stderr)
     sys.exit(1 if problems else 0)

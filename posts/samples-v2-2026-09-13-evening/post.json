@@ -4,9 +4,14 @@
   "category": "Economy",
   "outlet": "BBC News",
   "source_url": "https://www.bbc.co.uk/news/articles/cx2z79n0eeno",
+  "source_domain": "bbc.com",
   "headline": "Trump says he'll lift the tariff on Irish whiskey",
   "summary": "He announced it at his golf resort in Doonbeg, Ireland, before handing the Irish Open trophy to Shane Lowry. Whiskey made in the Republic of Ireland pays the tariff the US charges on European Union goods. Whiskey from Northern Ireland has paid none since May. Trump said the Irish prime minister and Lowry both asked him to drop it.",
-  "cover_question": {"band": "8-12", "q": "Who pays a tariff?"},
+  "cover_question": {
+    "band": "8-12",
+    "q": "Who pays a tariff?"
+  },
+  "cover_answer": "The importer. Then, usually, the shopper.",
   "table_question": "If everyone kept bugging you about a rule, would you change it?",
   "ages": {
     "5-7": {
@@ -27,18 +32,40 @@
   },
   "questions": {
     "5-7": [
-      {"q": "What's whiskey?", "a": "A strong drink for grown-ups. Kids don't have it. This story is really about the money, not the drink."}
+      {
+        "q": "What's whiskey?",
+        "a": "A strong drink for grown-ups. Kids don't have it. This story is really about the money, not the drink."
+      }
     ],
     "8-12": [
-      {"q": "Who pays a tariff?", "a": "The company bringing the goods into the country. It often adds that cost to the price, so shoppers end up paying part of it."},
-      {"q": "Why did Northern Ireland get a break first?", "a": "It's part of the UK, and Trump dropped tariffs on UK whiskey in May. The Republic of Ireland is in the EU, so it kept paying."}
+      {
+        "q": "Who pays a tariff?",
+        "a": "The company bringing the goods into the country. It often adds that cost to the price, so shoppers end up paying part of it."
+      },
+      {
+        "q": "Why did Northern Ireland get a break first?",
+        "a": "It's part of the UK, and Trump dropped tariffs on UK whiskey in May. The Republic of Ireland is in the EU, so it kept paying."
+      }
     ],
     "13-17": [
-      {"q": "Can a president cancel a tariff just by announcing it?", "a": "He said he will. The report doesn't say when or how. Worth watching whether it actually happens."},
-      {"q": "Isn't it odd he announced it at his own golf course?", "a": "He did, and thousands protested his visit too. A local businessman says the course employs 300 people. Hold both facts and see what you think."}
+      {
+        "q": "Can a president cancel a tariff just by announcing it?",
+        "a": "He said he will. The report doesn't say when or how. Worth watching whether it actually happens."
+      },
+      {
+        "q": "Isn't it odd he announced it at his own golf course?",
+        "a": "He did, and thousands protested his visit too. A local businessman says the course employs 300 people. Hold both facts and see what you think."
+      }
     ]
   },
-  "caption": "Trump says he'll lift the tariff on Irish whiskey.\n\nHe announced it at his golf resort in Doonbeg, Ireland, before handing the Irish Open trophy to Shane Lowry. Whiskey made in the Republic of Ireland pays the tariff the US charges on European Union goods. Whiskey from Northern Ireland has paid none since May. Trump said the Irish prime minister and Lowry both asked him to drop it.\n\nSwipe for how to explain it to kids ages 5–7, 8–12, and 13–17.\n\nThe dinner table question: If everyone kept bugging you about a rule, would you change it? Tell us what your kid said in the comments.\n\nSource: BBC News, bbc.com\nPhoto: Daniel Torok, Wikimedia Commons, Public domain\n\n#parenting #kidsandnews #tariffs #economy #ireland #dinnertablenews",
   "photo": "data/images/2026-09-13-evening.jpg",
-  "photo_credit": "Photo: Daniel Torok, Wikimedia Commons, Public domain"
+  "photo_credit": "Photo: Daniel Torok, Wikimedia Commons, Public domain",
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#Tariffs",
+    "#Ireland",
+    "#DinnerTableNews"
+  ],
+  "caption": "The importer. Then, usually, the shopper.\n\nHe announced it at his golf resort in Doonbeg, Ireland, before handing the Irish Open trophy to Shane Lowry. Whiskey made in the Republic of Ireland pays the tariff the US charges on European Union goods. Whiskey from Northern Ireland has paid none since May. Trump said the Irish prime minister and Lowry both asked him to drop it.\n\nSource: BBC News, bbc.com\nPhoto: Daniel Torok, Wikimedia Commons, Public domain\n\nSwipe for what to say at 5, at 10, and at 15.\n\nThe dinner table question: If everyone kept bugging you about a rule, would you change it? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #Tariffs #Ireland #DinnerTableNews"
 }
