@@ -1,0 +1,62 @@
+{
+  "slot": "2026-09-14 12:30 CT test",
+  "date": "2026-09-14",
+  "category": "Government",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/politics/house-speaker-mike-johnson-says-trumps-5000-dividend-needs-congressional-approval",
+  "headline": "Speaker says Trump's $5,000 checks need Congress",
+  "summary": "Trump promised every adult a $5,000 \"Trump Dividend\" if Republicans keep the House and Senate in November. House Speaker Mike Johnson said Sunday that Congress would have to approve it. Trump says it will happen \"100%\" and that tariffs and investment gains will pay for it. The AP puts the cost at more than $1 trillion.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Are we getting $5,000?"
+  },
+  "table_question": "If someone promised you $5,000 only if you picked them, would you?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "The president promised to send every grown-up $5,000 if his team wins the next election. But the country's money has a rule: Congress has to say yes first, like a parent signing a permission slip. Nobody is getting a check yet. The grown-ups have it.",
+      "why": "The number is huge and kids will hear it. What they need is that a promise isn't a check, and that someone else has to sign."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Trump promised every adult a $5,000 check if Republicans win in November. Only Congress can approve spending that big, and the Speaker said so Sunday. The president can call the play, but Congress holds the whistle.",
+      "why": "Kids this age know the difference between promising and paying. The permission step is the mechanism, and it's one they live with every day."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Would you trust a $5,000 promise that only pays out if you vote a certain way? That's Trump's offer, and the Speaker says Congress must approve it. Policy or campaign ad, and does it matter if the checks arrive?",
+      "why": "Teenagers can smell a pitch. Ask before you tell, and let them decide what the offer is for."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Are we getting $5,000?",
+        "a": "Not yet, and maybe not. It's a promise for after an election, and Congress has to agree first. Nothing changes at our house."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Where would the money come from?",
+        "a": "Trump says tariffs and government investment gains. The report puts the total above a trillion dollars."
+      },
+      {
+        "q": "Why can't the president just send it?",
+        "a": "Spending is Congress's job. The Speaker said so. The president can propose it, but Congress has to pass it."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Isn't this just buying votes?",
+        "a": "Plenty of people in both parties say so. Trump says the economy can afford it. What would make it fair, or not?"
+      },
+      {
+        "q": "What happens to prices if everyone gets $5,000?",
+        "a": "Economists worry it would push inflation up and add to a deficit already near $1.8 trillion a year."
+      }
+    ]
+  },
+  "caption": "Speaker says Trump's $5,000 checks need Congress.\n\nTrump promised every adult a $5,000 \"Trump Dividend\" if Republicans keep the House and Senate in November. House Speaker Mike Johnson said Sunday that Congress would have to approve it. Trump says it will happen \"100%\" and that tariffs and investment gains will pay for it. The AP puts the cost at more than $1 trillion.\n\nSwipe for how to explain it to kids ages 5–7, 8–12, and 13–17.\n\nThe dinner table question: If someone promised you $5,000 only if you picked them, would you? Tell us what your kid said in the comments.\n\nSource: PBS NewsHour, pbs.org/newshour\nPhoto: United States Congress, Wikimedia Commons, Public domain\n\n#parenting #kidsandnews #congress #economy #dinnertablenews",
+  "photo": "data/images/2026-09-14-test.jpg",
+  "photo_credit": "Photo: United States Congress, Wikimedia Commons, Public domain"
+}

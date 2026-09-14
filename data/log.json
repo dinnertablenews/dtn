@@ -65,5 +65,16 @@
   "photo": false,
   "published": "https://www.instagram.com/p/DdRrN7BmLxj/",
   "note": "Run fired at 11:10 CT for the 12:00 noon slot. Clusters #1 (Tiffany lake landing), #2 (Irish whiskey), #3 and #12 (Trump on AI risks), #5 (Ukraine diesel) and #10 (Saudi pipeline) skipped under rule 1 as stories already in the 7-day log. Took #4 Carney's Canada Investment Summit (3 outlets: AP, BBC, PBS NewsHour). #6 Johnson on Trump's $5,000 dividend (3 outlets) was skipped under rule 2: the story is Trump's promise with Johnson responding, and Trump led 2026-09-14-morning; it is not the clear top story, so the rule 5 diversity tie-break (Government appears least in the log) did not apply. Written from the PBS NewsHour (AP) article text with the BBC pieces as second sources; the AP item had no text. No photo: the last two log entries both ran photos. 8-12 script shortened after the first render because it ran into the gradient. Veto window: no send_later tool in this session; ScheduleWakeup used to wake the session in 50 minutes. Dan asked during the veto window for the cover summary and the 8-12 script to each lose a line; both were shortened and re-rendered before publishing. Dan then asked for a standing rule: render.py now measures each text slide and fails when text sits too low (TASK.md §6); the 8-12 and 13-17 scripts were shortened again to pass it. The veto-window wake-up was not re-armed after Dan's replies and never fired; publish was dispatched at 17:21 UTC after Dan asked. Both publish.yml runs failed on GET me with Instagram 'API access blocked' (OAuthException code 200) before any upload. Not published. See runs/2026-09-14-noon.log. Dan confirmed his account with Meta and asked for a retry; the third publish.yml run succeeded at 2026-09-14T17:30:00+0000."
+ },
+ {
+  "slug": "2026-09-14-test",
+  "date": "2026-09-14",
+  "slot": "test",
+  "category": "Government",
+  "headline": "Speaker says Trump's $5,000 checks need Congress",
+  "photo": true,
+  "cover_band": "5-7",
+  "published": null,
+  "note": "Off-cycle live test of the five-slide standard, run by Dan at 12:30 CT; the evening slot still runs as scheduled. Story chosen by the noon rule: clusters #1-#4 and #6 were already in the log, Trump had led the morning slot, so the highest remaining cluster was the $5,000 dividend needing Congress, lead subject Mike Johnson. Written from the PBS NewsHour (AP) text with Axios as the second source. Cover question from the 5-7 bracket (first rotation). The render rule fired twice on the 8-12 and 13-17 cards and both scripts were cut to fix it. Photo: Mike Johnson official portrait, public domain."
  }
 ]
