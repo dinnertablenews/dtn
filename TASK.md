@@ -24,7 +24,7 @@ Rules, in order:
 
 ## 3. Facts
 - The outlets are not reachable from this environment. Read the article text from `data/articles.json` (keyed by each headline's `id`; `text` is the extracted article, `url` the resolved publisher link). Use the two or three articles in the cluster that have text. If none has text, use the RSS summaries and say so in the log. Write from what the articles say. No detail that isn't in them. Attribute the summary to the outlet whose article you leaned on most; that outlet's name goes in `outlet` and its URL in `source_url`.
-- If the story has one clear subject who is a public figure, or a landmark/spacecraft/institution, set `photo_subject` to the exact Wikipedia article title. Otherwise leave it out. Never a private individual, victim, suspect, or minor. Never on a death, arrest, or scandal about the subject. Skip the photo if the last two entries in the log both had photos. The positive story may take a photo more freely.
+- If the story has one clear subject who is a public figure, or a landmark/spacecraft/institution, set `photo_subject` to the exact Wikipedia article title. Otherwise leave it out. Never a private individual, victim, suspect, or minor. Never on a death, arrest, or scandal about the subject. Never the same subject as any of the last three log entries. Skip the photo if the last two entries in the log both had photos. The positive story may take a photo more freely.
 
 ## 4. Write `post.json`
 Same schema as `posts/2026-09-13-morning/post.json`. Voice and rules:
@@ -48,9 +48,10 @@ Same schema as `posts/2026-09-13-morning/post.json`. Voice and rules:
 - Write a two-line summary for the notification: the headline and the slot time. It reaches Dan's phone when this run finishes.
 
 ## 7. Veto window and publish (skipped when `dry_run` is true)
-- Schedule a wake-up for this same session in 50 minutes (send_later). When it fires: if Dan has replied in this conversation with "kill", "skip", or "hold", stop and log it. If he replied with a swap instruction, follow it (re-run §3–6 for the story he named), then publish. Otherwise publish:
-  dispatch `publish.yml` via the GitHub MCP tool with inputs `action=publish`, `folder=posts/<slug>`, ref `main`.
-  Wait ~2 minutes, `git pull`, and read `posts/<slug>/published.json` (the workflow commits it) for the permalink. Record it in the log entry and push.
+Dan gets a phone notification only when this run's turn ends, so the window works like this:
+- If a `send_later` (schedule a message to this session) tool is available: schedule a wake-up for this same session in 50 minutes, then END YOUR TURN with the two-line summary from §6 plus "Reply kill, skip, or hold here to stop this post." That ending is what pings Dan. When the wake-up fires: if Dan replied with "kill", "skip", or "hold", stop and note it in the log. If he replied with a swap instruction, follow it (re-run §3–6 for the story he named), then publish.
+- If no such tool exists: stay in the turn and wait it out: run `sleep 300` ten times. Dan's replies in this conversation arrive between tool calls; check for "kill", "skip", "hold", or a swap after each sleep and act on them the same way. Then publish.
+- Publish: dispatch `publish.yml` via the GitHub MCP tool with inputs `action=publish`, `folder=posts/<slug>`, ref `main`. Wait ~2 minutes, `git pull`, read `posts/<slug>/published.json` (the workflow commits it) for the permalink, record it in the log entry, push. End with the headline and the permalink.
 
 ## Guardrails
 - Sources are only the outlets in `feeds.yaml`. Never introduce another.
