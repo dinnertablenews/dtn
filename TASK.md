@@ -16,11 +16,12 @@ You are the automated run for one posting slot. Do everything below without aski
 ## 2. Pick the story for this slot
 Rules, in order:
 1. Never repeat a story already in `data/log.json` from the last 7 days (same event, even if the headline moved on).
-2. `morning` takes the #1 cluster of the day unless it ran yesterday evening; then #2.
-3. `evening` is the positive story: the most uplifting cluster in the top 15 (science, rescue, record, recovery, a win). Category label "Good news". If nothing qualifies, take the least grim story and label it by its real category.
-4. `noon` takes the highest-ranked remaining cluster, with a tie-break for category diversity: if two clusters are within one outlet of each other, prefer the category that appears least in the last 7 days of the log.
-5. Any story is fair game, including violence, abuse, suicide. That is the point of the account. Handle it with the Shield rule in §4.
-6. Category is one of: Technology, Health, Economy, Government, Climate, Science, Culture, Security, World, Sports, Good news.
+2. Same lead subject at most one slot per day. The lead subject is the person, institution, or country the headline is about (the one who would take the photo). If a slot's pick would repeat the lead subject of a post already in today's log, skip to the next cluster with a different lead subject, unless the story is the clear top story of the day: it leads the ranking by at least two outlets over the next cluster. Write the skip or the override in the log note.
+3. `morning` takes the #1 cluster of the day unless it ran yesterday evening; then #2.
+4. `evening` is the positive story: the most uplifting cluster in the top 15 (science, rescue, record, recovery, a win). Category label "Good news". If nothing qualifies, take the least grim story and label it by its real category.
+5. `noon` takes the highest-ranked remaining cluster, with a tie-break for category diversity: if two clusters are within one outlet of each other, prefer the category that appears least in the last 7 days of the log.
+6. Any story is fair game, including violence, abuse, suicide. That is the point of the account. Handle it with the Shield rule in §4.
+7. Category is one of: Technology, Health, Economy, Government, Climate, Science, Culture, Security, World, Sports, Good news.
 
 ## 3. Facts
 - The outlets are not reachable from this environment. Read the article text from `data/articles.json` (keyed by each headline's `id`; `text` is the extracted article, `url` the resolved publisher link). Use the two or three articles in the cluster that have text. If none has text, use the RSS summaries and say so in the log. Write from what the articles say. No detail that isn't in them. Attribute the summary to the outlet whose article you leaned on most; that outlet's name goes in `outlet` and its URL in `source_url`.
