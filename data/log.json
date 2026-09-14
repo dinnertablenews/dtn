@@ -53,7 +53,7 @@
   "category": "World",
   "headline": "Trump tells Ukraine to stop hitting Russian diesel",
   "photo": true,
-  "published": null,
+  "published": "https://www.instagram.com/p/DdRIS93ln58/",
   "note": "Run fired at 06:02 CT for the 07:00 morning slot. Took the #1 cluster (4 outlets: AP, PBS NewsHour, Semafor, The Hill) under rule 2; #2 (Tiffany lake landing) is already in the log from 2026-09-13-test2. Written from the PBS NewsHour (AP) article text, with Semafor's text as the second source; AP and The Hill items had RSS summaries only (403). gh api workflow dispatch returned 403 'Resource not accessible by integration' on both tries, so the Commons workflow was dispatched through the GitHub MCP tool; it returned the public-domain official portrait of Donald Trump (same file as 2026-09-13-evening). 8-12 and 13-17 scripts were shortened after the first render because they ran into the gradient."
  }
 ]
