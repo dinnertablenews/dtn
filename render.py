@@ -83,9 +83,9 @@ def cover(p):
   {disc}{hdr}
   <div style="position:relative;margin-top:500px;font-size:22px;font-weight:500;letter-spacing:0.08em;text-transform:uppercase;color:#A8A295">{p["category"]}</div>
   <h1 class="display" style="position:relative;margin:20px 0 0;font-weight:400;font-size:{p.get("headline_size", 92)}px;line-height:1.02;letter-spacing:-0.02em;text-wrap:pretty;max-width:900px">{p["headline"]}</h1>
-  <p style="position:relative;margin:36px 0 0;font-size:32px;line-height:1.4;color:#C9C3B5;text-wrap:pretty;max-width:840px">{p["summary"]} <span style="color:#A8A295">({p["outlet"]})</span></p>
+  <p id="text" style="position:relative;margin:36px 0 0;font-size:32px;line-height:1.4;color:#C9C3B5;text-wrap:pretty;max-width:840px">{p["summary"]} <span style="color:#A8A295">({p["outlet"]})</span></p>
   <div style="flex-grow:1"></div>
-  <div style="position:relative;display:flex;justify-content:flex-end;align-items:center;gap:14px;font-size:24px;font-weight:500"><span style="color:#C9C3B5;margin-right:4px">Explain it to kids ages</span>{ages}<span style="margin-left:6px">→</span></div>
+  <div id="floor" style="position:relative;display:flex;justify-content:flex-end;align-items:center;gap:14px;font-size:24px;font-weight:500"><span style="color:#C9C3B5;margin-right:4px">Explain it to kids ages</span>{ages}<span style="margin-left:6px">→</span></div>
 </div>''')
 
 
@@ -107,12 +107,12 @@ def age(p, band, nxt):
     <div class="serif" style="font-size:140px;line-height:0.6;color:{c};margin-top:30px">&ldquo;</div>
     <p class="serif" style="margin:0;font-size:{a.get("size", 46)}px;line-height:1.3;letter-spacing:-0.01em;text-wrap:pretty">{a["script"]}</p>
   </div>
-  <div style="margin-top:44px;padding-left:78px;display:flex;flex-direction:column;gap:8px;max-width:900px">
+  <div id="text" style="margin-top:44px;padding-left:78px;display:flex;flex-direction:column;gap:8px;max-width:900px">
     <div style="font-size:20px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:{c}">Why this works at {lab}</div>
     <div style="font-size:27px;line-height:1.4;color:{SOFT};text-wrap:pretty">{a["why"]}</div>
   </div>
   <div style="flex-grow:1"></div>
-  <div style="margin:0 -72px;height:300px;background:linear-gradient(180deg,{PAPER} 0%,{col(h,0.93,0.045)} 45%,{col(h,0.86,0.08)} 100%);display:flex;justify-content:space-between;align-items:flex-end;padding:0 72px 56px;box-sizing:border-box">
+  <div id="floor" style="margin:0 -72px;height:300px;background:linear-gradient(180deg,{PAPER} 0%,{col(h,0.93,0.045)} 45%,{col(h,0.86,0.08)} 100%);display:flex;justify-content:space-between;align-items:flex-end;padding:0 72px 56px;box-sizing:border-box">
     <div class="serif" style="font-size:150px;line-height:0.8;letter-spacing:-0.04em;color:{c}">{lab}</div>
     <div style="font-size:24px;font-weight:500;color:{c};padding-bottom:10px">{nxt}</div>
   </div>
@@ -130,7 +130,9 @@ def questions(p):
     return page(PAPER, INK, f'''<div style="width:1080px;height:1350px;box-sizing:border-box;padding:72px;background:{PAPER};display:flex;flex-direction:column;position:relative;overflow:hidden">
   {header(INK)}
   <h2 class="display" style="margin:70px 0 0;font-weight:400;font-size:68px;line-height:1.05;letter-spacing:-0.02em">Questions they might ask</h2>
-  <div style="margin-top:56px;display:flex;flex-direction:column;gap:44px">{group("5-7")}{group("8-12")}{group("13-17")}</div>
+  <div id="text" style="margin-top:56px;display:flex;flex-direction:column;gap:44px">{group("5-7")}{group("8-12")}{group("13-17")}</div>
+  <div style="flex-grow:1"></div>
+  <div id="floor" style="height:0"></div>
 </div>''')
 
 
@@ -146,11 +148,32 @@ def brand():
 </div>''')
 
 
+# Bottom margin rule. Every text slide has a #text block and a #floor element (the "Explain it to
+# kids" row on the cover, the 300px gradient band on the age slides, the page bottom on the questions
+# slide). The text must end at least FLOOR_GAP px above the floor's natural position. On the age slides
+# the band is a flex item, so long text pushes it down and off the frame instead of overlapping it,
+# which is why the check compares against where the floor belongs, not where it ended up.
+FLOOR_GAP = {"1-cover": 45, "2-ages-5-7": 0, "3-ages-8-12": 0, "4-ages-13-17": 0, "5-questions": 45}
+FLOOR_TOP = {"1-cover": 1350 - 72 - 29, "2-ages-5-7": 1050, "3-ages-8-12": 1050, "4-ages-13-17": 1050, "5-questions": 1350 - 72}
+LINE_PX = {"1-cover": 45, "2-ages-5-7": 60, "3-ages-8-12": 60, "4-ages-13-17": 60, "5-questions": 34}
+
+
+def check(pg, name):
+    """Return a message if the slide's text sits too low, else None."""
+    if name not in FLOOR_TOP: return None
+    bottom = pg.evaluate("Math.round(document.querySelector('#text').getBoundingClientRect().bottom)")
+    limit = FLOOR_TOP[name] - FLOOR_GAP[name]
+    if bottom <= limit: return None
+    over = bottom - limit
+    return (f"TOO LOW: {name}: text ends at {bottom}px, limit {limit}px, over by {over}px "
+            f"(about {-(-over // LINE_PX[name])} line(s) of the main text). Shorten and re-render.")
+
+
 def render(post, outdir):
     slides = [("1-cover", cover(post)), ("2-ages-5-7", age(post, "5-7", "Ages 8–12 →")),
               ("3-ages-8-12", age(post, "8-12", "Ages 13–17 →")), ("4-ages-13-17", age(post, "13-17", "Questions they might ask →")),
               ("5-questions", questions(post)), ("6-brand", brand())]
-    os.makedirs(outdir, exist_ok=True)
+    os.makedirs(outdir, exist_ok=True); problems = []
     with sync_playwright() as pw:
         try:
             b = pw.chromium.launch()
@@ -162,10 +185,15 @@ def render(post, outdir):
         for name, html in slides:
             pg.set_content(html); pg.wait_for_timeout(150)
             pg.screenshot(path=os.path.join(outdir, f"{name}.jpg"), type="jpeg", quality=92)
+            msg = check(pg, name)
+            if msg: problems.append(msg)
         b.close()
-    return [os.path.join(outdir, f"{n}.jpg") for n, _ in slides]
+    return [os.path.join(outdir, f"{n}.jpg") for n, _ in slides], problems
 
 
 if __name__ == "__main__":
     post = json.load(open(sys.argv[1]))
-    for f in render(post, sys.argv[2]): print(f)
+    files, problems = render(post, sys.argv[2])
+    for f in files: print(f)
+    for m in problems: print(m, file=sys.stderr)
+    sys.exit(1 if problems else 0)

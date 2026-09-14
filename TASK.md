@@ -44,7 +44,8 @@ Same schema as `posts/2026-09-13-morning/post.json`. Voice and rules:
 
 ## 6. Render and push
 - `python render.py posts/<slug>/post.json posts/<slug>/`
-- Look at the six JPGs (Read them). Fix anything that overflows or wraps badly by shortening text, then re-render. Headline must not exceed three lines; scripts must not run into the gradient.
+- `render.py` measures every text slide and exits non-zero with a `TOO LOW:` line naming the slide and how many lines to cut when text sits too close to the bottom (cover summary and questions: at least one line of clear space above the "Explain it to kids" row / the bottom margin; age slides: the script and "why" must end above the 300px gradient band, which must never be pushed down). Shorten the text it names and re-render until it exits 0. Never commit or publish a post whose render fails this check, and never work around it by changing sizes or the check itself.
+- Look at the six JPGs (Read them). Fix anything that overflows or wraps badly by shortening text, then re-render. Headline must not exceed three lines. Count lines in the image before telling Dan how many there are.
 - Append an entry to `data/log.json`. Commit `posts/<slug>/` and `data/log.json`, push to `main`.
 - Write a two-line summary for the notification: the headline and the slot time. It reaches Dan's phone when this run finishes.
 
