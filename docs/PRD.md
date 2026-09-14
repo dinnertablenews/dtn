@@ -107,7 +107,7 @@ The workflow commits both files to `main` with `git pull --rebase -X theirs` so 
 | `ages.<band>` | `chip`, `script`, `why`, optional `shield: true`. |
 | `questions.<band>` | 1 for 5–7, 2 each for 8–12 and 13–17; each `{q, a}` with the "Try:" answer ≤ 160 characters. |
 | `hashtags` | 3–5 CamelCase tags, last is `#DinnerTableNews`. |
-| `photo`, `photo_credit`, `photo_scale` | Set when a Commons image landed. |
+| `photo`, `photo_credit` | Set when a Commons image landed. Optional `photo_focus_x` (default `50%`) shifts the crop left or right; the vertical anchor is fixed, see the photo rule. |
 | `caption` | Built by render.py from the fields above. Not hand-written. |
 
 **Cover question rotation.** Take the last log entry with a `cover_band` and use the next band in 5–7 → 8–12 → 13–17 → 5–7. If none, 5–7. Over a day the three posts lead with three different ages.
@@ -124,6 +124,8 @@ The workflow commits both files to `main` with `git pull --rebase -X theirs` so 
 Rendered by `render.py` with Playwright/Chromium from inline HTML. Palette: paper `#F5F2EB`, ink `#1B1A17`, soft `#3D3A34`, muted `#6B675F`. Age hues in OKLCH: 5–7 green (155), 8–12 blue (250), 13–17 purple (305). Each category has a tint for the cover disc. Fonts: Libre Caslon Display for headlines, Libre Caslon Text for scripts and numerals, Instrument Sans for everything else. Wordmark ("Dinner / Table / News" plus three age dots) top-right on every slide.
 
 1. **Cover** (ink background). Dateline top-left. A 900px category-tinted disc top-right, carrying the duotone photo when there is one, or a thin ring when not. Category label, headline at 58px, then a connector in the cover band's color ("AGES 8–12 / So your kid asks"), then the kid's question at 124px (100px if longer than 22 characters) with colored quote marks. Footer: three outlined age chips and "How to answer, by age →".
+
+**Photo rule** (enforced by `render.py`, not auto-fixed). The disc hangs off the top and right edges of the slide, so only a 600×640 corner of it is visible. The photo is sized to that corner, with a few pixels of bleed past the slide edge, and anchored to the **top** of its frame. Two consequences, both deliberate: the photo covers every on-slide pixel of the disc, so no strip of bare category tint can show along an edge; and any part of the image that does not fit is cropped off the **bottom**, so a crop never takes the subject's head. Only the horizontal focus is tunable (`photo_focus_x`) — the vertical anchor is not, because that is the axis that decapitates people. `check_photo()` re-measures the rendered image on every run and fails with a `PHOTO:` line on stderr if either guarantee breaks.
 2. **Ages 5–7**, 3. **Ages 8–12**, 4. **Ages 13–17** (paper background). Numeral top-left in the band color, chip, the script at 46px serif with a large opening quote mark, "WHY IT WORKS" line, then a tinted "THEY MIGHT ASK" band at the bottom carrying that band's questions and Try answers. Band footer: "Save this for dinner" left, next-slide cue right ("Ages 8–12 →", "Ages 13–17 →", "One for the whole table →").
 5. **The dinner table question** (ink background). Label, the question at 92px, "Ask it at any age. Tell us what your kid said in the comments.", then three asks bottom-left: **Save** this one for dinner. **Send** it to another parent. **Follow** for today's news, explained for your kid's age.
 

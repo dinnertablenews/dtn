@@ -12,6 +12,13 @@ between them and the band ending inside the card; on the table slide the comment
 save/send/follow block. A slide that fails is reported as a "TOO LOW:" line on stderr and the
 script exits 1. Fix it by shortening text. Type sizes are never reduced to make room, so the three
 age cards always match.
+
+Photo rule (enforced, not auto-fixed). The cover disc hangs off the top and right of the slide, so
+only its lower-left part is visible. The photo is sized to that visible part and anchored to its TOP
+edge, which means two things: it covers every on-slide pixel of the disc, so no strip of bare
+category tint can show at an edge; and whatever the frame cannot fit is cropped off the BOTTOM, so a
+crop never takes the subject's head. check_photo() re-measures the rendered image and reports a
+"PHOTO:" line on stderr if either guarantee breaks.
 """
 import base64, json, os, sys
 from datetime import date
@@ -29,18 +36,22 @@ CATS = {"Technology": "oklch(0.78 0.11 85)", "Health": "oklch(0.78 0.11 20)", "E
         "World": "oklch(0.78 0.10 215)", "Sports": "oklch(0.78 0.12 55)"}
 MIN_GAP = 72            # age cards: paper between the why line and the band
 GAP = {"1-cover": 45, "2-ages-5-7": MIN_GAP, "3-ages-8-12": MIN_GAP, "4-ages-13-17": MIN_GAP, "5-table": 45}
+# Cover disc, positioned against the top-right corner of the 1080x1350 slide. It hangs off both
+# edges, so only DISC_W x DISC_H of it is actually on the slide; that rectangle is what the photo
+# has to fill. Deriving the photo box from these means the two can never drift apart.
+DISC, DISC_TOP, DISC_RIGHT = 900, -260, -300
+DISC_W = DISC + DISC_RIGHT      # 600px of the disc's width is on the slide
+DISC_H = DISC_TOP + DISC        # 640px of its height is below the top edge
+PHOTO_BLEED = 8                 # run the photo past the slide edge; rounding never exposes tint
 def col(h, l=0.55, c=0.13): return f"oklch({l} {c} {h})"
 
 
-def prepare_photo(path, scale=0.66):
-    """Pad the photo with white so it lands in the visible lower-left of the disc.
-    White multiplies to the category tint, so the padding disappears. scale = photo width / disc width."""
+def photo_jpeg(path):
+    """The photo as JPEG bytes for embedding. No padding: cover() places and crops it explicitly."""
     from PIL import Image
     import io
     im = Image.open(path).convert("RGB")
-    W = int(im.width / scale); H = max(int(W * 1.3), im.height)  # canvas taller than wide, like the disc's cover box
-    canvas = Image.new("RGB", (W, H), "white"); canvas.paste(im, (0, H - im.height))
-    buf = io.BytesIO(); canvas.save(buf, "JPEG", quality=88); return buf.getvalue()
+    buf = io.BytesIO(); im.save(buf, "JPEG", quality=88); return buf.getvalue()
 
 
 def font_css():
@@ -98,13 +109,20 @@ def cover(p):
     photo = p.get("photo")  # path to an image file, optional
     tint = CATS.get(p["category"], CATS["World"])
     cq = p["cover_question"]; h = HUES[cq["band"]]; hc = col(h, 0.72)
+    shell = f'position:absolute;top:{DISC_TOP}px;right:{DISC_RIGHT}px;width:{DISC}px;height:{DISC}px;border-radius:999px;background:{tint}'
     if photo:
-        b = base64.b64encode(prepare_photo(photo, p.get("photo_scale", 0.66))).decode()
-        disc = (f'<div style="position:absolute;top:-260px;right:-300px;width:900px;height:900px;border-radius:999px;background:{tint};overflow:hidden">'
-                f'<img src="data:image/jpeg;base64,{b}" style="width:100%;height:100%;object-fit:cover;object-position:0% 100%;display:block;filter:grayscale(1) contrast(1.05);mix-blend-mode:multiply;opacity:0.9"></div>')
+        b = base64.b64encode(photo_jpeg(photo)).decode()
+        # The photo box is exactly the on-slide part of the disc (plus bleed), pinned to the slide's
+        # top edge. object-position keeps the top of the frame, so the crop comes off the bottom and
+        # never off the subject's head. Only the horizontal focus is tunable; see the photo rule.
+        disc = (f'<div style="{shell};overflow:hidden">'
+                f'<img id="photo" src="data:image/jpeg;base64,{b}" style="position:absolute;left:0;top:{-DISC_TOP}px;'
+                f'width:{DISC_W + PHOTO_BLEED}px;height:{DISC_H}px;object-fit:cover;'
+                f'object-position:{p.get("photo_focus_x", "50%")} 0%;'
+                f'display:block;filter:grayscale(1) contrast(1.05);mix-blend-mode:multiply;opacity:0.9"></div>')
         l = 0.8
     else:
-        disc = (f'<div style="position:absolute;top:-260px;right:-300px;width:900px;height:900px;border-radius:999px;background:{tint}"></div>'
+        disc = (f'<div style="{shell}"></div>'
                 f'<div style="position:absolute;top:120px;right:80px;width:520px;height:520px;border-radius:999px;border:3px solid {INK};opacity:0.5"></div>')
         l = 0.55
     small = 'font-size:22px;font-weight:500;letter-spacing:0.08em;text-transform:uppercase;color:#A8A295'
@@ -183,8 +201,29 @@ def build_caption(p):
                         " ".join(p["hashtags"])])
 
 
+def check_photo(pg):
+    """Return a PHOTO message if the cover photo leaves bare tint on the slide or is anchored anywhere
+    but the top of its frame, else None. Measures what actually rendered, not what we meant to write."""
+    r = pg.evaluate("(() => { const i = document.getElementById('photo'); if (!i) return null;"
+                    " const b = i.getBoundingClientRect();"
+                    " return [b.top, b.right, b.bottom, getComputedStyle(i).objectPosition]; })()")
+    if not r: return None                      # no photo on this cover
+    top, right, bottom, pos = r
+    if top > 0.5 or right < 1080 - 0.5 or bottom < DISC_H - 0.5:
+        short = max(top, 1080 - right, DISC_H - bottom)
+        return (f"PHOTO: the photo misses the on-slide part of the disc by {short:.0f}px, so a strip of bare "
+                f"category tint shows at its edge. The photo box must cover 0,0 to 1080,{DISC_H}.")
+    if not pos.split()[-1].startswith("0"):
+        return (f"PHOTO: object-position is '{pos}'. The vertical anchor must stay at the top (0%) so the "
+                f"crop comes off the bottom of the frame and never off the subject's head.")
+    return None
+
+
 def check(pg, name):
     """Return a TOO LOW message if #text sits too close to #floor or #floor runs off the slide, else None."""
+    if name == "1-cover":
+        msg = check_photo(pg)
+        if msg: return msg
     gap, bottom = pg.evaluate("(() => { const t = document.getElementById('text').getBoundingClientRect(), f = document.getElementById('floor').getBoundingClientRect();"
                               " return [f.top - t.bottom, f.bottom]; })()")
     what = {"1-cover": "the question", "5-table": "the question or the comment line"}.get(name, "the script, the why line, or a Try answer")
