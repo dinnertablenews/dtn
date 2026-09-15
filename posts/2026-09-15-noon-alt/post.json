@@ -1,0 +1,71 @@
+{
+  "slot": "2026-09-15 12:00 CT alternate",
+  "date": "2026-09-15",
+  "category": "Government",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/politics/watch-mcconnell-returns-to-the-senate-for-the-first-time-since-his-june-hospitalization",
+  "source_domain": "pbs.org/newshour",
+  "headline": "McConnell returns to the Senate after three months away",
+  "summary": "Sen. Mitch McConnell cast his first vote since June on Monday. He fell at home on June 14, was briefly unconscious, and was treated in the hospital for mild pneumonia. He is 84, had polio as a child, and retires in January. His office said little for weeks, and speculation about his health grew.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Why was he away so long?"
+  },
+  "cover_answer": "He fell at home and got sick. It took a long time to heal.",
+  "table_question": "If you're out sick, do you owe everyone an explanation?",
+  "photo_subject": "Mitch McConnell",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "A senator named Mitch McConnell went back to work yesterday. He is 84. In June he fell at home and went to the hospital, and getting better took all summer. He uses a wheelchair to get around, the way some people use glasses to see. His friends at work were glad to see him.",
+      "why": "A fall, a hospital, and a summer of getting better is a story they already know from grandparents."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "McConnell fell at home in June and went to the hospital. His office said almost nothing for a month, so rumors filled the gap. Without his vote, Republicans couldn't move the farm bill. Like a team missing a player: the game stalls till they're back.",
+      "why": "Silence makes rumors grow. Kids know that one."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "How much does the public get to know about a senator's health? McConnell was gone three months after a fall, and his office said little for weeks. A governor from the other party asked for transparency. Where's the line between privacy and the job?",
+      "why": "Privacy versus accountability. Let them pick a side first."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Why was he away so long?",
+        "a": "He fell, was knocked out for a bit, and got pneumonia, a lung sickness. At 84, healing takes a while. He did exercises all summer to get stronger."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why didn't he just say what happened?",
+        "a": "He didn't at first. A month later his office said he'd fallen and had pneumonia. People argued he owed the public more, and faster."
+      },
+      {
+        "q": "Can you be a senator at 84?",
+        "a": "Yes. There's no age limit. His absence started a bigger argument about how old is too old for the job. He retires in January."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Is 84 too old to be a senator?",
+        "a": "Voters decide; there's no limit. His absence fed a wider worry about lawmakers' age and whether they can do the job. He's retiring in January."
+      },
+      {
+        "q": "Did his absence actually matter?",
+        "a": "Yes. Republicans couldn't move a farm bill out of committee without his vote. His return may get it moving."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#MitchMcConnell",
+    "#DinnerTableNews"
+  ],
+  "photo": "data/images/2026-09-15-noon-alt.jpg",
+  "photo_credit": "Photo: U.S. Government, Wikimedia Commons, Public domain",
+  "caption": "He fell at home and got sick. It took a long time to heal.\n\nSen. Mitch McConnell cast his first vote since June on Monday. He fell at home on June 14, was briefly unconscious, and was treated in the hospital for mild pneumonia. He is 84, had polio as a child, and retires in January. His office said little for weeks, and speculation about his health grew.\n\nSource: PBS NewsHour, pbs.org/newshour\nPhoto: U.S. Government, Wikimedia Commons, Public domain\n\nSwipe for what to say at 5, at 10, and at 15.\n\nThe dinner table question: If you're out sick, do you owe everyone an explanation? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #MitchMcConnell #DinnerTableNews"
+}
