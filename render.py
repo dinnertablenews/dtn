@@ -13,6 +13,12 @@ save/send/follow block. A slide that fails is reported as a "TOO LOW:" line on s
 script exits 1. Fix it by shortening text. Type sizes are never reduced to make room, so the three
 age cards always match.
 
+Cover question rule (enforced, not auto-fixed). The cover question renders at one size on every
+cover, QSIZE, and is capped at QMAX characters, which is what keeps that single size possible.
+There is no smaller fallback: covers sitting next to each other in the grid are the same size
+rather than stepping down a quarter because one question ran a character long.
+check_cover_question() reports a "QUESTION:" line on stderr and the script exits 1.
+
 Hashtag rule (enforced, not auto-fixed). Exactly four tags: #Parenting, #KidsAndNews, one tag naming
 what this story is about, #DinnerTableNews. The third slot is the only free one, and it is never a
 category label — the cover already prints the category, so #Economy or #GoodNews spends a tag saying
@@ -39,6 +45,7 @@ CATS = {"Technology": "oklch(0.78 0.11 85)", "Health": "oklch(0.78 0.11 20)", "E
         "Government": "oklch(0.78 0.10 240)", "Climate": "oklch(0.78 0.11 140)", "Science": "oklch(0.78 0.11 300)",
         "Culture": "oklch(0.78 0.12 350)", "Security": "oklch(0.70 0.04 60)", "Good news": "oklch(0.82 0.13 95)",
         "World": "oklch(0.78 0.10 215)", "Sports": "oklch(0.78 0.12 55)"}
+QSIZE, QMAX = 124, 22   # the cover question renders at one size, always; QMAX is what fits it
 SWIPE_TAGS = ["#Parenting", "#KidsAndNews"]   # every post opens with these two
 BRAND_TAG = "#DinnerTableNews"                # and closes with this one
 # Tags that tell a reader nothing the cover hasn't already told them: the category labels
@@ -142,7 +149,6 @@ def cover(p):
     small = 'font-size:22px;font-weight:500;letter-spacing:0.08em;text-transform:uppercase;color:#A8A295'
     left = f'<div style="{small};margin-top:4px">{dateline(p)}</div>'
     chips = ''.join(f'<span style="display:inline-flex;align-items:center;padding:12px 22px;border-radius:999px;border:2px solid {col(k,0.72)};color:{col(k,0.72)};font-size:28px;font-weight:500">{LABEL[b_]}</span>' for b_, k in HUES.items())
-    qsize = p.get("question_size", 124 if len(cq["q"]) <= 22 else 100)
     return page(INK, PAPER, f'''<div style="width:1080px;height:1350px;box-sizing:border-box;padding:72px;background:{INK};color:{PAPER};display:flex;flex-direction:column;position:relative;overflow:hidden">
   {disc}{header(PAPER if photo else INK, l=l, left=left)}
   <div style="position:relative;margin-top:440px;{small}">{p["category"]}</div>
@@ -154,7 +160,7 @@ def cover(p):
       <span style="font-size:30px;color:#C9C3B5">So your kid asks</span>
     </div>
   </div>
-  <h1 id="text" class="display" style="position:relative;margin:18px 0 0;font-weight:400;font-size:{qsize}px;line-height:0.98;letter-spacing:-0.025em;max-width:940px;text-wrap:balance"><span style="color:{hc}">&ldquo;</span>{cq["q"]}<span style="color:{hc}">&rdquo;</span></h1>
+  <h1 id="text" class="display" style="position:relative;margin:18px 0 0;font-weight:400;font-size:{QSIZE}px;line-height:0.98;letter-spacing:-0.025em;max-width:940px;text-wrap:balance"><span style="color:{hc}">&ldquo;</span>{cq["q"]}<span style="color:{hc}">&rdquo;</span></h1>
   <div style="flex-grow:1"></div>
   <div id="floor" style="position:relative;display:flex;justify-content:space-between;align-items:center">
     <div style="display:flex;gap:12px">{chips}</div>
@@ -215,6 +221,17 @@ def build_caption(p):
                         " ".join(p["hashtags"])])
 
 
+def check_cover_question(p):
+    """Return a QUESTION message if the cover question is too long to render at the standard size.
+    Every cover question is set at QSIZE; the cap is what keeps that one size possible, so covers
+    are the same size next to each other in the grid instead of stepping down on a long question."""
+    q = p.get("cover_question", {}).get("q", "")
+    if len(q) > QMAX:
+        return (f"QUESTION: the cover question is {len(q)} characters, {len(q) - QMAX} over the {QMAX} cap "
+                f"(it renders at {QSIZE}px on every cover). Shorten it and re-render: \"{q}\"")
+    return None
+
+
 def check_hashtags(p):
     """Return a HASHTAGS message if the tag list breaks the rule, else None. Four tags, fixed at both
     ends, with exactly one tag in the middle that names what this story is about. The middle one is
@@ -273,8 +290,8 @@ def render(post, outdir, post_path=None):
     slides = [("1-cover", cover(post)), ("2-ages-5-7", age(post, "5-7")), ("3-ages-8-12", age(post, "8-12")),
               ("4-ages-13-17", age(post, "13-17")), ("5-table", table(post))]
     os.makedirs(outdir, exist_ok=True); problems = []
-    tagmsg = check_hashtags(post)
-    if tagmsg: problems.append(tagmsg)
+    for msg in (check_cover_question(post), check_hashtags(post)):
+        if msg: problems.append(msg)
     caption = build_caption(post)
     if not post.get("caption") and post_path:  # first render: write the caption into post.json
         post["caption"] = caption
