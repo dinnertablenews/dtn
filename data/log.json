@@ -77,5 +77,17 @@
   "published": "https://www.instagram.com/p/DdR9JO0GwUr/",
   "note": "Off-cycle live test of the five-slide standard, run by Dan at 12:30 CT; the evening slot still runs as scheduled. Story chosen by the noon rule: clusters #1-#4 and #6 were already in the log, Trump had led the morning slot, so the highest remaining cluster was the $5,000 dividend needing Congress, lead subject Mike Johnson. Written from the PBS NewsHour (AP) text with Axios as the second source. Cover question from the 5-7 bracket (first rotation). The render rule fired twice on the 8-12 and 13-17 cards and both scripts were cut to fix it. Photo: Mike Johnson official portrait, public domain. REPUBLISHED at Dan's request: the first publish carried the cover-photo bug (a 6px strip of bare category tint down the right edge of the disc, and the frame anchored to the bottom so 145px of the subject's head was cropped off the top). Fixed in render.py (commit a2b6cfe), re-rendered, and published again as a second post; Instagram cannot replace the media on a live post. post.json also gained cover_answer/source_domain/hashtags and the caption was rebuilt to the current standard. The original post stays live until Dan deletes it; its permalink is in superseded_publish.",
   "superseded_publish": "https://www.instagram.com/p/DdRr-yuFHfz/ (2026-09-14T17:36:39+0000)"
+ },
+ {
+  "slug": "2026-09-14-evening",
+  "date": "2026-09-14",
+  "slot": "evening",
+  "category": "Good news",
+  "headline": "McConnell is back in the Senate after three months away",
+  "photo": true,
+  "cover_band": "8-12",
+  "publish_target": "2026-09-14T20:00-05:00",
+  "published": null,
+  "note": "Run fired at 19:11 CT for the 20:00 evening slot; target drawn once at 20:00 CT (offset 0 inside the +/-10 minute window). Positive story under rule 4: cluster #5, McConnell returns to the Senate for the first time since his June hospitalization (3 outlets: AP, PBS NewsHour, The Hill), a recovery. Clusters #1-#4 above it (EPA repeals power-plant emissions limits; mail-ballot ruling and Trump on AI; Russian oligarch paid for Trump Jr.'s wedding; Khalil sues Columbia) are not uplifting. Lead subject Mitch McConnell has not led a slot today and is not in the 7-day log. Written from the PBS NewsHour (AP) article text; the AP and The Hill items had RSS summaries only (403). The PBS summary gives his age as 94 and the article body as 84, so the post gives no age. The Hill says his first vote since June 11 and PBS says absent since June 14, so the post says 'since June'. Photo: Mitch McConnell 2016 official portrait, public domain, via the Commons workflow dispatched through the GitHub MCP tool; allowed because the last two log entries were not both photos. Cover band 8-12 by rotation after 5-7 on 2026-09-14-test. The render rule fired on the 8-12 card (120px over) and the 13-17 card (2px over); both scripts, both why lines and two 8-12 Try answers were shortened over two re-renders before it passed."
  }
 ]
