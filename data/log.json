@@ -83,11 +83,11 @@
   "date": "2026-09-14",
   "slot": "evening",
   "category": "Good news",
-  "headline": "McConnell is back in the Senate after three months away",
-  "photo": true,
+  "headline": "Three wild dogs trekked 2,500 miles to find a mate",
+  "photo": false,
   "cover_band": "8-12",
   "publish_target": "2026-09-14T20:00-05:00",
   "published": null,
-  "note": "Run fired at 19:11 CT for the 20:00 evening slot; target drawn once at 20:00 CT (offset 0 inside the +/-10 minute window). Positive story under rule 4: cluster #5, McConnell returns to the Senate for the first time since his June hospitalization (3 outlets: AP, PBS NewsHour, The Hill), a recovery. Clusters #1-#4 above it (EPA repeals power-plant emissions limits; mail-ballot ruling and Trump on AI; Russian oligarch paid for Trump Jr.'s wedding; Khalil sues Columbia) are not uplifting. Lead subject Mitch McConnell has not led a slot today and is not in the 7-day log. Written from the PBS NewsHour (AP) article text; the AP and The Hill items had RSS summaries only (403). The PBS summary gives his age as 94 and the article body as 84, so the post gives no age. The Hill says his first vote since June 11 and PBS says absent since June 14, so the post says 'since June'. Photo: Mitch McConnell 2016 official portrait, public domain, via the Commons workflow dispatched through the GitHub MCP tool; allowed because the last two log entries were not both photos. Cover band 8-12 by rotation after 5-7 on 2026-09-14-test. The render rule fired on the 8-12 card (120px over) and the 13-17 card (2px over); both scripts, both why lines and two 8-12 Try answers were shortened over two re-renders before it passed."
+  "note": "Run fired at 19:11 CT for the 20:00 evening slot; target drawn once at 20:00 CT. First build was cluster #5, McConnell returns to the Senate (AP, PBS NewsHour, The Hill), the only uplifting cluster in the top 15; it was rendered, committed and pushed with the McConnell official portrait. During the veto window Dan said it would read as another government story after the Mike Johnson post and asked for alternatives; he chose the BBC wild dogs story (single outlet, outside the top 15, so a rule 4 override at Dan's instruction). SWAPPED at 19:29 CT: post rewritten from the BBC News article text (the only outlet on it). Numbers as BBC gives them: 2,485 miles, eight months, about 6,000 left, two of three sisters died in snares; the headline rounds to 2,500 miles as BBC's own headline does. The 5-7 comparison (farther than Chicago to Los Angeles) is a comparison, not a claim from the article. No photo: no single public-figure or landmark subject. Cover band 8-12 by rotation after 5-7 on 2026-09-14-test. The render rule fired 2px over on the 8-12 and 13-17 cards; both why lines were cut to one line and the 8-12 script trimmed. Same publish target kept."
  }
 ]
