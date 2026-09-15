@@ -89,5 +89,24 @@
   "publish_target": "2026-09-14T20:00-05:00",
   "published": "https://www.instagram.com/p/DdSkxVTDdqR/",
   "note": "Run fired at 19:11 CT for the 20:00 evening slot; target drawn once at 20:00 CT. First build was cluster #5, McConnell returns to the Senate (AP, PBS NewsHour, The Hill), the only uplifting cluster in the top 15; it was rendered, committed and pushed with the McConnell official portrait. During the veto window Dan said it would read as another government story after the Mike Johnson post and asked for alternatives; he chose the BBC wild dogs story (single outlet, outside the top 15, so a rule 4 override at Dan's instruction). SWAPPED at 19:29 CT: post rewritten from the BBC News article text (the only outlet on it). Numbers as BBC gives them: 2,485 miles, eight months, about 6,000 left, two of three sisters died in snares; the headline rounds to 2,500 miles as BBC's own headline does. The 5-7 comparison (farther than Chicago to Los Angeles) is a comparison, not a claim from the article. No photo: no single public-figure or landmark subject. Cover band 8-12 by rotation after 5-7 on 2026-09-14-test. The render rule fired 2px over on the 8-12 and 13-17 cards; both why lines were cut to one line and the 8-12 script trimmed. Same publish target kept. Veto window: Dan said 'ok stay on schedule then' at 19:34 CT; a ScheduleWakeup wake-up was re-armed for 20:00 CT and confirmed by the tool, and it never fired. The session went down (every MCP server disconnected and reconnected) and came back at 20:51 CT on a harness resume prompt, not a message from Dan; Dan's actual message at 20:52 CT asked why it had not posted. No kill/skip/hold had been given, so publish.yml was dispatched immediately per TASK.md §7 (run 34918950948). Second run in a row where a wake-up armed after Dan's reply did not fire (see 2026-09-14-noon). Published at 2026-09-15T01:52:53+0000 (20:52 CT)."
+ },
+ {
+  "slug": "2026-09-15-morning",
+  "date": "2026-09-15",
+  "slot": "morning",
+  "category": "Government",
+  "headline": "Supreme Court blocks Trump's limits on mail ballots",
+  "photo": true,
+  "cover_band": "13-17",
+  "publish_target": "2026-09-15T07:02-05:00",
+  "chosen": "primary",
+  "alternate": {
+   "folder": "posts/2026-09-15-morning-alt",
+   "category": "Climate",
+   "headline": "EPA scraps limits on power plant pollution",
+   "photo": true
+  },
+  "published": null,
+  "note": "Run fired at 06:12 CT for the 07:00 morning slot; target drawn once at 07:02 CT. rank.py listed McConnell's return to the Senate as #1 (4 outlets), but it split the Supreme Court mail-ballot ruling into #4 (AP, PBS NewsHour, The Hill) and #10 (Axios, BBC News): one event, 5 outlets, 10 items, the newest of the day, so it is the #1 cluster under rank.py's own ordering and the morning takes it under rule 3. McConnell was also the story Dan turned down for 2026-09-14-evening. The EPA power-plant repeal (#3 + #11, 5 outlets) and the Trump Jr. wedding (#2 + #14, 5 outlets) were the other merged clusters. Primary written from the PBS NewsHour (AP) text, with BBC News and two Axios pieces as second sources; the AP and The Hill items had no text. The 7-2 count is Axios's; PBS/AP names the two dissenters. Alternate: the EPA repeal, category Climate (not Government, rule 8), written from the BBC News text with Inside Climate News as the second source; the PBS item is a segment blurb. The Trump Jr. wedding cluster was passed over for the alternate because the repeal outranks it on items and the wedding is a scandal story. Photos: the Supreme Court Building (Joe Ravi, CC BY-SA 3.0) for the primary, an institution, and Lee Zeldin's official EPA portrait (public domain) for the alternate; the last two log entries were not both photos. The first Commons run for the Supreme Court found the image but lost a push race with the Zeldin run ('cannot lock ref'); a second dispatch landed it. commons.py wrote the Zeldin artist as 'Unknown authorUnknown author', so the alternate's credit is the no-artist form, 'Photo: Wikimedia Commons, Public domain'. The 5-7 blanket line on the alternate is a comparison, not a claim from the articles. Cover band 13-17 by rotation after 8-12 on 2026-09-14-evening. The render rule fired on the 8-12 and 13-17 cards of both posts (155/61px and 104/96px over, then 2px over); scripts, why lines and Try answers were cut until both exited 0. All ten JPGs checked: two-line headline and two-line question on the primary cover, one-line headline and two-line question on the alternate."
  }
 ]
