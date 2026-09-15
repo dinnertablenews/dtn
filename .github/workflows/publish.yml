@@ -9,16 +9,35 @@ on:
       folder:
         description: "post folder for publish, e.g. posts/2026-09-13-morning"
         required: false
+      publish_at:
+        description: "publish: hold until this time (ISO 8601 with offset, e.g. 2026-09-14T20:00-05:00); empty = now"
+        required: false
 permissions:
   contents: write
 jobs:
   ig:
     runs-on: ubuntu-latest
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - run: pip install -q requests pynacl
+      - name: Hold until publish_at
+        if: inputs.action == 'publish' && inputs.publish_at != ''
+        shell: bash
+        run: |
+          # The timer lives here, not in the Claude session: a job can sleep for an hour without anyone
+          # awake. The veto is a file: push <folder>/HOLD to main before publish_at and publish.py stops.
+          target=$(date -d "${{ inputs.publish_at }}" +%s) || { echo "::error::bad publish_at '${{ inputs.publish_at }}'"; exit 1; }
+          wait=$(( target - $(date +%s) ))
+          if [ $wait -gt 0 ]; then
+            echo "holding ${wait}s until ${{ inputs.publish_at }}; push ${{ inputs.folder }}/HOLD to main to stop"
+            sleep $wait
+          else
+            echo "publish_at is ${wait#-}s in the past; publishing now"
+          fi
+          git pull --rebase origin main   # pick up a HOLD marker or an edit pushed during the window
       - name: Run
         shell: bash
         env:
@@ -28,9 +47,9 @@ jobs:
           set +e
           python publish.py "${{ inputs.action }}" "${{ inputs.folder }}" > /tmp/out.txt 2>&1; rc=$?
           echo "::notice title=publish.py ${{ inputs.action }} rc=$rc::$(tr '\n' ' ' < /tmp/out.txt | tail -c 900)"
-          if [ "${{ inputs.action }}" = "publish" ] && [ $rc = 0 ]; then
+          if [ "${{ inputs.action }}" = "publish" ] && [ $rc = 0 ] && [ -f "${{ inputs.folder }}/published.json" ]; then
             git config user.name dtn-bot; git config user.email bot@dinnertablenews.com
-            git add "${{ inputs.folder }}/published.json" && git commit -m "published ${{ inputs.folder }}" && git pull --rebase origin main && git push origin HEAD:main
+            git add "${{ inputs.folder }}/published.json" data/log.json && git commit -m "published ${{ inputs.folder }}" && git pull --rebase origin main && git push origin HEAD:main
           fi
           if [ "${{ inputs.action }}" = "refresh" ] && [ $rc = 0 ] && [ -n "$GH_PAT" ]; then
             python - <<'PY'

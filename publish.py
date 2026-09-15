@@ -9,6 +9,12 @@ usage:
 Env: IG_ACCESS_TOKEN (required), IG_REPO (owner/repo, default dinnertablenews/dtn), IG_REF (default main).
 Images are served to Instagram from raw.githubusercontent.com, so the post folder must be committed
 and pushed before publishing. Runs inside GitHub Actions; the cloud workspace can't reach graph.instagram.com.
+
+Veto: if <folder>/HOLD exists, publish() stops without posting. The workflow sleeps until its publish_at
+input and pulls main before calling this, so a HOLD pushed during the window is honoured. After a post
+goes live the permalink is written to <folder>/published.json and into the slot's entry in data/log.json
+(the entry whose slug is the folder name, or the folder name minus "-alt" for an alternate), so the log
+is right even when no Claude session is awake to record it.
 """
 import json, os, sys, time, requests
 
@@ -45,8 +51,27 @@ def verify():
           f"publishing quota used {lim['data'][0]['quota_usage']} of {lim['data'][0]['config']['quota_total']} per day")
 
 
+def record(folder, media, log_path="data/log.json"):
+    """Write the permalink into the slot's log entry. The folder name is the slug, or the slug plus
+    "-alt" for the alternate post; the alternate publishing means Dan chose it over the primary."""
+    if not os.path.exists(log_path): return False
+    slug = os.path.basename(folder.rstrip("/"))
+    base = slug[:-4] if slug.endswith("-alt") else slug
+    log = json.load(open(log_path))
+    hits = [e for e in log if e.get("slug") == base]
+    if not hits: return False
+    e = hits[-1]
+    e["published"] = media.get("permalink"); e["published_at"] = media.get("timestamp")
+    e["chosen"] = "alternate" if slug != base else "primary"
+    json.dump(log, open(log_path, "w"), indent=1, ensure_ascii=False); open(log_path, "a").write("\n")
+    return True
+
+
 def publish(folder):
     slug = os.path.basename(folder.rstrip("/"))
+    hold = os.path.join(folder, "HOLD")
+    if os.path.exists(hold):
+        print(f"held: {hold} exists, not publishing. {open(hold).read().strip()[:200]}"); return
     post = json.load(open(os.path.join(folder, "post.json")))
     if os.path.exists(os.path.join(folder, "published.json")):
         raise SystemExit(f"{slug} already published: {open(os.path.join(folder, 'published.json')).read()}")
@@ -68,7 +93,8 @@ def publish(folder):
     pub = call("POST", f"{uid}/media_publish", creation_id=car["id"])
     media = call("GET", pub["id"], fields="id,permalink,timestamp")
     json.dump(media, open(os.path.join(folder, "published.json"), "w"), indent=1)
-    print(f"published {slug}: {media.get('permalink')}")
+    logged = record(folder, media)
+    print(f"published {slug}: {media.get('permalink')}" + ("" if logged else " (no log entry to update)"))
 
 
 def refresh():

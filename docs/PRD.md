@@ -30,8 +30,10 @@ The pipeline is fully automated. A scheduled Claude task selects the story, writ
 feeds.yaml ──► fetch.py (GitHub Action, hourly) ──► data/headlines.json, data/articles.json
                                                           │
 scheduled Claude task (06:10, 11:10, 19:10 CT) ◄──────────┘
-   │  rank.py → pick story → write post.json → commons.yml (photo) → render.py → push
-   │  → notify Dan → wait to the drawn target (veto window) → publish.yml → log permalink
+   │  rank.py → pick primary + alternate → write two post.json → commons.yml (photos) → render.py → push
+   │  → dispatch publish.yml with publish_at → notify Dan
+   ▼
+publish.yml (GitHub Action): sleep to publish_at → pull main → stop if <folder>/HOLD → publish → log permalink
    ▼
 Instagram (Graph API, images served from raw.githubusercontent.com)
 ```
@@ -40,7 +42,7 @@ Three runtimes:
 
 1. **GitHub Actions** (always on): fetch headlines hourly, fetch a Wikimedia Commons image on demand, publish to Instagram on demand, refresh the Instagram token weekly.
 2. **The scheduled Claude task** (three times a day): everything editorial. It runs in Claude Code's cloud sandbox, which cannot reach news sites, Wikimedia, or Instagram, so those calls are delegated to Actions.
-3. **Dan's phone**: receives one notification per run, can reply kill / skip / hold / swap during the window.
+3. **Dan's phone**: receives one notification per run naming the primary and the alternate, can reply kill / skip / hold / alt / swap during the window.
 
 ## 4. Repository layout
 
@@ -165,14 +167,16 @@ Secrets required: `IG_ACCESS_TOKEN` (Instagram long-lived token for the business
 - `config.json` slots: morning 07:00, noon 12:00, evening 20:00 Central. `publish_window_minutes: 10`.
 - The scheduled task fires 40 minutes before each window opens: 06:10, 11:10, 19:10 Central.
 - At the start of the run, `python target.py <slot>` draws the publish minute uniformly within ± 10 minutes of the slot (11:50–12:10 for noon) using the system random source. Drawn once; recorded in the log as `publish_target`; reported in the notification as "Posts at 11:57 CT".
-- After building and pushing, the run schedules a session wake-up for the seconds remaining to the target and ends its turn with a two-line summary plus "Reply kill, skip, or hold here to stop this post." Ending the turn is what sends Dan's phone notification.
-- Dan's replies replace the pending wake-up, so every reply handled during the window is followed by re-arming the wake-up for the remaining time. If the target has passed when the run notices, it publishes immediately and says so.
-- On wake: kill / skip / hold stops the post and logs it; a swap instruction re-runs the writing steps for the named story, then publishes; otherwise it publishes, waits about two minutes, pulls, reads the permalink, records it in the log, and pushes.
-- `dry_run: true` in config does everything except publish.
+- Every slot builds two posts: the primary in `posts/<slug>/` and the alternate in `posts/<slug>-alt/`, from a different category. The primary publishes unless Dan replies "alt".
+- After building and pushing, the run dispatches `publish.yml` with `publish_at` set to the target and ends its turn with a three-line summary (primary, alternate, "Posts at 11:57 CT") plus "Reply kill, skip, or hold to stop it, or alt to run the alternate instead." Ending the turn is what sends Dan's phone notification.
+- The timer is the workflow's: the job sleeps until `publish_at`, pulls `main`, and stops if `<folder>/HOLD` exists. Otherwise it publishes and commits the permalink to `published.json` and to the slot's log entry. No Claude session needs to be awake at the target. (The session's own wake-up failed to fire twice on 2026-09-14 after Dan's replies; the post went out 52 minutes late that evening.)
+- Dan's replies wake the session: kill / skip / hold pushes a HOLD file and cancels the run; alt holds the primary and dispatches the alternate for the same target; an edit or swap is pushed to `main` before the target, or the run is cancelled and re-dispatched. If the target has passed when the build finishes, it dispatches without `publish_at` and publishes at once.
+- A session wake-up is still armed for the target plus three minutes, but only to send Dan the permalink.
+- `dry_run: true` in config does everything except dispatch the publish.
 
 ## 13. Logs and failure handling
 
-`data/log.json` is a list of entries: `slug, date, slot, category, headline, photo, cover_band, publish_target, published, note`. The note records every judgment call: skipped clusters and why, source situation, rule firings, anything unusual. Rules that read the log: 7-day story repeat, lead-subject-per-day, photo-subject and photo-frequency, cover band rotation.
+`data/log.json` is a list of entries: `slug, date, slot, category, headline, photo, cover_band, publish_target, publish_run, chosen, alternate, published, published_at, note`. `alternate` holds the second post's folder, category, headline and photo flag; `chosen` is `primary`, `alternate`, or `none`, and `publish.py` sets it when a post goes live. An alternate that did not run never counts as having run. The note records every judgment call: skipped clusters and why, source situation, rule firings, anything unusual. Rules that read the log: 7-day story repeat, lead-subject-per-day, photo-subject and photo-frequency, cover band rotation.
 
 If a step fails after two tries the run writes `runs/<slug>.log` describing what happened, pushes it, and stops. Known failure it has handled: Instagram returning "API access blocked" (OAuthException 200) for a few hours; the run logged it and stopped, and the post published cleanly later.
 
@@ -182,7 +186,7 @@ If a step fails after two tries the run writes `runs/<slug>.log` describing what
 - `gh api` can read but returns 403 on workflow dispatch in scheduled runs. Dispatch with the GitHub MCP tool (`actions_run_trigger`, `run_workflow`).
 - Chromium is preinstalled for Playwright; `pip install --break-system-packages feedparser requests pyyaml playwright pillow` covers the rest.
 - `gh` installs with apt (the release tarball is blocked).
-- A session holds one pending wake-up at a time, and the user's next message replaces it.
+- A session holds one pending wake-up at a time, the user's next message replaces it, and a wake-up re-armed after a reply has failed to fire. Nothing that must happen on time is left to a session wake-up.
 
 ## 15. Rebuild checklist
 
@@ -206,4 +210,6 @@ Instagram insights per post: reach, saves, shares, comments. Record them in the 
 - **Date on the cover, no slot or time.** The posts are about the day's news and should say so; someone opening a post hours later should never see "tonight" or "noon".
 - **Layout rule forces shorter text rather than smaller type.** The three age cards must look identical in weight.
 - **Caption is generated.** Order matters for engagement and a rule alone drifts; a builder does not.
-- **Random publish minute.** Same-minute posting three times a day looks automated. The window is ± 10 minutes, drawn from the system random source, and the run starts early enough for a single wake-up.
+- **Random publish minute.** Same-minute posting three times a day looks automated. The window is ± 10 minutes, drawn from the system random source, and the run starts early enough to build two posts before it opens.
+- **The timer is a GitHub Action, the veto is a file.** The session's wake-up lost two posts' timing in one day. A workflow job sleeping to `publish_at` needs nobody awake, and a HOLD file on `main` is a veto that works from any device with git access.
+- **Two posts per slot.** Dan chooses between a primary and an alternate from a different category rather than approving or rejecting one story. The alternate costs a second build and buys a real choice in the window.
