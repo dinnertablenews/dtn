@@ -103,7 +103,8 @@ The workflow commits both files to `main` with `git pull --rebase -X theirs` so 
 | `outlet`, `source_url`, `source_domain` | Attribution. Domain as it should read in the caption. |
 | `headline` | ≤ 60 characters, two lines on the cover. |
 | `summary` | 3–5 sentences, ≤ 340 characters. Caption only. |
-| `cover_question` | `{band, q}`. A question a kid of that age would ask about this story. ≤ 40 characters. Must be one of that band's `questions`. |
+| `cover_question` | `{band, q}`. A question a kid of that age would ask about this story. No character cap; the layout rule is the limit. Must be one of that band's `questions`. |
+| `cover_age` | A whole number inside the band. The cover names it ("So your 14-year-old asks"). Drawn once and recorded so a re-render cannot move it. |
 | `cover_answer` | The parent's one-line answer, ≤ 60 characters, no hedge. First line of the caption. |
 | `table_question` | One question anyone at the table can answer without knowing the news. ≤ 70 characters. |
 | `ages.<band>` | `chip`, `script`, `why`, optional `shield: true`. |
