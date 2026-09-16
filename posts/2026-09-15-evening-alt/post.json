@@ -1,0 +1,68 @@
+{
+  "slot": "2026-09-15 20:00 CT alternate",
+  "date": "2026-09-15",
+  "category": "Security",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/cjx2zgk7edlzo",
+  "source_domain": "bbc.com",
+  "headline": "NATO jets shoot down a drone over Lithuania",
+  "summary": "NATO fighter jets shot down a drone that crossed into Lithuania early Tuesday, the country's president said. Officials think it came from Belarus, a Russian ally, and don't yet know who sent it. Alerts sounded across the capital, Vilnius. Denmark said Monday a Russian warship fired flares at one of its helicopters over the Baltic Sea.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "Why did they shoot down the drone?"
+  },
+  "cover_answer": "It crossed the line. Nobody knows yet who sent it.",
+  "table_question": "If someone keeps poking you but never hits, when do you push back?",
+  "ages": {
+    "5-7": {
+      "shield": true,
+      "script": "A drone, a flying robot with no pilot, flew into a country called Lithuania last night. Jets from its friends went up and knocked it out of the sky, the way a goalie blocks a ball before it reaches the net. Nobody knows yet who sent it. The grown-ups have it.",
+      "why": "A flying robot and a goalie are things they can picture. Where it came from is not their problem."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "Just after midnight, a drone crossed into Lithuania, likely from Belarus, a friend of Russia. Italian pilots flying for NATO shot it down. NATO is a buddy system: attack one member and the rest treat it as an attack on all. Nobody has said whose drone it was.",
+      "why": "The buddy system is the mechanism."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "When does 'not quite war' become war? A drone over Lithuania, a Russian warship firing flares at a Danish helicopter, Polish jets scrambling, all within a day. Poland's foreign minister wants NATO to hit back. Where would you draw the line?",
+      "why": "The line-drawing is the whole debate."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Could a drone come here?",
+        "a": "This one was over Lithuania, an ocean away. Jets there watch the sky for exactly this. The grown-ups have it."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why did they shoot down the drone?",
+        "a": "It flew into Lithuania's airspace uninvited. NATO's job is to guard that airspace, so its jets took it down. Nobody knows yet who sent it."
+      },
+      {
+        "q": "Is this the start of a war?",
+        "a": "No. Nobody has claimed the drone, and Russia hasn't commented. NATO jets have shot down stray drones over Estonia and Latvia this year too."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why doesn't NATO hit back?",
+        "a": "Nobody has proven who sent it. Poland's foreign minister wants more from NATO. A former US ambassador said: draw the line now."
+      },
+      {
+        "q": "What does 'gray zone' mean?",
+        "a": "Moves that stay just short of war: a drone here, flares at a helicopter there. Semafor says the aim is to blur the line between peace and conflict."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#NATO",
+    "#DinnerTableNews"
+  ],
+  "caption": "It crossed the line. Nobody knows yet who sent it.\n\nNATO fighter jets shot down a drone that crossed into Lithuania early Tuesday, the country's president said. Officials think it came from Belarus, a Russian ally, and don't yet know who sent it. Alerts sounded across the capital, Vilnius. Denmark said Monday a Russian warship fired flares at one of its helicopters over the Baltic Sea.\n\nSource: BBC News, bbc.com\n\nSwipe for what to say at 5, at 10, and at 15.\n\nThe dinner table question: If someone keeps poking you but never hits, when do you push back? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #NATO #DinnerTableNews"
+}
