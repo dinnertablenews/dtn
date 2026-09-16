@@ -1,9 +1,191 @@
 {
- "fetched_at": "2026-09-16T09:29:12.629175+00:00",
+ "fetched_at": "2026-09-16T10:29:42.287199+00:00",
  "window_hours": 48,
- "count": 440,
+ "count": 443,
  "errors": [],
  "items": [
+  {
+   "title": "EU chief opens door for Canada to become 'associate member'",
+   "link": "https://www.bbc.co.uk/news/articles/cjwyzrr9d3dko?at_medium=RSS&at_campaign=rss",
+   "summary": "Canada is seeking closer ties with EU after a breakdown in relations with the US and its president Donald Trump.",
+   "published": "2026-09-16T10:28:45+00:00",
+   "source": "bbc",
+   "outlet": "BBC News",
+   "counted": true,
+   "section": "top",
+   "id": "7f9405e3d154",
+   "article_url": "https://www.bbc.co.uk/news/articles/cjwyzrr9d3dko?at_medium=RSS&at_campaign=rss",
+   "has_text": true
+  },
+  {
+   "title": "White-tailed eagle chicks fledge for fourth year",
+   "link": "https://www.bbc.co.uk/news/articles/cm9dwvngy808o?at_medium=RSS&at_campaign=rss",
+   "summary": "The Forestry England and the Roy Dennis Wildlife Foundation reintroduction project began in 2019.",
+   "published": "2026-09-16T10:23:24+00:00",
+   "source": "bbc",
+   "outlet": "BBC News",
+   "counted": true,
+   "section": "climate",
+   "id": "e2641ad1b81c",
+   "article_url": "https://www.bbc.co.uk/news/articles/cm9dwvngy808o?at_medium=RSS&at_campaign=rss",
+   "has_text": true
+  },
+  {
+   "title": "Watch: Will Ed Sheeran cancel his tour as support acts quit?",
+   "link": "https://www.bbc.co.uk/news/videos/ck7v40jjv367o?at_medium=RSS&at_campaign=rss",
+   "summary": "Sheeran's backing band and all of his support acts pulled out of his US tour, so what happens now?",
+   "published": "2026-09-16T10:10:41+00:00",
+   "source": "bbc",
+   "outlet": "BBC News",
+   "counted": true,
+   "section": "top",
+   "id": "4d86cce2e4a8",
+   "article_url": "https://www.bbc.co.uk/news/videos/ck7v40jjv367o?at_medium=RSS&at_campaign=rss",
+   "has_text": true
+  },
+  {
+   "title": "OpenAI boss says world 'right to be afraid' but should trust AI firms",
+   "link": "https://www.bbc.co.uk/news/articles/cqx2zpj4y525o?at_medium=RSS&at_campaign=rss",
+   "summary": "Sam Altman and other tech CEOs say there are incentives to limit advancements in AI, as fears grow over the threats it poses to humanity.",
+   "published": "2026-09-16T10:02:05+00:00",
+   "source": "bbc",
+   "outlet": "BBC News",
+   "counted": true,
+   "section": "top",
+   "id": "35edba26b84c",
+   "article_url": "https://www.bbc.co.uk/news/articles/cqx2zpj4y525o?at_medium=RSS&at_campaign=rss",
+   "has_text": true
+  },
+  {
+   "title": "Trump’s allies eye big spending cuts as part of postelection agenda",
+   "link": "https://thehill.com/homenews/state-watch/6091536-senate-plans-spending-cuts/",
+   "summary": "Senate conservatives allied with President Trump are laying the groundwork for substantial cuts to federal spending in the postelection, lame-duck Congress to offset tens of billions of dollars in new defense spending, including funding for the war in Iran, if Democrats pick up seats on Election Day. Senate Majority Leader John Thune (R-S.D.) announced Tuesday…",
+   "published": "2026-09-16T10:00:00+00:00",
+   "source": "thehill",
+   "outlet": "The Hill",
+   "counted": true,
+   "section": "top",
+   "id": "e9331d8051be",
+   "article_url": "https://thehill.com/homenews/state-watch/6091536-senate-plans-spending-cuts/",
+   "has_text": false
+  },
+  {
+   "title": "Texas universities purge core courses as political pressure takes its toll",
+   "link": "https://thehill.com/homenews/state-watch/6090827-texas-universities-courses-abbott/",
+   "summary": "Public universities in Texas have dropped hundreds of courses from their core curricula — or altogether — amid rising political pressure over the last two years. Texas A&M University has removed 350 core listings across its system, many dealing with gender, race and other popular GOP targets. The University of Houston has nixed 133 classes…",
+   "published": "2026-09-16T10:00:00+00:00",
+   "source": "thehill",
+   "outlet": "The Hill",
+   "counted": true,
+   "section": "top",
+   "id": "03c5cf750131",
+   "article_url": "https://thehill.com/homenews/state-watch/6090827-texas-universities-courses-abbott/",
+   "has_text": false
+  },
+  {
+   "title": "Warsh under pressure as Fed considers rate hike",
+   "link": "https://thehill.com/business/6090682-fed-chair-warsh-interest-rate-decision/",
+   "summary": "Federal Reserve Chair Kevin Warsh finds himself in a tricky position as the central bank commences its September meeting, as rising expectations of an interest rate hike clash with President Trump’s demands for cuts. Warsh gave himself wiggle room for a rate hike in late August, saying the central bank had “work to do” if underlying inflation was not moving toward its 2 percent target. But Trump, who…",
+   "published": "2026-09-16T10:00:00+00:00",
+   "source": "thehill",
+   "outlet": "The Hill",
+   "counted": true,
+   "section": "top",
+   "id": "87a8420e9080",
+   "article_url": "https://thehill.com/business/6090682-fed-chair-warsh-interest-rate-decision/",
+   "has_text": true
+  },
+  {
+   "title": "Lawmakers scramble to catch-up on AI",
+   "link": "https://thehill.com/policy/technology/6091629-senate-scrambles-over-ai-safety/",
+   "summary": "Washington is scrambling to manage the abrupt panic around AI development, but party politics, a limited legislative window and lack of consensus makes it an uphill, next-to-impossible task. In the wake of a researcher’s viral warning about the technology, lawmakers on both sides of the aisle are floating numerous proposals to prevent the negative potential…",
+   "published": "2026-09-16T10:00:00+00:00",
+   "source": "thehill",
+   "outlet": "The Hill",
+   "counted": true,
+   "section": "top",
+   "id": "12cf156f85b0",
+   "article_url": "https://thehill.com/policy/technology/6091629-senate-scrambles-over-ai-safety/",
+   "has_text": false
+  },
+  {
+   "title": "Global stocks advance ahead of Fed’s interest rate decision",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTW5lU3JQLXljZW5VaC1SY3Y4Y1IzVk9ncDBrUVFuZHFkZXRQSVQzTVI4Y0x0Z1NwazVzVkR5cmNxWkdPOXE0VGNTd1M1YWVwZVlNclRQOC1JMmdxWXZSVnpiYXpBNFExNlc5RGJfbldXNmlVY0RlTWdlSW1wc25HNHlTQjdfRjloQ3FEMnRMNWZPTGxpZnUzRGVLUWQ?oc=5",
+   "summary": "Global stocks advance ahead of Fed’s interest rate decision AP News",
+   "published": "2026-09-16T09:54:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "2674fef11523",
+   "article_url": "https://apnews.com/article/stocks-markets-fed-rate-decision-oil-e2e82957e490b7be205db6013f621c3d",
+   "has_text": false
+  },
+  {
+   "title": "Journalist and pilot among three killed after news helicopter crashes in LA",
+   "link": "https://www.bbc.co.uk/news/articles/cw4gq0j5jg10o?at_medium=RSS&at_campaign=rss",
+   "summary": "The NBCLA news helicopter was flying near the scene of a fatal bus crash.",
+   "published": "2026-09-16T09:49:48+00:00",
+   "source": "bbc",
+   "outlet": "BBC News",
+   "counted": true,
+   "section": "top",
+   "id": "b7f7fe87e65e",
+   "article_url": "https://www.bbc.co.uk/news/articles/cw4gq0j5jg10o?at_medium=RSS&at_campaign=rss",
+   "has_text": true
+  },
+  {
+   "title": "At least 20 killed after war-damaged Gaza building collapses",
+   "link": "https://www.bbc.co.uk/news/articles/cvp8d00j9gg5o?at_medium=RSS&at_campaign=rss",
+   "summary": "Dozens of people are missing beneath the rubble of the building in Gaza City, where 10 families had reportedly been living.",
+   "published": "2026-09-16T09:45:19+00:00",
+   "source": "bbc",
+   "outlet": "BBC News",
+   "counted": true,
+   "section": "top",
+   "id": "9586e515e9f6",
+   "article_url": "https://www.bbc.co.uk/news/articles/cvp8d00j9gg5o?at_medium=RSS&at_campaign=rss",
+   "has_text": true
+  },
+  {
+   "title": "All support acts on Ed Sheeran's US tour quit after Macklemore dropped",
+   "link": "https://www.bbc.co.uk/news/articles/c3vgyn49y4l7o?at_medium=RSS&at_campaign=rss",
+   "summary": "The star said he was not responsible for Macklemore being dropped from the line-up after he made pro-Palestinian statements on stage.",
+   "published": "2026-09-16T09:36:54+00:00",
+   "source": "bbc",
+   "outlet": "BBC News",
+   "counted": true,
+   "section": "top",
+   "id": "60f881f77818",
+   "article_url": "https://www.bbc.co.uk/news/articles/c3vgyn49y4l7o?at_medium=RSS&at_campaign=rss",
+   "has_text": true
+  },
+  {
+   "title": "Tall athletes can't stretch their legs in container beds at Asian Games, official says",
+   "link": "https://www.bbc.co.uk/news/articles/c620lg854v45o?at_medium=RSS&at_campaign=rss",
+   "summary": "South Korea's delegation slams the wooden containers housing its athletes at the Asian Games in Nagoya city.",
+   "published": "2026-09-16T09:33:40+00:00",
+   "source": "bbc",
+   "outlet": "BBC News",
+   "counted": true,
+   "section": "top",
+   "id": "224c71933195",
+   "article_url": "https://www.bbc.co.uk/news/articles/c620lg854v45o?at_medium=RSS&at_campaign=rss",
+   "has_text": true
+  },
+  {
+   "title": "An aging Congress' dilemma: Can they regulate AI without using it?",
+   "link": "https://www.axios.com/2026/09/16/lawmakers-regulate-ai-without-using-it",
+   "summary": "Members of Congress and governors are under increasing pressure to regulate AI , but more than two dozen of them who spoke with Axios said they don't use the technology or have rarely done so. Why it matters: That striking admission — particularly among older, influential lawmakers — comes amid calls for an AI slowdown and warnings within the industry that it could end humanity if left unchecked. Critics argue that it's impossible for politicians to grasp how rapidly the technology is changing — and the threats or scientific breakthroughs it might unleash — if they don't use it or even dismiss",
+   "published": "2026-09-16T09:30:09+00:00",
+   "source": "axios",
+   "outlet": "Axios",
+   "counted": true,
+   "section": "top",
+   "id": "cdb1df3ccd14",
+   "article_url": "https://www.axios.com/2026/09/16/lawmakers-regulate-ai-without-using-it",
+   "has_text": true
+  },
   {
    "title": "Trump escalates war on federal data",
    "link": "https://www.axios.com/2026/09/16/trump-data-census-eeoc-cdc-interference",
@@ -18,17 +200,17 @@
    "has_text": true
   },
   {
-   "title": "OpenAI boss says world 'right to be afraid' but should trust AI firms",
-   "link": "https://www.bbc.co.uk/news/articles/cqx2zpj4y525o?at_medium=RSS&at_campaign=rss",
-   "summary": "Sam Altman and other tech CEOs say there are incentives to limit advancements in AI, as fears grow over the threats it poses to humanity.",
-   "published": "2026-09-16T09:16:13+00:00",
-   "source": "bbc",
-   "outlet": "BBC News",
+   "title": "Trump administration hits South Africa with new sanctions over alleged discrimination against whites",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSlphNE02VVM2WHAwRWlldWxYOW9fVUVyQU53Qk1CNFdPWHNsNlpaczBZYkNmLXNQRmFBaUdaRjV2dnk3UWRRRzdXTFQxV21hZ2JPQVVKSlBhLXR6SnNuWnk5dWFJRC1Qb0Q0ejZObzh4eEtkeHU1cDUxU1NDN0dYdVBpUVBZVVdxTER0djFJMFAtd0FpZUtmZGtqUmEzN1dm?oc=5",
+   "summary": "Trump administration hits South Africa with new sanctions over alleged discrimination against whites AP News",
+   "published": "2026-09-16T09:20:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
    "counted": true,
    "section": "top",
-   "id": "35edba26b84c",
-   "article_url": "https://www.bbc.co.uk/news/articles/cqx2zpj4y525o?at_medium=RSS&at_campaign=rss",
-   "has_text": true
+   "id": "057407b92b5b",
+   "article_url": "https://apnews.com/article/us-trump-rubio-south-africa-whites-visa-5cedd7e02f570f5bbf4cdd3cef365fb9",
+   "has_text": false
   },
   {
    "title": "The public wants a say in AI development",
@@ -55,6 +237,32 @@
    "id": "1b36061db868",
    "article_url": "https://www.axios.com/2026/09/16/us-economy-income-census",
    "has_text": true
+  },
+  {
+   "title": "A damaged building collapses in Gaza, killing at least 16, and other Mideast developments",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPM3NvWTE1SWRZbkRsSHZmSWNYNFFBRElYcVNKTVZ1LTlXUGZycm1nU0NqdV9LMmR3LTdWd0xBQ1oybC1iOWdnQTNjenJ5Wl9uUE51SXlSN0pnWTk5WHBMOVJzWlcxZ2NOSkNZUTZza3lNd3BIcE5WbEt3UUNMYWlqUzNkX2hfOXpEeVQwVjBseGJfbUpqWk5tVUNQYTQtdDM3Z3ZmTFFuMTB2RXVMTWlMbw?oc=5",
+   "summary": "A damaged building collapses in Gaza, killing at least 16, and other Mideast developments AP News",
+   "published": "2026-09-16T09:09:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "ad14f1c30fc3",
+   "article_url": "https://apnews.com/article/yemen-gaza-houthi-saudi-warplanes-september-16-2026-567498d0aa85a32e9c294759bd943501",
+   "has_text": false
+  },
+  {
+   "title": "Americans are increasingly concerned about the environmental impact of AI, new poll finds",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTXRuY2Jucy1oTW9YNF9ZaXEybXMtMENxZGQ3Y3ItU2JSTW5DNlJ5VzV4S0Fua2EzZ1dKLWtTS3JTQjdUaEozNGQ1U2E3cnpzSzllaE1oaVlIZW9rT1dMM1AtR2RyWFBqdjdWTk8tcmw4VVk1TmM3TUxYelV3bURteGwzX2tRSDFodC1kYURZeFVJaEFPbUV0QktQdUxDR2wteXo1NQ?oc=5",
+   "summary": "Americans are increasingly concerned about the environmental impact of AI, new poll finds AP News",
+   "published": "2026-09-16T09:05:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "b457c1209801",
+   "article_url": "https://apnews.com/article/ai-environmental-impact-data-centers-trump-228d625ab7c62cd583bc67d65074f7d4",
+   "has_text": false
   },
   {
    "title": "3 people killed when NBC and Telemundo news helicopter crashes while covering LA bus collision",
@@ -200,17 +408,30 @@
    "has_text": true
   },
   {
-   "title": "All support acts on Ed Sheeran's US tour quit after Macklemore dropped",
-   "link": "https://www.bbc.co.uk/news/articles/c3vgyn49y4l7o?at_medium=RSS&at_campaign=rss",
-   "summary": "The star said he was not responsible for Macklemore being dropped from the line-up after he made pro-Palestinian statements on stage.",
-   "published": "2026-09-16T08:35:56+00:00",
-   "source": "bbc",
-   "outlet": "BBC News",
+   "title": "Centenarians living in Japan exceed 100,000 for the first time",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcFR3cy1GWllpc19xemxPbjFpTnhwd21YQ3V2c1Y1LUhVYl9SYTlvVzBHSHRWZHhMS3gtS0wxY3hpR1kyNVF1d1FNSjZVLUEtYnNKeUtKZ0xyNkg5SXJMNXppdi1Qd3luMVBtY3BSMFdGNFpxVDMxV1h6bWtaT2RYSlp1N0Y3aG5nOUJ4RWtoSm9TMV9scnpmcFJPUG84OEpOWWNRUEMtZVgzU21iSTdv?oc=5",
+   "summary": "Centenarians living in Japan exceed 100,000 for the first time AP News",
+   "published": "2026-09-16T08:30:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
    "counted": true,
    "section": "top",
-   "id": "60f881f77818",
-   "article_url": "https://www.bbc.co.uk/news/articles/c3vgyn49y4l7o?at_medium=RSS&at_campaign=rss",
-   "has_text": true
+   "id": "fb8e70acf678",
+   "article_url": "https://apnews.com/article/japan-aging-centenarians-population-decline-health-34e0fecbf9b31946d986abba42e3f427",
+   "has_text": false
+  },
+  {
+   "title": "EU chief proposes social media ban for kids under 13",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPX0ZKTkNJVWdFUGNSRFNpeUFDdDhzbWIyc00zc3RjZ0JCMUEwaFItN0J4eHBLSnE0UHJDd1BZVk9WQ29pV1dzamVEZ0JqOV9zblQycXdYN2Q4RmRXTVd4dVZYdVI3R3hLS3ZSWkVsMlVNUEpiZ1dFQVptWEg4MlpoYkxLeHRlSFpHSHFpSk1DUGJjRjlaeWhMeDRn?oc=5",
+   "summary": "EU chief proposes social media ban for kids under 13 AP News",
+   "published": "2026-09-16T08:25:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "038d0dbdcec9",
+   "article_url": "https://apnews.com/article/europe-leyen-social-media-ban-kids-3e7176ea409ba4af0a069f5ca7dd9680",
+   "has_text": false
   },
   {
    "title": "Moment NBC presenters confirm live on air that their helicopter crashed in LA",
@@ -239,32 +460,6 @@
    "has_text": false
   },
   {
-   "title": "At least 12 killed after war-damaged Gaza building collapses",
-   "link": "https://www.bbc.co.uk/news/articles/cvp8d00j9gg5o?at_medium=RSS&at_campaign=rss",
-   "summary": "Dozens of people are missing beneath the rubble of the building in Gaza City, where 10 families had reportedly been living.",
-   "published": "2026-09-16T07:58:22+00:00",
-   "source": "bbc",
-   "outlet": "BBC News",
-   "counted": true,
-   "section": "top",
-   "id": "9586e515e9f6",
-   "article_url": "https://www.bbc.co.uk/news/articles/cvp8d00j9gg5o?at_medium=RSS&at_campaign=rss",
-   "has_text": true
-  },
-  {
-   "title": "Asian stocks mostly higher ahead of Fed’s interest rate decision",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTW5lU3JQLXljZW5VaC1SY3Y4Y1IzVk9ncDBrUVFuZHFkZXRQSVQzTVI4Y0x0Z1NwazVzVkR5cmNxWkdPOXE0VGNTd1M1YWVwZVlNclRQOC1JMmdxWXZSVnpiYXpBNFExNlc5RGJfbldXNmlVY0RlTWdlSW1wc25HNHlTQjdfRjloQ3FEMnRMNWZPTGxpZnUzRGVLUWQ?oc=5",
-   "summary": "Asian stocks mostly higher ahead of Fed’s interest rate decision AP News",
-   "published": "2026-09-16T07:54:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "2674fef11523",
-   "article_url": "https://apnews.com/article/stocks-markets-fed-rate-decision-oil-e2e82957e490b7be205db6013f621c3d",
-   "has_text": false
-  },
-  {
    "title": "Hague court to deliver verdict in war crimes trial of Kosovo’s former President Thaci",
    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcG5kUDZnVlhBR21QQ0hMeU41Rjc2d01aZDByenE0TzJiUmhwblNId1dHLU80U3ItSXcxSUVXSG1FZ2NOUmJWX3BaUUZnU0RLVHN3LWhhZ19PWXlRMGlvNzhNOUh4bkNUOGxkVE9wdWF5V2tkMjkxY3BkVF84LWdUbGRkclNJWWlXRkg2VkdzRjNtc1VM?oc=5",
    "summary": "Hague court to deliver verdict in war crimes trial of Kosovo’s former President Thaci AP News",
@@ -275,6 +470,19 @@
    "section": "top",
    "id": "9707d6b3357e",
    "article_url": "https://apnews.com/article/thaci-kosovo-serbia-war-crimes-0b24b81d6e1ca8f01d8b8b54bb465ee9",
+   "has_text": false
+  },
+  {
+   "title": "US acknowledges for the first time that it has deployed weapons in space",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaTA1b21Gd0FmOUU2Z0pROU1nZGlhTlgwZmJ3eHBTWjZzRUh0bmd1UC1xdFpGLVdWTjFJOS1RMzBFbFdIREVqbUNZOWJTb0NyaUUtSEc5MGVSbTNHQWlmY3owNHhXUENhamZYZ2I1aFBqUDhoanh3bTBPb29ReURHRENFRW10QW5xOVpF?oc=5",
+   "summary": "US acknowledges for the first time that it has deployed weapons in space AP News",
+   "published": "2026-09-16T07:16:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "41d34b8091de",
+   "article_url": "https://apnews.com/article/space-weapons-air-force-5a2a0ada771daaf4fbef0991d8c09259",
    "has_text": false
   },
   {
@@ -314,32 +522,6 @@
    "section": "climate",
    "id": "c28aeec08fb3",
    "article_url": "https://www.bbc.co.uk/news/articles/cx3051l0r636o?at_medium=RSS&at_campaign=rss",
-   "has_text": true
-  },
-  {
-   "title": "A damaged building collapses in Gaza, killing at least 12 people and other Mideast developments",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPM3NvWTE1SWRZbkRsSHZmSWNYNFFBRElYcVNKTVZ1LTlXUGZycm1nU0NqdV9LMmR3LTdWd0xBQ1oybC1iOWdnQTNjenJ5Wl9uUE51SXlSN0pnWTk5WHBMOVJzWlcxZ2NOSkNZUTZza3lNd3BIcE5WbEt3UUNMYWlqUzNkX2hfOXpEeVQwVjBseGJfbUpqWk5tVUNQYTQtdDM3Z3ZmTFFuMTB2RXVMTWlMbw?oc=5",
-   "summary": "A damaged building collapses in Gaza, killing at least 12 people and other Mideast developments AP News",
-   "published": "2026-09-16T07:04:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "ad14f1c30fc3",
-   "article_url": "https://apnews.com/article/yemen-gaza-houthi-saudi-warplanes-september-16-2026-567498d0aa85a32e9c294759bd943501",
-   "has_text": false
-  },
-  {
-   "title": "Three killed after LA news helicopter crashes while covering deadly bus collision",
-   "link": "https://www.bbc.co.uk/news/articles/cw4gq0j5jg10o?at_medium=RSS&at_campaign=rss",
-   "summary": "The NBCLA news helicopter was flying near the scene of a fatal bus crash.",
-   "published": "2026-09-16T07:00:58+00:00",
-   "source": "bbc",
-   "outlet": "BBC News",
-   "counted": true,
-   "section": "top",
-   "id": "b7f7fe87e65e",
-   "article_url": "https://www.bbc.co.uk/news/articles/cw4gq0j5jg10o?at_medium=RSS&at_campaign=rss",
    "has_text": true
   },
   {
@@ -431,6 +613,19 @@
    "section": "top",
    "id": "0caa6dc5a116",
    "article_url": "https://apnews.com/article/ai-slowdown-challenges-anthropic-openai-trump-b61f28b6212338e88c0baec31f661701",
+   "has_text": false
+  },
+  {
+   "title": "Texas plans to execute a man convicted in the killings of 3 people; Georgia execution put on hold",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSW1fblRSVnk3aFRtRkkxYnRnbzJqbjZoaDN5OXNkcXprTmlEcmtrMkp3cDQza0NNQ1NCSmZRYUU2a1hqRjVkdjdfV2doYzZkbmpmQ1FmdDFNVnZYeV8tYlkwbEJQLTluVDFlQmxYNVZ1X0pLY3pacENtcGpVdl81czUxdVdRSHlLS1lMYUVUYkYtZzVWazFvNVhYakUzQ0hheFE?oc=5",
+   "summary": "Texas plans to execute a man convicted in the killings of 3 people; Georgia execution put on hold AP News",
+   "published": "2026-09-16T04:11:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "785d8a1cec23",
+   "article_url": "https://apnews.com/article/texas-norman-georgia-humphreys-execution-a24d81f4df9423422ab11fdeb3a3fade",
    "has_text": false
   },
   {
@@ -627,19 +822,6 @@
    "has_text": false
   },
   {
-   "title": "US acknowledges for the first time that it has deployed weapons in space",
-   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaTA1b21Gd0FmOUU2Z0pROU1nZGlhTlgwZmJ3eHBTWjZzRUh0bmd1UC1xdFpGLVdWTjFJOS1RMzBFbFdIREVqbUNZOWJTb0NyaUUtSEc5MGVSbTNHQWlmY3owNHhXUENhamZYZ2I1aFBqUDhoanh3bTBPb29ReURHRENFRW10QW5xOVpF?oc=5",
-   "summary": "US acknowledges for the first time that it has deployed weapons in space AP News",
-   "published": "2026-09-16T01:42:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "41d34b8091de",
-   "article_url": "https://apnews.com/article/space-weapons-air-force-5a2a0ada771daaf4fbef0991d8c09259",
-   "has_text": false
-  },
-  {
    "title": "Coons to face off against Katz in solid blue Delaware Senate race",
    "link": "https://thehill.com/homenews/campaign/6091263-chris-coons-delaware-senate-win/",
    "summary": "Democratic Sen. Chris Coons (D-Del.) is set to sail through to another term in the Senate after winning his Tuesday primary in his solidly blue state, Decision Desk HQ projects. He’ll face off this fall against former state Sen. Michael Katz, who faced U.S. Army Reserves Col. John Shulli in the fight for the Republican nod.…",
@@ -686,7 +868,7 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "climate",
+   "section": "top",
    "id": "9296c50e30ff",
    "article_url": "https://apnews.com/article/france-kim-kardashian-jewel-heist-061044ef3c1a792f73002373ee6b8d9f",
    "has_text": false
@@ -856,19 +1038,6 @@
    "section": "top",
    "id": "0f34391a2013",
    "article_url": "https://apnews.com/article/dolly-parton-death-corn-mazes-farms-a276ad26b19a82433e8014ca22a00663",
-   "has_text": false
-  },
-  {
-   "title": "Trump's push to restrict mail ballots has failed. Other efforts to reshape the midterms are ongoing",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdkxhRjYtTWNCZ3AzVkFYSjkwVHRQVTNCWW03VkdscFZzUlgtOFl5NllzVEZ5VlpuVEFEYnpEclgtdHZqOUxqNzRYWnFpQVBwRU5ubDhhV1hCQXkzVDI0TnJ2WUdIcjBOUDc1RWxJMEJxQlpuX0xETTI4UTVjYVo5em56UWN1empVbjcycTNUVjFsdHRKUGk4bGszc1Q3VHMxQjdHQkRlV2FWclMtQVA4?oc=5",
-   "summary": "Trump's push to restrict mail ballots has failed. Other efforts to reshape the midterms are ongoing AP News",
-   "published": "2026-09-15T23:12:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "ac9756c24390",
-   "article_url": "https://apnews.com/article/donald-trump-mail-ballots-voting-election-midterms-1437f497b384741c143c97db9803426c",
    "has_text": false
   },
   {
@@ -1457,6 +1626,19 @@
    "has_text": false
   },
   {
+   "title": "Trump's push to restrict mail ballots has failed. Other efforts to reshape the midterms are ongoing",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdkxhRjYtTWNCZ3AzVkFYSjkwVHRQVTNCWW03VkdscFZzUlgtOFl5NllzVEZ5VlpuVEFEYnpEclgtdHZqOUxqNzRYWnFpQVBwRU5ubDhhV1hCQXkzVDI0TnJ2WUdIcjBOUDc1RWxJMEJxQlpuX0xETTI4UTVjYVo5em56UWN1empVbjcycTNUVjFsdHRKUGk4bGszc1Q3VHMxQjdHQkRlV2FWclMtQVA4?oc=5",
+   "summary": "Trump's push to restrict mail ballots has failed. Other efforts to reshape the midterms are ongoing AP News",
+   "published": "2026-09-15T21:36:25+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "ac9756c24390",
+   "article_url": "https://apnews.com/article/donald-trump-mail-ballots-voting-election-midterms-1437f497b384741c143c97db9803426c",
+   "has_text": false
+  },
+  {
    "title": "Trump: Kennedy Center won’t be renovated if courts deny board’s naming plan",
    "link": "https://thehill.com/regulation/court-battles/6091551-trump-threatens-kennedy-center-renovation/",
    "summary": "President Trump said Tuesday that the Kennedy Center will not be renovated if courts shoot down the naming plan chosen by the center’s board. “The Board of The Kennedy Center today agreed, almost unanimously, to close the Building for Safety reasons, and so that it can begin the process of Reconstruction,” the president said in…",
@@ -1519,19 +1701,6 @@
    "section": "top",
    "id": "2324a3c3d629",
    "article_url": "https://thehill.com/blogs/in-the-know/6091558-finneas-withdraws-sheeran-tour/",
-   "has_text": false
-  },
-  {
-   "title": "As the world debates the risks of AI, China closes the technology gap with the US",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQM3NlSUcxUzlYaVFjcDdaWS1NQUY2WUR6THkxamlKbFozMkRsNXUwbl90STl2dmtDZ0d2dXBhNG4wRVA1TXIwSDZJM1laZVJJRDFKV1dXU3gzX2loT0p2Tl94T2h2ZXhfdGJOX3h4MkpZSzZkeHVMTEpWM2pNdU1vSkx2Tk50YTJnNWcydVo2NzdnNGl3RzJ2ZXhB?oc=5",
-   "summary": "As the world debates the risks of AI, China closes the technology gap with the US AP News",
-   "published": "2026-09-15T21:30:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "988f242a50ce",
-   "article_url": "https://apnews.com/article/china-us-ai-models-safety-concerns-adb45169d436d5f940fc7b4ebeaeef3b",
    "has_text": false
   },
   {
@@ -1678,19 +1847,6 @@
    "has_text": false
   },
   {
-   "title": "Live results: McBride seeks second term as Delaware’s lone House lawmaker",
-   "link": "https://thehill.com/homenews/campaign/6090171-live-results-delaware-house-primary/",
-   "summary": "Voters in the First State head to the polls on Tuesday for the Democratic and Republican primaries for their lone U.S. House seat. First-term Rep. Sarah McBride (D-Del.) begins her reelection effort running unopposed in the Democratic primary after taking over the seat from now-Sen. Lisa Blunt Rochester (D-Del.) in 2025. McBride is the first…",
-   "published": "2026-09-15T21:00:00+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "ae81e93a9495",
-   "article_url": "https://thehill.com/homenews/campaign/6090171-live-results-delaware-house-primary/",
-   "has_text": false
-  },
-  {
    "title": "Live results: Coons looks to fend off challenger in Delaware Senate primary",
    "link": "https://thehill.com/homenews/campaign/6090125-live-results-delaware-senate-primary/",
    "summary": "Voters in the First State head to the polls on Tuesday to cast their ballots in the Democratic and Republican primaries, closing out the primary season for 2026. Sen. Chris Coons (D-Del.) has held his Senate seat for 16 years, taking over the seat vacated by Joe Biden when he became vice president in 2009…",
@@ -1701,6 +1857,19 @@
    "section": "top",
    "id": "9eebbfc47e3c",
    "article_url": "https://thehill.com/homenews/campaign/6090125-live-results-delaware-senate-primary/",
+   "has_text": false
+  },
+  {
+   "title": "Live results: McBride seeks second term as Delaware’s lone House lawmaker",
+   "link": "https://thehill.com/homenews/campaign/6090171-live-results-delaware-house-primary/",
+   "summary": "Voters in the First State head to the polls on Tuesday for the Democratic and Republican primaries for their lone U.S. House seat. First-term Rep. Sarah McBride (D-Del.) begins her reelection effort running unopposed in the Democratic primary after taking over the seat from now-Sen. Lisa Blunt Rochester (D-Del.) in 2025. McBride is the first…",
+   "published": "2026-09-15T21:00:00+00:00",
+   "source": "thehill",
+   "outlet": "The Hill",
+   "counted": true,
+   "section": "top",
+   "id": "ae81e93a9495",
+   "article_url": "https://thehill.com/homenews/campaign/6090171-live-results-delaware-house-primary/",
    "has_text": false
   },
   {
@@ -1792,6 +1961,19 @@
    "section": "top",
    "id": "6677d281534d",
    "article_url": "https://thehill.com/homenews/state-watch/6091305-cleveland-council-renames-lake-erie/",
+   "has_text": false
+  },
+  {
+   "title": "Prince Harry and Meghan move children to new school over security concerns",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVW1vVzNycEJQaDRFb3NvUndpUXVHbzlCQkRKa1pBdzVfMXR5aDhqQ29tRjJRT1lVUFNpQjZTRXNfUmNudm5YeGxocW5pdjNmSTNYaldjMHFoSjRidUNmaFZldXZqRUdhRWpXUk5TaENSc0RVcEJjOG04ZjFUa0VNTUF2Ul9uc1htQWxXUk93OXdGUE1aYXc?oc=5",
+   "summary": "Prince Harry and Meghan move children to new school over security concerns AP News",
+   "published": "2026-09-15T20:37:24+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "a4aecfef2702",
+   "article_url": "https://apnews.com/article/harry-meghan-children-school-uk-417424b809e560063e708b85c526a621",
    "has_text": false
   },
   {
@@ -2014,19 +2196,6 @@
    "id": "9aada444cdcf",
    "article_url": "https://www.pbs.org/newshour/nation/nick-reiner-will-not-face-death-penalty-over-his-parents-killings",
    "has_text": true
-  },
-  {
-   "title": "Prince Harry and Meghan move children to new school over security concerns",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVW1vVzNycEJQaDRFb3NvUndpUXVHbzlCQkRKa1pBdzVfMXR5aDhqQ29tRjJRT1lVUFNpQjZTRXNfUmNudm5YeGxocW5pdjNmSTNYaldjMHFoSjRidUNmaFZldXZqRUdhRWpXUk5TaENSc0RVcEJjOG04ZjFUa0VNTUF2Ul9uc1htQWxXUk93OXdGUE1aYXc?oc=5",
-   "summary": "Prince Harry and Meghan move children to new school over security concerns AP News",
-   "published": "2026-09-15T19:48:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "a4aecfef2702",
-   "article_url": "https://apnews.com/article/harry-meghan-children-school-uk-417424b809e560063e708b85c526a621",
-   "has_text": false
   },
   {
    "title": "Trump-aligned Kennedy Center board votes to close building",
@@ -2573,19 +2742,6 @@
    "has_text": false
   },
   {
-   "title": "Arizona State coach notes Kansas got extra time ahead of London game despite 'unwritten rule'",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVEpnSUFsX0pNdDVNS3laMU5JOGVjSDNKSVMyRDl1TGZuMTFHN09uMkQ0RUwxeEg2UjRwVTRJTWFHci10RXpLT2ZqalhybE5vRUh1Z0N6SXoyMlhUM0tXVDI1VFIwQ0hRYUluZEJWOGt4bktoa3hGbG1ScENUdVlhMElMVzdMamswenFSUW1XQl9wMDlscDgxeXZEQzRNSGs?oc=5",
-   "summary": "Arizona State coach notes Kansas got extra time ahead of London game despite 'unwritten rule' AP News",
-   "published": "2026-09-15T17:36:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "c7a6fee6d5ac",
-   "article_url": "https://apnews.com/article/arizona-state-dillingham-kansas-london-a3e7b7ec3c017ab4fc5a009029ec6a8f",
-   "has_text": false
-  },
-  {
    "title": "Warning of space arms race as US confirms weapons in Earth's orbit",
    "link": "https://www.bbc.co.uk/news/videos/cmn07yjqg5rwo?at_medium=RSS&at_campaign=rss",
    "summary": "The BBC's defence correspondent Jonathan Beale explains what an arms race in space might look like - and what it could mean for us on the ground.",
@@ -2675,6 +2831,19 @@
    "id": "197cb7f9332e",
    "article_url": "https://www.bbc.co.uk/news/videos/c6z0zp3dvpnjo?at_medium=RSS&at_campaign=rss",
    "has_text": true
+  },
+  {
+   "title": "Photos of Romanian farmers protesting export restrictions",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeVBIQVFmWlg4ZjE2VDBJYzNxSS1fRE1wNnVDaHVxZGQwN3J2MHRfTlBQaGxlem1HV0JZQ0VMVlU1Y2dFRlBvZllJeHV0My1TOHVodHB0UzVmTTNrdW02am52Y3pWQTNUUVdhM1VqQUVjR0NHeWlyVTRZRjZvWUY4NlR4em8wdUQ3UHJ4M3Jvb0E0cWdOODZwd0VtNFBhU3hUaURsdmI1U2RrVk5zR05tcE9vaW9ldzBMMkpxZw?oc=5",
+   "summary": "Photos of Romanian farmers protesting export restrictions AP News",
+   "published": "2026-09-15T17:20:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "fe0045083ea9",
+   "article_url": "https://apnews.com/photo-gallery/photos-romanian-farmers-protesting-export-restrictions-bc1a144b06df445fa70fcfa104cb66e3",
+   "has_text": false
   },
   {
    "title": "Waters has heated exchange with Bessent on AI",
@@ -2950,19 +3119,6 @@
    "has_text": false
   },
   {
-   "title": "Bill that could change the nickel, how you pay with cash passes through House",
-   "link": "https://thehill.com/business/personal-finance/6090294-bill-that-could-change-the-nickel-how-you-pay-with-cash-passes-through-house/",
-   "summary": "It would also formally mark the death of the penny — sort of.",
-   "published": "2026-09-15T16:30:00+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "ee1e58ff4331",
-   "article_url": "https://thehill.com/business/personal-finance/6090294-bill-that-could-change-the-nickel-how-you-pay-with-cash-passes-through-house/",
-   "has_text": false
-  },
-  {
    "title": "Republicans kept their promise: America’s border is secure again",
    "link": "https://thehill.com/opinion/criminal-justice/6089387-boebert-claims-secure-border-success/",
    "summary": "Rep. Lauren Boebert highlighted the impacts of Republican border security policies implemented during President Trump's second term, noting significant decreases in illegal crossings and increased funding for enforcement.",
@@ -2973,6 +3129,19 @@
    "section": "top",
    "id": "a194dc382e8f",
    "article_url": "https://thehill.com/opinion/criminal-justice/6089387-boebert-claims-secure-border-success/",
+   "has_text": false
+  },
+  {
+   "title": "Bill that could change the nickel, how you pay with cash passes through House",
+   "link": "https://thehill.com/business/personal-finance/6090294-bill-that-could-change-the-nickel-how-you-pay-with-cash-passes-through-house/",
+   "summary": "It would also formally mark the death of the penny — sort of.",
+   "published": "2026-09-15T16:30:00+00:00",
+   "source": "thehill",
+   "outlet": "The Hill",
+   "counted": true,
+   "section": "top",
+   "id": "ee1e58ff4331",
+   "article_url": "https://thehill.com/business/personal-finance/6090294-bill-that-could-change-the-nickel-how-you-pay-with-cash-passes-through-house/",
    "has_text": false
   },
   {
@@ -3167,6 +3336,19 @@
    "has_text": false
   },
   {
+   "title": "PGA Tour not contemplating path back for LIV players similar to Brooks Koepka",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSnV1S2tSQ3JfT2dlcmtDVmhxZTBHMFpTbldTWVF0VVd4ZC1sNTFHbGFZOThtazZtWGF6OGhfeGhySzg4ZVFYMHlWdmZzZk0xTS1KV2F4YVVDQjlnZDMxVU9DUktYLTA2am1wR0I5NWY0WkRWaWpjMDM3aEJRN0FTU3YyQlo2M2owQ0M4eDkwRXJOZHM?oc=5",
+   "summary": "PGA Tour not contemplating path back for LIV players similar to Brooks Koepka AP News",
+   "published": "2026-09-15T15:30:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "3b5322858ed6",
+   "article_url": "https://apnews.com/article/liv-golf-pga-tour-rolapp-rahm-ac44be20fed98e399d9dbc42eaa5420f",
+   "has_text": false
+  },
+  {
    "title": "Armenia is turning westward — the West should take it seriously",
    "link": "https://thehill.com/opinion/international/6088881-armenia-eu-membership-pursuit/",
    "summary": "For decades one of Russia’s closest allies in the former Soviet Union, the country is preparing to apply for membership in the European Union.",
@@ -3271,19 +3453,6 @@
    "has_text": false
   },
   {
-   "title": "SNAP benefits are changing in October: What to know",
-   "link": "https://thehill.com/policy/6088373-snap-benefits-are-changing-in-october-what-to-know/",
-   "summary": "Heads up, SNAP recipients: Your monthly benefit allotment is about to change.",
-   "published": "2026-09-15T15:00:00+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "fa1ab717a6fa",
-   "article_url": "https://thehill.com/policy/6088373-snap-benefits-are-changing-in-october-what-to-know/",
-   "has_text": false
-  },
-  {
    "title": "Your check for $5,000 is not in the mail",
    "link": "https://thehill.com/opinion/white-house/6089602-trump-dividend-proposal-cost/",
    "summary": "Former California Democratic Party chair Bill Press criticized Donald Trump's proposal to issue a $5,000 \"Trump Dividend\" to every adult citizen following Republican victories in the House and Senate, noting its massive $1.3 trillion cost and previous unfulfilled promises.",
@@ -3294,6 +3463,19 @@
    "section": "top",
    "id": "f2ef43fe7807",
    "article_url": "https://thehill.com/opinion/white-house/6089602-trump-dividend-proposal-cost/",
+   "has_text": false
+  },
+  {
+   "title": "SNAP benefits are changing in October: What to know",
+   "link": "https://thehill.com/policy/6088373-snap-benefits-are-changing-in-october-what-to-know/",
+   "summary": "Heads up, SNAP recipients: Your monthly benefit allotment is about to change.",
+   "published": "2026-09-15T15:00:00+00:00",
+   "source": "thehill",
+   "outlet": "The Hill",
+   "counted": true,
+   "section": "top",
+   "id": "fa1ab717a6fa",
+   "article_url": "https://thehill.com/policy/6088373-snap-benefits-are-changing-in-october-what-to-know/",
    "has_text": false
   },
   {
@@ -3427,19 +3609,6 @@
    "has_text": false
   },
   {
-   "title": "Trump wants a referendum on Trump ahead of the midterms — let’s give him one.",
-   "link": "https://thehill.com/opinion/campaign/6088859-trump-kpi-performance-review/",
-   "summary": "In Dallas, Donald Trump told voters to “pretend that I’m on the ballot.” OK. Let’s do exactly that.",
-   "published": "2026-09-15T14:30:00+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "1bd17abe24d7",
-   "article_url": "https://thehill.com/opinion/campaign/6088859-trump-kpi-performance-review/",
-   "has_text": false
-  },
-  {
    "title": "Watch live: House Democrats speak amid AI, affordability battle",
    "link": "https://thehill.com/video-clips/6089902-watch-live-house-democrats-press-conference-ai-fears-midterms-affordability/",
    "summary": "House Democratic leaders will speak with reporters Tuesday morning as Democrats pressure the Trump administration for more regulations on artificial intelligence and experts warn of increasing risks. House Minority Leader Hakeem Jeffries (D-N.Y.) has emerged as one of the loudest critics of the rapidly evolving technology, calling on his colleagues to pass legislation enacting new…",
@@ -3450,6 +3619,19 @@
    "section": "top",
    "id": "9cd27d018d4b",
    "article_url": "https://thehill.com/video-clips/6089902-watch-live-house-democrats-press-conference-ai-fears-midterms-affordability/",
+   "has_text": false
+  },
+  {
+   "title": "Trump wants a referendum on Trump ahead of the midterms — let’s give him one.",
+   "link": "https://thehill.com/opinion/campaign/6088859-trump-kpi-performance-review/",
+   "summary": "In Dallas, Donald Trump told voters to “pretend that I’m on the ballot.” OK. Let’s do exactly that.",
+   "published": "2026-09-15T14:30:00+00:00",
+   "source": "thehill",
+   "outlet": "The Hill",
+   "counted": true,
+   "section": "top",
+   "id": "1bd17abe24d7",
+   "article_url": "https://thehill.com/opinion/campaign/6088859-trump-kpi-performance-review/",
    "has_text": false
   },
   {
@@ -3726,16 +3908,16 @@
    "has_text": false
   },
   {
-   "title": "Target opening new stores soon, with dozens more ‘upcoming’",
-   "link": "https://thehill.com/business/6081939-target-opening-new-stores-soon-with-dozens-more-upcoming/",
-   "summary": "While these are expected to be the last new stores to open in 2026, dozens more are in the works.",
+   "title": "Democrats urge RFK Jr. to scrap proposed Head Start overhaul",
+   "link": "https://thehill.com/homenews/house/6089555-hhs-head-start-democrats-rfk/",
+   "summary": "Democrats are pressing Health and Human Services (HHS) Secretary Robert F. Kennedy Jr. to scrap a proposed overhaul of the Head Start program, warning the changes would weaken services for thousands of families nationwide. The proposed rule, dubbed “Reducing Federal Burden for Head Start Programs,” would “rescind and replace” the Head Start Program Performance Standards…",
    "published": "2026-09-15T13:00:00+00:00",
    "source": "thehill",
    "outlet": "The Hill",
    "counted": true,
    "section": "top",
-   "id": "57b2af4af83f",
-   "article_url": "https://thehill.com/business/6081939-target-opening-new-stores-soon-with-dozens-more-upcoming/",
+   "id": "4fb0c5d5be2c",
+   "article_url": "https://thehill.com/homenews/house/6089555-hhs-head-start-democrats-rfk/",
    "has_text": false
   },
   {
@@ -3752,16 +3934,16 @@
    "has_text": false
   },
   {
-   "title": "Democrats urge RFK Jr. to scrap proposed Head Start overhaul",
-   "link": "https://thehill.com/homenews/house/6089555-hhs-head-start-democrats-rfk/",
-   "summary": "Democrats are pressing Health and Human Services (HHS) Secretary Robert F. Kennedy Jr. to scrap a proposed overhaul of the Head Start program, warning the changes would weaken services for thousands of families nationwide. The proposed rule, dubbed “Reducing Federal Burden for Head Start Programs,” would “rescind and replace” the Head Start Program Performance Standards…",
+   "title": "Target opening new stores soon, with dozens more ‘upcoming’",
+   "link": "https://thehill.com/business/6081939-target-opening-new-stores-soon-with-dozens-more-upcoming/",
+   "summary": "While these are expected to be the last new stores to open in 2026, dozens more are in the works.",
    "published": "2026-09-15T13:00:00+00:00",
    "source": "thehill",
    "outlet": "The Hill",
    "counted": true,
    "section": "top",
-   "id": "4fb0c5d5be2c",
-   "article_url": "https://thehill.com/homenews/house/6089555-hhs-head-start-democrats-rfk/",
+   "id": "57b2af4af83f",
+   "article_url": "https://thehill.com/business/6081939-target-opening-new-stores-soon-with-dozens-more-upcoming/",
    "has_text": false
   },
   {
@@ -3775,19 +3957,6 @@
    "section": "top",
    "id": "7bcf60ea967c",
    "article_url": "https://www.sciencenews.org/article/book-review-bogland-strange-ecosystems",
-   "has_text": true
-  },
-  {
-   "title": "Colombian ex-foreign minister charged over nanny's lie detector test",
-   "link": "https://www.bbc.co.uk/news/articles/c61580330nj1o?at_medium=RSS&at_campaign=rss",
-   "summary": "Laura Sarabia is accused of ordering police to interrogate her nanny after cash allegedly went missing from her flat.",
-   "published": "2026-09-15T12:59:21+00:00",
-   "source": "bbc",
-   "outlet": "BBC News",
-   "counted": true,
-   "section": "top",
-   "id": "ef1fb9e871fc",
-   "article_url": "https://www.bbc.co.uk/news/articles/c61580330nj1o?at_medium=RSS&at_campaign=rss",
    "has_text": true
   },
   {
@@ -3986,19 +4155,6 @@
    "has_text": true
   },
   {
-   "title": "Trump’s tariffs on Canada could cost him several red states",
-   "link": "https://thehill.com/opinion/international/6089429-canada-us-trade-war-red-states/",
-   "summary": "President Trump's tariffs on Canadian imports and Canada's retaliatory measures are impacting key economic sectors in several Republican-leaning states, potentially affecting upcoming midterm elections.",
-   "published": "2026-09-15T11:30:00+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "854008955028",
-   "article_url": "https://thehill.com/opinion/international/6089429-canada-us-trade-war-red-states/",
-   "has_text": false
-  },
-  {
    "title": "They are paid to bring rain. When it fails — or leads to floods — violence can follow",
    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbEc4TEI0WDlVT193eklBaFBkVDlaWHg0YU1WcWxkU2Q0X21nOENHRjUzUGQtLU52MVJjdU9mQ2dZYnR6Z244TmxpOEREZENkSDJEa2MzaDMwbThCSm52OE5hS09pakhBaTExLUhicFNDak14RHlnRlZvT04tbWhaT0xwMVQ3MDg4aThsb1N2UkJXVE5YNUhBQ0ZvYktaQjZYbDJj?oc=5",
    "summary": "They are paid to bring rain. When it fails — or leads to floods — violence can follow AP News",
@@ -4009,6 +4165,19 @@
    "section": "climate",
    "id": "6b0c4171efb3",
    "article_url": "https://apnews.com/article/africa-rainmakers-climate-change-violence-6080fa9dbc838ba75b9bab29cfd48fc9",
+   "has_text": false
+  },
+  {
+   "title": "As the world debates the risks of AI, China closes the technology gap with the US",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQM3NlSUcxUzlYaVFjcDdaWS1NQUY2WUR6THkxamlKbFozMkRsNXUwbl90STl2dmtDZ0d2dXBhNG4wRVA1TXIwSDZJM1laZVJJRDFKV1dXU3gzX2loT0p2Tl94T2h2ZXhfdGJOX3h4MkpZSzZkeHVMTEpWM2pNdU1vSkx2Tk50YTJnNWcydVo2NzdnNGl3RzJ2ZXhB?oc=5",
+   "summary": "As the world debates the risks of AI, China closes the technology gap with the US AP News",
+   "published": "2026-09-15T11:10:02+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "988f242a50ce",
+   "article_url": "https://apnews.com/article/china-us-ai-models-safety-concerns-adb45169d436d5f940fc7b4ebeaeef3b",
    "has_text": false
   },
   {
@@ -4023,19 +4192,6 @@
    "id": "5011ce21f4a8",
    "article_url": "https://www.axios.com/2026/09/15/russia-sanctions-trump-tariffs-house-democrats",
    "has_text": true
-  },
-  {
-   "title": "The latest court ruling against deportations ignores precedent and won’t hold up",
-   "link": "https://thehill.com/opinion/judiciary/6088142-wise-immigration-act-unconstitutional/",
-   "summary": "The Supreme Court has held that a deported alien \"is not being punished\" for his conduct but \"is merely being held to the terms under which he was admitted.\"",
-   "published": "2026-09-15T11:00:00+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "0d50a8f0b444",
-   "article_url": "https://thehill.com/opinion/judiciary/6088142-wise-immigration-act-unconstitutional/",
-   "has_text": false
   },
   {
    "title": "China imposes new restrictions on overseas travel",
@@ -4162,35 +4318,9 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "top",
+   "section": "climate",
    "id": "98f82ba59650",
    "article_url": "https://apnews.com/article/black-voter-turnout-election-2026-campaign-be7bce38a8c7657c6ad1751663ba5b88",
-   "has_text": false
-  },
-  {
-   "title": "Marcus Towns: Member services director, House Appropriations Committee Republicans",
-   "link": "https://thehill.com/the-hill-notable-staffers-2026/6073858-marcus-towns-member-services-director-house-appropriations-committee-republicans/",
-   "summary": "Advancing any legislation with a slim Republican majority is a challenge, but navigating the variety of GOP viewpoints while trying to advance appropriations bills adds a new layer of difficulty. For Marcus Towns, the member services director for the House Appropriations Committee, it helps to be a people person. “It’s a very personality-driven job,” Towns…",
-   "published": "2026-09-15T10:01:00+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "b9c12ec95394",
-   "article_url": "https://thehill.com/the-hill-notable-staffers-2026/6073858-marcus-towns-member-services-director-house-appropriations-committee-republicans/",
-   "has_text": false
-  },
-  {
-   "title": "AJ Swinson: Coalitions and outreach director, House Judiciary Committee",
-   "link": "https://thehill.com/the-hill-notable-staffers-2026/6078051-aj-swinson-coalitions-outreach-director-house-judiciary-committee/",
-   "summary": "On the surface, AJ Swinson’s job as the coalitions and outreach director for the House Judiciary Committee seems simple: She is the point person to make sure outside allies and those with a stake in the panel’s work understand what the committee is doing and why it is doing it. But the responsibility to manage…",
-   "published": "2026-09-15T10:01:00+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "30bce8ab3b4e",
-   "article_url": "https://thehill.com/the-hill-notable-staffers-2026/6078051-aj-swinson-coalitions-outreach-director-house-judiciary-committee/",
    "has_text": false
   },
   {
@@ -4201,7 +4331,7 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "top",
+   "section": "climate",
    "id": "5534a27aa910",
    "article_url": "https://apnews.com/article/hispanic-heritage-month-explained-info-latinos-9e6ff0816903e0c55299081d642cef5f",
    "has_text": false
@@ -4230,19 +4360,6 @@
    "section": "top",
    "id": "3e5d5e16d0e7",
    "article_url": "https://www.axios.com/2026/09/15/landau-baal-bull-state-department-epstein",
-   "has_text": true
-  },
-  {
-   "title": "Nato jets down drone that entered Lithuanian airspace",
-   "link": "https://www.bbc.co.uk/news/articles/cjx2zgk7edlzo?at_medium=RSS&at_campaign=rss",
-   "summary": "The origin of the drone is currently unknown, but authorities say it likely entered Lithuania from neighbouring Belarus, an ally of Russia.",
-   "published": "2026-09-15T09:07:35+00:00",
-   "source": "bbc",
-   "outlet": "BBC News",
-   "counted": true,
-   "section": "top",
-   "id": "d70f29eb0334",
-   "article_url": "https://www.bbc.co.uk/news/articles/cjx2zgk7edlzo?at_medium=RSS&at_campaign=rss",
    "has_text": true
   },
   {
@@ -4595,19 +4712,6 @@
    "has_text": false
   },
   {
-   "title": "Welsh actor Matthew Rhys makes Emmy Awards history with double win",
-   "link": "https://www.bbc.co.uk/news/articles/cqlykdx48xrpo?at_medium=RSS&at_campaign=rss",
-   "summary": "He becomes the first person to win two lead acting prizes in one night at the prestigious TV ceremony.",
-   "published": "2026-09-15T03:50:06+00:00",
-   "source": "bbc",
-   "outlet": "BBC News",
-   "counted": true,
-   "section": "top",
-   "id": "746cd0d1e262",
-   "article_url": "https://www.bbc.co.uk/news/articles/cqlykdx48xrpo?at_medium=RSS&at_campaign=rss",
-   "has_text": true
-  },
-  {
    "title": "AI regulation faces political deadlock as calls grow for US Congress to act",
    "link": "https://www.bbc.co.uk/news/articles/ck20989806e9o?at_medium=RSS&at_campaign=rss",
    "summary": "With Trump opposed and Congress divided, new safety legislation on AI is unlikely to pass anytime soon despite mounting pressure.",
@@ -4657,19 +4761,6 @@
    "section": "climate",
    "id": "51f92d6dd1bf",
    "article_url": "https://apnews.com/article/dodgers-reds-score-5312a7ae4816b5017fc9e762e02cfec7",
-   "has_text": false
-  },
-  {
-   "title": "Saudi pipeline hit by drones will be out of service for weeks, further restricting oil flow",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOTlTdWlFZF9mNl9uX3pCWHd0QXVWb0dEaXlGaXhLa3l4ek9PbWFhRG02VXJDMW1BT3FxUkp3MzZtdEd2ZHQ4cUswbkpfX1ZnVkxuQ3pValFrY1BTRHlyZjdaLXJqTW1VcXhzajBuSUFIbXdxamdqOTcxeFp2MERjcU9lQWVXaHhETnJweXZRdWp6UWNHQUxjdWc2NA?oc=5",
-   "summary": "Saudi pipeline hit by drones will be out of service for weeks, further restricting oil flow AP News",
-   "published": "2026-09-15T01:30:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "a3afb989fa0a",
-   "article_url": "https://apnews.com/article/yemen-houthis-saudi-shipping-mandeb-8c18d82c109a8ea91347ce53c0096c53",
    "has_text": false
   },
   {
@@ -4829,19 +4920,6 @@
    "has_text": true
   },
   {
-   "title": "Donald Trump Jr and Bettina Trump say Putin ally paid for some wedding festivities as a 'gift'",
-   "link": "https://www.bbc.co.uk/news/articles/cmqjkg121kr9o?at_medium=RSS&at_campaign=rss",
-   "summary": "An Instagram post from the couple said two nights of their wedding festivities in the Bahamas were partially funded by Umar Kremlev.",
-   "published": "2026-09-14T22:56:44+00:00",
-   "source": "bbc",
-   "outlet": "BBC News",
-   "counted": true,
-   "section": "top",
-   "id": "fa112ef96be4",
-   "article_url": "https://www.bbc.co.uk/news/articles/cmqjkg121kr9o?at_medium=RSS&at_campaign=rss",
-   "has_text": true
-  },
-  {
    "title": "Trump calls AI risks a ‘hoax,’ says there is a ‘SICK conspiracy’ against AI and data centers",
    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeFRySlBKNy1PVjJIYndUZHZKcTB4ZVFhOU1JN0t2QzlrbWtYaTZBRjctQWFKaWJBbjdnWFFzN2JJejJKZkZlOG5fN2s5U01fRE9JVGgxemxPUUhiV3VIcGpLdzFFc2w5ZjRoWEt3MTZ4dlJobnBNaDhNbXZFZ2JVamFlTnY2b3JnNjJPTWFudmJ6azh3bnVn?oc=5",
    "summary": "Trump calls AI risks a ‘hoax,’ says there is a ‘SICK conspiracy’ against AI and data centers AP News",
@@ -4879,6 +4957,19 @@
    "id": "6dd14c54f3de",
    "article_url": "https://www.semafor.com/article/09/14/2026/ukraine-signals-openness-to-pausing-strikes-on-russian-energy-targets",
    "has_text": true
+  },
+  {
+   "title": "‘Alligator Alcatraz’ detainees were held in small metal cages, federal report says",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUUJ0c20zQ21wdTBzdkhvblVCTGJTNXE1U0tzenFwNkIxZkNjbmdTTnVIQlItYzY1M2VDZlVrQUJQRUt2RmNTbzlMNXBLZVdWRVplTGZWWVEzc09MbHVRRWFUVkVUdTd3SW5MTUlFaDJGNGpVaDdRZTlYZDZwZF9iWkxPcmk1OTYxLURsRVdQdnpwQU1XVVRtWTNiZ0t3SDZBcXFqS0tjLWZSZ1JTcWNpWUtuRWs4eDA?oc=5",
+   "summary": "‘Alligator Alcatraz’ detainees were held in small metal cages, federal report says AP News",
+   "published": "2026-09-14T22:32:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "d51436da4471",
+   "article_url": "https://apnews.com/article/florida-detention-trump-conditions-immigration-alligator-c9c3dc594c1b056d27da2cc6c97af307",
+   "has_text": false
   },
   {
    "title": "Saudi Arabia eyes more tanker transits through Strait of Hormuz",
@@ -5215,6 +5306,19 @@
    "has_text": false
   },
   {
+   "title": "United Kingdom’s unity threatened by pact between Wales, Scotland and Northern Ireland",
+   "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQc2VNZlJMcDZQaTFWdTd5QlNJWktkNGlzQ2ZmVTZwQjEySTRuUWdTVk8wRFc0dkxBUTZIdGc4ZndSUFNubFNDbzJ5RkFaRGpjNGk0cW1EN1doVkVvVTRRbDF1dlpsc1N0UUFualZKSW9FRGZvdEdpWGxXbVRXamVnT1ZoU0F3ZExmNFRwZnV5WlFXZWZWTDFEY2NnWlJCQ3huMllBclp1RFVTTDYwaFJ0NmFFZnkxZlcxUXc?oc=5",
+   "summary": "United Kingdom’s unity threatened by pact between Wales, Scotland and Northern Ireland AP News",
+   "published": "2026-09-14T17:01:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "0c5e92237857",
+   "article_url": "https://apnews.com/article/wales-scotland-northern-ireland-independence-uk-devolution-4242b7fd6987520211562a2250f093a1",
+   "has_text": false
+  },
+  {
    "title": "Feeling nervous? Work the system",
    "link": "https://www.sciencenews.org/article/nervous-system-stress-hormone-cortisol",
    "summary": "Scientists are exploring new ways to regain control of overactive nervous systems including humming, tapping on the skin and cold-water immersion.",
@@ -5408,19 +5512,6 @@
    "has_text": true
   },
   {
-   "title": "AP Decision Notes: What to expect in Delaware’s state primary",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYlBaZmVuRF8zaDlyMWM1THZZeHJDLUlIbEQyVUlneUF4dEp1TDFiUGVqb3dfXzNGNERweXJRMFdHQ3VWa29hMXNqNUI3YVIwbExxaHhSc0pSUndPSDBiX05aY1kwTldiYWx1NlZVUEtDWWlYR05Jd184dzY2b2VBODNhbDNhS25Va1VjY1MtY0w3bU9hamRKVFZlcjR5UGNaUG9hNXpwckUzaWFEa2RJZFdCb01tMTA?oc=5",
-   "summary": "AP Decision Notes: What to expect in Delaware’s state primary AP News",
-   "published": "2026-09-14T13:37:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "e25722e77e90",
-   "article_url": "https://apnews.com/article/delaware-primary-senate-house-treasurer-attorney-general-f8710cf0ed0dcb42dfbc2fc985aefc1c",
-   "has_text": false
-  },
-  {
    "title": "The great American road trip, fueled by — and undercut by — the automobile that created it",
    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNeWdVLXhSZnVlZzdfQkhDckgxZXRWVnlqLUpyX0V3STYwcldBN2Zwd1VOOERXeVdUM29pdWNQYjN0dHJ1al85Zk5INFJvdlpxRWVsMnFaOW5JSzU2UXVWX1dpNGEwVUxWZnJ2UTFNa2hDN1ZEQV9FcVltS1hGV3dBa2h0YUloampDVndWYUZwbVBRSjF3?oc=5",
    "summary": "The great American road trip, fueled by — and undercut by — the automobile that created it AP News",
@@ -5525,19 +5616,6 @@
    "has_text": true
   },
   {
-   "title": "Oprah Winfrey wants you to reach your ‘AHA’ moment at the Sphere",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVDFuUDFZYXg4Z0EybGhiNWFTTkRKU2IwNEFBdE1fcTlqNUlaWm52RTkxUkVoR1RZdXlxQkx0ajhla0pQRWdTZnJ2MnhtemtSMFlod0pjbWhOdGJqeC1HOVRNaFdJb0pndWRtNmZ6eXZnd29pZVpxZlplWFdzdGtVRko1aU9uQjJOUW1NVW0ySGZ0cDZBODQwcDYzaw?oc=5",
-   "summary": "Oprah Winfrey wants you to reach your ‘AHA’ moment at the Sphere AP News",
-   "published": "2026-09-14T12:45:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "2cc587352e2c",
-   "article_url": "https://apnews.com/article/oprah-winfrey-sphere-aha-experience-c0aeae5a4cdf5996d6c603369f543a57",
-   "has_text": false
-  },
-  {
    "title": "Dangote launches Africa’s largest ever IPO",
    "link": "https://www.semafor.com/article/09/14/2026/aliko-dangote-refinery-ipo-launches",
    "summary": "The company looks set to raise more than $4 billion at about a $50 billion valuation.",
@@ -5548,19 +5626,6 @@
    "section": "top",
    "id": "52f869ff32e4",
    "article_url": "https://www.semafor.com/article/09/14/2026/aliko-dangote-refinery-ipo-launches",
-   "has_text": true
-  },
-  {
-   "title": "£100,000 boost for community eco-friendly projects",
-   "link": "https://www.bbc.co.uk/news/articles/cv9869nngww2o?at_medium=RSS&at_campaign=rss",
-   "summary": "Community groups and young people across the West Midlands are being invited to apply for a grant.",
-   "published": "2026-09-14T11:44:05+00:00",
-   "source": "bbc",
-   "outlet": "BBC News",
-   "counted": true,
-   "section": "climate",
-   "id": "19f87b51ea8e",
-   "article_url": "https://www.bbc.co.uk/news/articles/cv9869nngww2o?at_medium=RSS&at_campaign=rss",
    "has_text": true
   },
   {
@@ -5678,32 +5743,6 @@
    "section": "top",
    "id": "234f157945f1",
    "article_url": "https://www.semafor.com/article/09/14/2026/uber-paid-drivers-more-than-it-charged-passengers-in-nigeria-report",
-   "has_text": true
-  },
-  {
-   "title": "Lockheed’s Skunk Works plans to build four more of its multirole combat drones",
-   "link": "https://www.defenseone.com/business/2026/09/lockheeds-skunk-works-plans-build-four-more-its-multirole-combat-drones/415958/",
-   "summary": "The firm’s top secret research arm shared new Vectis images, but few key details.",
-   "published": "2026-09-14T10:00:00+00:00",
-   "source": "defenseone",
-   "outlet": "Defense One",
-   "counted": true,
-   "section": "top",
-   "id": "b0c6eb22f432",
-   "article_url": "https://www.defenseone.com/business/2026/09/lockheeds-skunk-works-plans-build-four-more-its-multirole-combat-drones/415958/",
-   "has_text": true
-  },
-  {
-   "title": "Washington's AI paralysis: Let 'er rip vs. hit the brakes",
-   "link": "https://www.axios.com/2026/09/14/trump-ai-safety-regulations-congress",
-   "summary": "President Trump is as all-in on AI as a politician could be: all gas, no brakes, and zero interest in hand-wringing about dystopian risks or public disdain. Democrats are as conflicted on AI as a party could be: skeptical of the labs, spooked by their warnings, but split on whether to shut it all down. Why it matters: This staggering divide makes consensus on federal AI regulation almost unimaginable this year — and probably through early 2029, regardless of who wins control of Congress. Zoom in: Trump has governed as the AI president from Day 1 , applying the same doctrine to models and the d",
-   "published": "2026-09-14T09:52:26+00:00",
-   "source": "axios",
-   "outlet": "Axios",
-   "counted": true,
-   "section": "top",
-   "id": "b89db9283116",
-   "article_url": "https://www.axios.com/2026/09/14/trump-ai-safety-regulations-congress",
    "has_text": true
   }
  ]
