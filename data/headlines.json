@@ -1,13 +1,195 @@
 {
- "fetched_at": "2026-09-16T18:31:33.400718+00:00",
+ "fetched_at": "2026-09-16T19:27:11.368353+00:00",
  "window_hours": 48,
- "count": 444,
+ "count": 449,
  "errors": [],
  "items": [
   {
-   "title": "Watch live: Warsh speaks after Fed hikes interest rates",
+   "title": "US House votes to hold billionaire Epstein associate Leon Black in contempt",
+   "link": "https://www.bbc.co.uk/news/articles/c62l8g8qlr0ko?at_medium=RSS&at_campaign=rss",
+   "summary": "Black - who had business ties to Epstein - declined to appear and provide documents related to the convicted sex offender.",
+   "published": "2026-09-16T19:19:47+00:00",
+   "source": "bbc",
+   "outlet": "BBC News",
+   "counted": true,
+   "section": "top",
+   "id": "adb02ec4a529",
+   "article_url": "https://www.bbc.co.uk/news/articles/c62l8g8qlr0ko?at_medium=RSS&at_campaign=rss",
+   "has_text": true
+  },
+  {
+   "title": "Fed rate hike likely means more expensive credit cards and mortgages, but savers may rejoice",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMTZkVWpBSDVBVFppRW1QTXNMNFk3cmNvLVpFcmE5aHNCOUhXX0NmNk5fb1dtRmo5YWpQR1pnakFZbW9mTko4UXlQaWhUQXBrQjBRZElPX1A2WVM5Y28wcFp3RVpCNUN1YWRPa3pSOV9aM0pYLTJzNG5JWklRVkg0SGlJTDVsc0x0ZDBsOVdjc21JMEg4LVJFeVBwOUJvc2RpLVB0RXZUWTVvUQ?oc=5",
+   "summary": "Fed rate hike likely means more expensive credit cards and mortgages, but savers may rejoice AP News",
+   "published": "2026-09-16T19:17:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "f952b6c40ed0",
+   "article_url": "https://apnews.com/article/federal-reserve-warsh-borrowing-interest-rates-8d645bd4cbf32974e68c5bc4cfaa1f61",
+   "has_text": false
+  },
+  {
+   "title": "Trump's Chief of Staff Susie Wiles announces she's cancer free",
+   "link": "https://www.bbc.co.uk/news/articles/c6j9xrx80ekro?at_medium=RSS&at_campaign=rss",
+   "summary": "The 69-year-old White House chief of staff is a powerful figure and particularly close to the US president.",
+   "published": "2026-09-16T19:12:48+00:00",
+   "source": "bbc",
+   "outlet": "BBC News",
+   "counted": true,
+   "section": "top",
+   "id": "574482dfcf16",
+   "article_url": "https://www.bbc.co.uk/news/articles/c6j9xrx80ekro?at_medium=RSS&at_campaign=rss",
+   "has_text": true
+  },
+  {
+   "title": "House votes to hold billionaire Leon Black in contempt of Congress over Epstein investigation",
+   "link": "https://www.pbs.org/newshour/politics/house-votes-to-hold-billionaire-leon-black-in-contempt-of-congress-over-epstein-investigation",
+   "summary": "The House approved a resolution Wednesday holding billionaire Leon Black in contempt of Congress, referring the matter to the Department of Justice after he defied the Oversight Committee's subpoenas in its investigation into disgraced financier Jeffrey Epstein.",
+   "published": "2026-09-16T19:12:33+00:00",
+   "source": "pbs",
+   "outlet": "PBS NewsHour",
+   "counted": true,
+   "section": "top",
+   "id": "26d077a02a5f",
+   "article_url": "https://www.pbs.org/newshour/politics/house-votes-to-hold-billionaire-leon-black-in-contempt-of-congress-over-epstein-investigation",
+   "has_text": true
+  },
+  {
+   "title": "What the Fed rate hike likely means for you",
+   "link": "https://www.pbs.org/newshour/economy/what-the-fed-rate-hike-likely-means-for-you",
+   "summary": "Bad news for borrowers, good news for savers.",
+   "published": "2026-09-16T19:08:08+00:00",
+   "source": "pbs",
+   "outlet": "PBS NewsHour",
+   "counted": true,
+   "section": "top",
+   "id": "7f4e36329b9b",
+   "article_url": "https://www.pbs.org/newshour/economy/what-the-fed-rate-hike-likely-means-for-you",
+   "has_text": true
+  },
+  {
+   "title": "Bipartisan AI safety talks accelerate in Senate",
+   "link": "https://www.semafor.com/article/09/16/2026/bipartisan-ai-safety-talks-accelerate-in-senate",
+   "summary": "Key Republican tells Semafor a committee vote could happen ‘this month.’",
+   "published": "2026-09-16T19:06:37+00:00",
+   "source": "semafor",
+   "outlet": "Semafor",
+   "counted": true,
+   "section": "top",
+   "id": "b92a29ce0ea4",
+   "article_url": "https://www.semafor.com/article/09/16/2026/bipartisan-ai-safety-talks-accelerate-in-senate",
+   "has_text": true
+  },
+  {
+   "title": "Warsh breaks with Trump to raise rates",
+   "link": "https://www.semafor.com/article/09/16/2026/fed-raises-interest-rates-in-unanimous-vote",
+   "summary": "The quarter-point increase is the first in three years.",
+   "published": "2026-09-16T19:01:44+00:00",
+   "source": "semafor",
+   "outlet": "Semafor",
+   "counted": true,
+   "section": "top",
+   "id": "719cde5eb19c",
+   "article_url": "https://www.semafor.com/article/09/16/2026/fed-raises-interest-rates-in-unanimous-vote",
+   "has_text": true
+  },
+  {
+   "title": "Federal Reserve hikes key rate for 1st time in 3 years, defying Trump demands for a cut",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVlB2TmNqY1dILUtfRTFBQ0JPSk53elRnU1QzdmhIQ3VvTWlkelRTd3haWHJ4bmxiY2ZOcGhvd09wMTllVkVLQzk5NkdKZzNPeHpaZTRHQ242Ynd2Q1ZIUU50cUp1N2JYd1lCQndZQlhMUTZFekFZWWNueUxNbmRiUHdBZ2dWbDgzNlhmejZneHptaFhGbDI1M0JPbk8zZw?oc=5",
+   "summary": "Federal Reserve hikes key rate for 1st time in 3 years, defying Trump demands for a cut AP News",
+   "published": "2026-09-16T18:59:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "79a6f31c2c12",
+   "article_url": "https://apnews.com/article/federal-reserve-warsh-trump-inflation-bab1bcb07e973bfb2dd0c3e5fbbb73b1",
+   "has_text": false
+  },
+  {
+   "title": "Colbert tells Kimmel he doesn’t miss late night, compares news to ‘a cup of poison every day’",
+   "link": "https://thehill.com/blogs/in-the-know/6093447-colbert-kimmel-free-speech-comments/",
+   "summary": "Comedian Stephen Colbert on Tuesday told late-night host Jimmy Kimmel that he does not miss hosting CBS’s “The Late Show” and compared talking about the news to taking “a cup of poison every day.” A bearded Colbert, resembling his late-night predecessor David Letterman after he departed “The Late Show” in 2015, appeared as a guest…",
+   "published": "2026-09-16T18:52:31+00:00",
+   "source": "thehill",
+   "outlet": "The Hill",
+   "counted": true,
+   "section": "top",
+   "id": "ea488726315e",
+   "article_url": "https://thehill.com/blogs/in-the-know/6093447-colbert-kimmel-free-speech-comments/",
+   "has_text": false
+  },
+  {
+   "title": "Photos show widespread damage at US sites from Iranian attacks",
+   "link": "https://www.bbc.co.uk/news/articles/c8g49e0gwxeno?at_medium=RSS&at_campaign=rss",
+   "summary": "A wrecked air force plane and destroyed buildings are among the images obtained by the BBC's partner CBS News.",
+   "published": "2026-09-16T18:36:16+00:00",
+   "source": "bbc",
+   "outlet": "BBC News",
+   "counted": true,
+   "section": "top",
+   "id": "75c630931bae",
+   "article_url": "https://www.bbc.co.uk/news/articles/c8g49e0gwxeno?at_medium=RSS&at_campaign=rss",
+   "has_text": true
+  },
+  {
+   "title": "‘Rickroll’ and ‘looksmaxxing’ are official: Merriam-Webster adds 1,400 new words to dictionary website",
+   "link": "https://thehill.com/blogs/in-the-know/6093272-merriam-webster-adds-new-words-2026/",
+   "summary": "Merriam-Webster.com has added 1,400 new words and definitions to its dictionary, including looksmaxxing, parasocial, and rickroll.",
+   "published": "2026-09-16T18:36:07+00:00",
+   "source": "thehill",
+   "outlet": "The Hill",
+   "counted": true,
+   "section": "top",
+   "id": "7ce4240d5dc3",
+   "article_url": "https://thehill.com/blogs/in-the-know/6093272-merriam-webster-adds-new-words-2026/",
+   "has_text": false
+  },
+  {
+   "title": "Pacing the frontier is more about business models than AI models",
+   "link": "https://www.semafor.com/article/09/16/2026/pacing-the-frontier-is-more-about-business-models-than-ai-models",
+   "summary": "Spending billions on a race to grow the biggest and most capable models may not be the best sales pitch.",
+   "published": "2026-09-16T18:35:02+00:00",
+   "source": "semafor",
+   "outlet": "Semafor",
+   "counted": true,
+   "section": "top",
+   "id": "cea005263503",
+   "article_url": "https://www.semafor.com/article/09/16/2026/pacing-the-frontier-is-more-about-business-models-than-ai-models",
+   "has_text": true
+  },
+  {
+   "title": "WATCH: House Democrats blasts 'do nothing' Republican majority in midterm pitch to voters",
+   "link": "https://www.pbs.org/newshour/politics/watch-house-democrats-blasts-do-nothing-republican-majority-in-midterm-pitch-to-voters",
+   "summary": "House Democratic Leader Hakeem Jeffries said the Democrats' message is simple: \"We hear you… And we are committed to making life better for you.\"",
+   "published": "2026-09-16T18:28:08+00:00",
+   "source": "pbs",
+   "outlet": "PBS NewsHour",
+   "counted": true,
+   "section": "top",
+   "id": "26c3a3cdf44b",
+   "article_url": "https://www.pbs.org/newshour/politics/watch-house-democrats-blasts-do-nothing-republican-majority-in-midterm-pitch-to-voters",
+   "has_text": true
+  },
+  {
+   "title": "Retail sales rise a better-than-expected 1.2% in August after shoppers pulled back spending in July",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPM2FuR2dwQTdmR29FeHFBNGdhYUl5ODhwTGYzTTU1ckg3VnJTZE1ELXhOZ0tia09oMFpEYXhIUG9QSDVxaExKTmxBQU5hcENsQUx0R25HdlZhc1dJdGY5WlRjYXJvd2VFa3FkaWs5ZFZ6LXNuWFVnaUR0WmlhcFh5M19fdkp5dHR3dktESkZvTDROR0xRVm03MFFaVWFiOEtJZGZvRENR?oc=5",
+   "summary": "Retail sales rise a better-than-expected 1.2% in August after shoppers pulled back spending in July AP News",
+   "published": "2026-09-16T18:28:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "07114df60f07",
+   "article_url": "https://apnews.com/article/retail-inflation-consumer-sentiment-economy-474ed13de492362589405a47ec044d29",
+   "has_text": false
+  },
+  {
+   "title": "Watch: Warsh speaks after Fed hikes interest rates",
    "link": "https://thehill.com/video-clips/6093192-watch-live-kevin-warsh-federal-reserve-interest-rates/",
-   "summary": "Federal Reserve Chair Kevin Warsh is set to give remarks Wednesday afternoon after the central bank opted to raise interest rates by 0.25 percent to tame inflation amid the Iran war. The Federal Open Market Committee voted unanimously to increase the rate to a range of 3.75 to 4 percent, its first hike in over…",
+   "summary": "Federal Reserve Chair Kevin Warsh delivered remarks Wednesday afternoon after the central bank opted to raise interest rates by 0.25 percent to tame inflation amid the Iran war. The Federal Open Market Committee voted unanimously to increase the rate to a range of 3.75 to 4 percent, its first hike in over three years —…",
    "published": "2026-09-16T18:20:00+00:00",
    "source": "thehill",
    "outlet": "The Hill",
@@ -29,6 +211,19 @@
    "id": "e6d1bf088ce5",
    "article_url": "https://www.axios.com/2026/09/16/us-houthi-oman-to-discuss-red-sea-crisis",
    "has_text": true
+  },
+  {
+   "title": "WHO sees 'encouraging signs' in Congo Ebola fight, but warns cases in one eastern region are surging",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPaW50WG5mLXlzTkljNWJsZGJXYTNPWXZVZW5TNW9ZS21fNTdaRzRIYUdDRk45cjlXNlJseDBPVXNTeHpvb2lCcVJzVUJ3LXMwM2NEWkpqdXNObzViV00wRmpEbFRrNU9LUDJvb1Z6ZWNpd2Y1WVdmZGxqMnphc1REQTlKQmE3alVXZ2N1N01SbFIxREhTVTdlM1p4eEZiMEZLTzNRSGZaMUhyUlZs?oc=5",
+   "summary": "WHO sees 'encouraging signs' in Congo Ebola fight, but warns cases in one eastern region are surging AP News",
+   "published": "2026-09-16T18:19:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "037e9e09c17c",
+   "article_url": "https://apnews.com/article/congo-ebola-bundibugyo-world-health-organization-9b4aa71b0354b8fa000ea9dc5de5979d",
+   "has_text": false
   },
   {
    "title": "Fencing added to Kennedy Center after Trump-appointed board votes to close",
@@ -57,6 +252,17 @@
    "has_text": false
   },
   {
+   "title": "NASA’s Moon Orbiter Spots New, ‘Once-in-Century’ Moon Crater",
+   "link": "https://science.nasa.gov/solar-system/moon/nasas-moon-orbiter-spots-new-once-in-century-moon-crater/",
+   "summary": "It started as a routine data-quality check. But as Robert Wagner, a scientist with NASA’s Lunar Reconnaissance Orbiter (LRO), scanned a giant Moon map on his computer screen, an unusually large bright spot circled by a dark halo caught his eye, as it implied that surface material in that area had been shaken up. “I […]",
+   "published": "2026-09-16T18:06:35+00:00",
+   "source": "nasa",
+   "outlet": "NASA",
+   "counted": false,
+   "section": "top",
+   "id": "5d63cb8bdff4"
+  },
+  {
    "title": "Massie says House GOP leaving to avoid Hegseth impeachment vote",
    "link": "https://thehill.com/homenews/house/6093389-massie-accuses-gop-avoid-hegseth/",
    "summary": "GOP Rep. Thomas Massie (Ky.) accused House Republican leadership on Wednesday of sending lawmakers home early to avoid a vote on his resolution to impeach Defense Secretary Pete Hegseth. The announcement, shared by the office of GOP Whip Tom Emmer (R-Minn.), cuts the final legislative week before the midterm elections short by one day. “And…",
@@ -67,19 +273,6 @@
    "section": "top",
    "id": "677c323d6b5e",
    "article_url": "https://thehill.com/homenews/house/6093389-massie-accuses-gop-avoid-hegseth/",
-   "has_text": false
-  },
-  {
-   "title": "Federal Reserve hikes key rate for 1st time in 3 years, defying Trump demands for a cut",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVlB2TmNqY1dILUtfRTFBQ0JPSk53elRnU1QzdmhIQ3VvTWlkelRTd3haWHJ4bmxiY2ZOcGhvd09wMTllVkVLQzk5NkdKZzNPeHpaZTRHQ242Ynd2Q1ZIUU50cUp1N2JYd1lCQndZQlhMUTZFekFZWWNueUxNbmRiUHdBZ2dWbDgzNlhmejZneHptaFhGbDI1M0JPbk8zZw?oc=5",
-   "summary": "Federal Reserve hikes key rate for 1st time in 3 years, defying Trump demands for a cut AP News",
-   "published": "2026-09-16T18:04:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "79a6f31c2c12",
-   "article_url": "https://apnews.com/article/federal-reserve-warsh-trump-inflation-bab1bcb07e973bfb2dd0c3e5fbbb73b1",
    "has_text": false
   },
   {
@@ -96,7 +289,20 @@
    "has_text": false
   },
   {
-   "title": "Fed hikes interest rates by quarter-point",
+   "title": "NASA spacecraft discovers a huge new crater on the moon",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQOVBNTThJNEVJaVhGN2VsV3VSQUx4ekwtVkVCblFFb1pjbWxqT19XUk9RX0RteVdWdXZ6UEFDMV9kOVhhMzJhSElRWE1JT3luRkJNQ2lwM1NRMjJYYzN1dEJINEhWLTZ3a3VFWnFsMHgzTkdLV0JfR2NBU2l6cTF1WFJjVEE4MUMyZU1tcEdSeWRjQQ?oc=5",
+   "summary": "NASA spacecraft discovers a huge new crater on the moon AP News",
+   "published": "2026-09-16T18:03:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "534e3a3d5863",
+   "article_url": "https://apnews.com/article/moon-lunar-crater-space-nasa-80eea242ad275fda1f7a88587cdccd2f",
+   "has_text": false
+  },
+  {
+   "title": "Fed hikes interest rates by quarter point",
    "link": "https://thehill.com/business/6093135-fed-raises-interest-rates/",
    "summary": "The Federal Reserve raised interest rates Wednesday for the first time in several years in the face of stubborn inflation. The central bank’s Federal Open Market Committee (FOMC), under Fed Chair Kevin Warsh, voted unanimously to increase the central bank’s benchmark interest rate to a range of 3.75 percent to 4 percent. It marks the…",
    "published": "2026-09-16T18:01:44+00:00",
@@ -132,6 +338,19 @@
    "section": "top",
    "id": "1de77708cc54",
    "article_url": "https://thehill.com/policy/technology/6093359-hackers-reverse-engineer-flock-cameras/",
+   "has_text": false
+  },
+  {
+   "title": "Annie Dillard, Pulitzer-winning author of ‘Pilgrim at Tinker Creek,’ dies at 81",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQkJHZEVUeW4ySkxFWTBVZnNpWkp6RUJRRGQxZWt1ci1XNDZWbEJmVmJWRVNQeW5LLUJNYlQtUjFkeWVrRnRKeGFrVEtER3BYMWh6QzNpbWdiWTBXTUt6U29wN3FGdkdYOEJ6Z2NWdG1uS3lhLUhhazFPbTFTdFRNdHJ2MmRYNWtFV0JQODlPZzdqXzBPdm52RWJyeWNDVXhhUnpiMg?oc=5",
+   "summary": "Annie Dillard, Pulitzer-winning author of ‘Pilgrim at Tinker Creek,’ dies at 81 AP News",
+   "published": "2026-09-16T17:55:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "7d29845ab143",
+   "article_url": "https://apnews.com/article/annie-dillard-dies-pilgrim-at-tinker-creek-308e76e2beaffdd5836183a7a65bb6d3",
    "has_text": false
   },
   {
@@ -239,6 +458,19 @@
    "has_text": true
   },
   {
+   "title": "Former Muslim rebels lead results in first election held in southern Philippine region",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQOUEtejNpUDZSUU1XajYzWC1BeEVOM3ZlRUNOaGlnTWFpVU5DQUk5YVp1NDJSTlJjdVlmWGhkU2RFSW9FNC1BWHVNR0VQRGg3QnpzWEZuYWxqUURCazc4YWJWVENnNm9HOGFVVlcwblVYcmdVN29EazVDTzRaaHN3dUlPN2ctM3JOZ3AzMXAyanRubFZSbzlwVkFNOFltbndncmU4cDk5REZsZzQ?oc=5",
+   "summary": "Former Muslim rebels lead results in first election held in southern Philippine region AP News",
+   "published": "2026-09-16T17:14:31+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "9b3b58c755d8",
+   "article_url": "https://apnews.com/article/philippines-bangsamoro-mindanao-election-muslim-7c0fe544206770aaf8c6706ef8735545",
+   "has_text": false
+  },
+  {
    "title": "WATCH LIVE: House considers bills on Russia sanctions, AI data center costs",
    "link": "https://www.pbs.org/newshour/politics/watch-live-house-considers-bills-on-russia-sanctions-ai-data-center-costs",
    "summary": "The House will vote Wednesday on a broad package of sanctions targeting Russian officials and key pillars of its economy as lawmakers look to deprive Russian President Vladimir Putin of the financial resources needed to wage the war against Ukraine.",
@@ -278,6 +510,19 @@
    "has_text": false
   },
   {
+   "title": "US businessman Adam Castillo deported from Myanmar after months in jail, state media says",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVXdEUDFkS0RxWTliSFQ5WkxCa0s3Q2ZyeENfMGxKVC1EdU80RG1HLUU4Vy1JcEJ3VDVMdFoxeXpzejVyd0pXUlBobUpidlJlLWl2Sl9GbUZhSjRXd0plMlRzUTV6RUV0aUo1a0JtcE5FT29EMlN4djFvaU9xaGxDNGtrVmpkVkY2N0pCOHRERW1ablotREF4OG5XdzAwUW12VTZCNC1RakRhdw?oc=5",
+   "summary": "US businessman Adam Castillo deported from Myanmar after months in jail, state media says AP News",
+   "published": "2026-09-16T17:11:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "8fe7fbcd029a",
+   "article_url": "https://apnews.com/article/adam-castillo-myanmar-jail-chamber-of-commerce-f9ecfe8d62f8a71ee6914bd67b87de95",
+   "has_text": false
+  },
+  {
    "title": "Canada could become the EU's first \"associate member\"",
    "link": "https://www.axios.com/2026/09/16/eu-canada-associate-membership-carney-trump",
    "summary": "European Commission President Ursula von der Leyen on Wednesday proposed making Canada the European Union's first \"associate member.\" Why it matters: Canada and the EU are testing whether a nation deeply dependent on the U.S. market can find economic independence by moving closer to Europe. This could also present one of the most permanent effects of President Trump 's trade wars : U.S. allies building markets, supply chains and security ties designed to make them less vulnerable to Washington. If the proposal goes through, the shift would pull Ottawa deeper into Europe's economic and security",
@@ -311,9 +556,22 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "climate",
+   "section": "top",
    "id": "e5ce2bf408a0",
    "article_url": "https://apnews.com/article/sanctions-russia-ukraine-house-tariffs-china-f377fc956c442195dfcf50571b01a1c4",
+   "has_text": false
+  },
+  {
+   "title": "Joyful dressing and the trends that took over New York Fashion Week",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOZkJkYTFQajlqOGJJOEFPcHFvdDlacGlVdkdmS3lPWFpvLU1UWDhWYUJRVzdnY3M0aWFFNEtkd3ItTHIxTnljci1xcUM1RjE5N1ZtQXZoRENUUnZUa2dHdXo1VnpINjV6VThRVDhzTkxFc0VpZ2NjS29ZV19Cb0Jla3Z2aUhMa1hYRzdNdw?oc=5",
+   "summary": "Joyful dressing and the trends that took over New York Fashion Week AP News",
+   "published": "2026-09-16T17:01:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "38a831225c72",
+   "article_url": "https://apnews.com/article/fashion-trends-nyfw-2026-7d5276bf994e682e691ea34b242b943e",
    "has_text": false
   },
   {
@@ -369,19 +627,6 @@
    "has_text": true
   },
   {
-   "title": "Building collapse in Gaza kills at least 21 people, and other Mideast developments",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPM3NvWTE1SWRZbkRsSHZmSWNYNFFBRElYcVNKTVZ1LTlXUGZycm1nU0NqdV9LMmR3LTdWd0xBQ1oybC1iOWdnQTNjenJ5Wl9uUE51SXlSN0pnWTk5WHBMOVJzWlcxZ2NOSkNZUTZza3lNd3BIcE5WbEt3UUNMYWlqUzNkX2hfOXpEeVQwVjBseGJfbUpqWk5tVUNQYTQtdDM3Z3ZmTFFuMTB2RXVMTWlMbw?oc=5",
-   "summary": "Building collapse in Gaza kills at least 21 people, and other Mideast developments AP News",
-   "published": "2026-09-16T16:51:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "ad14f1c30fc3",
-   "article_url": "https://apnews.com/article/yemen-gaza-houthi-saudi-warplanes-september-16-2026-567498d0aa85a32e9c294759bd943501",
-   "has_text": false
-  },
-  {
    "title": "Retail sales rise better-than-expected 1.2% in August",
    "link": "https://www.pbs.org/newshour/economy/retail-sales-rise-better-than-expected-1-2-in-august",
    "summary": "The strong spending report comes as the Federal Reserve is widely expected to lift its short-term interest rate Wednesday for the first time in three years to fight stubbornly high inflation.",
@@ -408,17 +653,17 @@
    "has_text": false
   },
   {
-   "title": "Photos show widespread damage at US sites from Iranian attacks",
-   "link": "https://www.bbc.co.uk/news/articles/c8g49e0gwxeno?at_medium=RSS&at_campaign=rss",
-   "summary": "A wrecked air force plane and destroyed buildings are among the images obtained by the BBC's partner CBS News.",
-   "published": "2026-09-16T16:33:56+00:00",
-   "source": "bbc",
-   "outlet": "BBC News",
+   "title": "Georgia death row inmate gets last-minute stay, for now, while an execution in Texas is on track",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSW1fblRSVnk3aFRtRkkxYnRnbzJqbjZoaDN5OXNkcXprTmlEcmtrMkp3cDQza0NNQ1NCSmZRYUU2a1hqRjVkdjdfV2doYzZkbmpmQ1FmdDFNVnZYeV8tYlkwbEJQLTluVDFlQmxYNVZ1X0pLY3pacENtcGpVdl81czUxdVdRSHlLS1lMYUVUYkYtZzVWazFvNVhYakUzQ0hheFE?oc=5",
+   "summary": "Georgia death row inmate gets last-minute stay, for now, while an execution in Texas is on track AP News",
+   "published": "2026-09-16T16:32:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
    "counted": true,
    "section": "top",
-   "id": "75c630931bae",
-   "article_url": "https://www.bbc.co.uk/news/articles/c8g49e0gwxeno?at_medium=RSS&at_campaign=rss",
-   "has_text": true
+   "id": "785d8a1cec23",
+   "article_url": "https://apnews.com/article/texas-norman-georgia-humphreys-execution-a24d81f4df9423422ab11fdeb3a3fade",
+   "has_text": false
   },
   {
    "title": "AP exclusive: Change in human trafficking reporting alarms advocates for migrant children",
@@ -444,6 +689,19 @@
    "section": "top",
    "id": "bd0921d86cca",
    "article_url": "https://thehill.com/opinion/white-house/6091908-republican-congress-approval-drops/",
+   "has_text": false
+  },
+  {
+   "title": "There's one issue where Republicans and Democrats are unified before the midterms, a new poll finds",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTXRuY2Jucy1oTW9YNF9ZaXEybXMtMENxZGQ3Y3ItU2JSTW5DNlJ5VzV4S0Fua2EzZ1dKLWtTS3JTQjdUaEozNGQ1U2E3cnpzSzllaE1oaVlIZW9rT1dMM1AtR2RyWFBqdjdWTk8tcmw4VVk1TmM3TUxYelV3bURteGwzX2tRSDFodC1kYURZeFVJaEFPbUV0QktQdUxDR2wteXo1NQ?oc=5",
+   "summary": "There's one issue where Republicans and Democrats are unified before the midterms, a new poll finds AP News",
+   "published": "2026-09-16T16:28:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "b457c1209801",
+   "article_url": "https://apnews.com/article/ai-environmental-impact-data-centers-trump-228d625ab7c62cd583bc67d65074f7d4",
    "has_text": false
   },
   {
@@ -486,6 +744,19 @@
    "has_text": true
   },
   {
+   "title": "Federal prosecutors charge 3 in alleged $12M homelessness aid fraud in Southern California",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPS3hteFdBemhkMUwyM0ROQjNPRXFiMHNoYkxISTcwbzhGeU5mdWVfaHBQUGc1VGFRNUE1ZmVXY0o5S1RvOWxMZUppUWppTmZiMmhoT19nRmRGTjduaTI1OEotY2lseUplNFZoY25xdFNPbzNwMFJDU01yc0hhek5BalRTNlQzY2JXaDRNM1ZvY3dWRWh2TUVJOXdTdw?oc=5",
+   "summary": "Federal prosecutors charge 3 in alleged $12M homelessness aid fraud in Southern California AP News",
+   "published": "2026-09-16T16:14:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "50399606abde",
+   "article_url": "https://apnews.com/article/fraud-trump-homelessness-california-8848e96f919fa18e6958c5f2d2180bde",
+   "has_text": false
+  },
+  {
    "title": "Texas Oil and Gas Regulator Doubles Down and Defies State Legislature",
    "link": "https://insideclimatenews.org/news/16092026/texas-oil-regulator-wayne-christian-defies-state-legislature/",
    "summary": "AUSTIN, Texas—A chair with Railroad Commissioner Wayne Christian’s name on it sat empty Tuesday in the hearing room of the Texas House Committee on Energy Resources. Committee Chairman Drew Darby had called Christian to testify before the panel, which oversees the Railroad Commission, regulator of the state’s powerful oil and gas industry. Christian failed to […]",
@@ -508,19 +779,6 @@
    "counted": false,
    "section": "top",
    "id": "77071d17a488"
-  },
-  {
-   "title": "Retail sales rise a better-than-expected 1.2% in August after shoppers pulled back spending in July",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPM2FuR2dwQTdmR29FeHFBNGdhYUl5ODhwTGYzTTU1ckg3VnJTZE1ELXhOZ0tia09oMFpEYXhIUG9QSDVxaExKTmxBQU5hcENsQUx0R25HdlZhc1dJdGY5WlRjYXJvd2VFa3FkaWs5ZFZ6LXNuWFVnaUR0WmlhcFh5M19fdkp5dHR3dktESkZvTDROR0xRVm03MFFaVWFiOEtJZGZvRENR?oc=5",
-   "summary": "Retail sales rise a better-than-expected 1.2% in August after shoppers pulled back spending in July AP News",
-   "published": "2026-09-16T16:10:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "07114df60f07",
-   "article_url": "https://apnews.com/article/retail-inflation-consumer-sentiment-economy-474ed13de492362589405a47ec044d29",
-   "has_text": false
   },
   {
    "title": "Dr. Nicole Saphier, Trump’s 3rd surgeon general pick, faces Senate grilling",
@@ -905,19 +1163,6 @@
    "has_text": true
   },
   {
-   "title": "US businessman Adam Castillo deported from Myanmar after months in jail, state media says",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVXdEUDFkS0RxWTliSFQ5WkxCa0s3Q2ZyeENfMGxKVC1EdU80RG1HLUU4Vy1JcEJ3VDVMdFoxeXpzejVyd0pXUlBobUpidlJlLWl2Sl9GbUZhSjRXd0plMlRzUTV6RUV0aUo1a0JtcE5FT29EMlN4djFvaU9xaGxDNGtrVmpkVkY2N0pCOHRERW1ablotREF4OG5XdzAwUW12VTZCNC1RakRhdw?oc=5",
-   "summary": "US businessman Adam Castillo deported from Myanmar after months in jail, state media says AP News",
-   "published": "2026-09-16T14:55:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "8fe7fbcd029a",
-   "article_url": "https://apnews.com/article/adam-castillo-myanmar-jail-chamber-of-commerce-f9ecfe8d62f8a71ee6914bd67b87de95",
-   "has_text": false
-  },
-  {
    "title": "WATCH LIVE: Senate meets after advancing College Sports Act",
    "link": "https://www.pbs.org/newshour/politics/watch-live-senate-meets-after-advancing-college-sports-act",
    "summary": "A bill that proposes to fix some of the biggest problems in college sports — spiraling spending, constant lawsuits and a transfer portal run amok — cleared a major hurdle Tuesday when the Senate voted 74-24 to halt debate and move the measure one step closer to a final up-or-down vote.",
@@ -978,19 +1223,6 @@
    "section": "top",
    "id": "2f6061cb5de1",
    "article_url": "https://thehill.com/homenews/senate/6092827-gop-thom-tillis-donald-trump-ai-anxieties/",
-   "has_text": false
-  },
-  {
-   "title": "Georgia death row inmate gets last-minute stay, for now, while an execution in Texas is on track",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSW1fblRSVnk3aFRtRkkxYnRnbzJqbjZoaDN5OXNkcXprTmlEcmtrMkp3cDQza0NNQ1NCSmZRYUU2a1hqRjVkdjdfV2doYzZkbmpmQ1FmdDFNVnZYeV8tYlkwbEJQLTluVDFlQmxYNVZ1X0pLY3pacENtcGpVdl81czUxdVdRSHlLS1lMYUVUYkYtZzVWazFvNVhYakUzQ0hheFE?oc=5",
-   "summary": "Georgia death row inmate gets last-minute stay, for now, while an execution in Texas is on track AP News",
-   "published": "2026-09-16T14:42:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "785d8a1cec23",
-   "article_url": "https://apnews.com/article/texas-norman-georgia-humphreys-execution-a24d81f4df9423422ab11fdeb3a3fade",
    "has_text": false
   },
   {
@@ -1551,6 +1783,19 @@
    "has_text": true
   },
   {
+   "title": "South Sudan president fires head of electoral body months before country’s first election",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcVBkUHYzSVlZT09uRnZmZ2lYOVJlejRnYmtxZEhoOUxQcDFCYU5SM29TMlFTZjRkaWhBRjZ5OGxXOUJ6MzRfOGZVZnRNd2Q1SjRRbTNoOGJTZDBEWVRpRC1HOGhBQld6S0NPQkJIZTB3bXNUTjRlTXlwZ0RyeHdzQjh0aWRvalFiV09POW1FLWRYNXo3b0Z5NHZHb2R5MGZRcFpj?oc=5",
+   "summary": "South Sudan president fires head of electoral body months before country’s first election AP News",
+   "published": "2026-09-16T12:25:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "2d00a8470be0",
+   "article_url": "https://apnews.com/article/south-sudan-election-president-salva-kiir-1c2cadb70c3e22d120de41be7684d6e0",
+   "has_text": false
+  },
+  {
    "title": "English village votes to leave the UK over migrant housing plan",
    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNGNXUEJJTnp6ZVpfM0p5cVF6NXptZkxBODNlVVJXWjFfdUQzdjJUdjQyRHhBWTl0dDlsWVBETzFuNHZhMXhhTFJWV0RGM3FydUViTFVVNy1FeXNXbDBJZ0JJY0tOUEVYX2RSRXExVUNMZkZyazNZVVdVZWpKc1NNM0g5VFYxYjRWQWxVajB0ZjlsdjIwR3BzOTIyUGtqcE5MNk5FX0hvblk3TTIxc19UaldmOA?oc=5",
    "summary": "English village votes to leave the UK over migrant housing plan AP News",
@@ -1642,6 +1887,19 @@
    "has_text": true
   },
   {
+   "title": "Why Yemen’s Houthis have only grown stronger through years of war",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdkdPMUYwd2NPNzdkMVBLLU5NRlRDcmFTcW13Yl83UVZldkdNWUpfMDFzeXVnV0h2aFdOa1JxTE03UjFXeE8taW50eEwtU3VGWlJoVzdRNWJTUWdDRV9ISzBwZFg2Y0t2TjBTMlJWV1JvSER5RTVvbXhyV3JucUJpZFRGemg0bzRJNGdhd0xOTXp6OUZqa0VvWHB1dk1wYjVjeUpBUmNhMllOY0U?oc=5",
+   "summary": "Why Yemen’s Houthis have only grown stronger through years of war AP News",
+   "published": "2026-09-16T11:38:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "3dca4a498864",
+   "article_url": "https://apnews.com/article/iran-us-war-yemen-houthis-military-capabilities-4ca491bf0073cc073e04b787ac835807",
+   "has_text": false
+  },
+  {
    "title": "UK inflation rises to 5-month high, further pressuring Bank of England to raise rates this year",
    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPd2lIVC1HeTdoNmh0ckE3Q09FSHhCZ19RNS1JbUJKNG5iWHMyeEVtOU1vQkt6YXZleVJXUmhxQS1pdzRTdFlFbUdrVjRiLVpnalRBUFZoS0VTd2FhT3gwZXFkX2xnLXAzVVRJSU5obUZQR2hmTjBNVmN1dTVkaU9NbTNEQTVjckIyUUpVRE03dW1LN0xPTjgwWkYtaUZ2M0hzc3hqS01yUmo?oc=5",
    "summary": "UK inflation rises to 5-month high, further pressuring Bank of England to raise rates this year AP News",
@@ -1652,19 +1910,6 @@
    "section": "top",
    "id": "96196ca34072",
    "article_url": "https://apnews.com/article/britain-inflation-interest-rates-bank-england-c9d4ace0d4f720d02b12545cfe90c9ef",
-   "has_text": false
-  },
-  {
-   "title": "Former Muslim rebels lead results in first election held in southern Philippine region",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQOUEtejNpUDZSUU1XajYzWC1BeEVOM3ZlRUNOaGlnTWFpVU5DQUk5YVp1NDJSTlJjdVlmWGhkU2RFSW9FNC1BWHVNR0VQRGg3QnpzWEZuYWxqUURCazc4YWJWVENnNm9HOGFVVlcwblVYcmdVN29EazVDTzRaaHN3dUlPN2ctM3JOZ3AzMXAyanRubFZSbzlwVkFNOFltbndncmU4cDk5REZsZzQ?oc=5",
-   "summary": "Former Muslim rebels lead results in first election held in southern Philippine region AP News",
-   "published": "2026-09-16T11:35:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "9b3b58c755d8",
-   "article_url": "https://apnews.com/article/philippines-bangsamoro-mindanao-election-muslim-7c0fe544206770aaf8c6706ef8735545",
    "has_text": false
   },
   {
@@ -1928,6 +2173,32 @@
    "has_text": true
   },
   {
+   "title": "Trump’s allies eye big spending cuts as part of postelection agenda",
+   "link": "https://thehill.com/homenews/state-watch/6091536-senate-plans-spending-cuts/",
+   "summary": "Senate conservatives allied with President Trump are laying the groundwork for substantial cuts to federal spending in the postelection, lame-duck Congress to offset tens of billions of dollars in new defense spending, including funding for the war in Iran, if Democrats pick up seats on Election Day. Senate Majority Leader John Thune (R-S.D.) announced Tuesday…",
+   "published": "2026-09-16T10:00:00+00:00",
+   "source": "thehill",
+   "outlet": "The Hill",
+   "counted": true,
+   "section": "top",
+   "id": "e9331d8051be",
+   "article_url": "https://thehill.com/homenews/state-watch/6091536-senate-plans-spending-cuts/",
+   "has_text": false
+  },
+  {
+   "title": "Warsh under pressure as Fed considers rate hike",
+   "link": "https://thehill.com/business/6090682-fed-chair-warsh-interest-rate-decision/",
+   "summary": "Federal Reserve Chair Kevin Warsh finds himself in a tricky position as the central bank commences its September meeting, as rising expectations of an interest rate hike clash with President Trump’s demands for cuts. Warsh gave himself wiggle room for a rate hike in late August, saying the central bank had “work to do” if underlying inflation was not moving toward its 2 percent target. But Trump, who…",
+   "published": "2026-09-16T10:00:00+00:00",
+   "source": "thehill",
+   "outlet": "The Hill",
+   "counted": true,
+   "section": "top",
+   "id": "87a8420e9080",
+   "article_url": "https://thehill.com/business/6090682-fed-chair-warsh-interest-rate-decision/",
+   "has_text": true
+  },
+  {
    "title": "Lawmakers scramble to catch up on AI",
    "link": "https://thehill.com/policy/technology/6091629-senate-scrambles-over-ai-safety/",
    "summary": "Washington is scrambling to manage the abrupt panic around AI development, but party politics, a limited legislative window and lack of consensus makes it an uphill, next-to-impossible task. In the wake of a researcher’s viral warning about the technology, lawmakers on both sides of the aisle are floating numerous proposals to prevent the negative potential…",
@@ -1951,32 +2222,6 @@
    "section": "top",
    "id": "03c5cf750131",
    "article_url": "https://thehill.com/homenews/state-watch/6090827-texas-universities-courses-abbott/",
-   "has_text": false
-  },
-  {
-   "title": "Warsh under pressure as Fed considers rate hike",
-   "link": "https://thehill.com/business/6090682-fed-chair-warsh-interest-rate-decision/",
-   "summary": "Federal Reserve Chair Kevin Warsh finds himself in a tricky position as the central bank commences its September meeting, as rising expectations of an interest rate hike clash with President Trump’s demands for cuts. Warsh gave himself wiggle room for a rate hike in late August, saying the central bank had “work to do” if underlying inflation was not moving toward its 2 percent target. But Trump, who…",
-   "published": "2026-09-16T10:00:00+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "87a8420e9080",
-   "article_url": "https://thehill.com/business/6090682-fed-chair-warsh-interest-rate-decision/",
-   "has_text": true
-  },
-  {
-   "title": "Trump’s allies eye big spending cuts as part of postelection agenda",
-   "link": "https://thehill.com/homenews/state-watch/6091536-senate-plans-spending-cuts/",
-   "summary": "Senate conservatives allied with President Trump are laying the groundwork for substantial cuts to federal spending in the postelection, lame-duck Congress to offset tens of billions of dollars in new defense spending, including funding for the war in Iran, if Democrats pick up seats on Election Day. Senate Majority Leader John Thune (R-S.D.) announced Tuesday…",
-   "published": "2026-09-16T10:00:00+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "e9331d8051be",
-   "article_url": "https://thehill.com/homenews/state-watch/6091536-senate-plans-spending-cuts/",
    "has_text": false
   },
   {
@@ -2110,19 +2355,6 @@
    "has_text": true
   },
   {
-   "title": "Americans are increasingly concerned about the environmental impact of AI, new poll finds",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOTXRuY2Jucy1oTW9YNF9ZaXEybXMtMENxZGQ3Y3ItU2JSTW5DNlJ5VzV4S0Fua2EzZ1dKLWtTS3JTQjdUaEozNGQ1U2E3cnpzSzllaE1oaVlIZW9rT1dMM1AtR2RyWFBqdjdWTk8tcmw4VVk1TmM3TUxYelV3bURteGwzX2tRSDFodC1kYURZeFVJaEFPbUV0QktQdUxDR2wteXo1NQ?oc=5",
-   "summary": "Americans are increasingly concerned about the environmental impact of AI, new poll finds AP News",
-   "published": "2026-09-16T09:05:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "b457c1209801",
-   "article_url": "https://apnews.com/article/ai-environmental-impact-data-centers-trump-228d625ab7c62cd583bc67d65074f7d4",
-   "has_text": false
-  },
-  {
    "title": "EU chief von der Leyen calls for EU security mechanism to respond to drone incidents and sabotage",
    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOUnBsOHJIc0RJWVRzamFVMHdsbXRzc1VxTFlrRmhnSDVPQW5hYmZObk92bkR4VVRWcjZQOHRkeENlTDZJYTFsZGpMMUVhbHhnYlBXQ09COWg1NUx5WGdXNFdJUWMtMkFNOXQ4UVJoc2w4c2NRUUdiS3pTZXo1TS0xdGVpbVZybE9JOWh4VmtlZWFmSl9oZzJJaXE2Yi00NnhaOUtuR1ZR?oc=5",
    "summary": "EU chief von der Leyen calls for EU security mechanism to respond to drone incidents and sabotage AP News",
@@ -2136,9 +2368,9 @@
    "has_text": false
   },
   {
-   "title": "India summons Pakistan’s top diplomat after a naval collision in international waters",
+   "title": "Arabian Sea collision between Pakistani and Indian naval vessels sparks tensions",
    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcllKNXUycU5Nb0lmVC1pZmNnQ1VaWm91NkN3MXFRM2dlY0J3VWZ2UmF4YWNMbU9pbkdUakJIVFQwUTBZZ3hpRm9JTHlsTldtRlhoS1BXaHJNcWNfSzNoUE5yN0w4dHo3b01XaERtblo1OWpTbzgxX3VRTGIyN1RqUzZCLVJ5dw?oc=5",
-   "summary": "India summons Pakistan’s top diplomat after a naval collision in international waters AP News",
+   "summary": "Arabian Sea collision between Pakistani and Indian naval vessels sparks tensions AP News",
    "published": "2026-09-16T09:00:41+00:00",
    "source": "ap",
    "outlet": "AP News",
@@ -2331,6 +2563,19 @@
    "has_text": true
   },
   {
+   "title": "Philippine lawmaker pleads not guilty to taking kickbacks in flood control projects",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQkNDc0VfaGhqeHIzRU1HeWF2cUlHOWNrQlh5MGlmX2VWR2NFdHgzTVlZbVZjQmNxamV6VnZGZ0VYZ3JzUEwwLUtIa0MySTF2TzFTMzltM2JMZHhkMldBbUdvaWJHYjNMR2lLOUJrYlFaa1NQMXRpS2FGelFGYUJyZXJaLTZkdHc4YkVPUWQyR1RNTGlzZVk1Z2hHOXVadEl3Rm5DWFB0eTRjQ0dsMUk0?oc=5",
+   "summary": "Philippine lawmaker pleads not guilty to taking kickbacks in flood control projects AP News",
+   "published": "2026-09-16T07:36:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "d56b0a019064",
+   "article_url": "https://apnews.com/article/philippines-martin-romualdez-plunder-flood-control-b265b2c57ce2c2cba621896301f9676a",
+   "has_text": false
+  },
+  {
    "title": "US acknowledges for the first time that it has deployed weapons in space",
    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPaTA1b21Gd0FmOUU2Z0pROU1nZGlhTlgwZmJ3eHBTWjZzRUh0bmd1UC1xdFpGLVdWTjFJOS1RMzBFbFdIREVqbUNZOWJTb0NyaUUtSEc5MGVSbTNHQWlmY3owNHhXUENhamZYZ2I1aFBqUDhoanh3bTBPb29ReURHRENFRW10QW5xOVpF?oc=5",
    "summary": "US acknowledges for the first time that it has deployed weapons in space AP News",
@@ -2357,19 +2602,6 @@
    "has_text": true
   },
   {
-   "title": "South Korean court orders North Korea to pay $32.5 million for blowing up joint liaison office",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRUV3YzljdFlhMlUwR2dFempsX1RrUjI3QWh6NmlKQXI4dUR5SUozTk9tVDFjUXZoRm1Rd3paTlpZWHNLYmdVWWYtcUxOemZmZGdUY3R5SndOc0QtQ1hndy13R2x1UW4xU0puajViZUpsQjNJNUI2NzZPVXVfTmtUQU9qdzJ6eno2b2p4cnB4elotUXRIenNCazVOZWwxSjdpdGYtSVNiSkt6UQ?oc=5",
-   "summary": "South Korean court orders North Korea to pay $32.5 million for blowing up joint liaison office AP News",
-   "published": "2026-09-16T06:21:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "615a1cacd976",
-   "article_url": "https://apnews.com/article/south-korea-north-korea-liaison-office-lawsuit-ff79e764e758e166995838cdc5759a2a",
-   "has_text": false
-  },
-  {
    "title": "Runaway horse captured by police on motorbikes",
    "link": "https://www.bbc.co.uk/news/videos/cmzezj8gr224o?at_medium=RSS&at_campaign=rss",
    "summary": "The unharmed horse escaped from its owner before the start of a parade in New Mexico",
@@ -2381,19 +2613,6 @@
    "id": "07f77e98f1d1",
    "article_url": "https://www.bbc.co.uk/news/videos/cmzezj8gr224o?at_medium=RSS&at_campaign=rss",
    "has_text": true
-  },
-  {
-   "title": "Why Yemen’s Houthis have only grown stronger through years of war",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdkdPMUYwd2NPNzdkMVBLLU5NRlRDcmFTcW13Yl83UVZldkdNWUpfMDFzeXVnV0h2aFdOa1JxTE03UjFXeE8taW50eEwtU3VGWlJoVzdRNWJTUWdDRV9ISzBwZFg2Y0t2TjBTMlJWV1JvSER5RTVvbXhyV3JucUJpZFRGemg0bzRJNGdhd0xOTXp6OUZqa0VvWHB1dk1wYjVjeUpBUmNhMllOY0U?oc=5",
-   "summary": "Why Yemen’s Houthis have only grown stronger through years of war AP News",
-   "published": "2026-09-16T05:20:51+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "3dca4a498864",
-   "article_url": "https://apnews.com/article/iran-us-war-yemen-houthis-military-capabilities-4ca491bf0073cc073e04b787ac835807",
-   "has_text": false
   },
   {
    "title": "Egypt’s wind power push, tied to manufacturing, offers lessons for Nigeria and Africa",
@@ -2706,19 +2925,6 @@
    "has_text": false
   },
   {
-   "title": "Magazine that was 132 years overdue returned to US library",
-   "link": "https://www.bbc.co.uk/news/articles/cmn0jk2z760eo?at_medium=RSS&at_campaign=rss",
-   "summary": "Concord Public Library said it would have incurred a $12,055 overdue fine, had there not been a temporary fine freeze in place.",
-   "published": "2026-09-16T01:15:57+00:00",
-   "source": "bbc",
-   "outlet": "BBC News",
-   "counted": true,
-   "section": "top",
-   "id": "ac1f20bdb15a",
-   "article_url": "https://www.bbc.co.uk/news/articles/cmn0jk2z760eo?at_medium=RSS&at_campaign=rss",
-   "has_text": true
-  },
-  {
    "title": "Emmy Awards ratings down nearly 10% from last year",
    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNeFhOT1lsMGprWnk5eFpUSFd6MDlMX1d1NGdDUE5QVzJlUXR1d2xLUUdVTlpQMnVxVWtrUTJrRlZwTFNrXzlGWEE5eUdEeC10Z0VZb29xWmhhejhQR0dnODlxVkJlalZ5d2ZUbmdFWXZEN3ljbTJyOEtnVE92NFl6dXdOT01LVmEtMVEyWmVnaTZ3dzJG?oc=5",
    "summary": "Emmy Awards ratings down nearly 10% from last year AP News",
@@ -2782,17 +2988,6 @@
    "id": "22de73a8cdab",
    "article_url": "https://www.bbc.co.uk/news/articles/c607lxnvn7r4o?at_medium=RSS&at_campaign=rss",
    "has_text": true
-  },
-  {
-   "title": "NASA Ames Stars of the Month: September 2026",
-   "link": "https://www.nasa.gov/general/nasa-ames-stars-of-the-month-september-2026/",
-   "summary": "The NASA Ames Science Directorate recognizes the outstanding contributions of (pictured left to right) Steve Ormsby, Aphrodite Kostakis, Alejando Borlaff, Sarah Nickerson, Martina Caussi, Keiko Nomura, and Stephen Broccardo. Their commitment to the NASA mission represents the entrepreneurial spirit, technical expertise, and collaborative disposition needed to explore this world and beyond. Space Biosciences Star: Steve […]",
-   "published": "2026-09-15T23:46:11+00:00",
-   "source": "nasa",
-   "outlet": "NASA",
-   "counted": false,
-   "section": "top",
-   "id": "55ea41c21606"
   },
   {
    "title": "Judge refers Philadelphia district attorney to federal prosecutors for investigation",
@@ -2906,7 +3101,7 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "top",
+   "section": "climate",
    "id": "a3a868488065",
    "article_url": "https://apnews.com/article/environmental-defenders-killings-global-witness-colombia-brazil-2e48546eb027159d2bbabc6a4f40e648",
    "has_text": false
@@ -3224,19 +3419,6 @@
    "has_text": false
   },
   {
-   "title": "Federal authorities allege more than $10M in childcare payment fraud in California",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTEtkTHpfQ0UwSElmN1VSMlZpYkp5NUZ4SDdvcXVoRmFyRFVuYTdYZUEwZzdpZGVGTlJvWDlXa21Fby1aX2tCTWpsazBBV2F1X2FPVmpCckJRVWplbHJGUVgtY2dYdXBkYjNWb1IwMEVHYzQyMlp2NDZaa2xwa3ZsTFY0Y3NCdm5ZS3VNYS1pU3lmdmlqTklDTXdVUEdmQ1ExV2t5VlRXTzlLRmc?oc=5",
-   "summary": "Federal authorities allege more than $10M in childcare payment fraud in California AP News",
-   "published": "2026-09-15T22:18:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "97c5ac778a79",
-   "article_url": "https://apnews.com/article/feeding-our-future-childcare-fraud-white-collar-900ee7e3b97073eb7b0c82a15f50d52a",
-   "has_text": false
-  },
-  {
    "title": "US 10-year yield hits highest level since 2007",
    "link": "https://www.semafor.com/article/09/15/2026/us-10-year-yield-hits-highest-level-since-2007",
    "summary": "US Treasury Secretary Scott Bessent defended his bond buyback program in contentious congressional hearings.",
@@ -3287,19 +3469,6 @@
    "id": "e7939add6d6f",
    "article_url": "https://thehill.com/homenews/senate/6091727-wicker-shaheen-russia-democracy-resolution/",
    "has_text": false
-  },
-  {
-   "title": "18-year-old dies in Pennsylvania's 4th measles-associated death",
-   "link": "https://www.pbs.org/newshour/health/18-year-old-dies-in-pennsylvanias-4th-measles-associated-death",
-   "summary": "The U.S. is experiencing its worst measles year since 1991, with seven deaths in two years.",
-   "published": "2026-09-15T22:11:14+00:00",
-   "source": "pbs",
-   "outlet": "PBS NewsHour",
-   "counted": true,
-   "section": "top",
-   "id": "21b309d51a7a",
-   "article_url": "https://www.pbs.org/newshour/health/18-year-old-dies-in-pennsylvanias-4th-measles-associated-death",
-   "has_text": true
   },
   {
    "title": "Brazil’s top court postpones decision on key justice de Moraes ahead of October elections",
@@ -3393,19 +3562,6 @@
    "has_text": false
   },
   {
-   "title": "WATCH LIVE: Warsh holds briefing after Fed raises interest rates for 1st time in 3 years",
-   "link": "https://www.pbs.org/newshour/economy/watch-live-warsh-holds-briefing-after-fed-meeting-as-interest-rates-expected-to-rise",
-   "summary": "The quarter-point increase lifts the Fed's key rate to about 3.9% and, over time, could result in higher borrowing costs for mortgages, auto loans, and credit cards.",
-   "published": "2026-09-15T21:48:27+00:00",
-   "source": "pbs",
-   "outlet": "PBS NewsHour",
-   "counted": true,
-   "section": "top",
-   "id": "993fcd78c2c0",
-   "article_url": "https://www.pbs.org/newshour/economy/watch-live-warsh-holds-briefing-after-fed-meeting-as-interest-rates-expected-to-rise",
-   "has_text": true
-  },
-  {
    "title": "The push for AI regulation gains unlikely allies. Trump and Congress aren’t among them",
    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOcW93ckZBY1Y1bHJDS243bGlJbXlENGFaTmQzS08zTWxtQmEwYjlFRkhuQk9WZ1plVjNac2JRSjY4Zk1uLUdlT2p2VHh4WWxfanFHaDNWa3NRWUktMEhsZ0trcWcyTWNMb0RmN05aT2pJV2I1S25nejFtOXNvRjhTVjU4VTFrcTctSzNqWHFCOXpkSmtGNnhadU1EVEdSd19kUllsWA?oc=5",
    "summary": "The push for AI regulation gains unlikely allies. Trump and Congress aren’t among them AP News",
@@ -3443,19 +3599,6 @@
    "id": "4d434bd09fe6",
    "article_url": "https://thehill.com/regulation/court-battles/6091551-trump-threatens-kennedy-center-renovation/",
    "has_text": false
-  },
-  {
-   "title": "WATCH: Blumenthal grills FBI Director Kash Patel on firing Iran specialists days before U.S. launched war",
-   "link": "https://www.pbs.org/newshour/politics/watch-blumenthal-grills-fbi-director-kash-patel-on-firing-iran-specialists-days-before-u-s-launched-war",
-   "summary": "Sen. Richard Blumenthal, D-Conn., asked FBI Director Kash Patel why he fired a dozen agents and staff members from a counterintelligence unit \"specifically tasked with monitoring threats with Iran,\" days before the U.S. launched an attack against the country.",
-   "published": "2026-09-15T21:32:01+00:00",
-   "source": "pbs",
-   "outlet": "PBS NewsHour",
-   "counted": true,
-   "section": "top",
-   "id": "66c13f3f8431",
-   "article_url": "https://www.pbs.org/newshour/politics/watch-blumenthal-grills-fbi-director-kash-patel-on-firing-iran-specialists-days-before-u-s-launched-war",
-   "has_text": true
   },
   {
    "title": "Silver says NBA looked at precedent before doling out Clippers' penalties for cap circumvention",
@@ -3614,19 +3757,6 @@
    "has_text": false
   },
   {
-   "title": "Live results: McBride seeks second term as Delaware’s lone House lawmaker",
-   "link": "https://thehill.com/homenews/campaign/6090171-live-results-delaware-house-primary/",
-   "summary": "Voters in the First State head to the polls on Tuesday for the Democratic and Republican primaries for their lone U.S. House seat. First-term Rep. Sarah McBride (D-Del.) begins her reelection effort running unopposed in the Democratic primary after taking over the seat from now-Sen. Lisa Blunt Rochester (D-Del.) in 2025. McBride is the first…",
-   "published": "2026-09-15T21:00:00+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "ae81e93a9495",
-   "article_url": "https://thehill.com/homenews/campaign/6090171-live-results-delaware-house-primary/",
-   "has_text": false
-  },
-  {
    "title": "Live results: Coons looks to fend off challenger in Delaware Senate primary",
    "link": "https://thehill.com/homenews/campaign/6090125-live-results-delaware-senate-primary/",
    "summary": "Voters in the First State head to the polls on Tuesday to cast their ballots in the Democratic and Republican primaries, closing out the primary season for 2026. Sen. Chris Coons (D-Del.) has held his Senate seat for 16 years, taking over the seat vacated by Joe Biden when he became vice president in 2009…",
@@ -3637,6 +3767,19 @@
    "section": "top",
    "id": "9eebbfc47e3c",
    "article_url": "https://thehill.com/homenews/campaign/6090125-live-results-delaware-senate-primary/",
+   "has_text": false
+  },
+  {
+   "title": "Live results: McBride seeks second term as Delaware’s lone House lawmaker",
+   "link": "https://thehill.com/homenews/campaign/6090171-live-results-delaware-house-primary/",
+   "summary": "Voters in the First State head to the polls on Tuesday for the Democratic and Republican primaries for their lone U.S. House seat. First-term Rep. Sarah McBride (D-Del.) begins her reelection effort running unopposed in the Democratic primary after taking over the seat from now-Sen. Lisa Blunt Rochester (D-Del.) in 2025. McBride is the first…",
+   "published": "2026-09-15T21:00:00+00:00",
+   "source": "thehill",
+   "outlet": "The Hill",
+   "counted": true,
+   "section": "top",
+   "id": "ae81e93a9495",
+   "article_url": "https://thehill.com/homenews/campaign/6090171-live-results-delaware-house-primary/",
    "has_text": false
   },
   {
@@ -3728,19 +3871,6 @@
    "section": "top",
    "id": "f9309879ed2a",
    "article_url": "https://www.bbc.co.uk/news/videos/cmvgyp7n98zvo?at_medium=RSS&at_campaign=rss",
-   "has_text": true
-  },
-  {
-   "title": "Iran war has led to US munitions shortfalls, Pentagon inspector confirms",
-   "link": "https://www.bbc.co.uk/news/articles/c9gk58xgng0vo?at_medium=RSS&at_campaign=rss",
-   "summary": "The inspector also found a bottleneck in resupply, despite President Donald Trump's claims that US supplies are \"virtually limitless\".",
-   "published": "2026-09-15T20:34:12+00:00",
-   "source": "bbc",
-   "outlet": "BBC News",
-   "counted": true,
-   "section": "top",
-   "id": "f3fee8737dff",
-   "article_url": "https://www.bbc.co.uk/news/articles/c9gk58xgng0vo?at_medium=RSS&at_campaign=rss",
    "has_text": true
   },
   {
@@ -3978,6 +4108,19 @@
    "has_text": false
   },
   {
+   "title": "He Was Banned From Police Work In California But Hired In Honolulu",
+   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYlJBdUVEM09UY181dmFCZHNDa0JibmU2UUxsQmtDNHVSWTJXZ3E3SHE0V1BKam43MlM3SVo1eU1VVEZSczhaLS0zQ0VYWjlxOHIxb1JYZm5KQzRqek5WREtjaE0wQ2V6NWJoX0g2VzJleTFYR3FxNS12bk1Yd1JLVEVTaFRFekZELURPQUU1cWg3RGZNY0FPbng2eTh4VERQWnJROHUwUVVUNXZyRXBhRFFfNmxCUFk?oc=5",
+   "summary": "He Was Banned From Police Work In California But Hired In Honolulu AP News",
+   "published": "2026-09-15T19:23:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "36d64eea96f1",
+   "article_url": "https://apnews.com/article/san-francisco-officer-banned-hired-investigator-honolulu-cc254b24c54b15f5152a8def8241e913",
+   "has_text": false
+  },
+  {
    "title": "Trump disses ‘hostile and conflicted’ judge who blocked Kennedy Center renaming",
    "link": "https://thehill.com/homenews/administration/6091216-trump-slams-judge-kennedy-center/",
    "summary": "President Trump on Tuesday slammed the federal judge who blocked his administration’s latest effort to add his name to the Kennedy Center. The president, who has repeatedly criticized judges who rule against his administration, called U.S. District Judge Christopher Cooper a “very hostile and conflicted Judge” shortly after the Obama appointee released his opinion in…",
@@ -4050,7 +4193,7 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "top",
+   "section": "climate",
    "id": "43e5d0cffdd3",
    "article_url": "https://apnews.com/article/nick-reiner-death-penalty-rob-reiner-killing-731fc783c7a2bf6df61504732e15d4fc",
    "has_text": false
@@ -4076,7 +4219,7 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "top",
+   "section": "climate",
    "id": "9d94de7275ce",
    "article_url": "https://apnews.com/article/carney-trump-canada-investment-summit-2a3858e806b7da77dc744382d96228e7",
    "has_text": false
@@ -4089,7 +4232,7 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "top",
+   "section": "climate",
    "id": "ec78c1a5b9ad",
    "article_url": "https://apnews.com/article/iran-war-cbo-estimate-b99089b11749f04bbc8ddb1b3c64a373",
    "has_text": false
@@ -4118,19 +4261,6 @@
    "section": "top",
    "id": "9fcb0f266e33",
    "article_url": "https://thehill.com/homenews/campaign/6091025-james-talarico-ken-paxton-leads-telemundo-poll/",
-   "has_text": false
-  },
-  {
-   "title": "Bobby Seale to reissue ‘Seize the Time’ and publish new memoir ‘I, Bobby’",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOR3pPM2ItWnJWWEIwNHBfWlIxZGUyM0lkemhsUGs0QUlJdXdoSkJLeUpVMlVRTGhrMkN2QjJwQ04wa1U5LW5sTGNlT2Z4c2lyNFZYNVZyUjg2bDdFY3NmM2d1TTc3YUx6UWhvM1ozWTQ4OGk2a2pOZWhrYURoYUp6M1RtS2RFNjdaalo3QU1FbWU2NFhzNm9SRw?oc=5",
-   "summary": "Bobby Seale to reissue ‘Seize the Time’ and publish new memoir ‘I, Bobby’ AP News",
-   "published": "2026-09-15T18:48:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "3bc86237cf45",
-   "article_url": "https://apnews.com/article/bobby-seale-memoir-black-panthers-499d99aab20911554110a1414eaf69d2",
    "has_text": false
   },
   {
@@ -4264,19 +4394,6 @@
    "has_text": true
   },
   {
-   "title": "Prosecutors drop death penalty for Nick Reiner for alleged murders of parents",
-   "link": "https://thehill.com/homenews/state-watch/6090576-nick-reiner-prosecutors-death-penalty-rob-michele-reiner-murders/",
-   "summary": "The couple was found stabbed to death in their Southern California home in late 2025.",
-   "published": "2026-09-15T17:52:18+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "1fe7f28fd6f5",
-   "article_url": "https://thehill.com/homenews/state-watch/6090576-nick-reiner-prosecutors-death-penalty-rob-michele-reiner-murders/",
-   "has_text": false
-  },
-  {
    "title": "AI is doing what Wall Street couldn't",
    "link": "https://www.semafor.com/article/09/15/2026/ai-is-doing-what-wall-street-couldnt",
    "summary": "It's not obvious what Dario Amodei’s idea to “pace the frontier” actually means in practice, but it’s clearly a warning issued at the cost of some short-term riches, which is more than Chuck Prince, CEO of Citigroup from 2003 to 2007, ever managed.",
@@ -4290,29 +4407,16 @@
    "has_text": true
   },
   {
-   "title": "Capitals say Alex Ovechkin was asked to film United Russia ad while home this summer",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQemVDazZOQThvczh6cUoyekk2ZGFKM1h6LVlWNUhxZU96ZXZEeEk4SEFpTVVIOXctaThvSjZHTkVEQ0p4YmNoeEZKX3FrMUdCSXlTZ0MzNGc2ZUNSMjhhSUtvVm9fZEV6amhXdVIzRFFZSzZSODdGZ1cwcEtjRWVfU1U5U25LRnFTQ0NZNXFtMHJublA0cXdONl8xQXpPUQ?oc=5",
-   "summary": "Capitals say Alex Ovechkin was asked to film United Russia ad while home this summer AP News",
-   "published": "2026-09-15T17:50:00+00:00",
+   "title": "Arizona State coach notes Kansas got extra time ahead of London game despite 'unwritten rule'",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVEpnSUFsX0pNdDVNS3laMU5JOGVjSDNKSVMyRDl1TGZuMTFHN09uMkQ0RUwxeEg2UjRwVTRJTWFHci10RXpLT2ZqalhybE5vRUh1Z0N6SXoyMlhUM0tXVDI1VFIwQ0hRYUluZEJWOGt4bktoa3hGbG1ScENUdVlhMElMVzdMamswenFSUW1XQl9wMDlscDgxeXZEQzRNSGs?oc=5",
+   "summary": "Arizona State coach notes Kansas got extra time ahead of London game despite 'unwritten rule' AP News",
+   "published": "2026-09-15T17:36:00+00:00",
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
    "section": "climate",
-   "id": "3638f5a50227",
-   "article_url": "https://apnews.com/article/capitals-ovechkin-united-russia-putin-ab072baa41fd87569531f2767e1acf70",
-   "has_text": false
-  },
-  {
-   "title": "Dem leaders warn against AI companies policing themselves: ‘We need Congress to act’",
-   "link": "https://thehill.com/homenews/house/6090811-house-democrats-demand-ai-regulation/",
-   "summary": "Top House Democrats warned Tuesday that AI companies can’t be trusted to regulate themselves, arguing that the federal government will have to step in with industry-wide rules designed to ensure public safety. “This is not an industry that can regulate itself,” Rep. Pete Aguilar (Calif.), chairman of the House Democratic Caucus, told reporters in the…",
-   "published": "2026-09-15T17:41:09+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "646d0e261188",
-   "article_url": "https://thehill.com/homenews/house/6090811-house-democrats-demand-ai-regulation/",
+   "id": "c7a6fee6d5ac",
+   "article_url": "https://apnews.com/article/arizona-state-dillingham-kansas-london-a3e7b7ec3c017ab4fc5a009029ec6a8f",
    "has_text": false
   },
   {
@@ -4340,6 +4444,19 @@
    "id": "e31604420a10",
    "article_url": "https://www.semafor.com/article/09/15/2026/slotkin-peters-urge-fellow-democrats-to-help-el-sayed",
    "has_text": true
+  },
+  {
+   "title": "Yemen fuel shortage hampers migrants trying to flee conflict for the safety of Djibouti",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQkE1VWhxSzZjMmlrbndjb3FMc3l4cGhFQ1c0UlNfbzNOUVVrZWZmcDI3Z3VIalZObDJjR1RnY19yekoxV0RWMXF4eTRQb29wQWJMUnRsX0tmSlpFWnJYN0VaMkpVQmJmSUk0REQ1UTZBdTBBQWFYZmNURWVrZzZyQndnbThnU1d1elhraGRxSXJrQ25h?oc=5",
+   "summary": "Yemen fuel shortage hampers migrants trying to flee conflict for the safety of Djibouti AP News",
+   "published": "2026-09-15T17:28:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "b13138b7836d",
+   "article_url": "https://apnews.com/article/djibouti-yemen-red-sea-houthis-0382bf63a25d98e87477bf7f13b9577a",
+   "has_text": false
   },
   {
    "title": "AI biotech Isomorphic Labs is not slowing down, exec says",
@@ -4381,6 +4498,19 @@
    "has_text": true
   },
   {
+   "title": "Photos of Romanian farmers protesting export restrictions",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQeVBIQVFmWlg4ZjE2VDBJYzNxSS1fRE1wNnVDaHVxZGQwN3J2MHRfTlBQaGxlem1HV0JZQ0VMVlU1Y2dFRlBvZllJeHV0My1TOHVodHB0UzVmTTNrdW02am52Y3pWQTNUUVdhM1VqQUVjR0NHeWlyVTRZRjZvWUY4NlR4em8wdUQ3UHJ4M3Jvb0E0cWdOODZwd0VtNFBhU3hUaURsdmI1U2RrVk5zR05tcE9vaW9ldzBMMkpxZw?oc=5",
+   "summary": "Photos of Romanian farmers protesting export restrictions AP News",
+   "published": "2026-09-15T17:20:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "fe0045083ea9",
+   "article_url": "https://apnews.com/photo-gallery/photos-romanian-farmers-protesting-export-restrictions-bc1a144b06df445fa70fcfa104cb66e3",
+   "has_text": false
+  },
+  {
    "title": "5 major sports leagues and players associations ask for protections from sports bettors' threats",
    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMzZRQUhZYk9UdUpTZG15Q21zYlVyNDhKRkVKQkxILUFzRS1ET1lzanR6NXZlR3BkbVRYSlVkYlJvZFVVX1lJSEEyMHR2bkpTQU9YeThLWXl1R1NObXluemxhNGg5Z19KTU55WXV1cjZJaU9POEZiN0h4ZGZxb3lsOGNORklGMmpw?oc=5",
    "summary": "5 major sports leagues and players associations ask for protections from sports bettors' threats AP News",
@@ -4407,16 +4537,29 @@
    "has_text": true
   },
   {
-   "title": "Federal corruption trial opens for DC Council member Trayon White",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxObE9xZFpRdzdhdGZDN1l4LVMzVE5qektnTGI1N1ZyU2VEeWtRUEdpNEJRWFRDX19EeE14OWpCSzRMdzdfaXhKbHVCYmp3N3dzNm00NllaLWkzOWtnaUhHUFRLcFpoVEpFVVR2cHZ0S3Roekdvd3NYTjg5UnpaUUxjVTZUNkZvTWFHbUotTXdudkxZbGE4ZkFCSldseExodw?oc=5",
-   "summary": "Federal corruption trial opens for DC Council member Trayon White AP News",
-   "published": "2026-09-15T17:02:00+00:00",
+   "title": "$1.1 billion from Nike co-founder will build Oregon’s first women’s hospital",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNd29EaXBjZDZ1ak5BYUVKbkU1eHNCS2QzZUM4QWE2dEJMaHZNMFBlQ3o2QWNoYjQzUUlfUXgwWmQ5RVFfTEkxY1l6YjZaYUEzUnNLR3FPSWdFa1h0a2EzdFNLYkdNNFlrM0Y1R3ZlekhrWlFacng5b3pUUmtTTzdvVjViblR0ZmxBaDhLV0hxUmkyNE1pQjAycTF0SEFRSmVGd0E?oc=5",
+   "summary": "$1.1 billion from Nike co-founder will build Oregon’s first women’s hospital AP News",
+   "published": "2026-09-15T17:03:40+00:00",
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
    "section": "climate",
-   "id": "9d138c2ebeed",
-   "article_url": "https://apnews.com/article/trayon-white-dc-council-bribery-trial-a4c4cbd8f11880b1b1a19678a96b9adc",
+   "id": "d5d24703ee8e",
+   "article_url": "https://apnews.com/article/phil-penny-knight-oregon-womens-hospital-3dc277cdb3ae0fe418bb4795bdfcbc1c",
+   "has_text": false
+  },
+  {
+   "title": "A 1930s 'Heisman' shovel pass sets tone for Chiefs' 31-10 win over Denver, and maybe for the season",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQWd4dzkyQ2Y2TExnc0FjZl9PcVVMVXhiM3RmUHZyVFRyejlfLVg0S0pwSzFJRzNHankybTdINTgxOUZyTnNQLUFaVW9sRjlqUEEyekxTQmhEbEhmZ0k5WjVydGQyQXphOUZGa1RQRl92Smg2SDFtZzB2cnhzOHhLeWEwaldkX1ZfeXZWbnVOX1lXSzctaVpudkZraGQwSWs?oc=5",
+   "summary": "A 1930s 'Heisman' shovel pass sets tone for Chiefs' 31-10 win over Denver, and maybe for the season AP News",
+   "published": "2026-09-15T17:01:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "62a6647b66f1",
+   "article_url": "https://apnews.com/article/kansas-city-chiefs-patrick-mahomes-nfl-d377e44229382853b7d3d9f837d87278",
    "has_text": false
   },
   {
@@ -4459,6 +4602,19 @@
    "has_text": true
   },
   {
+   "title": "American incomes finally top pre-pandemic levels, fighting against inflation all the way",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSWhrQkNEM2MwUGNRbHdRekxHSklYYi1rOW5QSmVwN2tHNG9JZTNzTG53ME1EQmYxajlSRkwxQ2hsQ3hWWU9hTm9NeTFYaF9hblp1OTlFN1IxZWJtWTNjVy1RQTl3aXdpSDRzdEFRdWtyakpfZ0czY3ZwRktrT3pHOW5FY1JEVFk5eUxIQkJrdWlBbHRzMWk2Mw?oc=5",
+   "summary": "American incomes finally top pre-pandemic levels, fighting against inflation all the way AP News",
+   "published": "2026-09-15T16:52:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "9b9f930f806e",
+   "article_url": "https://apnews.com/article/income-inflation-poverty-earnings-97b2e23e7698db95efa42366c1ad6a33",
+   "has_text": false
+  },
+  {
    "title": "Trump administration orders Kalshi to scrap AI price tracker over national security concerns",
    "link": "https://www.semafor.com/article/09/15/2026/commerce-dept-ordered-kalshi-to-take-down-ai-compute-futures-product",
    "summary": "The futures market for computer power lets buyers and sellers lock in prices, and gives traders a way to bet on where those prices go.",
@@ -4496,19 +4652,6 @@
    "id": "9a5e73896ff0",
    "article_url": "https://www.semafor.com/article/09/15/2026/chipotle-tries-to-get-ahead-of-a-potential-activist-problem",
    "has_text": true
-  },
-  {
-   "title": "Federal Reserve is expected to raise its benchmark rate, defying Trump’s demands",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcEg4dFhUa0hYYzZsdXJhRTVFZ09rQUl5ems3Z0JuTE8zdlZJb3Z4bC1QUjZ3d0MzZG1KazlSenRUT20wSGFCMm9ya3AzQjJQeFBVZXB1enM4SDd5akRpNmgwT3RuOXRhSWZvVDYtZ3BOdkx1OWVkWmRCd292c1ItVDVVcmZKV1VPMWtjSU9IVF8tWEpUYm1pRnJacE1JbE5DbHJLbQ?oc=5",
-   "summary": "Federal Reserve is expected to raise its benchmark rate, defying Trump’s demands AP News",
-   "published": "2026-09-15T16:32:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "d81150de16ae",
-   "article_url": "https://apnews.com/article/federal-reserve-kevin-warsh-interest-rates-ffd60cca8bb045bb9b1c389f5f1b73af",
-   "has_text": false
   },
   {
    "title": "Italy extends border controls on visitors from Spain as migration feud continues",
@@ -4561,6 +4704,19 @@
    "id": "d8069db5ce2f",
    "article_url": "https://www.semafor.com/article/09/15/2026/a-slower-ai-frontier-wont-impact-most-of-the-corporate-world",
    "has_text": true
+  },
+  {
+   "title": "Sophie Cunningham expresses thoughts on next WNBA commissioner, has discussed them with Adam Silver",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQ1A5TGhCTWtRNnRWMVBhd2x6dWpWRmhSU2l6akFjb3NLdXI2dHVlXzZoaFp4TzFEVWxDbEZNTzlIaVM2OExtSTBpRjZ6VzJlRnN3bGR6bUlwOWNYRDR5XzYtZU9aX2ppSzFnejZfYXk4cGkxQkVicjZQNkRZQlJmTThMbDBBSlgwd3hLR2dxTV8xTWpVb1BvRjF4b1p0b184TmVj?oc=5",
+   "summary": "Sophie Cunningham expresses thoughts on next WNBA commissioner, has discussed them with Adam Silver AP News",
+   "published": "2026-09-15T15:35:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "56f15ad1e25e",
+   "article_url": "https://apnews.com/article/fever-wnba-sophie-cunningham-commissioner-95cfcda3780bb26598c74dd4a70606d1",
+   "has_text": false
   },
   {
    "title": "PGA Tour not contemplating path back for LIV players similar to Brooks Koepka",
@@ -4821,19 +4977,6 @@
    "id": "3413fa997068",
    "article_url": "https://www.semafor.com/article/09/15/2026/no-energy-ceasefire-between-ukraine-and-russia-yet",
    "has_text": true
-  },
-  {
-   "title": "An Israeli documentary on the war in Gaza sets off a firestorm at home after Venice award",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMVVYUllTR053MDNwR0V3RG56S0E2MEpTSEtLVDBwRmhNenh1bHh5QlBnZDYyWGxBMmkydDUzek84emJFY2JrdUxuMzg4amdnS0s3dlcyeXh3cjhqOXpVRjhPYlFtc01zVkhwMkNmcV9hUFhrU3A1YTB1dXVIM2ZDSkpfZEsxeDdRWG1vWWJrMHY?oc=5",
-   "summary": "An Israeli documentary on the war in Gaza sets off a firestorm at home after Venice award AP News",
-   "published": "2026-09-15T12:27:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "bc8cad55faad",
-   "article_url": "https://apnews.com/article/gaza-israel-war-documentary-8d168c053f27d9d1866b01ee0d3172b2",
-   "has_text": false
   },
   {
    "title": "Home Alone and Schitt's Creek stars tribute to late on-screen 'mom' O'Hara",
@@ -5408,19 +5551,6 @@
    "has_text": true
   },
   {
-   "title": "Saudi pipeline hit by drones will be out of service for weeks, further restricting oil flow",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOOTlTdWlFZF9mNl9uX3pCWHd0QXVWb0dEaXlGaXhLa3l4ek9PbWFhRG02VXJDMW1BT3FxUkp3MzZtdEd2ZHQ4cUswbkpfX1ZnVkxuQ3pValFrY1BTRHlyZjdaLXJqTW1VcXhzajBuSUFIbXdxamdqOTcxeFp2MERjcU9lQWVXaHhETnJweXZRdWp6UWNHQUxjdWc2NA?oc=5",
-   "summary": "Saudi pipeline hit by drones will be out of service for weeks, further restricting oil flow AP News",
-   "published": "2026-09-15T01:30:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "a3afb989fa0a",
-   "article_url": "https://apnews.com/article/yemen-houthis-saudi-shipping-mandeb-8c18d82c109a8ea91347ce53c0096c53",
-   "has_text": false
-  },
-  {
    "title": "Mass nesting brings swarms of turtles to Mexican beach",
    "link": "https://www.bbc.co.uk/news/videos/cm4gkvk7wzkpo?at_medium=RSS&at_campaign=rss",
    "summary": "Thousands of turtles arrived at La Escobilla beach in Oaxaca within 48 hours, sanctuary officials said.",
@@ -5486,19 +5616,6 @@
    "has_text": true
   },
   {
-   "title": "Carney pitches Canada to global investors as Trump tries to pull investment south",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNXJmcUpBMDNTTk1PMm5idjVnakxqWkNiT3JpNHA4eHVOMDNXSFpxRERzRktqcHM0T2l0NUptN0JIel9LWlZrWGhpQ1JIaDZibU52M2Y5aDI2QkJBRW1oRjYxUk5hbkRHVDkyZWt5a1h1cjB0NEN5eklnYXRqZl9leFN5bkUySFZWTWJMWW52NTQ5RjJiWWRlc2tZcmhTQ0hZZ05xY3hYMmQ?oc=5",
-   "summary": "Carney pitches Canada to global investors as Trump tries to pull investment south AP News",
-   "published": "2026-09-14T23:38:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "6a0915665c80",
-   "article_url": "https://apnews.com/article/canada-carney-investment-summit-toronto-trump-41a910eb2f0b6ddad5112e48746597e3",
-   "has_text": false
-  },
-  {
    "title": "I got paid $5,000 to move to a place I'd never heard of",
    "link": "https://www.bbc.co.uk/news/articles/c3eq7485kewo?at_medium=RSS&at_campaign=rss",
    "summary": "Relocation schemes offer support for people who want to swap big cities for a cheaper, quieter life.",
@@ -5536,19 +5653,6 @@
    "id": "f3564f9a7b9e",
    "article_url": "https://www.semafor.com/article/09/14/2026/germany-says-ai-slowdown-not-viable-for-europe",
    "has_text": true
-  },
-  {
-   "title": "Trump calls AI risks a ‘hoax,’ says there is a ‘SICK conspiracy’ against AI and data centers",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQeFRySlBKNy1PVjJIYndUZHZKcTB4ZVFhOU1JN0t2QzlrbWtYaTZBRjctQWFKaWJBbjdnWFFzN2JJejJKZkZlOG5fN2s5U01fRE9JVGgxemxPUUhiV3VIcGpLdzFFc2w5ZjRoWEt3MTZ4dlJobnBNaDhNbXZFZ2JVamFlTnY2b3JnNjJPTWFudmJ6azh3bnVn?oc=5",
-   "summary": "Trump calls AI risks a ‘hoax,’ says there is a ‘SICK conspiracy’ against AI and data centers AP News",
-   "published": "2026-09-14T22:42:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "71a04a686ddd",
-   "article_url": "https://apnews.com/article/trump-ai-guardrails-data-centers-b85df16775ff7e9611a456b061a0e4b9",
-   "has_text": false
   },
   {
    "title": "AI slowdown calls prompt chip selloff",
@@ -5616,19 +5720,6 @@
    "has_text": true
   },
   {
-   "title": "A Vermont man is on trial for shooting 3 Palestinian students. He claimed the CIA told him to do it",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNa2hKNDBKbGNmV014UmdfQ08yVlZ0N1FEWFJ4X1FuVm1sSUlOX3BNZlI4X3N0UUR1MEV3c1RtSjl4QWNTYmtwcXN0a2F5U0dubE5heF8xNVNlaWEwM3Jrd3BpUU9UbWZZZ1ZsYWZkOVN1cGdkYkQ1QWhSSFM0ZF9EMTlkNHlPLTlaVGdiNi04WDQxektYV1lqcXlCQjFhTXl4X2xETWtGRi1vckd5UVE?oc=5",
-   "summary": "A Vermont man is on trial for shooting 3 Palestinian students. He claimed the CIA told him to do it AP News",
-   "published": "2026-09-14T22:18:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "ad707dc0eb3a",
-   "article_url": "https://apnews.com/article/jason-eaton-vermont-palestinian-students-shooting-e3a4e8a4d437997ffdf2d0f90d86b473",
-   "has_text": false
-  },
-  {
    "title": "McConnell returns to Capitol after 3-month absence",
    "link": "https://www.axios.com/2026/09/14/mitch-mcconnell-senate-republicans-capitol-vote-fall-hospital",
    "summary": "Sen. Mitch McConnell voted at the U.S. Capitol on Monday for the first time in three months after being hospitalized in June. Why it matters: The Kentucky Republican's return could finally unjam the farm bill — and put some MAGA world rumors to rest about his ability to do the job. McConnell arrived in a wheelchair and spoke briefly to reporters, joking that after years of avoiding their questions, he \"wasn't sure how many of you would be here today. But I'm glad to see you. It's time to get back to work.\" He did not take questions but cast a vote Monday evening in favor of Matthew Byrne's nom",
@@ -5694,19 +5785,6 @@
    "has_text": true
   },
   {
-   "title": "Donald Trump Jr.'s wedding celebration was partially funded by Russian oligarch, the couple confirms",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONHNWQWs2NUJSX0hQMlBpbTV0SVo3b0lyU1hwMi1GYjFMdjFJcEZJdUVsOUpyZW1SbDUwZS04Tm13SGwzMnN2VDhqSGh0Q1UxdE1aM083bk5JUGdsbkJub1YwVlJaWXpFOVJaVFpKdlZSQTA5UXhpa3d3UHVqZl9lRzNKWjNBdXBlWGl0cldURzc0NlY5ZmhzeE5ENklEOGRWRWdycGhLUHBmTC00MUZybGdEcHVlYXdr?oc=5",
-   "summary": "Donald Trump Jr.'s wedding celebration was partially funded by Russian oligarch, the couple confirms AP News",
-   "published": "2026-09-14T20:05:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "d1cee65596b0",
-   "article_url": "https://apnews.com/article/donald-trump-jr-umar-kremlev-bettina-trump-wedding-russia-54b191b7d19ae09ab599ef5966523ab4",
-   "has_text": false
-  },
-  {
    "title": "Trump's USPS mail-ballot rules hit a second roadblock as Supreme Court weighs case",
    "link": "https://www.axios.com/2026/09/14/trumps-mail-ballot-rules-blocked",
    "summary": "A second federal judge blocked the U.S. Postal Service's new mail-ballot rules for the Nov. 3 midterms as the Supreme Court weighs whether to allow the restrictions in another case. Why it matters: Sunday's order adds another hurdle to the Trump administration's bid to upend mail voting . The blocked rules would allow the USPS to refuse ballots that don't clear new standards, with mail voting already underway in some states. The latest: U.S. District Judge Carl Nichols, a Trump appointee in Washington, D.C., concluded Congress empowered the Postal Service to move mail, not to force states to e",
@@ -5743,19 +5821,6 @@
    "section": "top",
    "id": "c77d40cd6ddc",
    "article_url": "https://www.axios.com/2026/09/14/uk-union-northern-ireland-scotland-wales-independence",
-   "has_text": true
-  },
-  {
-   "title": "Texas nominees' racist, vulgar remarks receive mixed GOP reaction",
-   "link": "https://www.axios.com/2026/09/14/gop-controversy-brandon-herrera-bo-french",
-   "summary": "Republicans have condemned, sidestepped or continued to support two Texas GOP nominees after one's racist post this weekend about students of color and another's years of vulgar comments about women sparked backlash. The big picture: In a fiercely heated midterm election, some candidates' racist, sexist and crude material online hasn't always been enough to cost them their party's support. Warning: This story includes crude, sexually explicit language that may disturb some readers. Driving the news: House Speaker Mike Johnson was asked Sunday on CNN about vulgar comments Brandon Herrera, a You",
-   "published": "2026-09-14T19:13:57+00:00",
-   "source": "axios",
-   "outlet": "Axios",
-   "counted": true,
-   "section": "top",
-   "id": "29d908ed1eb5",
-   "article_url": "https://www.axios.com/2026/09/14/gop-controversy-brandon-herrera-bo-french",
    "has_text": true
   }
  ]
