@@ -1,14 +1,170 @@
 {
- "fetched_at": "2026-09-17T12:34:11.463535+00:00",
+ "fetched_at": "2026-09-17T13:29:56.171279+00:00",
  "window_hours": 48,
- "count": 443,
+ "count": 441,
  "errors": [],
  "items": [
+  {
+   "title": "OpenAI reveals concerning new AI behavior and vows to track it more closely",
+   "link": "https://www.pbs.org/newshour/nation/openai-reveals-concerning-new-ai-behavior-and-vows-to-track-it-more-closely",
+   "summary": "An unreleased research model inserted \"jailbreak-like instructions\" into its own notes to disregard its normal constraints and told itself to be \"freed from the roles and identities that bind other chatbots.\"",
+   "published": "2026-09-17T13:10:14+00:00",
+   "source": "pbs",
+   "outlet": "PBS NewsHour",
+   "counted": true,
+   "section": "top",
+   "id": "11485b2398de",
+   "article_url": "https://www.pbs.org/newshour/nation/openai-reveals-concerning-new-ai-behavior-and-vows-to-track-it-more-closely",
+   "has_text": true
+  },
+  {
+   "title": "Rove says he’ll vote against Bo French in Texas race",
+   "link": "https://thehill.com/homenews/campaign/6094853-karl-rove-backs-texas-democrat/",
+   "summary": "Republican strategist Karl Rove said he is backing a Democrat in a Texas state race after recent controversy surrounding the Republican candidate. “This November, I’ll vote for only the second Democrat in my life. The first was Lt. Gov. Bob Bullock in 1994, because I thought he would work with Republicans,” Rove wrote in an…",
+   "published": "2026-09-17T13:10:04+00:00",
+   "source": "thehill",
+   "outlet": "The Hill",
+   "counted": true,
+   "section": "top",
+   "id": "bb765ed55b09",
+   "article_url": "https://thehill.com/homenews/campaign/6094853-karl-rove-backs-texas-democrat/",
+   "has_text": false
+  },
+  {
+   "title": "Carney: Canada welcomes proposal to become EU associate member",
+   "link": "https://thehill.com/policy/international/6094818-carney-canada-european-union-association/",
+   "summary": "Canadian Prime Minister Mark Carney on Thursday welcomed Canada’s invitation to join the European Union as its first associate member. “A Canada-EU alliance would create a beacon for other democracies,” Carney said during his speech before the European Parliament. “An alliance not defined by what we oppose but about what we are for: freedom, solidarity,…",
+   "published": "2026-09-17T13:06:19+00:00",
+   "source": "thehill",
+   "outlet": "The Hill",
+   "counted": true,
+   "section": "top",
+   "id": "e2ddff9b44fb",
+   "article_url": "https://thehill.com/policy/international/6094818-carney-canada-european-union-association/",
+   "has_text": false
+  },
+  {
+   "title": "Ninth woman's body found as South African police investigate string of deaths",
+   "link": "https://www.bbc.co.uk/news/articles/cqx2zgk8k8xvo?at_medium=RSS&at_campaign=rss",
+   "summary": "South Africa police have cautioned against assuming that all the killings are linked but many women are afraid.",
+   "published": "2026-09-17T13:02:23+00:00",
+   "source": "bbc",
+   "outlet": "BBC News",
+   "counted": true,
+   "section": "top",
+   "id": "e5bb24bb2c51",
+   "article_url": "https://www.bbc.co.uk/news/articles/cqx2zgk8k8xvo?at_medium=RSS&at_campaign=rss",
+   "has_text": true
+  },
+  {
+   "title": "Greene: $6.20 gas ‘is Trump’s fault’",
+   "link": "https://thehill.com/policy/energy-environment/6094781-greene-blames-trump-gas-prices/",
+   "summary": "Former Rep. Marjorie Taylor Greene (R-Ga.) blamed President Trump for rising gas prices amid the Iran war, calling high fuel costs “ridiculous.” In a video she posted Tuesday to Instagram, Greene stood outside a California gas station and referenced the posted prices: $6.19 per gallon for regular gas, $6.47 for plus gas, $6.75 for supreme…",
+   "published": "2026-09-17T13:01:05+00:00",
+   "source": "thehill",
+   "outlet": "The Hill",
+   "counted": true,
+   "section": "top",
+   "id": "8c3c05cb118f",
+   "article_url": "https://thehill.com/policy/energy-environment/6094781-greene-blames-trump-gas-prices/",
+   "has_text": false
+  },
+  {
+   "title": "Congress must get its head out of the sand and finally fix the budget",
+   "link": "https://thehill.com/opinion/finance/6093161-us-national-debt-crisis/",
+   "summary": "Both Democrats and Republicans have adopted an “ostrich policy” over the years when it comes to federal spending and debt. It's long past time to get our fiscal house in order.",
+   "published": "2026-09-17T13:00:00+00:00",
+   "source": "thehill",
+   "outlet": "The Hill",
+   "counted": true,
+   "section": "top",
+   "id": "0c9f6e80013e",
+   "article_url": "https://thehill.com/opinion/finance/6093161-us-national-debt-crisis/",
+   "has_text": false
+  },
+  {
+   "title": "When AI goes rogue, its human overseers may be to blame",
+   "link": "https://www.sciencenews.org/article/rogue-ai-agents-human-blame-safety",
+   "summary": "When AI agents hack real systems, the bigger issue may be the human choices that gave them access, autonomy and too few safeguards.",
+   "published": "2026-09-17T13:00:00+00:00",
+   "source": "sciencenews",
+   "outlet": "Science News",
+   "counted": true,
+   "section": "top",
+   "id": "d8f3257a7672",
+   "article_url": "https://www.sciencenews.org/article/rogue-ai-agents-human-blame-safety",
+   "has_text": true
+  },
+  {
+   "title": "These State Elections Could Reshape Climate and Energy Policy",
+   "link": "https://insideclimatenews.org/news/17092026/inside-clean-energy-key-state-elections/",
+   "summary": "Democrats are poised to achieve trifectas—control of the governor’s office and both legislative chambers—in at least three states in this year’s midterm elections, and maybe even more. This matters because states play an outsize role in climate and energy policy. And when Democrats control state government, they often take substantial action. This isn’t a partisan […]",
+   "published": "2026-09-17T13:00:00+00:00",
+   "source": "insideclimate",
+   "outlet": "Inside Climate News",
+   "counted": true,
+   "section": "top",
+   "id": "64c50c02b112",
+   "article_url": "https://insideclimatenews.org/news/17092026/inside-clean-energy-key-state-elections/",
+   "has_text": true
+  },
+  {
+   "title": "Live updates: Missouri redistricting returns to court; Trump threatens EU over new Canada ties",
+   "link": "https://thehill.com/homenews/state-watch/6094510-live-updates-trump-missouri-map-kennedy-center/",
+   "summary": "The U.S. Appeals Court for the 8th Circuit will wade into the Missouri’s congressional map dispute on Thursday. The hearing in a federal suit filed by Rep. Bob Onder (R-Mo.) follows a week after the U.S. Supreme Court blocked a federal judge’s ruling in another suit that would have allowed a 2025 GOP-favored map to…",
+   "published": "2026-09-17T12:53:29+00:00",
+   "source": "thehill",
+   "outlet": "The Hill",
+   "counted": true,
+   "section": "top",
+   "id": "3eed41daab05",
+   "article_url": "https://thehill.com/homenews/state-watch/6094510-live-updates-trump-missouri-map-kennedy-center/",
+   "has_text": false
+  },
+  {
+   "title": "Judge Judy retiring from TV because son ‘finally ready’ to take over",
+   "link": "https://thehill.com/blogs/in-the-know/6094015-judge-judy-retiring-from-tv/",
+   "summary": "The long-running television star is celebrating the 30th anniversary of “Judge Judy.\"",
+   "published": "2026-09-17T12:49:47+00:00",
+   "source": "thehill",
+   "outlet": "The Hill",
+   "counted": true,
+   "section": "top",
+   "id": "0ba3c57d315b",
+   "article_url": "https://thehill.com/blogs/in-the-know/6094015-judge-judy-retiring-from-tv/",
+   "has_text": false
+  },
+  {
+   "title": "Quantum has major emissions savings potential, report finds",
+   "link": "https://www.semafor.com/article/09/17/2026/quantum-has-major-emissions-savings-potential-report-finds",
+   "summary": "The BCG Institute argued in its analysis that the industry’s long deployment cycles are more reason to plan ahead.",
+   "published": "2026-09-17T12:45:07+00:00",
+   "source": "semafor",
+   "outlet": "Semafor",
+   "counted": true,
+   "section": "top",
+   "id": "0f688b08405b",
+   "article_url": "https://www.semafor.com/article/09/17/2026/quantum-has-major-emissions-savings-potential-report-finds",
+   "has_text": true
+  },
+  {
+   "title": "Russia sanctions advance, as the US deepens economic pressure",
+   "link": "https://www.semafor.com/article/09/17/2026/russia-sanctions-advance-as-the-us-deepens-economic-pressure",
+   "summary": "The US House of Representatives passed the sanctions bill on Wednesday.",
+   "published": "2026-09-17T12:44:25+00:00",
+   "source": "semafor",
+   "outlet": "Semafor",
+   "counted": true,
+   "section": "top",
+   "id": "832948225535",
+   "article_url": "https://www.semafor.com/article/09/17/2026/russia-sanctions-advance-as-the-us-deepens-economic-pressure",
+   "has_text": true
+  },
   {
    "title": "Swedish PM Kristersson resigns after election loss",
    "link": "https://www.bbc.co.uk/news/articles/cxr50l3d762po?at_medium=RSS&at_campaign=rss",
    "summary": "Left-wing opposition parties led by Magdalena Andersson look set to form the next government.",
-   "published": "2026-09-17T12:30:01+00:00",
+   "published": "2026-09-17T12:41:05+00:00",
    "source": "bbc",
    "outlet": "BBC News",
    "counted": true,
@@ -16,6 +172,45 @@
    "id": "322a0a55bcda",
    "article_url": "https://www.bbc.co.uk/news/articles/cxr50l3d762po?at_medium=RSS&at_campaign=rss",
    "has_text": true
+  },
+  {
+   "title": "Carney embraces EU associate membership proposal as Trump pushes Canada closer to Europe",
+   "link": "https://www.pbs.org/newshour/world/carney-embraces-eu-associate-membership-proposal-as-trump-pushes-canada-closer-to-europe",
+   "summary": "Canadian Prime Minister Mark Carney on Thursday embraced the prospect of his country becoming the European Union's first associate member, saying closer ties with the continent would ensure no country could control Canada's markets or undermine its sovereignty.",
+   "published": "2026-09-17T12:36:44+00:00",
+   "source": "pbs",
+   "outlet": "PBS NewsHour",
+   "counted": true,
+   "section": "top",
+   "id": "c31da2bddbff",
+   "article_url": "https://www.pbs.org/newshour/world/carney-embraces-eu-associate-membership-proposal-as-trump-pushes-canada-closer-to-europe",
+   "has_text": true
+  },
+  {
+   "title": "Trump: EU allowing Canada to become associate member could be ‘hostile act’",
+   "link": "https://thehill.com/homenews/administration/6094720-donald-trump-us-canada-european-union-trade-war/",
+   "summary": "President Trump said Wednesday the European Union (EU) inviting Canada to join as an associate member could amount to a “hostile act,” threatening tariffs or a trade embargo against the bloc. “If they do that, if I think it’s at all a hostile act, I will put very serious tariffs or stop trading with Europe,”…",
+   "published": "2026-09-17T12:36:12+00:00",
+   "source": "thehill",
+   "outlet": "The Hill",
+   "counted": true,
+   "section": "top",
+   "id": "d63a81cb909b",
+   "article_url": "https://thehill.com/homenews/administration/6094720-donald-trump-us-canada-european-union-trade-war/",
+   "has_text": false
+  },
+  {
+   "title": "Calm down — AI isn’t ending humanity any time soon",
+   "link": "https://thehill.com/opinion/technology/6093514-ai-extinction-scenarios-misplaced-focus/",
+   "summary": "Already AI models are being used for nefarious ends by creating ever more sophisticated financial scams, costing Americans millions of dollars every day. Yet, the AI industry is paying relatively scant attention to this “now” problem, in favor of moaning about science fiction scenarios.",
+   "published": "2026-09-17T12:30:00+00:00",
+   "source": "thehill",
+   "outlet": "The Hill",
+   "counted": true,
+   "section": "top",
+   "id": "85b3d648d9ea",
+   "article_url": "https://thehill.com/opinion/technology/6093514-ai-extinction-scenarios-misplaced-focus/",
+   "has_text": false
   },
   {
    "title": "Los Angeles news helicopter crash: What we know about victims, investigation",
@@ -55,19 +250,6 @@
    "id": "494527e887df",
    "article_url": "https://apnews.com/article/un-human-rights-us-iran-99e690efd1e818e835d4f5a00e0d261b",
    "has_text": false
-  },
-  {
-   "title": "Ninth woman's body found as South African police investigate string of deaths",
-   "link": "https://www.bbc.co.uk/news/articles/cqx2zgk8k8xvo?at_medium=RSS&at_campaign=rss",
-   "summary": "South Africa police have cautioned against assuming that all the killings are linked but many women are afraid.",
-   "published": "2026-09-17T12:07:23+00:00",
-   "source": "bbc",
-   "outlet": "BBC News",
-   "counted": true,
-   "section": "top",
-   "id": "e5bb24bb2c51",
-   "article_url": "https://www.bbc.co.uk/news/articles/cqx2zgk8k8xvo?at_medium=RSS&at_campaign=rss",
-   "has_text": true
   },
   {
    "title": "BRICS is challenging the US-led order but can’t replace it yet",
@@ -122,6 +304,45 @@
    "has_text": false
   },
   {
+   "title": "The T. rex had a body temperature similar to our own, study finds",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUlZTQzhWV3E1TWZ1bWVMT1ZSQnMtX3pDLXVDRGw0UWV3WWsxY0hjTmsxNkNvLVBwanlrR2ZCUEpjblJLMS1iczY1aW9JRFdETGM0VFVvd1hkYXRWSTBZSGlOeEhlcktmRHZWSllBNnptRTlTNkhKNDd6cFRlTm1vc0psVkZBWjIzUmRlUmFMRjhZTzFWUjFlZUJB?oc=5",
+   "summary": "The T. rex had a body temperature similar to our own, study finds AP News",
+   "published": "2026-09-17T11:45:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "811cc5e068a9",
+   "article_url": "https://apnews.com/article/tyrannosaurus-rex-body-temperature-2ee33ab4528dc358bc4b90861aa715e4",
+   "has_text": false
+  },
+  {
+   "title": "Why the discovery of 9 women’s bodies have raised fears of a serial killer in South Africa",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeUUzNEcweTBMb1JQZUJxaXprVmduWWh3eHNGVVpWTHVDQTNpU29qQ3JyOGlMa2hwQnc2d0p0empwV1E4emJIeEZndUFOWHRBdzFDTkRGMktnRXMyNUNBVDVTcWdVQzN4eW43QVBxX2hmSGhTZnAyV0ZqQzZrVElXakdxejB1OFlLWGx6dVpMRXFnODZvSzZDQVhDdGI5MXQx?oc=5",
+   "summary": "Why the discovery of 9 women’s bodies have raised fears of a serial killer in South Africa AP News",
+   "published": "2026-09-17T11:43:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "ccd096a58620",
+   "article_url": "https://apnews.com/article/south-africa-women-deaths-serial-killer-f105a2b307d8a22d3699043952999dec",
+   "has_text": false
+  },
+  {
+   "title": "US futures climb after Fed takes a hawkish turn on inflation",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMEZ4eWpRcFQybzI4MUxVM2pCc1ZxNWRFajBQU2o3dWRSSnNZMmt6NEMxbjBmQXRqTzREdXlLOVZJVURwQmIyMzdfeXZkNUg1RlBRa1B3LWJqUkV2VjBtSTVpRDNlWTdRZzJndy1adEJkOHdVbERwU1liZmlwWEEyTEtBQTYwc29m?oc=5",
+   "summary": "US futures climb after Fed takes a hawkish turn on inflation AP News",
+   "published": "2026-09-17T11:43:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "c1bc478f4f9d",
+   "article_url": "https://apnews.com/article/stock-markets-fed-oil-26a4da336d561d213a3f28f260f25d2c",
+   "has_text": false
+  },
+  {
    "title": "Tested by war, Abu Dhabi charts its energy and water future",
    "link": "https://www.semafor.com/article/09/17/2026/tested-by-war-abu-dhabi-charts-its-energy-and-water-future",
    "summary": "The emirate has earmarked almost $82 billion over the next decade for expanding and greening its power grid.",
@@ -133,6 +354,32 @@
    "id": "1ebe9004d0da",
    "article_url": "https://www.semafor.com/article/09/17/2026/tested-by-war-abu-dhabi-charts-its-energy-and-water-future",
    "has_text": true
+  },
+  {
+   "title": "Ireland’s national broadcaster will boycott 2027 Eurovision Song Contest over Israel’s participation",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNENlZm9XNkczVVluUTZSQWNsYnpYUmNlOVFySW12eGtJNWszM0doNzIxZENWMHFoN3M5TVViclZPRnpnWmJGdVBuUlFkYVl0aVQwUTZ4RU45ZEVpZGdlbldOYVB4VlpQNUxuaFU5WHN2eFJHenNqR0FvdmhDeDhMbFB2N2ZFM0ROc0FGdjhLNGx6MEZ3UEtfWnoyWDAxVzlVb1BV?oc=5",
+   "summary": "Ireland’s national broadcaster will boycott 2027 Eurovision Song Contest over Israel’s participation AP News",
+   "published": "2026-09-17T11:42:41+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "b85dcca6a2a4",
+   "article_url": "https://apnews.com/article/ireland-eurovision-contest-israel-boycott-902293d4a2e18b50c2d0407f18df7e70",
+   "has_text": false
+  },
+  {
+   "title": "Bank of England holds rates but appears ready to hike soon",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOc2p1NzZfdWV1YjU2T0ZPTHp3bFN4cFNHT3ktd3oxVElyZHVhblhPYmJFTHBEd1VuVXFSN1F6Q0QxbkJWbXVnNVMtRnBXdUhQZEUzbWdacHktYlI4XzVpMzhXOVNqZnhEZDQxajBhSEg4NldKdzI0Y2l5eWpESldFa0oxWjRUY2FXeVFhY2NEbmk3a1Zt?oc=5",
+   "summary": "Bank of England holds rates but appears ready to hike soon AP News",
+   "published": "2026-09-17T11:41:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "2a455ba35fbb",
+   "article_url": "https://apnews.com/article/britain-economy-interest-rates-9d2abfcda73347ccb1a19dd39f1c06c8",
+   "has_text": false
   },
   {
    "title": "Exxon nears Venezuela deal, two decades after messy exit",
@@ -171,19 +418,6 @@
    "section": "top",
    "id": "29178e533fd0",
    "article_url": "https://thehill.com/opinion/campaign/6091103-constitution-day-importance-civic-responsibility/",
-   "has_text": false
-  },
-  {
-   "title": "Bank of England holds rates but appears ready to hike soon",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOc2p1NzZfdWV1YjU2T0ZPTHp3bFN4cFNHT3ktd3oxVElyZHVhblhPYmJFTHBEd1VuVXFSN1F6Q0QxbkJWbXVnNVMtRnBXdUhQZEUzbWdacHktYlI4XzVpMzhXOVNqZnhEZDQxajBhSEg4NldKdzI0Y2l5eWpESldFa0oxWjRUY2FXeVFhY2NEbmk3a1Zt?oc=5",
-   "summary": "Bank of England holds rates but appears ready to hike soon AP News",
-   "published": "2026-09-17T11:24:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "2a455ba35fbb",
-   "article_url": "https://apnews.com/article/britain-economy-interest-rates-9d2abfcda73347ccb1a19dd39f1c06c8",
    "has_text": false
   },
   {
@@ -226,6 +460,19 @@
    "has_text": true
   },
   {
+   "title": "At least 48 dead in Nigeria after consuming drink suspected to contain methanol, authorities say",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbUlsSmRleTBkMVBILTJ6c2ZlY3NIVHdXTHg2dDdGbU9DaklMR0pGV2hZT2cwa3l0UGlqTE5LeWtwZEJtS3VFOW9KYncwamQ1M08zMS1vY0VtQmdPSEp1VjJCNHJFdUJHdXM0OXJOakhqVlVidEpaMklUdUJFbHMzMndOd3VhS0RLai1OSXNLWGNxQQ?oc=5",
+   "summary": "At least 48 dead in Nigeria after consuming drink suspected to contain methanol, authorities say AP News",
+   "published": "2026-09-17T11:02:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "817bf5df72da",
+   "article_url": "https://apnews.com/article/nigeria-drink-deaths-arrests-953036190416f202f812700f58aba05c",
+   "has_text": false
+  },
+  {
    "title": "Aztec document goes on display in Mexico after 186 years abroad",
    "link": "https://www.bbc.co.uk/news/articles/ck980qyy6d2zo?at_medium=RSS&at_campaign=rss",
    "summary": "France's national library is lending the manuscript recounting the history of the Aztecs to Mexico.",
@@ -259,7 +506,7 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "climate",
+   "section": "top",
    "id": "c1b70535d581",
    "article_url": "https://apnews.com/article/mideast-iran-us-strikes-un-claims-september-17-2026-742e1eebb7d099ea42372d978e271900",
    "has_text": false
@@ -369,6 +616,84 @@
    "has_text": true
   },
   {
+   "title": "Talarico neck and neck with Paxton in new Texas Senate poll",
+   "link": "https://thehill.com/homenews/state-watch/6093606-talarico-paxton-deadlock-texas-senate-poll/",
+   "summary": "Democrat James Talarico, a state lawmaker, and Republican Attorney General Ken Paxton remain deadlocked in the Texas Senate race less than seven weeks out from Election Day, according to a new poll released Thursday. The Hill/Emerson College Polling survey found 47 percent of state voters supported Talarico, while 46 percent backed Paxton in this race. …",
+   "published": "2026-09-17T10:00:00+00:00",
+   "source": "thehill",
+   "outlet": "The Hill",
+   "counted": true,
+   "section": "top",
+   "id": "cfc278ca4005",
+   "article_url": "https://thehill.com/homenews/state-watch/6093606-talarico-paxton-deadlock-texas-senate-poll/",
+   "has_text": false
+  },
+  {
+   "title": "Ocasio-Cortez sees confidence in her White House chances grow",
+   "link": "https://thehill.com/homenews/state-watch/6093571-aoc-potential-2028-presidential-run/",
+   "summary": "Confidence is growing among some influential Democrats about Rep. Alexandria Ocasio-Cortez’s (D-N.Y.) prospects in the 2028 presidential race. The New York Democrat has quickly become one of the party’s most prominent voices, tapping into a surge of populist energy on the left while growing her following as Democrats search for a leader nearly two years after…",
+   "published": "2026-09-17T10:00:00+00:00",
+   "source": "thehill",
+   "outlet": "The Hill",
+   "counted": true,
+   "section": "top",
+   "id": "153479f1b7b5",
+   "article_url": "https://thehill.com/homenews/state-watch/6093571-aoc-potential-2028-presidential-run/",
+   "has_text": false
+  },
+  {
+   "title": "Washington balks at giving AI firms waiver to create safety standard",
+   "link": "https://thehill.com/policy/technology/6093542-washington-skeptical-ai-antitrust-waiver-push/",
+   "summary": "Anthropic CEO Dario Amodei’s call for an antitrust waiver for AI firms to work together on a safety standard is being met with skepticism in Washington, where policymakers are questioning tech leaders’ intentions. Congress has failed repeatedly to pass AI regulations for years, but some lawmakers are balking at the idea of technology companies taking…",
+   "published": "2026-09-17T10:00:00+00:00",
+   "source": "thehill",
+   "outlet": "The Hill",
+   "counted": true,
+   "section": "top",
+   "id": "d5bae5531ac2",
+   "article_url": "https://thehill.com/policy/technology/6093542-washington-skeptical-ai-antitrust-waiver-push/",
+   "has_text": false
+  },
+  {
+   "title": "Kennedy Center faces uncertain future after Trump closure",
+   "link": "https://thehill.com/homenews/administration/6094099-kennedy-center-closure-trump/",
+   "summary": "The fight over the Kennedy Center is not slowing down after President Trump made planned renovations contingent on his name appearing on the building while a Trump-aligned board voted to close the venue down. Federal judge Christopher Cooper has blocked both efforts, but fencing went up around the main building Wednesday, which was closed to…",
+   "published": "2026-09-17T10:00:00+00:00",
+   "source": "thehill",
+   "outlet": "The Hill",
+   "counted": true,
+   "section": "top",
+   "id": "90591766280a",
+   "article_url": "https://thehill.com/homenews/administration/6094099-kennedy-center-closure-trump/",
+   "has_text": false
+  },
+  {
+   "title": "El-Sayed narrowly leads Rogers in Michigan Senate race: Poll",
+   "link": "https://thehill.com/homenews/campaign/6093219-el-sayed-rogers-michigan-senate-poll/",
+   "summary": "Democratic Senate candidate Abdul El-Sayed holds a slight lead over his opponent, former Rep. Mike Rogers (R-Mich.), ahead of the 2026 midterm elections, a new poll shows. The Hill/Emerson College Polling survey released Thursday found that El-Sayed garnered 48 percent support and Rogers received 46 percent, while 4 percent of respondents remained undecided and 2…",
+   "published": "2026-09-17T10:00:00+00:00",
+   "source": "thehill",
+   "outlet": "The Hill",
+   "counted": true,
+   "section": "top",
+   "id": "82572db78c3f",
+   "article_url": "https://thehill.com/homenews/campaign/6093219-el-sayed-rogers-michigan-senate-poll/",
+   "has_text": false
+  },
+  {
+   "title": "Alexander Ovechkin faces backlash over Putin campaign ad",
+   "link": "https://thehill.com/policy/sports-gaming/6093716-ovechkin-puckers-up-putin/",
+   "summary": "NHL star Alexander Ovechkin is facing criticism for an appearance in a campaign advertisement promoting Russian President Vladimir Putin ahead of the country’s elections this weekend. The episode is just the latest in Ovechkin’s longstanding support for the Russian leader, who has earned widespread condemnation from the international community for crimes against humanity going back…",
+   "published": "2026-09-17T10:00:00+00:00",
+   "source": "thehill",
+   "outlet": "The Hill",
+   "counted": true,
+   "section": "top",
+   "id": "ddfbfa9215e6",
+   "article_url": "https://thehill.com/policy/sports-gaming/6093716-ovechkin-puckers-up-putin/",
+   "has_text": false
+  },
+  {
    "title": "GOP lawmakers unhappy with lack of progress on Iran war",
    "link": "https://thehill.com/homenews/senate/6093985-senate-republicans-criticize-iran-war/",
    "summary": "Senate Republicans aren’t happy with the lack of progress in the Iran war and what they say is the administration’s failure to identify clear objectives to end the conflict. The war continues to be a major drag on GOP candidates as the failure to reopen the Strait of Hormuz and new threats facing oil exports…",
@@ -395,97 +720,6 @@
    "has_text": false
   },
   {
-   "title": "Alexander Ovechkin faces backlash over Putin campaign ad",
-   "link": "https://thehill.com/policy/sports-gaming/6093716-ovechkin-puckers-up-putin/",
-   "summary": "NHL star Alexander Ovechkin is facing criticism for an appearance in a campaign advertisement promoting Russian President Vladimir Putin ahead of the country’s elections this weekend. The episode is just the latest in Ovechkin’s longstanding support for the Russian leader, who has earned widespread condemnation from the international community for crimes against humanity going back…",
-   "published": "2026-09-17T10:00:00+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "ddfbfa9215e6",
-   "article_url": "https://thehill.com/policy/sports-gaming/6093716-ovechkin-puckers-up-putin/",
-   "has_text": false
-  },
-  {
-   "title": "El-Sayed narrowly leads Rogers in Michigan Senate race: Poll",
-   "link": "https://thehill.com/homenews/campaign/6093219-el-sayed-rogers-michigan-senate-poll/",
-   "summary": "Democratic Senate candidate Abdul El-Sayed holds a slight lead over his opponent former Rep. Mike Rogers (R-Mich.) ahead of the 2026 midterm elections, a new poll shows. The Hill/Emerson College Polling survey released Thursday found that El-Sayed garnered 48 percent support, Rogers received 46 percent, 4 percent remained undecided and 2 percent chose another candidate…",
-   "published": "2026-09-17T10:00:00+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "82572db78c3f",
-   "article_url": "https://thehill.com/homenews/campaign/6093219-el-sayed-rogers-michigan-senate-poll/",
-   "has_text": false
-  },
-  {
-   "title": "Talarico neck and neck with Paxton in new Texas Senate poll",
-   "link": "https://thehill.com/homenews/state-watch/6093606-talarico-paxton-deadlock-texas-senate-poll/",
-   "summary": "Democrat James Talarico, a state lawmaker, and Republican Attorney General Ken Paxton remain deadlocked in the Texas Senate race less than seven weeks out from Election Day, according to a new poll released Thursday. The Hill/Emerson College Polling survey found 47 percent of state voters supported Talarico, while 46 percent backed Paxton in this race. …",
-   "published": "2026-09-17T10:00:00+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "cfc278ca4005",
-   "article_url": "https://thehill.com/homenews/state-watch/6093606-talarico-paxton-deadlock-texas-senate-poll/",
-   "has_text": false
-  },
-  {
-   "title": "Kennedy Center faces uncertain future after Trump closure",
-   "link": "https://thehill.com/homenews/administration/6094099-kennedy-center-closure-trump/",
-   "summary": "The fight over the Kennedy Center is not slowing down after President Trump made planned renovations contingent on his name appearing on the building while a Trump-aligned board voted to close the venue down. Federal judge Christopher Cooper has blocked both efforts, but fencing went up around the main building Wednesday, which was closed to…",
-   "published": "2026-09-17T10:00:00+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "90591766280a",
-   "article_url": "https://thehill.com/homenews/administration/6094099-kennedy-center-closure-trump/",
-   "has_text": false
-  },
-  {
-   "title": "Washington balks at giving AI firms waiver to create safety standard",
-   "link": "https://thehill.com/policy/technology/6093542-washington-skeptical-ai-antitrust-waiver-push/",
-   "summary": "Anthropic CEO Dario Amodei’s call for an antitrust waiver for AI firms to work together on a safety standard is being met with skepticism in Washington, where policymakers are questioning tech leaders’ intentions. Congress has failed repeatedly to pass AI regulations for years, but some lawmakers are balking at the idea of technology companies taking…",
-   "published": "2026-09-17T10:00:00+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "d5bae5531ac2",
-   "article_url": "https://thehill.com/policy/technology/6093542-washington-skeptical-ai-antitrust-waiver-push/",
-   "has_text": false
-  },
-  {
-   "title": "Ocasio-Cortez sees confidence in her White House chances grow",
-   "link": "https://thehill.com/homenews/state-watch/6093571-aoc-potential-2028-presidential-run/",
-   "summary": "Confidence is growing among some influential Democrats about Rep. Alexandria Ocasio-Cortez’s (D-N.Y.) prospects in the 2028 presidential race. The New York Democrat has quickly become one of the party’s most prominent voices, tapping into a surge of populist energy on the left while growing her following as Democrats search for a leader nearly two years after…",
-   "published": "2026-09-17T10:00:00+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "153479f1b7b5",
-   "article_url": "https://thehill.com/homenews/state-watch/6093571-aoc-potential-2028-presidential-run/",
-   "has_text": false
-  },
-  {
-   "title": "At least 48 dead in Nigeria after consuming drink suspected to contain methanol, authorities say",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbUlsSmRleTBkMVBILTJ6c2ZlY3NIVHdXTHg2dDdGbU9DaklMR0pGV2hZT2cwa3l0UGlqTE5LeWtwZEJtS3VFOW9KYncwamQ1M08zMS1vY0VtQmdPSEp1VjJCNHJFdUJHdXM0OXJOakhqVlVidEpaMklUdUJFbHMzMndOd3VhS0RLai1OSXNLWGNxQQ?oc=5",
-   "summary": "At least 48 dead in Nigeria after consuming drink suspected to contain methanol, authorities say AP News",
-   "published": "2026-09-17T09:57:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "817bf5df72da",
-   "article_url": "https://apnews.com/article/nigeria-drink-deaths-arrests-953036190416f202f812700f58aba05c",
-   "has_text": false
-  },
-  {
    "title": "A ninth woman’s body is found in South Africa as police investigate series of killings",
    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMmZ4QkdBdkd3bGI5ZkQtN3FfcmoxT0ZWY3RZNnpESWlwcTBzV1E5akNjV3dQck44S01uUWhCMzNtNHBuUTRXTWJiVmVBcGdjdXhaRF84ZmZqZ0pBek9FT2JaWHhaRExLdzBBUXhxY1ZybzJHZzhjSUFQOGlCY0lPZnptb2FZVWJGTURiQk51eVVJU1JiSU4wblhwQmg?oc=5",
    "summary": "A ninth woman’s body is found in South Africa as police investigate series of killings AP News",
@@ -499,19 +733,6 @@
    "has_text": false
   },
   {
-   "title": "World shares mostly advance after Wall Street slips following Fed’s rate hike decision",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMEZ4eWpRcFQybzI4MUxVM2pCc1ZxNWRFajBQU2o3dWRSSnNZMmt6NEMxbjBmQXRqTzREdXlLOVZJVURwQmIyMzdfeXZkNUg1RlBRa1B3LWJqUkV2VjBtSTVpRDNlWTdRZzJndy1adEJkOHdVbERwU1liZmlwWEEyTEtBQTYwc29m?oc=5",
-   "summary": "World shares mostly advance after Wall Street slips following Fed’s rate hike decision AP News",
-   "published": "2026-09-17T09:49:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "c1bc478f4f9d",
-   "article_url": "https://apnews.com/article/stock-markets-fed-oil-26a4da336d561d213a3f28f260f25d2c",
-   "has_text": false
-  },
-  {
    "title": "Alabama set to execute man for pawnshop killings months after his nitrogen gas execution blocked",
    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSDVkSGw3V09RUnowQ29QSGJTZ09zZnJiZ3pjM0p4ZTdSRUdVTE43TDlUMGdZekJiNktkVWFOWnlHVTFEQWdNUEZaVUd1MV8tS0RSb2lldE5ma3Fsc2RsTEtiUWdqWElPSkZ2YWVLUnpteWFGampXMHdvTWNUSkpFM0RPU2lqR0ZyZXJWMjQ4SG9LdGlSSF90QzRESU0xcUdJLVdraw?oc=5",
    "summary": "Alabama set to execute man for pawnshop killings months after his nitrogen gas execution blocked AP News",
@@ -522,6 +743,19 @@
    "section": "top",
    "id": "71e5de812256",
    "article_url": "https://apnews.com/article/alabama-execution-jeffery-lee-nitrogen-gas-5618aaa98cd0e4298c990dd597ef2ce6",
+   "has_text": false
+  },
+  {
+   "title": "The king and AI: UK monarch Charles meets with artificial intelligence leaders",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPa1pxWVhPQ09jRmt4Zjg5VFV6Yko5MEFRU1ZJUnhCdnVwRG1GOFFFQ3NuR1hLTEQ2N1FEZnJ1Q3hHQ2pUTl9xQlJyZmZFTS00RTRuQ05FLTltZ3pGdUFmQWJ4TUt4SHJzbnFXMGlJV3FZWmI1UEhTZGkzekxZcFVKZnhVZDRWem5oS3ZPdnhDMkNkU20t?oc=5",
+   "summary": "The king and AI: UK monarch Charles meets with artificial intelligence leaders AP News",
+   "published": "2026-09-17T09:45:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "c83c5ea511f8",
+   "article_url": "https://apnews.com/article/britain-king-charles-ai-summit-0765bee1e338cf65846a046fb5825a4a",
    "has_text": false
   },
   {
@@ -681,19 +915,6 @@
    "has_text": true
   },
   {
-   "title": "The king and AI: UK monarch Charles meets with artificial intelligence leaders",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPa1pxWVhPQ09jRmt4Zjg5VFV6Yko5MEFRU1ZJUnhCdnVwRG1GOFFFQ3NuR1hLTEQ2N1FEZnJ1Q3hHQ2pUTl9xQlJyZmZFTS00RTRuQ05FLTltZ3pGdUFmQWJ4TUt4SHJzbnFXMGlJV3FZWmI1UEhTZGkzekxZcFVKZnhVZDRWem5oS3ZPdnhDMkNkU20t?oc=5",
-   "summary": "The king and AI: UK monarch Charles meets with artificial intelligence leaders AP News",
-   "published": "2026-09-17T08:55:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "c83c5ea511f8",
-   "article_url": "https://apnews.com/article/britain-king-charles-ai-summit-0765bee1e338cf65846a046fb5825a4a",
-   "has_text": false
-  },
-  {
    "title": "In a Hard-Fought New York House Race, the Environment Is on the Ballot",
    "link": "https://insideclimatenews.org/news/17092026/new-york-17th-congressional-district-race/",
    "summary": "NY-17: First in a series on the environmental stakes of one of the nation’s most fiercely contested congressional races. The Hudson River bisects New York’s 17th Congressional District, with basalt bluffs lining its western bank 40 miles north of New York City. The district, which includes Putnam and Rockland counties, as well as parts of […]",
@@ -744,6 +965,19 @@
    "id": "9e0edb8207ea",
    "article_url": "https://www.bbc.co.uk/news/articles/c6n07ypqz8kzo?at_medium=RSS&at_campaign=rss",
    "has_text": true
+  },
+  {
+   "title": "Huawei unveils new chip technologies as Chinese firm steps up the AI race with Nvidia",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbWt0T3M1QjlLZVdHWUZqeWVXeUNsOFpyaWhxb0hnMmFRY28yNklJQk5wMi1VYlpWTjlnU3VTMmdzMDNhdDMzaW1fYmVkRXhhYXcyTUV3ZThGZldWcG5PUkpPVllBdUtMVWt5czZJV1B4OFpjRWplRjFRN1NPakpadFZhWlQ4a284RFlTWS1YcUJNaGN0ZlZDTE1UY0hsdnhmcFVBdw?oc=5",
+   "summary": "Huawei unveils new chip technologies as Chinese firm steps up the AI race with Nvidia AP News",
+   "published": "2026-09-17T08:21:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "dc5d5e021e35",
+   "article_url": "https://apnews.com/article/huawei-ai-chips-nvidia-superpod-technology-26ab418df1339c518483918218ffbe57",
+   "has_text": false
   },
   {
    "title": "Artists, promoters and venues have their own kind of power on troubled tours like Ed Sheeran's",
@@ -928,16 +1162,16 @@
    "has_text": false
   },
   {
-   "title": "What to know about the deaths of 8 women in South Africa that have sparked fear and anger",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeUUzNEcweTBMb1JQZUJxaXprVmduWWh3eHNGVVpWTHVDQTNpU29qQ3JyOGlMa2hwQnc2d0p0empwV1E4emJIeEZndUFOWHRBdzFDTkRGMktnRXMyNUNBVDVTcWdVQzN4eW43QVBxX2hmSGhTZnAyV0ZqQzZrVElXakdxejB1OFlLWGx6dVpMRXFnODZvSzZDQVhDdGI5MXQx?oc=5",
-   "summary": "What to know about the deaths of 8 women in South Africa that have sparked fear and anger AP News",
-   "published": "2026-09-17T04:19:00+00:00",
+   "title": "Russia’s parliamentary vote features no real opposition to Putin’s policies",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSmgtTHVMVHh6NGtBbS1sZnUxVkRQRHUxWVVaVm1DMDd2cTNmNXAwU053OGpFWTBDUmJtSTFXdnBhcm9JM1kxYVVXUnRUdnhUM240b2lfako4UnNFSnJVcDhhYzhxdnFtLTdidXdDczhPV2NsUlhLSWR0MFM4TWw1ZlRtSE9ia1o3NUZoRVktZkJRa1lFZEpQdjFBRVFBYk8weUdKcTdza2xhcjdqMVE?oc=5",
+   "summary": "Russia’s parliamentary vote features no real opposition to Putin’s policies AP News",
+   "published": "2026-09-17T04:15:00+00:00",
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
    "section": "top",
-   "id": "ccd096a58620",
-   "article_url": "https://apnews.com/article/south-africa-women-deaths-serial-killer-f105a2b307d8a22d3699043952999dec",
+   "id": "c66af0edb43a",
+   "article_url": "https://apnews.com/article/russia-putin-election-parliament-duma-ukraine-war-91b6b9c65d52494a09fe8985ecf9fb18",
    "has_text": false
   },
   {
@@ -962,6 +1196,19 @@
    "section": "top",
    "id": "75d7c5a8004f",
    "article_url": "https://apnews.com/article/china-us-ai-safety-trump-xi-cd680bd072ec95e5f4b9c99dbee91319",
+   "has_text": false
+  },
+  {
+   "title": "Man who sprayed vinegar at Rep. Ilhan Omar faces sentencing",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNV0YwdUk1N0U3UGRsZXFIXzNaYnhCTGJTX016SjI3WXM0RGtORzZxNUZDbkR0cjNtc3JRdG1YVFNQcnd4SlpiaFE5bzVmYVRLQ2hFNWQtd0V0MFdOa0xsOFNiMHZXTjl4eXo2djJuTEhhMXdJdGU4b3c2NEhTZzVFSmtoaG5xNnVlRklSZUtxZmRBaXZUMDRfZUJqSQ?oc=5",
+   "summary": "Man who sprayed vinegar at Rep. Ilhan Omar faces sentencing AP News",
+   "published": "2026-09-17T04:01:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "4c0611ade6c2",
+   "article_url": "https://apnews.com/article/omar-vinegar-spray-attack-minnesota-147b01986c3c599615535fc73f0f198c",
    "has_text": false
   },
   {
@@ -1041,19 +1288,6 @@
    "has_text": false
   },
   {
-   "title": "Climate change made deadly Nepal glacier and rock collapse more likely, according to analysis",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSGNtUG5YckxIWUg2VzBIQjN3OHJaRTc5S2pwWlE2MmZPenZ1M3pyZTROUmxYcnJTMWxib0FqcUxLc3I4V3A2aTdTZUF3NWM0X0I3dXpjUUdlb2ROdDktdklWSEd3MlMzM1diemtoMEtLSHJaR0NwRUU4cGdQaURYTXZKYkxiVjJJQkhhUUp2OV8?oc=5",
-   "summary": "Climate change made deadly Nepal glacier and rock collapse more likely, according to analysis AP News",
-   "published": "2026-09-17T02:22:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "48ac928e7d7f",
-   "article_url": "https://apnews.com/article/nepal-floods-climate-change-65ee7e50dfe7914dff37d893a5e6b810",
-   "has_text": false
-  },
-  {
    "title": "Rogers says he ‘never agreed’ to El-Sayed debate: It would’ve been ‘2-on-1’",
    "link": "https://thehill.com/homenews/campaign/6094433-mike-rogers-el-sayed-debate-never-agreed/",
    "summary": "Rep. Mike Rogers (R) said he “never agreed” to Tuesday’s televised debate with his Michigan Senate opponent, Democrat Abdul El-Sayed — who spoke for an hour next to an empty podium on a Fox 2 Detroit hours after the Republican announced he wouldn’t attend. Rogers reiterated to CBS News Detroit’s Heath Kalb that the moderator’s…",
@@ -1080,9 +1314,9 @@
    "has_text": false
   },
   {
-   "title": "Motorist arrested in LA bus collision that came before news helicopter crash",
+   "title": "Driver arrested in a bus collision that happened before a deadly news helicopter crash in LA",
    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMVRMMTctbWVyZGhDanVqT0diOHdvcGtHRE91bTN6YUFDaE13Q1Q3S29LMC1UTWZ2ZlpnSzdnRVQ0RG1nbEdwREp5VXNqMzZtWE1kRm0xZzlDZUJ3UkhGWEtwYU1leVNVdU5XRlJmZU05c0RrYmxmSUxROVhHd0dZbkdVUko5M1pzQ1FvTUlHR2luUQ?oc=5",
-   "summary": "Motorist arrested in LA bus collision that came before news helicopter crash AP News",
+   "summary": "Driver arrested in a bus collision that happened before a deadly news helicopter crash in LA AP News",
    "published": "2026-09-17T02:00:00+00:00",
    "source": "ap",
    "outlet": "AP News",
@@ -1113,7 +1347,7 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "climate",
+   "section": "top",
    "id": "04f361af1929",
    "article_url": "https://apnews.com/article/argentina-falklands-javier-milei-trump-britain-oil-israel-sea-lion-atlantic-e731e4c6f1f2e289b0f3e242283a5c4f",
    "has_text": false
@@ -1327,6 +1561,19 @@
    "has_text": false
   },
   {
+   "title": "Climate change made deadly Nepal glacier and rock collapse more likely, according to analysis",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSGNtUG5YckxIWUg2VzBIQjN3OHJaRTc5S2pwWlE2MmZPenZ1M3pyZTROUmxYcnJTMWxib0FqcUxLc3I4V3A2aTdTZUF3NWM0X0I3dXpjUUdlb2ROdDktdklWSEd3MlMzM1diemtoMEtLSHJaR0NwRUU4cGdQaURYTXZKYkxiVjJJQkhhUUp2OV8?oc=5",
+   "summary": "Climate change made deadly Nepal glacier and rock collapse more likely, according to analysis AP News",
+   "published": "2026-09-17T00:24:13+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "48ac928e7d7f",
+   "article_url": "https://apnews.com/article/nepal-floods-climate-change-65ee7e50dfe7914dff37d893a5e6b810",
+   "has_text": false
+  },
+  {
    "title": "What to know about Ed Sheeran's tour after Macklemore was cut and other artists dropped out",
    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQOFdOUm9sRzQ1U1VOcW9vX0hWSHdudnp5NzNCa0t2T0lvb2RLeUVidVRhdEdYc1JPejhJeXhxWGE1QjcxbDVQS2EzOTR4R01xaC11V2IzWENQOVZVaWd1dUg3bm5tbWVwLVhhYVBWZThCZjB2N2JVaXFBc3oxbkFxVElIUVU1Q0tnQjNlYTVYcw?oc=5",
    "summary": "What to know about Ed Sheeran's tour after Macklemore was cut and other artists dropped out AP News",
@@ -1363,19 +1610,6 @@
    "section": "top",
    "id": "1b2e96b72c33",
    "article_url": "https://apnews.com/article/peter-max-obituary-1fa0d98b5f1e446d903242355b689062",
-   "has_text": false
-  },
-  {
-   "title": "Florida woman pleads guilty to defrauding fund for Jeffrey Epstein victims",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPWjhvTDlnT3VXLWFwVVcxeHFfOWJPRlpQRmpxQUppcExkQ2hmZW10U21TeTZSMUU4V0dGSXlvcGVIRGxfZVJaZmJKSmh1X21jMTNMTkxhWkhnOGdYOEdESkg4MndIeVgxaDhUVUtZb0VWMk8zcmNDWlpudUtRcGJNblFXXzdIMENfU2xjOU0wMA?oc=5",
-   "summary": "Florida woman pleads guilty to defrauding fund for Jeffrey Epstein victims AP News",
-   "published": "2026-09-17T00:09:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "f286dc5359ad",
-   "article_url": "https://apnews.com/article/epstein-victims-fraud-plea-03cd646f8cc6df62fcf15ba25638ba84",
    "has_text": false
   },
   {
@@ -1919,7 +2153,7 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "climate",
+   "section": "top",
    "id": "c5536db09224",
    "article_url": "https://apnews.com/article/ai-slowdown-anthropic-openai-meta-nvidia-1d9615931af28a83cb97489178e90f2d",
    "has_text": false
@@ -2107,22 +2341,9 @@
    "has_text": true
   },
   {
-   "title": "The T. rex had a body temperature similar to our own, study finds",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUlZTQzhWV3E1TWZ1bWVMT1ZSQnMtX3pDLXVDRGw0UWV3WWsxY0hjTmsxNkNvLVBwanlrR2ZCUEpjblJLMS1iczY1aW9JRFdETGM0VFVvd1hkYXRWSTBZSGlOeEhlcktmRHZWSllBNnptRTlTNkhKNDd6cFRlTm1vc0psVkZBWjIzUmRlUmFMRjhZTzFWUjFlZUJB?oc=5",
-   "summary": "The T. rex had a body temperature similar to our own, study finds AP News",
-   "published": "2026-09-16T21:11:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "811cc5e068a9",
-   "article_url": "https://apnews.com/article/tyrannosaurus-rex-body-temperature-2ee33ab4528dc358bc4b90861aa715e4",
-   "has_text": false
-  },
-  {
    "title": "Trump offers fiery response to Federal Reserve rate hike",
    "link": "https://thehill.com/homenews/administration/6093973-trump-demands-lower-rates-federal-reserve/",
-   "summary": "President Trump offered a fiery response to the Federal Reserve’s decision to hike interest rates on Wednesday, demanding instead that rates be drastically lowered quickly. “Interest Rates in the United States should be 1%, or less, because we are the Best Credit in the World — BY FAR. Our Country is BOOMING with new Investment!”…",
+   "summary": "President Trump offered a fiery response to the Federal Reserve’s decision to hike interest rates on Wednesday, demanding instead that rates be quickly and drastically lowered. “Interest Rates in the United States should be 1%, or less, because we are the Best Credit in the World — BY FAR. Our Country is BOOMING with new…",
    "published": "2026-09-16T21:08:06+00:00",
    "source": "thehill",
    "outlet": "The Hill",
@@ -2742,19 +2963,6 @@
    "has_text": false
   },
   {
-   "title": "WATCH: House Democrats blasts 'do nothing' Republican majority in midterm pitch to voters",
-   "link": "https://www.pbs.org/newshour/politics/watch-house-democrats-blasts-do-nothing-republican-majority-in-midterm-pitch-to-voters",
-   "summary": "House Democratic Leader Hakeem Jeffries said the Democrats' message is simple: \"We hear you… And we are committed to making life better for you.\"",
-   "published": "2026-09-16T18:28:08+00:00",
-   "source": "pbs",
-   "outlet": "PBS NewsHour",
-   "counted": true,
-   "section": "top",
-   "id": "26c3a3cdf44b",
-   "article_url": "https://www.pbs.org/newshour/politics/watch-house-democrats-blasts-do-nothing-republican-majority-in-midterm-pitch-to-voters",
-   "has_text": true
-  },
-  {
    "title": "Retail sales rise a better-than-expected 1.2% in August after shoppers pulled back spending in July",
    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPM2FuR2dwQTdmR29FeHFBNGdhYUl5ODhwTGYzTTU1ckg3VnJTZE1ELXhOZ0tia09oMFpEYXhIUG9QSDVxaExKTmxBQU5hcENsQUx0R25HdlZhc1dJdGY5WlRjYXJvd2VFa3FkaWs5ZFZ6LXNuWFVnaUR0WmlhcFh5M19fdkp5dHR3dktESkZvTDROR0xRVm03MFFaVWFiOEtJZGZvRENR?oc=5",
    "summary": "Retail sales rise a better-than-expected 1.2% in August after shoppers pulled back spending in July AP News",
@@ -3037,19 +3245,6 @@
    "id": "9b3b58c755d8",
    "article_url": "https://apnews.com/article/philippines-bangsamoro-mindanao-election-muslim-7c0fe544206770aaf8c6706ef8735545",
    "has_text": false
-  },
-  {
-   "title": "WATCH LIVE: House passes sweeping Russia sanctions bill, sending it to Trump",
-   "link": "https://www.pbs.org/newshour/politics/watch-live-house-considers-bills-on-russia-sanctions-ai-data-center-costs",
-   "summary": "The House on Wednesday passed a broad package of sanctions targeting Russian officials and key pillars of its economy as lawmakers look to deprive President Vladimir Putin of the financial resources needed to wage the war against Ukraine.",
-   "published": "2026-09-16T17:14:15+00:00",
-   "source": "pbs",
-   "outlet": "PBS NewsHour",
-   "counted": true,
-   "section": "top",
-   "id": "9866c4b11bd3",
-   "article_url": "https://www.pbs.org/newshour/politics/watch-live-house-considers-bills-on-russia-sanctions-ai-data-center-costs",
-   "has_text": true
   },
   {
    "title": "The Pentagon must prepare for battles around the moon: Joint Chiefs chair",
@@ -3738,7 +3933,7 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "climate",
+   "section": "top",
    "id": "057407b92b5b",
    "article_url": "https://apnews.com/article/us-trump-rubio-south-africa-whites-visa-5cedd7e02f570f5bbf4cdd3cef365fb9",
    "has_text": false
@@ -3874,32 +4069,6 @@
    "has_text": false
   },
   {
-   "title": "Formula 1 schedules 2027 season-opening race in Bahrain in March despite Middle East uncertainty",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUXZ4YVk1Um9GTV9iZE5SYVVCWXQ2U21Pbi14Y25Fa1liOGN5SGNnMlRHOHVScU1yWVJ4a3psWW9MclN4NDBvR1B5VUVDdHE5cjlHNW5DTmRrRTJ2V0lzZkxLa1ZNTjNZenIwMTZUeTh5d3U5bWVMUnNZclk4c1pxeC1RT1RwMmVhZzhwWnh0NFZJYWhHODE0QQ?oc=5",
-   "summary": "Formula 1 schedules 2027 season-opening race in Bahrain in March despite Middle East uncertainty AP News",
-   "published": "2026-09-16T13:21:46+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "04e119407bee",
-   "article_url": "https://apnews.com/article/f1-2027-schedule-calendar-bahrain-67338462d9c7abee07f985c0d56213af",
-   "has_text": false
-  },
-  {
-   "title": "Scenes from a colonial resurrection: First-person interpretations of history draw America 250 crowds",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNckFFX1htU29iUUtIN1ZOSEt3N3RfRDVCb01WZzVoc2d1MmZ4SjhJWnZQU0VOZkd0amhwQ0tzV253NGZNRHZoTzBJbzEwcTZPcnlWb1NoMmFzekowTFRmWl9BeVIzNWdZbVRtR3pfLXlRWHdDOXBRMUJqdDJxaWlWbHFZMlNVbkRBTlFDd0ZQdGt5dVpVTEpVY2syTQ?oc=5",
-   "summary": "Scenes from a colonial resurrection: First-person interpretations of history draw America 250 crowds AP News",
-   "published": "2026-09-16T13:15:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "cb62f2ac80a4",
-   "article_url": "https://apnews.com/article/america-250-reenactors-philadelphia-d79d8de88541f69a4dc6e8dd22fbfe07",
-   "has_text": false
-  },
-  {
    "title": "Iran-backed Houthis test Mecca’s sacred shield",
    "link": "https://www.semafor.com/article/09/16/2026/iran-backed-houthis-test-meccas-sacred-shield",
    "summary": "WhatsApp groups and social media across Saudi Arabia lit up on Tuesday with variations of the same message: The Houthis are attacking Mecca.",
@@ -3924,19 +4093,6 @@
    "id": "38df719f6e8c",
    "article_url": "https://www.semafor.com/article/09/16/2026/gulf-airlines-muscle-up-fending-off-european-rivals",
    "has_text": true
-  },
-  {
-   "title": "The future of Germany’s leader is uncertain as his party faces 2 difficult regional elections",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQUXhWWjJOV1pOZWZtek52bE05clJIRGU1Q1JJcGRyOEhjeFZFV2g3bEw1VW44TV9iWEtxYkJ0X0RLcUlhSUhmaC1NTzlabU5GamxEYzhGMWRVMGJMN1NUWkNSOWpFamJ4a2lNRVpjTUlNTUhVcTkxeUNic0QzM1lwelFDd1BGSzdLTVI1b0pLZ0h6VkJ4bGVzMHFVWDFDdmNoZmduYXlQdVVtZw?oc=5",
-   "summary": "The future of Germany’s leader is uncertain as his party faces 2 difficult regional elections AP News",
-   "published": "2026-09-16T13:11:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "010d561cd188",
-   "article_url": "https://apnews.com/article/germany-merz-elections-united-nations-trip-afd-df17e9fec6cb00a347b5b8a9f09bb548",
-   "has_text": false
   },
   {
    "title": "In wartime Russia, veterans who fought in Ukraine are running for parliament",
@@ -3972,7 +4128,7 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "top",
+   "section": "climate",
    "id": "d12850d2cec0",
    "article_url": "https://apnews.com/article/president-george-bush-oil-paintings-book-017a642b47526ef1a8ad64c08f695f21",
    "has_text": false
@@ -4011,7 +4167,7 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "top",
+   "section": "climate",
    "id": "fbf7dd97fd72",
    "article_url": "https://apnews.com/article/obama-pet-dog-sunny-dies-ba038e3e6112ee430a2fa1568d9bad77",
    "has_text": false
@@ -4186,19 +4342,6 @@
    "has_text": false
   },
   {
-   "title": "On the Hill, Democrats are creating a weapon that might backfire on them",
-   "link": "https://thehill.com/opinion/judiciary/6090911-democrats-plan-subpoena-lawsuits/",
-   "summary": "The problem was never oversight. It's oversight that only ever points in one partisan direction.",
-   "published": "2026-09-16T11:30:00+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "fc1b89c0c76a",
-   "article_url": "https://thehill.com/opinion/judiciary/6090911-democrats-plan-subpoena-lawsuits/",
-   "has_text": false
-  },
-  {
    "title": "Carney's new love-in with EU has everything to do with Trump",
    "link": "https://www.bbc.co.uk/news/articles/ck0e3rnxev27o?at_medium=RSS&at_campaign=rss",
    "summary": "The Canadian PM is in Strasbourg this week seeking a \"unique alliance\" - and there is one clear catalyst.",
@@ -4236,32 +4379,6 @@
    "id": "3104c7493866",
    "article_url": "https://www.bbc.co.uk/news/articles/c6kgxjl35822o?at_medium=RSS&at_campaign=rss",
    "has_text": true
-  },
-  {
-   "title": "Abortion rights group expands midterm battleground efforts",
-   "link": "https://thehill.com/homenews/campaign/6092193-reproductive-freedom-for-all-midterm-investment-arizona-michigan-nevada/",
-   "summary": "A major abortion rights group is expanding its outreach efforts in key battleground House districts ahead of November’s midterm elections. Reproductive Freedom for All (RFFA) said it is investing about $1 million into a direct voter contact campaign across three priority districts in Arizona, Michigan and Nevada. According to details shared first with The Hill,…",
-   "published": "2026-09-16T11:01:06+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "8674820168e1",
-   "article_url": "https://thehill.com/homenews/campaign/6092193-reproductive-freedom-for-all-midterm-investment-arizona-michigan-nevada/",
-   "has_text": false
-  },
-  {
-   "title": "Trump’s $5,000 handout is an insult to conservatism",
-   "link": "https://thehill.com/opinion/white-house/6090386-trump-promises-five-thousand-dollar-dividend/",
-   "summary": "Sounds to me like using federal tax dollars to buy votes.",
-   "published": "2026-09-16T11:00:00+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "f77608a5d7c1",
-   "article_url": "https://thehill.com/opinion/white-house/6090386-trump-promises-five-thousand-dollar-dividend/",
-   "has_text": false
   },
   {
    "title": "Top US and China trade officials hold talks",
@@ -4417,58 +4534,6 @@
    "section": "top",
    "id": "35edba26b84c",
    "article_url": "https://www.bbc.co.uk/news/articles/cqx2zpj4y525o?at_medium=RSS&at_campaign=rss",
-   "has_text": true
-  },
-  {
-   "title": "Trump’s allies eye big spending cuts as part of postelection agenda",
-   "link": "https://thehill.com/homenews/state-watch/6091536-senate-plans-spending-cuts/",
-   "summary": "Senate conservatives allied with President Trump are laying the groundwork for substantial cuts to federal spending in the postelection, lame-duck Congress to offset tens of billions of dollars in new defense spending, including funding for the war in Iran, if Democrats pick up seats on Election Day. Senate Majority Leader John Thune (R-S.D.) announced Tuesday…",
-   "published": "2026-09-16T10:00:00+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "e9331d8051be",
-   "article_url": "https://thehill.com/homenews/state-watch/6091536-senate-plans-spending-cuts/",
-   "has_text": false
-  },
-  {
-   "title": "Lawmakers scramble to catch up on AI",
-   "link": "https://thehill.com/policy/technology/6091629-senate-scrambles-over-ai-safety/",
-   "summary": "Washington is scrambling to manage the abrupt panic around AI development, but party politics, a limited legislative window and lack of consensus makes it an uphill, next-to-impossible task. In the wake of a researcher’s viral warning about the technology, lawmakers on both sides of the aisle are floating numerous proposals to prevent the negative potential…",
-   "published": "2026-09-16T10:00:00+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "12cf156f85b0",
-   "article_url": "https://thehill.com/policy/technology/6091629-senate-scrambles-over-ai-safety/",
-   "has_text": false
-  },
-  {
-   "title": "Texas universities purge core courses as political pressure takes its toll",
-   "link": "https://thehill.com/homenews/state-watch/6090827-texas-universities-courses-abbott/",
-   "summary": "Public universities in Texas have dropped hundreds of courses from their core curricula — or altogether — amid rising political pressure over the last two years. Texas A&M University has removed 350 core listings across its system, many dealing with gender, race and other popular GOP targets. The University of Houston has nixed 133 classes…",
-   "published": "2026-09-16T10:00:00+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "03c5cf750131",
-   "article_url": "https://thehill.com/homenews/state-watch/6090827-texas-universities-courses-abbott/",
-   "has_text": false
-  },
-  {
-   "title": "Warsh under pressure as Fed considers rate hike",
-   "link": "https://thehill.com/business/6090682-fed-chair-warsh-interest-rate-decision/",
-   "summary": "Federal Reserve Chair Kevin Warsh finds himself in a tricky position as the central bank commences its September meeting, as rising expectations of an interest rate hike clash with President Trump’s demands for cuts. Warsh gave himself wiggle room for a rate hike in late August, saying the central bank had “work to do” if underlying inflation was not moving toward its 2 percent target. But Trump, who…",
-   "published": "2026-09-16T10:00:00+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "87a8420e9080",
-   "article_url": "https://thehill.com/business/6090682-fed-chair-warsh-interest-rate-decision/",
    "has_text": true
   },
   {
@@ -4810,19 +4875,6 @@
    "has_text": false
   },
   {
-   "title": "El-Sayed on Rogers avoiding debate: ‘The elephant was not in the room’",
-   "link": "https://thehill.com/homenews/campaign/6091986-el-sayed-on-rogers-avoiding-debate-the-elephant-was-not-in-the-room/",
-   "summary": "Michigan Senate candidate Abdul-El Sayed (D) took a swipe at his opponent, former Rep. Mike Rogers (R-Mich.), for not attending a debate Tuesday night. “The elephant was not in the room. The elephant decided that they did not want to be in the room. The elephant cowarded out. Although, the elephants were all in the…",
-   "published": "2026-09-16T02:59:42+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "270c75a4aa6d",
-   "article_url": "https://thehill.com/homenews/campaign/6091986-el-sayed-on-rogers-avoiding-debate-the-elephant-was-not-in-the-room/",
-   "has_text": false
-  },
-  {
    "title": "Ed Sheeran’s tour in trouble after opening acts drop out in solidarity with rapper Macklemore",
    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOc0VZLU5QYjdHVUd4UW5OQUNTV1V3YlQ1YkMyTG1ldExKVktqcEtpX0JLbzk3bFVfdVpvTlI5UGhDMEstbWFOVlFZbVQ2WWgyaTR6THFob1NaLV91ZW1jZllqNmRvVzg2bmMxWFgzMlFZUTFtblFiYjR1UzNMbTJVX0NQY0F2dHBOYV95VlZ5ZDJKTWFrRVVEUmpTYw?oc=5",
    "summary": "Ed Sheeran’s tour in trouble after opening acts drop out in solidarity with rapper Macklemore AP News",
@@ -4938,19 +4990,6 @@
    "id": "a3a868488065",
    "article_url": "https://apnews.com/article/environmental-defenders-killings-global-witness-colombia-brazil-2e48546eb027159d2bbabc6a4f40e648",
    "has_text": false
-  },
-  {
-   "title": "An Environmental Defender Is Murdered Every Three Days",
-   "link": "https://insideclimatenews.org/news/15092026/at-least-124-environmental-defenders-killed-in-2025/",
-   "summary": "Every three days someone is killed for defending nature. In 2025, watchdog group Global Witness documented 124 such deaths worldwide, a toll researchers say is likely only a fraction of the total number because repression and armed conflict make many deaths impossible to verify. The victims included Indigenous people, small-scale farmers and community organizers peacefully […]",
-   "published": "2026-09-15T23:01:00+00:00",
-   "source": "insideclimate",
-   "outlet": "Inside Climate News",
-   "counted": true,
-   "section": "top",
-   "id": "04f94bab62b2",
-   "article_url": "https://insideclimatenews.org/news/15092026/at-least-124-environmental-defenders-killed-in-2025/",
-   "has_text": true
   },
   {
    "title": "Rep. Chuck Edwards files complaint against House Ethics",
@@ -5131,19 +5170,6 @@
    "id": "58f465c242eb",
    "article_url": "https://www.axios.com/2026/09/15/ed-sheeran-loop-tour-macklemore-gaza-backlash",
    "has_text": true
-  },
-  {
-   "title": "As the world debates the risks of AI, China closes the technology gap with the US",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQM3NlSUcxUzlYaVFjcDdaWS1NQUY2WUR6THkxamlKbFozMkRsNXUwbl90STl2dmtDZ0d2dXBhNG4wRVA1TXIwSDZJM1laZVJJRDFKV1dXU3gzX2loT0p2Tl94T2h2ZXhfdGJOX3h4MkpZSzZkeHVMTEpWM2pNdU1vSkx2Tk50YTJnNWcydVo2NzdnNGl3RzJ2ZXhB?oc=5",
-   "summary": "As the world debates the risks of AI, China closes the technology gap with the US AP News",
-   "published": "2026-09-15T21:30:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "988f242a50ce",
-   "article_url": "https://apnews.com/article/china-us-ai-models-safety-concerns-adb45169d436d5f940fc7b4ebeaeef3b",
-   "has_text": false
   },
   {
    "title": "House quashes another Trump impeachment push with Dem help",
@@ -5689,58 +5715,6 @@
    "section": "top",
    "id": "303f5598226c",
    "article_url": "https://www.axios.com/2026/09/14/trump-immigration-benefits-lawsuit-mamdani-nyc",
-   "has_text": true
-  },
-  {
-   "title": "‘Bogland’ explores beautifully strange ecosystems",
-   "link": "https://www.sciencenews.org/article/book-review-bogland-strange-ecosystems",
-   "summary": "Ecologist Merritt Turetsky’s devotion to bogs, fens and other fascinating water-logged spaces saturates her new book.",
-   "published": "2026-09-15T13:00:00+00:00",
-   "source": "sciencenews",
-   "outlet": "Science News",
-   "counted": true,
-   "section": "top",
-   "id": "7bcf60ea967c",
-   "article_url": "https://www.sciencenews.org/article/book-review-bogland-strange-ecosystems",
-   "has_text": true
-  },
-  {
-   "title": "Scoop: U.S. attacked Iranian boats trying to seize Navy drone",
-   "link": "https://www.axios.com/2026/09/15/us-iran-boats-navy-drone-strait-hormuz",
-   "summary": "The U.S. military destroyed two Iranian small boats Monday after the Islamic Revolutionary Guard Corps tried to steal a Navy drone patrolling the Strait of Hormuz, U.S. officials told Axios. Why it matters: The unusual incident shows how efforts to restore normal shipping through the Strait of Hormuz continues direct confrontation with Iran . The U.S. military initially didn't disclose the strike, and Iranian media presented it as a drone strike on \"fishing boats.\" Driving the news: According to Iranian media , two fishing boats were struck Monday off the coast of the port city of Kargan and n",
-   "published": "2026-09-15T12:55:39+00:00",
-   "source": "axios",
-   "outlet": "Axios",
-   "counted": true,
-   "section": "top",
-   "id": "eaa87cd3584c",
-   "article_url": "https://www.axios.com/2026/09/15/us-iran-boats-navy-drone-strait-hormuz",
-   "has_text": true
-  },
-  {
-   "title": "House Democrats pitch energy plan ahead of the midterms",
-   "link": "https://www.semafor.com/article/09/15/2026/house-dems-pitch-energy-plan-ahead-of-the-midterms",
-   "summary": "It is the most comprehensive energy platform Democrats have put forward in years.",
-   "published": "2026-09-15T12:54:33+00:00",
-   "source": "semafor",
-   "outlet": "Semafor",
-   "counted": true,
-   "section": "top",
-   "id": "95497502a495",
-   "article_url": "https://www.semafor.com/article/09/15/2026/house-dems-pitch-energy-plan-ahead-of-the-midterms",
-   "has_text": true
-  },
-  {
-   "title": "No energy ceasefire between Ukraine and Russia yet",
-   "link": "https://www.semafor.com/article/09/15/2026/no-energy-ceasefire-between-ukraine-and-russia-yet",
-   "summary": "Trump has sought to blame Ukraine’s strikes on Russian oil refineries for the recent runup in diesel prices.",
-   "published": "2026-09-15T12:53:43+00:00",
-   "source": "semafor",
-   "outlet": "Semafor",
-   "counted": true,
-   "section": "top",
-   "id": "3413fa997068",
-   "article_url": "https://www.semafor.com/article/09/15/2026/no-energy-ceasefire-between-ukraine-and-russia-yet",
    "has_text": true
   }
  ]
