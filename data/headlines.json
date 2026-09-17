@@ -1,9 +1,35 @@
 {
- "fetched_at": "2026-09-17T05:28:47.632474+00:00",
+ "fetched_at": "2026-09-17T06:35:25.157797+00:00",
  "window_hours": 48,
- "count": 439,
+ "count": 442,
  "errors": [],
  "items": [
+  {
+   "title": "Tech treating AI like humans is mistaken and misguided, Microsoft boss tells BBC",
+   "link": "https://www.bbc.co.uk/news/articles/c6n07ypqz8kzo?at_medium=RSS&at_campaign=rss",
+   "summary": "Mustafa Suleyman says he believes the AI giant is in effect teaching Claude it \"may be conscious\".",
+   "published": "2026-09-17T06:30:40+00:00",
+   "source": "bbc",
+   "outlet": "BBC News",
+   "counted": true,
+   "section": "top",
+   "id": "9e0edb8207ea",
+   "article_url": "https://www.bbc.co.uk/news/articles/c6n07ypqz8kzo?at_medium=RSS&at_campaign=rss",
+   "has_text": true
+  },
+  {
+   "title": "'The choir was a great lifter when the fields fell silent'",
+   "link": "https://www.bbc.co.uk/news/articles/c58jd32wgwk4o?at_medium=RSS&at_campaign=rss",
+   "summary": "Dairy farmer Mervyn Kelso struggled with the sadness of the empty fields when he lost his entire herd to bovine TB.",
+   "published": "2026-09-17T05:43:03+00:00",
+   "source": "bbc",
+   "outlet": "BBC News",
+   "counted": true,
+   "section": "climate",
+   "id": "d570f720475f",
+   "article_url": "https://www.bbc.co.uk/news/articles/c58jd32wgwk4o?at_medium=RSS&at_campaign=rss",
+   "has_text": true
+  },
   {
    "title": "Rare tree offspring given lifeline at Scottish botanic garden",
    "link": "https://www.bbc.co.uk/news/articles/cr86xvy15nego?at_medium=RSS&at_campaign=rss",
@@ -70,6 +96,32 @@
    "has_text": false
   },
   {
+   "title": "OpenAI flags new concerning AI behavior, to track model misalignment regularly",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYzBMbjczYWt1SGJLdVUwYlppSnhRNGc2amRmbjZLQlBGS3ZzdTVXYUM5ZXViQXQ4clFkZXZ2cERxc3NmdENzRTRqRno0Q3pxM0ozTExsSXJGYmY0RkNzUFlFX21FOUtpODA2V0phX3k4OXZaZktpUy1WUjZKb3p5WV9DWUhzejBoazBKdmVuQQ?oc=5",
+   "summary": "OpenAI flags new concerning AI behavior, to track model misalignment regularly AP News",
+   "published": "2026-09-17T04:21:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "768db3e792d4",
+   "article_url": "https://apnews.com/article/openai-safety-ai-framework-089e75b95bc935af092da7b79d92706d",
+   "has_text": false
+  },
+  {
+   "title": "What to know about the deaths of 8 women in South Africa that have sparked fear and anger",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeUUzNEcweTBMb1JQZUJxaXprVmduWWh3eHNGVVpWTHVDQTNpU29qQ3JyOGlMa2hwQnc2d0p0empwV1E4emJIeEZndUFOWHRBdzFDTkRGMktnRXMyNUNBVDVTcWdVQzN4eW43QVBxX2hmSGhTZnAyV0ZqQzZrVElXakdxejB1OFlLWGx6dVpMRXFnODZvSzZDQVhDdGI5MXQx?oc=5",
+   "summary": "What to know about the deaths of 8 women in South Africa that have sparked fear and anger AP News",
+   "published": "2026-09-17T04:19:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "ccd096a58620",
+   "article_url": "https://apnews.com/article/south-africa-women-deaths-serial-killer-f105a2b307d8a22d3699043952999dec",
+   "has_text": false
+  },
+  {
    "title": "Robert Kraft says Ed Sheeran asked him to donate $2m in aid after Macklemore backlash",
    "link": "https://www.bbc.co.uk/news/articles/cmp3073x6464o?at_medium=RSS&at_campaign=rss",
    "summary": "It comes after Macklemore pledged $1m to Palestinian causes, challenging the tycoon to match the sum.",
@@ -92,6 +144,19 @@
    "counted": false,
    "section": "top",
    "id": "b30c3f8172b5"
+  },
+  {
+   "title": "A global AI safety strategy depends on US-China cooperation. They each see the other as the problem",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxORmF4WEVZa3djRnV2N0U1em9RLUwxWDI4MGNNR0pNS1o2b0htcjlxNFFwOG1STjdJbmVsN2d3ZGJJR2xPeTAwYzdQY0FRNXB1UzMxcVU3b3FOZmhsU1E2Wi1mV2ptNzhyc3NBWlRmRWpwQ0x3eEJoeWV4NktNOUVCQkRSRE5hYmRpMGh1ZkgxV1A?oc=5",
+   "summary": "A global AI safety strategy depends on US-China cooperation. They each see the other as the problem AP News",
+   "published": "2026-09-17T04:02:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "75d7c5a8004f",
+   "article_url": "https://apnews.com/article/china-us-ai-safety-trump-xi-cd680bd072ec95e5f4b9c99dbee91319",
+   "has_text": false
   },
   {
    "title": "Summer Goes Out With a Heat Dome",
@@ -209,6 +274,19 @@
    "has_text": false
   },
   {
+   "title": "Federal judge restricts warrantless immigration arrests in Southern California",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcUQ3ZFBPdFRoU0I2dTNjZ0szWWRnRW9xamZUaVNCNkFiWmNnWUZOeFVQSU1GUmFsNllXcWNfOGt5SVctemJnWDM2YUVuSDRJaE83ZnUtb0t5ckl3RFNKQUJBNGs4VGpWZG1PLVZaaTU1enJtRjY4eEFsOGRFTFRrTFJVeVQ0dk5SSzhiNjhyaHdVRHpiYVNlbkxFbDZtd1ZJSk51M0pYZnd2cXJheFhrbmVKNA?oc=5",
+   "summary": "Federal judge restricts warrantless immigration arrests in Southern California AP News",
+   "published": "2026-09-17T01:53:28+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "9bcf5d67d5a6",
+   "article_url": "https://apnews.com/article/ice-immigration-raids-los-angeles-warrantless-arrests-c42d27c45d9ce7b859590e48242b9d18",
+   "has_text": false
+  },
+  {
    "title": "Building damaged by strikes collapses in Gaza, killing 21 as perilous living conditions persist",
    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQV3lqZkMxREp6UW9yYVJuODAxQW96LXRiejVPakNpNXFxc2ZTWmItNEVhQW5UeWdaWTNlN19QaVRqOXh5T1hETXp3cW0td3Q4QU96UEIwQjNuSjE4ZkZLcDVFQmxTMDZLVVlMWHlqSmFIWjdBeE5BbHdUNWtIMS1Nemd5NzRJeWVuTzFTM2ZMRmpfaVhLWDVXbA?oc=5",
    "summary": "Building damaged by strikes collapses in Gaza, killing 21 as perilous living conditions persist AP News",
@@ -235,6 +313,19 @@
    "has_text": false
   },
   {
+   "title": "Jets suspend goalie Connor Hellebuyck for failing to report to training camp",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNX0hza0V2UHlXM0ZvTU5zY2s1SWtkN2tsOEVCRDc5dG1CaFVORi1YMHk4TzcxbmlJcUhjUWllSlJUdUVaN0F2djRpVWtVSjdCZV9qZllOTk1zejlGZzlNNnJiUHoyUWhIOUl3UmNkbU80X0Vnc3B3WFFqcFpveWdYblpVRk9fM00yclRVamk4WUFodVN6b3hCZGtn?oc=5",
+   "summary": "Jets suspend goalie Connor Hellebuyck for failing to report to training camp AP News",
+   "published": "2026-09-17T01:29:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "6747af8e387b",
+   "article_url": "https://apnews.com/article/winnipeg-jets-hellebuyck-suspended-bb96a9914e1e3baae0d539ace1ea5cd2",
+   "has_text": false
+  },
+  {
    "title": "Trump administration again denies visas for Palestinian delegation to attend the UN General Assembly",
    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdnQzUVRQdVJQU0VzWC16Q2xSZ2xkMWx2dkZTakJtR1E0MEFCSWZPS0VrQ1RJTEpwcDQ1S0o3ZXoxbHZ5akJac2M5QkN4NmpJTS1nQjQ3RG85eHR5VzlpTVZLSkJDR0IxV3VBN3k5SjVqZFRPZGVQbk0zNjExZUpQVDhmX05xUWIzUEozejJUQWhlV2pRY3lseldNNm8?oc=5",
    "summary": "Trump administration again denies visas for Palestinian delegation to attend the UN General Assembly AP News",
@@ -245,6 +336,19 @@
    "section": "top",
    "id": "68e993da83e5",
    "article_url": "https://apnews.com/article/palestinians-gaza-war-trump-un-visas-2ab54a7b420dd7fc5aea068d883b5cee",
+   "has_text": false
+  },
+  {
+   "title": "China’s porcelain city carries centuries-old heritage to a new generation",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOU0steTNndDFfTVpOZG1MNFpVenNpY3hPd2t2SWt3dWdUb0lwTTh1N25BVXJaQjRHMzhoTTBzOUdQUjFFOEstOUFaSFNNS2JISnNDZGNSa0g4ZFRKbHEtRWE2REpUTFdhNjROaE9XZUNETXpXMi1UWFBxajBmWXJxUnpTdkpDQkRxRnFVM0hqbEQ5cE9Ld0MzQUk3MVBEVUI2VHJvOA?oc=5",
+   "summary": "China’s porcelain city carries centuries-old heritage to a new generation AP News",
+   "published": "2026-09-17T01:11:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "acd825edfc10",
+   "article_url": "https://apnews.com/article/jingdezhen-china-porcelain-unesco-heritage-3c57031f06ac8870acc472a8583bfcb6",
    "has_text": false
   },
   {
@@ -427,19 +531,6 @@
    "section": "top",
    "id": "1b2e96b72c33",
    "article_url": "https://apnews.com/article/peter-max-obituary-1fa0d98b5f1e446d903242355b689062",
-   "has_text": false
-  },
-  {
-   "title": "Florida woman pleads guilty to defrauding fund for Jeffrey Epstein victims",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPWjhvTDlnT3VXLWFwVVcxeHFfOWJPRlpQRmpxQUppcExkQ2hmZW10U21TeTZSMUU4V0dGSXlvcGVIRGxfZVJaZmJKSmh1X21jMTNMTkxhWkhnOGdYOEdESkg4MndIeVgxaDhUVUtZb0VWMk8zcmNDWlpudUtRcGJNblFXXzdIMENfU2xjOU0wMA?oc=5",
-   "summary": "Florida woman pleads guilty to defrauding fund for Jeffrey Epstein victims AP News",
-   "published": "2026-09-17T00:09:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "f286dc5359ad",
-   "article_url": "https://apnews.com/article/epstein-victims-fraud-plea-03cd646f8cc6df62fcf15ba25638ba84",
    "has_text": false
   },
   {
@@ -675,6 +766,19 @@
    "id": "10c14dec0c6d",
    "article_url": "https://www.pbs.org/newshour/show/interest-rate-hike-a-reassuring-sign-fed-is-acting-independently-economist-says",
    "has_text": true
+  },
+  {
+   "title": "Canada’s Carney and Britain’s Burnham take first meeting to Everton football match",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxORFd6RW1nbi1Wd2tsN2VIV09NT21fUTlXTG5qU0Z1blpCSndJc2ZUTjFrTGhFN0IydUpYZTg5QjdBWlVHeFFnak9TSnEzN3g1aFVZdXYtWXMxMjFsRXkxcW05cGxXMEhaYWxEM1ktMy1vaHZ3ZXdUc2UwNzNuX0xKUm5fZ1hORWJ6QU1DeXFkMUo5VkZzQ2lQSjQ3T09DUQ?oc=5",
+   "summary": "Canada’s Carney and Britain’s Burnham take first meeting to Everton football match AP News",
+   "published": "2026-09-16T22:54:14+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "00abdaa73f90",
+   "article_url": "https://apnews.com/article/carney-burnham-everton-canada-britain-18613701b4966279ae854626a00b752a",
+   "has_text": false
   },
   {
    "title": "DHS’s ‘warning notice’ to ICE critic ‘likely’ violated First Amendment: Federal judge",
@@ -1145,19 +1249,6 @@
    "has_text": true
   },
   {
-   "title": "Pilot remembers friends killed in LA helicopter crash",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORWswZ0dzQTdaeThwaXRnZURTUFdsam9zd2JhcHBkMlRDbC05Nk9qMEFPY0hBaEsyXzNNY0V5R0praHdKM2xTdGx2Ujg0NVlEZnFCNzFXUjJjWjk2bG1wT3VCWVdjOXRvd0xPMjJQWVBxN1BKaHg4REQyWjVKX2xqbXVsaFV0T3ZGX0RlYjdVWld3ckNHTEU2aDlYUy0tQzk2VlFkeUVTUVFtQ0tmVF9EVQ?oc=5",
-   "summary": "Pilot remembers friends killed in LA helicopter crash AP News",
-   "published": "2026-09-16T21:19:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "e5c8b17ada13",
-   "article_url": "https://apnews.com/video/pilot-remembers-friends-killed-in-la-helicopter-crash-a8f4b4aab79a4e50ba415e82c41c3be5",
-   "has_text": false
-  },
-  {
    "title": "U.S. diplomats meet with Houthis as Red Sea crisis intensifies",
    "link": "https://www.axios.com/2026/09/16/us-houthi-oman-to-discuss-red-sea-crisis",
    "summary": "American diplomats met over the weekend with Houthi representatives at the U.S. embassy in Oman and discussed tensions in the Red Sea, a regional source familiar with the issue confirmed. Why it matters: The meeting in Muscat, which was organized with the help of the Omani government, focused on maintaining a ceasefire between the U.S. and Houthis and guaranteeing that the Bab al-Mandeb Strait stays open, the source said. The U.S. is in a delicate position, wanting to keep a vital shipping lane open without getting drawn into Saudi Arabia's battle in Yemen against the Iran-backed Houthis. Wash",
@@ -1559,19 +1650,6 @@
    "has_text": false
   },
   {
-   "title": "Canada’s Carney and Britain’s Burnham take first meeting to Everton football match",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxORFd6RW1nbi1Wd2tsN2VIV09NT21fUTlXTG5qU0Z1blpCSndJc2ZUTjFrTGhFN0IydUpYZTg5QjdBWlVHeFFnak9TSnEzN3g1aFVZdXYtWXMxMjFsRXkxcW05cGxXMEhaYWxEM1ktMy1vaHZ3ZXdUc2UwNzNuX0xKUm5fZ1hORWJ6QU1DeXFkMUo5VkZzQ2lQSjQ3T09DUQ?oc=5",
-   "summary": "Canada’s Carney and Britain’s Burnham take first meeting to Everton football match AP News",
-   "published": "2026-09-16T19:14:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "00abdaa73f90",
-   "article_url": "https://apnews.com/article/carney-burnham-everton-canada-britain-18613701b4966279ae854626a00b752a",
-   "has_text": false
-  },
-  {
    "title": "Trump chief of staff Susie Wiles announces she's cancer-free",
    "link": "https://www.bbc.co.uk/news/articles/c6j9xrx80ekro?at_medium=RSS&at_campaign=rss",
    "summary": "The 69-year-old White House chief of staff is a powerful figure and particularly close to the US president.",
@@ -1635,19 +1713,6 @@
    "id": "719cde5eb19c",
    "article_url": "https://www.semafor.com/article/09/16/2026/fed-raises-interest-rates-in-unanimous-vote",
    "has_text": true
-  },
-  {
-   "title": "Leake County schools in Mississippi released from decades-long desegregation order",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOclJHa2pvQnRVMDZEb2t0eVNXRVUzczRXaERiUFRWV1BGUDVmcllxZ1B6NGs5OXBYZWxPRWEtLUtRRkNUWExRb2d6SFRyUW9vYXVLNlJ6YnhYa2JUb0ZqbjVCTEV0SFhDdWxjcGwzb05rYnFSNXdfaDJQNFBzZGRTSHozVVQxY1BuWndYSmJFMldXTTYxT2xTaDkyR0hYRzBDVm5KT1plaHVoZFhPNFdZVk1YbVdOLXM?oc=5",
-   "summary": "Leake County schools in Mississippi released from decades-long desegregation order AP News",
-   "published": "2026-09-16T18:59:40+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "704c81310110",
-   "article_url": "https://apnews.com/article/leake-county-schools-federal-order-racial-discrimination-e5b5985a66aad423e8b5c385c38f3a4a",
-   "has_text": false
   },
   {
    "title": "Bipartisan AI safety talks accelerate in Senate",
@@ -2561,19 +2626,6 @@
    "has_text": true
   },
   {
-   "title": "What to know about the deaths of 8 women in South Africa that have sparked fear and anger",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeUUzNEcweTBMb1JQZUJxaXprVmduWWh3eHNGVVpWTHVDQTNpU29qQ3JyOGlMa2hwQnc2d0p0empwV1E4emJIeEZndUFOWHRBdzFDTkRGMktnRXMyNUNBVDVTcWdVQzN4eW43QVBxX2hmSGhTZnAyV0ZqQzZrVElXakdxejB1OFlLWGx6dVpMRXFnODZvSzZDQVhDdGI5MXQx?oc=5",
-   "summary": "What to know about the deaths of 8 women in South Africa that have sparked fear and anger AP News",
-   "published": "2026-09-16T14:50:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "ccd096a58620",
-   "article_url": "https://apnews.com/article/south-africa-women-deaths-serial-killer-f105a2b307d8a22d3699043952999dec",
-   "has_text": false
-  },
-  {
    "title": "Amazon increases minimum starting pay, adds new discount for employees",
    "link": "https://thehill.com/business/6092725-amazon-increases-minimum-starting-pay-adds-new-discount-for-employees/",
    "summary": "The move bumps the company's average hourly wage to almost $24 an hour.",
@@ -2663,19 +2715,6 @@
    "id": "1c78e2feae63",
    "article_url": "https://thehill.com/homenews/administration/6092643-gao-report-trump-administration-federal-employees-doge-pay/",
    "has_text": false
-  },
-  {
-   "title": "Microsoft says AI rival Anthropic could have 'disastrous impact' on humanity",
-   "link": "https://www.bbc.co.uk/news/articles/c6n07ypqz8kzo?at_medium=RSS&at_campaign=rss",
-   "summary": "Mustafa Suleyman says he believes the AI giant is in effect teaching Claude it \"may be conscious\".",
-   "published": "2026-09-16T14:16:14+00:00",
-   "source": "bbc",
-   "outlet": "BBC News",
-   "counted": true,
-   "section": "top",
-   "id": "9e0edb8207ea",
-   "article_url": "https://www.bbc.co.uk/news/articles/c6n07ypqz8kzo?at_medium=RSS&at_campaign=rss",
-   "has_text": true
   },
   {
    "title": "Almost 3 in 4 teachers want screen time limits in schools: Gallup",
@@ -3248,19 +3287,6 @@
    "id": "46855d867c82",
    "article_url": "https://www.semafor.com/article/09/16/2026/few-took-the-houthis-seriously-a-coalition-is-now-needed-to-stop-them",
    "has_text": true
-  },
-  {
-   "title": "Why Yemen’s Houthis have only grown stronger through years of war",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdkdPMUYwd2NPNzdkMVBLLU5NRlRDcmFTcW13Yl83UVZldkdNWUpfMDFzeXVnV0h2aFdOa1JxTE03UjFXeE8taW50eEwtU3VGWlJoVzdRNWJTUWdDRV9ISzBwZFg2Y0t2TjBTMlJWV1JvSER5RTVvbXhyV3JucUJpZFRGemg0bzRJNGdhd0xOTXp6OUZqa0VvWHB1dk1wYjVjeUpBUmNhMllOY0U?oc=5",
-   "summary": "Why Yemen’s Houthis have only grown stronger through years of war AP News",
-   "published": "2026-09-16T11:38:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "3dca4a498864",
-   "article_url": "https://apnews.com/article/iran-us-war-yemen-houthis-military-capabilities-4ca491bf0073cc073e04b787ac835807",
-   "has_text": false
   },
   {
    "title": "UK inflation rises to 5-month high, further pressuring Bank of England to raise rates this year",
@@ -3946,7 +3972,7 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "top",
+   "section": "climate",
    "id": "615a1cacd976",
    "article_url": "https://apnews.com/article/south-korea-north-korea-liaison-office-lawsuit-ff79e764e758e166995838cdc5759a2a",
    "has_text": false
@@ -3965,6 +3991,19 @@
    "has_text": true
   },
   {
+   "title": "Why Yemen’s Houthis have only grown stronger through years of war",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdkdPMUYwd2NPNzdkMVBLLU5NRlRDcmFTcW13Yl83UVZldkdNWUpfMDFzeXVnV0h2aFdOa1JxTE03UjFXeE8taW50eEwtU3VGWlJoVzdRNWJTUWdDRV9ISzBwZFg2Y0t2TjBTMlJWV1JvSER5RTVvbXhyV3JucUJpZFRGemg0bzRJNGdhd0xOTXp6OUZqa0VvWHB1dk1wYjVjeUpBUmNhMllOY0U?oc=5",
+   "summary": "Why Yemen’s Houthis have only grown stronger through years of war AP News",
+   "published": "2026-09-16T05:20:51+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "3dca4a498864",
+   "article_url": "https://apnews.com/article/iran-us-war-yemen-houthis-military-capabilities-4ca491bf0073cc073e04b787ac835807",
+   "has_text": false
+  },
+  {
    "title": "Egypt’s wind power push, tied to manufacturing, offers lessons for Nigeria and Africa",
    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPbXlQVzZCdG12MXdoMXhoVGgzeVVsUUt3dnAzYmV5Wi1MSWNrdFR0dmJiRVhpbGY4bkhVWVM5VndycDJCRHdiYnBEYmxtR2RkQ2tuSEdPak5OTER1Y0t3UnJTY1JLQ1JyS3RkZlg4Y3ZKdlhCUWphVXc5SXM3TVlWTjlRTEJVdDNOTlpLTFNLMmVSTkVZWjdlb1FRNEhmbUJSVlBhQ3YxUldLcUhscmc?oc=5",
    "summary": "Egypt’s wind power push, tied to manufacturing, offers lessons for Nigeria and Africa AP News",
@@ -3978,16 +4017,16 @@
    "has_text": false
   },
   {
-   "title": "Alonso ties it in 9th with 300th homer and Orioles beat Mets 7-5 in 11 on Mayo's inside-the-parker",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPc0ozNXEwWkR3N0U5eWt6NzhUenRmOUZLX09EaDlFbFB5R0J4MGp4cXAzYzVIT2gzZnZzbTlwTUJMakNjTGlrNWRjOF9iSVNWYlVZRnhDZVhqc2ZNS1ltWjB2bFVPWjNfN0xsVVN6RGNzT2tOQ1FfNFliaDE5cUxudzFWSGRmUDFLLXphbGhJTnc5Ympu?oc=5",
-   "summary": "Alonso ties it in 9th with 300th homer and Orioles beat Mets 7-5 in 11 on Mayo's inside-the-parker AP News",
-   "published": "2026-09-16T05:11:07+00:00",
+   "title": "AI rivals found rare agreement on safety. Putting it into practice is harder",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVnhXSC1KMzNaRVN6bkRBMFBiUW04UE1vXzRBeFMtbmFqZDdQT1VkZ2RLMGJWZEhFcEd6LW9DVktVVmo5VkhpMjZabGhRbE0tRUFuVW5nSnhlQzNaM19fck1QZlBHYy1OQzZNdU1GaThLRFdLdGhaMW12LUkzdHJxdklUX29YenRRVzJ3MUVWZXRyNHZ1RTBjMTdsaHlNMDZDbW5mTHVwWXI?oc=5",
+   "summary": "AI rivals found rare agreement on safety. Putting it into practice is harder AP News",
+   "published": "2026-09-16T04:14:00+00:00",
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
    "section": "climate",
-   "id": "d1ae8ebf68d2",
-   "article_url": "https://apnews.com/article/orioles-mets-score-pete-alonso-63632d0a37a48cbba6bd1a5149d88be0",
+   "id": "0caa6dc5a116",
+   "article_url": "https://apnews.com/article/ai-slowdown-challenges-anthropic-openai-trump-b61f28b6212338e88c0baec31f661701",
    "has_text": false
   },
   {
@@ -4444,6 +4483,19 @@
    "id": "e2f5b665a190",
    "article_url": "https://www.semafor.com/article/09/15/2026/us-10-year-yield-hits-highest-level-since-2007",
    "has_text": true
+  },
+  {
+   "title": "Trump and the court: If he wins, he's happy. When he loses, he ridicules justices he appointed",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSW9hRUlWOTBSaUFwd2RXQWpEbzJxNGhnWWp4eHNUdXpsbHNPaWZrTHdsY2RzR2plLXJYb19CSHBkdk1tampzYTdSS3ZucTJzVjRKd2dVa3daR05HYTdoVHRlT2xhb2lvYWNOWjh1UU5yWmMyVEFXVXp4VU1BcUtvZEJHN0cyVjQ5WGx1OTJDSklOXzVYTEpreXZDNUlybzhv?oc=5",
+   "summary": "Trump and the court: If he wins, he's happy. When he loses, he ridicules justices he appointed AP News",
+   "published": "2026-09-15T22:13:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "40059bbfe33c",
+   "article_url": "https://apnews.com/article/trump-supreme-court-justice-mail-voting-caae5358f004d04cf307f8df312a51ce",
+   "has_text": false
   },
   {
    "title": "Wicker, Shaheen to propose resolution urging U.S. cooperation with Russian pro-democracy movement",
@@ -4953,6 +5005,19 @@
    "has_text": true
   },
   {
+   "title": "$1.1 billion from Nike co-founder will build Oregon’s first women’s hospital",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNd29EaXBjZDZ1ak5BYUVKbkU1eHNCS2QzZUM4QWE2dEJMaHZNMFBlQ3o2QWNoYjQzUUlfUXgwWmQ5RVFfTEkxY1l6YjZaYUEzUnNLR3FPSWdFa1h0a2EzdFNLYkdNNFlrM0Y1R3ZlekhrWlFacng5b3pUUmtTTzdvVjViblR0ZmxBaDhLV0hxUmkyNE1pQjAycTF0SEFRSmVGd0E?oc=5",
+   "summary": "$1.1 billion from Nike co-founder will build Oregon’s first women’s hospital AP News",
+   "published": "2026-09-15T17:03:40+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "d5d24703ee8e",
+   "article_url": "https://apnews.com/article/phil-penny-knight-oregon-womens-hospital-3dc277cdb3ae0fe418bb4795bdfcbc1c",
+   "has_text": false
+  },
+  {
    "title": "Federal corruption trial opens for DC Council member Trayon White",
    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxObE9xZFpRdzdhdGZDN1l4LVMzVE5qektnTGI1N1ZyU2VEeWtRUEdpNEJRWFRDX19EeE14OWpCSzRMdzdfaXhKbHVCYmp3N3dzNm00NllaLWkzOWtnaUhHUFRLcFpoVEpFVVR2cHZ0S3Roekdvd3NYTjg5UnpaUUxjVTZUNkZvTWFHbUotTXdudkxZbGE4ZkFCSldseExodw?oc=5",
    "summary": "Federal corruption trial opens for DC Council member Trayon White AP News",
@@ -4977,19 +5042,6 @@
    "id": "3edb7a6d4798",
    "article_url": "https://www.axios.com/2026/09/15/trump-name-kennedy-center-judge-ruling",
    "has_text": true
-  },
-  {
-   "title": "$1.1 billion from Nike co-founder will build Oregon’s first women’s hospital",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNd29EaXBjZDZ1ak5BYUVKbkU1eHNCS2QzZUM4QWE2dEJMaHZNMFBlQ3o2QWNoYjQzUUlfUXgwWmQ5RVFfTEkxY1l6YjZaYUEzUnNLR3FPSWdFa1h0a2EzdFNLYkdNNFlrM0Y1R3ZlekhrWlFacng5b3pUUmtTTzdvVjViblR0ZmxBaDhLV0hxUmkyNE1pQjAycTF0SEFRSmVGd0E?oc=5",
-   "summary": "$1.1 billion from Nike co-founder will build Oregon’s first women’s hospital AP News",
-   "published": "2026-09-15T16:57:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "d5d24703ee8e",
-   "article_url": "https://apnews.com/article/phil-penny-knight-oregon-womens-hospital-3dc277cdb3ae0fe418bb4795bdfcbc1c",
-   "has_text": false
   },
   {
    "title": "Trump administration orders Kalshi to scrap AI price tracker over national security concerns",
@@ -5678,19 +5730,6 @@
    "section": "climate",
    "id": "b4da0d53b7d6",
    "article_url": "https://www.bbc.co.uk/news/articles/c65ym93p73xmo?at_medium=RSS&at_campaign=rss",
-   "has_text": true
-  },
-  {
-   "title": "Memorable moments from the Emmys and everything you couldn't see on TV",
-   "link": "https://www.bbc.co.uk/news/articles/cq9v9j2rxpxxo?at_medium=RSS&at_campaign=rss",
-   "summary": "Backstage, the winners continued the celebrations off-screen and addressed some of the ceremony's most viral moments.",
-   "published": "2026-09-15T05:30:35+00:00",
-   "source": "bbc",
-   "outlet": "BBC News",
-   "counted": true,
-   "section": "top",
-   "id": "d092e5b41d82",
-   "article_url": "https://www.bbc.co.uk/news/articles/cq9v9j2rxpxxo?at_medium=RSS&at_campaign=rss",
    "has_text": true
   }
  ]
