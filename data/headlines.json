@@ -1,14 +1,40 @@
 {
- "fetched_at": "2026-09-17T06:35:25.157797+00:00",
+ "fetched_at": "2026-09-17T07:30:00.580865+00:00",
  "window_hours": 48,
- "count": 442,
+ "count": 438,
  "errors": [],
  "items": [
   {
+   "title": "Robert Kraft says Ed Sheeran asked him to donate $2m in aid after Macklemore backlash",
+   "link": "https://www.bbc.co.uk/news/articles/cmp3073x6464o?at_medium=RSS&at_campaign=rss",
+   "summary": "It comes after Macklemore pledged $1m to Palestinian causes, challenging the tycoon to match the sum.",
+   "published": "2026-09-17T07:06:49+00:00",
+   "source": "bbc",
+   "outlet": "BBC News",
+   "counted": true,
+   "section": "top",
+   "id": "c478e8b7f168",
+   "article_url": "https://www.bbc.co.uk/news/articles/cmp3073x6464o?at_medium=RSS&at_campaign=rss",
+   "has_text": true
+  },
+  {
+   "title": "OpenAI flags concerning new AI behavior and vows to track it more closely",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYzBMbjczYWt1SGJLdVUwYlppSnhRNGc2amRmbjZLQlBGS3ZzdTVXYUM5ZXViQXQ4clFkZXZ2cERxc3NmdENzRTRqRno0Q3pxM0ozTExsSXJGYmY0RkNzUFlFX21FOUtpODA2V0phX3k4OXZaZktpUy1WUjZKb3p5WV9DWUhzejBoazBKdmVuQQ?oc=5",
+   "summary": "OpenAI flags concerning new AI behavior and vows to track it more closely AP News",
+   "published": "2026-09-17T06:57:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "768db3e792d4",
+   "article_url": "https://apnews.com/article/openai-safety-ai-framework-089e75b95bc935af092da7b79d92706d",
+   "has_text": false
+  },
+  {
    "title": "Tech treating AI like humans is mistaken and misguided, Microsoft boss tells BBC",
    "link": "https://www.bbc.co.uk/news/articles/c6n07ypqz8kzo?at_medium=RSS&at_campaign=rss",
-   "summary": "Mustafa Suleyman says he believes the AI giant is in effect teaching Claude it \"may be conscious\".",
-   "published": "2026-09-17T06:30:40+00:00",
+   "summary": "Mustafa Suleyman says he believes rival AI firm Anthropic is in effect teaching Claude it \"may be conscious\".",
+   "published": "2026-09-17T06:38:43+00:00",
    "source": "bbc",
    "outlet": "BBC News",
    "counted": true,
@@ -18,7 +44,7 @@
    "has_text": true
   },
   {
-   "title": "'The choir was a great lifter when the fields fell silent'",
+   "title": "The farmer who turned to singing after bovine TB silenced his fields",
    "link": "https://www.bbc.co.uk/news/articles/c58jd32wgwk4o?at_medium=RSS&at_campaign=rss",
    "summary": "Dairy farmer Mervyn Kelso struggled with the sadness of the empty fields when he lost his entire herd to bovine TB.",
    "published": "2026-09-17T05:43:03+00:00",
@@ -96,19 +122,6 @@
    "has_text": false
   },
   {
-   "title": "OpenAI flags new concerning AI behavior, to track model misalignment regularly",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQYzBMbjczYWt1SGJLdVUwYlppSnhRNGc2amRmbjZLQlBGS3ZzdTVXYUM5ZXViQXQ4clFkZXZ2cERxc3NmdENzRTRqRno0Q3pxM0ozTExsSXJGYmY0RkNzUFlFX21FOUtpODA2V0phX3k4OXZaZktpUy1WUjZKb3p5WV9DWUhzejBoazBKdmVuQQ?oc=5",
-   "summary": "OpenAI flags new concerning AI behavior, to track model misalignment regularly AP News",
-   "published": "2026-09-17T04:21:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "768db3e792d4",
-   "article_url": "https://apnews.com/article/openai-safety-ai-framework-089e75b95bc935af092da7b79d92706d",
-   "has_text": false
-  },
-  {
    "title": "What to know about the deaths of 8 women in South Africa that have sparked fear and anger",
    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeUUzNEcweTBMb1JQZUJxaXprVmduWWh3eHNGVVpWTHVDQTNpU29qQ3JyOGlMa2hwQnc2d0p0empwV1E4emJIeEZndUFOWHRBdzFDTkRGMktnRXMyNUNBVDVTcWdVQzN4eW43QVBxX2hmSGhTZnAyV0ZqQzZrVElXakdxejB1OFlLWGx6dVpMRXFnODZvSzZDQVhDdGI5MXQx?oc=5",
    "summary": "What to know about the deaths of 8 women in South Africa that have sparked fear and anger AP News",
@@ -122,19 +135,6 @@
    "has_text": false
   },
   {
-   "title": "Robert Kraft says Ed Sheeran asked him to donate $2m in aid after Macklemore backlash",
-   "link": "https://www.bbc.co.uk/news/articles/cmp3073x6464o?at_medium=RSS&at_campaign=rss",
-   "summary": "It comes after Macklemore pledged $1m to Palestinian causes, challenging the tycoon to match the sum.",
-   "published": "2026-09-17T04:09:17+00:00",
-   "source": "bbc",
-   "outlet": "BBC News",
-   "counted": true,
-   "section": "top",
-   "id": "c478e8b7f168",
-   "article_url": "https://www.bbc.co.uk/news/articles/cmp3073x6464o?at_medium=RSS&at_campaign=rss",
-   "has_text": true
-  },
-  {
    "title": "APOD: 2026 September 17 – A Treasure Chest in the Carina Nebula",
    "link": "https://science.nasa.gov/image-article/apod-2026-september-17-a-treasure-chest-in-the-carina-nebula/",
    "summary": "APOD Science APOD APOD: 2026 September 17 – A… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. A Treasure […]",
@@ -144,6 +144,19 @@
    "counted": false,
    "section": "top",
    "id": "b30c3f8172b5"
+  },
+  {
+   "title": "Russia’s wartime parliamentary election is set to secure the Kremlin’s power",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVFM5djZUQ2poelBsWGQxLUtqMDNtWlU0bnFoRU10NDl2bGJjbDdSN2doN0lqVFJJdW1PTHpsRF9LUlduOGVRMF9Qd2VCdkVvY3hBTmloZkE1SWdzbXRVQ2Zjdk1FZlh6UkIxdTk1THRUUUxiRDh0S2xybGZPczViaEtqUzU4dmk1aE9FTDA3aWZGa2RQMzRlSjVZa2c1OWw4RkswTXNXY1JRb293dlE?oc=5",
+   "summary": "Russia’s wartime parliamentary election is set to secure the Kremlin’s power AP News",
+   "published": "2026-09-17T04:03:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "27f238694e0b",
+   "article_url": "https://apnews.com/article/russia-putin-election-parliament-duma-ukraine-war-a2001537fc104755e071a38217987331",
+   "has_text": false
   },
   {
    "title": "A global AI safety strategy depends on US-China cooperation. They each see the other as the problem",
@@ -159,6 +172,19 @@
    "has_text": false
   },
   {
+   "title": "LA news helicopter crashed in birthplace (and, arguably, epicenter) of 'eye-in-the-sky' reporting",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaWJZN0REMjJRMDhQSFVhMWN0bUE2ekdFUVhJQ3Jtd0k5Ykg4cEhrWnRISXJqQlZxU2Q1WmF6dldaRF9pN1IyQjlld0xUYnA3Nmtwc2FrMzJrZGtPZk1ReTVYY2NwSVZaaTJ0czlCQWR2VnRIcTlnMTV5MDZlc1Y4MVdFM0ZpZi1uamlHSnVtR2RPRVQ2Ny1rWi05VGNGcEUycFE?oc=5",
+   "summary": "LA news helicopter crashed in birthplace (and, arguably, epicenter) of 'eye-in-the-sky' reporting AP News",
+   "published": "2026-09-17T04:01:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "bb70903f5b0f",
+   "article_url": "https://apnews.com/article/helicopter-news-crash-moreno-los-angeles-3d856fabe49a73dcad95593afa3fe1a3",
+   "has_text": false
+  },
+  {
    "title": "Summer Goes Out With a Heat Dome",
    "link": "https://science.nasa.gov/earth/earth-observatory/summer-goes-out-with-a-heat-dome/",
    "summary": "Temperature records toppled across the central and southern U.S. as the autumnal equinox approached.",
@@ -168,6 +194,19 @@
    "counted": false,
    "section": "top",
    "id": "9a45900b6c8d"
+  },
+  {
+   "title": "US businessman Adam Castillo deported from Myanmar after months in jail, state media says",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVXdEUDFkS0RxWTliSFQ5WkxCa0s3Q2ZyeENfMGxKVC1EdU80RG1HLUU4Vy1JcEJ3VDVMdFoxeXpzejVyd0pXUlBobUpidlJlLWl2Sl9GbUZhSjRXd0plMlRzUTV6RUV0aUo1a0JtcE5FT29EMlN4djFvaU9xaGxDNGtrVmpkVkY2N0pCOHRERW1ablotREF4OG5XdzAwUW12VTZCNC1RakRhdw?oc=5",
+   "summary": "US businessman Adam Castillo deported from Myanmar after months in jail, state media says AP News",
+   "published": "2026-09-17T03:55:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "8fe7fbcd029a",
+   "article_url": "https://apnews.com/article/adam-castillo-myanmar-jail-chamber-of-commerce-f9ecfe8d62f8a71ee6914bd67b87de95",
+   "has_text": false
   },
   {
    "title": "Kamala Harris to campaign for Abdul El-Sayed at Michigan event: Reports",
@@ -274,19 +313,6 @@
    "has_text": false
   },
   {
-   "title": "Federal judge restricts warrantless immigration arrests in Southern California",
-   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcUQ3ZFBPdFRoU0I2dTNjZ0szWWRnRW9xamZUaVNCNkFiWmNnWUZOeFVQSU1GUmFsNllXcWNfOGt5SVctemJnWDM2YUVuSDRJaE83ZnUtb0t5ckl3RFNKQUJBNGs4VGpWZG1PLVZaaTU1enJtRjY4eEFsOGRFTFRrTFJVeVQ0dk5SSzhiNjhyaHdVRHpiYVNlbkxFbDZtd1ZJSk51M0pYZnd2cXJheFhrbmVKNA?oc=5",
-   "summary": "Federal judge restricts warrantless immigration arrests in Southern California AP News",
-   "published": "2026-09-17T01:53:28+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "9bcf5d67d5a6",
-   "article_url": "https://apnews.com/article/ice-immigration-raids-los-angeles-warrantless-arrests-c42d27c45d9ce7b859590e48242b9d18",
-   "has_text": false
-  },
-  {
    "title": "Building damaged by strikes collapses in Gaza, killing 21 as perilous living conditions persist",
    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQV3lqZkMxREp6UW9yYVJuODAxQW96LXRiejVPakNpNXFxc2ZTWmItNEVhQW5UeWdaWTNlN19QaVRqOXh5T1hETXp3cW0td3Q4QU96UEIwQjNuSjE4ZkZLcDVFQmxTMDZLVVlMWHlqSmFIWjdBeE5BbHdUNWtIMS1Nemd5NzRJeWVuTzFTM2ZMRmpfaVhLWDVXbA?oc=5",
    "summary": "Building damaged by strikes collapses in Gaza, killing 21 as perilous living conditions persist AP News",
@@ -326,6 +352,19 @@
    "has_text": false
   },
   {
+   "title": "Federal judge restricts warrantless immigration arrests in Southern California",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcUQ3ZFBPdFRoU0I2dTNjZ0szWWRnRW9xamZUaVNCNkFiWmNnWUZOeFVQSU1GUmFsNllXcWNfOGt5SVctemJnWDM2YUVuSDRJaE83ZnUtb0t5ckl3RFNKQUJBNGs4VGpWZG1PLVZaaTU1enJtRjY4eEFsOGRFTFRrTFJVeVQ0dk5SSzhiNjhyaHdVRHpiYVNlbkxFbDZtd1ZJSk51M0pYZnd2cXJheFhrbmVKNA?oc=5",
+   "summary": "Federal judge restricts warrantless immigration arrests in Southern California AP News",
+   "published": "2026-09-17T01:29:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "9bcf5d67d5a6",
+   "article_url": "https://apnews.com/article/ice-immigration-raids-los-angeles-warrantless-arrests-c42d27c45d9ce7b859590e48242b9d18",
+   "has_text": false
+  },
+  {
    "title": "Trump administration again denies visas for Palestinian delegation to attend the UN General Assembly",
    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdnQzUVRQdVJQU0VzWC16Q2xSZ2xkMWx2dkZTakJtR1E0MEFCSWZPS0VrQ1RJTEpwcDQ1S0o3ZXoxbHZ5akJac2M5QkN4NmpJTS1nQjQ3RG85eHR5VzlpTVZLSkJDR0IxV3VBN3k5SjVqZFRPZGVQbk0zNjExZUpQVDhmX05xUWIzUEozejJUQWhlV2pRY3lseldNNm8?oc=5",
    "summary": "Trump administration again denies visas for Palestinian delegation to attend the UN General Assembly AP News",
@@ -336,6 +375,19 @@
    "section": "top",
    "id": "68e993da83e5",
    "article_url": "https://apnews.com/article/palestinians-gaza-war-trump-un-visas-2ab54a7b420dd7fc5aea068d883b5cee",
+   "has_text": false
+  },
+  {
+   "title": "The Asian Games are bigger than the Summer Olympics, at least in athlete numbers",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWkRJRndKNktTTmMwNkxJdzhQbDZmcFd4c3ZEc3NUYUlTbnBHSFRWNmVjV0VBS21mWi1TTk04WnhFdzJ4S2FRTmlYckpLUm1oY1pWU0c3aW90QXlVVVU4RzcwQmlIcUxaT0ItZlU5RjJBblVfNF9nTEFzVEt1ZGtLSWtzOXo0Q2szZGE5ZExDTnhCRUVBSEFB?oc=5",
+   "summary": "The Asian Games are bigger than the Summer Olympics, at least in athlete numbers AP News",
+   "published": "2026-09-17T01:13:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "68abfa8b1f1c",
+   "article_url": "https://apnews.com/article/asian-games-nagoya-japan-preview-308cdf5925cb28aaeb904c2bf72b5275",
    "has_text": false
   },
   {
@@ -388,19 +440,6 @@
    "section": "top",
    "id": "a1f9f357e679",
    "article_url": "https://apnews.com/article/michigan-western-michigan-ncaa-604941f3b42f6e6c38feba2df54bcf9a",
-   "has_text": false
-  },
-  {
-   "title": "Trump and Whatley double down on the administration's record in North Carolina Senate contest",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWDZ0ZkI2a1psbXBpT2RZaHREUVNnaUFzazhVQTRYWjhXNHpUSjAwaEw4MEVLSm5oZVc3Y08xZ082OWljdDVUbEZBaUpDd0N0Z05JR0oxeDNHYm53aWUwWm05M09kdm82V0pZLUMyZVZIZmVoQVZIdkJkVVR1bzJEcVFqSS0xMVlxbDJXM3Q0eEVjSDcwT1JfMUpCTmVpdS16VzZaelNTSGs0cGl1bmVuaFBn?oc=5",
-   "summary": "Trump and Whatley double down on the administration's record in North Carolina Senate contest AP News",
-   "published": "2026-09-17T01:05:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "c5a708694974",
-   "article_url": "https://apnews.com/article/trump-michael-whatley-senate-campaign-rally-midterms-754dabd5b3b1dd767ddc756a57964249",
    "has_text": false
   },
   {
@@ -1093,19 +1132,6 @@
    "has_text": true
   },
   {
-   "title": "UN chief urges global AI cooperation saying world can't afford 'a race to the bottom on AI safety'",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVFZiWDFYOEI1THJDSkNUek1MV3VXcVFpOWIzLTJZMU1YLVp2bndjWEFGRkVudFZfc29USWpEYlNldnk0ZmxreTFWTWV3Q1lVNmY5UUxwUzM5bmtMcXYzSGNZUHliTXZsWUhySlZ2bkVZajJVaVJDZC12b0ZUSWNiV2tBNE1EVVphNnJNT1pPR2twaU9FSFJlUTZUQTg4RUJ2bVdXaXZrVTJxM2c4ckQ4bw?oc=5",
-   "summary": "UN chief urges global AI cooperation saying world can't afford 'a race to the bottom on AI safety' AP News",
-   "published": "2026-09-16T21:58:39+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "6068adfab3a3",
-   "article_url": "https://apnews.com/article/un-ai-safety-companies-global-coordination-guterres-6ae720a081ce4d5ede35837ca35b8460",
-   "has_text": false
-  },
-  {
    "title": "Court Rules in Favor of Feds and Denver Water on Dam Expansion",
    "link": "https://insideclimatenews.org/news/16092026/court-allows-colorado-dam-expansion-to-continue/",
    "summary": "The unfinished expansion of Gross Reservoir near Denver can proceed after three judges ruled Tuesday in favor of the federal government and a water utility’s challenge to a lower court opinion halting construction. The U.S. Army Corps of Engineers and Denver Water defended the dam expansion before the 10th Circuit Court of Appeals against a […]",
@@ -1416,6 +1442,19 @@
    "has_text": false
   },
   {
+   "title": "UN chief urges global AI cooperation saying world can't afford 'a race to the bottom on AI safety'",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQVFZiWDFYOEI1THJDSkNUek1MV3VXcVFpOWIzLTJZMU1YLVp2bndjWEFGRkVudFZfc29USWpEYlNldnk0ZmxreTFWTWV3Q1lVNmY5UUxwUzM5bmtMcXYzSGNZUHliTXZsWUhySlZ2bkVZajJVaVJDZC12b0ZUSWNiV2tBNE1EVVphNnJNT1pPR2twaU9FSFJlUTZUQTg4RUJ2bVdXaXZrVTJxM2c4ckQ4bw?oc=5",
+   "summary": "UN chief urges global AI cooperation saying world can't afford 'a race to the bottom on AI safety' AP News",
+   "published": "2026-09-16T20:40:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "6068adfab3a3",
+   "article_url": "https://apnews.com/article/un-ai-safety-companies-global-coordination-guterres-6ae720a081ce4d5ede35837ca35b8460",
+   "has_text": false
+  },
+  {
    "title": "Americans warned to reconsider travel to Saudi Arabia",
    "link": "https://thehill.com/homenews/administration/6093721-us-embassy-saudi-travel-warning/",
    "summary": "The U.S. Embassy in Riyadh on Wednesday warned Americans to reconsider traveling to Saudi Arabia amid the threat of Iranian drone and missile strikes targeting U.S. assets in the country. Embassy officials shared this in a Level 3 travel advisory that also warned of threats of “armed conflict, terrorism, exit bans, and local laws regarding social…",
@@ -1585,6 +1624,19 @@
    "has_text": false
   },
   {
+   "title": "Iran hesitates to clamp down on defiance of headscarf rules as war and economic pressures mount",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQX1ozOThyMm52Q1pxdDRHVy1fRDNWeXBGLV85V0pzXy16QlY0QmIteTJvRHZPWlQ5UC1WbWh2ZWRYZXlpck5uSGdqc01RZWZxWWlybU5FZkNyeFZONUJrVHFVa0xDUXBjWHVCN0Nvd1pkS09zckw1VXdFcVIxZzZCRjBnbk9QYWRhblZwcXY4SVBiMmdyMS0yZDlJdFRPNkJySW9z?oc=5",
+   "summary": "Iran hesitates to clamp down on defiance of headscarf rules as war and economic pressures mount AP News",
+   "published": "2026-09-16T19:37:48+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "0e9500b19187",
+   "article_url": "https://apnews.com/article/iran-us-war-mahsa-amini-hijab-headscarves-72619dcb5b70d688378aa7f5bbc05916",
+   "has_text": false
+  },
+  {
    "title": "House holds billionaire Leon Black in contempt of Congress over Epstein investigation",
    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRTlDaEdualRxdzhKQ2tPZ3VtLUEtSnZqSFNIU1F2aVgzVkFhOTdLemVBR0RkWDRUaGo2ZHdibFBsay1fMDAxTUlFWnlycFQxV0k1aVBlTUZnS1kzelZYSzhUN1laalpocVU5YjJHUU1WOTVydktXQ2Zsd3BFQTNqUGN1T25CSUpBX056clhfUVZUNWtwajFoWVl6ckQ?oc=5",
    "summary": "House holds billionaire Leon Black in contempt of Congress over Epstein investigation AP News",
@@ -1595,19 +1647,6 @@
    "section": "top",
    "id": "8595a9c958eb",
    "article_url": "https://apnews.com/article/leon-black-epstein-contempt-congress-e556566061ce2bdf0928d46e7441853f",
-   "has_text": false
-  },
-  {
-   "title": "Iran hesitates to clamp down on defiance of headscarf rules as war and economic pressures mount",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQX1ozOThyMm52Q1pxdDRHVy1fRDNWeXBGLV85V0pzXy16QlY0QmIteTJvRHZPWlQ5UC1WbWh2ZWRYZXlpck5uSGdqc01RZWZxWWlybU5FZkNyeFZONUJrVHFVa0xDUXBjWHVCN0Nvd1pkS09zckw1VXdFcVIxZzZCRjBnbk9QYWRhblZwcXY4SVBiMmdyMS0yZDlJdFRPNkJySW9z?oc=5",
-   "summary": "Iran hesitates to clamp down on defiance of headscarf rules as war and economic pressures mount AP News",
-   "published": "2026-09-16T19:25:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "0e9500b19187",
-   "article_url": "https://apnews.com/article/iran-us-war-mahsa-amini-hijab-headscarves-72619dcb5b70d688378aa7f5bbc05916",
    "has_text": false
   },
   {
@@ -1754,16 +1793,29 @@
    "has_text": false
   },
   {
-   "title": "US businessman Adam Castillo deported from Myanmar after months in jail, state media says",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVXdEUDFkS0RxWTliSFQ5WkxCa0s3Q2ZyeENfMGxKVC1EdU80RG1HLUU4Vy1JcEJ3VDVMdFoxeXpzejVyd0pXUlBobUpidlJlLWl2Sl9GbUZhSjRXd0plMlRzUTV6RUV0aUo1a0JtcE5FT29EMlN4djFvaU9xaGxDNGtrVmpkVkY2N0pCOHRERW1ablotREF4OG5XdzAwUW12VTZCNC1RakRhdw?oc=5",
-   "summary": "US businessman Adam Castillo deported from Myanmar after months in jail, state media says AP News",
-   "published": "2026-09-16T18:43:13+00:00",
+   "title": "AP exclusive: Change in human trafficking policy could make some minors easier to deport",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxON0syNjNPVnQ4VjMtaEpQanoyOXY4Q20weklaNk8zQXE1Q0t0UlVaMzVRNnV2TjZUMDJoQlJYREtpeWt5dUhNcUpBZjhrcV96eVVCZzVzR0N5cm5pbGJZTjE4MHRqWnNmTzJObTl5UEwxTmxYVlY4T2t6Szh1bXlKMlpiV3NhTXBnN3BUVnlCN2F0RUQ5WjJlQ29EQzBSUnh1S0Y1WURScGVrbXJaTXhKMA?oc=5",
+   "summary": "AP exclusive: Change in human trafficking policy could make some minors easier to deport AP News",
+   "published": "2026-09-16T18:48:00+00:00",
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
    "section": "top",
-   "id": "8fe7fbcd029a",
-   "article_url": "https://apnews.com/article/adam-castillo-myanmar-jail-chamber-of-commerce-f9ecfe8d62f8a71ee6914bd67b87de95",
+   "id": "a8dabb4c2283",
+   "article_url": "https://apnews.com/article/human-trafficking-claims-unaccompanied-minors-trump-4cd31c79202b49c6144f474c970eeff4",
+   "has_text": false
+  },
+  {
+   "title": "UK inflation rises to 5-month high, further pressuring Bank of England to raise rates this year",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPd2lIVC1HeTdoNmh0ckE3Q09FSHhCZ19RNS1JbUJKNG5iWHMyeEVtOU1vQkt6YXZleVJXUmhxQS1pdzRTdFlFbUdrVjRiLVpnalRBUFZoS0VTd2FhT3gwZXFkX2xnLXAzVVRJSU5obUZQR2hmTjBNVmN1dTVkaU9NbTNEQTVjckIyUUpVRE03dW1LN0xPTjgwWkYtaUZ2M0hzc3hqS01yUmo?oc=5",
+   "summary": "UK inflation rises to 5-month high, further pressuring Bank of England to raise rates this year AP News",
+   "published": "2026-09-16T18:41:22+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "96196ca34072",
+   "article_url": "https://apnews.com/article/britain-inflation-interest-rates-bank-england-c9d4ace0d4f720d02b12545cfe90c9ef",
    "has_text": false
   },
   {
@@ -1816,19 +1868,6 @@
    "section": "top",
    "id": "fbde8702aac9",
    "article_url": "https://apnews.com/article/trump-super-pac-maga-inc-midterms-c775f52e1bf516b29408987f75842fae",
-   "has_text": false
-  },
-  {
-   "title": "Copperwood Mine foes sue to block $50M grant for project near Lake Superior",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbTh3cFQzaHp5c2VLUU9iYlhhbVpLNjJfYmlLR0g1WXAzRF92WGNmTEJPSTBYZTRFeUxKNDBJX242ZFNSVGhnd3J0MlJiRTdIemdsWmtILUlWOFF2Q2Mta2hRSDdlNnlhNVZVRGNQaThqMzE0Y2twSEd0dXRTU0d3Rl9scTZlYUpDVnEtVmxjQml3SHYteXB6MmxTRzJ6Vkp6?oc=5",
-   "summary": "Copperwood Mine foes sue to block $50M grant for project near Lake Superior AP News",
-   "published": "2026-09-16T18:32:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "012baea52a9b",
-   "article_url": "https://apnews.com/article/copperwood-mine-michigan-grants-lawsuit-aa5c2419e5ff8d0b7da9bbcd3fcef0aa",
    "has_text": false
   },
   {
@@ -2165,19 +2204,6 @@
    "section": "top",
    "id": "340fab0a13d6",
    "article_url": "https://thehill.com/homenews/campaign/6093133-josh-hawley-potential-2028-presidential-bid/",
-   "has_text": false
-  },
-  {
-   "title": "AP exclusive: Change in human trafficking policy could make some minors easier to deport",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxON0syNjNPVnQ4VjMtaEpQanoyOXY4Q20weklaNk8zQXE1Q0t0UlVaMzVRNnV2TjZUMDJoQlJYREtpeWt5dUhNcUpBZjhrcV96eVVCZzVzR0N5cm5pbGJZTjE4MHRqWnNmTzJObTl5UEwxTmxYVlY4T2t6Szh1bXlKMlpiV3NhTXBnN3BUVnlCN2F0RUQ5WjJlQ29EQzBSUnh1S0Y1WURScGVrbXJaTXhKMA?oc=5",
-   "summary": "AP exclusive: Change in human trafficking policy could make some minors easier to deport AP News",
-   "published": "2026-09-16T16:30:39+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "a8dabb4c2283",
-   "article_url": "https://apnews.com/article/human-trafficking-claims-unaccompanied-minors-trump-4cd31c79202b49c6144f474c970eeff4",
    "has_text": false
   },
   {
@@ -2675,6 +2701,19 @@
    "section": "top",
    "id": "b256db91f961",
    "article_url": "https://apnews.com/article/syria-kurds-sdf-protests-fuel-prices-fire-kobani-4d09fb583a7d7ad2ff6fdfe34d1379c3",
+   "has_text": false
+  },
+  {
+   "title": "Gold mining expands fastest on Indigenous lands in Brazil’s Amazon, new analysis finds",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNHR3SzBnQldHUmhXTl9mSU5KcEp1bWVuU3VydHpVWmVnM3RLMUxFUVU1dG01YUJQb0x2Rk5ieFZXX0MzSTM4R1ItdC1tYlcxcU45MmJCZ19KWjV5X2diUldjYU5aXzBnVlMzbHRLR1lFdXd5QWgtQ2I2d09IRWJXUUpLYU8xNVpCR1I4V0JoNHJGWnhha0xvcFpvdEtMNGtaZFlZT2FR?oc=5",
+   "summary": "Gold mining expands fastest on Indigenous lands in Brazil’s Amazon, new analysis finds AP News",
+   "published": "2026-09-16T14:31:11+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "8f124b5d7fa0",
+   "article_url": "https://apnews.com/article/brazil-amazon-indigenous-mining-environment-092ff4c014b5113007972b80df10b331",
    "has_text": false
   },
   {
@@ -3185,19 +3224,6 @@
    "has_text": true
   },
   {
-   "title": "South Sudan president fires head of electoral body months before country’s first election",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcVBkUHYzSVlZT09uRnZmZ2lYOVJlejRnYmtxZEhoOUxQcDFCYU5SM29TMlFTZjRkaWhBRjZ5OGxXOUJ6MzRfOGZVZnRNd2Q1SjRRbTNoOGJTZDBEWVRpRC1HOGhBQld6S0NPQkJIZTB3bXNUTjRlTXlwZ0RyeHdzQjh0aWRvalFiV09POW1FLWRYNXo3b0Z5NHZHb2R5MGZRcFpj?oc=5",
-   "summary": "South Sudan president fires head of electoral body months before country’s first election AP News",
-   "published": "2026-09-16T12:25:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "2d00a8470be0",
-   "article_url": "https://apnews.com/article/south-sudan-election-president-salva-kiir-1c2cadb70c3e22d120de41be7684d6e0",
-   "has_text": false
-  },
-  {
    "title": "English village votes to leave the UK over migrant housing plan",
    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNGNXUEJJTnp6ZVpfM0p5cVF6NXptZkxBODNlVVJXWjFfdUQzdjJUdjQyRHhBWTl0dDlsWVBETzFuNHZhMXhhTFJWV0RGM3FydUViTFVVNy1FeXNXbDBJZ0JJY0tOUEVYX2RSRXExVUNMZkZyazNZVVdVZWpKc1NNM0g5VFYxYjRWQWxVajB0ZjlsdjIwR3BzOTIyUGtqcE5MNk5FX0hvblk3TTIxc19UaldmOA?oc=5",
    "summary": "English village votes to leave the UK over migrant housing plan AP News",
@@ -3289,16 +3315,16 @@
    "has_text": true
   },
   {
-   "title": "UK inflation rises to 5-month high, further pressuring Bank of England to raise rates this year",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPd2lIVC1HeTdoNmh0ckE3Q09FSHhCZ19RNS1JbUJKNG5iWHMyeEVtOU1vQkt6YXZleVJXUmhxQS1pdzRTdFlFbUdrVjRiLVpnalRBUFZoS0VTd2FhT3gwZXFkX2xnLXAzVVRJSU5obUZQR2hmTjBNVmN1dTVkaU9NbTNEQTVjckIyUUpVRE03dW1LN0xPTjgwWkYtaUZ2M0hzc3hqS01yUmo?oc=5",
-   "summary": "UK inflation rises to 5-month high, further pressuring Bank of England to raise rates this year AP News",
-   "published": "2026-09-16T11:37:00+00:00",
+   "title": "Why Yemen’s Houthis have only grown stronger through years of war",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdkdPMUYwd2NPNzdkMVBLLU5NRlRDcmFTcW13Yl83UVZldkdNWUpfMDFzeXVnV0h2aFdOa1JxTE03UjFXeE8taW50eEwtU3VGWlJoVzdRNWJTUWdDRV9ISzBwZFg2Y0t2TjBTMlJWV1JvSER5RTVvbXhyV3JucUJpZFRGemg0bzRJNGdhd0xOTXp6OUZqa0VvWHB1dk1wYjVjeUpBUmNhMllOY0U?oc=5",
+   "summary": "Why Yemen’s Houthis have only grown stronger through years of war AP News",
+   "published": "2026-09-16T11:38:00+00:00",
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
    "section": "top",
-   "id": "96196ca34072",
-   "article_url": "https://apnews.com/article/britain-inflation-interest-rates-bank-england-c9d4ace0d4f720d02b12545cfe90c9ef",
+   "id": "3dca4a498864",
+   "article_url": "https://apnews.com/article/iran-us-war-yemen-houthis-military-capabilities-4ca491bf0073cc073e04b787ac835807",
    "has_text": false
   },
   {
@@ -3699,7 +3725,7 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "top",
+   "section": "climate",
    "id": "456d60a91fa0",
    "article_url": "https://apnews.com/article/european-union-heat-wave-climate-change-wildfires-55aa1da3b3b18c4986a69f7e186a6383",
    "has_text": false
@@ -3959,7 +3985,7 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "top",
+   "section": "climate",
    "id": "41d34b8091de",
    "article_url": "https://apnews.com/article/space-weapons-air-force-5a2a0ada771daaf4fbef0991d8c09259",
    "has_text": false
@@ -3989,19 +4015,6 @@
    "id": "07f77e98f1d1",
    "article_url": "https://www.bbc.co.uk/news/videos/cmzezj8gr224o?at_medium=RSS&at_campaign=rss",
    "has_text": true
-  },
-  {
-   "title": "Why Yemen’s Houthis have only grown stronger through years of war",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQdkdPMUYwd2NPNzdkMVBLLU5NRlRDcmFTcW13Yl83UVZldkdNWUpfMDFzeXVnV0h2aFdOa1JxTE03UjFXeE8taW50eEwtU3VGWlJoVzdRNWJTUWdDRV9ISzBwZFg2Y0t2TjBTMlJWV1JvSER5RTVvbXhyV3JucUJpZFRGemg0bzRJNGdhd0xOTXp6OUZqa0VvWHB1dk1wYjVjeUpBUmNhMllOY0U?oc=5",
-   "summary": "Why Yemen’s Houthis have only grown stronger through years of war AP News",
-   "published": "2026-09-16T05:20:51+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "3dca4a498864",
-   "article_url": "https://apnews.com/article/iran-us-war-yemen-houthis-military-capabilities-4ca491bf0073cc073e04b787ac835807",
-   "has_text": false
   },
   {
    "title": "Egypt’s wind power push, tied to manufacturing, offers lessons for Nigeria and Africa",
@@ -4485,19 +4498,6 @@
    "has_text": true
   },
   {
-   "title": "Trump and the court: If he wins, he's happy. When he loses, he ridicules justices he appointed",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSW9hRUlWOTBSaUFwd2RXQWpEbzJxNGhnWWp4eHNUdXpsbHNPaWZrTHdsY2RzR2plLXJYb19CSHBkdk1tampzYTdSS3ZucTJzVjRKd2dVa3daR05HYTdoVHRlT2xhb2lvYWNOWjh1UU5yWmMyVEFXVXp4VU1BcUtvZEJHN0cyVjQ5WGx1OTJDSklOXzVYTEpreXZDNUlybzhv?oc=5",
-   "summary": "Trump and the court: If he wins, he's happy. When he loses, he ridicules justices he appointed AP News",
-   "published": "2026-09-15T22:13:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "40059bbfe33c",
-   "article_url": "https://apnews.com/article/trump-supreme-court-justice-mail-voting-caae5358f004d04cf307f8df312a51ce",
-   "has_text": false
-  },
-  {
    "title": "Wicker, Shaheen to propose resolution urging U.S. cooperation with Russian pro-democracy movement",
    "link": "https://thehill.com/homenews/senate/6091727-wicker-shaheen-russia-democracy-resolution/",
    "summary": "A pair of influential bipartisan Senators plan to introduce a resolution Wednesday calling on the State Department to bolster cooperation with Russia’s pro-democracy movement inside and outside the country, according to a draft obtained exclusively by The Hill. Sens. Roger Wicker (R-Miss.) and Jeanne Shaheen (D-N.H.) introduced the non-binding resolution to coincide with a major…",
@@ -4693,19 +4693,6 @@
    "has_text": true
   },
   {
-   "title": "Gold mining expands fastest on Indigenous lands in Brazil’s Amazon, new analysis finds",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNHR3SzBnQldHUmhXTl9mSU5KcEp1bWVuU3VydHpVWmVnM3RLMUxFUVU1dG01YUJQb0x2Rk5ieFZXX0MzSTM4R1ItdC1tYlcxcU45MmJCZ19KWjV5X2diUldjYU5aXzBnVlMzbHRLR1lFdXd5QWgtQ2I2d09IRWJXUUpLYU8xNVpCR1I4V0JoNHJGWnhha0xvcFpvdEtMNGtaZFlZT2FR?oc=5",
-   "summary": "Gold mining expands fastest on Indigenous lands in Brazil’s Amazon, new analysis finds AP News",
-   "published": "2026-09-15T20:29:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "8f124b5d7fa0",
-   "article_url": "https://apnews.com/article/brazil-amazon-indigenous-mining-environment-092ff4c014b5113007972b80df10b331",
-   "has_text": false
-  },
-  {
    "title": "Prince Harry and Meghan move children to new school over security concerns",
    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVW1vVzNycEJQaDRFb3NvUndpUXVHbzlCQkRKa1pBdzVfMXR5aDhqQ29tRjJRT1lVUFNpQjZTRXNfUmNudm5YeGxocW5pdjNmSTNYaldjMHFoSjRidUNmaFZldXZqRUdhRWpXUk5TaENSc0RVcEJjOG04ZjFUa0VNTUF2Ul9uc1htQWxXUk93OXdGUE1aYXc?oc=5",
    "summary": "Prince Harry and Meghan move children to new school over security concerns AP News",
@@ -4755,19 +4742,6 @@
    "section": "climate",
    "id": "e352fb05f6fe",
    "article_url": "https://apnews.com/article/iran-war-military-drone-boats-98b49e9a5e10452ae8da42191205ab53",
-   "has_text": false
-  },
-  {
-   "title": "He Was Banned From Police Work In California But Hired In Honolulu",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOYlJBdUVEM09UY181dmFCZHNDa0JibmU2UUxsQmtDNHVSWTJXZ3E3SHE0V1BKam43MlM3SVo1eU1VVEZSczhaLS0zQ0VYWjlxOHIxb1JYZm5KQzRqek5WREtjaE0wQ2V6NWJoX0g2VzJleTFYR3FxNS12bk1Yd1JLVEVTaFRFekZELURPQUU1cWg3RGZNY0FPbng2eTh4VERQWnJROHUwUVVUNXZyRXBhRFFfNmxCUFk?oc=5",
-   "summary": "He Was Banned From Police Work In California But Hired In Honolulu AP News",
-   "published": "2026-09-15T19:23:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "36d64eea96f1",
-   "article_url": "https://apnews.com/article/san-francisco-officer-banned-hired-investigator-honolulu-cc254b24c54b15f5152a8def8241e913",
    "has_text": false
   },
   {
@@ -5395,19 +5369,6 @@
    "has_text": false
   },
   {
-   "title": "They are paid to bring rain. When it fails — or leads to floods — violence can follow",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbEc4TEI0WDlVT193eklBaFBkVDlaWHg0YU1WcWxkU2Q0X21nOENHRjUzUGQtLU52MVJjdU9mQ2dZYnR6Z244TmxpOEREZENkSDJEa2MzaDMwbThCSm52OE5hS09pakhBaTExLUhicFNDak14RHlnRlZvT04tbWhaT0xwMVQ3MDg4aThsb1N2UkJXVE5YNUhBQ0ZvYktaQjZYbDJj?oc=5",
-   "summary": "They are paid to bring rain. When it fails — or leads to floods — violence can follow AP News",
-   "published": "2026-09-15T11:11:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "6b0c4171efb3",
-   "article_url": "https://apnews.com/article/africa-rainmakers-climate-change-violence-6080fa9dbc838ba75b9bab29cfd48fc9",
-   "has_text": false
-  },
-  {
    "title": "House Democrats face divisions on Russian sanctions bill",
    "link": "https://www.axios.com/2026/09/15/russia-sanctions-trump-tariffs-house-democrats",
    "summary": "House Democratic leadership is vocally opposing a Russia sanctions bill set to come to a vote this week, but not all of their members are comfortable taking that stance just yet. Why it matters: Republicans will reportedly need some Democratic votes to make up for defections from their isolationist wing and pass the measure. At issue for many Democrats is that the bill, named in honor of the late Sen. Lindsey Graham (R-S.C.), would allow the Trump administration to impose up to 100% tariffs on the five top importers of Russian oil. That has forced Democrats to choose between two issues that ha",
@@ -5717,19 +5678,6 @@
    "section": "top",
    "id": "670869cd8070",
    "article_url": "https://www.defenseone.com/threats/2026/09/iran-strikes-exposed-gaps-medical-evacuation-ops-across-middle-east-ig/415988/",
-   "has_text": true
-  },
-  {
-   "title": "UK could 'unlock' 100 more oil and gas projects, say North Sea bosses",
-   "link": "https://www.bbc.co.uk/news/articles/c65ym93p73xmo?at_medium=RSS&at_campaign=rss",
-   "summary": "The UK could supply half of its oil and gas needs without imports if the government showed more support for the sector, an OEUK report claims.",
-   "published": "2026-09-15T06:45:12+00:00",
-   "source": "bbc",
-   "outlet": "BBC News",
-   "counted": true,
-   "section": "climate",
-   "id": "b4da0d53b7d6",
-   "article_url": "https://www.bbc.co.uk/news/articles/c65ym93p73xmo?at_medium=RSS&at_campaign=rss",
    "has_text": true
   }
  ]
