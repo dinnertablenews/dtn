@@ -54,6 +54,7 @@ Three runtimes:
 | `fetch.py` | Hourly fetcher: feeds → `data/headlines.json`; article text → `data/articles.json`. |
 | `rank.py` | Clusters the last N hours of headlines across outlets and ranks the clusters. |
 | `render.py` | Renders `post.json` to five JPGs, enforces layout rules, builds the caption. |
+| `reel.py` | Renders the same `post.json` to a 20.5s vertical reel and its cover. Generation only; posting and music are manual. |
 | `commons.py` | Fetches a Wikipedia infobox image with license metadata (runs in Actions). |
 | `publish.py` | Instagram publish / verify / token refresh (runs in Actions). |
 | `target.py` | Draws the random publish minute inside the slot window. |
