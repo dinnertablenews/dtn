@@ -137,8 +137,13 @@ def wordmark(fg, size=27, dot=12, l=0.55, align="flex-end"):
             + dots(dot, int(dot*0.8), l) + '</div>')
 
 
-def header(fg, l=0.55, left=""):
-    return f'<div style="position:relative;display:flex;justify-content:{"space-between" if left else "flex-end"};align-items:flex-start">{left}{wordmark(fg, l=l)}</div>'
+def header(fg, l=0.55, left="", top=72, reserve=0):
+    """The mark is pinned to the corner, not laid out in the column. It is furniture, like the disc:
+    its height must never decide where the copy sits. Laying it out in the flow meant that making the
+    mark bigger pushed the text down on every slide at once. `left` (the dateline, the age numeral)
+    stays in flow; `reserve` holds the line a slide used to get from the mark itself."""
+    mark = f'<div style="position:absolute;top:{top}px;right:72px;z-index:2">{wordmark(fg, l=l)}</div>'
+    return mark + (left or f'<div style="height:{reserve}px"></div>')
 
 
 def dateline(p):
@@ -211,9 +216,7 @@ def age(p, band):
     qa = ''.join(f'<div style="display:flex;flex-direction:column;gap:6px"><div class="serif" style="font-size:38px;line-height:1.15;color:{c}">{typo(q["q"])}</div>'
                  f'<div style="font-size:26px;line-height:1.35;color:{SOFT}">Try: &ldquo;{typo(q["a"])}&rdquo;</div></div>' for q in qs)
     return page(PAPER, INK, f'''<div style="width:1080px;height:1350px;box-sizing:border-box;padding:64px 72px 0;background:{PAPER};display:flex;flex-direction:column;position:relative;overflow:hidden">
-  <div style="display:flex;justify-content:space-between;align-items:flex-start">
-    <div class="serif" style="font-size:96px;line-height:0.8;letter-spacing:-0.04em;color:{c};margin-top:8px">{lab}</div>{wordmark(INK)}
-  </div>
+  {header(INK, left=f'<div class="serif" style="font-size:96px;line-height:0.8;letter-spacing:-0.04em;color:{c};margin-top:8px">{lab}</div>', top=64)}
   <div style="margin-top:44px;display:flex;flex-direction:column">{ch}</div>
   <div style="margin-top:30px;display:flex;gap:20px;align-items:flex-start">
     <div class="serif" style="font-size:140px;line-height:0.6;color:{c};margin-top:30px">&ldquo;</div>
@@ -232,7 +235,7 @@ def age(p, band):
 def table(p):
     """Closing slide: one question anyone at the table can answer, the comment ask, then save / send / follow."""
     return page(INK, PAPER, f'''<div style="width:1080px;height:1350px;box-sizing:border-box;padding:72px;background:{INK};color:{PAPER};display:flex;flex-direction:column;position:relative;overflow:hidden">
-  {header(PAPER, l=0.8)}
+  {header(PAPER, l=0.8, reserve=33)}
   <div style="flex-grow:0.6"></div>
   <div style="font-size:26px;font-weight:500;letter-spacing:0.06em;text-transform:uppercase;color:#A8A295">The dinner table question</div>
   <h2 class="display" style="margin:28px 0 0;font-weight:400;font-size:92px;line-height:1.04;letter-spacing:-0.02em;max-width:920px;text-wrap:balance">{typo(p["table_question"])}</h2>
