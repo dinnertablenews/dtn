@@ -24,6 +24,8 @@ import json, os, subprocess, sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
+import base64
+import render
 from render import PAPER, INK, SOFT, HUES, col, dots, page, typo, cover_age, wordmark
 from playwright.sync_api import sync_playwright
 
@@ -36,6 +38,8 @@ MIN_GAP = 48                                 # px between the answer and the pro
 FPS = 30
 AGE_AT = {"5-7": "5", "8-12": "10", "13-17": "15"}
 CROP_TOP, CROP_BOT = 285, 1635               # the ~4:5 band the profile grid keeps from a 9:16 cover
+DISC_Y = CROP_TOP + render.DISC_TOP          # the carousel's disc position, measured inside that band
+HEAD_W = 520                                 # headline measure on the hook: clears the disc, as on the cover
 
 
 def shell(body, bg=INK, fg=PAPER, top=TOP, bottom=BOTTOM):
@@ -45,7 +49,9 @@ def shell(body, bg=INK, fg=PAPER, top=TOP, bottom=BOTTOM):
 
 
 def header(fg, l):
-    return f'<div style="display:flex;justify-content:flex-end">{wordmark(fg, l=l)}</div>'
+    """z-index puts the mark above the disc: the disc is absolutely positioned, so without a stacking
+    context of its own an ordinary flow header paints underneath it and the mark disappears."""
+    return f'<div style="position:relative;z-index:2;display:flex;justify-content:flex-end">{wordmark(fg, l=l)}</div>'
 
 
 def ease(t, start, dur=0.45, rise=24):
@@ -67,13 +73,40 @@ def progress(i):
     return f'<div style="display:flex;align-items:center;gap:12px">{"".join(out)}</div>'
 
 
+def disc(p):
+    """The cover disc, sitting where it sits on the carousel cover. The grid crop of a reel cover is
+    exactly 1080x1350 — a carousel cover's dimensions — so placing it at CROP_TOP + DISC_TOP makes the
+    two read as the same object in the profile grid.
+
+    The photo fills the whole on-frame part of the circle. On the carousel the disc hangs off the top
+    of the slide and the photo only has to fill the lower DISC_H; here the disc's top edge is inside
+    the frame, so a photo sized that way leaves a band of bare tint under the picture. Height is the
+    full disc. Width stays the on-frame width: the rest of the circle is off the right edge, and
+    keeping the photo narrow is what holds the subject in the part a viewer can see."""
+    tint = render.CATS.get(p["category"], render.CATS["World"])
+    D, R = render.DISC, render.DISC_RIGHT
+    shell_css = (f'position:absolute;top:{DISC_Y}px;right:{R}px;width:{D}px;height:{D}px;'
+                 f'border-radius:999px;background:{tint}')
+    ph = p.get("photo")
+    if not ph:
+        return (f'<div style="{shell_css}"></div>'
+                f'<div style="position:absolute;top:{CROP_TOP - 45}px;right:-105px;width:510px;height:510px;'
+                f'border-radius:999px;border:3px solid {INK};opacity:0.5"></div>')
+    b = base64.b64encode(render.photo_jpeg(ph)).decode()
+    return (f'<div style="{shell_css};overflow:hidden">'
+            f'<img id="photo" src="data:image/jpeg;base64,{b}" style="position:absolute;left:0;top:0;'
+            f'width:{render.DISC_W + render.PHOTO_BLEED}px;height:{D}px;object-fit:cover;'
+            f'object-position:{p.get("photo_focus_x", "50%")} 0%;display:block;'
+            f'filter:grayscale(1) contrast(1.05);mix-blend-mode:multiply;opacity:0.9"></div>')
+
+
 def hook_body(p, t):
     cq = p["cover_question"]; h = HUES[cq["band"]]; hc = col(h, 0.72)
     return f'''
-  {header(PAPER, 0.8)}
+  {disc(p)}{header(PAPER, 0.8)}
   <div style="flex:1"></div>
-  <div style="{ease(t, 0.00)};font-size:28px;font-weight:500;letter-spacing:0.08em;text-transform:uppercase;color:#A8A295">{p["category"]}</div>
-  <div style="{ease(t, 0.10)};margin-top:16px;font-size:44px;line-height:1.24;color:#A8A295;max-width:{MAX_W}px;text-wrap:balance">{typo(p["headline"])}</div>
+  <div style="{ease(t, 0.00)};font-size:28px;font-weight:500;letter-spacing:0.08em;text-transform:uppercase;color:#A8A295;position:relative">{p["category"]}</div>
+  <div style="{ease(t, 0.10)};margin-top:16px;font-size:44px;line-height:1.24;color:#A8A295;max-width:{HEAD_W}px;position:relative;text-wrap:balance">{typo(p["headline"])}</div>
   <div style="{ease(t, 0.60)};margin-top:56px;font-size:38px;color:#C9C3B5">So your <span style="color:{col(h,0.78)};font-weight:600">{cover_age(p)}-year-old</span> asks</div>
   <div class="display" style="{ease(t, 1.05, 0.55, 30)};margin-top:26px;font-size:140px;line-height:0.96;letter-spacing:-0.025em;max-width:{MAX_W}px;text-wrap:balance">
     <span style="color:{hc}">&ldquo;</span>{typo(cq["q"])}<span style="color:{hc}">&rdquo;</span></div>
