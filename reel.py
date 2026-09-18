@@ -31,6 +31,8 @@ W, H = 1080, 1920
 PAD_X, TOP, BOTTOM = 96, 285, 400
 MAX_W = 780                                  # readable measure: clears the right-hand button rail
 BEATS = [3.5, 5.0, 4.5, 5.0, 2.5]            # 20.5s
+ANSWER_SIZES = [86, 78, 70, 64, 58]          # the age answer steps down until it clears the dots
+MIN_GAP = 48                                 # px between the answer and the progress dots
 FPS = 30
 AGE_AT = {"5-7": "5", "8-12": "10", "13-17": "15"}
 CROP_TOP, CROP_BOT = 285, 1635               # the ~4:5 band the profile grid keeps from a 9:16 cover
@@ -82,16 +84,20 @@ def hook(p, t=99.0):
     return shell(hook_body(p, t))
 
 
-def age_beat(p, band, i, t=99.0):
+def age_beat(p, band, i, t=99.0, size=ANSWER_SIZES[0]):
+    """The answer is existing carousel copy and runs from 80 to 158 characters across the corpus, so
+    unlike a slide it cannot be fixed by shortening the text: the same words also have to serve the
+    age card. The type steps down instead. The three beats are sequential rather than side by side,
+    so they do not have to match each other the way the three age cards do."""
     c = col(HUES[band], 0.55); q = p["questions"][band][0]
     return shell(f'''
   <div class="serif" style="{ease(t, 0.00, 0.35)};font-size:150px;line-height:0.78;letter-spacing:-0.04em;color:{c}">At {AGE_AT[band]}</div>
   <div style="{ease(t, 0.12, 0.35)};margin-top:56px;font-size:36px;font-weight:500;letter-spacing:0.06em;text-transform:uppercase;color:{c}">They ask</div>
   <div class="serif" style="{ease(t, 0.20, 0.35)};margin-top:14px;font-size:56px;line-height:1.2;color:{SOFT};max-width:{MAX_W}px">{typo(q["q"])}</div>
   <div style="{ease(t, 0.34, 0.3)};margin-top:64px;width:86px;height:4px;background:{c};border-radius:2px"></div>
-  <div class="serif" style="{ease(t, 0.45, 0.5, 30)};margin-top:44px;font-size:86px;line-height:1.2;letter-spacing:-0.01em;max-width:{MAX_W}px;text-wrap:pretty">{typo(q["a"])}</div>
+  <div id="answer" class="serif" style="{ease(t, 0.45, 0.5, 30)};margin-top:44px;font-size:{size}px;line-height:1.2;letter-spacing:-0.01em;max-width:{MAX_W}px;text-wrap:pretty">{typo(q["a"])}</div>
   <div style="flex:1"></div>
-  <div style="margin-bottom:40px">{progress(i)}</div>''', bg=PAPER, fg=INK)
+  <div id="dots" style="margin-bottom:40px">{progress(i)}</div>''', bg=PAPER, fg=INK)
 
 
 def close(p, t=99.0):
@@ -120,15 +126,36 @@ def browser(pw):
         return pw.chromium.launch(executable_path=exe)
 
 
+def fit_answer(pg, post, band, i):
+    """Largest size in ANSWER_SIZES that leaves MIN_GAP between the answer and the dots. Measured in
+    the browser, not estimated from a character count, so it cannot drift from what renders."""
+    for size in ANSWER_SIZES:
+        pg.set_content(age_beat(post, band, i, size=size)); pg.wait_for_timeout(30)
+        gap = pg.evaluate("() => document.getElementById('dots').getBoundingClientRect().top"
+                          " - document.getElementById('answer').getBoundingClientRect().bottom")
+        if gap >= MIN_GAP:
+            return size
+    return None
+
+
 def render_reel(post, outdir):
-    beats = [lambda t: hook(post, t), lambda t: age_beat(post, "5-7", 0, t),
-             lambda t: age_beat(post, "8-12", 1, t), lambda t: age_beat(post, "13-17", 2, t),
-             lambda t: close(post, t)]
     frames = os.path.join(outdir, ".frames"); os.makedirs(frames, exist_ok=True)
     n = 0
     with sync_playwright() as pw:
         b = browser(pw)
         pg = b.new_page(viewport={"width": W, "height": H})
+        sizes = {}
+        for i, band in enumerate(("5-7", "8-12", "13-17")):
+            sizes[band] = fit_answer(pg, post, band, i)
+            if sizes[band] is None:
+                b.close()
+                raise SystemExit(f"REEL: the {band} answer does not fit above the progress dots even at "
+                                 f"{ANSWER_SIZES[-1]}px. Shorten that Try answer in post.json.")
+        beats = [lambda t: hook(post, t),
+                 lambda t: age_beat(post, "5-7", 0, t, sizes["5-7"]),
+                 lambda t: age_beat(post, "8-12", 1, t, sizes["8-12"]),
+                 lambda t: age_beat(post, "13-17", 2, t, sizes["13-17"]),
+                 lambda t: close(post, t)]
         for beat, dur in zip(beats, BEATS):
             for k in range(int(round(dur * FPS))):
                 pg.set_content(beat(k / FPS)); pg.wait_for_timeout(15)
