@@ -302,5 +302,23 @@
   "photo_subject": "2026 Minab school attack",
   "published": "https://www.instagram.com/p/DdbZoluFgS8/",
   "published_at": "2026-09-18T12:08:44+0000"
+ },
+ {
+  "slug": "2026-09-18-noon",
+  "date": "2026-09-18",
+  "slot": "noon",
+  "category": "Health",
+  "headline": "RFK Jr. returns to his old anti-vaccine group",
+  "photo": false,
+  "cover_band": "5-7",
+  "publish_target": "2026-09-18T12:00-05:00",
+  "chosen": "primary",
+  "alternate": {
+   "folder": "posts/2026-09-18-noon-alt",
+   "category": "Economy",
+   "headline": "Warren Buffett, 96, steps down as Berkshire chairman",
+   "photo": false
+  },
+  "note": "Run fired at 11:11 CT for the 12:00 noon slot; target drawn once at 12:00 CT. rank.py's #1 cluster (AP, Axios, BBC News, PBS NewsHour; 5 outlets) is the judge's 30-day-notice order on the Kennedy Center, the same saga as 2026-09-15-evening, skipped under rule 1 as the last four runs did. #3 (UN experts on US war crimes in Iran) ran as 2026-09-18-morning, skipped under rule 1. The highest remaining clusters are #2, Warren Buffett stepping down as Berkshire chairman (AP, Axios, PBS NewsHour, The Hill; 4 outlets, Economy) and #4, RFK Jr.'s keynote at Children's Health Defense (AP, PBS NewsHour, The Hill; 3 outlets, Health). They are within one outlet of each other, so rule 5's tie-break applies: Economy has run three times in the last 7 days (Irish whiskey, Canada investors, the Fed) and Health has never run, so the noon takes the RFK Jr. story. It was this morning's unrun alternate, which rule 8 leaves fair game. Lead subject Kennedy/HHS; the UN mission and the US led the morning, so rule 2 is clear. Not a shielded story: no violence or death in the framing, so 5-7 is a plain explanation of what a vaccine is. Primary written from the PBS NewsHour (AP) text; the AP and The Hill items had no text (403). Facts as the article gives them: first appearance at the Children's Health Defense conference since becoming secretary, the 'strong and steadfast friend in the White House' line, the worst measles year since 1991 with seven measles-associated deaths in two years, Pennsylvania's four unvaccinated deaths, Shapiro's criticism, the schedule and advisory-board changes halted by a judge, the MMR spacing executive order, Wakefield speaking after him. Alternate under rule 8: #2, Buffett handing the chair to his son Howard (Economy, not the primary's category, clears rules 1, 2, 6), written from the PBS NewsHour (AP) text with Axios as the second source; the AP and The Hill items had no text. Cover band rotates 13-17 -> 5-7 for the slot; cover_age drawn once per post. No photo on either post: the last two log entries (2026-09-17-evening, 2026-09-18-morning) both ran photos, so §3 skips the photo this slot; §5 not dispatched. Both renders exit 0 after shortening the 8-12 and 13-17 scripts, why lines and Try answers; all ten JPGs checked. reel.py exit 0 for the primary: reel.mp4 (20.5s) and reel-cover.jpg written."
  }
 ]
