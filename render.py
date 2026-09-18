@@ -126,24 +126,19 @@ def dots(size, gap, l):
             ''.join(f'<span style="display:inline-block;width:{size}px;height:{size}px;border-radius:999px;background:{col(h, l)}"></span>' for h in HUES.values()) + '</div>')
 
 
-def wordmark(fg, size=20, dot=9, l=0.55, align="flex-end"):
+def wordmark(fg, size=27, dot=12, l=0.55, align="flex-end"):
+    """The mark, stacked over three lines, the same on every slide. Sized to match the rest of
+    the furniture rather than to survive the feed grid: Instagram stamps its carousel badge on
+    the top-right corner of every cover, so no mark placed there is readable at grid scale.
+    dot tracks size at the proportion the mark has always had (45%), so it scales as a unit."""
     ta = "right" if align == "flex-end" else "center"
     return (f'<div style="display:flex;flex-direction:column;align-items:{align};gap:{int(size*0.5)}px">'
             f'<div class="serif" style="font-size:{size}px;line-height:1.0;letter-spacing:-0.01em;color:{fg};text-align:{ta}">Dinner<br>Table<br>News</div>'
             + dots(dot, int(dot*0.8), l) + '</div>')
 
 
-def wordmark_line(fg, l=0.55):
-    """The cover's wordmark, on one line. Stacked over three lines it is a grey smudge at the size a
-    cover actually renders in the feed, and the account name is printed above the post anyway."""
-    return (f'<div style="display:flex;align-items:center;gap:14px">'
-            f'<span class="display" style="font-size:27px;letter-spacing:0.01em;color:{fg}">Dinner Table News</span>'
-            f'{dots(9, 7, l)}</div>')
-
-
-def header(fg, l=0.55, left="", one_line=False):
-    mark = wordmark_line(fg, l) if one_line else wordmark(fg, l=l)
-    return f'<div style="position:relative;display:flex;justify-content:{"space-between" if left else "flex-end"};align-items:flex-start">{left}{mark}</div>'
+def header(fg, l=0.55, left=""):
+    return f'<div style="position:relative;display:flex;justify-content:{"space-between" if left else "flex-end"};align-items:flex-start">{left}{wordmark(fg, l=l)}</div>'
 
 
 def dateline(p):
@@ -191,7 +186,7 @@ def cover(p):
     age = cover_age(p)
     chips = ''.join(f'<span style="display:inline-flex;align-items:center;padding:12px 22px;border-radius:999px;border:2px solid {col(k,0.72)};color:{col(k,0.72)};font-size:28px;font-weight:500">{LABEL[b_]}</span>' for b_, k in HUES.items())
     return page(INK, PAPER, f'''<div style="width:1080px;height:1350px;box-sizing:border-box;padding:72px;background:{INK};color:{PAPER};display:flex;flex-direction:column;position:relative;overflow:hidden">
-  {disc}{header(PAPER if photo else INK, l=l, left=left, one_line=True)}
+  {disc}{header(PAPER if photo else INK, l=l, left=left)}
   <div style="flex:1.2;min-height:96px"></div>
   <div style="position:relative;{small}">{p["category"]}</div>
   <div style="position:relative;margin-top:14px;font-size:38px;font-weight:400;line-height:1.24;letter-spacing:-0.005em;color:#A8A295;max-width:520px;text-wrap:balance">{typo(p["headline"])}</div>
