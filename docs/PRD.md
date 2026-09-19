@@ -86,9 +86,9 @@ The workflow commits both files to `main` with `git pull --rebase -X theirs` so 
 
 1. Never repeat a story already in the log from the last 7 days, even if the headline moved on.
 2. Same lead subject at most one slot per day, unless the story is the clear top story (leads by two or more outlets). The lead subject is the person, institution, or country the headline is about.
-3. Morning takes the #1 cluster unless it ran the previous evening; then #2.
-4. Evening is the positive story: the most uplifting cluster in the top 15 (science, rescue, record, recovery, a win), labelled "Good news". If nothing qualifies, the least grim story, labelled by its real category.
-5. Noon takes the highest-ranked remaining cluster, with a category-diversity tie-break when two clusters are within one outlet of each other.
+3. The positive story runs every fifth story, not every evening. Count back through the log to the most recent "Good news" entry; if four or more have run since, this slot takes the most uplifting cluster in the top 15 (science, rescue, record, recovery, a win) and is labelled "Good news". The rule outranks 4 and 5, so it lands on whichever slot comes fifth. If nothing qualifies, the slot takes its usual story under its real category and the count carries to the next one.
+4. Morning takes the #1 cluster unless it ran the previous evening; then #2.
+5. Noon and evening take the highest-ranked remaining cluster, with a category-diversity tie-break when two clusters are within one outlet of each other.
 6. Categories: Technology, Health, Economy, Government, Climate, Science, Culture, Security, World, Sports, Good news.
 
 **Facts** (TASK.md §3): write only from the two or three articles in the cluster that have text; if none has text, use RSS summaries and say so in the log. Attribute to the outlet leaned on most.

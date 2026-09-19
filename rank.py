@@ -4,7 +4,7 @@
 usage: python rank.py data/headlines.json [hours] > candidates.json
 Ranking: number of distinct counted outlets covering the cluster (the "top story"
 signal), then recency. The Claude task reads the top ~15 clusters, applies the
-7-day category log, picks three (one positive), and writes the post.
+7-day category log, picks one per slot (every fifth a positive story), and writes the post.
 """
 import json, re, sys
 from datetime import datetime, timedelta, timezone
