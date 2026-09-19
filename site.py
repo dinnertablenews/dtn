@@ -848,12 +848,28 @@ ABOUT = """
 
 # ----------------------------------------------------------------- build ---
 
-DOTS_SVG = (
-    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">'
-    '<rect width="32" height="32" rx="7" fill="#1B1A17"/>'
-    '<circle cx="8.5" cy="16" r="3.4" fill="oklch(0.78 0.12 155)"/>'
-    '<circle cx="16" cy="16" r="3.4" fill="oklch(0.76 0.12 250)"/>'
-    '<circle cx="23.5" cy="16" r="3.4" fill="oklch(0.78 0.12 305)"/></svg>')
+def dots_svg():
+    """The three age dots on an ink tile: the Instagram avatar, redrawn for a 16px tab.
+
+    render.py's lockup spaces the dots at 0.8 of their diameter. Held to that here the
+    dots have to shrink to fit three of them plus two wide gaps, and at 16px they lose
+    the colour that is the whole point of them. Held at the 0.1 this file used to carry,
+    they merge into one bar. Half a diameter is the size where three dots still read as
+    three at 16px and each one still reads as green, blue or purple — an optical
+    correction for one size, not a second lockup.
+    """
+    d, ratio, box = 6.4, 0.5, 32
+    gap = d * ratio
+    x = (box - (3 * d + 2 * gap)) / 2 + d / 2      # centre the row, then the first centre
+    dots = "".join(
+        f'<circle cx="{x + i * (d + gap):.2f}" cy="{box / 2}" r="{d / 2:.2f}" fill="{c}"/>'
+        for i, c in enumerate(("oklch(0.78 0.12 155)", "oklch(0.76 0.12 250)",
+                               "oklch(0.78 0.12 305)")))
+    return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {box} {box}">'
+            f'<rect width="{box}" height="{box}" rx="7" fill="{INK}"/>{dots}</svg>')
+
+
+DOTS_SVG = dots_svg()
 
 
 def write(path, text):
