@@ -64,6 +64,19 @@ Four A records, not one — they are GitHub's edge, and all four go in. Use **A 
 the apex, never an ALIAS or CNAME flattening**: the apex also has to carry Proton's MX
 records, and some registrars will not serve MX next to a flattened apex CNAME.
 
+The registrar is GoDaddy, which ships two records that have to go or the site breaks
+intermittently rather than cleanly:
+
+- an `A @` record labelled **WebsiteBuilder Site** — its parked-page IP. Left in place the
+  apex answers with five addresses, GitHub's four and GoDaddy's one, and roughly a fifth
+  of visitors land on a parking page. Edit it into the first GitHub address rather than
+  adding a fifth record.
+- a `www` CNAME pointing at the apex. Edit it to `dinnertablenews.github.io`; a second
+  `www` CNAME is refused, because a name can only carry one.
+
+Check too that no **domain forwarding** is set on the domain. It sits in front of DNS and
+overrides correct records.
+
 Then **Settings → Pages**: set the custom domain to `dinnertablenews.com`, wait for the
 check to pass, and tick **Enforce HTTPS**.
 
