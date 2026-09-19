@@ -32,6 +32,14 @@ source line is pushed to the foot of each story so the three line up however lon
 answers run, and the footer always stacks onto two lines so a long outlet name cannot
 break that.
 
+Where a card cannot be hovered the age's colour has no way to appear at all, so it is
+carried permanently as a 3px edge along the card's top. The rule is keyed to
+`@media (hover:none)` rather than a screen width, because that is the actual reason: a
+tablet cannot hover either, and a desktop window dragged narrow still can. Top rather
+than left, where it would run parallel to the answer's own band rule a few pixels inside
+it; an edge rather than a tint, which washes a whole page of same-age cards; an edge
+rather than a shadow, which is invisible on the dark theme.
+
 The card click is a script, and the headline inside it is a real link, so the card still
 works with JavaScript off, from a keyboard, and for a crawler. The script bows out of a
 click on a real link, and out of a click that ends a text selection; ⌘ and middle click

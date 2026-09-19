@@ -300,6 +300,16 @@ article{padding-block:34px; border-top:1px solid var(--rule)}
   body.wide .search{max-width:520px}
   body.wide .today h1{font-size:44px}
 }
+/* Where the card cannot be hovered, the age's colour has no way to appear, so it is
+   carried permanently as an edge along the top. The query asks about hover rather than
+   width because that is the actual reason: a tablet cannot hover either, and a desktop
+   window dragged narrow still can. Top rather than left, where it would run parallel to
+   the answer's own band rule a few pixels inside it; an edge rather than a tint, which
+   washes a whole page of same-age cards; an edge rather than a shadow, which is
+   invisible on the dark theme. */
+@media (hover:none){
+  .stories article{border-top:3px solid var(--band)}
+}
 @media (prefers-reduced-motion:reduce){.stories article{transition:none}}
 .more{font-size:14px; color:var(--band); text-decoration:none; font-weight:500}
 .more:hover{text-decoration:underline; text-underline-offset:3px}
