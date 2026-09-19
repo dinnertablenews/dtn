@@ -28,6 +28,12 @@ what this story is about, #DinnerTableNews. The third slot is the only free one,
 category label — the cover already prints the category, so #Economy or #GoodNews spends a tag saying
 nothing. check_hashtags() reports a "HASHTAGS:" line on stderr and the script exits 1.
 
+Photo zoom rule (enforced, not auto-fixed). `photo_zoom` enlarges the picture inside the disc and
+the crop still comes off the bottom and the sides, never the top. It exists because a Commons infobox
+image is sometimes two photographs stacked in one file, which at zoom 1.0 renders as a doubled
+picture. check_composite() reads the Commons credit beside the photo and reports a "PHOTO:" line when
+such a file has no photo_zoom recorded; setting the field, at any value, is the run saying it looked.
+
 Photo rule (enforced, not auto-fixed). The cover disc hangs off the top and right of the slide, so
 only its lower-left part is visible. The photo is sized to that visible part and anchored to its TOP
 edge, which means two things: it covers every on-slide pixel of the disc, so no strip of bare
@@ -91,6 +97,37 @@ def cover_age(p):
     post.json, the way publish_target records the publish minute — the shorten-and-re-render loop
     would otherwise redraw a different age on every pass and drift from the veto notification."""
     return p.get("cover_age") or random.choice(BAND_AGES[p["cover_question"]["band"]])
+
+
+def photo_img(path, box_w, box_h, top=0, zoom=1.0, focus_x="50%"):
+    """The duotone photo for the disc, as an <img> for a clipping parent.
+
+    zoom enlarges the picture inside its box and the parent clips the overflow, so the crop still
+    comes off the bottom and the sides and never off the top, per the photo rule. 1.0 is plain
+    object-fit cover. Raise it when the frame is showing something it should not: a Commons infobox
+    image is sometimes two photographs stacked in one file (White_House_north_and_south_sides.jpg),
+    and a box taller than the source then fits the whole composite in, so the picture reads doubled."""
+    b = base64.b64encode(photo_jpeg(path)).decode()
+    w, h = box_w * zoom, box_h * zoom
+    try: fx = float(str(focus_x).strip().rstrip("%")) / 100
+    except ValueError: fx = 0.5
+    return (f'<img id="photo" src="data:image/jpeg;base64,{b}" style="position:absolute;'
+            f'left:{-(w - box_w) * fx + 0:.0f}px;top:{top}px;width:{w:.0f}px;height:{h:.0f}px;'
+            f'object-fit:cover;object-position:{focus_x} 0%;display:block;'
+            f'filter:grayscale(1) contrast(1.05);mix-blend-mode:multiply;opacity:0.9">')
+
+
+def composite_source(p):
+    """Commons credits a stacked composite by naming each half, e.g. artist "(top)X(bottom)Y". Those
+    files render as two photographs in one disc unless photo_zoom picks one. Returns the credit."""
+    ph = p.get("photo")
+    if not ph: return None
+    side = os.path.splitext(ph)[0] + ".json"
+    if not os.path.exists(side): return None
+    try: meta = json.load(open(side))
+    except Exception: return None
+    a = (meta.get("artist") or "")
+    return a if ("(top)" in a and "(bottom)" in a) else None
 
 
 def photo_jpeg(path):
@@ -172,15 +209,13 @@ def cover(p):
     cq = p["cover_question"]; h = HUES[cq["band"]]; hc = col(h, 0.72)
     shell = f'position:absolute;top:{DISC_TOP}px;right:{DISC_RIGHT}px;width:{DISC}px;height:{DISC}px;border-radius:999px;background:{tint}'
     if photo:
-        b = base64.b64encode(photo_jpeg(photo)).decode()
         # The photo box is exactly the on-slide part of the disc (plus bleed), pinned to the slide's
-        # top edge. object-position keeps the top of the frame, so the crop comes off the bottom and
-        # never off the subject's head. Only the horizontal focus is tunable; see the photo rule.
+        # top edge, so the crop comes off the bottom and never off the subject's head. photo_zoom
+        # and photo_focus_x are the two tunable knobs; see the photo rule.
         disc = (f'<div style="{shell};overflow:hidden">'
-                f'<img id="photo" src="data:image/jpeg;base64,{b}" style="position:absolute;left:0;top:{-DISC_TOP}px;'
-                f'width:{DISC_W + PHOTO_BLEED}px;height:{DISC_H}px;object-fit:cover;'
-                f'object-position:{p.get("photo_focus_x", "50%")} 0%;'
-                f'display:block;filter:grayscale(1) contrast(1.05);mix-blend-mode:multiply;opacity:0.9"></div>')
+                + photo_img(photo, DISC_W + PHOTO_BLEED, DISC_H, top=-DISC_TOP,
+                            zoom=float(p.get("photo_zoom", 1.0)),
+                            focus_x=p.get("photo_focus_x", "50%")) + '</div>')
         l = 0.8
     else:
         disc = (f'<div style="{shell}"></div>'
@@ -259,6 +294,19 @@ def build_caption(p):
                         " ".join(p["hashtags"])])
 
 
+def check_composite(p):
+    """Return a PHOTO message if the Commons file is a stacked composite and no photo_zoom has been
+    recorded. Two photographs in one disc reads as a doubled picture, and it shipped once that way
+    (2026-09-19-morning, White_House_north_and_south_sides.jpg). Setting photo_zoom is the run
+    saying it looked: any value clears this, including 1.0 when the composite happens to frame well."""
+    credit = composite_source(p)
+    if credit and "photo_zoom" not in p:
+        return (f"PHOTO: the Commons file is a stacked composite (artist: {credit}). At photo_zoom 1.0 the disc "
+                f"shows both photographs at once. Look at the cover, set \"photo_zoom\" in post.json to frame one "
+                f"of them (about 2.1 for a half-and-half stack), and re-render. Set it to 1.0 if it reads fine.")
+    return None
+
+
 def check_hashtags(p):
     """Return a HASHTAGS message if the tag list breaks the rule, else None. Four tags, fixed at both
     ends, with exactly one tag in the middle that names what this story is about. The middle one is
@@ -317,8 +365,8 @@ def render(post, outdir, post_path=None):
     slides = [("1-cover", cover(post)), ("2-ages-5-7", age(post, "5-7")), ("3-ages-8-12", age(post, "8-12")),
               ("4-ages-13-17", age(post, "13-17")), ("5-table", table(post))]
     os.makedirs(outdir, exist_ok=True); problems = []
-    tagmsg = check_hashtags(post)
-    if tagmsg: problems.append(tagmsg)
+    for msg in (check_composite(post), check_hashtags(post)):
+        if msg: problems.append(msg)
     caption = build_caption(post)
     if not post.get("caption") and post_path:  # first render: write the caption into post.json
         post["caption"] = caption

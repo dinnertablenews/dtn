@@ -111,7 +111,7 @@ The workflow commits both files to `main` with `git pull --rebase -X theirs` so 
 | `ages.<band>` | `chip`, `script`, `why`, optional `shield: true`. |
 | `questions.<band>` | 1 for 5–7, 2 each for 8–12 and 13–17; each `{q, a}` with the "Try:" answer ≤ 160 characters. |
 | `hashtags` | Exactly 4: `#Parenting`, `#KidsAndNews`, one story tag, `#DinnerTableNews`. The story tag is never a category label. Enforced, see the hashtag rule. |
-| `photo`, `photo_credit` | Set when a Commons image landed. Optional `photo_focus_x` (default `50%`) shifts the crop left or right; the vertical anchor is fixed, see the photo rule. |
+| `photo`, `photo_credit`, `photo_zoom` | Set when a Commons image landed. `photo_zoom` (default 1.0) crops further into the picture; required when the Commons credit names a top and a bottom half, because such files render as two photographs in one disc. Optional `photo_focus_x` (default `50%`) shifts the crop left or right; the vertical anchor is fixed, see the photo rule. |
 | `caption` | Built by render.py from the fields above. Not hand-written. |
 
 **Cover question rotation.** Take the last log entry with a `cover_band` and use the next band in 5–7 → 8–12 → 13–17 → 5–7. If none, 5–7. Over a day the three posts lead with three different ages.

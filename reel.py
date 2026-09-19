@@ -82,7 +82,11 @@ def disc(p):
     of the slide and the photo only has to fill the lower DISC_H; here the disc's top edge is inside
     the frame, so a photo sized that way leaves a band of bare tint under the picture. Height is the
     full disc. Width stays the on-frame width: the rest of the circle is off the right edge, and
-    keeping the photo narrow is what holds the subject in the part a viewer can see."""
+    keeping the photo narrow is what holds the subject in the part a viewer can see.
+
+    The box is taller here than on the carousel cover, which is where a stacked Commons composite
+    shows up worst: at photo_zoom 1.0 the whole of both photographs fits in and the disc reads
+    doubled. photo_zoom is shared with the cover so one value frames both."""
     tint = render.CATS.get(p["category"], render.CATS["World"])
     D, R = render.DISC, render.DISC_RIGHT
     shell_css = (f'position:absolute;top:{DISC_Y}px;right:{R}px;width:{D}px;height:{D}px;'
@@ -92,12 +96,10 @@ def disc(p):
         return (f'<div style="{shell_css}"></div>'
                 f'<div style="position:absolute;top:{CROP_TOP - 45}px;right:-105px;width:510px;height:510px;'
                 f'border-radius:999px;border:3px solid {INK};opacity:0.5"></div>')
-    b = base64.b64encode(render.photo_jpeg(ph)).decode()
     return (f'<div style="{shell_css};overflow:hidden">'
-            f'<img id="photo" src="data:image/jpeg;base64,{b}" style="position:absolute;left:0;top:0;'
-            f'width:{render.DISC_W + render.PHOTO_BLEED}px;height:{D}px;object-fit:cover;'
-            f'object-position:{p.get("photo_focus_x", "50%")} 0%;display:block;'
-            f'filter:grayscale(1) contrast(1.05);mix-blend-mode:multiply;opacity:0.9"></div>')
+            + render.photo_img(ph, render.DISC_W + render.PHOTO_BLEED, D, top=0,
+                               zoom=float(p.get("photo_zoom", 1.0)),
+                               focus_x=p.get("photo_focus_x", "50%")) + '</div>')
 
 
 def hook_body(p, t):
