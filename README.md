@@ -35,6 +35,29 @@ Pages is actually serving.
 Deployed by `.github/workflows/site.yml` on every push to `main` that touches a post or
 the generator. Enable it once under **Settings → Pages → Source: GitHub Actions**.
 
+## Domain
+
+`dinnertablenews.com`, set in `site.py` as `DOMAIN`. That constant is what the feed, the
+sitemap, the canonical links and the `og:` tags say, and `site.py` writes it to
+`site/CNAME` on every build — deploying from Actions there is no branch for GitHub to keep
+the custom domain in, so it has to travel in the artifact or a deploy can drop it.
+
+DNS at the registrar, alongside the `_github-pages-challenge-dinnertablenews` TXT record
+that verified the domain:
+
+| Name | Type | Value |
+|---|---|---|
+| `@` | A | `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153` |
+| `@` | AAAA | `2606:50c0:8000::153`, `:8001::153`, `:8002::153`, `:8003::153` |
+| `www` | CNAME | `dinnertablenews.github.io` |
+
+Four A records, not one — they are GitHub's edge, and all four go in. Use **A records at
+the apex, never an ALIAS or CNAME flattening**: the apex also has to carry Proton's MX
+records, and some registrars will not serve MX next to a flattened apex CNAME.
+
+Then **Settings → Pages**: set the custom domain to `dinnertablenews.com`, wait for the
+check to pass, and tick **Enforce HTTPS**.
+
 Two settings live at the top of `site.py`: `EMAIL_FORM_ACTION` (empty until a provider is
 picked — until then the follow section shows the Instagram card rather than a form that
 does nothing) and `INSTAGRAM`.

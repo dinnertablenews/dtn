@@ -38,7 +38,10 @@ OUT = ROOT / "site"
 # ---- the parts Dan edits ---------------------------------------------------
 SITE_NAME = "Dinner Table News"
 INSTAGRAM = "https://instagram.com/dinnertablenews"
-BASE_URL = os.environ.get("DTN_BASE_URL", "").rstrip("/")
+# The domain is authoritative: it goes in the CNAME file the deploy needs, and it is what
+# the feed, the sitemap and the og: tags say. DTN_BASE_URL overrides it for a preview build.
+DOMAIN = "dinnertablenews.com"
+BASE_URL = (os.environ.get("DTN_BASE_URL") or (f"https://{DOMAIN}" if DOMAIN else "")).rstrip("/")
 # A hosted provider's form-POST endpoint (Buttondown, Kit, Beehiiv…). While it is
 # empty the follow section renders the Instagram card instead of a dead form.
 EMAIL_FORM_ACTION = ""
@@ -787,6 +790,11 @@ def main():
     # GitHub Pages runs Jekyll otherwise, which drops directories beginning with _
     # and slows every build down for nothing.
     write(OUT / ".nojekyll", "")
+
+    # Deploying from Actions there is no branch for GitHub to keep the custom domain in,
+    # so the domain has to travel in the artifact or a deploy can drop it.
+    if DOMAIN:
+        write(OUT / "CNAME", DOMAIN + "\n")
 
     if BASE_URL:
         write(OUT / "feed.xml", build_feed(posts))
