@@ -26,9 +26,21 @@ The whole site turns on one control: pick your kid's age once and every story, q
 and answer on the page follows. A second control, top right, switches light and dark; it
 follows the system until someone overrides it, and the override wins from then on.
 
-The front page runs its three stories abreast from 940px up, in one grid whose columns
-share a baseline — the source line is pushed to the foot of each story so the three line
-up however long the answers run. `--page` sets the measure per page: 1120px for the front
+The front page runs its three stories abreast from 940px up, as cards: the whole card is
+the link, so it gets an edge to be the extent of. The columns share a baseline — the
+source line is pushed to the foot of each story so the three line up however long the
+answers run, and the footer always stacks onto two lines so a long outlet name cannot
+break that.
+
+The card click is a script, and the headline inside it is a real link, so the card still
+works with JavaScript off, from a keyboard, and for a crawler. The script bows out of a
+click on a real link, and out of a click that ends a text selection; ⌘ and middle click
+open a tab, as they would on any link. The pointer cursor is added by that script rather
+than by the stylesheet, so it never promises a click that nothing is listening for.
+
+The slot — morning, noon, evening — is not printed anywhere. A reader gains nothing from
+"Noon". `slot_name` stays on the post because the digest feed reads it to know a day has
+run its evening and is safe to mail. `--page` sets the measure per page: 1120px for the front
 page, 880px for the archive, 720px for a post or the about page, where the limit is a
 readable line rather than the screen.
 

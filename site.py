@@ -114,6 +114,8 @@ def load_posts():
         p["slug"] = slug
         p["date"] = p.get("date") or m.group(1)
         p["day"] = date.fromisoformat(p["date"])
+        # Not printed anywhere -- a reader gains nothing from "Noon" -- but by_day()
+        # reads it to know a day has finished, and rank orders the posts within a date.
         p["slot_name"], rank = slot_of(slug, p)
         p["published"] = json.loads((d / "published.json").read_text())
         p["cover"] = d / "1-cover.jpg" if (d / "1-cover.jpg").exists() else None
@@ -272,21 +274,33 @@ article{padding-block:34px; border-top:1px solid var(--rule)}
    max-width:40ch; border-left:3px solid var(--band); padding-left:18px}
 .src{font-size:13px; color:var(--dim); margin-top:18px; display:flex; gap:8px; flex-wrap:wrap; align-items:baseline}
 .src a{text-decoration:underline; text-underline-offset:2px}
-/* Three stories abreast once there is room for three readable columns. Each keeps its
-   own rule above it, so the grid reads as three columns of a paper rather than a row
-   of cards. The question steps down: 44px display type in a 340px column is a wall. */
+/* The three stories are cards: the whole card is the link, so it gets an edge to be
+   the extent of. Border rather than a filled panel -- three filled blocks would shout
+   over the type, which is the thing worth looking at. */
+.stories{display:grid; gap:18px; margin-top:26px}
+.stories article{border:1px solid var(--rule); border-radius:3px; padding:24px 22px;
+  display:flex; flex-direction:column;
+  transition:border-color .15s ease, background-color .15s ease}
+.stories article.tappable{cursor:pointer}
+.stories article:hover,
+.stories article:focus-within{border-color:var(--band); background:var(--panel)}
+/* Stacked, not flowed: a long outlet name wraps the link onto a second line in one
+   card and not the next, and two cards' footers stop lining up. Always two lines. */
+.stories .src{margin-top:auto; padding-top:20px; flex-direction:column;
+  align-items:flex-start; gap:7px}
+.stories .hl a:hover{text-decoration:none}   /* the whole card is already the target */
+
+/* Three abreast once there is room for three readable columns. The question steps
+   down: 44px display type in a 340px column is a wall. */
 @media (min-width:940px){
-  body.wide .stories{display:grid; grid-template-columns:repeat(3,1fr); gap:0 36px}
-  /* Columns are only columns if they share a baseline. The stories differ in length,
-     so the source line is pushed to the foot of each one and the three line up. */
-  body.wide .stories article{padding-block:28px 34px; display:flex; flex-direction:column}
-  body.wide .stories .src{margin-top:auto; padding-top:20px}
+  body.wide .stories{grid-template-columns:repeat(3,1fr); gap:24px}
   body.wide .stories .q{font-size:clamp(24px,2.3vw,31px); margin-top:14px}
   body.wide .stories .hl{font-size:16px}
   body.wide .stories .a{font-size:18px; margin-top:14px}
   body.wide .search{max-width:520px}
   body.wide .today h1{font-size:44px}
 }
+@media (prefers-reduced-motion:reduce){.stories article{transition:none}}
 .more{font-size:14px; color:var(--band); text-decoration:none; font-weight:500}
 .more:hover{text-decoration:underline; text-underline-offset:3px}
 
@@ -432,6 +446,28 @@ THEME_JS = """
     mq.addEventListener? mq.addEventListener('change',onchange) : mq.addListener(onchange);
   }
   label();
+})();
+"""
+
+CARD_JS = """
+(function(){
+  var cards=document.querySelectorAll('.stories article[data-href]');
+  for(var i=0;i<cards.length;i++){
+    cards[i].classList.add('tappable');   // added here so the cursor never lies to a
+    cards[i].addEventListener('click', function(ev){   // reader with no JavaScript
+      if(ev.target.closest('a,button')) return;            // a real link wins
+      if(String(window.getSelection())) return;            // they were selecting text
+      var href=this.getAttribute('data-href');
+      if(ev.metaKey||ev.ctrlKey||ev.shiftKey) window.open(href,'_blank','noopener');
+      else location.href=href;
+    });
+    // Middle-click opens a background tab everywhere else; it should here too.
+    cards[i].addEventListener('auxclick', function(ev){
+      if(ev.button!==1||ev.target.closest('a,button')) return;
+      ev.preventDefault();
+      window.open(this.getAttribute('data-href'),'_blank','noopener');
+    });
+  }
 })();
 """
 
@@ -585,7 +621,7 @@ var t=localStorage.getItem('dtn-theme');if(t==='light'||t==='dark')r.setAttribut
   <div><a href="{attr(INSTAGRAM)}">@dinnertablenews</a> · {e(SITE_NAME)}, {date.today().year}</div>
 </footer>
 </main>
-<script>{THEME_JS}{BAND_JS}{extra_js}</script>
+<script>{THEME_JS}{BAND_JS}{CARD_JS}{extra_js}</script>
 </body>
 </html>
 """
@@ -598,8 +634,6 @@ def story_block(p, up, *, heading=False):
     bits = []
     href = f"{up}p/{p['slug']}/"
     meta = f'<b>{e(p["category"])}</b><span class="eyebrow">{e(short_date(p["day"]))}'
-    if p["slot_name"]:
-        meta += f'<span class="sep">·</span>{e(p["slot_name"])}'
     meta += "</span>"
     bits.append(f'<div class="cat eyebrow">{meta}</div>')
     headline = f'<a href="{href}">{e(p["headline"])}</a>'
@@ -618,7 +652,9 @@ def story_block(p, up, *, heading=False):
         src += f', <a href="{attr(p["source_url"])}" rel="noopener">{e(dom)}</a>'
     bits.append(f'<div class="src"><span>{src}</span><a class="more" href="{href}">'
                 f'All three ages →</a></div>')
-    return f'<article>{"".join(bits)}</article>'
+    # data-href is what makes the card clickable. The headline stays a real link, so
+    # the card still works with the script off, and for a keyboard and a crawler.
+    return f'<article data-href="{attr(href)}">{"".join(bits)}</article>'
 
 
 def follow_block(up):
@@ -705,8 +741,6 @@ def render_archive(posts, up="../"):
             f'<p class="ask" data-for="{b}">“{e(lq["q"])}”</p>'
             for b in BANDS if (lq := lead_question(p, b)))
         meta = e(short_date(p["day"]))
-        if p["slot_name"]:
-            meta += f'<span class="sep">·</span>{e(p["slot_name"])}'
         items.append(
             f'<div class="item" data-cat="{attr(p["category"])}" data-text="{attr(text)}">{thumb}'
             f'<div><div class="meta">{e(p["category"])}<span class="sep">·</span>{meta}</div>'
@@ -789,8 +823,6 @@ def render_post(p, newer, older, up="../../"):
         pager = f'<div class="pager">{left}{right}</div>'
 
     meta = e(p["category"])
-    if p["slot_name"]:
-        meta += f'<span class="sep">·</span>{e(p["slot_name"])}'
     meta += f'<br>{e(long_date(p["day"]))}'
     body = f"""
   <article class="post">
