@@ -40,11 +40,18 @@ rather than a tint, which washes a whole page of same-age cards, or a shadow, wh
 invisible on the dark theme.
 
 The about page carries the reasoning behind the three bands: Piaget's stages and what each
-implies for how a story has to be told, Vygotsky on why the words go to the parent rather
-than the child, Cantor on why some stories carry a "don't raise it" flag, and Kuhn on why
-every story ends in a question. It names frameworks and what follows from them; it claims
-no study, statistic or result, and says plainly that the ages are approximate and that the
-person who knows which words suit a child is the parent reading it.
+implies for how a story has to be told, Vygotsky on why the words go to the parent, Cantor
+on why some stories carry a "don't raise it" flag, and Kuhn on why every story ends in a
+question. It names frameworks and what follows from them. It cites no study, quotes no
+statistic and claims no result, deliberately — a page arguing for its own rigour is the
+worst place to put a citation a reader cannot check.
+
+It is written in Dan's voice and checked against the Wikipedia:Signs of AI writing field
+guide: no em dashes, no "not just X but also Y", no three-item lists used as filler, no
+puffery verbs, no closing summary. It opens on a concrete scene rather than a thesis, which
+is how Dan opens. Curly quotes stay — that guide lists them as a tell, but says so for a
+project whose house style is straight quotes; here they are correct typography and they
+match the slides, which `typo()` sets the same way.
 
 The card click is a script, and the headline inside it is a real link, so the card still
 works with JavaScript off, from a keyboard, and for a crawler. The script bows out of a

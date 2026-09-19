@@ -865,105 +865,97 @@ ABOUT = """
   <div class="today">
     <div class="eyebrow">About</div>
     <h1>How this is made.</h1>
-    <p>Three stories a day, each written three ways, so the answer you give fits the kid asking.</p>
+    <p>Three stories a day, each written three times.</p>
   </div>
   <section class="block"><div class="prose">
-    <h2>What it is</h2>
-    <p>Every morning, noon and evening one news story is picked and written out three times:
-    for a 5–7 year old, an 8–12 year old and a 13–17 year old. Each version gives you the
-    words — what to say, the questions they will ask back, and an answer to each. Every story
-    ends with one question for the dinner table that anyone can answer, including the ones who
-    didn’t read the news.</p>
+    <p>Tell a six-year-old that the president banned three news outlets from the White House
+    and you will spend the next ten minutes explaining what a president is. Tell a
+    fifteen-year-old the same thing and they will ask whether that is even legal, which is
+    the better question anyway.</p>
+    <p>Same story, two completely different problems. Most news written for kids solves
+    neither, because it picks one imaginary child somewhere in the middle and writes for
+    them.</p>
 
-    <h2>Why these three ages</h2>
-    <p>The bands are not arbitrary. They follow the stages Jean Piaget described in children’s
-    reasoning, and the differences between those stages are the whole reason one story has to
-    be told three ways rather than simplified once.</p>
+    <h2>What changes between five and fifteen</h2>
+    <p>Jean Piaget got interested in how children think by noticing that they got the same
+    questions wrong in the same ways. The errors had a pattern, and the pattern changed with
+    age. The three bands here follow the stages he described.</p>
 
     <h3 class="b57">Ages 5–7 <span class="yr">· the end of the preoperational stage</span></h3>
     <div class="stage b57">
-      <p>Thinking at this age is anchored to what can be seen, touched and acted out. A child
-      reasons well about a concrete situation and poorly about an abstract one, and tends to
-      fix on a single feature of a problem at a time rather than holding several at once.</p>
-      <p>So the 5–7 script leads with something physical — a toll on a bridge, a permission
-      slip, a rule in a game — and closes by naming who is looking after it. The abstraction
-      is left out not because the subject is too dark but because it doesn’t land.</p>
+      <p>Thinking is still tied to what a child can see and handle. They reason well about a
+      concrete thing and badly about an abstract one, and they tend to lock onto one feature
+      of a problem and ignore the rest.</p>
+      <p>So the 5–7 script starts with something physical. A toll on a bridge. A permission
+      slip. A rule in a game. Then it says who is handling it. The abstraction gets cut
+      because it does not land at this age, which is a different reason from protecting
+      them.</p>
     </div>
 
     <h3 class="b812">Ages 8–12 <span class="yr">· concrete operational</span></h3>
     <div class="stage b812">
-      <p>Now a child can follow a chain of cause and effect, hold a rule in mind and notice
-      when it has been broken, and reason about a system as long as it is a real one. This is
-      the age that asks <em>why</em> and means it, and that objects to a punishment before the
-      rule has been named.</p>
-      <p>So the 8–12 script offers one mechanism they already understand — a referee, a
-      checklist, a thermostat — and one chain of consequence, and stops there.</p>
+      <p>Now a kid can follow a chain of cause and effect, hold a rule in their head, and
+      notice when somebody breaks it. This is the age that asks <em>why</em> and actually
+      wants the answer. It is also the age that objects to a punishment before anyone has
+      named the rule.</p>
+      <p>So the 8–12 script hands over one mechanism they already understand, usually a
+      referee or a thermostat, and one chain of consequence. Then it stops.</p>
     </div>
 
     <h3 class="b1317">Ages 13–17 <span class="yr">· formal operational</span></h3>
     <div class="stage b1317">
-      <p>A teenager can reason about what is not in front of them: a hypothetical, someone
-      else’s motive, the gap between what a person did and the reason they gave for doing it.
-      They can hold a claim and its counter-argument side by side and judge between them.</p>
-      <p>So the 13–17 script opens with a real question rather than an explanation, and treats
-      the answer as contestable — because at this age an explanation handed down is an
-      invitation to stop thinking.</p>
+      <p>A teenager can reason about things that are not in front of them. A hypothetical.
+      The distance between what somebody did and the reason they gave for doing it.</p>
+      <p>So the 13–17 script opens with a question instead of an explanation and leaves the
+      answer open. Hand a teenager a conclusion and you have told them the thinking is
+      already finished.</p>
     </div>
 
-    <h2>The ages are approximate, and that matters</h2>
-    <p>Piaget’s boundaries have been revised many times since he drew them. Later researchers
-    found children showing skills earlier than he expected once a task was framed in familiar
-    terms, and adults reasoning inconsistently in the stage he assumed they had settled into.
-    Development is less tidy than a set of dates.</p>
-    <p>So read the band that fits the child in front of you, not the one that matches their
-    birthday. That is why every story here carries all three, why the control at the top of
-    the page moves freely, and why nothing is ever locked to an age.</p>
+    <h2>Read the kid, not the birthday</h2>
+    <p>Piaget’s ages have been picked apart steadily since he set them. Later researchers
+    kept finding children who could do things earlier than he expected once the task was put
+    in familiar terms, and adults who reasoned inconsistently in the stage he assumed they
+    had settled into.</p>
+    <p>A nine-year-old who reads constantly might want the 13–17 version. A thirteen-year-old
+    having a rough week might want the 8–12 one. Every story here carries all three, and the
+    control at the top of the page moves whenever you want it to.</p>
 
-    <h2>Why a parent, and not a kids’ news site</h2>
-    <p>Lev Vygotsky’s idea of the zone of proximal development is that there is a band of
-    things a child cannot yet do alone but can do with a more capable person alongside them —
-    and that this is where learning actually happens. Understanding a contested news story is
-    squarely in that band for most children.</p>
-    <p>Which makes the useful thing to hand over not a simplified article but the words an
-    adult can say. That is what the scripts are, and it is what the “why it works” line under
-    each one is for: it tells you what the script is doing, so you can depart from it and
-    still be on solid ground when your kid asks the question it didn’t anticipate.</p>
+    <h2>The words go to you</h2>
+    <p>Lev Vygotsky’s idea was that there is a band of things a child cannot do alone but can
+    do with a more capable person next to them, and that this is where the learning actually
+    happens. Understanding an unresolved news story sits in that band for most kids.</p>
+    <p>Which makes the useful thing to hand over the words an adult can say, rather than a
+    simplified article for a kid to read by themselves. That is what the scripts are. The
+    “why it works” line under each one tells you what the script is doing, so when your kid
+    asks the question it did not anticipate, you are not guessing.</p>
 
     <h2>Why some stories say don’t raise it</h2>
-    <p>Research on children’s frightened responses to news and television — Joanne Cantor’s in
-    particular — found that what frightens a child changes as they develop. Younger children
-    react to how something looks and sounds. Older children react to what it implies: whether
-    it is real, whether it could reach them, whether the adults have it in hand.</p>
-    <p>One consequence is that a story which is merely boring to a six-year-old can be
-    genuinely frightening to a twelve-year-old, who has understood more of it. So some stories
-    carry a flag telling you not to bring it up unprompted, with words ready in case your child
-    has already heard about it. The judgement of whether to raise it stays yours.</p>
+    <p>Joanne Cantor spent years studying what frightens children about television and news,
+    and found that the answer moves as they grow. Little kids react to how something looks
+    and sounds. Older kids react to what it means: whether it is real, whether it can reach
+    them, whether the adults have it handled.</p>
+    <p>The uncomfortable consequence is that a story a six-year-old finds boring can
+    frighten a twelve-year-old, who understood more of it. So some stories carry a flag
+    telling you not to bring it up cold, with words ready in case they have already heard.
+    Whether to raise it stays your call.</p>
 
-    <h2>Why it ends in a question</h2>
-    <p>Deanna Kuhn’s research on how people learn to argue suggests that reasoning skill, and
-    the understanding of what makes a claim worth believing, develop largely through practice
-    in real dialogue rather than through instruction. Children move from treating claims as
-    plain facts, through a stage where every opinion looks equally valid, toward weighing
-    claims against evidence — and they move by arguing with people who take their answers
-    seriously.</p>
-    <p>News is unusually good material for that, because it is real, unfinished, and genuinely
-    admits more than one defensible answer. So every story ends with one question that has no
-    settled answer and needs no background — which is what lets a six-year-old and a
-    fifteen-year-old argue about the same thing at the same table.</p>
-    <p>None of this is a clinical instrument. It is a framework for choosing words, and the
-    person who knows which words suit your child is you.</p>
+    <h2>Why every story ends in a question</h2>
+    <p>Deanna Kuhn’s work on how people learn to argue points at something inconvenient for
+    parents: reasoning improves through practice in real dialogue, not through being taught.
+    Kids move from treating claims as plain facts, through a stretch where every opinion
+    looks equally good, toward weighing claims against evidence. They get there by arguing
+    with people who take their answers seriously.</p>
+    <p>News is good material for that. It is real, it is unfinished, and it usually has more
+    than one defensible answer. So each story ends on a question that needs no background and
+    has no settled answer. A six-year-old and a fifteen-year-old can both take a swing at it.</p>
 
     <h2>Where the news comes from</h2>
-    <p>A fixed list of news outlets, checked hourly. Nothing outside that list is ever fetched,
-    and every story on this site names the outlet it came from and links to the original
-    reporting. No quote, number or name appears here that the reporting doesn’t carry. Every
-    post is reviewed before it goes out, with a window in which it can be pulled.</p>
-    <p>Photographs come from Wikimedia Commons under a Creative Commons or public-domain
-    licence, and are credited on the story they appear with.</p>
-
-    <h2>What this is for</h2>
-    <p>Not to tell your kid what to think. To hand you a version of the day’s news you can say
-    out loud at the age they are, and one question worth arguing about over dinner.</p>
+    <p>A fixed list of news outlets, checked every hour. Nothing outside that list is ever
+    fetched. Every story names its outlet and links to the original reporting, and no quote,
+    number or name appears here that the reporting does not carry.</p>
+    <p>Photographs come from Wikimedia Commons under a Creative Commons or public domain
+    licence, and are credited on the story they run with. Every post is reviewed before it
+    goes out, and there is a window where I can pull it.</p>
   </div></section>
 """
 
