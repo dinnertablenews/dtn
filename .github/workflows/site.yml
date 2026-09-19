@@ -34,8 +34,12 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       # site.py is standard library only — nothing to install, no Chromium.
-      # Enables Pages on the first run; the build needs nothing from it.
+      # enablement turns Pages on itself, so the repo needs no click to deploy and a
+      # restored-from-scratch repo comes back without one either. The build needs
+      # nothing from this step.
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
       - name: Build
         # site.py knows the domain and writes the CNAME file the custom domain needs.
         run: python site.py
