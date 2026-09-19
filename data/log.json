@@ -346,5 +346,25 @@
   "publish_run": 35408941769,
   "published": "https://www.instagram.com/p/Ddcw7oVG1Iu/",
   "published_at": "2026-09-19T00:51:34+0000"
+ },
+ {
+  "slug": "2026-09-19-morning",
+  "date": "2026-09-19",
+  "slot": "morning",
+  "category": "Government",
+  "headline": "Trump bans three news outlets from the White House",
+  "photo": true,
+  "photo_subject": "White House",
+  "cover_band": "13-17",
+  "publish_target": "2026-09-19T06:57-05:00",
+  "chosen": "primary",
+  "alternate": {
+   "folder": "posts/2026-09-19-morning-alt",
+   "category": "World",
+   "headline": "US and Denmark strike a deal on Greenland's security",
+   "photo": false
+  },
+  "published": null,
+  "note": "Run fired at 06:11 CT for the 07:00 morning slot; target drawn once at 06:57 CT. rank.py's #1 cluster (AP, Axios, BBC News, PBS NewsHour, Semafor, The Hill; 6 outlets, 14 items) is Trump banning CNN, MS NOW and Politico from the White House. It was 2026-09-18-evening's unrun alternate, which rule 8 leaves fair game, and it is not in the 7-day log as a run story, so the morning takes it under rule 3. Category Government; lead subject Trump/the White House, the first post of the day so rule 2 is clear. Primary written from the BBC News article text; the two PBS NewsHour items in the cluster are segment blurbs with no article text and the AP and Hill items had no text. Alternate (rule 8): #2, the US-Denmark deal on Greenland's security (AP, Axios, BBC News, The Hill; 4 outlets, 5 items, newest of the day), category World, written from the BBC News text with Axios as the second source. #3 (Clancy holdout juror, a mother killing her children) is lower ranked and a hard story; #4 (Buffett) is 2026-09-18-noon's unrun alternate and Economy, ranked below Greenland. Cover band 13-17 (last logged band was 8-12), cover age drawn once as 16 for both posts. Photo: White House (north and south sides montage, CC BY-SA 4.0), a landmark rather than Trump because the story is his action against the press; last two log entries were not both photos and the subject is not among the last three. The alternate's Commons lookup for 'Greenland' returned only the 900x600 flag (too small), so it runs without a photo. The render rule fired on the 8-12 and 13-17 cards of both posts and the scripts, why lines and Try answers were cut; both cover questions initially wrapped to three lines under two-line headlines and were shortened to 'Is that even legal?' and 'Is Greenland ours now?'."
  }
 ]
