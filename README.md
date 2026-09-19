@@ -47,9 +47,18 @@ that verified the domain:
 
 | Name | Type | Value |
 |---|---|---|
-| `@` | A | `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153` |
-| `@` | AAAA | `2606:50c0:8000::153`, `:8001::153`, `:8002::153`, `:8003::153` |
+| `@` | A | `185.199.108.153` |
+| `@` | A | `185.199.109.153` |
+| `@` | A | `185.199.110.153` |
+| `@` | A | `185.199.111.153` |
+| `@` | AAAA | `2606:50c0:8000::153` |
+| `@` | AAAA | `2606:50c0:8001::153` |
+| `@` | AAAA | `2606:50c0:8002::153` |
+| `@` | AAAA | `2606:50c0:8003::153` |
 | `www` | CNAME | `dinnertablenews.github.io` |
+
+Every value in full, one per row: an abbreviated list is a typo waiting to happen, and a
+registrar will accept `.109.153` without complaint.
 
 Four A records, not one — they are GitHub's edge, and all four go in. Use **A records at
 the apex, never an ALIAS or CNAME flattening**: the apex also has to carry Proton's MX
