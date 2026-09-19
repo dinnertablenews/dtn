@@ -23,7 +23,17 @@ question), `/archive/` (every story, searched and filtered in the browser), a pa
 post at `/p/<slug>/`, `/about/`, an RSS feed and a sitemap.
 
 The whole site turns on one control: pick your kid's age once and every story, question
-and answer on the page follows. The choice is an attribute on `<html>` and a
+and answer on the page follows. A second control, top right, switches light and dark; it
+follows the system until someone overrides it, and the override wins from then on.
+
+The front page runs its three stories abreast from 940px up, in one grid whose columns
+share a baseline — the source line is pushed to the foot of each story so the three line
+up however long the answers run. `--page` sets the measure per page: 1120px for the front
+page, 880px for the archive, 720px for a post or the about page, where the limit is a
+readable line rather than the screen.
+
+The mark is `render.py`'s `wordmark()`: three lines with the dots beneath, the dot 45% of
+the type size. The site and the slides carry one lockup. The choice is an attribute on `<html>` and a
 `localStorage` key, so it survives navigation and costs nothing to switch. All three
 versions are in the HTML, so the page works with JavaScript off.
 

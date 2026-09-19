@@ -156,14 +156,24 @@ CSS = """
   --display:"Libre Caslon Display",Georgia,serif;
   --text:"Libre Caslon Text",Georgia,serif;
   --sans:"Instrument Sans",system-ui,-apple-system,sans-serif;
-  color-scheme:light dark;
+  color-scheme:light;
 }
-@media (prefers-color-scheme:dark){:root{
+/* The system decides until the reader overrides it, and data-theme is how they do.
+   The :not() guard is what lets an explicit "light" win against a dark OS. */
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  color-scheme:dark;
   --bg:#141311; --fg:#F1EDE4; --dim:#A8A295; --quiet:#C9C3B5;
   --rule:#2E2C27; --panel:#1D1C19; --field:#221F1B;
   --c57:oklch(0.78 0.12 155); --c812:oklch(0.76 0.12 250); --c1317:oklch(0.78 0.12 305);
   --tint57:oklch(0.26 0.04 155); --tint812:oklch(0.26 0.04 250); --tint1317:oklch(0.26 0.04 305);
 }}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#141311; --fg:#F1EDE4; --dim:#A8A295; --quiet:#C9C3B5;
+  --rule:#2E2C27; --panel:#1D1C19; --field:#221F1B;
+  --c57:oklch(0.78 0.12 155); --c812:oklch(0.76 0.12 250); --c1317:oklch(0.78 0.12 305);
+  --tint57:oklch(0.26 0.04 155); --tint812:oklch(0.26 0.04 250); --tint1317:oklch(0.26 0.04 305);
+}
 
 /* The age is a document-level fact: one attribute on <html> colours and reveals
    the whole page, so switching it touches no element's inline style. */
@@ -181,7 +191,9 @@ body{margin:0; background:var(--bg); color:var(--fg); font-family:var(--sans);
      font-size:14px; line-height:1.5; -webkit-font-smoothing:antialiased}
 img{max-width:100%; display:block}
 a{color:inherit}
-.wrap{width:100%; max-width:720px; margin:0 auto; padding-inline:20px}
+.wrap{width:100%; max-width:var(--page,720px); margin:0 auto; padding-inline:20px}
+body.wide{--page:1120px}      /* the front page: three stories abreast */
+body.list{--page:880px}       /* the archive: a list, wider than prose but not by much */
 .eyebrow{font-size:12px; font-weight:600; letter-spacing:.1em; text-transform:uppercase; color:var(--dim)}
 .sep{opacity:.5; margin-inline:6px}
 .skip{position:absolute; left:-9999px}
@@ -190,13 +202,41 @@ a{color:inherit}
 /* ---- masthead ---------------------------------------------------- */
 header{position:sticky; top:0; z-index:20; background:var(--bg); border-bottom:1px solid var(--rule)}
 .bar{display:flex; align-items:center; justify-content:space-between; gap:16px; padding-block:14px}
-.mark{font-family:var(--display); font-size:17px; line-height:1.05; letter-spacing:.005em;
-      display:flex; align-items:center; gap:10px; text-decoration:none}
-.dots{display:flex; gap:4px}
-.dots i{width:6px; height:6px; border-radius:50%; display:block}
+/* render.py's wordmark(): three lines with the dots beneath, dot 45% of the type
+   size and the gaps proportional to it, so the site and the slides carry one mark. */
+.mark{display:inline-flex; flex-direction:column; align-items:flex-start; gap:9px;
+      text-decoration:none; padding-block:2px}
+.wm{font-family:var(--display); font-size:17px; line-height:1.0; letter-spacing:-.01em}
+.dots{display:flex; gap:6px}
+.dots i{width:8px; height:8px; border-radius:50%; display:block}
+/* The mark is a stack now, so it is taller than it was, and the masthead is sticky.
+   Scaled down on a phone to keep the whole sticky block near a seventh of the screen
+   rather than a fifth: the pills below it are the part worth keeping on screen. */
+@media (max-width:640px){
+  .mark{gap:6px}
+  .wm{font-size:14px}
+  .dots{gap:5px}
+  .dots i{width:6px; height:6px}
+  .bar{padding-block:11px}
+  .ages{padding-block:10px}
+}
+/* On a phone the prompt cannot share a line with three pills, so it takes one of its
+   own and the sticky block grows by a fifth for a line nobody needs: the pills read
+   "5-7 year old". Hidden from the eye, kept for a screen reader, which still gets the
+   group's own label. */
+@media (max-width:560px){
+  .ages .lab{position:absolute; width:1px; height:1px; overflow:hidden; clip-path:inset(50%);
+             white-space:nowrap}
+}
 nav{display:flex; gap:18px; font-size:14px}
 nav a{color:var(--dim); text-decoration:none}
 nav a:hover,nav a[aria-current="page"]{color:var(--fg)}
+.theme{display:inline-flex; align-items:center; justify-content:center; width:30px; height:30px;
+  padding:0; margin-left:-4px; border:0; border-radius:50%; background:transparent;
+  color:var(--dim); cursor:pointer}
+.theme:hover{color:var(--fg)}
+.theme:focus-visible{outline:2px solid var(--fg); outline-offset:2px}
+.bar nav{align-items:center}
 
 /* ---- the age control: the whole idea of the site ------------------ */
 .ages{display:flex; align-items:center; gap:10px; flex-wrap:wrap; padding-block:12px; border-top:1px solid var(--rule)}
@@ -232,6 +272,21 @@ article{padding-block:34px; border-top:1px solid var(--rule)}
    max-width:40ch; border-left:3px solid var(--band); padding-left:18px}
 .src{font-size:13px; color:var(--dim); margin-top:18px; display:flex; gap:8px; flex-wrap:wrap; align-items:baseline}
 .src a{text-decoration:underline; text-underline-offset:2px}
+/* Three stories abreast once there is room for three readable columns. Each keeps its
+   own rule above it, so the grid reads as three columns of a paper rather than a row
+   of cards. The question steps down: 44px display type in a 340px column is a wall. */
+@media (min-width:940px){
+  body.wide .stories{display:grid; grid-template-columns:repeat(3,1fr); gap:0 36px}
+  /* Columns are only columns if they share a baseline. The stories differ in length,
+     so the source line is pushed to the foot of each one and the three line up. */
+  body.wide .stories article{padding-block:28px 34px; display:flex; flex-direction:column}
+  body.wide .stories .src{margin-top:auto; padding-top:20px}
+  body.wide .stories .q{font-size:clamp(24px,2.3vw,31px); margin-top:14px}
+  body.wide .stories .hl{font-size:16px}
+  body.wide .stories .a{font-size:18px; margin-top:14px}
+  body.wide .search{max-width:520px}
+  body.wide .today h1{font-size:44px}
+}
 .more{font-size:14px; color:var(--band); text-decoration:none; font-weight:500}
 .more:hover{text-decoration:underline; text-underline-offset:3px}
 
@@ -350,6 +405,36 @@ def font_css(up):
 
 # -------------------------------------------------------------------- js ---
 
+THEME_JS = """
+(function(){
+  var KEY='dtn-theme', root=document.documentElement, btn=document.getElementById('theme');
+  if(!btn) return;
+  function dark(){
+    var t=root.getAttribute('data-theme');
+    // No explicit choice yet, so report what the reader is actually looking at.
+    if(t!=='dark'&&t!=='light')
+      return window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches;
+    return t==='dark';
+  }
+  function label(){
+    btn.setAttribute('aria-label', dark()?'Switch to light theme':'Switch to dark theme');
+  }
+  btn.addEventListener('click', function(){
+    var next = dark()?'light':'dark';
+    root.setAttribute('data-theme', next);
+    try{localStorage.setItem(KEY,next)}catch(e){}
+    label();
+  });
+  // Until they choose, keep following the system if it changes under them.
+  if(window.matchMedia){
+    var mq=window.matchMedia('(prefers-color-scheme:dark)');
+    var onchange=function(){ if(!root.getAttribute('data-theme')) label(); };
+    mq.addEventListener? mq.addEventListener('change',onchange) : mq.addListener(onchange);
+  }
+  label();
+})();
+"""
+
 BAND_JS = """
 (function(){
   var KEY='dtn-band', ok={'5-7':1,'8-12':1,'13-17':1}, root=document.documentElement;
@@ -423,6 +508,11 @@ ARCHIVE_JS = """
 
 # ----------------------------------------------------------------- shell ---
 
+# Half-filled circle: the left half solid, the outline closing the right.
+THEME_ICON = ('<svg viewBox="0 0 20 20" width="18" height="18" aria-hidden="true" focusable="false">'
+              '<circle cx="10" cy="10" r="8.25" fill="none" stroke="currentColor" stroke-width="1.5"/>'
+              '<path d="M10 1.75a8.25 8.25 0 0 0 0 16.5z" fill="currentColor"/></svg>')
+
 DOTS = ('<span class="dots"><i style="background:var(--c57)"></i>'
         '<i style="background:var(--c812)"></i><i style="background:var(--c1317)"></i></span>')
 
@@ -436,7 +526,7 @@ def age_control(prompt="Show me what to say to my"):
 
 
 def shell(*, up, title, desc, body, nav_here="", og_image=None, path="", band_control=True,
-          extra_js="", prompt="Show me what to say to my", og_type="website"):
+          extra_js="", prompt="Show me what to say to my", og_type="website", width=""):
     def here(name):
         return ' aria-current="page"' if name == nav_here else ""
 
@@ -466,19 +556,22 @@ def shell(*, up, title, desc, body, nav_here="", og_image=None, path="", band_co
 <link rel="icon" href="{up}assets/dots.svg" type="image/svg+xml">
 <link rel="stylesheet" href="{up}assets/site.css">
 <style>{font_css(up)}</style>
-<script>try{{var b=localStorage.getItem('dtn-band');if(b==='5-7'||b==='8-12'||b==='13-17')
-document.documentElement.setAttribute('data-band',b)}}catch(e){{}}</script>
+<script>try{{var r=document.documentElement,b=localStorage.getItem('dtn-band');
+if(b==='5-7'||b==='8-12'||b==='13-17')r.setAttribute('data-band',b);
+var t=localStorage.getItem('dtn-theme');if(t==='light'||t==='dark')r.setAttribute('data-theme',t);
+}}catch(e){{}}</script>
 </head>
-<body>
+<body class="{width}">
 <a class="skip" href="#main">Skip to the stories</a>
 <header>
   <div class="wrap">
     <div class="bar">
-      <a class="mark" href="{up}">Dinner<br>Table<br>News {DOTS}</a>
+      <a class="mark" href="{up}"><span class="wm">Dinner<br>Table<br>News</span>{DOTS}</a>
       <nav>
         <a href="{up}archive/"{here('archive')}>Archive</a>
         <a href="{up}about/"{here('about')}>About</a>
         <a href="{attr(INSTAGRAM)}" rel="me">Instagram</a>
+        <button class="theme" type="button" id="theme" aria-label="Switch to dark theme">{THEME_ICON}</button>
       </nav>
     </div>
     {age_control(prompt) if band_control else ""}
@@ -489,12 +582,10 @@ document.documentElement.setAttribute('data-band',b)}}catch(e){{}}</script>
 <footer>
   <div>Sources are a fixed list of news outlets, published on every story. Nothing outside it is
   used, and no quote, number or name appears that the reporting doesn’t carry.</div>
-  <div>Written with AI and reviewed by a human before it goes out.
-  <a href="{up}about/">How this is made</a>.</div>
   <div><a href="{attr(INSTAGRAM)}">@dinnertablenews</a> · {e(SITE_NAME)}, {date.today().year}</div>
 </footer>
 </main>
-<script>{BAND_JS}{extra_js}</script>
+<script>{THEME_JS}{BAND_JS}{extra_js}</script>
 </body>
 </html>
 """
@@ -562,7 +653,8 @@ def follow_block(up):
 def render_index(posts, up=""):
     latest = posts[:3]
     lead = latest[0]
-    stories = "".join(story_block(p, up, heading=True) for p in latest)
+    stories = ('<div class="stories">'
+               + "".join(story_block(p, up, heading=True) for p in latest) + "</div>")
     tq = next((p for p in latest if p.get("table_question")), None)
     table = ""
     if tq:
@@ -592,7 +684,8 @@ def render_index(posts, up=""):
     return shell(up=up, title=f"{SITE_NAME} — today’s news, explained for your kid’s age",
                  desc="Three stories a day, each written three ways: for 5–7, 8–12 and 13–17. "
                       "Plus one question for the dinner table.",
-                 body=body, og_image=f"p/{lead['slug']}/cover.jpg" if lead["cover"] else None)
+                 body=body, width="wide",
+                 og_image=f"p/{lead['slug']}/cover.jpg" if lead["cover"] else None)
 
 
 def render_archive(posts, up="../"):
@@ -639,7 +732,7 @@ def render_archive(posts, up="../"):
                  desc=f"Every {SITE_NAME} story since {START}, each written for 5–7, "
                       f"8–12 and 13–17.",
                  body=body, nav_here="archive", path="archive/", extra_js=ARCHIVE_JS,
-                 prompt="Answers for my")
+                 prompt="Answers for my", width="list")
 
 
 def render_post(p, newer, older, up="../../"):
