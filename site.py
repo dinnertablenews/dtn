@@ -44,8 +44,11 @@ DOMAIN = "dinnertablenews.com"
 BASE_URL = (os.environ.get("DTN_BASE_URL") or (f"https://{DOMAIN}" if DOMAIN else "")).rstrip("/")
 # A hosted provider's form-POST endpoint (Buttondown, Kit, Beehiiv…). While it is
 # empty the follow section renders the Instagram card instead of a dead form.
-EMAIL_FORM_ACTION = ""
-EMAIL_FIELD = "email"          # the field name that provider expects
+# Buttondown account name. Setting it turns the signup form on; empty keeps the
+# Instagram card, because a box that does nothing is worse than an honest link.
+BUTTONDOWN = ""
+EMAIL_FORM_ACTION = f"https://buttondown.com/api/emails/embed-subscribe/{BUTTONDOWN}" if BUTTONDOWN else ""
+EMAIL_FIELD = "email"          # the field name Buttondown's embed expects
 START = "September 13, 2026"   # first post; the archive says how far back it goes
 
 # ---- render.py's palette, restated (see the module docstring) --------------
@@ -736,6 +739,112 @@ def rfc822(ts):
     return d.strftime("%a, %d %b %Y %H:%M:%S +0000")
 
 
+def by_day(posts):
+    """Posts grouped by date, newest day first, each day's stories in slot order.
+
+    Only days that ran their evening slot are returned. A digest is a finished day:
+    sending one at 7am while the day is still filling would mail a third of it and
+    leave no way to send the rest."""
+    days = {}
+    for p in posts:
+        days.setdefault(p["date"], []).append(p)
+    out = []
+    for d in sorted(days, reverse=True):
+        stories = sorted(days[d], key=lambda p: p["_sort"])
+        if any(p["slot_name"] == "Evening" for p in stories):
+            out.append((d, stories))
+    return out
+
+
+# The three band hues as hex, for email only. They are the light-mode oklch() values
+# converted once: plenty of mail clients still do not parse oklch(), and one that does
+# not drops the colour to black rather than approximating it.
+MAIL_HUE = {"5-7": "#00723B", "8-12": "#0C60A3", "13-17": "#6F4797"}
+COUNT = {1: "One story", 2: "Two stories", 3: "Three stories", 4: "Four stories"}
+
+
+def count_phrase(n):
+    """Almost every day runs three slots, but the first day ran one and 14 September ran
+    four. A subject line that says three when the email carries one is the kind of small
+    lie a reader notices."""
+    return COUNT.get(n, f"{n} stories")
+
+
+def digest_html(stories, day):
+    """One day as email HTML. Inline styles only and no class hooks: an email client
+    keeps neither. Every age goes in, because an email cannot switch between them the
+    way the site does."""
+    SERIF = "Georgia,'Times New Roman',serif"
+    SANS = "-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
+    out = [f'<div style="font-family:{SANS};color:#1B1A17;max-width:560px">']
+    out.append(f'<p style="font-size:13px;letter-spacing:.08em;text-transform:uppercase;'
+               f'color:#6B675F;margin:0 0 6px">{e(long_date(day))}</p>')
+    out.append(f'<p style="font-family:{SERIF};font-size:26px;line-height:1.15;margin:0 0 4px">'
+               f'{e(count_phrase(len(stories)))}, and the words for them.</p>')
+    for p in stories:
+        url = f"{BASE_URL}/p/{p['slug']}/"
+        out.append('<hr style="border:0;border-top:1px solid #E0DACD;margin:28px 0 20px">')
+        out.append(f'<p style="font-size:12px;font-weight:600;letter-spacing:.1em;'
+                   f'text-transform:uppercase;color:#6B675F;margin:0 0 8px">{e(p["category"])}</p>')
+        out.append(f'<p style="font-family:{SERIF};font-size:22px;line-height:1.2;margin:0 0 10px">'
+                   f'{e(p["headline"])}</p>')
+        if p.get("summary"):
+            out.append(f'<p style="font-size:15px;line-height:1.55;color:#3D3A34;margin:0 0 18px">'
+                       f'{e(p["summary"])}</p>')
+        for band in BANDS:
+            a = p.get("ages", {}).get(band, {})
+            if not a.get("script"):
+                continue
+            col = MAIL_HUE[band]
+            out.append(f'<p style="font-size:12px;font-weight:600;letter-spacing:.1em;'
+                       f'text-transform:uppercase;color:{col};margin:16px 0 6px">'
+                       f'Ages {LABEL[band]}</p>')
+            out.append(f'<p style="font-family:{SERIF};font-size:16px;line-height:1.5;margin:0;'
+                       f'padding-left:14px;border-left:3px solid {col}">{e(a["script"])}</p>')
+            for q in p.get("questions", {}).get(band, []):
+                out.append(f'<p style="font-size:14px;line-height:1.5;color:#3D3A34;margin:10px 0 0;'
+                           f'padding-left:14px">&ldquo;{e(q["q"])}&rdquo;<br>'
+                           f'<span style="color:#6B675F">Try: {e(q["a"])}</span></p>')
+        if p.get("table_question"):
+            out.append(f'<p style="background:#EDE8DE;padding:16px;margin:20px 0 0;font-family:{SERIF};'
+                       f'font-size:17px;line-height:1.3">{e(p["table_question"])}</p>')
+        src = e(p["outlet"])
+        if p.get("source_url"):
+            src = f'<a href="{attr(p["source_url"])}" style="color:#6B675F">{src}</a>'
+        out.append(f'<p style="font-size:13px;color:#6B675F;margin:14px 0 0">{src} '
+                   f'\u00b7 <a href="{attr(url)}" style="color:#6B675F">Read it on the site</a></p>')
+    out.append("</div>")
+    return "".join(out)
+
+
+def build_digest_feed(posts):
+    """One item per finished day, carrying that day's three stories at all three ages.
+    This is the feed the morning email is built from; feed.xml stays one item per story
+    for anyone reading in a feed reader."""
+    items = []
+    for day, stories in by_day(posts)[:20]:
+        d = date.fromisoformat(day)
+        # No per-day page exists, so "view online" goes to the archive; each story in
+        # the body links to its own page.
+        url = f"{BASE_URL}/archive/"
+        evening = next((p for p in stories if p["slot_name"] == "Evening"), stories[-1])
+        heads = "; ".join(p["headline"] for p in stories)
+        items.append(
+            f"<item><title>{e(f'{count_phrase(len(stories))} for {long_date(d)}')}</title>"
+            f"<link>{attr(url)}</link>"
+            f"<guid isPermaLink=\"false\">dtn-digest-{day}</guid>"
+            f"<pubDate>{rfc822(evening['published'].get('timestamp', ''))}</pubDate>"
+            f"<description>{e(heads)}</description>"
+            f"<content:encoded><![CDATA[{digest_html(stories, d)}]]></content:encoded></item>")
+    return (f'<?xml version="1.0" encoding="UTF-8"?>\n'
+            f'<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">'
+            f'<channel><title>{e(SITE_NAME)} \u2014 the daily email</title>'
+            f'<link>{attr(BASE_URL)}/</link>'
+            f'<description>One email a day: three stories, each written for 5\u20137, '
+            f'8\u201312 and 13\u201317.</description>'
+            f'<language>en-us</language>{"".join(items)}</channel></rss>\n')
+
+
 def build_feed(posts):
     items = []
     for p in posts[:20]:
@@ -798,6 +907,7 @@ def main():
 
     if BASE_URL:
         write(OUT / "feed.xml", build_feed(posts))
+        write(OUT / "feed-daily.xml", build_digest_feed(posts))
         urls = ["", "archive/", "about/"] + [f"p/{p['slug']}/" for p in posts]
         write(OUT / "sitemap.xml",
               '<?xml version="1.0" encoding="UTF-8"?>\n'

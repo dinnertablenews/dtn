@@ -80,7 +80,33 @@ overrides correct records.
 Then **Settings → Pages**: set the custom domain to `dinnertablenews.com`, wait for the
 check to pass, and tick **Enforce HTTPS**.
 
-Two settings live at the top of `site.py`: `EMAIL_FORM_ACTION` (empty until a provider is
-picked — until then the follow section shows the Instagram card rather than a form that
-does nothing) and `INSTAGRAM`.
+## The morning email
+
+Buttondown, sending from the feed rather than from a second pipeline.
+
+There are two feeds, and they are not interchangeable:
+
+| Feed | Shape | For |
+|---|---|---|
+| `/feed.xml` | one item per story, three a day | feed readers |
+| `/feed-daily.xml` | one item per day, all three stories, all three ages | the email |
+
+Point Buttondown's RSS-to-email at **`/feed-daily.xml`**. Pointed at `feed.xml` it would
+send three emails a day, which is not what the site promises anyone.
+
+A digest item appears only once a day has run its evening slot. A day still filling would
+otherwise go out as a third of itself at 7am with no way to send the rest. So the email
+that lands on Saturday morning carries Friday's three stories, complete.
+
+The email body is built by `digest_html()`: inline styles only, no classes, no `oklch()`
+— mail clients keep none of those, and one that cannot parse a colour renders it black
+rather than approximating it. `MAIL_HUE` holds the three band colours as hex for that
+reason; they are the site's light-mode values converted once.
+
+Set `BUTTONDOWN` at the top of `site.py` to the account name and the signup form turns on.
+While it is empty the follow section shows the Instagram card instead — a form that posts
+nowhere is worse than an honest link.
+
+RSS-to-email is a paid add-on on top of Buttondown's free tier, which covers the first
+hundred subscribers.
 
