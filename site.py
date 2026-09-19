@@ -952,8 +952,9 @@ ABOUT = """
     fetched. Every story names its outlet and links to the original reporting, and no quote,
     number or name appears here that the reporting does not carry.</p>
     <p>Photographs come from Wikimedia Commons under a Creative Commons or public domain
-    licence, and are credited on the story they run with. Every post is reviewed before it
-    goes out, and there is a window where I can pull it.</p>
+    licence, and are credited on the story they run with. Every post is human-crafted and
+    published. We use AI for image generation and for scanning news stories
+    consistently.</p>
   </div></section>
 """
 
