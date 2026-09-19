@@ -54,11 +54,12 @@ Three runtimes:
 | `fetch.py` | Hourly fetcher: feeds → `data/headlines.json`; article text → `data/articles.json`. |
 | `rank.py` | Clusters the last N hours of headlines across outlets and ranks the clusters. |
 | `render.py` | Renders `post.json` to five JPGs, enforces layout rules, builds the caption. |
+| `site.py` | Builds the website from every post carrying `published.json`. Output goes to `site/`, which is gitignored and rebuilt on deploy. |
 | `reel.py` | Renders the same `post.json` to a 20.5s vertical reel and its cover. Built for the primary, rebuilt for the alternate if Dan picks it — one reel per slot, always the post that ran. Generation only; posting and music are manual. |
 | `commons.py` | Fetches a Wikipedia infobox image with license metadata (runs in Actions). |
 | `publish.py` | Instagram publish / verify / token refresh (runs in Actions). |
 | `target.py` | Draws the random publish minute inside the slot window. |
-| `.github/workflows/` | `fetch.yml`, `commons.yml`, `publish.yml`, `refresh.yml`. |
+| `.github/workflows/` | `fetch.yml`, `commons.yml`, `publish.yml`, `refresh.yml`, `site.yml`. |
 | `data/log.json` | Rolling record of every run: what ran, category, photo, cover band, target, permalink. |
 | `data/images/` | Commons images and their metadata, one per slug. |
 | `posts/<slug>/` | `post.json`, five JPGs, `published.json` after publish. |

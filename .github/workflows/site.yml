@@ -1,0 +1,47 @@
+name: Site
+on:
+  push:
+    branches: [main]
+    # A post reaches the web when publish.py pushes its published.json, so that push is
+    # the trigger. Nothing else in posts/ moves the site.
+    paths:
+      - "posts/**/published.json"
+      - "posts/**/post.json"
+      - "posts/**/1-cover.jpg"
+      - "site.py"
+      - "fonts/**"
+      - ".github/workflows/site.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Never cancel a deploy half-way; let the queue drain in order.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      # site.py is standard library only — nothing to install, no Chromium.
+      - uses: actions/configure-pages@v5
+        id: pages
+      - name: Build
+        # base_url is whatever Pages is actually serving: the github.io path today, the
+        # custom domain the moment one is set in Settings → Pages. Absolute URLs in the
+        # feed, the sitemap and the og: tags follow it without an edit here.
+        run: DTN_BASE_URL="${{ steps.pages.outputs.base_url }}" python site.py
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: site }
+      - uses: actions/deploy-pages@v4
+        id: deploy
