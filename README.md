@@ -32,13 +32,19 @@ source line is pushed to the foot of each story so the three line up however lon
 answers run, and the footer always stacks onto two lines so a long outlet name cannot
 break that.
 
-Where a card cannot be hovered the age's colour has no way to appear at all, so it is
-carried permanently as a 3px edge along the card's top. The rule is keyed to
+Where a card cannot be hovered the age's colour has no way to appear at all, so the whole
+border carries it instead of the neutral hairline. The rule is keyed to
 `@media (hover:none)` rather than a screen width, because that is the actual reason: a
-tablet cannot hover either, and a desktop window dragged narrow still can. Top rather
-than left, where it would run parallel to the answer's own band rule a few pixels inside
-it; an edge rather than a tint, which washes a whole page of same-age cards; an edge
-rather than a shadow, which is invisible on the dark theme.
+tablet cannot hover either, and a desktop window dragged narrow still can. The border
+rather than a tint, which washes a whole page of same-age cards, or a shadow, which is
+invisible on the dark theme.
+
+The about page carries the reasoning behind the three bands: Piaget's stages and what each
+implies for how a story has to be told, Vygotsky on why the words go to the parent rather
+than the child, Cantor on why some stories carry a "don't raise it" flag, and Kuhn on why
+every story ends in a question. It names frameworks and what follows from them; it claims
+no study, statistic or result, and says plainly that the ages are approximate and that the
+person who knows which words suit a child is the parent reading it.
 
 The card click is a script, and the headline inside it is a real link, so the card still
 works with JavaScript off, from a keyboard, and for a crawler. The script bows out of a

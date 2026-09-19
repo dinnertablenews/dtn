@@ -300,15 +300,13 @@ article{padding-block:34px; border-top:1px solid var(--rule)}
   body.wide .search{max-width:520px}
   body.wide .today h1{font-size:44px}
 }
-/* Where the card cannot be hovered, the age's colour has no way to appear, so it is
-   carried permanently as an edge along the top. The query asks about hover rather than
-   width because that is the actual reason: a tablet cannot hover either, and a desktop
-   window dragged narrow still can. Top rather than left, where it would run parallel to
-   the answer's own band rule a few pixels inside it; an edge rather than a tint, which
-   washes a whole page of same-age cards; an edge rather than a shadow, which is
-   invisible on the dark theme. */
+/* Where the card cannot be hovered, the age's colour has no way to appear, so the whole
+   border carries it instead of the neutral hairline. The query asks about hover rather
+   than width because that is the actual reason: a tablet cannot hover either, and a
+   desktop window dragged narrow still can. The border rather than a tint, which washes a
+   whole page of same-age cards, or a shadow, which is invisible on the dark theme. */
 @media (hover:none){
-  .stories article{border-top:3px solid var(--band)}
+  .stories article{border-color:var(--band)}
 }
 @media (prefers-reduced-motion:reduce){.stories article{transition:none}}
 .more{font-size:14px; color:var(--band); text-decoration:none; font-weight:500}
@@ -400,7 +398,14 @@ section.block{padding-block:34px; border-top:1px solid var(--rule)}
 .pager .lab{display:block; font-size:12px; letter-spacing:.08em; text-transform:uppercase; margin-bottom:4px}
 
 .prose{max-width:60ch}
-.prose h2{font-family:var(--display); font-weight:400; font-size:24px; margin:32px 0 0}
+.prose h2{font-family:var(--display); font-weight:400; font-size:24px; margin:34px 0 0}
+.prose h3{font-family:var(--sans); font-size:14px; font-weight:600; letter-spacing:.04em;
+  margin:24px 0 0; color:var(--band)}
+.prose h3 .yr{color:var(--dim); font-weight:500; letter-spacing:0}
+.prose .stage{border-left:2px solid var(--rule); padding-left:18px; margin-top:8px}
+.prose .stage.b57{--band:var(--c57)} .prose .stage.b812{--band:var(--c812)}
+.prose .stage.b1317{--band:var(--c1317)}
+.prose .stage{border-left-color:var(--band)}
 .prose p{font-size:15px; line-height:1.65; color:var(--quiet); margin:12px 0 0}
 .prose a{text-decoration:underline; text-underline-offset:2px}
 
@@ -865,25 +870,100 @@ ABOUT = """
   <section class="block"><div class="prose">
     <h2>What it is</h2>
     <p>Every morning, noon and evening one news story is picked and written out three times:
-    for a 5–7 year old, an 8–12 year old and a 13–17 year old. Each version gives you
-    the words — what to say, the questions they will ask back, and an answer to each. Every
-    story ends with one question for the dinner table that anyone can answer, including the
-    ones who didn’t read the news.</p>
+    for a 5–7 year old, an 8–12 year old and a 13–17 year old. Each version gives you the
+    words — what to say, the questions they will ask back, and an answer to each. Every story
+    ends with one question for the dinner table that anyone can answer, including the ones who
+    didn’t read the news.</p>
+
+    <h2>Why these three ages</h2>
+    <p>The bands are not arbitrary. They follow the stages Jean Piaget described in children’s
+    reasoning, and the differences between those stages are the whole reason one story has to
+    be told three ways rather than simplified once.</p>
+
+    <h3 class="b57">Ages 5–7 <span class="yr">· the end of the preoperational stage</span></h3>
+    <div class="stage b57">
+      <p>Thinking at this age is anchored to what can be seen, touched and acted out. A child
+      reasons well about a concrete situation and poorly about an abstract one, and tends to
+      fix on a single feature of a problem at a time rather than holding several at once.</p>
+      <p>So the 5–7 script leads with something physical — a toll on a bridge, a permission
+      slip, a rule in a game — and closes by naming who is looking after it. The abstraction
+      is left out not because the subject is too dark but because it doesn’t land.</p>
+    </div>
+
+    <h3 class="b812">Ages 8–12 <span class="yr">· concrete operational</span></h3>
+    <div class="stage b812">
+      <p>Now a child can follow a chain of cause and effect, hold a rule in mind and notice
+      when it has been broken, and reason about a system as long as it is a real one. This is
+      the age that asks <em>why</em> and means it, and that objects to a punishment before the
+      rule has been named.</p>
+      <p>So the 8–12 script offers one mechanism they already understand — a referee, a
+      checklist, a thermostat — and one chain of consequence, and stops there.</p>
+    </div>
+
+    <h3 class="b1317">Ages 13–17 <span class="yr">· formal operational</span></h3>
+    <div class="stage b1317">
+      <p>A teenager can reason about what is not in front of them: a hypothetical, someone
+      else’s motive, the gap between what a person did and the reason they gave for doing it.
+      They can hold a claim and its counter-argument side by side and judge between them.</p>
+      <p>So the 13–17 script opens with a real question rather than an explanation, and treats
+      the answer as contestable — because at this age an explanation handed down is an
+      invitation to stop thinking.</p>
+    </div>
+
+    <h2>The ages are approximate, and that matters</h2>
+    <p>Piaget’s boundaries have been revised many times since he drew them. Later researchers
+    found children showing skills earlier than he expected once a task was framed in familiar
+    terms, and adults reasoning inconsistently in the stage he assumed they had settled into.
+    Development is less tidy than a set of dates.</p>
+    <p>So read the band that fits the child in front of you, not the one that matches their
+    birthday. That is why every story here carries all three, why the control at the top of
+    the page moves freely, and why nothing is ever locked to an age.</p>
+
+    <h2>Why a parent, and not a kids’ news site</h2>
+    <p>Lev Vygotsky’s idea of the zone of proximal development is that there is a band of
+    things a child cannot yet do alone but can do with a more capable person alongside them —
+    and that this is where learning actually happens. Understanding a contested news story is
+    squarely in that band for most children.</p>
+    <p>Which makes the useful thing to hand over not a simplified article but the words an
+    adult can say. That is what the scripts are, and it is what the “why it works” line under
+    each one is for: it tells you what the script is doing, so you can depart from it and
+    still be on solid ground when your kid asks the question it didn’t anticipate.</p>
+
+    <h2>Why some stories say don’t raise it</h2>
+    <p>Research on children’s frightened responses to news and television — Joanne Cantor’s in
+    particular — found that what frightens a child changes as they develop. Younger children
+    react to how something looks and sounds. Older children react to what it implies: whether
+    it is real, whether it could reach them, whether the adults have it in hand.</p>
+    <p>One consequence is that a story which is merely boring to a six-year-old can be
+    genuinely frightening to a twelve-year-old, who has understood more of it. So some stories
+    carry a flag telling you not to bring it up unprompted, with words ready in case your child
+    has already heard about it. The judgement of whether to raise it stays yours.</p>
+
+    <h2>Why it ends in a question</h2>
+    <p>Deanna Kuhn’s research on how people learn to argue suggests that reasoning skill, and
+    the understanding of what makes a claim worth believing, develop largely through practice
+    in real dialogue rather than through instruction. Children move from treating claims as
+    plain facts, through a stage where every opinion looks equally valid, toward weighing
+    claims against evidence — and they move by arguing with people who take their answers
+    seriously.</p>
+    <p>News is unusually good material for that, because it is real, unfinished, and genuinely
+    admits more than one defensible answer. So every story ends with one question that has no
+    settled answer and needs no background — which is what lets a six-year-old and a
+    fifteen-year-old argue about the same thing at the same table.</p>
+    <p>None of this is a clinical instrument. It is a framework for choosing words, and the
+    person who knows which words suit your child is you.</p>
 
     <h2>Where the news comes from</h2>
     <p>A fixed list of news outlets, checked hourly. Nothing outside that list is ever fetched,
     and every story on this site names the outlet it came from and links to the original
-    reporting. No quote, number or name appears here that the reporting doesn’t carry.</p>
-
-    <h2>Written with AI, reviewed by a human</h2>
-    <p>The stories are drafted by AI from that reporting and reviewed by a person before they
-    go out — there is a window on every post where it can be pulled. The Instagram account
-    carries the AI-generated label. Photographs come from Wikimedia Commons under a Creative
-    Commons or public-domain licence and are credited on the post.</p>
+    reporting. No quote, number or name appears here that the reporting doesn’t carry. Every
+    post is reviewed before it goes out, with a window in which it can be pulled.</p>
+    <p>Photographs come from Wikimedia Commons under a Creative Commons or public-domain
+    licence, and are credited on the story they appear with.</p>
 
     <h2>What this is for</h2>
-    <p>Not to tell your kid what to think. To hand you a version of the day’s news you can
-    say out loud at the age they are, and one question worth arguing about over dinner.</p>
+    <p>Not to tell your kid what to think. To hand you a version of the day’s news you can say
+    out loud at the age they are, and one question worth arguing about over dinner.</p>
   </div></section>
 """
 
