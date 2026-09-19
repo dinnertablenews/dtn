@@ -952,9 +952,11 @@ ABOUT = """
     fetched. Every story names its outlet and links to the original reporting, and no quote,
     number or name appears here that the reporting does not carry.</p>
     <p>Photographs come from Wikimedia Commons under a Creative Commons or public domain
-    licence, and are credited on the story they run with. Every post is human-crafted and
-    published. We use AI for image generation and for scanning news stories
-    consistently.</p>
+    licence, and are credited on the story they run with.</p>
+    <p>This tool was built by a parent who wants to help others talk about tough news with
+    their kids - a challenge he is living daily. The daily posts are produced with combined
+    human and AI input. I am committed to not adding more AI slop to the world while also
+    trying to stay technically efficient.</p>
   </div></section>
 """
 
