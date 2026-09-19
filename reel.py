@@ -2,7 +2,7 @@
 """Render a Dinner Table News post to a vertical reel (1080x1920) and its cover.
 
 usage: python reel.py posts/<slug>/post.json posts/<slug>/
-writes: reel.mp4 (20.5s, H.264 + silent AAC), reel-cover.jpg
+writes: reel.mp4 (20.5s, H.264 + silent AAC), reel-cover.jpg, reel-caption.txt
 
 The reel is not the carousel. It is the promise in five beats: the kid's question, then the one line
 a parent says at 5, at 10 and at 15, then the table question. The per-age lines are the "Try:"
@@ -212,10 +212,12 @@ def render_reel(post, outdir):
     for f in os.listdir(frames):
         os.remove(os.path.join(frames, f))
     os.rmdir(frames)
-    return out, os.path.join(outdir, "reel-cover.jpg"), total
+    cap = os.path.join(outdir, "reel-caption.txt")
+    open(cap, "w").write(render.build_caption(post, reel=True) + "\n")
+    return out, os.path.join(outdir, "reel-cover.jpg"), cap, total
 
 
 if __name__ == "__main__":
     post = json.load(open(sys.argv[1]))
-    mp4, jpg, secs = render_reel(post, sys.argv[2])
-    print(mp4); print(jpg); print(f"{secs:.1f}s", file=sys.stderr)
+    mp4, jpg, cap, secs = render_reel(post, sys.argv[2])
+    print(mp4); print(jpg); print(cap); print(f"{secs:.1f}s", file=sys.stderr)

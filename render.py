@@ -285,13 +285,18 @@ def table(p):
 SWIPE = "Swipe for what to say at 5, at 10, and at 15."
 
 
-def build_caption(p):
+def build_caption(p, reel=False):
     """The Instagram caption, in the standard order. The first line answers the cover question, so in the
-    feed the cover asks and the caption answers; the table question is the last thing before the hashtags."""
+    feed the cover asks and the caption answers; the table question is the last thing before the hashtags.
+
+    reel=True drops the swipe line. A reel has nothing to swipe, and it has already played the three ages
+    by the time anyone reads the caption. Everything else is identical, so the two formats say the same
+    thing about the same story and there is one place to change the wording."""
     source = f'Source: {p["outlet"]}, {p["source_domain"]}' + (f'\n{p["photo_credit"]}' if p.get("photo") and p.get("photo_credit") else "")
-    return "\n\n".join([p["cover_answer"], p["summary"], source, SWIPE,
-                        f'The dinner table question: {p["table_question"]} Tell us what your kid said, and how old they are.',
-                        " ".join(p["hashtags"])])
+    parts = [p["cover_answer"], p["summary"], source] + ([] if reel else [SWIPE]) + [
+        f'The dinner table question: {p["table_question"]} Tell us what your kid said, and how old they are.',
+        " ".join(p["hashtags"])]
+    return "\n\n".join(parts)
 
 
 def check_composite(p):
