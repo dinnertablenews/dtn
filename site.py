@@ -631,8 +631,6 @@ var t=localStorage.getItem('dtn-theme');if(t==='light'||t==='dark')r.setAttribut
 <main class="wrap" id="main">
 {body}
 <footer>
-  <div>Sources are a fixed list of news outlets, published on every story. Nothing outside it is
-  used, and no quote, number or name appears that the reporting doesn’t carry.</div>
   <div><a href="{attr(INSTAGRAM)}">@dinnertablenews</a> · {e(SITE_NAME)}, {date.today().year}</div>
 </footer>
 </main>
