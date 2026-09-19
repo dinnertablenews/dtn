@@ -46,9 +46,15 @@ BASE_URL = (os.environ.get("DTN_BASE_URL") or (f"https://{DOMAIN}" if DOMAIN els
 # empty the follow section renders the Instagram card instead of a dead form.
 # Buttondown account name. Setting it turns the signup form on; empty keeps the
 # Instagram card, because a box that does nothing is worse than an honest link.
-BUTTONDOWN = ""
+BUTTONDOWN = os.environ.get("DTN_BUTTONDOWN", "")
 EMAIL_FORM_ACTION = f"https://buttondown.com/api/emails/embed-subscribe/{BUTTONDOWN}" if BUTTONDOWN else ""
 EMAIL_FIELD = "email"          # the field name Buttondown's embed expects
+# Signup asks which ages a subscriber cares about. Everyone gets the same email --
+# all three ages, one send -- so this is not segmentation yet; it is the data that
+# would justify segmenting later, collected from the first subscriber rather than
+# retrofitted onto a list that never recorded it.
+AGE_FIELD = "tag"              # "tag", or "metadata__ages" if tags are not available
+AGE_VALUE = {b: f"ages-{b}" for b in ("5-7", "8-12", "13-17")}
 START = "September 13, 2026"   # first post; the archive says how far back it goes
 
 # ---- render.py's palette, restated (see the module docstring) --------------
@@ -250,6 +256,18 @@ section.block{padding-block:34px; border-top:1px solid var(--rule)}
 .chips button:hover{color:var(--fg)}
 .chips button[aria-pressed="true"]{color:var(--band); border-color:var(--band); background:var(--bandtint)}
 .note{font-size:13px; color:var(--dim); margin-top:10px; min-height:1.2em}
+.ageask{border:0; margin:14px 0 0; padding:0; display:flex; flex-wrap:wrap; gap:8px; align-items:center}
+.ageask legend{float:left; width:100%; font-size:13px; color:var(--dim); padding:0; margin-bottom:8px}
+.agebox{display:inline-flex}
+.agebox input{position:absolute; width:1px; height:1px; opacity:0; margin:0}
+.agebox span{display:inline-block; font-size:14px; font-weight:500; cursor:pointer; white-space:nowrap;
+  padding:7px 16px; border-radius:999px; border:1.5px solid var(--rule); color:var(--dim)}
+.agebox:nth-of-type(1) span{--band:var(--c57); --bandtint:var(--tint57)}
+.agebox:nth-of-type(2) span{--band:var(--c812); --bandtint:var(--tint812)}
+.agebox:nth-of-type(3) span{--band:var(--c1317); --bandtint:var(--tint1317)}
+.agebox input:checked + span{color:var(--band); border-color:var(--band); background:var(--bandtint)}
+.agebox input:focus-visible + span{outline:2px solid var(--band); outline-offset:2px}
+@media (max-width:440px){.agebox span{padding:7px 12px; font-size:13px}}
 .follow-card{display:flex; gap:16px; align-items:center; margin-top:16px; padding:18px 20px;
   background:var(--panel); border-radius:3px; flex-wrap:wrap}
 .follow-card .at{font-family:var(--display); font-size:19px}
@@ -351,6 +369,14 @@ BAND_JS = """
   for(var i=0;i<btns.length;i++)
     btns[i].addEventListener('click', function(){ window.dtnBand(this.getAttribute('data-band')); });
   sync();
+  // Start the signup boxes on the age the reader has been reading at. On load only:
+  // once they touch the boxes the answer is theirs, and switching the page age later
+  // must not quietly rewrite what they said.
+  var boxes=document.querySelectorAll('.agebox input');
+  if(boxes.length){
+    var cur=root.getAttribute('data-band');
+    for(var j=0;j<boxes.length;j++) boxes[j].checked = boxes[j].getAttribute('data-band')===cur;
+  }
 })();
 """
 
@@ -506,11 +532,22 @@ def story_block(p, up, *, heading=False):
 
 def follow_block(up):
     if EMAIL_FORM_ACTION:
-        form = (f'<form class="search" action="{attr(EMAIL_FORM_ACTION)}" method="post" target="_blank">'
-                f'<input id="email" name="{attr(EMAIL_FIELD)}" type="email" required '
-                f'placeholder="you@example.com" aria-label="Email address">'
-                f'<button type="submit">Subscribe</button></form>'
-                f'<div class="note">Free. Sent at 7am. Unsubscribe whenever.</div>')
+        # Checked by default for the band the reader is already on, synced by JS on load.
+        # Somebody who never touches these still tells us something, and a parent with a
+        # 6-year-old and a 14-year-old can say so -- hence checkboxes, not a segment.
+        boxes = "".join(
+            f'<label class="agebox"><input type="checkbox" name="{attr(AGE_FIELD)}" '
+            f'value="{attr(AGE_VALUE[b])}" data-band="{b}"'
+            f'{" checked" if b == DEFAULT_BAND else ""}><span>{LABEL[b]}</span></label>'
+            for b in BANDS)
+        form = (f'<form class="signup" action="{attr(EMAIL_FORM_ACTION)}" method="post">'
+                f'<div class="search"><input id="email" name="{attr(EMAIL_FIELD)}" type="email" '
+                f'required placeholder="you@example.com" aria-label="Email address">'
+                f'<button type="submit">Subscribe</button></div>'
+                f'<fieldset class="ageask"><legend>Which ages are you most interested in?</legend>'
+                f'{boxes}</fieldset></form>'
+                f'<div class="note">Free. Sent at 7am. Unsubscribe whenever. Every email carries '
+                f'all three ages — this just tells us who we’re writing for.</div>')
         return (f'<section class="block" id="follow"><div class="eyebrow">Every morning</div>'
                 f'<h2>One email. Three stories. Words for your kid’s age.</h2>{form}</section>')
     # No provider yet, so no form: a box that does nothing is worse than an honest card.

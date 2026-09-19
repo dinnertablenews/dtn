@@ -105,7 +105,28 @@ reason; they are the site's light-mode values converted once.
 
 Set `BUTTONDOWN` at the top of `site.py` to the account name and the signup form turns on.
 While it is empty the follow section shows the Instagram card instead — a form that posts
-nowhere is worse than an honest link.
+nowhere is worse than an honest link. `DTN_BUTTONDOWN=<name> python3 site.py` previews the
+form without committing a name.
+
+### What signup asks
+
+Everyone gets the same email — all three ages, one send. Signup still asks which ages a
+subscriber cares about, as checkboxes posting Buttondown `tag` values (`ages-5-7`,
+`ages-8-12`, `ages-13-17`).
+
+That is not segmentation, it is the evidence that would justify segmenting later. A list
+that never asked cannot be split without emailing everyone to ask, so the question is
+cheaper now than at any later point.
+
+The box for the age the reader has been reading at is checked on arrival, so somebody who
+ignores the question still answers it. It is set on load only: touching the page's age
+control afterwards must not rewrite what they said. Checkboxes rather than a single
+choice, because a parent with a 6-year-old and a 14-year-old has two honest answers.
+
+Two things to confirm against a real Buttondown account, both of which change one constant
+if they are wrong: that the embed endpoint accepts repeated `tag` fields for a multiple
+selection, and that tags are available on the plan in use. If they are not, set
+`AGE_FIELD = "metadata__ages"` and the same answers arrive as subscriber metadata.
 
 RSS-to-email is a paid add-on on top of Buttondown's free tier, which covers the first
 hundred subscribers.
