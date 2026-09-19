@@ -953,10 +953,11 @@ ABOUT = """
     number or name appears here that the reporting does not carry.</p>
     <p>Photographs come from Wikimedia Commons under a Creative Commons or public domain
     licence, and are credited on the story they run with.</p>
-    <p>This tool was built by a parent who wants to help others talk about tough news with
-    their kids - a challenge he is living daily. The daily posts are produced with combined
-    human and AI input. I am committed to not adding more AI slop to the world while also
-    trying to stay technically efficient.</p>
+    <p>This tool was built mostly late at night by me, a guy named Dan trying to figure out
+    how to talk to my young kiddos about tough news while encouraging them to engage the
+    world. The daily posts are produced with combined human and AI input. I am committed to
+    not adding more AI slop to the world while also trying to stay technologically
+    efficient.</p>
   </div></section>
 """
 
