@@ -12,6 +12,13 @@ on:
       - "fonts/**"
       - ".github/workflows/site.yml"
   workflow_dispatch:
+  # publish.py's commit is what flips a post to published, and publish.yml pushes it with
+  # actions/checkout's GITHUB_TOKEN. GitHub suppresses workflow triggers from that token to
+  # stop workflows recursing, so the one commit that matters most here cannot fire the push
+  # trigger above. Waiting on the Instagram workflow instead catches it.
+  workflow_run:
+    workflows: ["Instagram"]
+    types: [completed]
 
 permissions:
   contents: read
