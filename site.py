@@ -55,6 +55,9 @@ EMAIL_FIELD = "email"          # the field name Buttondown's embed expects
 # all three ages, one send -- so this is not segmentation yet; it is the data that
 # would justify segmenting later, collected from the first subscriber rather than
 # retrofitted onto a list that never recorded it.
+# Buttondown reads an input named `tag` as a tag by name or id, so the three tags below
+# have to exist in the Buttondown dashboard before the form goes live: a tag it does not
+# recognise is dropped and the subscriber is saved without it, silently.
 AGE_FIELD = "tag"              # "tag", or "metadata__ages" if tags are not available
 AGE_VALUE = {b: f"ages-{b}" for b in ("5-7", "8-12", "13-17")}
 START = "September 13, 2026"
@@ -1154,7 +1157,11 @@ def follow_block(up):
             f'value="{attr(AGE_VALUE[b])}" data-band="{b}"'
             f'{" checked" if b == DEFAULT_BAND else ""}><span>{LABEL[b]}</span></label>'
             for b in BANDS)
+        # embed=1 is what tells Buttondown the POST came from a form on someone else's
+        # page. Without it the endpoint answers as if it were its own hosted page, and
+        # a subscriber lands somewhere that does not look like this site.
         form = (f'<form class="signup" action="{attr(EMAIL_FORM_ACTION)}" method="post">'
+                f'<input type="hidden" name="embed" value="1">'
                 f'<div class="search"><input id="email" name="{attr(EMAIL_FIELD)}" type="email" '
                 f'required placeholder="you@example.com" aria-label="Email address">'
                 f'<button type="submit">Subscribe</button></div>'
