@@ -63,12 +63,11 @@ START = "September 13, 2026"
 # `sel` is the element it points at; a step whose element is missing is skipped, in
 # whichever direction the reader is moving. A step with no `sel` centres instead.
 TOUR = [
-    # The blank lines here and in the last step are real newlines: .tour-t is set with
-    # textContent and given white-space:pre-line, so the text stays text and still breaks
-    # into paragraphs.
-    {"sel": ".seg",
-     "text": "Welcome to Dinner Table News, from Dan!\n\n"
-             "Pick your child\u2019s age and every part of this site adapts with suggested "
+    # The first and last steps carry a title, set in the display serif. The blank line in
+    # the last step is a real newline: .tour-t is set with textContent and given
+    # white-space:pre-line, so the copy stays text and still breaks into paragraphs.
+    {"sel": ".seg", "title": "Welcome to Dinner Table News, from Dan!",
+     "text": "Pick your child\u2019s age and every part of this site adapts with suggested "
              "ways to talk about current news and age-appropriate questions for discussion, "
              "all guided by developmental psychology."},
     {"sel": ".stories article",
@@ -842,6 +841,11 @@ TOUR_JS = """
   share.addEventListener('click', function(){ if(window.dtnShare) window.dtnShare(); });
   document.addEventListener('keydown', key);
   window.addEventListener('resize', place); window.addEventListener('scroll', place);
+  // place() runs once, 60ms after a step is drawn. On a cold cache the webfonts land
+  // after that, the prompt beside the age pills reflows, and the spotlight is left
+  // pointing at where the pills used to be. A first visit is the only time the tour
+  // runs, so a cold cache is the normal case, not the edge one.
+  if(document.fonts && document.fonts.ready) document.fonts.ready.then(place).catch(function(){});
   i=find(0,1);
   if(i<0) return;                                  // nothing on this page to point at
   document.body.appendChild(root);
