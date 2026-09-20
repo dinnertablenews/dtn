@@ -1,14 +1,40 @@
 {
- "fetched_at": "2026-09-20T01:26:41.305521+00:00",
+ "fetched_at": "2026-09-20T02:27:50.294284+00:00",
  "window_hours": 48,
- "count": 348,
+ "count": 341,
  "errors": [],
  "items": [
   {
-   "title": "Ed Sheeran admits 'mistakes' as he addresses Macklemore controversy",
+   "title": "Ed Sheeran plays first concert since Macklemore controversy",
+   "link": "https://www.bbc.co.uk/news/articles/c64gvqg0k27po?at_medium=RSS&at_campaign=rss",
+   "summary": "The show in Philadelphia comes after rapper Macklemore was dropped from Ed Sheeran's tour over pro-Palestinian comments.",
+   "published": "2026-09-20T02:00:23+00:00",
+   "source": "bbc",
+   "outlet": "BBC News",
+   "counted": true,
+   "section": "top",
+   "id": "37d3f4b49b5c",
+   "article_url": "https://www.bbc.co.uk/news/articles/c64gvqg0k27po?at_medium=RSS&at_campaign=rss",
+   "has_text": true
+  },
+  {
+   "title": "Saudi Arabia says Houthis tried to attack its capital, and other Mideast developments",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNb3ZQdTJKbzNUNVFFeGV0NG0xYTlhTURSZ24wTGRxWUVsNFc3cUswUHpFWWFuM0piU1kxVmZlWURxbnZkT1Zvc0gxNHZPaVQ0di1hTmRoTDA1Z3Nib3phUjkycVIwN3czNlBDZl9tb2tpZ0liSVItaGVpQmpBUTEwSDl5UnZOTnhZdlh2UjcyRjAwSkFGN0N1UjBPcWp3NVE?oc=5",
+   "summary": "Saudi Arabia says Houthis tried to attack its capital, and other Mideast developments AP News",
+   "published": "2026-09-20T01:46:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "8b698d40077f",
+   "article_url": "https://apnews.com/article/mideast-roundup-news-september-19-2026-24211a3b34731a669f3e7ab93314afdf",
+   "has_text": false
+  },
+  {
+   "title": "Ed Sheeran admits 'mistakes' as he addresses Macklemore controversy at Philadelphia show",
    "link": "https://www.bbc.co.uk/news/articles/cm780ll1de18o?at_medium=RSS&at_campaign=rss",
-   "summary": "The mega-star singer spoke about the issue at his first concert since rapper Macklemore was removed from his tour and other artists dropped out.",
-   "published": "2026-09-20T01:10:01+00:00",
+   "summary": "The mega-star spoke about Israel and Gaza at his first concert since rapper Macklemore was removed from his tour.",
+   "published": "2026-09-20T01:38:30+00:00",
    "source": "bbc",
    "outlet": "BBC News",
    "counted": true,
@@ -16,6 +42,45 @@
    "id": "0efc6b0404dc",
    "article_url": "https://www.bbc.co.uk/news/articles/cm780ll1de18o?at_medium=RSS&at_campaign=rss",
    "has_text": true
+  },
+  {
+   "title": "Trump returns to White House as State Department issues security alerts for Middle East",
+   "link": "https://thehill.com/homenews/administration/6100118-trump-returns-camp-david-early/",
+   "summary": "President Trump cut his weekend trip to Camp David short a day early, returning to Washington, D.C., on Saturday evening. The president touched down at the Ellipse just before 8 p.m., according to a White House pool report. The White House’s official social media account shared a video clip of Trump departing Marine One. The…",
+   "published": "2026-09-20T01:28:05+00:00",
+   "source": "thehill",
+   "outlet": "The Hill",
+   "counted": true,
+   "section": "top",
+   "id": "5e2fa51fee82",
+   "article_url": "https://thehill.com/homenews/administration/6100118-trump-returns-camp-david-early/",
+   "has_text": false
+  },
+  {
+   "title": "Ed Sheeran says situation in Gaza is 'catastrophic and unjustifiable' as he opens solo concert",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNR3o0V1lsZ2NpZEo4ZUFUYXJpSTRPWncyYktqOVVJQ09XblgydWdTdDY0V3AzazJlU1R6RmVHSFhvZlBKY2RYR1JOdWd3TG80em91NEdpMi1EQkNjN0lsdVJDaE9xVHc1ajgyMndpSFA0T1MzUDJJQWJDUjl3SjNyN1FhNVprS1MwODBjU0V5bFhkdHNJNTRObVAwQVBhSWFjbHlseA?oc=5",
+   "summary": "Ed Sheeran says situation in Gaza is 'catastrophic and unjustifiable' as he opens solo concert AP News",
+   "published": "2026-09-20T01:26:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "df2590824afc",
+   "article_url": "https://apnews.com/article/ed-sheeran-concert-macklemore-philadelphia-d452b6eadff285553b20c558191886bb",
+   "has_text": false
+  },
+  {
+   "title": "US military says it killed four in strike on alleged drug-smuggling boat in the Caribbean",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTEZWWk9aYllZSnhGUXMzR3otZjAwZ2EwYi1lWGpQdC1IaXhCdFdnTEVJTVRFWDdBQmJTbTQ4S28xbXl6TmxDWlltQ2hDdW9rQXFmU1ZkOXdIeDl3Ykc5WXo5bDJRaGFDcnZjY1Azdi1VbXplS3oyby16VlJ0WXZQS05Jb2gyNlhOWGNXbGZnMko1WGFPcktGaWQ2WUtpLVFo?oc=5",
+   "summary": "US military says it killed four in strike on alleged drug-smuggling boat in the Caribbean AP News",
+   "published": "2026-09-20T00:38:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "fe9b33ccf290",
+   "article_url": "https://apnews.com/article/trump-cartels-military-strike-caribbean-95f3d4ae10f8e2a4a193f601101898d9",
+   "has_text": false
   },
   {
    "title": "Kentucky stuns No. 9 Texas A&M 31-21 in coach Will Stein’s first road game",
@@ -31,17 +96,17 @@
    "has_text": false
   },
   {
-   "title": "Ed Sheeran plays first concert since Macklemore controversy",
-   "link": "https://www.bbc.co.uk/news/articles/c64gvqg0k27po?at_medium=RSS&at_campaign=rss",
-   "summary": "The show in Philadelphia comes after rapper Macklemore was dropped from Ed Sheeran's tour over pro-Palestinian comments.",
-   "published": "2026-09-20T00:20:46+00:00",
-   "source": "bbc",
-   "outlet": "BBC News",
+   "title": "Fans in Ole Miss’ Grove mock Lane Kiffin but tout their ‘hospitality’ as he returns with LSU",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOdmxtLWx1U2VhcElVMzBTanVFaFlwWUt3Uk00eW9tVEwzNzZySmpVcFBUazAxZ29VbVZzS095eHl0R2tid0w5TEVVZ19RZjc3QWlGR2pHTzROODM5cHF3SlhScmFWLXFRa1Z1TkkyUWtJQWpMdlI5Z3lPdWhQSkhhdEZfd2l5WE5Fd3BkRg?oc=5",
+   "summary": "Fans in Ole Miss’ Grove mock Lane Kiffin but tout their ‘hospitality’ as he returns with LSU AP News",
+   "published": "2026-09-20T00:24:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
    "counted": true,
    "section": "top",
-   "id": "37d3f4b49b5c",
-   "article_url": "https://www.bbc.co.uk/news/articles/c64gvqg0k27po?at_medium=RSS&at_campaign=rss",
-   "has_text": true
+   "id": "6fb0dcff042f",
+   "article_url": "https://apnews.com/article/lane-kiffin-lsu-ole-miss-df25946d1bf7268861dc4e2c9dd27184",
+   "has_text": false
   },
   {
    "title": "Music City Miscue gives Vanderbilt a win over NC State no one saw coming",
@@ -67,6 +132,19 @@
    "section": "top",
    "id": "4799dc0c9db3",
    "article_url": "https://thehill.com/homenews/campaign/6100079-trumps-maga-inc-funnels-another-5-million-into-texas-senate-race/",
+   "has_text": false
+  },
+  {
+   "title": "Al-Qaida-linked JNIM claims a deadly Mali army camp attack and releases video of captured soldiers",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSkhLVXZNYXJXaEhjc19Ub1E2R2ZEbkhqcEhDQ1NfbjYyYWlzaG9LbDVOUGR6WVBETEQ5ZG5pZEJEMjAyVV9zd0JqeE9qc0s3bVlTVDA5dEJsWE1vY1U2Q0h1OWpVTkpreVgtYU50ZnRWQlBpM045eG1LTGhZYXZJMEVwVmJocm91a3Vz?oc=5",
+   "summary": "Al-Qaida-linked JNIM claims a deadly Mali army camp attack and releases video of captured soldiers AP News",
+   "published": "2026-09-19T23:53:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "0591b75ec308",
+   "article_url": "https://apnews.com/article/mali-violence-jnim-army-c7d91be85e579738eae0d57ac561acef",
    "has_text": false
   },
   {
@@ -96,16 +174,16 @@
    "has_text": false
   },
   {
-   "title": "Obituaries: Notable people who died",
-   "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBpdWQyT05UUDAyTVM0UlR4VGNtWFhZa1FGdWFwVlVCRmpCclY1YVhrYmVWS2NMeU9mR2ZTVlBvX090Y3dEdjVxUw?oc=5",
-   "summary": "Obituaries: Notable people who died AP News",
-   "published": "2026-09-19T23:23:18+00:00",
+   "title": "Clemson rallies to beat North Carolina 28-20 after game turns following 2 1/2-hour weather delay",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZUxDNTBQWmt4dFo3R3B4VmZQVm5mRjY3WVpIZEVSaXE3RGZhMXhYTlFmUlExT0l1U1E3bWxUQVhjRG5jd1pZYklyUUtwNnNVUWdMX0tHNktscEJFQ2Z3QzdUdGxOOEppNXA1dTdfbWMtcGVsemRheEpOOUZVczROMjBySDhDbXV2YWtuQXJFRHhFZw?oc=5",
+   "summary": "Clemson rallies to beat North Carolina 28-20 after game turns following 2 1/2-hour weather delay AP News",
+   "published": "2026-09-19T23:22:00+00:00",
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
    "section": "top",
-   "id": "1bd3c6c06241",
-   "article_url": "https://apnews.com/hub/obituaries",
+   "id": "1680dc89218f",
+   "article_url": "https://apnews.com/article/north-carolina-clemson-score-b85848b4d29926388c8433f007d103ca",
    "has_text": false
   },
   {
@@ -187,16 +265,42 @@
    "has_text": true
   },
   {
-   "title": "Ed Sheeran is set to return to stage for 1st time since Macklemore was cut and other acts withdrew",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNR3o0V1lsZ2NpZEo4ZUFUYXJpSTRPWncyYktqOVVJQ09XblgydWdTdDY0V3AzazJlU1R6RmVHSFhvZlBKY2RYR1JOdWd3TG80em91NEdpMi1EQkNjN0lsdVJDaE9xVHc1ajgyMndpSFA0T1MzUDJJQWJDUjl3SjNyN1FhNVprS1MwODBjU0V5bFhkdHNJNTRObVAwQVBhSWFjbHlseA?oc=5",
-   "summary": "Ed Sheeran is set to return to stage for 1st time since Macklemore was cut and other acts withdrew AP News",
-   "published": "2026-09-19T22:51:00+00:00",
+   "title": "Obituaries: Notable people who died",
+   "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBpdWQyT05UUDAyTVM0UlR4VGNtWFhZa1FGdWFwVlVCRmpCclY1YVhrYmVWS2NMeU9mR2ZTVlBvX090Y3dEdjVxUw?oc=5",
+   "summary": "Obituaries: Notable people who died AP News",
+   "published": "2026-09-19T22:57:31+00:00",
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
    "section": "top",
-   "id": "df2590824afc",
-   "article_url": "https://apnews.com/article/ed-sheeran-concert-macklemore-philadelphia-d452b6eadff285553b20c558191886bb",
+   "id": "1bd3c6c06241",
+   "article_url": "https://apnews.com/hub/obituaries",
+   "has_text": false
+  },
+  {
+   "title": "Vanderbilt stuns N.C. State with fumble recovery in end zone for improbable 35-31 win",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWGpKb1NiZmZBTFEwelppTGgxVWZrNzROMkdhUW9sdFNreUc5WHIzcnllelJhbnFiMmVRNk9sUUc0SGdCQW1vRFdLY0gyX3FXTF9PZHU5SjVTaFRXZk42ZXUxUGp4NjA2all1RjcyWV9BeEJTU0VzSXAzQmpsU0Rra3E5R08yNWg3LXBYbHV3?oc=5",
+   "summary": "Vanderbilt stuns N.C. State with fumble recovery in end zone for improbable 35-31 win AP News",
+   "published": "2026-09-19T22:55:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "bafd2d996e74",
+   "article_url": "https://apnews.com/article/nc-state-vanderbilt-score-77112ed0d14a03da7010fabd2780d332",
+   "has_text": false
+  },
+  {
+   "title": "Florida State-Alabama is delayed again by lightning in Tuscaloosa",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQeXQzU1dKX3l6US1NR29SMEFTU2taWHo2SFNHc0Nld2pab2JYcHJCOVF0LV9yWmg4cGdHQUdEWjVrVDFYek5UWnNFSDY0enFuMG1UMFZ6d0pLUWhPUVg2dXNxSjBCT0ZSZFIwTWZGRkJhRzRaYk1jeEdWc1dqQVBTVGpSY2t4ZHExQ1RkTlc4bU4yR0FRUVlSZ1Fqb1k3dw?oc=5",
+   "summary": "Florida State-Alabama is delayed again by lightning in Tuscaloosa AP News",
+   "published": "2026-09-19T22:46:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "272b1bf70290",
+   "article_url": "https://apnews.com/article/alabama-florida-state-lightning-delay-74656d794e0f03d58ee12a89ab17fe0a",
    "has_text": false
   },
   {
@@ -252,19 +356,6 @@
    "has_text": false
   },
   {
-   "title": "Clemson rallies to beat North Carolina 28-20 after game turns following 2 1/2-hour weather delay",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZUxDNTBQWmt4dFo3R3B4VmZQVm5mRjY3WVpIZEVSaXE3RGZhMXhYTlFmUlExT0l1U1E3bWxUQVhjRG5jd1pZYklyUUtwNnNVUWdMX0tHNktscEJFQ2Z3QzdUdGxOOEppNXA1dTdfbWMtcGVsemRheEpOOUZVczROMjBySDhDbXV2YWtuQXJFRHhFZw?oc=5",
-   "summary": "Clemson rallies to beat North Carolina 28-20 after game turns following 2 1/2-hour weather delay AP News",
-   "published": "2026-09-19T22:11:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "1680dc89218f",
-   "article_url": "https://apnews.com/article/north-carolina-clemson-score-b85848b4d29926388c8433f007d103ca",
-   "has_text": false
-  },
-  {
    "title": "For Palestinian aid groups, Macklemore's $1M pledge brings relief and attention to ongoing suffering",
    "link": "https://www.pbs.org/newshour/arts/for-palestinian-aid-groups-macklemores-1m-pledge-brings-relief-and-attention-to-ongoing-suffering",
    "summary": "Macklemore committed to donate his net earnings from Ed Sheeran's Loop Tour after he was dropped for making pro-Palestinian comments onstage at New Jersey's MetLife Stadium.",
@@ -301,19 +392,6 @@
    "section": "top",
    "id": "38370734ffb4",
    "article_url": "https://apnews.com/article/antitrust-lawsuit-ai-slowdown-anthropic-openai-spacexai-google-960af4308161eaf4ed13c383b0ce1c1b",
-   "has_text": false
-  },
-  {
-   "title": "Saudi Arabia says Houthis tried to attack its capital, and other Mideast developments",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNb3ZQdTJKbzNUNVFFeGV0NG0xYTlhTURSZ24wTGRxWUVsNFc3cUswUHpFWWFuM0piU1kxVmZlWURxbnZkT1Zvc0gxNHZPaVQ0di1hTmRoTDA1Z3Nib3phUjkycVIwN3czNlBDZl9tb2tpZ0liSVItaGVpQmpBUTEwSDl5UnZOTnhZdlh2UjcyRjAwSkFGN0N1UjBPcWp3NVE?oc=5",
-   "summary": "Saudi Arabia says Houthis tried to attack its capital, and other Mideast developments AP News",
-   "published": "2026-09-19T22:03:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "8b698d40077f",
-   "article_url": "https://apnews.com/article/mideast-roundup-news-september-19-2026-24211a3b34731a669f3e7ab93314afdf",
    "has_text": false
   },
   {
@@ -356,19 +434,6 @@
    "has_text": false
   },
   {
-   "title": "Vanderbilt stuns N.C. State with fumble recovery in end zone for improbable 35-31 win",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWGpKb1NiZmZBTFEwelppTGgxVWZrNzROMkdhUW9sdFNreUc5WHIzcnllelJhbnFiMmVRNk9sUUc0SGdCQW1vRFdLY0gyX3FXTF9PZHU5SjVTaFRXZk42ZXUxUGp4NjA2all1RjcyWV9BeEJTU0VzSXAzQmpsU0Rra3E5R08yNWg3LXBYbHV3?oc=5",
-   "summary": "Vanderbilt stuns N.C. State with fumble recovery in end zone for improbable 35-31 win AP News",
-   "published": "2026-09-19T21:16:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "bafd2d996e74",
-   "article_url": "https://apnews.com/article/nc-state-vanderbilt-score-77112ed0d14a03da7010fabd2780d332",
-   "has_text": false
-  },
-  {
    "title": "Trump says US will form 'AI Force' and appoint an artificial intelligence tsar",
    "link": "https://www.bbc.co.uk/news/articles/cqlykr2vrv04o?at_medium=RSS&at_campaign=rss",
    "summary": "The president said his administration \"will not in any way hinder or stifle the growth\" amid amid warnings about the emergent technology.",
@@ -380,6 +445,19 @@
    "id": "95d2a0c94c5e",
    "article_url": "https://www.bbc.co.uk/news/articles/cqlykr2vrv04o?at_medium=RSS&at_campaign=rss",
    "has_text": true
+  },
+  {
+   "title": "Nobel laureate Narges Mohammadi tells the AP that Iranians paying the price for war and repression",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRmlzTnd1RkxNeWcyaDBTMmdoY0FxdU9FVGFZd1NIWHFLWjRIZHR5Z083Tk1lUVlTNGJZRndfOERTXy0tVzUzcHdfU1BqeGw2SU0zRXJsbTBHQlIzbUtsdTFCRHFFbWRsM0xBT0Y4Uzl1S0FzYUpxMWpKRk5rVE5SS2ZHQ0RCWEw5NW9EaGo2LVN5RndVREN3eUtR?oc=5",
+   "summary": "Nobel laureate Narges Mohammadi tells the AP that Iranians paying the price for war and repression AP News",
+   "published": "2026-09-19T21:01:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "35368bd02fa9",
+   "article_url": "https://apnews.com/article/iran-us-war-narges-mohammadi-nobel-6bdfbd3fd84e4bab4d0b01176df9c7c0",
+   "has_text": false
   },
   {
    "title": "Lawmakers see waste in DOGE’s ‘stupid’ $7B buyout costs",
@@ -499,32 +577,6 @@
    "has_text": true
   },
   {
-   "title": "Nobel laureate Narges Mohammadi tells the AP that Iranians paying the price for war and repression",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRmlzTnd1RkxNeWcyaDBTMmdoY0FxdU9FVGFZd1NIWHFLWjRIZHR5Z083Tk1lUVlTNGJZRndfOERTXy0tVzUzcHdfU1BqeGw2SU0zRXJsbTBHQlIzbUtsdTFCRHFFbWRsM0xBT0Y4Uzl1S0FzYUpxMWpKRk5rVE5SS2ZHQ0RCWEw5NW9EaGo2LVN5RndVREN3eUtR?oc=5",
-   "summary": "Nobel laureate Narges Mohammadi tells the AP that Iranians paying the price for war and repression AP News",
-   "published": "2026-09-19T20:29:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "35368bd02fa9",
-   "article_url": "https://apnews.com/article/iran-us-war-narges-mohammadi-nobel-6bdfbd3fd84e4bab4d0b01176df9c7c0",
-   "has_text": false
-  },
-  {
-   "title": "Al-Qaida-linked JNIM claims a deadly Mali army camp attack and releases video of captured soldiers",
-   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSkhLVXZNYXJXaEhjc19Ub1E2R2ZEbkhqcEhDQ1NfbjYyYWlzaG9LbDVOUGR6WVBETEQ5ZG5pZEJEMjAyVV9zd0JqeE9qc0s3bVlTVDA5dEJsWE1vY1U2Q0h1OWpVTkpreVgtYU50ZnRWQlBpM045eG1LTGhZYXZJMEVwVmJocm91a3Vz?oc=5",
-   "summary": "Al-Qaida-linked JNIM claims a deadly Mali army camp attack and releases video of captured soldiers AP News",
-   "published": "2026-09-19T19:48:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "0591b75ec308",
-   "article_url": "https://apnews.com/article/mali-violence-jnim-army-c7d91be85e579738eae0d57ac561acef",
-   "has_text": false
-  },
-  {
    "title": "Israel's president pardons a combat medic whose shooting of a Palestinian attacker caused debate",
    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTnNGakkyQ1l0eExtOVhaOVpNYVdqTFFrZUpYeEZiOUM2NDh2cVpzMzBuWE0tckNDTGsySFM2cXpKY3E4UmJuTXRWbmhOWXItNl83ZTY4TDYwRlN3YmdDc0xVSEJoSklueGZtZlY5b0xzQno0NThfOHc3SGVORDY4cXUzVUxCTDRSeW9UNEFCVW5UcGxWRWpwek5HSk9NTWRBUDd6cE9YYzBST3pyZENZakFKd29ZVUpa?oc=5",
    "summary": "Israel's president pardons a combat medic whose shooting of a Palestinian attacker caused debate AP News",
@@ -535,19 +587,6 @@
    "section": "top",
    "id": "f3047063074f",
    "article_url": "https://apnews.com/article/israel-soldier-pardon-azaria-president-palestinian-killed-a8eb6b38bfc697554fd39d25c2b3faad",
-   "has_text": false
-  },
-  {
-   "title": "Florida State-Alabama kickoff is delayed by lightning in Tuscaloosa",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQeXQzU1dKX3l6US1NR29SMEFTU2taWHo2SFNHc0Nld2pab2JYcHJCOVF0LV9yWmg4cGdHQUdEWjVrVDFYek5UWnNFSDY0enFuMG1UMFZ6d0pLUWhPUVg2dXNxSjBCT0ZSZFIwTWZGRkJhRzRaYk1jeEdWc1dqQVBTVGpSY2t4ZHExQ1RkTlc4bU4yR0FRUVlSZ1Fqb1k3dw?oc=5",
-   "summary": "Florida State-Alabama kickoff is delayed by lightning in Tuscaloosa AP News",
-   "published": "2026-09-19T19:32:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "272b1bf70290",
-   "article_url": "https://apnews.com/article/alabama-florida-state-lightning-delay-74656d794e0f03d58ee12a89ab17fe0a",
    "has_text": false
   },
   {
@@ -1019,19 +1058,6 @@
    "has_text": true
   },
   {
-   "title": "These were the hottest baby names 50 years ago. What happened?",
-   "link": "https://thehill.com/homenews/state-watch/6095581-these-were-the-hottest-baby-names-50-years-ago-what-happened/",
-   "summary": "There's a good chance that, if you're in your 50s, your name is one of three that were topping the charts in the 1970s.",
-   "published": "2026-09-19T14:00:00+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "81686f8981d7",
-   "article_url": "https://thehill.com/homenews/state-watch/6095581-these-were-the-hottest-baby-names-50-years-ago-what-happened/",
-   "has_text": false
-  },
-  {
    "title": "Beware of politicians claiming to protect us from the press",
    "link": "https://thehill.com/opinion/white-house/6099102-beware-of-politicians-claiming-to-protect-us-from-the-press/",
    "summary": "This week, it became apparent that everyone believes in a free press, as long as it costs them nothing. Politicians in both parties are now using their offices to insulate themselves from opposing coverage — all in the name of protecting the public or the press. President Trump has ordered the banning of critical media…",
@@ -1042,6 +1068,19 @@
    "section": "top",
    "id": "e9ae37e06bdd",
    "article_url": "https://thehill.com/opinion/white-house/6099102-beware-of-politicians-claiming-to-protect-us-from-the-press/",
+   "has_text": false
+  },
+  {
+   "title": "These were the hottest baby names 50 years ago. What happened?",
+   "link": "https://thehill.com/homenews/state-watch/6095581-these-were-the-hottest-baby-names-50-years-ago-what-happened/",
+   "summary": "There's a good chance that, if you're in your 50s, your name is one of three that were topping the charts in the 1970s.",
+   "published": "2026-09-19T14:00:00+00:00",
+   "source": "thehill",
+   "outlet": "The Hill",
+   "counted": true,
+   "section": "top",
+   "id": "81686f8981d7",
+   "article_url": "https://thehill.com/homenews/state-watch/6095581-these-were-the-hottest-baby-names-50-years-ago-what-happened/",
    "has_text": false
   },
   {
@@ -1654,19 +1693,6 @@
    "has_text": false
   },
   {
-   "title": "Iran claims it struck an oil tanker in the Strait of Hormuz, and other Mideast developments",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNeWdlRjU5QTRNU0tfUUpTVW1iYUNBQ3hWejBlMVBaWTFEbFh1MkVtM1QzamhsY240NFQ3aW1vTUdMb0JaVUk2QWY1WE9SZWNqLUpzWVI4OFpyWlN1b0pXTW5vZzNEc3ZqZV9wdVowMGpzeHJub1ZFTWtoZGRyRklIbnR2d19mOVhhWG5GdkxTdTB1bktBRHFMSlVGbEZ5Mk0?oc=5",
-   "summary": "Iran claims it struck an oil tanker in the Strait of Hormuz, and other Mideast developments AP News",
-   "published": "2026-09-19T02:09:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "87e3e8446bf1",
-   "article_url": "https://apnews.com/article/mideast-roundup-news-september-18-2026-024350a0820dfc5dd433b4e13445fab5",
-   "has_text": false
-  },
-  {
    "title": "Trump will be at the airport to greet Xi when China’s leader arrives for his US state visit",
    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUjJoa0s0MVoxaWNVcnZ5b2FJUzFaUWFhY3BmNU0zV0o4d0kxTVVKcEhpejFnOFF6WFkyTnhXQzFkNGJJSE9GYlhEdWdjUWhIOVBsQU5yeVlWc011dERkUVlDbFM1bjBxOUtRTUVXazRjbWwxNVRFc1p0TS05TmI5S1EzdlhYdlRJS2tTQlQwNzkzSXlva3dmeA?oc=5",
    "summary": "Trump will be at the airport to greet Xi when China’s leader arrives for his US state visit AP News",
@@ -1674,7 +1700,7 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "top",
+   "section": "climate",
    "id": "1c5e94e6db10",
    "article_url": "https://apnews.com/article/trump-xi-china-state-visit-dinner-04b29a32b6a47da55a642d4415415d7f",
    "has_text": false
@@ -1687,7 +1713,7 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "top",
+   "section": "climate",
    "id": "fbfd701179d7",
    "article_url": "https://apnews.com/article/trump-kennedy-center-demolish-protest-fc4538e47c6541fae7b7b51862fd96ae",
    "has_text": false
@@ -1700,22 +1726,9 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "top",
+   "section": "climate",
    "id": "fb3b9239a0d2",
    "article_url": "https://apnews.com/article/fever-tempo-score-6a855e0b134ad6488b258bf5b9462d52",
-   "has_text": false
-  },
-  {
-   "title": "Yankees slugger Aaron Judge to miss most or all of rest of regular season with a right calf strain",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVzhJRjAyTG9fTjhHci04d0N4bWJKdHZMUkRLQmFMSENlTVk3Y3NCaF9BSmEzOHVsdzVFSXRTRWU5SHFLWmdTRzBTYXp0RkJBNGx3c3BaUENyaWt4Zm9TT1hxUTliSkMtajJsNzVNVHEwa2RGM3VoZ0s0OTVzWXU3VEhMYjVUSkkxZFNWaU9YQ19xMlhZa2d6VlR3dw?oc=5",
-   "summary": "Yankees slugger Aaron Judge to miss most or all of rest of regular season with a right calf strain AP News",
-   "published": "2026-09-19T01:46:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "7e8f173fede8",
-   "article_url": "https://apnews.com/article/new-york-yankees-aaron-judge-injury-610a7863f39abec181ad215be86b1dcf",
    "has_text": false
   },
   {
@@ -1964,6 +1977,19 @@
    "id": "4218bb874764",
    "article_url": "https://www.bbc.co.uk/news/articles/cwp93k9gpnv1o?at_medium=RSS&at_campaign=rss",
    "has_text": true
+  },
+  {
+   "title": "Lions have a lot of things to fix after 2 tough games in 4 days",
+   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1lWDEtVFNHVnE5Vy02MC1BcFQ5SGZ3a2F1WmE1eGh6SG1fZEFCam5zOFI0SkJmOHZ3QndFVTFwVndDb1I0NlRGUmpKODVCNklTTUE2OHppcEJOZFhMQnVKQ21Edlg1NFppMHIyWjAxWUpmelE0OUhzckhFSWFMZw?oc=5",
+   "summary": "Lions have a lot of things to fix after 2 tough games in 4 days AP News",
+   "published": "2026-09-18T23:00:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "428c51cbe08d",
+   "article_url": "https://apnews.com/article/detroit-lions-d2db0689a351bcfcc92f239e0fed1601",
+   "has_text": false
   },
   {
    "title": "Parents awarded $40 million after Uber found liable for passenger who was fatally struck on highway",
@@ -2327,19 +2353,6 @@
    "section": "climate",
    "id": "4fd2fb27dcd3",
    "article_url": "https://apnews.com/article/migrants-deportation-us-jamaica-f75e9ef2762045cf4320c9b5f4182535",
-   "has_text": false
-  },
-  {
-   "title": "Potential Democratic candidates race to respond to AI threat amid Trump’s dismissals",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTXJ0WkVadWJqbk9xRUxYMWtWOEdXdUlJRVZqV2ZnT0pGdThoSzZRMTNUN0sySU9vYnhtRmFmSGpCMG43ci1RVmtKdVo0OWpSTDZWVy1iWTBvZzNkenVIMkFsOGVtd3Y3Rmxfem9DbWRrUzY1TUhKQmpTNXo4Wk1XRzB2N3k2Q2oybmlkdVFneV9jaFhBV1R0RnAwOVdGVk5zRjFKZVBDZVVuakVLQ1E?oc=5",
-   "summary": "Potential Democratic candidates race to respond to AI threat amid Trump’s dismissals AP News",
-   "published": "2026-09-18T21:53:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "f3cfb6610ad5",
-   "article_url": "https://apnews.com/article/ai-trump-democrats-newsom-shapiro-warnings-danger-10cdebf21fd6dfcfc46676b0f095bb2c",
    "has_text": false
   },
   {
@@ -3145,19 +3158,6 @@
    "has_text": false
   },
   {
-   "title": "In ‘If I Go Will They Miss Me,’ a family seeks healing under the LAX flight path",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORmh4aFN1czhmVWtQMWF0NlZ0Y25nTmhQUkRzMm1TakxkaGdXU2ZmTlVoMHM4d29rRzRFb0hiOWkyY0VQeWlseW01UGlMQUVwUW5qMGJkUlFnVDhlYXI5c3FBVnNCaGdOMUxYell2ejVpUHctWjZzakQ0WDlYRV9vckprWGxSSkVWUXQwQmln?oc=5",
-   "summary": "In ‘If I Go Will They Miss Me,’ a family seeks healing under the LAX flight path AP News",
-   "published": "2026-09-18T16:38:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "f32aa5836a8c",
-   "article_url": "https://apnews.com/article/if-i-go-will-they-miss-me-3b71481591bf91eab794a0855304253f",
-   "has_text": false
-  },
-  {
    "title": "Where Trump’s hunting, fishing order will have the most impact",
    "link": "https://thehill.com/homenews/administration/6098165-trump-burgum-hunting-fishing/",
    "summary": "President Trump signed new executive orders Thursday aimed at expanding hunting and fishing access in the U.S., rolling back restrictions on these activities. The president unveiled “Reinvigorating America’s Hunting Heritage” and “Restoring American Saltwater Angling and Recreation” during a Thursday White House Rose Garden dinner with more than 100 hunters, anglers and outdoor officials. “We…",
@@ -3468,19 +3468,6 @@
    "has_text": false
   },
   {
-   "title": "Mets' Jared Young has concussion symptoms, CT scan negative after scary collision with Nolan McLean",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOLURjTFg4VFRiQnI2S0pNWkk1UkZPZG9CZW5wSU0wcW1Lelg2dU94blU1TVlMUVkxdzZoSjdzQndYRlFzRGQybDM5NjQxenlvRnVJZVNQaXVWOXQxMHZLNHNhODhKZEVYSl9CT1czdDdkN3hUMXlfaEdtYndxR0t1WkRwZVktdU80MFVXRWtseHI?oc=5",
-   "summary": "Mets' Jared Young has concussion symptoms, CT scan negative after scary collision with Nolan McLean AP News",
-   "published": "2026-09-18T14:34:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "7132ea1c9b27",
-   "article_url": "https://apnews.com/article/young-mclean-collision-mets-16f6d07832f9d0e367233559fc649089",
-   "has_text": false
-  },
-  {
    "title": "Europe wants Canada in but keeps Turkey out",
    "link": "https://thehill.com/opinion/international/6095590-turkey-eu-membership-stymied/",
    "summary": "Von der Leyen called Canada the \"first associate member of the EU,\" but Turkey has been an associate member for over six decades.",
@@ -3491,6 +3478,19 @@
    "section": "top",
    "id": "775816510187",
    "article_url": "https://thehill.com/opinion/international/6095590-turkey-eu-membership-stymied/",
+   "has_text": false
+  },
+  {
+   "title": "Kremlin orders Russia businesses of Nestle, Auchan seized",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVkFjeC1SX1pvaTJSM0M1MVRWTkdjZEhpWFFiZjZIUGZjVEk1cVZNTi1oaURXcGFzbC1IR1dLaTRNOTdMeXJtckdlVnlWZUYySURybGlUUll0Rkd6d3BLWk1NdTBzZHZPdjFOd2VhRnZjakViZ1JpdG1aQnlCQnZhQzR3enVmcWlBclFWOGJPRG52X2xCM1o2Vnp3?oc=5",
+   "summary": "Kremlin orders Russia businesses of Nestle, Auchan seized AP News",
+   "published": "2026-09-18T14:10:37+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "3890f0d15dd6",
+   "article_url": "https://apnews.com/article/russia-ukraine-nestle-auchan-putin-db90782aa5510cef0eeba61ef8969ab5",
    "has_text": false
   },
   {
@@ -3533,16 +3533,16 @@
    "has_text": false
   },
   {
-   "title": "Kremlin orders Russia businesses of Nestle, Auchan seized",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVkFjeC1SX1pvaTJSM0M1MVRWTkdjZEhpWFFiZjZIUGZjVEk1cVZNTi1oaURXcGFzbC1IR1dLaTRNOTdMeXJtckdlVnlWZUYySURybGlUUll0Rkd6d3BLWk1NdTBzZHZPdjFOd2VhRnZjakViZ1JpdG1aQnlCQnZhQzR3enVmcWlBclFWOGJPRG52X2xCM1o2Vnp3?oc=5",
-   "summary": "Kremlin orders Russia businesses of Nestle, Auchan seized AP News",
-   "published": "2026-09-18T13:42:00+00:00",
+   "title": "One thing that hasn’t changed in 250 years: Americans’ willingness to get suckered",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPS3NrYlJpX0pjTlNwWVYwcFlPVFpUbkViRGdhMGg1UlFrVUN5aXdoSWhoM2xYRzFhdktUM3R5ZEhraHJlM0NlOGgzYV9HMTNWNEU5T1R0V3NQNENtOHh1N3VPZDUwNmlRUEJfUXZGOXVlN09XVnBvSUc3aFk5aFc5Zk5lbHpFcVZfOFBnREdvMzY3LXZIMHA1akhReG5IbWdQZFBDOXdkNGtrTUFNT0FENXdaOA?oc=5",
+   "summary": "One thing that hasn’t changed in 250 years: Americans’ willingness to get suckered AP News",
+   "published": "2026-09-18T13:48:00+00:00",
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
    "section": "climate",
-   "id": "3890f0d15dd6",
-   "article_url": "https://apnews.com/article/russia-ukraine-nestle-auchan-putin-db90782aa5510cef0eeba61ef8969ab5",
+   "id": "f3aabc00ab0e",
+   "article_url": "https://apnews.com/article/snake-oil-ponzi-charlatan-influencers-health-wellness-a460251c97ac365054e469e82b1402e5",
    "has_text": false
   },
   {
@@ -3739,19 +3739,6 @@
    "has_text": false
   },
   {
-   "title": "AI fears spark a partisan slugfest, helping no one",
-   "link": "https://thehill.com/opinion/technology/6096448-partisan-ai-regulation-deadlock/",
-   "summary": "The AI debate is just heating up. President Trump must acknowledge the public’s concerns and help the industry land on a safer path.",
-   "published": "2026-09-18T12:00:00+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "2208f9528564",
-   "article_url": "https://thehill.com/opinion/technology/6096448-partisan-ai-regulation-deadlock/",
-   "has_text": false
-  },
-  {
    "title": "Watch: The Hill’s Notable Staffer List 2026",
    "link": "https://thehill.com/video-clips/6096256-watch-the-hill-notable-staffer-list-2026/",
    "summary": "The Hill’s fourth annual Notable Staffers project is a bipartisan list showcasing some of the most hard-working and influential Congressional staffers on Capitol Hill. More than 12,000 staffers in the House and Senate are the linchpins keeping Congress running year-in and year-out. They’re the unseen aides writing legislation on a host of policy matters, communicating…",
@@ -3762,6 +3749,19 @@
    "section": "top",
    "id": "53a1fb34a6cc",
    "article_url": "https://thehill.com/video-clips/6096256-watch-the-hill-notable-staffer-list-2026/",
+   "has_text": false
+  },
+  {
+   "title": "AI fears spark a partisan slugfest, helping no one",
+   "link": "https://thehill.com/opinion/technology/6096448-partisan-ai-regulation-deadlock/",
+   "summary": "The AI debate is just heating up. President Trump must acknowledge the public’s concerns and help the industry land on a safer path.",
+   "published": "2026-09-18T12:00:00+00:00",
+   "source": "thehill",
+   "outlet": "The Hill",
+   "counted": true,
+   "section": "top",
+   "id": "2208f9528564",
+   "article_url": "https://thehill.com/opinion/technology/6096448-partisan-ai-regulation-deadlock/",
    "has_text": false
   },
   {
@@ -3804,19 +3804,6 @@
    "has_text": false
   },
   {
-   "title": "Josh Allen opens the Bills’ new stadium with a 5-TD outing in a 41-31 win over the Lions",
-   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSklwODVaTWczYkRvb0xtTGU5Zk4tcFloenktQV9ncmN0TjdRWmpvR3BfYWJqeVc5a19hSGJrZzI3U1Z0YWl2V25SRXFqUW1HNk1HVS1vbXczOWFVSzBfMHRPVmRrU1ZNYWFaZEhpLTNOQmRkNnVQUHVuSTc0TTZhbWJCMA?oc=5",
-   "summary": "Josh Allen opens the Bills’ new stadium with a 5-TD outing in a 41-31 win over the Lions AP News",
-   "published": "2026-09-18T11:42:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "1b307db72214",
-   "article_url": "https://apnews.com/article/lions-bills-score-a7707bc879e8c59e2d142731be81a82c",
-   "has_text": false
-  },
-  {
    "title": "Iran’s water crisis requires more than just regime change",
    "link": "https://thehill.com/opinion/international/6096259-iran-water-crisis-leadership/",
    "summary": "Iran’s water crisis is fundamentally a governance crisis.",
@@ -3841,19 +3828,6 @@
    "id": "b68db12993fe",
    "article_url": "https://www.semafor.com/article/09/18/2026/nigerian-fuel-price-spike-renews-worry-over-inflation-and-iran-war-exposure",
    "has_text": true
-  },
-  {
-   "title": "A truck driver built a model of NYC with over 800,000 structures for fun. Now it's a museum exhibit",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORHdVM0xVdWJ4WFdrQUhrWDVlNlpFWWpmbFlZaVhQQmNVeEZRVWR3LWpjeEhxeGwyRlgwYTlhTkpXcFBpZ21FNnNvd2ozQUptVy1TYXJsb1dvdmx3cS1yM3Jac0c5TElGVzdfQVN6RHlZUk1jcDFiSnhwS3JBZmlHM0pRYXFQYUJrS3ZEaG1TSndnQ0ZBdmhVaDVNeWpQV0k?oc=5",
-   "summary": "A truck driver built a model of NYC with over 800,000 structures for fun. Now it's a museum exhibit AP News",
-   "published": "2026-09-18T11:14:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "cfc3283a28e9",
-   "article_url": "https://apnews.com/article/viral-nyc-balsa-wood-map-model-exhibit-7e05bdf80bfb09a227e32f91d72bda19",
-   "has_text": false
   },
   {
    "title": "Preparing to leave office, with world beset by problems, UN chief talks of a way forward",
@@ -4025,19 +3999,6 @@
    "has_text": false
   },
   {
-   "title": "Intelligence community warned Congress on FISA 702 deadlines, but some Democrats have doubts",
-   "link": "https://thehill.com/national-security/6096900-fisa-section-702-congress-fisc-national-intelligence/",
-   "summary": "Trump administration intelligence officials are pressing Congress to renew the nation’s warrantless spy powers before Thanksgiving, warning they could run out of time to get a needed annual recertification for the program from the Foreign Intelligence Surveillance Court (FISC). Section 702 of the Foreign Intelligence Surveillance Act (FISA) operates under dual authorities from Congress and…",
-   "published": "2026-09-18T10:00:00+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "eee09e67d92b",
-   "article_url": "https://thehill.com/national-security/6096900-fisa-section-702-congress-fisc-national-intelligence/",
-   "has_text": false
-  },
-  {
    "title": "Senate Republicans rebuff Trump’s attacks on Supreme Court, Federal Reserve",
    "link": "https://thehill.com/homenews/senate/6096931-trump-criticized-mail-in-ballots/",
    "summary": "Republican senators are siding with conservative members of the Supreme Court who came under withering attack from President Trump this week after ruling against the president’s plan to have the U.S. Postal Service screen mail-in ballots to guard against noncitizens voting. Republican senators say the Supreme Court made the right decision to reject the plan…",
@@ -4064,6 +4025,19 @@
    "has_text": false
   },
   {
+   "title": "GOP faces reality check as they try to hold on to House majority",
+   "link": "https://thehill.com/homenews/house/6096806-gop-midterm-voter-concerns-gas-prices-iran/",
+   "summary": "Republicans are heading into the final stretch of the midterm race recognizing a blunt message: Voters are frustrated, and acknowledging those frustrations might be key to keeping them in the GOP column. Republicans have been increasingly framing the election as a choice between “common sense” versus “communist crazy” — arguing that democratic socialist and progressive…",
+   "published": "2026-09-18T10:00:00+00:00",
+   "source": "thehill",
+   "outlet": "The Hill",
+   "counted": true,
+   "section": "top",
+   "id": "c90c07c057b8",
+   "article_url": "https://thehill.com/homenews/house/6096806-gop-midterm-voter-concerns-gas-prices-iran/",
+   "has_text": false
+  },
+  {
    "title": "Gen Z believes in the billionaire tax",
    "link": "https://thehill.com/homenews/campaign/6096809-gen-z-taxes-wealthy/",
    "summary": "More than two-thirds of Generation Z thinks wealthy Americans should pay up. A new CBS/YouGov poll released Sunday found that 69 percent of respondents under 30 favor candidates who support raising taxes on wealthy Americans. That’s a higher rate than among millennials, Gen Xers and baby boomers, though majorities in older age categories also back…",
@@ -4077,16 +4051,16 @@
    "has_text": false
   },
   {
-   "title": "GOP faces reality check as they try to hold on to House majority",
-   "link": "https://thehill.com/homenews/house/6096806-gop-midterm-voter-concerns-gas-prices-iran/",
-   "summary": "Republicans are heading into the final stretch of the midterm race recognizing a blunt message: Voters are frustrated, and acknowledging those frustrations might be key to keeping them in the GOP column. Republicans have been increasingly framing the election as a choice between “common sense” versus “communist crazy” — arguing that democratic socialist and progressive…",
+   "title": "Intelligence community warned Congress on FISA 702 deadlines, but some Democrats have doubts",
+   "link": "https://thehill.com/national-security/6096900-fisa-section-702-congress-fisc-national-intelligence/",
+   "summary": "Trump administration intelligence officials are pressing Congress to renew the nation’s warrantless spy powers before Thanksgiving, warning they could run out of time to get a needed annual recertification for the program from the Foreign Intelligence Surveillance Court (FISC). Section 702 of the Foreign Intelligence Surveillance Act (FISA) operates under dual authorities from Congress and…",
    "published": "2026-09-18T10:00:00+00:00",
    "source": "thehill",
    "outlet": "The Hill",
    "counted": true,
    "section": "top",
-   "id": "c90c07c057b8",
-   "article_url": "https://thehill.com/homenews/house/6096806-gop-midterm-voter-concerns-gas-prices-iran/",
+   "id": "eee09e67d92b",
+   "article_url": "https://thehill.com/national-security/6096900-fisa-section-702-congress-fisc-national-intelligence/",
    "has_text": false
   },
   {
@@ -4285,6 +4259,19 @@
    "has_text": true
   },
   {
+   "title": "A week after Houthis seized a Red Sea city, the Iranian-backed rebels eye the oil-rich east",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNWNibkdFNEVYaHd4QnZ6aWI1MERzX2tDNEo4YlpXMXI2SUplM3VBQzFxVzBMYVBILVFBZ1lsTVhzYUp4YVF5Wk1kWWxVUlFHT1ZuNjVLeC1xbFFMVzF6VWFlTmpxeUN5NXd5LVhHdk4zc2FBUS1seWlTTW5jU3BRNlNwRmp6OG1YcTRrcWlmYW93bHI2bUU2akYyR3FIQU04OEF5QURTblM5cTZ1Nmg0?oc=5",
+   "summary": "A week after Houthis seized a Red Sea city, the Iranian-backed rebels eye the oil-rich east AP News",
+   "published": "2026-09-18T08:20:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "a653dc85e5c6",
+   "article_url": "https://apnews.com/article/yemen-houthis-saudi-oil-red-sea-shipping-explainer-22e64e72775886625da676aee92edca2",
+   "has_text": false
+  },
+  {
    "title": "Burst pipe floods wildlife meadow for fourth time",
    "link": "https://www.bbc.co.uk/news/articles/cjp302kq62elo?at_medium=RSS&at_campaign=rss",
    "summary": "Repeated flooding of a key conservation site in Oxfordshire leaves a charity frustrated.",
@@ -4334,19 +4321,6 @@
    "section": "climate",
    "id": "47b6cd010d70",
    "article_url": "https://apnews.com/article/vanuatu-ferry-sinking-search-ba025ba8fe032beacdc0af14d7a3ce9d",
-   "has_text": false
-  },
-  {
-   "title": "Fireworks, 2 anthems and a full house: Bills beat Lions in 1st regular-season game at new stadium",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNVGRySTZmbVlabVBJTFNTN25KbGZONDEtRlFQYjU4a3ZheEN2RElMQ2tJODAweVVScnpLOEZJZW90SnVUeFNzam9iam5GT2J4alZNb3hZWnhhRzVGZ1ZXM2ZGcTBFR2hoZ2V5T2FKbHVGRjFMV3RaZVFVTUoxOXgyN3h3dExheExoTTBRVTQ3c0VCZWNjZEE?oc=5",
-   "summary": "Fireworks, 2 anthems and a full house: Bills beat Lions in 1st regular-season game at new stadium AP News",
-   "published": "2026-09-18T05:58:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "9143ffbd861d",
-   "article_url": "https://apnews.com/article/bills-stadium-lions-home-opener-86dcec662857ea328603c7945d319e6e",
    "has_text": false
   },
   {
@@ -4450,71 +4424,6 @@
    "id": "e17347312044",
    "article_url": "https://thehill.com/homenews/senate/6097194-tillis-calls-for-hegseth-impeachment/",
    "has_text": false
-  },
-  {
-   "title": "Virginia's attorney general says DHS may have violated state election law after whistleblower report",
-   "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZlBFRjIzVTNNR056S3dBck45UTFwS0ZxMEZtcEYxMG9BM0c4dE0yRVI2NHpqWWlHb2p2b2VVMVlscmR1YTZsWTVMdGRDS2dKeWNobktYaC1YNzNfQjgtT0tLTE5CQV9zc1BHM1ctRllxYUtRYktXcDQtN0xkZFNIQ1lPeDN0cjZqbllNWUhuZ1Uyb280U2JVbURDQnlsUnBYUkxJQjRsSnJTS09YMGl3bFhKbEdtVjYtek93UXR2ZlJNZw?oc=5",
-   "summary": "Virginia's attorney general says DHS may have violated state election law after whistleblower report AP News",
-   "published": "2026-09-18T02:14:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "5741917ee0dc",
-   "article_url": "https://apnews.com/article/trump-virginia-noncitizen-voting-homeland-security-whistleblower-20efdeabce03a1ae941f8e203d24d9e3",
-   "has_text": false
-  },
-  {
-   "title": "Anthropic says its model Claude is helping to build the next version of itself",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTGVRMWttSER2aTljc2w3RjQ4WVNSQno4Z3FmaUVGSmllOXFKRzkzUmJXT2R6MHhZSzhaTVp2RTBXSzNJNzQ3YThfNmdWNUdEN0dNUXhwRWdxa0p0V2FFaGtlRHVHLUpmdDctWDg1N2ZnM2FWeVFZXzJOS2g5T05yYnZPYmJOMzdqeDAwUlNvMFV1TDc0MDhoVjVvVXhyRmRwQUVGdg?oc=5",
-   "summary": "Anthropic says its model Claude is helping to build the next version of itself AP News",
-   "published": "2026-09-18T01:55:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "eaa1d9814f5b",
-   "article_url": "https://apnews.com/article/anthropic-claude-ai-model-self-improvement-4d3a7430f57cbc7c39e1c5f2b7d7e132",
-   "has_text": false
-  },
-  {
-   "title": "In a border city stadium, US NFL fans sing Canada anthem with gusto",
-   "link": "https://www.bbc.co.uk/news/videos/cw5ylr205nj0o?at_medium=RSS&at_campaign=rss",
-   "summary": "The BBC's Robin Levinson-King spoke to Buffalo Bills fans at a home game about why the Canadian anthem is being played.",
-   "published": "2026-09-18T01:45:21+00:00",
-   "source": "bbc",
-   "outlet": "BBC News",
-   "counted": true,
-   "section": "top",
-   "id": "d3e86b4d9a18",
-   "article_url": "https://www.bbc.co.uk/news/videos/cw5ylr205nj0o?at_medium=RSS&at_campaign=rss",
-   "has_text": true
-  },
-  {
-   "title": "See tiny organisms on show in microscopic video competition",
-   "link": "https://www.bbc.co.uk/news/videos/cr209jz45vn4o?at_medium=RSS&at_campaign=rss",
-   "summary": "The winning video features tiny hair-like structures, called cilia, in the airways of a child with a rare genetic disease.",
-   "published": "2026-09-18T01:41:14+00:00",
-   "source": "bbc",
-   "outlet": "BBC News",
-   "counted": true,
-   "section": "climate",
-   "id": "7182cc967192",
-   "article_url": "https://www.bbc.co.uk/news/videos/cr209jz45vn4o?at_medium=RSS&at_campaign=rss",
-   "has_text": true
-  },
-  {
-   "title": "Pentagon issues new guidance for testosterone testing after rescinding previous one",
-   "link": "https://thehill.com/policy/defense/6097148-pentagon-new-male-testosterone-screening/",
-   "summary": "The Pentagon issued new guidance late Thursday requiring mandatory testosterone deficiency screening for male active-duty and ​reserve service members over the age of 30 after temporarily rescinding previous guidance earlier this month. The department said the updated guidance will address male testosterone deficiency and establish uniform screening and treatment pathways across the Defense Health Agency…",
-   "published": "2026-09-18T01:40:45+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "3f1b4982a8d7",
-   "article_url": "https://thehill.com/policy/defense/6097148-pentagon-new-male-testosterone-screening/",
-   "has_text": true
   }
  ]
 }
