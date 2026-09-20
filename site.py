@@ -60,7 +60,8 @@ AGE_VALUE = {b: f"ages-{b}" for b in ("5-7", "8-12", "13-17")}
 START = "September 13, 2026"
 
 # The first-visit walkthrough. Four steps, shown once, on the front page only.
-# `sel` is the element it points at; the last step points at nothing and centres.
+# `sel` is the element it points at; a step whose element is missing is skipped, in
+# whichever direction the reader is moving. A step with no `sel` centres instead.
 TOUR = [
     {"sel": ".seg",
      "text": "Pick your child\u2019s age and every part of this site adapts with suggested "
@@ -69,12 +70,15 @@ TOUR = [
     {"sel": ".stories article",
      "text": "Here is the most recent news story. Three are posted on this front page every "
              "day. You can find more on our Instagram page or in the Archive."},
-    {"sel": "nav a.nav-archive",
-     "text": "Visit the Archive when your child asks a tough question on a topic like "
-             "Science or the Economy. Recent news stories serve as a reference with "
-             "suggested ways to talk about each story."},
-    {"sel": "nav a.nav-ig", "title": "Thanks for visiting!",
-     "text": "Share this with a parent or friend, or follow us on Instagram."},
+    {"sel": "main .table-q",
+     "text": "Tonight\u2019s dinner table question is related to the most recent news story "
+             "and is meant for meaningful discussion for any age."},
+    # The blank line is a real newline: .tour-t is set with textContent and given
+    # white-space:pre-line, so the text stays text and still breaks into two paragraphs.
+    {"sel": "nav .nav-links", "title": "Thanks for visiting!",
+     "text": "Visit the Archive to find news categories like Science or the Economy with "
+             "suggested ways to talk about recent news.\n\n"
+             "Share with a parent or friend, or follow us on Instagram!"},
 ]
 SHARE_SUBJECT = "Something for the dinner table"
 SHARE_TEXT = ("Take a look at this site I found - Dinner Table News - that helps parents "
@@ -212,6 +216,11 @@ CSS = """
   --paper:#F5F2EB; --ink:#1B1A17; --soft:#3D3A34; --muted:#6B675F;
   --bg:var(--paper); --fg:var(--ink); --dim:var(--muted); --quiet:var(--soft);
   --rule:#E0DACD; --panel:#EDE8DE; --field:#FFFFFF;
+  /* The walkthrough bubble sits on top of a dimmed page, so it cannot be the page's own
+     background: on the dark theme that is #141311 on #141311 behind a scrim, and the
+     panel has no edge. It gets a surface lifted well clear of the page, a border light
+     enough to read against it, and a deeper scrim to sit on. */
+  --tourbg:var(--bg); --tourline:var(--rule); --scrim:rgba(8,7,6,.68);
   --c57:oklch(0.48 0.13 155); --c812:oklch(0.48 0.13 250); --c1317:oklch(0.48 0.13 305);
   --tint57:oklch(0.94 0.035 155); --tint812:oklch(0.94 0.035 250); --tint1317:oklch(0.94 0.035 305);
   /* The card edge, which is the one place a band colour has to read as a COLOUR rather
@@ -231,6 +240,7 @@ CSS = """
   --edge57:var(--c57); --edge812:var(--c812); --edge1317:var(--c1317);
   --bg:#141311; --fg:#F1EDE4; --dim:#A8A295; --quiet:#C9C3B5;
   --rule:#2E2C27; --panel:#1D1C19; --field:#221F1B;
+  --tourbg:#2B2925; --tourline:#4F4B43; --scrim:rgba(0,0,0,.80);
   --c57:oklch(0.78 0.12 155); --c812:oklch(0.76 0.12 250); --c1317:oklch(0.78 0.12 305);
   --tint57:oklch(0.26 0.04 155); --tint812:oklch(0.26 0.04 250); --tint1317:oklch(0.26 0.04 305);
 }}
@@ -239,6 +249,7 @@ CSS = """
   --edge57:var(--c57); --edge812:var(--c812); --edge1317:var(--c1317);
   --bg:#141311; --fg:#F1EDE4; --dim:#A8A295; --quiet:#C9C3B5;
   --rule:#2E2C27; --panel:#1D1C19; --field:#221F1B;
+  --tourbg:#2B2925; --tourline:#4F4B43; --scrim:rgba(0,0,0,.80);
   --c57:oklch(0.78 0.12 155); --c812:oklch(0.76 0.12 250); --c1317:oklch(0.78 0.12 305);
   --tint57:oklch(0.26 0.04 155); --tint812:oklch(0.26 0.04 250); --tint1317:oklch(0.26 0.04 305);
 }
@@ -297,6 +308,9 @@ header{position:sticky; top:0; z-index:20; background:var(--bg); border-bottom:1
              white-space:nowrap}
 }
 nav{display:flex; gap:18px; font-size:14px}
+/* The three links are a group of their own so the walkthrough can spotlight all of
+   them at once -- and so the theme toggle, which is not a destination, stays out of it. */
+.nav-links{display:flex; align-items:center; gap:18px}
 nav a{color:var(--dim); text-decoration:none}
 nav a:hover,nav a[aria-current="page"]{color:var(--fg)}
 .theme{display:inline-flex; align-items:center; justify-content:center; width:30px; height:30px;
@@ -332,13 +346,21 @@ nav a:hover,nav a[aria-current="page"]{color:var(--fg)}
 article{padding-block:34px; border-top:1px solid var(--rule)}
 .cat{display:flex; align-items:center; gap:8px; flex-wrap:wrap}
 .cat b{font-weight:600; color:var(--band)}
-/* The news, in ink at medium weight. It was set in the same grey as the metadata above
-   it and read as a caption. The sans/serif split still carries the hierarchy: sans is
-   the reporting, the serif question underneath is the kid, and the kid is still the
-   loudest thing on the card. */
-.hl{font-family:var(--sans); font-size:17px; font-weight:500; line-height:1.35; color:var(--fg);
+/* The news, in ink at medium weight, under a marker stroke. The sans/serif split still
+   carries the hierarchy: sans is the reporting, the serif question underneath is the kid.
+   The marker is one fixed yellow in both themes rather than the age colour, which is
+   already carrying the question's quote marks, the rule beside the answer and the card's
+   hover edge -- a fourth use of it would stop meaning anything. Read it as a division of
+   labour: the age colour is the kid's half of the card, the marker is the news half.
+   The stroke is an SVG stretched to the line box, not a rectangle, so its edges run a
+   little off-square the way a pen does; box-decoration-break paints it onto every line
+   of a headline that wraps, and the line-height gives two strokes room not to touch.
+   Ink on this yellow holds in both themes, so the text colour is fixed alongside it. */
+.hl{font-family:var(--sans); font-size:17px; font-weight:500; line-height:1.5; color:var(--fg);
     margin:10px 0 0; max-width:52ch}
-.hl a{text-decoration:none}
+.hl a{text-decoration:none; color:#1B1A17; padding:2px 7px; margin-left:-7px;
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 20' preserveAspectRatio='none'%3E%3Cpath d='M1.4 3.4 C 26 1.1, 58 4.4, 98.7 1.9 L 99.3 17.1 C 71 19.8, 29 15.6, 0.7 18.4 Z' fill='%23F7E07A'/%3E%3C/svg%3E") 0 0 / 100% 100% no-repeat;
+  box-decoration-break:clone; -webkit-box-decoration-break:clone}
 .hl a:hover{text-decoration:underline; text-underline-offset:3px}
 .q{font-family:var(--display); font-weight:400; font-size:clamp(30px,6.4vw,44px);
    line-height:1.04; letter-spacing:-.02em; margin:18px 0 0; text-wrap:balance}
@@ -532,17 +554,20 @@ body.text main.wrap > *{max-width:62ch}
    click: without it a reader could tap a story card straight through the tour. */
 .tour{position:fixed; inset:0; z-index:60}
 .tour-hole{position:absolute; border-radius:6px; pointer-events:none;
-  box-shadow:0 0 0 9999px rgba(8,7,6,.68); transition:top .2s ease, left .2s ease,
+  box-shadow:0 0 0 9999px var(--scrim); transition:top .2s ease, left .2s ease,
   width .2s ease, height .2s ease}
-.tour-hole.none{box-shadow:0 0 0 9999px rgba(8,7,6,.68); width:0; height:0; top:50%; left:50%}
-.tour-bub{position:absolute; width:min(340px, calc(100vw - 32px)); background:var(--bg);
-  color:var(--fg); border:1px solid var(--rule); border-radius:4px; padding:20px 20px 14px;
+.tour-hole.none{box-shadow:0 0 0 9999px var(--scrim); width:0; height:0; top:50%; left:50%}
+.tour-bub{position:absolute; width:min(340px, calc(100vw - 32px)); background:var(--tourbg);
+  color:var(--fg); border:1px solid var(--tourline); border-radius:4px; padding:20px 20px 14px;
   box-shadow:0 14px 44px rgba(0,0,0,.34)}
 .tour-bub.mid{position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); text-align:left}
 .tour-n{font-size:12px; font-weight:600; letter-spacing:.1em; text-transform:uppercase;
   color:var(--dim); margin:0}
 .tour-h{font-family:var(--display); font-weight:400; font-size:24px; margin:10px 0 0}
-.tour-t{font-size:15px; line-height:1.55; color:var(--quiet); margin:10px 0 0}
+/* pre-line so a step written as two paragraphs stays two paragraphs: the text is set
+   with textContent, and a real newline is the only break that survives that. */
+.tour-t{font-size:15px; line-height:1.55; color:var(--quiet); margin:10px 0 0;
+  white-space:pre-line}
 .tour-act{display:flex; align-items:center; gap:10px; margin-top:18px}
 .tour-act .sp{flex:1}
 .tour-skip{font:inherit; font-size:14px; background:none; border:0; color:var(--dim);
@@ -550,7 +575,14 @@ body.text main.wrap > *{max-width:62ch}
 .tour-skip:hover{color:var(--fg)}
 .tour-next{font:inherit; font-size:15px; font-weight:500; cursor:pointer; padding:10px 20px;
   border-radius:3px; border:1.5px solid var(--fg); background:var(--fg); color:var(--bg)}
-.tour-next:focus-visible,.tour-skip:focus-visible{outline:2px solid var(--fg); outline-offset:2px}
+/* Back and Share are the same quiet button. Their edge is the bubble's, not the page's:
+   --rule against the lifted dark surface is all but invisible. */
+.tour-back{font:inherit; font-size:15px; font-weight:500; cursor:pointer; padding:10px 16px;
+  border-radius:3px; border:1.5px solid var(--tourline); background:transparent; color:var(--fg)}
+.tour-back:hover,.tour-bub .share:hover{border-color:var(--fg)}
+.tour-bub .share{border-color:var(--tourline)}
+.tour-next:focus-visible,.tour-skip:focus-visible,
+.tour-back:focus-visible{outline:2px solid var(--fg); outline-offset:2px}
 @media (prefers-reduced-motion:reduce){.tour-hole{transition:none}}
 
 footer{border-top:1px solid var(--rule); padding-block:28px 40px; font-size:13px; color:var(--dim);
@@ -612,10 +644,21 @@ TOUR_JS = """
     '<p class="tour-n"></p><h2 class="tour-h" hidden></h2><p class="tour-t"></p>'+
     '<div class="tour-act"><button type="button" class="tour-skip">Skip</button>'+
     '<span class="sp"></span>'+
+    '<button type="button" class="tour-back" hidden>Back</button>'+
     '<button type="button" class="tour-share share" hidden>Share</button>'+
     '<button type="button" class="tour-next">Next</button></div></div>';
   var hole=root.querySelector('.tour-hole'), bub=root.querySelector('.tour-bub'),
-      next=root.querySelector('.tour-next'), share=root.querySelector('.tour-share');
+      next=root.querySelector('.tour-next'), share=root.querySelector('.tour-share'),
+      back=root.querySelector('.tour-back'), skip=root.querySelector('.tour-skip');
+
+  // A step whose element is not on the page is not a step. Everything that counts --
+  // which step is next, which is previous, the "2 of 4" -- is asked of the steps that
+  // are actually there, so going back skips the same gaps going forward skipped.
+  function ok(n){ return n>=0 && n<STEPS.length &&
+                         (!STEPS[n].sel || document.querySelector(STEPS[n].sel)); }
+  function find(n,d){ while(n>=0 && n<STEPS.length && !ok(n)) n+=d;
+                      return ok(n) ? n : -1; }
+  function live(){ var a=[],n; for(n=0;n<STEPS.length;n++) if(ok(n)) a.push(n); return a; }
 
   function target(){ return STEPS[i].sel ? document.querySelector(STEPS[i].sel) : null; }
   function place(){
@@ -633,15 +676,17 @@ TOUR_JS = """
     bub.style.left=Math.max(12, Math.min(r.left, window.innerWidth-bw-12))+'px';
   }
   function draw(){
-    while(i<STEPS.length && STEPS[i].sel && !document.querySelector(STEPS[i].sel)) i++;
-    if(i>=STEPS.length){ end(); return; }
-    var st=STEPS[i], h=root.querySelector('.tour-h');
-    root.querySelector('.tour-n').textContent=(i+1)+'/'+STEPS.length;
+    var st=STEPS[i], h=root.querySelector('.tour-h'), seen=live();
+    root.querySelector('.tour-n').textContent=(seen.indexOf(i)+1)+'/'+seen.length;
     h.textContent=st.title||''; h.hidden=!st.title;
     root.querySelector('.tour-t').textContent=st.text;
-    var last=i===STEPS.length-1;
+    var last=find(i+1,1)<0;
     next.textContent=last?'Done':'Next';
     share.hidden=!last;
+    back.hidden=find(i-1,-1)<0;
+    // On the last step Done already ends the tour, so Skip would be a second way to do
+    // the same thing -- and a fourth button does not fit a 340px bubble.
+    skip.hidden=last;
     var el=target();
     if(el){ if(el.closest('header')) window.scrollTo(0,0); else el.scrollIntoView({block:'center'}); }
     setTimeout(place,60);
@@ -663,11 +708,22 @@ TOUR_JS = """
     if(ev.shiftKey && document.activeElement===first){ ev.preventDefault(); lastEl.focus(); }
     else if(!ev.shiftKey && document.activeElement===lastEl){ ev.preventDefault(); first.focus(); }
   }
-  next.addEventListener('click', function(){ if(i>=STEPS.length-1){ end(); } else { i++; draw(); } });
-  root.querySelector('.tour-skip').addEventListener('click', end);
+  next.addEventListener('click', function(){
+    var n=find(i+1,1);
+    if(n<0){ end(); return; }
+    i=n; draw();
+  });
+  back.addEventListener('click', function(){
+    var n=find(i-1,-1);
+    if(n<0) return;
+    i=n; draw();
+  });
+  skip.addEventListener('click', end);
   share.addEventListener('click', function(){ if(window.dtnShare) window.dtnShare(); });
   document.addEventListener('keydown', key);
   window.addEventListener('resize', place); window.addEventListener('scroll', place);
+  i=find(0,1);
+  if(i<0) return;                                  // nothing on this page to point at
   document.body.appendChild(root);
   draw();
 })();
@@ -830,7 +886,7 @@ DOTS = ('<span class="dots"><i style="background:var(--c57)"></i>'
         '<i style="background:var(--c812)"></i><i style="background:var(--c1317)"></i></span>')
 
 
-def age_control(prompt="Show me what to say to my"):
+def age_control(prompt="What can I say to my"):
     buttons = "".join(
         f'<button type="button" data-band="{b}" aria-pressed="{"true" if b == DEFAULT_BAND else "false"}">'
         f'{LABEL[b]} year old</button>' for b in BANDS)
@@ -839,7 +895,7 @@ def age_control(prompt="Show me what to say to my"):
 
 
 def shell(*, up, title, desc, body, nav_here="", og_image=None, path="", band_control=True,
-          extra_js="", prompt="Show me what to say to my", og_type="website", width=""):
+          extra_js="", prompt="What can I say to my", og_type="website", width=""):
     def here(name):
         return ' aria-current="page"' if name == nav_here else ""
 
@@ -881,9 +937,11 @@ var t=localStorage.getItem('dtn-theme');if(t==='light'||t==='dark')r.setAttribut
     <div class="bar">
       <a class="mark" href="{up}"><span class="wm">Dinner<br>Table<br>News</span>{DOTS}</a>
       <nav>
-        <a class="nav-archive" href="{up}archive/"{here('archive')}>Archive</a>
-        <a href="{up}about/"{here('about')}>About</a>
-        <a class="nav-ig" href="{attr(INSTAGRAM)}" rel="me">Instagram</a>
+        <span class="nav-links">
+          <a class="nav-archive" href="{up}archive/"{here('archive')}>Archive</a>
+          <a href="{up}about/"{here('about')}>About</a>
+          <a class="nav-ig" href="{attr(INSTAGRAM)}" rel="me">Instagram</a>
+        </span>
         <button class="theme" type="button" id="theme" aria-label="Switch to dark theme">{THEME_ICON}</button>
       </nav>
     </div>
