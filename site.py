@@ -500,6 +500,15 @@ section.block{padding-block:34px; border-top:1px solid var(--rule)}
 .follow-card{display:flex; gap:16px; align-items:center; margin-top:16px; padding:18px 20px;
   background:var(--panel); border-radius:3px; flex-wrap:wrap}
 .follow-card .at{font-family:var(--display); font-size:19px}
+/* The handle and two buttons want 322px and a phone gives the card 310. Shortening the
+   label to "Share" bought 31px of that and left 12 short, so the row still broke. The
+   gap, the card's own padding and the buttons give up a few pixels each rather than one
+   of them giving up a lot: at 360px it now needs 281 against 292 available. */
+@media (max-width:480px){
+  .follow-card{gap:10px; padding:16px 14px}
+  .follow-card .at{font-size:17px}
+  .follow-card .btn,.follow-card .share{padding:10px 14px}
+}
 .btn{display:inline-block; font-size:15px; font-weight:500; padding:10px 18px; border-radius:3px;
   border:1.5px solid var(--fg); background:var(--fg); color:var(--bg); text-decoration:none}
 
@@ -1136,7 +1145,7 @@ def follow_block(up):
             f'The morning email is coming; for now this is where it runs.</p>'
             f'<div class="follow-card"><span class="at">@dinnertablenews</span>'
             f'<a class="btn" href="{attr(INSTAGRAM)}">Follow</a>'
-            f'<button type="button" class="share">Share this</button>'
+            f'<button type="button" class="share">Share</button>'
             f'</div></section>')
 
 
