@@ -70,15 +70,15 @@ TOUR = [
      "text": "Here is the most recent news story. Three are posted on this front page every "
              "day. You can find more on our Instagram page or in the Archive."},
     {"sel": "nav a.nav-archive",
-     "text": "Visit the archive when your child asks a tough question about the economy, or "
-             "the government, and you want recent news stories to reference and suggested "
-             "ways to talk about them."},
-    {"sel": None, "title": "Thanks for visiting!",
-     "text": "If this is useful, please share with another parent or friend."},
+     "text": "Visit the Archive when your child asks a tough question on a topic like "
+             "Science or the Economy. Recent news stories serve as a reference with "
+             "suggested ways to talk about each story."},
+    {"sel": "nav a.nav-ig", "title": "Thanks for visiting!",
+     "text": "Share this with a parent or friend, or follow us on Instagram."},
 ]
 SHARE_SUBJECT = "Something for the dinner table"
-SHARE_TEXT = ("How to talk to your kids about today\u2019s news, written three ways: "
-              "for 5\u20137, 8\u201312 and 13\u201317.")   # first post; the archive says how far back it goes
+SHARE_TEXT = ("Take a look at this site I found - Dinner Table News - that helps parents "
+              "talk to their kids about today\u2019s news in age-appropriate language.")   # first post; the archive says how far back it goes
 
 # ---- render.py's palette, restated (see the module docstring) --------------
 PAPER, INK, SOFT, MUTED = "#F5F2EB", "#1B1A17", "#3D3A34", "#6B675F"
@@ -773,7 +773,7 @@ ARCHIVE_JS = """
 
 
 
-SHARE_JS = (SHARE_JS.replace("__URL__", f"{BASE_URL}/" if BASE_URL else "")
+SHARE_JS = (SHARE_JS.replace("__URL__", BASE_URL)
             .replace("__MSG__", SHARE_TEXT).replace("__SUBJ__", SHARE_SUBJECT))
 TOUR_JS = TOUR_JS.replace("__STEPS__", json.dumps(TOUR))
 ARCHIVE_JS = ARCHIVE_JS.replace("__POSITIVE__", POSITIVE)
@@ -843,7 +843,7 @@ var t=localStorage.getItem('dtn-theme');if(t==='light'||t==='dark')r.setAttribut
       <nav>
         <a class="nav-archive" href="{up}archive/"{here('archive')}>Archive</a>
         <a href="{up}about/"{here('about')}>About</a>
-        <a href="{attr(INSTAGRAM)}" rel="me">Instagram</a>
+        <a class="nav-ig" href="{attr(INSTAGRAM)}" rel="me">Instagram</a>
         <button class="theme" type="button" id="theme" aria-label="Switch to dark theme">{THEME_ICON}</button>
       </nav>
     </div>
