@@ -674,13 +674,44 @@ def font_css(up):
 SHARE_JS = """
 (function(){
   var URL_ = "__URL__" || location.href.split('#')[0];
+  var MSG = "__MSG__", SUBJ = "__SUBJ__";
+  function touch(){
+    return window.matchMedia && window.matchMedia('(hover:none) and (pointer:coarse)').matches;
+  }
+  // A real anchor, clicked. `location.href = 'sms:...'` is a scripted app switch, and
+  // Safari puts an "Allow ... to switch apps?" sheet in front of one -- with the raw
+  // percent-encoded body printed in it. Clicking an <a> inside the same user gesture is
+  // an ordinary navigation and goes straight to Messages.
+  function go(href){
+    var a=document.createElement('a');
+    a.href=href; a.rel='noopener'; a.style.display='none';
+    document.body.appendChild(a);
+    a.click();
+    setTimeout(function(){ if(a.parentNode) a.parentNode.removeChild(a); }, 0);
+  }
   // sms: is spelled differently by the two platforms; "?&body=" is the form both accept.
-  window.dtnShare=function(){
-    var body = "__MSG__" + "\\n\\n" + URL_;
-    var touch = window.matchMedia && window.matchMedia('(hover:none) and (pointer:coarse)').matches;
-    location.href = touch
+  function compose(){
+    var body = MSG + "\\n\\n" + URL_;
+    return touch()
       ? 'sms:?&body=' + encodeURIComponent(body)
-      : 'mailto:?subject=' + encodeURIComponent("__SUBJ__") + '&body=' + encodeURIComponent(body);
+      : 'mailto:?subject=' + encodeURIComponent(SUBJ) + '&body=' + encodeURIComponent(body);
+  }
+  window.dtnShare=function(){
+    // On a phone, the native sheet: the reader picks Messages, Mail, AirDrop or anything
+    // else they have, and no permission sheet appears at all. It has to be called
+    // straight out of the click with nothing awaited first, or the gesture is spent.
+    // Desktop stays on mailto, which is what it has always done.
+    if(touch() && navigator.share){
+      try{
+        var r = navigator.share({title: SUBJ, text: MSG, url: URL_});
+        if(r && r.catch) r.catch(function(err){
+          // Cancelling the sheet is a choice, not a failure. Anything else, fall back.
+          if(!err || err.name !== 'AbortError') go(compose());
+        });
+        return;
+      }catch(err){}
+    }
+    go(compose());
   };
   var b=document.querySelectorAll('.share');
   for(var i=0;i<b.length;i++) b[i].addEventListener('click', window.dtnShare);
