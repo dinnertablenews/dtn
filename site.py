@@ -47,8 +47,10 @@ BASE_URL = (os.environ.get("DTN_BASE_URL") or (f"https://{DOMAIN}" if DOMAIN els
 # Buttondown account name. It turns the signup form on; empty keeps the Instagram card,
 # because a box that does nothing is worse than an honest link. The name is not a secret:
 # it is in the form's action on every page, which is why it sits here and not in a repo
-# secret. DTN_BUTTONDOWN overrides it, and DTN_BUTTONDOWN="" turns the form off again.
-BUTTONDOWN = os.environ.get("DTN_BUTTONDOWN", "dinnertablenews")
+# secret. Cased exactly as Settings -> General shows it, because nothing here can tell us
+# whether the endpoint folds case and a form that posts nowhere fails silently.
+# DTN_BUTTONDOWN overrides it, and DTN_BUTTONDOWN="" turns the form off again.
+BUTTONDOWN = os.environ.get("DTN_BUTTONDOWN", "DinnerTableNews")
 EMAIL_FORM_ACTION = f"https://buttondown.com/api/emails/embed-subscribe/{BUTTONDOWN}" if BUTTONDOWN else ""
 EMAIL_FIELD = "email"          # the field name Buttondown's embed expects
 # Signup asks which ages a subscriber cares about. Everyone gets the same email --

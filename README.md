@@ -204,7 +204,8 @@ The email body is built by `digest_html()`: inline styles only, no classes, no `
 rather than approximating it. `MAIL_HUE` holds the three band colours as hex for that
 reason; they are the site's light-mode values converted once.
 
-`BUTTONDOWN` at the top of `site.py` is the account name, `dinnertablenews`, and setting it
+`BUTTONDOWN` at the top of `site.py` is the account name, `DinnerTableNews`, cased as the
+dashboard shows it, and setting it
 is what turns the signup form on. It is not a secret: it is in the form's action on every
 page, which is why it sits in the file and not in a repo secret. Empty, the follow section
 shows the Instagram card instead — a form that posts nowhere is worse than an honest link.
