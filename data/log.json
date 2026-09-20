@@ -411,5 +411,23 @@
   "publish_run": 35478627601,
   "published": "https://www.instagram.com/p/DdfWZ-HlbJo/",
   "published_at": "2026-09-20T00:57:30+0000"
+ },
+ {
+  "slug": "2026-09-20-morning",
+  "date": "2026-09-20",
+  "slot": "morning",
+  "category": "Technology",
+  "headline": "Four AI labs said they'd slow down. Subscribers sued.",
+  "photo": false,
+  "cover_band": "13-17",
+  "publish_target": "2026-09-20T07:10-05:00",
+  "chosen": "primary",
+  "alternate": {
+   "folder": "posts/2026-09-20-morning-alt",
+   "category": "Health",
+   "headline": "Congo vaccinates its Ebola health workers first",
+   "photo": false
+  },
+  "note": "Run fired at 06:10 CT for the 07:00 morning slot; target drawn once at 07:10 CT. Rule 3 count: the last Good news entry is 2026-09-18-evening and three stories have run since (2026-09-19-morning, noon, evening), so this slot is not the positive one; the count carries at 3 and noon is due. rank.py's #1 cluster (AP, BBC News, PBS NewsHour; 3 outlets, 4 items) is the Houthi missile at Riyadh, which ran as 2026-09-19-evening, so rule 4 moves on. #2 (journalists denied White House access after Trump's ban; AP, BBC News, PBS NewsHour) is the same saga as 2026-09-19-morning, skipped under rule 1. Also skipped under rule 1: #5 (the same ban, Axios and The Hill), #6, #8 and #13 (Ed Sheeran and Macklemore, the 2026-09-16-morning saga). The primary is therefore #3: four paid subscribers suing Anthropic, OpenAI, SpaceXAI and Google over an agreed AI slowdown (AP, PBS NewsHour, The Hill; 3 outlets), category Technology, lead subject the four AI labs. It was last night's unrun alternate, which rule 8 leaves fair game, and a new event (a Friday lawsuit) rather than the 2026-09-13-morning story about Amodei's essay, which is seven days back. First post of the day, so rule 2 is clear. Written from the PBS NewsHour (AP) article text; the AP and The Hill items had no text. Not a hard story, no shield. No photo: four companies, no single subject, and the story is a lawsuit against them. Alternate under rule 8: #4 (Trump's AI Force and AI czar; BBC News, The Hill, Axios) was passed over because its subject is AI, the primary's category, and two AI posts give Dan no real second choice. The alternate is #7, Congo starting Ebola vaccinations for health workers in Bunia (AP, PBS NewsHour; 2 outlets), category Health, lead subject Congo's health ministry; passes rules 1, 2 and 6. Written from the PBS NewsHour (AP) text; the AP item had no text. Not shielded: the 5-7 script is about the helpers getting protected and leaves the deaths out. Alternate photo: photo_subject Ebola was dispatched to commons.yml, and the file it fetched (7042_lores-Ebola-Zaire-CDC_Photo.jpg) is the 1976 CDC photograph with a patient in the bed, a victim, so it was not used and the alternate runs without a photo. The last two log entries were both photo false, so a photo was allowed on either post. Cover band rotation: last night was 8-12, so this slot is 13-17; cover_age drawn once as 16, shared by both posts. Both renders exit 0 after cutting the 8-12 and 13-17 scripts, why lines and Try answers on both posts; all ten JPGs checked, both headlines and both cover questions at two lines. Reel built for the primary."
  }
 ]

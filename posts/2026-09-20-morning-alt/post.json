@@ -1,0 +1,72 @@
+{
+  "slot": "2026-09-20 07:00 CT",
+  "date": "2026-09-20",
+  "cover_age": 16,
+  "category": "Health",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/world/congo-begins-ebola-vaccinations-for-health-workers-in-the-epicenter-of-the-outbreak",
+  "source_domain": "pbs.org/newshour",
+  "headline": "Congo vaccinates its Ebola health workers first",
+  "summary": "Congo began vaccinating health workers against Ebola on Saturday in Bunia, the center of the fastest-growing outbreak of the disease on record. The country counts 7,541 confirmed cases and 3,639 deaths; 1,823 people have recovered. The Ervebo vaccine was made for a different Ebola strain, so a 20,000-dose trial will test it on this one.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "Why use a shot that may not work?"
+  },
+  "cover_answer": "It's the only vaccine they have. The viruses are cousins.",
+  "table_question": "Would you take medicine that probably works if nothing else exists?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "Far away in Congo, a sickness called Ebola is making a lot of people ill. On Saturday the doctors and nurses who look after them started getting a shot, so the sickness has a harder time reaching them. It's like giving the firefighters their helmets first. The grown-ups have it.",
+      "why": "Firefighters and helmets are a picture a five-year-old already owns. Who gets protected first is the whole story, and it has a happy shape.",
+      "why_long": "A five-year-old takes one vivid feature for the whole event, so the script chooses the feature: the helpers get their helmets first. Deaths and strains stay out; there is nothing a child that age can do with them. Expect “can I catch it?” No, and the doctors there are getting shots so they can keep looking after people."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Ebola in Congo has reached 7,541 people, the fastest-growing outbreak on record. Health workers are most exposed, so Congo vaccinates 20,000 of them first. The catch: the shot was made for a cousin strain, so a trial checks it on this one. A hand-me-down helmet: should fit, so check.",
+      "why": "A chain with a catch in it: the shot exists, it fits a cousin, so test it.",
+      "why_long": "This age is working out chains of cause and effect and whether a rule is applied fairly. The script gives them one chain with a catch in it: the shot exists, it was made for a cousin virus, so a trial checks it. Expect “why not make the right one?” They are trying. It takes years, and the outbreak is now."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Would you take a vaccine made for a different virus? Congo's health workers are: Ervebo is licensed for Zaire Ebola, and this outbreak is Bundibugyo, a cousin with no vaccine of its own. One doctor told the AP they don't really have a choice. With 3,639 dead, is that fair to ask?",
+      "why": "The best shot they have, and nobody really asked. Let them hold both.",
+      "why_long": "A teenager can hold two true things at once, and this story has them: the shot is the best available, and the people taking it were not really asked. The script quotes the doctor rather than deciding for them. Expect “would you take it?” Answer honestly, then ask what they would say if it were their job."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Can I catch it?",
+        "a": "No. It's in Congo, far away, and the doctors there are getting shots so they can keep looking after people."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why do the doctors get it first?",
+        "a": "They see sick people all day. 20,000 get it over six to nine months."
+      },
+      {
+        "q": "Does the vaccine even work on this kind?",
+        "a": "Nobody knows yet. It's made for a related strain; a trial will find out."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why use a shot that may not work?",
+        "a": "None exists for this strain. Ervebo worked on a cousin, so a trial checks."
+      },
+      {
+        "q": "Is it fair to make health workers the test cases?",
+        "a": "A doctor told the AP there's no real choice. Weigh that against 3,639 dead."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#Ebola",
+    "#DinnerTableNews"
+  ],
+  "caption": "It's the only vaccine they have. The viruses are cousins.\n\nCongo began vaccinating health workers against Ebola on Saturday in Bunia, the center of the fastest-growing outbreak of the disease on record. The country counts 7,541 confirmed cases and 3,639 deaths; 1,823 people have recovered. The Ervebo vaccine was made for a different Ebola strain, so a 20,000-dose trial will test it on this one.\n\nSource: PBS NewsHour, pbs.org/newshour\n\nSwipe for what to say at 5, at 10, and at 15.\n\nThe dinner table question: Would you take medicine that probably works if nothing else exists? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #Ebola #DinnerTableNews"
+}
