@@ -453,6 +453,9 @@ section.block{padding-block:34px; border-top:1px solid var(--rule)}
 /* A post is an <article> too, but it opens the page: it takes neither the rule
    between stories nor the space that rule needs. */
 .post{padding-block:0; border-top:0}
+.post > .head{padding-block:26px 0}
+.post > .lede{padding-block:0 8px}
+
 .post h1{font-family:var(--display); font-weight:400; font-size:clamp(30px,6.2vw,42px);
          line-height:1.08; margin:10px 0 0; text-wrap:balance; letter-spacing:-.01em}
 .post .summary{font-family:var(--text); font-size:clamp(17px,3.2vw,19px); line-height:1.55;
@@ -489,6 +492,24 @@ section.block{padding-block:34px; border-top:1px solid var(--rule)}
    layout that broke rather than a margin. */
 body.text main.wrap > *{max-width:62ch}
 .prose{max-width:60ch}
+
+/* Wide screens: the dateline and headline span, and the summary and the age script sit
+   side by side under them. Both columns take the same padding and the summary loses its
+   top margin, so the two start on the same line rather than 18px apart. The rule that
+   separated summary from ages when they were stacked moves under the headline, where it
+   now separates one thing from two. */
+@media (min-width:1000px){
+  /* Two 410px columns and a 56px gutter. Everything below the article -- what went out,
+     the pager, the follow card -- takes the same width, or the rules under a two-column
+     story stop where the columns do not. */
+  body.text main.wrap > *{max-width:876px}
+  .post{display:grid; grid-template-columns:1fr 1fr; gap:0 56px; align-items:start}
+  .post > .head{grid-column:1 / -1; border-bottom:1px solid var(--rule); padding-bottom:26px}
+  .post > .lede{grid-column:1; grid-row:2; padding-block:30px 0}
+  .post > section.block{grid-column:2; grid-row:2; padding-block:30px 0; border-top:0}
+  .post > .lede .summary{margin-top:0}
+  .post > .table-q{grid-column:1 / -1; grid-row:3; margin-top:36px}
+}
 .prose h2{font-family:var(--display); font-weight:400; font-size:24px; margin:34px 0 0}
 .prose h3{font-family:var(--sans); font-size:14px; font-weight:600; letter-spacing:.04em;
   margin:24px 0 0; color:var(--band)}
@@ -1105,9 +1126,11 @@ def render_post(p, newer, older, up="../../"):
     meta += f'<br>{e(long_date(p["day"]))}'
     body = f"""
   <article class="post">
-    <div class="today">
+    <div class="head">
       <div class="eyebrow">{meta}</div>
       <h1>{e(p["headline"])}</h1>
+    </div>
+    <div class="lede">
       <p class="summary">{e(p.get("summary", ""))}</p>
       <div class="src"><span>{src}</span></div>
     </div>
