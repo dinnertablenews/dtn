@@ -63,8 +63,12 @@ START = "September 13, 2026"
 # `sel` is the element it points at; a step whose element is missing is skipped, in
 # whichever direction the reader is moving. A step with no `sel` centres instead.
 TOUR = [
+    # The blank lines here and in the last step are real newlines: .tour-t is set with
+    # textContent and given white-space:pre-line, so the text stays text and still breaks
+    # into paragraphs.
     {"sel": ".seg",
-     "text": "Pick your child\u2019s age and every part of this site adapts with suggested "
+     "text": "Welcome to Dinner Table News, from Dan!\n\n"
+             "Pick your child\u2019s age and every part of this site adapts with suggested "
              "ways to talk about current news and age-appropriate questions for discussion, "
              "all guided by developmental psychology."},
     {"sel": ".stories article",
@@ -73,8 +77,6 @@ TOUR = [
     {"sel": "main .table-q",
      "text": "Tonight\u2019s dinner table question is related to the most recent news story "
              "and is meant for meaningful discussion for any age."},
-    # The blank line is a real newline: .tour-t is set with textContent and given
-    # white-space:pre-line, so the text stays text and still breaks into two paragraphs.
     {"sel": "nav .nav-links", "title": "Thanks for visiting!",
      "text": "Visit the Archive to find news categories like Science or Business with "
              "suggested ways to talk about recent news.\n\n"
