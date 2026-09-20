@@ -237,6 +237,13 @@ CSS = """
      panel has no edge. It gets a surface lifted well clear of the page, a border light
      enough to read against it, and a deeper scrim to sit on. */
   --tourbg:var(--bg); --tourline:var(--rule); --scrim:rgba(8,7,6,.68);
+  /* The table question carries the three logo dots as a gradient. It is not the dots'
+     own values: the bubble inverts by theme -- ink with paper text on paper, paper with
+     ink text in the dark -- so each theme gets the three hues at a lightness its text
+     can sit on. The quiet lines used to be var(--bg) at an opacity, which composited to
+     4.0 against this gradient and was already at 3.4 against the flat dark bubble it
+     replaces. They are solid mixes now, measured at 5.9 and up. */
+  --tq1:oklch(0.30 0.09 155); --tq2:oklch(0.30 0.09 250); --tq3:oklch(0.30 0.09 305);
   --c57:oklch(0.48 0.13 155); --c812:oklch(0.48 0.13 250); --c1317:oklch(0.48 0.13 305);
   --tint57:oklch(0.94 0.035 155); --tint812:oklch(0.94 0.035 250); --tint1317:oklch(0.94 0.035 305);
   /* The card edge, which is the one place a band colour has to read as a COLOUR rather
@@ -257,6 +264,7 @@ CSS = """
   --bg:#141311; --fg:#F1EDE4; --dim:#A8A295; --quiet:#C9C3B5;
   --rule:#2E2C27; --panel:#1D1C19; --field:#221F1B;
   --tourbg:#2B2925; --tourline:#4F4B43; --scrim:rgba(0,0,0,.80);
+  --tq1:oklch(0.90 0.045 155); --tq2:oklch(0.90 0.045 250); --tq3:oklch(0.90 0.045 305);
   --c57:oklch(0.78 0.12 155); --c812:oklch(0.76 0.12 250); --c1317:oklch(0.78 0.12 305);
   --tint57:oklch(0.26 0.04 155); --tint812:oklch(0.26 0.04 250); --tint1317:oklch(0.26 0.04 305);
 }}
@@ -266,8 +274,19 @@ CSS = """
   --bg:#141311; --fg:#F1EDE4; --dim:#A8A295; --quiet:#C9C3B5;
   --rule:#2E2C27; --panel:#1D1C19; --field:#221F1B;
   --tourbg:#2B2925; --tourline:#4F4B43; --scrim:rgba(0,0,0,.80);
+  --tq1:oklch(0.90 0.045 155); --tq2:oklch(0.90 0.045 250); --tq3:oklch(0.90 0.045 305);
   --c57:oklch(0.78 0.12 155); --c812:oklch(0.76 0.12 250); --c1317:oklch(0.78 0.12 305);
   --tint57:oklch(0.26 0.04 155); --tint812:oklch(0.26 0.04 250); --tint1317:oklch(0.26 0.04 305);
+}
+
+/* Derived from --tq2 so one set of rules serves both themes: on paper these step down
+   toward the ink, in the dark they step down toward the paper. Percentages picked by
+   rendering them over the gradient's worst stop and reading the pixels: 68% is 5.9:1,
+   78% is 7.4:1, both clear of the 4.5 a 13px line needs. */
+:root{
+  --tqquiet:color-mix(in oklab, var(--bg) 68%, var(--tq2));
+  --tqlabel:color-mix(in oklab, var(--bg) 78%, var(--tq2));
+  --tqmid:color-mix(in oklab, var(--bg) 88%, var(--tq2));
 }
 
 /* The age is a document-level fact: one attribute on <html> colours and reveals
@@ -399,6 +418,9 @@ article{padding-block:34px; border-top:1px solid var(--rule)}
    card and not the next, and two cards' footers stop lining up. Always two lines. */
 .stories .src{margin-top:auto; padding-top:20px; flex-direction:column;
   align-items:flex-start; gap:7px}
+/* The two links do different things, so they sit at opposite ends: the source leaves
+   the site, the other goes further into it. */
+.stories .src .more{align-self:flex-end}
 .stories .hl a:hover{text-decoration:none}   /* the whole card is already the target */
 
 /* Three abreast once there is room for three readable columns. The question steps
@@ -427,20 +449,21 @@ article{padding-block:34px; border-top:1px solid var(--rule)}
    page and the only light thing on a dark one, which is the point: everything else here
    is something to read, and this is something to answer. Keyed to --fg/--bg rather than
    to ink so it inverts in both themes instead of just the one. */
-.table-q{background:var(--fg); color:var(--bg); border-radius:18px; padding:32px 30px 34px;
+.table-q{background:linear-gradient(103deg,var(--tq1),var(--tq2) 52%,var(--tq3));
+         color:var(--bg); border-radius:18px; padding:32px 30px 34px;
          margin-block:12px 22px; position:relative}
 /* The tail. Two borders on an empty box: a flat top the width of the tail and a
    transparent right edge, which leaves a triangle hanging off the bottom-left corner.
    18px of bottom margin above keeps it from landing on whatever follows. */
 .table-q::after{content:""; position:absolute; left:34px; bottom:-17px; width:0; height:0;
-  border-top:18px solid var(--fg); border-right:20px solid transparent}
+  border-top:18px solid var(--tq1); border-right:20px solid transparent}
 .table-q .basis{font-size:14px; line-height:1.45; margin:10px 0 0; max-width:60ch}
-.table-q .basis .lab{color:var(--bg); opacity:.5}
-.table-q .basis .hd{color:var(--bg); opacity:.85}
-.table-q .eyebrow{color:var(--bg); opacity:.6}
+.table-q .basis .lab{color:var(--tqquiet)}
+.table-q .basis .hd{color:var(--tqmid)}
+.table-q .eyebrow{color:var(--tqlabel)}
 .table-q h2{font-family:var(--display); font-weight:400; font-size:clamp(24px,5vw,32px);
             line-height:1.12; margin:12px 0 0; text-wrap:balance; color:var(--bg)}
-.table-q p{font-size:14px; color:var(--bg); opacity:.6; margin:16px 0 0}
+.table-q p{font-size:14px; color:var(--tqquiet); margin:16px 0 0}
 
 /* ---- blocks: archive, follow --------------------------------------- */
 section.block{padding-block:34px; border-top:1px solid var(--rule)}
@@ -1006,9 +1029,9 @@ def story_block(p, up, *, heading=False, filterable=False):
     # outlet in smaller type; the sentence around it went next, because by the fourth
     # card a reader has worked out what a linked masthead under a story does.
     if p.get("source_url"):
-        src = (f'<a href="{attr(p["source_url"])}" rel="noopener">{e(p["outlet"])}</a>')
+        src = (f'Source: <a href="{attr(p["source_url"])}" rel="noopener">{e(p["outlet"])}</a>')
     else:
-        src = e(p["outlet"])
+        src = f'Source: {e(p["outlet"])}'
     bits.append(f'<div class="src"><span>{src}</span><a class="more" href="{href}">'
                 f'Dig further into this story →</a></div>')
     # data-href is what makes the card clickable. The headline stays a real link, so
@@ -1177,11 +1200,11 @@ def render_post(p, newer, older, up="../../"):
 
     table = table_block(p)
 
-    # As on the cards: the outlet name is the whole line.
+    # As on the cards: one word saying what the link is, then the outlet.
     if p.get("source_url"):
-        src = (f'<a href="{attr(p["source_url"])}" rel="noopener">{e(p["outlet"])}</a>')
+        src = (f'Source: <a href="{attr(p["source_url"])}" rel="noopener">{e(p["outlet"])}</a>')
     else:
-        src = e(p["outlet"])
+        src = f'Source: {e(p["outlet"])}'
     # The photo credit sat under the summary, where no photograph appears. The one place
     # the picture is actually on this page is inside the cover further down, so the credit
     # goes there: the licence is CC BY-SA and attribution belongs with the image.
