@@ -102,11 +102,11 @@ The workflow commits both files to `main` with `git pull --rebase -X theirs` so 
 | `slot` | Record only, e.g. `2026-09-14 12:00 CT`. Never rendered. |
 | `date` | Posting date, `YYYY-MM-DD`. Rendered on the cover as "September 14, 2026". |
 | `category` | One of the eleven categories. Drives the cover tint. |
-| `outlet`, `source_url`, `source_domain` | Attribution. Domain as it should read in the caption. |
+| `outlet`, `source_url`, `source_domain` | Attribution. The caption and the website print the outlet alone; the domain is provenance. |
 | `headline` | ≤ 60 characters, two lines on the cover. |
 | `summary` | 3–5 sentences, ≤ 340 characters. Caption only. |
 | `cover_question` | `{band, q}`. A question a kid of that age would ask about this story. No character cap; the layout rule is the limit. Must be one of that band's `questions`. |
-| `cover_age` | A whole number inside the band. The cover names it ("So your 14-year-old asks"). Drawn once and recorded so a re-render cannot move it. |
+| `ages_named` | One whole number per band, five excluded. The cover names the one in the question's band ("So your 14-year-old asks") and the caption names all three. Drawn once and recorded so a re-render cannot move them. |
 | `cover_answer` | The parent's one-line answer, ≤ 60 characters, no hedge. First line of the caption. |
 | `table_question` | One question anyone at the table can answer without knowing the news. ≤ 70 characters. |
 | `ages.<band>` | `chip`, `script`, `why`, `why_long`, optional `shield: true`. |
@@ -145,8 +145,8 @@ Built by `render.py` on the first render and written into `post.json`; a caption
 
 1. `cover_answer` (so in the feed the cover asks and the caption answers)
 2. `summary`
-3. `Source: <outlet>, <source_domain>` with the photo credit on the next line when a photo ran
-4. `Swipe for what to say at 5, at 10, and at 15.`
+3. `Source: <outlet>` with the photo credit on the next line when a photo ran
+4. `Swipe for what to say at age <5-7>, at <8-12>, and at <13-17>.`, naming the drawn ages
 5. `The dinner table question: <table_question> Tell us what your kid said, and how old they are.`
 6. hashtags
 

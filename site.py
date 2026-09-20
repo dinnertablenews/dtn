@@ -44,17 +44,22 @@ INSTAGRAM = "https://instagram.com/dinnertablenews"
 # the feed, the sitemap and the og: tags say. DTN_BASE_URL overrides it for a preview build.
 DOMAIN = "dinnertablenews.com"
 BASE_URL = (os.environ.get("DTN_BASE_URL") or (f"https://{DOMAIN}" if DOMAIN else "")).rstrip("/")
-# A hosted provider's form-POST endpoint (Buttondown, Kit, Beehiiv…). While it is
-# empty the follow section renders the Instagram card instead of a dead form.
-# Buttondown account name. Setting it turns the signup form on; empty keeps the
-# Instagram card, because a box that does nothing is worse than an honest link.
-BUTTONDOWN = os.environ.get("DTN_BUTTONDOWN", "")
+# Buttondown account name. It turns the signup form on; empty keeps the Instagram card,
+# because a box that does nothing is worse than an honest link. The name is not a secret:
+# it is in the form's action on every page, which is why it sits here and not in a repo
+# secret. Cased exactly as Settings -> General shows it, because nothing here can tell us
+# whether the endpoint folds case and a form that posts nowhere fails silently.
+# DTN_BUTTONDOWN overrides it, and DTN_BUTTONDOWN="" turns the form off again.
+BUTTONDOWN = os.environ.get("DTN_BUTTONDOWN", "DinnerTableNews")
 EMAIL_FORM_ACTION = f"https://buttondown.com/api/emails/embed-subscribe/{BUTTONDOWN}" if BUTTONDOWN else ""
 EMAIL_FIELD = "email"          # the field name Buttondown's embed expects
 # Signup asks which ages a subscriber cares about. Everyone gets the same email --
 # all three ages, one send -- so this is not segmentation yet; it is the data that
 # would justify segmenting later, collected from the first subscriber rather than
 # retrofitted onto a list that never recorded it.
+# Buttondown reads an input named `tag` as a tag by name or id, so the three tags below
+# have to exist in the Buttondown dashboard before the form goes live: a tag it does not
+# recognise is dropped and the subscriber is saved without it, silently.
 AGE_FIELD = "tag"              # "tag", or "metadata__ages" if tags are not available
 AGE_VALUE = {b: f"ages-{b}" for b in ("5-7", "8-12", "13-17")}
 START = "September 13, 2026"
@@ -581,9 +586,6 @@ section.block{padding-block:34px; border-top:1px solid var(--rule)}
 .others{font-size:14px; color:var(--dim); margin-top:22px}
 .others button{font:inherit; color:var(--fg); background:none; border:0; padding:0; cursor:pointer;
                text-decoration:underline; text-underline-offset:3px}
-.ig{display:flex; gap:16px; align-items:center; margin-top:8px; flex-wrap:wrap}
-.ig img{width:120px; border-radius:3px}
-.ig .credit{font-size:12px; color:var(--dim); margin:10px 0 0; max-width:42ch}
 .pager{display:flex; justify-content:space-between; gap:16px; padding-block:26px;
        border-top:1px solid var(--rule); font-size:14px}
 .pager a{color:var(--dim); text-decoration:none; max-width:46%}
@@ -603,9 +605,9 @@ body.text main.wrap > *{max-width:62ch}
    separated summary from ages when they were stacked moves under the headline, where it
    now separates one thing from two. */
 @media (min-width:1000px){
-  /* Two 410px columns and a 56px gutter. Everything below the article -- what went out,
-     the pager, the follow card -- takes the same width, or the rules under a two-column
-     story stop where the columns do not. */
+  /* Two 410px columns and a 56px gutter. Everything below the article -- the pager, the
+     follow card -- takes the same width, or the rules under a two-column story stop where
+     the columns do not. */
   body.text main.wrap > *{max-width:876px}
   .post{display:grid; grid-template-columns:1fr 1fr; gap:0 56px; align-items:start}
   .post > .head{grid-column:1 / -1; border-bottom:1px solid var(--rule); padding-bottom:26px}
@@ -1157,7 +1159,11 @@ def follow_block(up):
             f'value="{attr(AGE_VALUE[b])}" data-band="{b}"'
             f'{" checked" if b == DEFAULT_BAND else ""}><span>{LABEL[b]}</span></label>'
             for b in BANDS)
+        # embed=1 is what tells Buttondown the POST came from a form on someone else's
+        # page. Without it the endpoint answers as if it were its own hosted page, and
+        # a subscriber lands somewhere that does not look like this site.
         form = (f'<form class="signup" action="{attr(EMAIL_FORM_ACTION)}" method="post">'
+                f'<input type="hidden" name="embed" value="1">'
                 f'<div class="search"><input id="email" name="{attr(EMAIL_FIELD)}" type="email" '
                 f'required placeholder="you@example.com" aria-label="Email address">'
                 f'<button type="submit">Subscribe</button></div>'
@@ -1286,21 +1292,12 @@ def render_post(p, newer, older, up="../../"):
         src = (f'Source: <a href="{attr(p["source_url"])}" rel="noopener">{e(p["outlet"])}</a>')
     else:
         src = f'Source: {e(p["outlet"])}'
-    # The photo credit sat under the summary, where no photograph appears. The one place
-    # the picture is actually on this page is inside the cover further down, so the credit
-    # goes there: the licence is CC BY-SA and attribution belongs with the image.
-    ig = ""
-    link = p["published"].get("permalink")
-    if link:
-        thumb = (f'<a href="{attr(link)}"><img src="cover.jpg" alt="The cover of this post" '
-                 f'width="120" height="150" loading="lazy"></a>') if p["cover"] else ""
-        credit_line = (f'<p class="credit">{e(p["photo_credit"])}</p>'
-                       if p.get("photo_credit") and p["cover"] else "")
-        ig = (f'<section class="block"><div class="eyebrow">What went out</div>'
-              f'<div class="ig">{thumb}<div><p>This ran as a five-card carousel on Instagram.</p>'
-              f'<p><a class="more" href="{attr(link)}">See the post →</a></p>'
-              f'{credit_line}</div></div></section>')
-
+    # A "What went out" block sat here: the carousel cover as a 120px thumbnail, a line saying
+    # it ran on Instagram, a link to the post and the photo credit. It went because of what it
+    # cost on a phone. The row wraps at every phone width, so the thumbnail took a line of its
+    # own with 200px of nothing beside it and the text went under it: 259px of page for two
+    # links. The follow block under the pager already says where the account is, and a reader
+    # who wanted the carousel has read the whole story by then.
     pager = ""
     if newer or older:
         left = (f'<a href="{up}p/{newer["slug"]}/"><span class="lab">Newer</span>'
@@ -1324,7 +1321,6 @@ def render_post(p, newer, older, up="../../"):
     <section class="block">{"".join(blocks)}</section>
     {table}
   </article>
-  {ig}
   {pager}
   {follow_block(up)}
 """
@@ -1429,7 +1425,7 @@ ABOUT_TEMPLATE = """
     its outlet and links to the original reporting, and no quote, number or name appears here
     that the reporting does not carry.</p>
     <p>Photographs come from Wikimedia Commons under a Creative Commons or public domain
-    licence, and are credited on the story they run with.</p>
+    licence, and are credited in the Instagram post they run with.</p>
     <p>This tool was built mostly late at night by me, a guy named Dan trying to figure out
     how to talk to my young kiddos about tough news while encouraging them to engage the
     world. The daily posts are produced with combined human and AI input. I am committed to
@@ -1483,14 +1479,24 @@ def rfc822(ts):
 def by_day(posts):
     """Posts grouped by date, newest day first, each day's stories in slot order.
 
-    Only days that ran their evening slot are returned. A digest is a finished day:
-    sending one at 7am while the day is still filling would mail a third of it and
-    leave no way to send the rest."""
+    Only days that ran their evening slot. A digest is a finished day: sending one at 7am
+    while the day is still filling would mail a third of it and leave no way to send the rest.
+
+    And never the newest day that has posts, even when it is finished. The evening publish
+    is what finishes a day, it lands around 19:10 CT, and it rebuilds the site -- so a day
+    released the moment it finished would enter the feed that night and Buttondown would mail
+    it at seven in the evening under a page that promises seven in the morning. Holding it
+    until a newer day has posted moves its first appearance to the next morning's publish,
+    which is the send the page describes. Nothing is lost: the item is the same, a few hours
+    later, and the stories have been on the site and on Instagram all along."""
     days = {}
     for p in posts:
         days.setdefault(p["date"], []).append(p)
+    newest = max(days, default=None)
     out = []
     for d in sorted(days, reverse=True):
+        if d == newest:
+            continue
         stories = sorted(days[d], key=lambda p: p["_sort"])
         if any(p["slot_name"] == "Evening" for p in stories):
             out.append((d, stories))
@@ -1514,17 +1520,21 @@ def count_phrase(n):
 def digest_html(stories, day):
     """One day as email HTML. Inline styles only and no class hooks: an email client
     keeps neither. Every age goes in, because an email cannot switch between them the
-    way the site does."""
+    way the site does.
+
+    No date and no title. The item's own <title> is "Three stories for Saturday,
+    September 19, 2026", and Buttondown sets that as the email's heading above this
+    block, so printing the day and the count again underneath says both things twice."""
     SERIF = "Georgia,'Times New Roman',serif"
     SANS = "-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
     out = [f'<div style="font-family:{SANS};color:#1B1A17;max-width:560px">']
-    out.append(f'<p style="font-size:13px;letter-spacing:.08em;text-transform:uppercase;'
-               f'color:#6B675F;margin:0 0 6px">{e(long_date(day))}</p>')
-    out.append(f'<p style="font-family:{SERIF};font-size:26px;line-height:1.15;margin:0 0 4px">'
-               f'{e(count_phrase(len(stories)))}, and the words for them.</p>')
+    first = True
     for p in stories:
         url = f"{BASE_URL}/p/{p['slug']}/"
-        out.append('<hr style="border:0;border-top:1px solid #E0DACD;margin:28px 0 20px">')
+        # No rule above the first story: it would draw a line under the email's own heading.
+        if not first:
+            out.append('<hr style="border:0;border-top:1px solid #E0DACD;margin:28px 0 20px">')
+        first = False
         out.append(f'<p style="font-size:12px;font-weight:600;letter-spacing:.1em;'
                    f'text-transform:uppercase;color:#6B675F;margin:0 0 8px">{e(p["category"])}</p>')
         out.append(f'<p style="font-family:{SERIF};font-size:22px;line-height:1.2;margin:0 0 10px">'
