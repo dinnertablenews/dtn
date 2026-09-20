@@ -1070,7 +1070,7 @@ def follow_block(up):
             f'The morning email is coming; for now this is where it runs.</p>'
             f'<div class="follow-card"><span class="at">@dinnertablenews</span>'
             f'<a class="btn" href="{attr(INSTAGRAM)}">Follow</a>'
-            f'<button type="button" class="share">Send this to a parent</button>'
+            f'<button type="button" class="share">Share this</button>'
             f'</div></section>')
 
 
