@@ -67,9 +67,14 @@ than by the stylesheet, so it never promises a click that nothing is listening f
 
 The slot — morning, noon, evening — is not printed anywhere. A reader gains nothing from
 "Noon". `slot_name` stays on the post because the digest feed reads it to know a day has
-run its evening and is safe to mail. `--page` sets the measure per page: 1120px for the front
-page, 880px for the archive, 720px for a post or the about page, where the limit is a
-readable line rather than the screen.
+run its evening and is safe to mail. `--page` is 1120px on the front page, the archive
+and the about page, so the masthead is the same object everywhere and does not resize as
+you move between them. A post keeps 720px.
+
+Where a page is prose rather than a grid, the `text` body class holds the reading column
+and the rules between sections to 62ch while the masthead stays wide. Centring that column
+under a left-aligned wordmark was the alternative and it reads worse: two left edges, and
+the mark stranded on its own.
 
 The mark is `render.py`'s `wordmark()`: three lines with the dots beneath, the dot 45% of
 the type size. The site and the slides carry one lockup. The choice is an attribute on `<html>` and a

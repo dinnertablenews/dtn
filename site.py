@@ -396,6 +396,11 @@ section.block{padding-block:34px; border-top:1px solid var(--rule)}
 .pager a:hover{color:var(--fg)}
 .pager .lab{display:block; font-size:12px; letter-spacing:.08em; text-transform:uppercase; margin-bottom:4px}
 
+/* A text page takes the wide measure so its masthead matches every other page, and
+   holds the reading column to what a reader can track. The rules between sections stop
+   with the column: run to 1120 under a 480px column and the empty half looks like a
+   layout that broke rather than a margin. */
+body.text .today, body.text section.block{max-width:62ch}
 .prose{max-width:60ch}
 .prose h2{font-family:var(--display); font-weight:400; font-size:24px; margin:34px 0 0}
 .prose h3{font-family:var(--sans); font-size:14px; font-weight:600; letter-spacing:.04em;
@@ -1160,7 +1165,8 @@ def main():
     write(OUT / "about" / "index.html",
           shell(up="../", title=f"About — {SITE_NAME}",
                 desc="Where the news comes from, how the three versions are written, and who checks them.",
-                body=ABOUT, nav_here="about", path="about/", band_control=False))
+                body=ABOUT, nav_here="about", path="about/", band_control=False,
+                width="wide text"))
 
     for i, p in enumerate(posts):
         newer = posts[i - 1] if i > 0 else None
