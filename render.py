@@ -13,10 +13,12 @@ save/send/follow block. A slide that fails is reported as a "TOO LOW:" line on s
 script exits 1. Fix it by shortening text. Type sizes are never reduced to make room, so the three
 age cards always match.
 
-Cover age rule. The cover names a real age inside the question's band ("So your 14-year-old asks")
-rather than the bracket. It is drawn once from the band and written into post.json as `cover_age`,
-because a re-render must not move it; only the age itself takes the band's colour, so the line still
-reads as a sentence. The bracket is still on the floor chips and on the age card the reader swipes to.
+Named age rule. The cover names a real age inside the question's band ("So your 14-year-old asks")
+rather than the bracket, and the caption names one age per band. All of them are drawn once and
+written into post.json as `ages_named`, because a re-render must not move them and the cover and the
+caption must name the same kid. Five is in the 5-7 band and never named. Only the age itself takes
+the band's colour, so the line still reads as a sentence. The bracket is still on the floor chips
+and on the age card the reader swipes to.
 
 Cover question rule. Every cover question renders at QSIZE, one size on every cover, so covers
 sitting next to each other in the grid match instead of stepping down on a long question. There is
@@ -88,15 +90,27 @@ def typo(s):
     return s.replace("'", "\u2019")
 
 
-BAND_AGES = {"5-7": [5, 6, 7], "8-12": [8, 9, 10, 11, 12], "13-17": [13, 14, 15, 16, 17]}
+# Five is in the band but never named. "Your 5-year-old asks" reads as a preschooler and the
+# 5-7 script is written for a kid who has started school, so the named age is 6 or 7.
+BAND_AGES = {"5-7": [6, 7], "8-12": [8, 9, 10, 11, 12], "13-17": [13, 14, 15, 16, 17]}
+
+
+def ages_named(p):
+    """One concrete age per band: "So your 14-year-old asks" reads like a real kid where a bracket
+    reads like a form field. The cover names the one in its own band and the caption names all three,
+    and they have to agree — a reel that says "your 16-year-old" over a caption that says "at 15" is
+    two different kids. Drawn once and recorded as `ages_named` in post.json, the way publish_target
+    records the publish minute: the shorten-and-re-render loop would otherwise redraw on every pass
+    and drift from the veto notification, and the caption check compares against a stored string.
+    `cover_age` is the field this replaced; a post that still carries one keeps that age."""
+    got = dict(p.get("ages_named") or {})
+    if p.get("cover_age"):
+        got.setdefault(p["cover_question"]["band"], p["cover_age"])
+    return {b: got.get(b) or random.choice(ages) for b, ages in BAND_AGES.items()}
 
 
 def cover_age(p):
-    """The concrete age on the cover: "So your 14-year-old asks" reads like a real kid where a
-    bracket reads like a form field. Drawn once from the band and recorded as `cover_age` in
-    post.json, the way publish_target records the publish minute — the shorten-and-re-render loop
-    would otherwise redraw a different age on every pass and drift from the veto notification."""
-    return p.get("cover_age") or random.choice(BAND_AGES[p["cover_question"]["band"]])
+    return ages_named(p)[p["cover_question"]["band"]]
 
 
 def photo_img(path, box_w, box_h, top=0, zoom=1.0, focus_x="50%"):
@@ -282,18 +296,24 @@ def table(p):
 </div>''')
 
 
-SWIPE = "Swipe for what to say at 5, at 10, and at 15."
+def swipe_line(a):
+    """"at age 6" on the first one and bare numbers after it. Spelling out "age" three times reads
+    like a form, and leaving it off entirely makes the first number look like a time."""
+    return f"Swipe for what to say at age {a['5-7']}, at {a['8-12']}, and at {a['13-17']}."
 
 
 def build_caption(p, reel=False):
     """The Instagram caption, in the standard order. The first line answers the cover question, so in the
     feed the cover asks and the caption answers; the table question is the last thing before the hashtags.
 
+    The source line is the outlet and nothing else. The domain repeated the outlet in smaller type,
+    which is the call site.py already made for the cards on the website.
+
     reel=True drops the swipe line. A reel has nothing to swipe, and it has already played the three ages
     by the time anyone reads the caption. Everything else is identical, so the two formats say the same
     thing about the same story and there is one place to change the wording."""
-    source = f'Source: {p["outlet"]}, {p["source_domain"]}' + (f'\n{p["photo_credit"]}' if p.get("photo") and p.get("photo_credit") else "")
-    parts = [p["cover_answer"], p["summary"], source] + ([] if reel else [SWIPE]) + [
+    source = f'Source: {p["outlet"]}' + (f'\n{p["photo_credit"]}' if p.get("photo") and p.get("photo_credit") else "")
+    parts = [p["cover_answer"], p["summary"], source] + ([] if reel else [swipe_line(ages_named(p))]) + [
         f'The dinner table question: {p["table_question"]} Tell us what your kid said, and how old they are.',
         " ".join(p["hashtags"])]
     return "\n\n".join(parts)
@@ -367,16 +387,18 @@ def check(pg, name):
 def render(post, outdir, post_path=None):
     for k in ("date", "cover_question", "cover_answer", "table_question", "source_domain", "hashtags"):
         if k not in post: raise SystemExit(f"post.json is missing '{k}' (see posts/samples-v2-2026-09-13-evening/post.json)")
+    drew = "ages_named" not in post
+    post["ages_named"] = ages_named(post)   # drawn here so the caption and the cover name one kid
     slides = [("1-cover", cover(post)), ("2-ages-5-7", age(post, "5-7")), ("3-ages-8-12", age(post, "8-12")),
               ("4-ages-13-17", age(post, "13-17")), ("5-table", table(post))]
     os.makedirs(outdir, exist_ok=True); problems = []
     for msg in (check_composite(post), check_hashtags(post)):
         if msg: problems.append(msg)
     caption = build_caption(post)
-    if not post.get("caption") and post_path:  # first render: write the caption into post.json
-        post["caption"] = caption
+    if post_path and (drew or not post.get("caption")):  # write the drawn ages, and the caption on a first render
+        post.setdefault("caption", caption)
         json.dump(post, open(post_path, "w"), indent=2, ensure_ascii=False); open(post_path, "a").write("\n")
-        print(f"caption written to {post_path}", file=sys.stderr)
+        print(f"ages and caption written to {post_path}", file=sys.stderr)
     elif post.get("caption") != caption:
         problems.append("CAPTION: post.json's caption is not the standard caption built from its fields. Delete the caption "
                         "field and re-render, or replace it with:\n" + caption)

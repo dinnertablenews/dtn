@@ -26,7 +26,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 import base64
 import render
-from render import PAPER, INK, SOFT, HUES, col, dots, page, typo, cover_age, wordmark
+from render import PAPER, INK, SOFT, HUES, col, dots, page, typo, ages_named, cover_age, wordmark
 from playwright.sync_api import sync_playwright
 
 W, H = 1080, 1920
@@ -174,6 +174,9 @@ def fit_answer(pg, post, band, i):
 
 
 def render_reel(post, outdir):
+    # Pin the ages before the first frame. cover_age() draws when post.json has none, and drawn
+    # per frame it would count the kid up and down through the beat.
+    post["ages_named"] = ages_named(post)
     frames = os.path.join(outdir, ".frames"); os.makedirs(frames, exist_ok=True)
     n = 0
     with sync_playwright() as pw:
