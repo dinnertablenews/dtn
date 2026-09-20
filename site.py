@@ -1520,17 +1520,21 @@ def count_phrase(n):
 def digest_html(stories, day):
     """One day as email HTML. Inline styles only and no class hooks: an email client
     keeps neither. Every age goes in, because an email cannot switch between them the
-    way the site does."""
+    way the site does.
+
+    No date and no title. The item's own <title> is "Three stories for Saturday,
+    September 19, 2026", and Buttondown sets that as the email's heading above this
+    block, so printing the day and the count again underneath says both things twice."""
     SERIF = "Georgia,'Times New Roman',serif"
     SANS = "-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
     out = [f'<div style="font-family:{SANS};color:#1B1A17;max-width:560px">']
-    out.append(f'<p style="font-size:13px;letter-spacing:.08em;text-transform:uppercase;'
-               f'color:#6B675F;margin:0 0 6px">{e(long_date(day))}</p>')
-    out.append(f'<p style="font-family:{SERIF};font-size:26px;line-height:1.15;margin:0 0 4px">'
-               f'{e(count_phrase(len(stories)))}, and the words for them.</p>')
+    first = True
     for p in stories:
         url = f"{BASE_URL}/p/{p['slug']}/"
-        out.append('<hr style="border:0;border-top:1px solid #E0DACD;margin:28px 0 20px">')
+        # No rule above the first story: it would draw a line under the email's own heading.
+        if not first:
+            out.append('<hr style="border:0;border-top:1px solid #E0DACD;margin:28px 0 20px">')
+        first = False
         out.append(f'<p style="font-size:12px;font-weight:600;letter-spacing:.1em;'
                    f'text-transform:uppercase;color:#6B675F;margin:0 0 8px">{e(p["category"])}</p>')
         out.append(f'<p style="font-family:{SERIF};font-size:22px;line-height:1.2;margin:0 0 10px">'
