@@ -190,19 +190,30 @@ There are two feeds, and they are not interchangeable:
 Point Buttondown's RSS-to-email at **`/feed-daily.xml`**. Pointed at `feed.xml` it would
 send three emails a day, which is not what the site promises anyone.
 
-A digest item appears only once a day has run its evening slot. A day still filling would
-otherwise go out as a third of itself at 7am with no way to send the rest. So the email
-that lands on Saturday morning carries Friday's three stories, complete.
+A digest item appears only once a day has run its evening slot, and not while it is still
+the newest day with posts. A day still filling would otherwise go out as a third of itself
+with no way to send the rest. The second half of that rule is what puts the send in the
+morning: the evening publish both finishes a day and rebuilds the site, so a day released
+the moment it finished would enter the feed around 19:10 CT and Buttondown would mail it
+that evening, under a page promising 7am. Held back, its first appearance is the next
+morning's publish. So the email that lands on Saturday morning carries Friday's three
+stories, complete.
 
 The email body is built by `digest_html()`: inline styles only, no classes, no `oklch()`
 — mail clients keep none of those, and one that cannot parse a colour renders it black
 rather than approximating it. `MAIL_HUE` holds the three band colours as hex for that
 reason; they are the site's light-mode values converted once.
 
-Set `BUTTONDOWN` at the top of `site.py` to the account name and the signup form turns on.
-While it is empty the follow section shows the Instagram card instead — a form that posts
-nowhere is worse than an honest link. `DTN_BUTTONDOWN=<name> python3 site.py` previews the
-form without committing a name.
+`BUTTONDOWN` at the top of `site.py` is the account name, `dinnertablenews`, and setting it
+is what turns the signup form on. It is not a secret: it is in the form's action on every
+page, which is why it sits in the file and not in a repo secret. Empty, the follow section
+shows the Instagram card instead — a form that posts nowhere is worse than an honest link.
+`DTN_BUTTONDOWN=<name> python3 site.py` previews another account, `DTN_BUTTONDOWN=` turns
+the form off.
+
+The form carries a hidden `embed=1`. That is what tells the endpoint the POST came from a
+form on someone else's page; without it Buttondown answers as though it were its own hosted
+page, and the first thing a new subscriber sees is not this site.
 
 ### What signup asks
 
@@ -219,10 +230,15 @@ ignores the question still answers it. It is set on load only: touching the page
 control afterwards must not rewrite what they said. Checkboxes rather than a single
 choice, because a parent with a 6-year-old and a 14-year-old has two honest answers.
 
-Two things to confirm against a real Buttondown account, both of which change one constant
-if they are wrong: that the embed endpoint accepts repeated `tag` fields for a multiple
-selection, and that tags are available on the plan in use. If they are not, set
-`AGE_FIELD = "metadata__ages"` and the same answers arrive as subscriber metadata.
+Buttondown matches a `tag` input against a tag that already exists, by name or by id, so
+`ages-5-7`, `ages-8-12` and `ages-13-17` have to be created in the dashboard before the form
+goes live. A tag it does not recognise is dropped and the subscriber is saved without it,
+with no error on either end — the failure is silent, which is the reason to check rather
+than assume.
+
+One thing left to confirm against the real account: that tags are available on the plan in
+use. If they are not, set `AGE_FIELD = "metadata__ages"` and the same answers arrive as
+subscriber metadata instead.
 
 RSS-to-email is a paid add-on on top of Buttondown's free tier, which covers the first
 hundred subscribers.

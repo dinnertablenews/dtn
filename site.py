@@ -44,11 +44,11 @@ INSTAGRAM = "https://instagram.com/dinnertablenews"
 # the feed, the sitemap and the og: tags say. DTN_BASE_URL overrides it for a preview build.
 DOMAIN = "dinnertablenews.com"
 BASE_URL = (os.environ.get("DTN_BASE_URL") or (f"https://{DOMAIN}" if DOMAIN else "")).rstrip("/")
-# A hosted provider's form-POST endpoint (Buttondown, Kit, Beehiiv…). While it is
-# empty the follow section renders the Instagram card instead of a dead form.
-# Buttondown account name. Setting it turns the signup form on; empty keeps the
-# Instagram card, because a box that does nothing is worse than an honest link.
-BUTTONDOWN = os.environ.get("DTN_BUTTONDOWN", "")
+# Buttondown account name. It turns the signup form on; empty keeps the Instagram card,
+# because a box that does nothing is worse than an honest link. The name is not a secret:
+# it is in the form's action on every page, which is why it sits here and not in a repo
+# secret. DTN_BUTTONDOWN overrides it, and DTN_BUTTONDOWN="" turns the form off again.
+BUTTONDOWN = os.environ.get("DTN_BUTTONDOWN", "dinnertablenews")
 EMAIL_FORM_ACTION = f"https://buttondown.com/api/emails/embed-subscribe/{BUTTONDOWN}" if BUTTONDOWN else ""
 EMAIL_FIELD = "email"          # the field name Buttondown's embed expects
 # Signup asks which ages a subscriber cares about. Everyone gets the same email --
@@ -1477,14 +1477,24 @@ def rfc822(ts):
 def by_day(posts):
     """Posts grouped by date, newest day first, each day's stories in slot order.
 
-    Only days that ran their evening slot are returned. A digest is a finished day:
-    sending one at 7am while the day is still filling would mail a third of it and
-    leave no way to send the rest."""
+    Only days that ran their evening slot. A digest is a finished day: sending one at 7am
+    while the day is still filling would mail a third of it and leave no way to send the rest.
+
+    And never the newest day that has posts, even when it is finished. The evening publish
+    is what finishes a day, it lands around 19:10 CT, and it rebuilds the site -- so a day
+    released the moment it finished would enter the feed that night and Buttondown would mail
+    it at seven in the evening under a page that promises seven in the morning. Holding it
+    until a newer day has posted moves its first appearance to the next morning's publish,
+    which is the send the page describes. Nothing is lost: the item is the same, a few hours
+    later, and the stories have been on the site and on Instagram all along."""
     days = {}
     for p in posts:
         days.setdefault(p["date"], []).append(p)
+    newest = max(days, default=None)
     out = []
     for d in sorted(days, reverse=True):
+        if d == newest:
+            continue
         stories = sorted(days[d], key=lambda p: p["_sort"])
         if any(p["slot_name"] == "Evening" for p in stories):
             out.append((d, stories))
