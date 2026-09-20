@@ -22,6 +22,7 @@ static site build has no business installing Chromium. If they move there, move
 them here, or the site and the slides drift apart.
 """
 
+import collections
 import hashlib
 import html
 import json
@@ -56,7 +57,28 @@ EMAIL_FIELD = "email"          # the field name Buttondown's embed expects
 # retrofitted onto a list that never recorded it.
 AGE_FIELD = "tag"              # "tag", or "metadata__ages" if tags are not available
 AGE_VALUE = {b: f"ages-{b}" for b in ("5-7", "8-12", "13-17")}
-START = "September 13, 2026"   # first post; the archive says how far back it goes
+START = "September 13, 2026"
+
+# The first-visit walkthrough. Four steps, shown once, on the front page only.
+# `sel` is the element it points at; the last step points at nothing and centres.
+TOUR = [
+    {"sel": ".seg",
+     "text": "Pick your child\u2019s age and every part of this site adapts with suggested "
+             "ways to talk about current news and age-appropriate questions for discussion, "
+             "all guided by developmental psychology."},
+    {"sel": ".stories article",
+     "text": "Here is the most recent news story. Three are posted on this front page every "
+             "day. You can find more on our Instagram page or in the Archive."},
+    {"sel": "nav a.nav-archive",
+     "text": "Visit the archive when your child asks a tough question about the economy, or "
+             "the government, and you want recent news stories to reference and suggested "
+             "ways to talk about them."},
+    {"sel": None, "title": "Thanks for visiting!",
+     "text": "If this is useful, please share with another parent or friend."},
+]
+SHARE_SUBJECT = "Something for the dinner table"
+SHARE_TEXT = ("How to talk to your kids about today\u2019s news, written three ways: "
+              "for 5\u20137, 8\u201312 and 13\u201317.")   # first post; the archive says how far back it goes
 
 # ---- render.py's palette, restated (see the module docstring) --------------
 PAPER, INK, SOFT, MUTED = "#F5F2EB", "#1B1A17", "#3D3A34", "#6B675F"
@@ -65,6 +87,16 @@ LABEL = {"5-7": "5–7", "8-12": "8–12", "13-17": "13–17"}
 HUES = {"5-7": 155, "8-12": 250, "13-17": 305}
 DEFAULT_BAND = "8-12"
 SLOTS = {"morning": ("Morning", 0), "noon": ("Noon", 1), "evening": ("Evening", 2)}
+
+# The category list, in the order the archive shows it. Not alphabetical: it runs from
+# the widest frame inward, and Good news sits last because it describes a tone rather
+# than a subject.
+CATEGORIES = ["World", "U.S.", "Politics", "Business", "Technology", "Science",
+              "Health", "Climate", "Culture", "Sports", "Good news"]
+# Posts published under the old list, mapped on the way in. Their covers still print the
+# label they shipped with; this only governs how the site files and filters them.
+# Both Security stories were a drone over Lithuania and a missile at Riyadh, so World.
+REMAP = {"Government": "Politics", "Economy": "Business", "Security": "World"}
 
 
 def typo(s):
@@ -113,6 +145,7 @@ def load_posts():
             continue
         p = json.loads((d / "post.json").read_text())
         p["slug"] = slug
+        p["category"] = REMAP.get(p.get("category", ""), p.get("category", ""))
         p["date"] = p.get("date") or m.group(1)
         p["day"] = date.fromisoformat(p["date"])
         # Not printed anywhere -- a reader gains nothing from "Noon" -- but by_day()
@@ -340,7 +373,8 @@ section.block{padding-block:34px; border-top:1px solid var(--rule)}
 .chips{display:flex; flex-wrap:wrap; gap:8px; margin-top:14px}
 .chips button,.chips span{font-family:var(--sans); font-size:13px; color:var(--dim); border:1px solid var(--rule);
   border-radius:999px; padding:5px 12px; background:transparent; cursor:pointer}
-.chips button:hover{color:var(--fg)}
+.chips button:hover:not([disabled]){color:var(--fg)}
+.chips button[disabled]{opacity:.38; cursor:default}
 .chips button[aria-pressed="true"]{color:var(--band); border-color:var(--band); background:var(--bandtint)}
 .note{font-size:13px; color:var(--dim); margin-top:10px; min-height:1.2em}
 .ageask{border:0; margin:14px 0 0; padding:0; display:flex; flex-wrap:wrap; gap:8px; align-items:center}
@@ -422,6 +456,38 @@ body.text .today, body.text section.block{max-width:62ch}
 .prose p{font-size:15px; line-height:1.65; color:var(--quiet); margin:12px 0 0}
 .prose a{text-decoration:underline; text-underline-offset:2px}
 
+/* ---- share + first-visit walkthrough ---------------------------------- */
+.share{font:inherit; font-size:15px; font-weight:500; cursor:pointer; padding:10px 18px;
+  border-radius:3px; border:1.5px solid var(--rule); background:transparent; color:var(--fg)}
+.share:hover{border-color:var(--fg)}
+.share:focus-visible{outline:2px solid var(--fg); outline-offset:2px}
+
+/* The dim is the hole's own box-shadow, so the panel itself is only the highlight.
+   The backdrop is a separate full-screen layer, because a shadow does not take a
+   click: without it a reader could tap a story card straight through the tour. */
+.tour{position:fixed; inset:0; z-index:60}
+.tour-hole{position:absolute; border-radius:6px; pointer-events:none;
+  box-shadow:0 0 0 9999px rgba(8,7,6,.68); transition:top .2s ease, left .2s ease,
+  width .2s ease, height .2s ease}
+.tour-hole.none{box-shadow:0 0 0 9999px rgba(8,7,6,.68); width:0; height:0; top:50%; left:50%}
+.tour-bub{position:absolute; width:min(340px, calc(100vw - 32px)); background:var(--bg);
+  color:var(--fg); border:1px solid var(--rule); border-radius:4px; padding:20px 20px 14px;
+  box-shadow:0 14px 44px rgba(0,0,0,.34)}
+.tour-bub.mid{position:fixed; top:50%; left:50%; transform:translate(-50%,-50%); text-align:left}
+.tour-n{font-size:12px; font-weight:600; letter-spacing:.1em; text-transform:uppercase;
+  color:var(--dim); margin:0}
+.tour-h{font-family:var(--display); font-weight:400; font-size:24px; margin:10px 0 0}
+.tour-t{font-size:15px; line-height:1.55; color:var(--quiet); margin:10px 0 0}
+.tour-act{display:flex; align-items:center; gap:10px; margin-top:18px}
+.tour-act .sp{flex:1}
+.tour-skip{font:inherit; font-size:14px; background:none; border:0; color:var(--dim);
+  cursor:pointer; padding:8px 4px; text-decoration:underline; text-underline-offset:3px}
+.tour-skip:hover{color:var(--fg)}
+.tour-next{font:inherit; font-size:15px; font-weight:500; cursor:pointer; padding:10px 20px;
+  border-radius:3px; border:1.5px solid var(--fg); background:var(--fg); color:var(--bg)}
+.tour-next:focus-visible,.tour-skip:focus-visible{outline:2px solid var(--fg); outline-offset:2px}
+@media (prefers-reduced-motion:reduce){.tour-hole{transition:none}}
+
 footer{border-top:1px solid var(--rule); padding-block:28px 40px; font-size:13px; color:var(--dim);
        display:grid; gap:10px}
 footer a{text-decoration:underline; text-underline-offset:2px}
@@ -452,6 +518,95 @@ def font_css(up):
 
 
 # -------------------------------------------------------------------- js ---
+
+SHARE_JS = """
+(function(){
+  var URL_ = "__URL__" || location.href.split('#')[0];
+  // sms: is spelled differently by the two platforms; "?&body=" is the form both accept.
+  window.dtnShare=function(){
+    var body = "__MSG__" + "\\n\\n" + URL_;
+    var touch = window.matchMedia && window.matchMedia('(hover:none) and (pointer:coarse)').matches;
+    location.href = touch
+      ? 'sms:?&body=' + encodeURIComponent(body)
+      : 'mailto:?subject=' + encodeURIComponent("__SUBJ__") + '&body=' + encodeURIComponent(body);
+  };
+  var b=document.querySelectorAll('.share');
+  for(var i=0;i<b.length;i++) b[i].addEventListener('click', window.dtnShare);
+})();
+"""
+
+TOUR_JS = """
+(function(){
+  var KEY='dtn-tour', STEPS=__STEPS__;
+  if(!document.querySelector('.stories')) return;          // front page only
+  try{ if(localStorage.getItem(KEY)) return; }catch(e){ return; }
+  var i=0, prev=document.activeElement, root=document.createElement('div');
+  root.className='tour';
+  root.innerHTML='<div class="tour-hole"></div>'+
+    '<div class="tour-bub" role="dialog" aria-modal="true" aria-label="Getting started">'+
+    '<p class="tour-n"></p><h2 class="tour-h" hidden></h2><p class="tour-t"></p>'+
+    '<div class="tour-act"><button type="button" class="tour-skip">Skip</button>'+
+    '<span class="sp"></span>'+
+    '<button type="button" class="tour-share share" hidden>Share</button>'+
+    '<button type="button" class="tour-next">Next</button></div></div>';
+  var hole=root.querySelector('.tour-hole'), bub=root.querySelector('.tour-bub'),
+      next=root.querySelector('.tour-next'), share=root.querySelector('.tour-share');
+
+  function target(){ return STEPS[i].sel ? document.querySelector(STEPS[i].sel) : null; }
+  function place(){
+    var el=target();
+    if(!el){ hole.className='tour-hole none'; bub.className='tour-bub mid';
+             bub.style.top=bub.style.left=''; return; }
+    hole.className='tour-hole';
+    var r=el.getBoundingClientRect(), pad=8;
+    hole.style.top=(r.top-pad)+'px'; hole.style.left=(r.left-pad)+'px';
+    hole.style.width=(r.width+pad*2)+'px'; hole.style.height=(r.height+pad*2)+'px';
+    bub.className='tour-bub';
+    var bh=bub.offsetHeight, bw=bub.offsetWidth, gap=14, top=r.bottom+gap;
+    if(window.innerHeight-r.bottom-gap < bh && r.top > bh+gap) top=r.top-bh-gap;
+    bub.style.top=Math.max(12, Math.min(top, window.innerHeight-bh-12))+'px';
+    bub.style.left=Math.max(12, Math.min(r.left, window.innerWidth-bw-12))+'px';
+  }
+  function draw(){
+    while(i<STEPS.length && STEPS[i].sel && !document.querySelector(STEPS[i].sel)) i++;
+    if(i>=STEPS.length){ end(); return; }
+    var st=STEPS[i], h=root.querySelector('.tour-h');
+    root.querySelector('.tour-n').textContent=(i+1)+'/'+STEPS.length;
+    h.textContent=st.title||''; h.hidden=!st.title;
+    root.querySelector('.tour-t').textContent=st.text;
+    var last=i===STEPS.length-1;
+    next.textContent=last?'Done':'Next';
+    share.hidden=!last;
+    var el=target();
+    if(el){ if(el.closest('header')) window.scrollTo(0,0); else el.scrollIntoView({block:'center'}); }
+    setTimeout(place,60);
+    next.focus();
+  }
+  function end(){
+    try{ localStorage.setItem(KEY,'1'); }catch(e){}
+    root.remove();
+    document.removeEventListener('keydown',key); window.removeEventListener('resize',place);
+    window.removeEventListener('scroll',place);
+    if(prev&&prev.focus) try{ prev.focus(); }catch(e){}
+  }
+  function key(ev){
+    if(ev.key==='Escape'){ end(); return; }
+    if(ev.key!=='Tab') return;                       // keep focus inside the dialog
+    var f=bub.querySelectorAll('button:not([hidden])');
+    if(!f.length) return;
+    var first=f[0], lastEl=f[f.length-1];
+    if(ev.shiftKey && document.activeElement===first){ ev.preventDefault(); lastEl.focus(); }
+    else if(!ev.shiftKey && document.activeElement===lastEl){ ev.preventDefault(); first.focus(); }
+  }
+  next.addEventListener('click', function(){ if(i>=STEPS.length-1){ end(); } else { i++; draw(); } });
+  root.querySelector('.tour-skip').addEventListener('click', end);
+  share.addEventListener('click', function(){ if(window.dtnShare) window.dtnShare(); });
+  document.addEventListener('keydown', key);
+  window.addEventListener('resize', place); window.addEventListener('scroll', place);
+  document.body.appendChild(root);
+  draw();
+})();
+"""
 
 THEME_JS = """
 (function(){
@@ -591,6 +746,11 @@ ARCHIVE_JS = """
 
 
 
+SHARE_JS = (SHARE_JS.replace("__URL__", f"{BASE_URL}/" if BASE_URL else "")
+            .replace("__MSG__", SHARE_TEXT).replace("__SUBJ__", SHARE_SUBJECT))
+TOUR_JS = TOUR_JS.replace("__STEPS__", json.dumps(TOUR))
+
+
 # ----------------------------------------------------------------- shell ---
 
 # Half-filled circle: the left half solid, the outline closing the right.
@@ -653,7 +813,7 @@ var t=localStorage.getItem('dtn-theme');if(t==='light'||t==='dark')r.setAttribut
     <div class="bar">
       <a class="mark" href="{up}"><span class="wm">Dinner<br>Table<br>News</span>{DOTS}</a>
       <nav>
-        <a href="{up}archive/"{here('archive')}>Archive</a>
+        <a class="nav-archive" href="{up}archive/"{here('archive')}>Archive</a>
         <a href="{up}about/"{here('about')}>About</a>
         <a href="{attr(INSTAGRAM)}" rel="me">Instagram</a>
         <button class="theme" type="button" id="theme" aria-label="Switch to dark theme">{THEME_ICON}</button>
@@ -668,7 +828,7 @@ var t=localStorage.getItem('dtn-theme');if(t==='light'||t==='dark')r.setAttribut
   <div><a href="{attr(INSTAGRAM)}">@dinnertablenews</a> · {e(SITE_NAME)}, {date.today().year}</div>
 </footer>
 </main>
-<script>{THEME_JS}{BAND_JS}{CARD_JS}{extra_js}</script>
+<script>{THEME_JS}{BAND_JS}{CARD_JS}{SHARE_JS}{extra_js}</script>
 </body>
 </html>
 """
@@ -746,7 +906,9 @@ def follow_block(up):
             f'<p>Morning, noon and evening — one story each, written for all three ages. '
             f'The morning email is coming; for now this is where it runs.</p>'
             f'<div class="follow-card"><span class="at">@dinnertablenews</span>'
-            f'<a class="btn" href="{attr(INSTAGRAM)}">Follow</a></div></section>')
+            f'<a class="btn" href="{attr(INSTAGRAM)}">Follow</a>'
+            f'<button type="button" class="share">Send this to a parent</button>'
+            f'</div></section>')
 
 
 def render_index(posts, up=""):
@@ -782,15 +944,23 @@ def render_index(posts, up=""):
     return shell(up=up, title=f"{SITE_NAME} — today’s news, explained for your kid’s age",
                  desc="Three stories a day, each written three ways: for 5–7, 8–12 and 13–17. "
                       "Plus one question for the dinner table.",
-                 body=body, width="wide",
+                 body=body, width="wide", extra_js=TOUR_JS,
                  og_image=f"p/{lead['slug']}/cover.jpg" if lead["cover"] else None)
 
 
 def render_archive(posts, up="../"):
     """Every story as a card, filtered in the browser, twelve at a time."""
-    cats = sorted({p["category"] for p in posts})
-    chips = "".join(f'<button type="button" data-cat="{attr(c)}" aria-pressed="false">{e(c)}</button>'
-                    for c in cats)
+    # Every category, in CATEGORIES order, so the set a reader sees is the set the site
+    # commits to rather than whatever happens to have run. One with nothing behind it is
+    # shown and disabled: a pill that returns "nothing yet" twice teaches people to stop
+    # trusting the row.
+    have = collections.Counter(p["category"] for p in posts)
+    chips = []
+    for c in CATEGORIES:
+        off = '' if have[c] else ' disabled aria-disabled="true" title="No stories yet"'
+        chips.append(f'<button type="button" data-cat="{attr(c)}" aria-pressed="false"{off}>'
+                     f'{e(c)}</button>')
+    chips = "".join(chips)
     cards = "".join(story_block(p, up, heading=True, filterable=True) for p in posts)
     body = f"""
   <div class="today">

@@ -141,6 +141,34 @@ overrides correct records.
 Then **Settings → Pages**: set the custom domain to `dinnertablenews.com`, wait for the
 check to pass, and tick **Enforce HTTPS**.
 
+## First visit
+
+`TOUR` in `site.py` holds a four-step walkthrough, shown once per browser on the front
+page only and remembered under `dtn-tour`. Three steps point at something — the age pills,
+the first story card, the Archive link — and the fourth is a centred modal that asks the
+reader to share. The dim is the spotlight's own box-shadow, so a separate full-screen
+layer sits underneath it: a shadow does not take a click, and without that layer a reader
+could tap a story card straight through the tour.
+
+It can be escaped, by Skip or by Escape, and either counts as seen. A walkthrough nobody
+can leave is a walkthrough that traps the reader whose browser lays it out wrong.
+
+`SHARE_TEXT` and `SHARE_SUBJECT` set what gets sent. Any `.share` button opens an SMS on a
+touch device and a mail client everywhere else, keyed to the same `(hover:none) and
+(pointer:coarse)` test the cards use. The `sms:?&body=` spelling is the form both iOS and
+Android accept; it wants testing on real handsets.
+
+## Categories
+
+`CATEGORIES` is the list, in the order the archive shows it: World, U.S., Politics,
+Business, Technology, Science, Health, Climate, Culture, Sports, Good news. The archive
+prints all of them and disables the ones with nothing behind them, so the row is the set
+the site commits to rather than whatever happens to have run.
+
+`REMAP` maps the labels retired from the old list — Government to Politics, Economy to
+Business, Security to World — as posts are loaded. Their covers still print the label they
+shipped with; this governs only how the site files and filters them.
+
 ## The morning email
 
 Buttondown, sending from the feed rather than from a second pipeline.
