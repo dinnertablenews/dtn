@@ -351,18 +351,16 @@ section.block{padding-block:34px; border-top:1px solid var(--rule)}
 .btn{display:inline-block; font-size:15px; font-weight:500; padding:10px 18px; border-radius:3px;
   border:1.5px solid var(--fg); background:var(--fg); color:var(--bg); text-decoration:none}
 
-/* ---- archive list --------------------------------------------------- */
-.list{margin-top:8px}
-.item{display:flex; gap:16px; padding-block:22px; border-top:1px solid var(--rule); align-items:flex-start}
-.item.hidden{display:none}
-.item .thumb{flex:0 0 84px; width:84px; border-radius:3px; overflow:hidden; background:var(--panel)}
-.item .thumb img{aspect-ratio:4/5; object-fit:cover; width:100%}
-.item .meta{font-size:12px; color:var(--dim); letter-spacing:.06em; text-transform:uppercase; font-weight:600}
-.item h3{font-family:var(--display); font-weight:400; font-size:21px; line-height:1.18; margin:6px 0 0; text-wrap:balance}
-.item h3 a{text-decoration:none}
-.item h3 a:hover{text-decoration:underline; text-underline-offset:3px}
-.item .ask{font-family:var(--text); font-size:16px; color:var(--quiet); margin:8px 0 0; max-width:46ch}
+/* ---- archive ---------------------------------------------------------- */
+.stories article.hidden{display:none}
 .count{font-size:13px; color:var(--dim); margin-top:16px}
+.more-row{display:flex; justify-content:center; padding-block:10px 40px}
+.more-btn{font-family:var(--sans); font-size:15px; font-weight:500; cursor:pointer;
+  padding:11px 26px; border-radius:999px; border:1.5px solid var(--rule);
+  background:transparent; color:var(--fg)}
+.more-btn:hover{border-color:var(--fg)}
+.more-btn:focus-visible{outline:2px solid var(--fg); outline-offset:2px}
+.more-btn[hidden]{display:none}
 
 /* ---- a single post --------------------------------------------------- */
 /* A post is an <article> too, but it opens the page: it takes neither the rule
@@ -519,42 +517,57 @@ BAND_JS = """
 # Filters the archive list in the DOM rather than fetching an index: at a few hundred
 # posts this is smaller and faster than a JSON round trip, and it works with the page
 # opened from disk. Revisit when the archive runs to four figures.
+# Filters and pages the cards already in the page rather than fetching an index: at a few
+# hundred posts this is smaller and faster than a round trip, and it works from disk.
+# Revisit when the archive runs to four figures and shipping every card stops being cheap.
 ARCHIVE_JS = """
 (function(){
-  var input=document.getElementById('q'), list=document.getElementById('list'),
-      note=document.getElementById('count'), chips=document.querySelectorAll('.chips button');
+  var PAGE=12;
+  var list=document.getElementById('list'), input=document.getElementById('q'),
+      note=document.getElementById('count'), more=document.getElementById('more'),
+      chips=document.querySelectorAll('.chips button');
   if(!list) return;
-  var items=[].slice.call(list.querySelectorAll('.item')), cat='';
-  function apply(){
+  var cards=[].slice.call(list.querySelectorAll('article')), cat='', shown=PAGE;
+  function draw(){
     var q=(input&&input.value||'').trim().toLowerCase(), n=0;
-    for(var i=0;i<items.length;i++){
-      var it=items[i];
-      var hit=(!q||it.getAttribute('data-text').indexOf(q)>-1)&&(!cat||it.getAttribute('data-cat')===cat);
-      it.classList.toggle('hidden',!hit);
-      if(hit) n++;
+    for(var i=0;i<cards.length;i++){
+      var c=cards[i];
+      var hit=(!q||c.getAttribute('data-text').indexOf(q)>-1)&&(!cat||c.getAttribute('data-cat')===cat);
+      var vis=false;
+      if(hit){ vis = n<shown; n++; }        // cards are already newest first
+      c.classList.toggle('hidden',!vis);
     }
-    if(note) note.textContent = (q||cat)
-      ? (n===0 ? 'Nothing yet for that. Try a broader word.' : n+(n===1?' story':' stories')+' found.')
-      : items.length+' stories since '+note.getAttribute('data-start')+'.';
+    if(note) note.textContent = n===0
+      ? 'Nothing yet for that. Try a broader word.'
+      : (q||cat) ? n+(n===1?' story':' stories')+'.'
+                 : n+' stories since '+note.getAttribute('data-start')+'.';
+    if(more){
+      var left=n-shown;
+      more.hidden = left<=0;
+      more.textContent = left>PAGE ? 'Load 12 more' : 'Load '+left+' more';
+    }
     var u=new URL(location); q?u.searchParams.set('q',q):u.searchParams.delete('q');
     history.replaceState(null,'',u);
   }
+  function reset(){ shown=PAGE; draw(); }   // a new filter starts at the top again
   if(input){
-    input.addEventListener('input',apply);
     var pre=new URL(location).searchParams.get('q');
     if(pre) input.value=pre;
+    input.addEventListener('input',reset);
   }
   for(var i=0;i<chips.length;i++) chips[i].addEventListener('click',function(){
-    var v=this.getAttribute('data-cat'); cat = (cat===v?'':v);
+    var v=this.getAttribute('data-cat'); cat=(cat===v?'':v);
     for(var j=0;j<chips.length;j++)
       chips[j].setAttribute('aria-pressed', chips[j].getAttribute('data-cat')===cat?'true':'false');
-    apply();
+    reset();
   });
+  if(more) more.addEventListener('click',function(){ shown+=PAGE; draw(); });
   var f=document.getElementById('searchForm');
-  if(f) f.addEventListener('submit',function(ev){ev.preventDefault();apply();});
-  apply();
+  if(f) f.addEventListener('submit',function(ev){ev.preventDefault();reset();});
+  draw();
 })();
 """
+
 
 
 # ----------------------------------------------------------------- shell ---
@@ -642,7 +655,7 @@ var t=localStorage.getItem('dtn-theme');if(t==='light'||t==='dark')r.setAttribut
 
 # ----------------------------------------------------------------- pages ---
 
-def story_block(p, up, *, heading=False):
+def story_block(p, up, *, heading=False, filterable=False):
     """One story, written three ways; the age attribute on <html> picks which one shows."""
     bits = []
     href = f"{up}p/{p['slug']}/"
@@ -667,7 +680,20 @@ def story_block(p, up, *, heading=False):
                 f'All three ages →</a></div>')
     # data-href is what makes the card clickable. The headline stays a real link, so
     # the card still works with the script off, and for a keyboard and a crawler.
-    return f'<article data-href="{attr(href)}">{"".join(bits)}</article>'
+    extra = ""
+    if filterable:
+        # What the archive searches. Headline, summary, category, outlet and the three
+        # lead questions: enough to find a story by what it was about or what a kid asked,
+        # without carrying all three full scripts into the page for every post.
+        parts = [p["headline"], p.get("summary", ""), p["category"], p["outlet"],
+                 p.get("table_question", "")]
+        for b in BANDS:
+            lq = lead_question(p, b)
+            if lq:
+                parts.append(f'{lq["q"]} {lq["a"]}')
+        text = " ".join(str(x) for x in parts).lower()
+        extra = f' data-cat="{attr(p["category"])}" data-text="{attr(text)}"'
+    return f'<article data-href="{attr(href)}"{extra}>{"".join(bits)}</article>'
 
 
 def follow_block(up):
@@ -738,48 +764,35 @@ def render_index(posts, up=""):
 
 
 def render_archive(posts, up="../"):
+    """Every story as a card, filtered in the browser, twelve at a time."""
     cats = sorted({p["category"] for p in posts})
     chips = "".join(f'<button type="button" data-cat="{attr(c)}" aria-pressed="false">{e(c)}</button>'
                     for c in cats)
-    items = []
-    for p in posts:
-        q = lead_question(p, DEFAULT_BAND) or {}
-        text = " ".join(str(x).lower() for x in [
-            p["headline"], p.get("summary", ""), p["category"], p["outlet"],
-            p.get("table_question", ""), q.get("q", ""), q.get("a", "")])
-        thumb = (f'<a class="thumb" href="{up}p/{p["slug"]}/">'
-                 f'<img src="{up}p/{p["slug"]}/cover.jpg" alt="" loading="lazy" width="84" height="105">'
-                 f'</a>') if p["cover"] else ""
-        asks = "".join(
-            f'<p class="ask" data-for="{b}">“{e(lq["q"])}”</p>'
-            for b in BANDS if (lq := lead_question(p, b)))
-        meta = e(short_date(p["day"]))
-        items.append(
-            f'<div class="item" data-cat="{attr(p["category"])}" data-text="{attr(text)}">{thumb}'
-            f'<div><div class="meta">{e(p["category"])}<span class="sep">·</span>{meta}</div>'
-            f'<h3><a href="{up}p/{p["slug"]}/">{e(p["headline"])}</a></h3>{asks}</div></div>')
+    cards = "".join(story_block(p, up, heading=True, filterable=True) for p in posts)
     body = f"""
   <div class="today">
     <div class="eyebrow">Archive</div>
     <h1>Your kid just asked about something.</h1>
-    <p>Every story since {e(START)}, still written for all three ages. Search it, or pick a category.</p>
+    <p>Every story since {e(START)}, still written for all three ages. Search it, or pick a
+    category.</p>
   </div>
   <section class="block">
     <form class="search" id="searchForm" role="search">
-      <input id="q" name="q" type="search" placeholder="vaccines, war, tariffs, AI…"
+      <input id="q" name="q" type="search" placeholder="vaccines, war, tariffs, AI\u2026"
              aria-label="Search the archive">
       <button type="submit">Search</button>
     </form>
     <div class="chips">{chips}</div>
     <div class="count" id="count" data-start="{attr(START)}"></div>
   </section>
-  <div class="list" id="list">{"".join(items)}</div>
+  <div class="stories" id="list">{cards}</div>
+  <div class="more-row"><button type="button" id="more" class="more-btn">Load more</button></div>
 """
-    return shell(up=up, title=f"Archive — {SITE_NAME}",
-                 desc=f"Every {SITE_NAME} story since {START}, each written for 5–7, "
-                      f"8–12 and 13–17.",
+    return shell(up=up, title=f"Archive \u2014 {SITE_NAME}",
+                 desc=f"Every {SITE_NAME} story since {START}, each written for 5\u20137, "
+                      f"8\u201312 and 13\u201317.",
                  body=body, nav_here="archive", path="archive/", extra_js=ARCHIVE_JS,
-                 prompt="Answers for my", width="list")
+                 prompt="Answers for my", width="wide")
 
 
 def render_post(p, newer, older, up="../../"):

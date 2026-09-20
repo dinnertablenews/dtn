@@ -19,8 +19,14 @@ samples never appear. `2026-09-15-evening-alt` is on the site and `2026-09-15-ev
 not, because the alternate is the one that ran.
 
 What it writes: the front page (the latest three stories and tonight's dinner table
-question), `/archive/` (every story, searched and filtered in the browser), a page per
-post at `/p/<slug>/`, `/about/`, an RSS feed and a sitemap.
+question), `/archive/` (every story as a card, searched and filtered in the browser), a
+page per post at `/p/<slug>/`, `/about/`, an RSS feed and a sitemap.
+
+The archive ships every card and pages them twelve at a time in the browser. Searching or
+picking a category filters the cards already on the page and returns to the first twelve,
+newest first; "Load more" adds another twelve. At a few hundred posts this stays smaller
+and faster than a JSON round trip and works from disk — revisit it when the archive runs
+to four figures and shipping every card stops being cheap.
 
 The whole site turns on one control: pick your kid's age once and every story, question
 and answer on the page follows. A second control, top right, switches light and dark; it
