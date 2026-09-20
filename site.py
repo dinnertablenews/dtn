@@ -514,6 +514,13 @@ section.block{padding-block:34px; border-top:1px solid var(--rule)}
 .chips button[disabled]{opacity:.38; cursor:default}
 .chips button[aria-pressed="true"]{color:var(--band); border-color:var(--band); background:var(--bandtint)}
 .note{font-size:13px; color:var(--dim); margin-top:10px; min-height:1.2em}
+.sub-lede{font-size:18px; line-height:1.6; color:var(--quiet); margin:16px 0 26px; max-width:54ch}
+.sub-eg{margin-top:4px}
+.sub-sum{font-size:16px; line-height:1.6; color:var(--quiet); margin:12px 0 0; max-width:60ch}
+.sub-age{border-left:3px solid var(--band); padding-left:18px; margin-top:26px; max-width:60ch}
+.sub-age .eyebrow{color:var(--band); margin-bottom:6px}
+.sub-age p{font-family:var(--serif,Georgia,serif); font-size:17px; line-height:1.55; margin:0}
+.sub-age.b57{--band:var(--c57)} .sub-age.b812{--band:var(--c812)} .sub-age.b1317{--band:var(--c1317)}
 .signup-done{font-size:17px; line-height:1.5; color:var(--fg); margin:14px 0 0; max-width:46ch;
   width:fit-content; position:relative; isolation:isolate}
 /* The marker from a story headline, struck over the line that answers the form and then
@@ -977,7 +984,7 @@ SIGNUP_JS = """
         p.textContent='You\u2019re on the list. The first email lands tomorrow morning, '+
                       'with the three stories from today.';
         f.parentNode.replaceChild(p, f);
-        var n=document.querySelector('#follow .note');
+        var n=p.parentNode.querySelector('.note');
         if(n) n.textContent='It comes from Dinner Table News. Look in promotions or spam if '+
                             'it is not in the inbox.';
       });
@@ -1197,30 +1204,35 @@ def table_block(p, *, tonight=False):
             f'<h2>{e(p["table_question"])}</h2></div>')
 
 
+def signup_form():
+    """The email form, on the front page, every story page and /subscribe/. One function
+    because three copies of a form is three chances for one of them to go stale."""
+    # Checked by default for the band the reader is already on, synced by JS on load.
+    # Somebody who never touches these still tells us something, and a parent with a
+    # 6-year-old and a 14-year-old can say so -- hence checkboxes, not a segment.
+    boxes = "".join(
+        f'<label class="agebox"><input type="checkbox" name="{attr(AGE_FIELD)}" '
+        f'value="{attr(AGE_VALUE[b])}" data-band="{b}"'
+        f'{" checked" if b == DEFAULT_BAND else ""}><span>{LABEL[b]}</span></label>'
+        for b in BANDS)
+    # embed=1 is what tells Buttondown the POST came from a form on someone else's
+    # page. Without it the endpoint answers as if it were its own hosted page, and
+    # a subscriber lands somewhere that does not look like this site.
+    return (f'<form class="signup" action="{attr(EMAIL_FORM_ACTION)}" method="post">'
+            f'<input type="hidden" name="embed" value="1">'
+            f'<div class="search"><input id="email" name="{attr(EMAIL_FIELD)}" type="email" '
+            f'required placeholder="you@example.com" aria-label="Email address">'
+            f'<button type="submit">Subscribe</button></div>'
+            f'<fieldset class="ageask"><legend>Which ages are you most interested in?</legend>'
+            f'{boxes}</fieldset></form>'
+            f'<div class="note">Free. One a day. Unsubscribe whenever. Every email carries '
+            f'all three ages — this just tells us who we’re writing for.</div>')
+
+
 def follow_block(up):
     if EMAIL_FORM_ACTION:
-        # Checked by default for the band the reader is already on, synced by JS on load.
-        # Somebody who never touches these still tells us something, and a parent with a
-        # 6-year-old and a 14-year-old can say so -- hence checkboxes, not a segment.
-        boxes = "".join(
-            f'<label class="agebox"><input type="checkbox" name="{attr(AGE_FIELD)}" '
-            f'value="{attr(AGE_VALUE[b])}" data-band="{b}"'
-            f'{" checked" if b == DEFAULT_BAND else ""}><span>{LABEL[b]}</span></label>'
-            for b in BANDS)
-        # embed=1 is what tells Buttondown the POST came from a form on someone else's
-        # page. Without it the endpoint answers as if it were its own hosted page, and
-        # a subscriber lands somewhere that does not look like this site.
-        form = (f'<form class="signup" action="{attr(EMAIL_FORM_ACTION)}" method="post">'
-                f'<input type="hidden" name="embed" value="1">'
-                f'<div class="search"><input id="email" name="{attr(EMAIL_FIELD)}" type="email" '
-                f'required placeholder="you@example.com" aria-label="Email address">'
-                f'<button type="submit">Subscribe</button></div>'
-                f'<fieldset class="ageask"><legend>Which ages are you most interested in?</legend>'
-                f'{boxes}</fieldset></form>'
-                f'<div class="note">Free. Sent at 7am. Unsubscribe whenever. Every email carries '
-                f'all three ages — this just tells us who we’re writing for.</div>')
         return (f'<section class="block" id="follow"><div class="eyebrow">Every morning</div>'
-                f'<h2>One email. Three stories. Words for your kid’s age.</h2>{form}</section>')
+                f'<h2>One email. Three stories. Words for your kid’s age.</h2>{signup_form()}</section>')
     # No provider yet, so no form: a box that does nothing is worse than an honest card.
     return (f'<section class="block" id="follow"><div class="eyebrow">Three times a day</div>'
             f'<h2>Follow along on Instagram.</h2>'
@@ -1230,6 +1242,48 @@ def follow_block(up):
             f'<a class="btn" href="{attr(INSTAGRAM)}">Follow</a>'
             f'<button type="button" class="share">Share</button>'
             f'</div></section>')
+
+
+def render_subscribe(posts, up="../"):
+    """The signup on its own page, for the link in the Instagram bio.
+
+    Nothing links to it from the site. It exists because a bio link gets one tap and about
+    four seconds, and dropping somebody on the front page makes them find the form among
+    three stories. Here the form is the first thing under the headline.
+
+    Under it is a real day at all three ages rather than a description of one. A promise
+    that an email explains the news for a five-year-old and a fifteen-year-old is worth
+    less than the two paragraphs side by side, and we have those already."""
+    if not EMAIL_FORM_ACTION:
+        return None
+    p = posts[0]
+    ages = "".join(
+        f'<div class="sub-age b{b.replace("-", "")}">'
+        f'<div class="eyebrow">Ages {LABEL[b]}</div>'
+        f'<p>{e(p["ages"].get(b, {}).get("script", ""))}</p></div>'
+        for b in BANDS if p["ages"].get(b, {}).get("script"))
+    body = f"""
+  <section class="block">
+    <div class="eyebrow">Every morning</div>
+    <h2>One email. Three stories. Words for your kid’s age.</h2>
+    <p class="sub-lede">Your kid hears something at school and asks you about it at dinner.
+    This is the answer, written three times over: once for a six-year-old, once for a
+    ten-year-old, once for a sixteen-year-old. Free, and one email a day.</p>
+    {signup_form()}
+  </section>
+  <section class="block">
+    <div class="eyebrow">What it looks like</div>
+    <h2 class="sub-eg">{e(p["headline"])}</h2>
+    <p class="sub-sum">{e(p.get("summary", ""))}</p>
+    {ages}
+    <p class="others"><a href="{up}">Read the rest on the site</a>, or
+    <a href="{attr(INSTAGRAM)}">follow along on Instagram</a>.</p>
+  </section>
+"""
+    return shell(up=up, title=f"Subscribe — {SITE_NAME}",
+                 desc="One email each morning: the day's stories, written for a six-year-old, "
+                      "a ten-year-old and a sixteen-year-old.",
+                 body=body, path="subscribe/", band_control=False, width="wide text")
 
 
 def render_index(posts, up=""):
@@ -1697,6 +1751,9 @@ def main():
 
     write(OUT / "index.html", render_index(posts))
     write(OUT / "archive" / "index.html", render_archive(posts))
+    sub = render_subscribe(posts)
+    if sub:
+        write(OUT / "subscribe" / "index.html", sub)
     write(OUT / "about" / "index.html",
           shell(up="../", title=f"About — {SITE_NAME}",
                 desc="Where the news comes from, how the three versions are written, and who checks them.",
@@ -1731,7 +1788,8 @@ def main():
     if BASE_URL:
         write(OUT / "feed.xml", build_feed(posts))
         write(OUT / "feed-daily.xml", build_digest_feed(posts))
-        urls = ["", "archive/", "about/"] + [f"p/{p['slug']}/" for p in posts]
+        urls = ["", "archive/", "about/"] + (["subscribe/"] if EMAIL_FORM_ACTION else []) \
+            + [f"p/{p['slug']}/" for p in posts]
         write(OUT / "sitemap.xml",
               '<?xml version="1.0" encoding="UTF-8"?>\n'
               '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
