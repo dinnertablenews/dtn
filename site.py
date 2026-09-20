@@ -581,9 +581,6 @@ section.block{padding-block:34px; border-top:1px solid var(--rule)}
 .others{font-size:14px; color:var(--dim); margin-top:22px}
 .others button{font:inherit; color:var(--fg); background:none; border:0; padding:0; cursor:pointer;
                text-decoration:underline; text-underline-offset:3px}
-.ig{display:flex; gap:16px; align-items:center; margin-top:8px; flex-wrap:wrap}
-.ig img{width:120px; border-radius:3px}
-.ig .credit{font-size:12px; color:var(--dim); margin:10px 0 0; max-width:42ch}
 .pager{display:flex; justify-content:space-between; gap:16px; padding-block:26px;
        border-top:1px solid var(--rule); font-size:14px}
 .pager a{color:var(--dim); text-decoration:none; max-width:46%}
@@ -603,9 +600,9 @@ body.text main.wrap > *{max-width:62ch}
    separated summary from ages when they were stacked moves under the headline, where it
    now separates one thing from two. */
 @media (min-width:1000px){
-  /* Two 410px columns and a 56px gutter. Everything below the article -- what went out,
-     the pager, the follow card -- takes the same width, or the rules under a two-column
-     story stop where the columns do not. */
+  /* Two 410px columns and a 56px gutter. Everything below the article -- the pager, the
+     follow card -- takes the same width, or the rules under a two-column story stop where
+     the columns do not. */
   body.text main.wrap > *{max-width:876px}
   .post{display:grid; grid-template-columns:1fr 1fr; gap:0 56px; align-items:start}
   .post > .head{grid-column:1 / -1; border-bottom:1px solid var(--rule); padding-bottom:26px}
@@ -1286,21 +1283,12 @@ def render_post(p, newer, older, up="../../"):
         src = (f'Source: <a href="{attr(p["source_url"])}" rel="noopener">{e(p["outlet"])}</a>')
     else:
         src = f'Source: {e(p["outlet"])}'
-    # The photo credit sat under the summary, where no photograph appears. The one place
-    # the picture is actually on this page is inside the cover further down, so the credit
-    # goes there: the licence is CC BY-SA and attribution belongs with the image.
-    ig = ""
-    link = p["published"].get("permalink")
-    if link:
-        thumb = (f'<a href="{attr(link)}"><img src="cover.jpg" alt="The cover of this post" '
-                 f'width="120" height="150" loading="lazy"></a>') if p["cover"] else ""
-        credit_line = (f'<p class="credit">{e(p["photo_credit"])}</p>'
-                       if p.get("photo_credit") and p["cover"] else "")
-        ig = (f'<section class="block"><div class="eyebrow">What went out</div>'
-              f'<div class="ig">{thumb}<div><p>This ran as a five-card carousel on Instagram.</p>'
-              f'<p><a class="more" href="{attr(link)}">See the post →</a></p>'
-              f'{credit_line}</div></div></section>')
-
+    # A "What went out" block sat here: the carousel cover as a 120px thumbnail, a line saying
+    # it ran on Instagram, a link to the post and the photo credit. It went because of what it
+    # cost on a phone. The row wraps at every phone width, so the thumbnail took a line of its
+    # own with 200px of nothing beside it and the text went under it: 259px of page for two
+    # links. The follow block under the pager already says where the account is, and a reader
+    # who wanted the carousel has read the whole story by then.
     pager = ""
     if newer or older:
         left = (f'<a href="{up}p/{newer["slug"]}/"><span class="lab">Newer</span>'
@@ -1324,7 +1312,6 @@ def render_post(p, newer, older, up="../../"):
     <section class="block">{"".join(blocks)}</section>
     {table}
   </article>
-  {ig}
   {pager}
   {follow_block(up)}
 """
@@ -1429,7 +1416,7 @@ ABOUT_TEMPLATE = """
     its outlet and links to the original reporting, and no quote, number or name appears here
     that the reporting does not carry.</p>
     <p>Photographs come from Wikimedia Commons under a Creative Commons or public domain
-    licence, and are credited on the story they run with.</p>
+    licence, and are credited in the Instagram post they run with.</p>
     <p>This tool was built mostly late at night by me, a guy named Dan trying to figure out
     how to talk to my young kiddos about tough news while encouraging them to engage the
     world. The daily posts are produced with combined human and AI input. I am committed to
