@@ -1,0 +1,76 @@
+{
+  "slot": "2026-09-20 12:00 CT",
+  "date": "2026-09-20",
+  "cover_age": 5,
+  "category": "Health",
+  "positive": true,
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/world/congo-begins-ebola-vaccinations-for-health-workers-in-the-epicenter-of-the-outbreak",
+  "source_domain": "pbs.org/newshour",
+  "headline": "Ebola shots go to Congo's doctors and nurses first",
+  "summary": "Congo began vaccinating its health workers against Ebola on Saturday in Bunia, the center of the outbreak. Doctors and nurses go first because they are the most exposed. The Ervebo shot worked in past outbreaks of a related strain, and 70,000 doses are approved for Congo. A trial of 20,000 doses will test it on this strain.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Why do doctors go first?"
+  },
+  "cover_answer": "They see the sick people every day, so they go first.",
+  "table_question": "When there isn't enough for everyone, who should go first?",
+  "photo_subject": "Bunia",
+  "ages": {
+    "5-7": {
+      "chip": "Good one to bring up",
+      "script": "Far away in Congo, a sickness called Ebola is making people ill. On Saturday the doctors and nurses there got a shot to help keep it away from them. They go first because they are with the sick people all day, the way firefighters get their helmets before anyone else. The grown-ups have it.",
+      "why": "Helpers first is a fairness rule a five-year-old already knows. The helmet makes it something they can see.",
+      "why_long": "A five-year-old takes one vivid feature for the whole event, so the script hands them the feature: the helpers get their helmets first. The deaths and the strains stay out; a child that age can do nothing with either. Expect “can I catch it?” No, and the doctors there are getting shots so they can keep helping."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Ebola is spreading in Congo faster than ever, and the people most likely to catch it are the ones treating it. So they get the shot first: 20,000 health workers. It worked on a cousin strain, so a trial checks it here. A smoke alarm from the old house: press the test button.",
+      "why": "A chain, then a check: helpers first, then press the test button.",
+      "why_long": "This age is working out cause and effect and fairness. The script gives them both: the most exposed go first, and a trial checks the shot on this strain before anyone trusts it. The test button is the mechanism. Expect “why not make the right vaccine?” They are trying. That takes years; the outbreak is now."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Who gets the vaccine first when there are 70,000 doses and far more people? Congo picked its health workers, the most exposed. Second: the shot is licensed for a cousin strain, and one doctor told the AP they don't really have a choice. Is that fair to ask?",
+      "why": "Two true things: the best shot available, and nobody really asked.",
+      "why_long": "A teenager can hold two true things at once, and this story asks for that: the shot is the best available, and the doctor who called it beneficial also said he had no real choice. The fairness question comes second so the good news lands first. Expect “would you take it?” Answer honestly, then ask."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Why do doctors go first?",
+        "a": "They're with the sick people all day. The shot helps keep them safe so they can keep helping."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Does the shot even work on this kind of Ebola?",
+        "a": "It worked on a cousin strain. This one is being tested now."
+      },
+      {
+        "q": "How bad is it?",
+        "a": "Bad. 7,541 cases, 3,639 deaths, the fastest-growing outbreak on record."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why not wait for a vaccine made for this strain?",
+        "a": "None exists, and the outbreak is now. Ervebo is the best they have."
+      },
+      {
+        "q": "Is it fair to make health workers the test cases?",
+        "a": "A doctor told the AP there's no real choice. Weigh that against 3,639 dead."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#Ebola",
+    "#DinnerTableNews"
+  ],
+  "photo": "data/images/2026-09-20-noon.jpg",
+  "photo_credit": "Photo: HokieRNB, Wikimedia Commons, Public domain",
+  "caption": "They see the sick people every day, so they go first.\n\nCongo began vaccinating its health workers against Ebola on Saturday in Bunia, the center of the outbreak. Doctors and nurses go first because they are the most exposed. The Ervebo shot worked in past outbreaks of a related strain, and 70,000 doses are approved for Congo. A trial of 20,000 doses will test it on this strain.\n\nSource: PBS NewsHour, pbs.org/newshour\nPhoto: HokieRNB, Wikimedia Commons, Public domain\n\nSwipe for what to say at 5, at 10, and at 15.\n\nThe dinner table question: When there isn't enough for everyone, who should go first? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #Ebola #DinnerTableNews"
+}
