@@ -76,6 +76,13 @@ the type size. The site and the slides carry one lockup. The choice is an attrib
 `localStorage` key, so it survives navigation and costs nothing to switch. All three
 versions are in the HTML, so the page works with JavaScript off.
 
+The stylesheet ships under a name carrying a hash of its own contents
+(`assets/site.<hash>.css`). It is the one file that changes on most deploys and the one
+file a browser is told it may keep, and new markup served against an old stylesheet fails
+quietly rather than loudly: the archive once filtered correctly, printed the right count,
+and hid nothing, because the rule that hides a card was in a stylesheet the reader had not
+been given yet. A changed stylesheet is now a different URL.
+
 Links are written relative to the page that carries them, so one build works at
 `github.io/dtn/`, at a custom domain, or opened from disk. Absolute URLs — the feed, the
 sitemap, the `og:` tags — come from `DTN_BASE_URL`, which the workflow sets from whatever

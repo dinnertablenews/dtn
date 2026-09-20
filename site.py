@@ -22,6 +22,7 @@ static site build has no business installing Chromium. If they move there, move
 them here, or the site and the slides drift apart.
 """
 
+import hashlib
 import html
 import json
 import os
@@ -413,6 +414,12 @@ footer a{text-decoration:underline; text-underline-offset:2px}
 @media (prefers-reduced-motion:no-preference){.q,.a,.script{transition:opacity .18s ease}}
 """
 
+# The stylesheet is the one file that changes on most deploys and the one file a browser
+# is told it may keep. Fingerprinting the name means a changed stylesheet is a different
+# URL, so a reader can never be served new markup against an old stylesheet -- which is
+# how the archive once filtered correctly, reported the right count, and hid nothing.
+CSS_NAME = f"site.{hashlib.sha256(CSS.encode()).hexdigest()[:10]}.css"
+
 FONT_FACES = [
     ("Libre Caslon Display", 400, "libre-caslon-display-latin-400-normal.woff2"),
     ("Libre Caslon Text", 400, "libre-caslon-text-latin-400-normal.woff2"),
@@ -618,7 +625,7 @@ def shell(*, up, title, desc, body, nav_here="", og_image=None, path="", band_co
 <meta property="og:description" content="{attr(desc)}">
 {og}
 <link rel="icon" href="{up}assets/dots.svg" type="image/svg+xml">
-<link rel="stylesheet" href="{up}assets/site.css">
+<link rel="stylesheet" href="{up}assets/{CSS_NAME}">
 <style>{font_css(up)}</style>
 <script>try{{var r=document.documentElement,b=localStorage.getItem('dtn-band');
 if(b==='5-7'||b==='8-12'||b==='13-17')r.setAttribute('data-band',b);
@@ -1164,7 +1171,7 @@ def main():
             d.mkdir(parents=True, exist_ok=True)
             shutil.copyfile(p["cover"], d / "cover.jpg")
 
-    write(OUT / "assets" / "site.css", CSS)
+    write(OUT / "assets" / CSS_NAME, CSS)
     write(OUT / "assets" / "dots.svg", DOTS_SVG)
     fonts = OUT / "assets" / "fonts"
     fonts.mkdir(parents=True, exist_ok=True)
