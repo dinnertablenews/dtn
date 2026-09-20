@@ -514,7 +514,20 @@ section.block{padding-block:34px; border-top:1px solid var(--rule)}
 .chips button[disabled]{opacity:.38; cursor:default}
 .chips button[aria-pressed="true"]{color:var(--band); border-color:var(--band); background:var(--bandtint)}
 .note{font-size:13px; color:var(--dim); margin-top:10px; min-height:1.2em}
-.signup-done{font-size:17px; line-height:1.5; color:var(--band); margin:14px 0 0; max-width:46ch}
+.signup-done{font-size:17px; line-height:1.5; color:var(--fg); margin:14px 0 0; max-width:46ch;
+  width:fit-content; position:relative; isolation:isolate}
+/* The marker from a story headline, struck over the line that answers the form and then
+   let go. It is the same SVG the .hl rule paints, so the yellow that means "this is the
+   thing" on a card means it here too. Negative z-index inside the element's own stacking
+   context paints it over the background and under the text, which is where a highlighter
+   goes. It ends at opacity 0 and stays there: the message outlives the flourish. */
+.signup-done::before{content:""; position:absolute; left:-7px; right:-7px; top:-3px; bottom:-3px;
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 20' preserveAspectRatio='none'%3E%3Cpath d='M1.4 3.4 C 26 1.1, 58 4.4, 98.7 1.9 L 99.3 17.1 C 71 19.8, 29 15.6, 0.7 18.4 Z' fill='%23F7E07A'/%3E%3C/svg%3E") 0 0 / 100% 100% no-repeat; z-index:-1; animation:dtn-mark 1.9s ease-out forwards}
+@keyframes dtn-mark{0%,32%{opacity:1} 100%{opacity:0}}
+@media (prefers-reduced-motion:reduce){
+  /* No flash for somebody who asked not to be moved: the line arrives plain. */
+  .signup-done::before{animation:none; opacity:0}
+}
 .ageask{border:0; margin:14px 0 0; padding:0; display:flex; flex-wrap:wrap; gap:8px; align-items:center}
 .ageask legend{float:left; width:100%; font-size:13px; color:var(--dim); padding:0; margin-bottom:8px}
 .agebox{display:inline-flex}
@@ -961,11 +974,12 @@ SIGNUP_JS = """
       .then(function(){
         var p=document.createElement('p');
         p.className='signup-done';
-        p.textContent='Check your inbox. There is a link there to confirm, and nothing '+
-                      'arrives until you click it.';
+        p.textContent='You\u2019re on the list. The first email lands tomorrow morning, '+
+                      'with the three stories from today.';
         f.parentNode.replaceChild(p, f);
         var n=document.querySelector('#follow .note');
-        if(n) n.textContent='Nothing in the inbox? Look in promotions or spam, and tell Dan.';
+        if(n) n.textContent='It comes from Dinner Table News. Look in promotions or spam if '+
+                            'it is not in the inbox.';
       });
   });
 })();
