@@ -304,7 +304,11 @@ html[data-band="8-12"] [data-for="8-12"],
 html[data-band="13-17"] [data-for="13-17"]{display:block}
 
 *{box-sizing:border-box}
-html{scroll-padding-top:120px}
+/* Clearance for the sticky header on an anchor jump, which has to be taller than the
+   header or the target lands under it. It was 120px against a header of 138 on a phone
+   and 160 on a tablet, so "Skip to the stories" put the first story 18px out of sight. */
+html{scroll-padding-top:175px}
+@media (max-width:640px){html{scroll-padding-top:150px}}
 body{margin:0; background:var(--bg); color:var(--fg); font-family:var(--sans);
      font-size:14px; line-height:1.5; -webkit-font-smoothing:antialiased}
 img{max-width:100%; display:block}
@@ -338,6 +342,19 @@ header{position:sticky; top:0; z-index:20; background:var(--bg); border-bottom:1
   .bar{padding-block:11px}
   .ages{padding-block:10px}
 }
+/* Desktop takes the mark at 27px, which is the size render.py prints on every slide, so
+   the site and the carousels carry one mark at one size rather than two sizes of a
+   similar idea. The dot stays 45% of the type and the gap 50%, the proportions the mark
+   has always had, so it scales as a unit. The phone keeps 14px: the sticky block there
+   is sized to leave the pills on screen, and this would take 40px of it. */
+@media (min-width:940px){
+  .mark{gap:13px}
+  .wm{font-size:27px}
+  .dots{gap:10px}
+  .dots i{width:12px; height:12px}
+  /* The header is 198px here rather than 160, so the clearance grows with it. */
+  html{scroll-padding-top:215px}
+}
 /* On a phone the prompt cannot share a line with three pills, so it takes one of its
    own and the sticky block grows by a fifth for a line nobody needs: the pills read
    "5-7 year old". Hidden from the eye, kept for a screen reader, which still gets the
@@ -352,6 +369,12 @@ nav{display:flex; gap:18px; font-size:14px}
 .nav-links{display:flex; align-items:center; gap:18px}
 nav a{color:var(--dim); text-decoration:none}
 nav a:hover,nav a[aria-current="page"]{color:var(--fg)}
+/* In the masthead Share is a nav item, not a button: the same size, colour and hover as
+   the links beside it. It keeps class="share" so the one share handler still finds it. */
+nav .nav-share{font:inherit; font-size:14px; font-weight:400; line-height:inherit;
+  padding:0; border:0; border-radius:0; background:none; color:var(--dim); cursor:pointer}
+nav .nav-share:hover{color:var(--fg)}
+nav .nav-share:focus-visible{outline:2px solid var(--fg); outline-offset:3px}
 .theme{display:inline-flex; align-items:center; justify-content:center; width:30px; height:30px;
   padding:0; margin-left:-4px; border:0; border-radius:50%; background:transparent;
   color:var(--dim); cursor:pointer}
@@ -1035,7 +1058,7 @@ var t=localStorage.getItem('dtn-theme');if(t==='light'||t==='dark')r.setAttribut
         <span class="nav-links">
           <a class="nav-archive" href="{up}archive/"{here('archive')}>Archive</a>
           <a href="{up}about/"{here('about')}>About</a>
-          <a class="nav-ig" href="{attr(INSTAGRAM)}" rel="me">Instagram</a>
+          <button type="button" class="nav-share share">Share</button>
         </span>
         <button class="theme" type="button" id="theme" aria-label="Switch to dark theme">{THEME_ICON}</button>
       </nav>
@@ -1048,7 +1071,7 @@ var t=localStorage.getItem('dtn-theme');if(t==='light'||t==='dark')r.setAttribut
 </main>
 <footer>
   <div class="wrap">
-    <div><a href="{attr(INSTAGRAM)}">@dinnertablenews</a> · {e(SITE_NAME)}, {date.today().year}</div>
+    <div><a href="{attr(INSTAGRAM)}" rel="me">@dinnertablenews</a> · {e(SITE_NAME)}, {date.today().year}</div>
   </div>
 </footer>
 <script>{THEME_JS}{BAND_JS}{CARD_JS}{SHARE_JS}{extra_js}</script>
