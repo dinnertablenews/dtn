@@ -71,8 +71,10 @@ run its evening and is safe to mail. `--page` is 1120px on the front page, the a
 and the about page, so the masthead is the same object everywhere and does not resize as
 you move between them. A post keeps 720px.
 
-Where a page is prose rather than a grid, the `text` body class holds the reading column
-and the rules between sections to 62ch while the masthead stays wide. Centring that column
+Where a page is prose rather than a grid — the about page and every post — the `text`
+body class holds everything in `main` to 62ch while the masthead stays wide. One rule over
+`main.wrap > *` rather than a list of named blocks, so a section added later cannot escape
+the measure and run to 1120 on its own. Centring that column
 under a left-aligned wordmark was the alternative and it reads worse: two left edges, and
 the mark stranded on its own.
 

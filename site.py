@@ -468,7 +468,7 @@ section.block{padding-block:34px; border-top:1px solid var(--rule)}
    holds the reading column to what a reader can track. The rules between sections stop
    with the column: run to 1120 under a 480px column and the empty half looks like a
    layout that broke rather than a margin. */
-body.text .today, body.text section.block{max-width:62ch}
+body.text main.wrap > *{max-width:62ch}
 .prose{max-width:60ch}
 .prose h2{font-family:var(--display); font-weight:400; font-size:24px; margin:34px 0 0}
 .prose h3{font-family:var(--sans); font-size:14px; font-weight:600; letter-spacing:.04em;
@@ -1050,10 +1050,12 @@ def render_post(p, newer, older, up="../../"):
                  f'<p>Ask it at any age. Anyone can answer it, including the ones who didn’t '
                  f'read the news.</p></div>')
 
-    src = e(p["outlet"])
+    # Same sentence the cards use: the outlet name carries the link, the domain is gone.
     if p.get("source_url"):
-        dom = p.get("source_domain") or re.sub(r"^www\.", "", p["source_url"].split("/")[2])
-        src += f', <a href="{attr(p["source_url"])}" rel="noopener">{e(dom)}</a>'
+        src = (f'Read the original story at <a href="{attr(p["source_url"])}" '
+               f'rel="noopener">{e(p["outlet"])}</a>')
+    else:
+        src = e(p["outlet"])
     credit = f'<span>{e(p["photo_credit"])}</span>' if p.get("photo_credit") else ""
 
     ig = ""
@@ -1094,7 +1096,8 @@ def render_post(p, newer, older, up="../../"):
     desc = p.get("cover_answer") or q.get("a") or p.get("summary", "")[:180]
     return shell(up=up, title=f'{p["headline"]} — {SITE_NAME}', desc=desc, body=body,
                  og_image=f"p/{p['slug']}/cover.jpg" if p["cover"] else None,
-                 path=f"p/{p['slug']}/", prompt="Answers for my", og_type="article")
+                 path=f"p/{p['slug']}/", prompt="Answers for my", og_type="article",
+                 width="wide text")
 
 
 ABOUT_TEMPLATE = """
