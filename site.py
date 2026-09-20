@@ -80,6 +80,10 @@ TOUR = [
              "suggested ways to talk about recent news.\n\n"
              "Share with a parent or friend, or follow us on Instagram!"},
 ]
+# The prompt beside the age pills. One string: it used to be a parameter, and the
+# archive and story pages quietly kept saying "Answers for my" after the front page
+# changed.
+AGE_PROMPT = "What can I say to my"
 SHARE_SUBJECT = "Something for the dinner table"
 SHARE_TEXT = ("Take a look at this site I found - Dinner Table News - that helps parents "
               "talk to their kids about today\u2019s news in age-appropriate language.")   # first post; the archive says how far back it goes
@@ -630,8 +634,14 @@ body.text main.wrap > *{max-width:62ch}
 .tour-back:focus-visible{outline:2px solid var(--fg); outline-offset:2px}
 @media (prefers-reduced-motion:reduce){.tour-hole{transition:none}}
 
-footer{border-top:1px solid var(--rule); padding-block:28px 40px; font-size:13px; color:var(--dim);
-       display:grid; gap:10px}
+/* The footer sits outside <main>, beside the header rather than inside the article.
+   It was the last child of main.wrap, which meant the 62ch cap the prose pages put on
+   their article caught the footer too and it stopped short of the masthead above it.
+   Its own .wrap now takes the page width, the way the header's does. */
+/* The rule goes on the block inside the wrap, not the wrap: .wrap carries 20px of
+   inline padding, so a border on it would overhang the content above by 20px a side. */
+footer .wrap > div{border-top:1px solid var(--rule); padding-block:28px 40px}
+footer{font-size:13px; color:var(--dim)}
 footer a{text-decoration:underline; text-underline-offset:2px}
 @media (prefers-reduced-motion:no-preference){.q,.a,.script{transition:opacity .18s ease}}
 """
@@ -931,16 +941,16 @@ DOTS = ('<span class="dots"><i style="background:var(--c57)"></i>'
         '<i style="background:var(--c812)"></i><i style="background:var(--c1317)"></i></span>')
 
 
-def age_control(prompt="What can I say to my"):
+def age_control():
     buttons = "".join(
         f'<button type="button" data-band="{b}" aria-pressed="{"true" if b == DEFAULT_BAND else "false"}">'
         f'{LABEL[b]} year old</button>' for b in BANDS)
-    return (f'<div class="ages"><span class="lab">{e(prompt)}</span>'
+    return (f'<div class="ages"><span class="lab">{e(AGE_PROMPT)}</span>'
             f'<div class="seg" role="group" aria-label="Choose your child’s age">{buttons}</div></div>')
 
 
 def shell(*, up, title, desc, body, nav_here="", og_image=None, path="", band_control=True,
-          extra_js="", prompt="What can I say to my", og_type="website", width=""):
+          extra_js="", og_type="website", width=""):
     def here(name):
         return ' aria-current="page"' if name == nav_here else ""
 
@@ -990,15 +1000,17 @@ var t=localStorage.getItem('dtn-theme');if(t==='light'||t==='dark')r.setAttribut
         <button class="theme" type="button" id="theme" aria-label="Switch to dark theme">{THEME_ICON}</button>
       </nav>
     </div>
-    {age_control(prompt) if band_control else ""}
+    {age_control() if band_control else ""}
   </div>
 </header>
 <main class="wrap" id="main">
 {body}
-<footer>
-  <div><a href="{attr(INSTAGRAM)}">@dinnertablenews</a> · {e(SITE_NAME)}, {date.today().year}</div>
-</footer>
 </main>
+<footer>
+  <div class="wrap">
+    <div><a href="{attr(INSTAGRAM)}">@dinnertablenews</a> · {e(SITE_NAME)}, {date.today().year}</div>
+  </div>
+</footer>
 <script>{THEME_JS}{BAND_JS}{CARD_JS}{SHARE_JS}{extra_js}</script>
 </body>
 </html>
@@ -1168,7 +1180,7 @@ def render_archive(posts, up="../"):
                  desc=f"Every {SITE_NAME} story since {START}, each written for 5\u20137, "
                       f"8\u201312 and 13\u201317.",
                  body=body, nav_here="archive", path="archive/", extra_js=ARCHIVE_JS,
-                 prompt="Answers for my", width="wide")
+                 width="wide")
 
 
 def render_post(p, newer, older, up="../../"):
@@ -1251,7 +1263,7 @@ def render_post(p, newer, older, up="../../"):
     desc = p.get("cover_answer") or q.get("a") or p.get("summary", "")[:180]
     return shell(up=up, title=f'{p["headline"]} — {SITE_NAME}', desc=desc, body=body,
                  og_image=f"p/{p['slug']}/cover.jpg" if p["cover"] else None,
-                 path=f"p/{p['slug']}/", prompt="Answers for my", og_type="article",
+                 path=f"p/{p['slug']}/", og_type="article",
                  width="wide text")
 
 
