@@ -214,6 +214,11 @@ CSS = """
   --rule:#E0DACD; --panel:#EDE8DE; --field:#FFFFFF;
   --c57:oklch(0.48 0.13 155); --c812:oklch(0.48 0.13 250); --c1317:oklch(0.48 0.13 305);
   --tint57:oklch(0.94 0.035 155); --tint812:oklch(0.94 0.035 250); --tint1317:oklch(0.94 0.035 305);
+  /* The card edge, which is the one place a band colour has to read as a COLOUR rather
+     than as a darker line. On the dark theme the band is already light and chromatic and
+     does that by itself; on paper, oklch 0.48 lands as a dark grey-blue, so the edge gets
+     its own lighter, more saturated value. */
+  --edge57:oklch(0.55 0.20 155); --edge812:oklch(0.55 0.20 250); --edge1317:oklch(0.55 0.20 305);
   --display:"Libre Caslon Display",Georgia,serif;
   --text:"Libre Caslon Text",Georgia,serif;
   --sans:"Instrument Sans",system-ui,-apple-system,sans-serif;
@@ -223,6 +228,7 @@ CSS = """
    The :not() guard is what lets an explicit "light" win against a dark OS. */
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
   color-scheme:dark;
+  --edge57:var(--c57); --edge812:var(--c812); --edge1317:var(--c1317);
   --bg:#141311; --fg:#F1EDE4; --dim:#A8A295; --quiet:#C9C3B5;
   --rule:#2E2C27; --panel:#1D1C19; --field:#221F1B;
   --c57:oklch(0.78 0.12 155); --c812:oklch(0.76 0.12 250); --c1317:oklch(0.78 0.12 305);
@@ -230,6 +236,7 @@ CSS = """
 }}
 :root[data-theme="dark"]{
   color-scheme:dark;
+  --edge57:var(--c57); --edge812:var(--c812); --edge1317:var(--c1317);
   --bg:#141311; --fg:#F1EDE4; --dim:#A8A295; --quiet:#C9C3B5;
   --rule:#2E2C27; --panel:#1D1C19; --field:#221F1B;
   --c57:oklch(0.78 0.12 155); --c812:oklch(0.76 0.12 250); --c1317:oklch(0.78 0.12 305);
@@ -238,9 +245,9 @@ CSS = """
 
 /* The age is a document-level fact: one attribute on <html> colours and reveals
    the whole page, so switching it touches no element's inline style. */
-html[data-band="5-7"]{--band:var(--c57); --bandtint:var(--tint57)}
-html[data-band="8-12"]{--band:var(--c812); --bandtint:var(--tint812)}
-html[data-band="13-17"]{--band:var(--c1317); --bandtint:var(--tint1317)}
+html[data-band="5-7"]{--band:var(--c57); --bandtint:var(--tint57); --bandedge:var(--edge57)}
+html[data-band="8-12"]{--band:var(--c812); --bandtint:var(--tint812); --bandedge:var(--edge812)}
+html[data-band="13-17"]{--band:var(--c1317); --bandtint:var(--tint1317); --bandedge:var(--edge1317)}
 [data-for]{display:none}
 html[data-band="5-7"] [data-for="5-7"],
 html[data-band="8-12"] [data-for="8-12"],
@@ -325,7 +332,11 @@ nav a:hover,nav a[aria-current="page"]{color:var(--fg)}
 article{padding-block:34px; border-top:1px solid var(--rule)}
 .cat{display:flex; align-items:center; gap:8px; flex-wrap:wrap}
 .cat b{font-weight:600; color:var(--band)}
-.hl{font-family:var(--sans); font-size:17px; font-weight:400; line-height:1.4; color:var(--dim);
+/* The news, in ink at medium weight. It was set in the same grey as the metadata above
+   it and read as a caption. The sans/serif split still carries the hierarchy: sans is
+   the reporting, the serif question underneath is the kid, and the kid is still the
+   loudest thing on the card. */
+.hl{font-family:var(--sans); font-size:17px; font-weight:500; line-height:1.35; color:var(--fg);
     margin:10px 0 0; max-width:52ch}
 .hl a{text-decoration:none}
 .hl a:hover{text-decoration:underline; text-underline-offset:3px}
@@ -345,7 +356,7 @@ article{padding-block:34px; border-top:1px solid var(--rule)}
   transition:border-color .15s ease, background-color .15s ease}
 .stories article.tappable{cursor:pointer}
 .stories article:hover,
-.stories article:focus-within{border-color:var(--band); background:var(--panel)}
+.stories article:focus-within{border-color:var(--bandedge); background:var(--panel)}
 /* Stacked, not flowed: a long outlet name wraps the link onto a second line in one
    card and not the next, and two cards' footers stop lining up. Always two lines. */
 .stories .src{margin-top:auto; padding-top:20px; flex-direction:column;
@@ -357,7 +368,6 @@ article{padding-block:34px; border-top:1px solid var(--rule)}
 @media (min-width:940px){
   body.wide .stories{grid-template-columns:repeat(3,1fr); gap:24px}
   body.wide .stories .q{font-size:clamp(24px,2.3vw,31px); margin-top:14px}
-  body.wide .stories .hl{font-size:16px}
   body.wide .stories .a{font-size:18px; margin-top:14px}
   body.wide .search{max-width:520px}
   body.wide .today h1{font-size:44px}
@@ -458,6 +468,7 @@ section.block{padding-block:34px; border-top:1px solid var(--rule)}
                text-decoration:underline; text-underline-offset:3px}
 .ig{display:flex; gap:16px; align-items:center; margin-top:8px; flex-wrap:wrap}
 .ig img{width:120px; border-radius:3px}
+.ig .credit{font-size:12px; color:var(--dim); margin:10px 0 0; max-width:42ch}
 .pager{display:flex; justify-content:space-between; gap:16px; padding-block:26px;
        border-top:1px solid var(--rule); font-size:14px}
 .pager a{color:var(--dim); text-decoration:none; max-width:46%}
@@ -1056,16 +1067,20 @@ def render_post(p, newer, older, up="../../"):
                f'rel="noopener">{e(p["outlet"])}</a>')
     else:
         src = e(p["outlet"])
-    credit = f'<span>{e(p["photo_credit"])}</span>' if p.get("photo_credit") else ""
-
+    # The photo credit sat under the summary, where no photograph appears. The one place
+    # the picture is actually on this page is inside the cover further down, so the credit
+    # goes there: the licence is CC BY-SA and attribution belongs with the image.
     ig = ""
     link = p["published"].get("permalink")
     if link:
         thumb = (f'<a href="{attr(link)}"><img src="cover.jpg" alt="The cover of this post" '
                  f'width="120" height="150" loading="lazy"></a>') if p["cover"] else ""
+        credit_line = (f'<p class="credit">{e(p["photo_credit"])}</p>'
+                       if p.get("photo_credit") and p["cover"] else "")
         ig = (f'<section class="block"><div class="eyebrow">What went out</div>'
               f'<div class="ig">{thumb}<div><p>This ran as a five-card carousel on Instagram.</p>'
-              f'<p><a class="more" href="{attr(link)}">See the post →</a></p></div></div></section>')
+              f'<p><a class="more" href="{attr(link)}">See the post →</a></p>'
+              f'{credit_line}</div></div></section>')
 
     pager = ""
     if newer or older:
@@ -1083,7 +1098,7 @@ def render_post(p, newer, older, up="../../"):
       <div class="eyebrow">{meta}</div>
       <h1>{e(p["headline"])}</h1>
       <p class="summary">{e(p.get("summary", ""))}</p>
-      <div class="src"><span>{src}</span>{credit}</div>
+      <div class="src"><span>{src}</span></div>
     </div>
     <section class="block">{"".join(blocks)}</section>
     {table}
