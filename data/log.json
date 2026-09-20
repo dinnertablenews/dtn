@@ -390,5 +390,23 @@
   "publish_run": 35454586353,
   "published": "https://www.instagram.com/p/DdefBRPoP1v/",
   "published_at": "2026-09-19T16:53:31+0000"
+ },
+ {
+  "slug": "2026-09-19-evening",
+  "date": "2026-09-19",
+  "slot": "evening",
+  "category": "Security",
+  "headline": "Houthis fire a missile at Saudi capital",
+  "photo": false,
+  "cover_band": "8-12",
+  "publish_target": "2026-09-19T19:57-05:00",
+  "chosen": "primary",
+  "alternate": {
+   "folder": "posts/2026-09-19-evening-alt",
+   "category": "Technology",
+   "headline": "Lawsuit says four AI labs illegally agreed to slow down",
+   "photo": false
+  },
+  "note": "Run fired at 19:11 CT for the 20:00 evening slot; target drawn once at 19:57 CT. Rule 3 count: the last Good news entry is 2026-09-18-evening, two stories have run since (2026-09-19-morning, 2026-09-19-noon), so this slot is not the positive one; the count carries at 2. rank.py's #1 cluster (AP, Axios, BBC News, PBS NewsHour, The Hill; 5 outlets, 15 items) is Trump's ban on CNN, MS NOW and Politico, which ran as 2026-09-19-morning, skipped under rule 1. Also skipped under rule 1: #10 (Ed Sheeran's first show since the Macklemore walkout) and #12 (Macklemore's $1M pledge), both the same saga as 2026-09-16-morning, and #15 (the new wild cat, ran as 2026-09-18-evening). Trump led this morning, so under rule 2 the Trump-led clusters are skipped: #3 and #9 (Greenland deal, this morning's unrun alternate), #5 (Big Bend border wall), #6 (AI Force and AI czar), #7 (Medicaid drug pricing) and #8 (Russia sanctions bill signed); none is the clear top story, each has 3 outlets or fewer. The highest remaining clusters are #2, Saudi Arabia confirming a Houthi ballistic missile aimed at Riyadh (AP, BBC News, PBS NewsHour; 3 outlets, Security) and #4, the antitrust suit against Anthropic, OpenAI, SpaceXAI and Google over an AI slowdown (AP, PBS NewsHour, The Hill; 3 outlets, Technology). They are within one outlet, so rule 5's tie-break applies: Security and Technology have each run twice in the last 7 days, a tie, so rank order stands and the primary is #2. Lead subject Saudi Arabia/the Houthis; the White House led the morning and the Clancy juror led noon, so rule 2 is clear. Primary written from the PBS NewsHour (AP) article text with the BBC News text as the second source; the two AP items had no text (403). Facts as the articles give them: the coalition says the missile was intercepted, residents heard an explosion and saw smoke near the airport, no casualties or damage were reported, the Houthis call it a response to Saudi attempts on Sanaa, regional officials say Saudi Arabia is low on interceptors and has asked France, Britain, Pakistan and Egypt, the US says it has no current fight with the Houthis, and the Houthis hold Mokha and Bab el-Mandeb islands. Shield on for 5-7. Photo: photo_subject was set to King Khalid International Airport (the smoke and flight delays were at the airport) and commons.yml dispatched, but the Commons image is 967x695, too small, so no photo; photo_subject removed from post.json. The last two log entries were photo true/false, so a photo was allowed. Alternate under rule 8: #4, the AI slowdown lawsuit, the highest remaining cluster of another category (Technology), not a hard story, passes rules 1, 2 and 6; written from the PBS NewsHour (AP) text, the AP and The Hill items had no text (403). No photo for the alternate: four companies, no single subject, and the story is a lawsuit about them. Cover band rotation: noon was 5-7, so this slot is 8-12; cover_age drawn once as 10, shared by both posts. Primary headline first rendered at three lines and was shortened to two. Both renders exit 0 after trimming the why lines and Try answers on the 8-12 and 13-17 cards."
  }
 ]

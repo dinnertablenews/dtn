@@ -1,0 +1,69 @@
+{
+  "slot": "2026-09-19 20:00 CT",
+  "date": "2026-09-19",
+  "cover_age": 10,
+  "category": "Technology",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/nation/lawsuit-says-anthropic-openai-spacexai-and-google-made-illegal-agreement-on-ai-slowdown",
+  "source_domain": "pbs.org/newshour",
+  "headline": "Lawsuit says four AI labs illegally agreed to slow down",
+  "summary": "Four people who pay for ChatGPT, Claude, Grok or Gemini sued Anthropic, OpenAI, SpaceXAI and Google in federal court on Friday. They say the companies broke antitrust law by agreeing to slow their AI development, which gives subscribers less. The suit points to a Sept. 12 essay by Dario Amodei and same-day agreement from three rival CEOs.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "How can slowing down be illegal?"
+  },
+  "cover_answer": "Rivals can't agree to give you less. That's the claim.",
+  "table_question": "Is it fair for the fastest runners to agree to jog?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "Four companies that make talking computer programs said they might build them more slowly, to be careful. Some people who pay for those programs are suing. They say the companies are supposed to race each other, like runners, not agree to jog. A judge will sort it out.",
+      "why": "Five-year-olds know racing and know slowing down. That grown-ups can be told off for agreeing to slow down is a surprise, and that is enough."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Anthropic's boss wrote that AI companies should slow down together so safety can catch up. Rivals at OpenAI, SpaceXAI and Google agreed. Antitrust law bars teaming up to give customers less, so four subscribers sued. Like the fastest kids agreeing to jog.",
+      "why": "Teaming-up rules are fairness rules, their home turf."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Should companies be allowed to agree to slow down if the product might be dangerous? Four AI labs said yes, and paying users are suing them under antitrust law. Who sets the pace: companies, courts, or Congress?",
+      "why": "Coordination can protect people and cheat them. Let them pick the villain."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Why are they in trouble for being careful?",
+        "a": "Some customers say the four companies aren't allowed to decide that together. Each one can be careful on its own."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "How can slowing down be illegal?",
+        "a": "Rivals can't agree to compete less. A slower product at the same price is that."
+      },
+      {
+        "q": "Did they really make a deal?",
+        "a": "An essay and three public replies in one day. The companies haven't commented."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Can the government just allow it?",
+        "a": "Amodei asked for a waiver for safety talks. Altman said OpenAI shouldn't wait."
+      },
+      {
+        "q": "Could AI really kill us all?",
+        "a": "Their lawyer says so. The court only asks if the deal cheats subscribers."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#AISlowdown",
+    "#DinnerTableNews"
+  ],
+  "caption": "Rivals can't agree to give you less. That's the claim.\n\nFour people who pay for ChatGPT, Claude, Grok or Gemini sued Anthropic, OpenAI, SpaceXAI and Google in federal court on Friday. They say the companies broke antitrust law by agreeing to slow their AI development, which gives subscribers less. The suit points to a Sept. 12 essay by Dario Amodei and same-day agreement from three rival CEOs.\n\nSource: PBS NewsHour, pbs.org/newshour\n\nSwipe for what to say at 5, at 10, and at 15.\n\nThe dinner table question: Is it fair for the fastest runners to agree to jog? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #AISlowdown #DinnerTableNews"
+}
