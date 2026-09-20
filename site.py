@@ -97,6 +97,11 @@ CATEGORIES = ["World", "U.S.", "Politics", "Business", "Technology", "Science",
 # label they shipped with; this only governs how the site files and filters them.
 # Both Security stories were a drone over Lithuania and a missile at Riyadh, so World.
 REMAP = {"Government": "Politics", "Economy": "Business", "Security": "World"}
+# "Good news" is a tone, not a subject, so it is a flag on the post rather than its
+# category: the story still files under Science or Health, and the archive pill of that
+# name filters on the flag. Without this, every positive story was lost to the one label
+# and Science showed nothing despite a science source in the allowlist.
+POSITIVE = "Good news"
 
 
 def typo(s):
@@ -718,7 +723,7 @@ BAND_JS = """
 # Revisit when the archive runs to four figures and shipping every card stops being cheap.
 ARCHIVE_JS = """
 (function(){
-  var PAGE=12;
+  var PAGE=12, POSITIVE="__POSITIVE__";
   var list=document.getElementById('list'), input=document.getElementById('q'),
       note=document.getElementById('count'), more=document.getElementById('more'),
       chips=document.querySelectorAll('.chips button');
@@ -728,7 +733,9 @@ ARCHIVE_JS = """
     var q=(input&&input.value||'').trim().toLowerCase(), n=0;
     for(var i=0;i<cards.length;i++){
       var c=cards[i];
-      var hit=(!q||c.getAttribute('data-text').indexOf(q)>-1)&&(!cat||c.getAttribute('data-cat')===cat);
+      var byCat = cat===POSITIVE ? c.hasAttribute('data-positive')
+                                 : c.getAttribute('data-cat')===cat;
+      var hit=(!q||c.getAttribute('data-text').indexOf(q)>-1)&&(!cat||byCat);
       var vis=false;
       if(hit){ vis = n<shown; n++; }        // cards are already newest first
       c.classList.toggle('hidden',!vis);
@@ -769,6 +776,7 @@ ARCHIVE_JS = """
 SHARE_JS = (SHARE_JS.replace("__URL__", f"{BASE_URL}/" if BASE_URL else "")
             .replace("__MSG__", SHARE_TEXT).replace("__SUBJ__", SHARE_SUBJECT))
 TOUR_JS = TOUR_JS.replace("__STEPS__", json.dumps(TOUR))
+ARCHIVE_JS = ARCHIVE_JS.replace("__POSITIVE__", POSITIVE)
 
 
 # ----------------------------------------------------------------- shell ---
@@ -860,7 +868,8 @@ def story_block(p, up, *, heading=False, filterable=False):
     """One story, written three ways; the age attribute on <html> picks which one shows."""
     bits = []
     href = f"{up}p/{p['slug']}/"
-    meta = f'<b>{e(p["category"])}</b><span class="eyebrow">{e(short_date(p["day"]))}'
+    label = f'{POSITIVE} \u00b7 {p["category"]}' if p.get("positive") else p["category"]
+    meta = f'<b>{e(label)}</b><span class="eyebrow">{e(short_date(p["day"]))}'
     meta += "</span>"
     bits.append(f'<div class="cat eyebrow">{meta}</div>')
     headline = f'<a href="{href}">{e(p["headline"])}</a>'
@@ -890,13 +899,15 @@ def story_block(p, up, *, heading=False, filterable=False):
         # lead questions: enough to find a story by what it was about or what a kid asked,
         # without carrying all three full scripts into the page for every post.
         parts = [p["headline"], p.get("summary", ""), p["category"], p["outlet"],
-                 p.get("table_question", "")]
+                 p.get("table_question", ""), POSITIVE if p.get("positive") else ""]
         for b in BANDS:
             lq = lead_question(p, b)
             if lq:
                 parts.append(f'{lq["q"]} {lq["a"]}')
         text = " ".join(str(x) for x in parts).lower()
         extra = f' data-cat="{attr(p["category"])}" data-text="{attr(text)}"'
+        if p.get("positive"):
+            extra += ' data-positive="1"'
     return f'<article data-href="{attr(href)}"{extra}>{"".join(bits)}</article>'
 
 
@@ -975,6 +986,7 @@ def render_archive(posts, up="../"):
     # shown and disabled: a pill that returns "nothing yet" twice teaches people to stop
     # trusting the row.
     have = collections.Counter(p["category"] for p in posts)
+    have[POSITIVE] = sum(1 for p in posts if p.get("positive"))
     chips = []
     for c in CATEGORIES:
         off = '' if have[c] else ' disabled aria-disabled="true" title="No stories yet"'
