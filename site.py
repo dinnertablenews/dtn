@@ -389,8 +389,16 @@ article{padding-block:34px; border-top:1px solid var(--rule)}
    page and the only light thing on a dark one, which is the point: everything else here
    is something to read, and this is something to answer. Keyed to --fg/--bg rather than
    to ink so it inverts in both themes instead of just the one. */
-.table-q{background:var(--fg); color:var(--bg); border-radius:3px; padding:34px 30px;
-         margin-block:12px 0}
+.table-q{background:var(--fg); color:var(--bg); border-radius:18px; padding:32px 30px 34px;
+         margin-block:12px 22px; position:relative}
+/* The tail. Two borders on an empty box: a flat top the width of the tail and a
+   transparent right edge, which leaves a triangle hanging off the bottom-left corner.
+   18px of bottom margin above keeps it from landing on whatever follows. */
+.table-q::after{content:""; position:absolute; left:34px; bottom:-17px; width:0; height:0;
+  border-top:18px solid var(--fg); border-right:20px solid transparent}
+.table-q .basis{font-size:14px; line-height:1.45; margin:10px 0 0; max-width:60ch}
+.table-q .basis .lab{color:var(--bg); opacity:.5}
+.table-q .basis .hd{color:var(--bg); opacity:.85}
 .table-q .eyebrow{color:var(--bg); opacity:.6}
 .table-q h2{font-family:var(--display); font-weight:400; font-size:clamp(24px,5vw,32px);
             line-height:1.12; margin:12px 0 0; text-wrap:balance; color:var(--bg)}
@@ -922,6 +930,18 @@ def story_block(p, up, *, heading=False, filterable=False):
     return f'<article data-href="{attr(href)}"{extra}>{"".join(bits)}</article>'
 
 
+def table_block(p, *, tonight=False):
+    """The dinner table question, as something said rather than something printed: a
+    speech bubble, with the headline it came from named above it."""
+    if not p or not p.get("table_question"):
+        return ""
+    lab = "Tonight\u2019s dinner table question" if tonight else "The dinner table question"
+    return (f'<div class="table-q"><div class="eyebrow">{e(lab)}</div>'
+            f'<p class="basis"><span class="lab">Based on the headline:</span> '
+            f'<span class="hd">{e(p["headline"])}</span></p>'
+            f'<h2>{e(p["table_question"])}</h2></div>')
+
+
 def follow_block(up):
     if EMAIL_FORM_ACTION:
         # Checked by default for the band the reader is already on, synced by JS on load.
@@ -959,11 +979,7 @@ def render_index(posts, up=""):
     stories = ('<div class="stories">'
                + "".join(story_block(p, up, heading=True) for p in latest) + "</div>")
     tq = next((p for p in latest if p.get("table_question")), None)
-    table = ""
-    if tq:
-        table = (f'<div class="table-q"><div class="eyebrow">Tonight’s dinner table question</div>'
-                 f'<h2>{e(tq["table_question"])}</h2>'
-                 f'<p>Anyone can answer it, including the ones who didn’t read the news.</p></div>')
+    table = table_block(tq, tonight=True) if tq else ""
     body = f"""
   <div class="today">
     <div class="eyebrow">{e(long_date(lead["day"]))}</div>
@@ -1054,12 +1070,7 @@ def render_post(p, newer, older, up="../../"):
             f'<p class="script">{e(a.get("script", ""))}</p>{why}{asks}'
             f'<p class="others">Also written for {others}.</p></div>')
 
-    table = ""
-    if p.get("table_question"):
-        table = (f'<div class="table-q"><div class="eyebrow">The dinner table question</div>'
-                 f'<h2>{e(p["table_question"])}</h2>'
-                 f'<p>Ask it at any age. Anyone can answer it, including the ones who didn’t '
-                 f'read the news.</p></div>')
+    table = table_block(p)
 
     # Same sentence the cards use: the outlet name carries the link, the domain is gone.
     if p.get("source_url"):
