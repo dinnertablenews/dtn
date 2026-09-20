@@ -78,7 +78,7 @@ TOUR = [
     {"sel": "nav .nav-links", "title": "Thanks for visiting!",
      "text": "Visit the Archive to find news categories like Science or Business with "
              "suggested ways to talk about recent news.\n\n"
-             "Share with a parent or friend, or follow us on Instagram!"},
+             "Share with a parent or friend, or follow us on Instagram @dinnertablenews!"},
 ]
 # The prompt beside the age pills. One string: it used to be a parameter, and the
 # archive and story pages quietly kept saying "Answers for my" after the front page
