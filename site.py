@@ -1002,11 +1002,11 @@ def story_block(p, up, *, heading=False, filterable=False):
             f'<div data-for="{band}">'
             f'<p class="q"><span class="mk">“</span>{e(q["q"])}<span class="mk">”</span></p>'
             f'<p class="a">{e(q["a"])}</p></div>')
-    # The outlet name is the link, and the sentence says what the link does. The domain
-    # is gone: it repeated the outlet in smaller type and gave a reader nothing.
+    # The outlet name, and nothing else. The domain went first because it repeated the
+    # outlet in smaller type; the sentence around it went next, because by the fourth
+    # card a reader has worked out what a linked masthead under a story does.
     if p.get("source_url"):
-        src = (f'Read the original story at <a href="{attr(p["source_url"])}" '
-               f'rel="noopener">{e(p["outlet"])}</a>')
+        src = (f'<a href="{attr(p["source_url"])}" rel="noopener">{e(p["outlet"])}</a>')
     else:
         src = e(p["outlet"])
     bits.append(f'<div class="src"><span>{src}</span><a class="more" href="{href}">'
@@ -1177,10 +1177,9 @@ def render_post(p, newer, older, up="../../"):
 
     table = table_block(p)
 
-    # Same sentence the cards use: the outlet name carries the link, the domain is gone.
+    # As on the cards: the outlet name is the whole line.
     if p.get("source_url"):
-        src = (f'Read the original story at <a href="{attr(p["source_url"])}" '
-               f'rel="noopener">{e(p["outlet"])}</a>')
+        src = (f'<a href="{attr(p["source_url"])}" rel="noopener">{e(p["outlet"])}</a>')
     else:
         src = e(p["outlet"])
     # The photo credit sat under the summary, where no photograph appears. The one place
