@@ -30,7 +30,9 @@ FIELDS = ("headline", "summary", "cover_question", "cover_answer", "table_questi
 
 TELLS = {
     "rule of three": r"\b\w+, \w+,? and \w+\b",
-    "not just / not only": r"\bnot (just|only)\b",
+    # The tell is the parallelism, not the adverb: "why not just stop?" is how a child
+    # talks. Requiring the second half keeps the quoted questions out of the results.
+    "not just / not only": r"\bnot (just|only)\b[^.?!]{0,70}?\b(but|it's|it is)\b",
     "not X but Y": r"\bis not [^.]{2,40}\bbut\b",
     "copula avoidance": r"\b(serves|stands) as\b|\bboasts\b|\brefers to\b",
     "trailing -ing analysis":

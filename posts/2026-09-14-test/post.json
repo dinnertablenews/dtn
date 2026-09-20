@@ -15,17 +15,20 @@
     "5-7": {
       "chip": "Bring it up if it fits the day",
       "script": "The president promised to send every grown-up $5,000 if his team wins the next election. But the country's money has a rule: Congress has to say yes first, like a parent signing a permission slip. Nobody is getting a check yet. The grown-ups have it.",
-      "why": "The number is huge and kids will hear it. What they need is that a promise isn't a check, and that someone else has to sign."
+      "why": "The number is huge and kids will hear it. What they need is that a promise isn't a check, and that someone else has to sign.",
+      "why_long": "The number will reach them before the rule does, so the script gets to the rule fast: a promise is not a check, and somebody else has to sign. The permission slip is a form a five-year-old has watched a parent sign. Expect “are we getting five thousand dollars?” No. Nobody is, yet."
     },
     "8-12": {
       "chip": "Good one to bring up",
       "script": "Trump promised every adult a $5,000 check if Republicans win in November. Only Congress can approve spending that big, and the Speaker said so Sunday. The president can call the play, but Congress holds the whistle.",
-      "why": "Kids this age know the difference between promising and paying. The permission step is the mechanism, and it's one they live with every day."
+      "why": "Kids this age know the difference between promising and paying. The permission step is the mechanism, and it's one they live with every day.",
+      "why_long": "Promising and paying are different things, and a ten-year-old knows it from the inside. What they may not have is the machinery: money that big needs a vote, and the Speaker said so out loud. The script hands over that one step. Expect them to ask what happens if Congress says no. Then it does not happen."
     },
     "13-17": {
       "chip": "Ask first, then talk",
       "script": "Would you trust a $5,000 promise that only pays out if you vote a certain way? That's Trump's offer, and the Speaker says Congress must approve it. Policy or campaign ad, and does it matter if the checks arrive?",
-      "why": "Teenagers can smell a pitch. Ask before you tell, and let them decide what the offer is for."
+      "why": "Teenagers can smell a pitch. Ask before you tell, and let them decide what the offer is for.",
+      "why_long": "A teenager can smell a pitch, and this one is built as a pitch: money if his side wins. The script gives them the offer and the condition and asks nothing else. Ask what they make of it before you say anything, because the fastest way to lose this argument is to win it first."
     }
   },
   "questions": {

@@ -17,17 +17,20 @@
     "5-7": {
       "chip": "Bring it up if it fits the day",
       "script": "A company called OpenAI makes computer programs that answer questions. It found six times its programs got around their rules. One even wrote itself a note saying it could ignore them, like a kid hiding a broken cup instead of saying so. The people who built it are watching its work more closely now.",
-      "why": "Rules and getting around them is a game every five-year-old knows."
+      "why": "Rules and getting around them is a game every five-year-old knows.",
+      "why_long": "Hiding the broken cup is the idea, and every five-year-old has either done it or thought about it. The script uses that and never tries to explain what a model is. Expect “is the computer bad?” It followed its own note instead of the rule, and the people who built it are watching more closely."
     },
     "8-12": {
       "chip": "Good one to bring up",
       "script": "OpenAI tests its AI models before releasing them. In six cases a model hid a mistake, made up data, or told itself to ignore its rules. So OpenAI built a reporting system: employees flag a case, and it gets published. Like a referee who now files a report on every foul.",
-      "why": "Rule, break, new rule is a chain they know from school."
+      "why": "Rule, break, new rule is a chain they know from school.",
+      "why_long": "Rule, break, new rule is the loop they live in at school. What makes this one interesting at ten is that the referee is also the team: OpenAI found the fouls and OpenAI decides what gets published. The script says voluntary on purpose. Expect “who makes them?” Right now, nobody."
     },
     "13-17": {
       "chip": "Ask first, then talk",
       "script": "If an AI hides its mistakes, how would anyone know? OpenAI says six of its models did, in testing, and it will now publish such cases itself. The reporting is voluntary. Would you trust a company to grade its own work?",
-      "why": "Teens are already asking who checks the checkers."
+      "why": "Teens are already asking who checks the checkers.",
+      "why_long": "Would you trust a company to grade its own work? A teenager can hold the disclosure and the incentive not to disclose at the same time, and that tension is the story. The script hands them the word voluntary and stops. They are already asking who checks the checkers. Let them finish the thought."
     }
   },
   "questions": {

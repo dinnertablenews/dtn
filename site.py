@@ -76,7 +76,7 @@ TOUR = [
     # The blank line is a real newline: .tour-t is set with textContent and given
     # white-space:pre-line, so the text stays text and still breaks into two paragraphs.
     {"sel": "nav .nav-links", "title": "Thanks for visiting!",
-     "text": "Visit the Archive to find news categories like Science or the Economy with "
+     "text": "Visit the Archive to find news categories like Science or Business with "
              "suggested ways to talk about recent news.\n\n"
              "Share with a parent or friend, or follow us on Instagram!"},
 ]
@@ -1010,7 +1010,7 @@ def story_block(p, up, *, heading=False, filterable=False):
     else:
         src = e(p["outlet"])
     bits.append(f'<div class="src"><span>{src}</span><a class="more" href="{href}">'
-                f'How to talk about this more deeply →</a></div>')
+                f'Dig further into this story →</a></div>')
     # data-href is what makes the card clickable. The headline stays a real link, so
     # the card still works with the script off, and for a keyboard and a crawler.
     extra = ""
