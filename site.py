@@ -684,10 +684,13 @@ def story_block(p, up, *, heading=False, filterable=False):
             f'<div data-for="{band}">'
             f'<p class="q"><span class="mk">“</span>{e(q["q"])}<span class="mk">”</span></p>'
             f'<p class="a">{e(q["a"])}</p></div>')
-    src = f'{e(p["outlet"])}'
+    # The outlet name is the link, and the sentence says what the link does. The domain
+    # is gone: it repeated the outlet in smaller type and gave a reader nothing.
     if p.get("source_url"):
-        dom = p.get("source_domain") or re.sub(r"^www\.", "", p["source_url"].split("/")[2])
-        src += f', <a href="{attr(p["source_url"])}" rel="noopener">{e(dom)}</a>'
+        src = (f'Read the original story at <a href="{attr(p["source_url"])}" '
+               f'rel="noopener">{e(p["outlet"])}</a>')
+    else:
+        src = e(p["outlet"])
     bits.append(f'<div class="src"><span>{src}</span><a class="more" href="{href}">'
                 f'All three ages →</a></div>')
     # data-href is what makes the card clickable. The headline stays a real link, so
