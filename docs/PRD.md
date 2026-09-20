@@ -16,7 +16,7 @@ The pipeline is fully automated. A scheduled Claude task selects the story, writ
 
 **Audience.** Parents of one kid. A parent reading the post cares about one age band, theirs. Copy never counts the bands ("three ages") at the reader; it names the kid's age.
 
-**Voice (Dan's).** Open with a concrete fact, not a warm-up. Short declarative sentences, active voice, subject-verb-object. Dry aside allowed, never a joke that takes over. No adjectives that don't do work. Trust the reader with specifics.
+**Voice (Dan's).** Open with a concrete fact, not a warm-up. Short declarative sentences, active voice, subject-verb-object. Dry aside allowed, never a joke that takes over. No adjectives that don't do work. Trust the reader with specifics. `CLAUDE.md` holds the full rule, including the list of AI tells to strip, and it governs every word in the repository rather than the post copy alone.
 
 **Forbidden tells.** No "not just X but Y", no rule-of-three lists for effect, no "it's important to note", no "serves as", "testament", "underscores", "landscape", "delve", "vibrant", no em-dash chains, no tidy moral at the end, no hedged summary sentence.
 
@@ -123,7 +123,7 @@ The workflow commits both files to `main` with `git pull --rebase -X theirs` so 
 - 8–12: one cause-and-effect chain and one familiar mechanism (checklist, referee, thermostat). 3–4 sentences. Chip: "Bring it up if it fits the day" or "Good one to bring up".
 - 13–17: lead with a real question, then a second one. Treat them as a conversation partner. 3–4 sentences. Chip: "Ask first, then talk".
 - `why`: one or two plain sentences on why the script works at that age. This is the line the Instagram card carries, and the card is measured, so it stays short.
-- `why_long`: the same line written for the website, where nothing is measured. Three to five sentences naming the developmental mechanism this particular story runs into and showing the script answering it, plus the question this age tends to ask next. The site renders it in place of `why`; the card never sees it.
+- `why_long`: the same line written for the website, where nothing is measured. It names the developmental mechanism this particular story runs into and shows the script answering it, then says which question the age tends to ask next. The site renders it in place of `why`; the card never sees it. It may never run longer than that post's `summary`, which in practice is three or four short sentences; `site.py` fails the build with `WHY TOO LONG:` when it does. Voice and tells as in `CLAUDE.md`.
 
 ## 8. The carousel: five slides at 1080 × 1350
 

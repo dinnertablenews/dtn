@@ -163,9 +163,25 @@ def load_posts():
         p["published"] = json.loads((d / "published.json").read_text())
         p["cover"] = d / "1-cover.jpg" if (d / "1-cover.jpg").exists() else None
         p["_sort"] = (p["date"], rank, slug)
+        check_why(p)
         posts.append(p)
     posts.sort(key=lambda p: p["_sort"], reverse=True)
     return posts
+
+
+def check_why(p):
+    """A `why_long` may not run past the summary it sits beside. The reader came for the
+    news; the note explaining how to talk about it is the smaller of the two, and once it
+    is the bigger one the page reads as an essay with a story attached. render.py refuses
+    a slide whose text crowds the card, and this is the same refusal for the same reason:
+    a rule you can see is worth more than one in the spec."""
+    cap = len(p.get("summary", ""))
+    for band, a in p.get("ages", {}).items():
+        t = a.get("why_long")
+        if t and cap and len(t) > cap:
+            raise SystemExit(
+                f"WHY TOO LONG: {p['slug']} {band} -- why_long is {len(t)} characters "
+                f"against a {cap}-character summary. Cut {len(t) - cap} more.")
 
 
 def outlets():
@@ -486,7 +502,13 @@ section.block{padding-block:34px; border-top:1px solid var(--rule)}
         max-width:42ch; border-left:3px solid var(--band); padding-left:18px}
 .chip{display:inline-flex; align-items:center; gap:8px; font-size:13px; font-weight:500; color:var(--quiet);
       background:var(--panel); border-radius:999px; padding:6px 14px; margin-top:6px}
-.why{font-size:14px; color:var(--dim); margin:16px 0 0; max-width:46ch}
+/* .block .why, not .why: the note is a <p> inside section.block, so `.block p` above
+   outranked a bare .why and its margin never applied. */
+.block .why{font-size:14px; color:var(--dim); margin:16px 0 0; max-width:46ch}
+/* Stacked, the label lands straight under the script's quote rule and reads as the
+   last line of it. A line's worth of air makes it the note about the script instead.
+   Above 1000px the script and the note are in separate columns already. */
+@media (max-width:999px){.block .why{margin-top:37px}}
 .why b{color:var(--band); font-weight:600; letter-spacing:.08em; text-transform:uppercase; font-size:12px;
        display:block; margin-bottom:4px}
 .asks{margin-top:26px; background:var(--bandtint); border-radius:3px; padding:22px 20px}
@@ -988,7 +1010,7 @@ def story_block(p, up, *, heading=False, filterable=False):
     else:
         src = e(p["outlet"])
     bits.append(f'<div class="src"><span>{src}</span><a class="more" href="{href}">'
-                f'All three ages →</a></div>')
+                f'How to talk about this more deeply →</a></div>')
     # data-href is what makes the card clickable. The headline stays a real link, so
     # the card still works with the script off, and for a keyboard and a crawler.
     extra = ""
