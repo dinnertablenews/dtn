@@ -514,6 +514,7 @@ section.block{padding-block:34px; border-top:1px solid var(--rule)}
 .chips button[disabled]{opacity:.38; cursor:default}
 .chips button[aria-pressed="true"]{color:var(--band); border-color:var(--band); background:var(--bandtint)}
 .note{font-size:13px; color:var(--dim); margin-top:10px; min-height:1.2em}
+.signup-done{font-size:17px; line-height:1.5; color:var(--band); margin:14px 0 0; max-width:46ch}
 .ageask{border:0; margin:14px 0 0; padding:0; display:flex; flex-wrap:wrap; gap:8px; align-items:center}
 .ageask legend{float:left; width:100%; font-size:13px; color:var(--dim); padding:0; margin-bottom:8px}
 .agebox{display:inline-flex}
@@ -937,6 +938,39 @@ BAND_JS = """
 })();
 """
 
+SIGNUP_JS = """
+(function(){
+  // Buttondown's endpoint answers a form post with its own hosted page, so subscribing
+  // threw the reader off the site onto somewhere they did not ask to be. Post it in the
+  // background and answer here instead. The plain form is still the markup: with
+  // JavaScript off this submits the old way and lands where it used to, which is worse
+  // but works.
+  var f=document.querySelector('form.signup');
+  if(!f||!window.fetch) return;
+  f.addEventListener('submit', function(ev){
+    ev.preventDefault();
+    var btn=f.querySelector('button[type=submit]');
+    if(btn){ btn.disabled=true; btn.textContent='Sending'; }
+    // no-cors, because the endpoint sends no CORS headers: the response comes back opaque
+    // and its status cannot be read. So the copy promises the confirmation email rather
+    // than a subscription, which is both the honest claim and the true one -- Buttondown
+    // does not count anybody until they click that link.
+    fetch(f.action, {method:'POST', mode:'no-cors',
+                     body:new URLSearchParams(new FormData(f))})
+      .catch(function(){})
+      .then(function(){
+        var p=document.createElement('p');
+        p.className='signup-done';
+        p.textContent='Check your inbox. There is a link there to confirm, and nothing '+
+                      'arrives until you click it.';
+        f.parentNode.replaceChild(p, f);
+        var n=document.querySelector('#follow .note');
+        if(n) n.textContent='Nothing in the inbox? Look in promotions or spam, and tell Dan.';
+      });
+  });
+})();
+"""
+
 # Filters the archive list in the DOM rather than fetching an index: at a few hundred
 # posts this is smaller and faster than a JSON round trip, and it works with the page
 # opened from disk. Revisit when the archive runs to four figures.
@@ -1082,7 +1116,7 @@ var t=localStorage.getItem('dtn-theme');if(t==='light'||t==='dark')r.setAttribut
     <div><a href="{attr(INSTAGRAM)}" rel="me">@dinnertablenews</a> · {e(SITE_NAME)}, {date.today().year}</div>
   </div>
 </footer>
-<script>{THEME_JS}{BAND_JS}{CARD_JS}{SHARE_JS}{extra_js}</script>
+<script>{THEME_JS}{BAND_JS}{CARD_JS}{SHARE_JS}{SIGNUP_JS}{extra_js}</script>
 </body>
 </html>
 """
@@ -1522,19 +1556,22 @@ def digest_html(stories, day):
     keeps neither. Every age goes in, because an email cannot switch between them the
     way the site does.
 
-    No date and no title. The item's own <title> is "Three stories for Saturday,
-    September 19, 2026", and Buttondown sets that as the email's heading above this
-    block, so printing the day and the count again underneath says both things twice."""
+    The day and the headline live here rather than in the RSS <title>. Buttondown uses the
+    title as the subject line, and a subject line and an email's first heading are not the
+    same job: one has 35 characters in a phone's inbox and has to earn the open, the other
+    is already open. Printing both was the duplicate in the preview. This is the one that
+    stays, because it renders inside the 560px column in the fonts and colours we set."""
     SERIF = "Georgia,'Times New Roman',serif"
     SANS = "-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif"
     out = [f'<div style="font-family:{SANS};color:#1B1A17;max-width:560px">']
-    first = True
+    out.append(f'<p style="font-size:13px;letter-spacing:.08em;text-transform:uppercase;'
+               f'color:#6B675F;margin:0 0 6px">{e(long_date(day))}</p>')
+    out.append(f'<p style="font-family:{SERIF};font-size:26px;line-height:1.15;margin:0 0 4px">'
+               f'{e(count_phrase(len(stories)))}, and the words for them.</p>')
+    first = False
     for p in stories:
         url = f"{BASE_URL}/p/{p['slug']}/"
-        # No rule above the first story: it would draw a line under the email's own heading.
-        if not first:
-            out.append('<hr style="border:0;border-top:1px solid #E0DACD;margin:28px 0 20px">')
-        first = False
+        out.append('<hr style="border:0;border-top:1px solid #E0DACD;margin:28px 0 20px">')
         out.append(f'<p style="font-size:12px;font-weight:600;letter-spacing:.1em;'
                    f'text-transform:uppercase;color:#6B675F;margin:0 0 8px">{e(p["category"])}</p>')
         out.append(f'<p style="font-family:{SERIF};font-size:22px;line-height:1.2;margin:0 0 10px">'
@@ -1568,6 +1605,26 @@ def digest_html(stories, day):
     return "".join(out)
 
 
+def subject(stories):
+    """The email's subject line, built from the day's categories.
+
+    It was the day: "Three stories for Saturday, September 19, 2026". True, and the same
+    shape every morning, which is how an inbox teaches somebody to skip a sender. The
+    categories change -- Politics, U.S. and World on the 19th; Business, Technology and
+    Science on the 17th -- so the line changes with them and says what the mail is about
+    before anything else.
+
+    Front-loaded because a phone shows about 35 characters. The account's name is not in it:
+    the From name already says Dinner Table News twice over, and repeating it spends the
+    only characters that could have carried news."""
+    seen = []
+    for p in stories:
+        if p["category"] not in seen:
+            seen.append(p["category"])
+    cats = seen[0] if len(seen) == 1 else ", ".join(seen[:-1]) + " and " + seen[-1]
+    return f"{cats}, explained for your kid"
+
+
 def build_digest_feed(posts):
     """One item per finished day, carrying that day's three stories at all three ages.
     This is the feed the morning email is built from; feed.xml stays one item per story
@@ -1581,7 +1638,7 @@ def build_digest_feed(posts):
         evening = next((p for p in stories if p["slot_name"] == "Evening"), stories[-1])
         heads = "; ".join(p["headline"] for p in stories)
         items.append(
-            f"<item><title>{e(f'{count_phrase(len(stories))} for {long_date(d)}')}</title>"
+            f"<item><title>{e(subject(stories))}</title>"
             f"<link>{attr(url)}</link>"
             f"<guid isPermaLink=\"false\">dtn-digest-{day}</guid>"
             f"<pubDate>{rfc822(evening['published'].get('timestamp', ''))}</pubDate>"
