@@ -302,6 +302,21 @@ def swipe_line(a):
     return f"Swipe for what to say at age {a['5-7']}, at {a['8-12']}, and at {a['13-17']}."
 
 
+def age_blocks(p):
+    """The three scripts, each under the age the post drew for its band. "At age 6" on the first one
+    and bare numbers after it: spelling out "age" three times reads like a form, and leaving it off
+    the first makes the number look like a time."""
+    a = ages_named(p)
+    label = [f"At age {a['5-7']}", f"At {a['8-12']}", f"At {a['13-17']}"]
+    return [f'{l}: {p["ages"][b]["script"]}' for l, b in zip(label, ("5-7", "8-12", "13-17"))]
+
+
+def why_block(p):
+    band = p["cover_question"]["band"]
+    a = p["ages"][band]
+    return f'Why this works at age {ages_named(p)[band]}: {a.get("why_long") or a["why"]}'
+
+
 def build_caption(p, reel=False):
     """The Instagram caption, in the standard order. The first line answers the cover question, so in the
     feed the cover asks and the caption answers; the table question is the last thing before the hashtags.
@@ -309,11 +324,14 @@ def build_caption(p, reel=False):
     The source line is the outlet and nothing else. The domain repeated the outlet in smaller type,
     which is the call site.py already made for the cards on the website.
 
-    reel=True drops the swipe line. A reel has nothing to swipe, and it has already played the three ages
-    by the time anyone reads the caption. Everything else is identical, so the two formats say the same
-    thing about the same story and there is one place to change the wording."""
-    source = f'Source: {p["outlet"]}' + (f'\n{p["photo_credit"]}' if p.get("photo") and p.get("photo_credit") else "")
-    parts = [p["cover_answer"], p["summary"], source] + ([] if reel else [swipe_line(ages_named(p))]) + [
+    reel=True swaps the swipe line for the thing it promises. A reel plays one age and says the other
+    two are down here, so the caption carries all three scripts and the why for the age that played.
+    It also drops the photo credit: the reel shows the headline as a clipping and no photograph, so
+    crediting one is crediting a picture nobody saw."""
+    credit = f'\n{p["photo_credit"]}' if p.get("photo") and p.get("photo_credit") and not reel else ""
+    source = f'Source: {p["outlet"]}' + credit
+    middle = age_blocks(p) + [why_block(p)] if reel else [swipe_line(ages_named(p))]
+    parts = [p["cover_answer"], p["summary"], source] + middle + [
         f'The dinner table question: {p["table_question"]} Tell us what your kid said, and how old they are.',
         " ".join(p["hashtags"])]
     return "\n\n".join(parts)
