@@ -102,10 +102,14 @@ def ages_named(p):
     two different kids. Drawn once and recorded as `ages_named` in post.json, the way publish_target
     records the publish minute: the shorten-and-re-render loop would otherwise redraw on every pass
     and drift from the veto notification, and the caption check compares against a stored string.
-    `cover_age` is the field this replaced; a post that still carries one keeps that age."""
-    got = dict(p.get("ages_named") or {})
-    if p.get("cover_age"):
-        got.setdefault(p["cover_question"]["band"], p["cover_age"])
+    `cover_age` is the field this replaced. A post that still carries one keeps that age, but
+    only if the band still allows it: four unpublished alternates were written with cover_age 5
+    while five was still in the draw, and honouring that would have put "your 5-year-old asks"
+    on a cover the day one of them ran. A value the band no longer allows is redrawn."""
+    got = {b: a for b, a in (p.get("ages_named") or {}).items() if a in BAND_AGES.get(b, ())}
+    band = p["cover_question"]["band"]
+    if p.get("cover_age") in BAND_AGES[band]:
+        got.setdefault(band, p["cover_age"])
     return {b: got.get(b) or random.choice(ages) for b, ages in BAND_AGES.items()}
 
 
