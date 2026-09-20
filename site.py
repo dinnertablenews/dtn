@@ -159,6 +159,26 @@ def load_posts():
     return posts
 
 
+def outlets():
+    """The source list, read from feeds.yaml so the about page cannot drift from what the
+    fetcher actually reads. A regex rather than a YAML library because this build has no
+    dependencies and the file is ours: everything between `sources:` and `background:`,
+    which leaves out NASA, whose feed supplies public-domain pictures and not stories."""
+    text = (ROOT / "feeds.yaml").read_text()
+    block = text.split("\nsources:", 1)[1].split("\nbackground:", 1)[0]
+    names = re.findall(r"^\s*name:\s*(.+?)\s*$", block, re.M)
+    if not names:
+        raise SystemExit("site.py: no outlets found in feeds.yaml -- the about page needs them")
+    return names
+
+
+def and_list(items):
+    """a, b and c"""
+    if len(items) < 2:
+        return "".join(items)
+    return ", ".join(items[:-1]) + " and " + items[-1]
+
+
 def long_date(d):
     return f"{d:%A, %B} {d.day}, {d.year}"
 
@@ -1065,7 +1085,7 @@ def render_post(p, newer, older, up="../../"):
                  path=f"p/{p['slug']}/", prompt="Answers for my", og_type="article")
 
 
-ABOUT = """
+ABOUT_TEMPLATE = """
   <div class="today">
     <div class="eyebrow">About</div>
     <h1>How this is made.</h1>
@@ -1154,9 +1174,9 @@ ABOUT = """
     has no settled answer. A six-year-old and a fifteen-year-old can both take a swing at it.</p>
 
     <h2>Where the news comes from</h2>
-    <p>A fixed list of news outlets, checked every hour. Nothing outside that list is ever
-    fetched. Every story names its outlet and links to the original reporting, and no quote,
-    number or name appears here that the reporting does not carry.</p>
+    <p>A fixed list of news outlets checked every hour, including {sources}. Every story names
+    its outlet and links to the original reporting, and no quote, number or name appears here
+    that the reporting does not carry.</p>
     <p>Photographs come from Wikimedia Commons under a Creative Commons or public domain
     licence, and are credited on the story they run with.</p>
     <p>This tool was built mostly late at night by me, a guy named Dan trying to figure out
@@ -1166,6 +1186,8 @@ ABOUT = """
     efficient.</p>
   </div></section>
 """
+
+ABOUT = ABOUT_TEMPLATE.replace("{sources}", e(and_list(outlets())))
 
 
 # ----------------------------------------------------------------- build ---

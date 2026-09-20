@@ -158,6 +158,11 @@ touch device and a mail client everywhere else, keyed to the same `(hover:none) 
 (pointer:coarse)` test the cards use. The `sms:?&body=` spelling is the form both iOS and
 Android accept; it wants testing on real handsets.
 
+The about page names all ten outlets, read out of `feeds.yaml` at build time by
+`outlets()` rather than typed into the copy. The source list is the claim that page makes,
+so it should not be possible for the two to disagree. NASA is excluded: it sits under
+`background:` and supplies public-domain pictures, not stories.
+
 ## Categories
 
 `CATEGORIES` is the list, in the order the archive shows it: World, U.S., Politics,
