@@ -256,7 +256,10 @@ nav a:hover,nav a[aria-current="page"]{color:var(--fg)}
 .seg button:focus-visible{outline:2px solid var(--band); outline-offset:2px}
 
 /* ---- today -------------------------------------------------------- */
-.today{padding-block:36px 8px}
+/* The lede under this headline explained the control sitting directly above it, so it
+   was instructions for a button you can already see. Dropping it, and tightening here,
+   is worth about 50px of a phone screen before the first story. */
+.today{padding-block:26px 6px}
 .today h1{font-family:var(--display); font-weight:400; font-size:clamp(28px,6vw,38px);
           line-height:1.1; margin:6px 0 0; text-wrap:balance}
 .today p{color:var(--dim); font-size:15px; margin:10px 0 0; max-width:46ch}
@@ -314,10 +317,16 @@ article{padding-block:34px; border-top:1px solid var(--rule)}
 .more:hover{text-decoration:underline; text-underline-offset:3px}
 
 /* ---- table question ------------------------------------------------ */
-.table-q{background:var(--panel); border-radius:3px; padding:28px 24px; margin-block:12px 0}
-.table-q h2{font-family:var(--display); font-weight:400; font-size:clamp(23px,4.8vw,30px);
-            line-height:1.12; margin:10px 0 0; text-wrap:balance}
-.table-q p{font-size:14px; color:var(--dim); margin:14px 0 0}
+/* Inverted, the way the carousel's last slide is. It is the only dark thing on a light
+   page and the only light thing on a dark one, which is the point: everything else here
+   is something to read, and this is something to answer. Keyed to --fg/--bg rather than
+   to ink so it inverts in both themes instead of just the one. */
+.table-q{background:var(--fg); color:var(--bg); border-radius:3px; padding:34px 30px;
+         margin-block:12px 0}
+.table-q .eyebrow{color:var(--bg); opacity:.6}
+.table-q h2{font-family:var(--display); font-weight:400; font-size:clamp(24px,5vw,32px);
+            line-height:1.12; margin:12px 0 0; text-wrap:balance; color:var(--bg)}
+.table-q p{font-size:14px; color:var(--bg); opacity:.6; margin:16px 0 0}
 
 /* ---- blocks: archive, follow --------------------------------------- */
 section.block{padding-block:34px; border-top:1px solid var(--rule)}
@@ -754,8 +763,7 @@ def render_index(posts, up=""):
     body = f"""
   <div class="today">
     <div class="eyebrow">{e(long_date(lead["day"]))}</div>
-    <h1>Three stories, and the words for them.</h1>
-    <p>Every story below is written three ways. Pick your kid’s age once and the whole page follows.</p>
+    <h1>How to talk to your kids about today’s news</h1>
   </div>
   {stories}
   {table}
