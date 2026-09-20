@@ -109,7 +109,7 @@ The workflow commits both files to `main` with `git pull --rebase -X theirs` so 
 | `cover_age` | A whole number inside the band. The cover names it ("So your 14-year-old asks"). Drawn once and recorded so a re-render cannot move it. |
 | `cover_answer` | The parent's one-line answer, ≤ 60 characters, no hedge. First line of the caption. |
 | `table_question` | One question anyone at the table can answer without knowing the news. ≤ 70 characters. |
-| `ages.<band>` | `chip`, `script`, `why`, optional `shield: true`. |
+| `ages.<band>` | `chip`, `script`, `why`, `why_long`, optional `shield: true`. |
 | `questions.<band>` | 1 for 5–7, 2 each for 8–12 and 13–17; each `{q, a}` with the "Try:" answer ≤ 160 characters. |
 | `hashtags` | Exactly 4: `#Parenting`, `#KidsAndNews`, one story tag, `#DinnerTableNews`. The story tag is never a category label. Enforced, see the hashtag rule. |
 | `photo`, `photo_credit`, `photo_zoom` | Set when a Commons image landed. `photo_zoom` (default 1.0) crops further into the picture; required when the Commons credit names a top and a bottom half, because such files render as two photographs in one disc. Optional `photo_focus_x` (default `50%`) shifts the crop left or right; the vertical anchor is fixed, see the photo rule. |
@@ -122,7 +122,8 @@ The workflow commits both files to `main` with `git pull --rebase -X theirs` so 
 - 5–7: 2–4 sentences, concrete, one physical comparison (a toll on a bridge, a permission slip), ends with reassurance or "the grown-ups have it." Opens with the story, not a definition. Shield when a parent should not raise it unprompted.
 - 8–12: one cause-and-effect chain and one familiar mechanism (checklist, referee, thermostat). 3–4 sentences. Chip: "Bring it up if it fits the day" or "Good one to bring up".
 - 13–17: lead with a real question, then a second one. Treat them as a conversation partner. 3–4 sentences. Chip: "Ask first, then talk".
-- `why`: one or two plain sentences on why the script works at that age.
+- `why`: one or two plain sentences on why the script works at that age. This is the line the Instagram card carries, and the card is measured, so it stays short.
+- `why_long`: the same line written for the website, where nothing is measured. Three to five sentences naming the developmental mechanism this particular story runs into and showing the script answering it, plus the question this age tends to ask next. The site renders it in place of `why`; the card never sees it.
 
 ## 8. The carousel: five slides at 1080 × 1350
 

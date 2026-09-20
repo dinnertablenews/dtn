@@ -1134,7 +1134,11 @@ def render_post(p, newer, older, up="../../"):
         chip = f'<div class="chip">{e(a["chip"])}</div>' if a.get("chip") else ""
         shield = ('<div class="chip">Don’t raise it. If they hear it, say this:</div>'
                   if a.get("shield") else "")
-        why = (f'<p class="why"><b>Why it works</b>{e(a["why"])}</p>') if a.get("why") else ""
+        # The card's "why" is written to fit an Instagram slide, which is measured and can
+        # fail the render. The site has no such ceiling, so a post may carry a longer one
+        # written for this page; the slide never sees it.
+        wtext = a.get("why_long") or a.get("why")
+        why = (f'<p class="why"><b>Why it works</b>{e(wtext)}</p>') if wtext else ""
         asks = ""
         if qs:
             dl = "".join(f'<dt>“{e(q["q"])}”</dt><dd>{e(q["a"])}</dd>' for q in qs)
