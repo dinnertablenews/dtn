@@ -455,5 +455,25 @@
   "publish_run": 35522503571,
   "published": "https://www.instagram.com/p/DdhERkoiXEu/",
   "published_at": "2026-09-20T16:57:28+0000"
+ },
+ {
+  "slug": "2026-09-20-evening",
+  "date": "2026-09-20",
+  "slot": "evening",
+  "category": "World",
+  "headline": "Merz's party falls to 5% in a German state election",
+  "photo": true,
+  "photo_subject": "Friedrich Merz",
+  "cover_band": "8-12",
+  "publish_target": "2026-09-20T20:00-05:00",
+  "chosen": "primary",
+  "alternate": {
+   "folder": "posts/2026-09-20-evening-alt",
+   "category": "Government",
+   "headline": "Trump says his giant arch will hold snipers and drones",
+   "photo": true,
+   "photo_subject": "Arlington Memorial Bridge"
+  },
+  "note": "Run fired at 19:11 CT for the 20:00 evening slot; target drawn once at 20:00 CT. Rule 3 count: the last Good news entry is 2026-09-20-noon and nothing has run since, so this slot is not the positive one; the count carries at 0. rank.py's #1 cluster (AP, BBC News, PBS NewsHour, Semafor; 4 outlets) is Merz's CDU falling to 5% in Mecklenburg-Western Pomerania and second in Berlin, a new event, category World, lead subject Friedrich Merz. The AI labs led this morning and Congo's health ministry led noon, so rule 2 is clear. #2 (Trump's arch as a military complex; AP, BBC News, PBS NewsHour, The Hill; 4 outlets, Government) is within one outlet, so rule 5's tie-break applies: World has run three times in the last 7 days of the log and Government four, so the tie-break lands on World and the rank order stands. Skipped under rule 1: #4 (journalists denied White House access, the 2026-09-19-morning ban saga) and #7 (Ed Sheeran on Gaza at his solo show, the 2026-09-16-morning saga). #5 (NATO backs the Greenland deal) was the 2026-09-19-morning unrun alternate and stays fair game; it ranks below the picks. Primary written from the PBS NewsHour (AP) article text with the BBC News text as the second source; the Semafor item is a four-paragraph digest and the AP item had no text. Facts as the articles give them: ARD's exit poll put the CDU at 5% in Mecklenburg-Western Pomerania, its lowest in any state since World War II; ZDF put the AfD at 38% there and the SPD at 36%; in Berlin the CDU was second on 20% behind the Left (24.5% on ARD, nearly 26% on BBC's figure); Merz called it a disaster, said he will stay and press his reforms, and dropped the UN trip; the CDU lost Saxony-Anhalt to the AfD on Sept. 6; eight state leaders backed him earlier this week; some in his party want him replaced and no top ally has said so publicly; the other parties refuse to work with the AfD. 'One kid in a class of 20' and 'the coach keeps the playbook' are comparisons, not claims from the articles. Not a hard story, no shield. Photo: photo_subject Friedrich Merz dispatched to commons.yml; a 2024 portrait (1514x2113, CC BY-SA 4.0, Steffen Prößdorf), used. The last two entries were photo false and true, so a photo was allowed, and the subject is not among the last three entries. Alternate under rule 8: #2, the arch (Government, lead subject Trump), noon's unrun alternate, which stays fair game; Trump has not led a post today, so rule 2 is clear, and it is not a hard story. The copy carries over from the noon alternate, written from the PBS NewsHour (AP) text with BBC News second, re-rendered for tonight's 8-12 cover with a new cover question and cover answer. Photo: Arlington Memorial Bridge again, the way the 2026-09-16 runs kept the carried-over alternate's subject; the same 2020 photograph (CC BY-SA 4.0), used. Cover band rotation: noon was 5-7, so this slot is 8-12; ages drawn once as 7, 10 and 13, shared by both posts. Primary 8-12 and 13-17 cards were cut twice before the render exited 0. Both cover questions first rendered at three lines under two-line headlines and were shortened to two; all ten JPGs checked. Reel: a first build ran in the background while a second started, and the second's ffmpeg step failed on the shared frames folder; rebuilt alone, exit 0, 14.5 seconds."
  }
 ]
