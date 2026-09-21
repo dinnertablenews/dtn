@@ -501,5 +501,25 @@
   "publish_run": 35594377658,
   "published": "https://www.instagram.com/p/DdjHps-G2Fh/",
   "published_at": "2026-09-21T12:05:32+0000"
+ },
+ {
+  "slug": "2026-09-21-noon",
+  "date": "2026-09-21",
+  "slot": "noon",
+  "category": "Technology",
+  "headline": "US asks China to share alerts when AI goes wrong",
+  "photo": true,
+  "photo_subject": "Scott Bessent",
+  "cover_band": "5-7",
+  "publish_target": "2026-09-21T12:09-05:00",
+  "chosen": "primary",
+  "alternate": {
+   "folder": "posts/2026-09-21-noon-alt",
+   "category": "World",
+   "headline": "Trump and Zelensky will meet in New York this week",
+   "photo": true,
+   "photo_subject": "Volodymyr Zelenskyy"
+  },
+  "note": "Run fired at 11:11 CT for the 12:00 noon slot; target drawn once at 12:09 CT. Rule 3 count: the last Good news entry is 2026-09-20-noon and two stories have run since (2026-09-20-evening, 2026-09-21-morning), so this slot is not the positive one; the count carries at 2. rank.py's #1 cluster (AP, Axios, BBC News, PBS NewsHour, The Hill; 5 outlets) is CNN, MS NOW and Politico suing over the White House ban, the same saga as 2026-09-19-morning, skipped under rule 1. #2 (ICE agent shoots a man in Austin, 4 outlets) published this morning as 2026-09-21-morning-alt, skipped under rule 1. #3 (Trump's arch, 4 outlets) was this morning's held primary; Dan passed on it for the alternate, so it is skipped. #8 (Merz) ran as 2026-09-20-evening and #11 (Clancy) is the same saga as 2026-09-19-noon, both skipped under rule 1. The remaining clusters #4 (Trump's UN-week meetings), #5 (US proposes an AI incident alert system to China), #6 (Houthis), #7 (Presley Gerber's death) and #9 (Ukraine's largest drone attack on Moscow) all have 3 outlets, so the rule 5 tie-break applies: Government and World each ran four times in the last 7 days, Security ran three counting the alternates that published (2026-09-15-evening, 2026-09-21-morning) and Technology and Culture twice. #5 ranks above #7, so #5 is the primary, category Technology, lead subject the US Treasury. Facts from BBC News (the only article in the cluster with text) plus The Hill's RSS summaries. Photo: Scott Bessent, a public figure, no death or scandal, not among the last three subjects; the last two log entries were not both photos. Alternate (rule 8): the highest remaining cluster of another category is #4, which the clusterer built from three separate meeting announcements (Burnham, Zelensky, Mamdani); the post takes the one with an article behind it, the Trump-Zelensky meeting (Axios text, The Hill summary), category World. Trump is its lead subject; the only Trump-led story in today's log is the held arch primary, which did not run, so rule 2 does not bite. Photo: Volodymyr Zelenskyy, a different subject from the primary. Cover band rotates from 13-17 to 5-7. Reel built for the primary."
  }
 ]

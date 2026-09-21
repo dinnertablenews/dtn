@@ -1,0 +1,79 @@
+{
+  "slot": "2026-09-21 12:00 CT",
+  "date": "2026-09-21",
+  "category": "Technology",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/c8vgyzn2d31yo",
+  "source_domain": "bbc.com",
+  "headline": "US asks China to share alerts when AI goes wrong",
+  "summary": "Treasury Secretary Scott Bessent met China's vice premier in New York on Sunday and proposed a notification system: each side tells the other when an AI incident could touch national security. Trump and Xi meet in Washington this week. Bessent's case: the number one and number two AI powers should be less opaque with each other.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "What if a computer messes up?"
+  },
+  "cover_answer": "Then you tell the other side. That's the whole idea.",
+  "table_question": "Would you tell your rival when your project breaks?",
+  "photo_subject": "Scott Bessent",
+  "ages": {
+    "5-7": {
+      "chip": "Good one to bring up",
+      "script": "America and China both build very smart computer programs called AI. On Sunday, America said: if one of ours does something dangerous, we'll tell you, and you tell us. It's like two neighbors agreeing to shout if either one's grill catches fire. It's only a plan so far, and the grown-ups have it.",
+      "why": "Two neighbors and a grill fire is a picture. A notification mechanism is not. At this age one vivid detail stands in for the whole story, so the detail is the shout, not the summit.",
+      "why_long": "A five-year-old reasons from what is in front of them, so the script trades the notification mechanism for two neighbors who agree to shout about a fire, which is what Bessent described. Expect “is our computer going to be bad?” Nobody has named one that is. This is the grown-ups agreeing to tell each other."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "The US and China are racing to build the smartest AI, and neither can see what the other is building. On Sunday the US proposed a fix: if an AI incident on one side could threaten national security, that side tells the other. The buddy check at the pool: you swim your own race, but you look over.",
+      "why": "A chain with a rival in it, and a buddy check from the pool. This age is testing whether a rule binds both sides, and this one only works if it does.",
+      "why_long": "This age is working out cause and effect and whether a rule gets applied both ways, and this deal is a rule that only works if both sides keep it. The buddy check is the mechanism: you race, and you still look over. Expect “what if China lies?” Then it doesn't work. Nobody has signed anything; it was discussed on Sunday."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "If the US and China are racing to win at AI, why would either tell the other when its AI misfires? Bessent's answer on Sunday: the top two AI powers should be less opaque, so the US proposed an alert system for incidents that touch national security. Can you race someone and share crash reports?",
+      "why": "Two true things: a race and a promise to report crashes. A teenager can hold both and argue which one gives.",
+      "why_long": "A teenager can hold two true things at once, and the script hands them the pair: a race to win at AI, which Trump says is the only thing that counts, and a promise to tell the rival when American AI goes wrong. The last question is real. Expect “would China actually tell us?” Say you don't know. Nobody does yet."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "What if a computer messes up?",
+        "a": "Then the grown-ups in charge tell the other country, and they tell us. That's the new plan."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why would you tell your rival your AI broke?",
+        "a": "Bessent says the top two AI powers should be less opaque."
+      },
+      {
+        "q": "Has an AI actually done something dangerous?",
+        "a": "The articles don't name one. Researchers have warned of risks."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Would China actually tell us?",
+        "a": "Nobody knows. China's state news called the talks constructive."
+      },
+      {
+        "q": "Why now?",
+        "a": "Trump and Xi meet this week, and the AI risk warnings are loud."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#TrumpXiSummit",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 11,
+    "13-17": 17
+  },
+  "photo": "data/images/2026-09-21-noon.jpg",
+  "photo_credit": "Photo: U.S. Department of the Treasury, Wikimedia Commons, Public domain",
+  "caption": "Then you tell the other side. That's the whole idea.\n\nTreasury Secretary Scott Bessent met China's vice premier in New York on Sunday and proposed a notification system: each side tells the other when an AI incident could touch national security. Trump and Xi meet in Washington this week. Bessent's case: the number one and number two AI powers should be less opaque with each other.\n\nSource: BBC News\nPhoto: U.S. Department of the Treasury, Wikimedia Commons, Public domain\n\nSwipe for what to say at age 6, at 11, and at 17.\n\nThe dinner table question: Would you tell your rival when your project breaks? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #TrumpXiSummit #DinnerTableNews"
+}
