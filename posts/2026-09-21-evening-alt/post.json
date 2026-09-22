@@ -1,0 +1,79 @@
+{
+  "slot": "2026-09-21 20:00 CT",
+  "date": "2026-09-21",
+  "category": "Technology",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/nation/technical-problems-at-a-key-air-traffic-center-disrupt-flights-across-northeast",
+  "source_domain": "pbs.org/newshour",
+  "headline": "One cut cable grounded New York's airports for hours",
+  "summary": "The main data line into the FAA's Philadelphia air traffic center failed Monday morning. The backup, a fiber cable along the Amtrak line in New Jersey, had been cut by construction crews. Newark, Kennedy, LaGuardia and Philadelphia stopped flights for hours. Hundreds were cancelled. The FAA chief says the fiber takes 13 hours to fix.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "How can one cable stop planes?"
+  },
+  "cover_answer": "The main line failed. The backup was already cut.",
+  "table_question": "What's your backup plan, and when did you last check it?",
+  "photo_subject": "Newark Liberty International Airport",
+  "ages": {
+    "5-7": {
+      "chip": "Good one to bring up",
+      "script": "On Monday the planes in New York waited on the ground for hours. The people who guide planes get their information through a long wire, and it broke. The spare wire had been dug up by mistake near the train tracks. Like the lights going out and the flashlight having no batteries. By afternoon planes were flying again.",
+      "why": "A broken wire and a flashlight with dead batteries: a failure they can picture. A plane on the ground is calmer than one in the air.",
+      "why_long": "A five-year-old takes one vivid feature for the whole event, and the feature here could be planes in trouble. The script makes it a broken wire and a flashlight with dead batteries, and puts the planes on the ground, which is where they were. Expect \"did a plane fall?\" No. The planes waited. That was the point."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "The data that guides planes into New York's airports comes on one main line. It failed Monday morning. The backup should have taken over, but construction crews had already cut it. A smoke detector's spare battery: you learn it's dead the day the power goes.",
+      "why": "A chain with a backup in it. A spare nobody checked is not a spare.",
+      "why_long": "This age is working out chains of cause and effect, and this one has a link they will enjoy: the backup was already broken, and nobody knew until the main line went. The smoke detector battery is the mechanism, a spare that only counts if someone checks it. Expect \"who cut it?\" Verizon says contractors along the Amtrak line. Duffy says Amtrak's workers."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "How do you lose both lines into New York's airports in one morning? The main circuit into the FAA's Philadelphia center failed Monday, and the backup had been cut by construction on the Amtrak line. Is a backup nobody tests a backup?",
+      "why": "Two true things: the cut was an accident, and one accident grounded four airports.",
+      "why_long": "A teenager can reason about what is not in front of them, and the script asks for that: a backup line cut at some point that only mattered on Monday. The two true things are that the cut was an accident and that the system had one backup. Expect \"whose fault is it?\" Verizon says not theirs. Duffy says Amtrak's workers. The FAA owns the circuit that failed first."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Did a plane fall?",
+        "a": "No. The planes waited on the ground instead. That's the safe thing to do."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "How can one cable stop planes?",
+        "a": "Controllers need that data. Main line failed, backup was cut."
+      },
+      {
+        "q": "Who cut it?",
+        "a": "Verizon says contractors on the Amtrak line. Sean Duffy says Amtrak workers."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Hasn't this happened before?",
+        "a": "Same Philadelphia facility that hit Newark in spring 2025. Circuit was due for replacement."
+      },
+      {
+        "q": "So who pays for my cancelled flight?",
+        "a": "Some airlines waived change fees. Check with your airline, says the FAA."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#FAA",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 12,
+    "13-17": 16
+  },
+  "photo": "data/images/2026-09-21-evening-alt.jpg",
+  "photo_credit": "Photo: Antony-22, Wikimedia Commons, CC BY-SA 4.0",
+  "caption": "The main line failed. The backup was already cut.\n\nThe main data line into the FAA's Philadelphia air traffic center failed Monday morning. The backup, a fiber cable along the Amtrak line in New Jersey, had been cut by construction crews. Newark, Kennedy, LaGuardia and Philadelphia stopped flights for hours. Hundreds were cancelled. The FAA chief says the fiber takes 13 hours to fix.\n\nSource: PBS NewsHour\nPhoto: Antony-22, Wikimedia Commons, CC BY-SA 4.0\n\nSwipe for what to say at age 6, at 12, and at 16.\n\nThe dinner table question: What's your backup plan, and when did you last check it? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #FAA #DinnerTableNews"
+}
