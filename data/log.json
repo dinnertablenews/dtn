@@ -570,5 +570,25 @@
   "publish_run": 35721253121,
   "published": "https://www.instagram.com/p/DdlsrMyFpnL/",
   "published_at": "2026-09-22T12:07:33+0000"
+ },
+ {
+  "slug": "2026-09-22-noon",
+  "date": "2026-09-22",
+  "slot": "noon",
+  "category": "Technology",
+  "headline": "Newark lost a day to a cut cable. Flights are back.",
+  "photo": true,
+  "photo_subject": "Newark Liberty International Airport",
+  "cover_band": "5-7",
+  "publish_target": "2026-09-22T11:55-05:00",
+  "chosen": "primary",
+  "alternate": {
+   "folder": "posts/2026-09-22-noon-alt",
+   "category": "Government",
+   "headline": "A Republican senator wants Trump Jr. subpoenaed",
+   "photo": true,
+   "photo_subject": "John Curtis (Utah politician)"
+  },
+  "note": "Run fired at 11:11 CT for the 12:00 noon slot; target drawn once at 11:55 CT. Rule 3 count: the last Good news entry is 2026-09-22-morning and nothing has run since, so this slot is not the positive one; the count is 0. Skipped under rule 1: #1 and #16 (the press pool boycott, Trump TV and the CNN, MS NOW and Politico lawsuit, all the 2026-09-19-morning ban saga), #3 (Paramount settles, ran 2026-09-21-evening), #6 (Clancy's lawyer asks the judge to investigate the holdout juror, the 2026-09-19-noon juror story), #7 (the Austin ICE shooting, which ran as the chosen alternate on 2026-09-21-morning), #14 (Fat Bear Week, this morning) and #15 (Saudi warnings over Houthi attacks, the 2026-09-19-evening missile story). The highest remaining are #2, Sen. John Curtis asking the Senate Judiciary Committee to subpoena Trump Jr. and Hunter Biden (AP, Axios, Semafor, The Hill; 4 outlets, Government) and #4, New York airports resuming after the Philadelphia FAA facility lost both its lines (AP, PBS NewsHour, The Hill; 3 outlets, Technology; #18, the cable cut itself, is the same event and was 2026-09-21-evening's unrun alternate). They are within one outlet, so rule 5's tie-break applies: in the last 7 days Government has run 4 times and Technology 3, so the primary is #4. Lead subject the FAA and Newark airport; Fat Bear Week led this morning, so rule 2 is clear. Primary written from the PBS NewsHour (AP) text with the BBC News text from #18 as the second source; the two AP items and The Hill had no text. Facts as the articles give them: flights were taking off and landing Tuesday with delays and cancellations; the primary communications line at the FAA facility in Philadelphia failed Monday morning and the backup fiber line had been severed by railroad construction workers; controllers had no radar or communications for hours; more than 600 flights in and out of Newark were cancelled and no commercial flight landed there from about 9:40 a.m. to just after 5:20 p.m.; more than 200 cancelled at Philadelphia, LaGuardia and Kennedy hit; Duffy blamed an Amtrak crew and Amtrak pointed to a New Jersey Transit crew; the same facility caused Newark's disruptions last spring; some airlines waived change fees; Verizon owns the cable and told US media it bears no responsibility (BBC). A lost key with the spare gone and a flat spare tire are comparisons. Not a hard story, no shield. Photo: the last two log entries are one photo and one none, so commons.yml was dispatched for Newark Liberty International Airport and returned an aerial view (Antony-22, CC BY-SA 4.0), used. Alternate (rule 8): the highest remaining cluster of another category is #2, category Government, lead subject Sen. John Curtis and Trump Jr.; it passes rules 1, 2 and 6. Written from the Axios text with the Semafor text as the second source; AP and The Hill had no text. Facts as the articles give them: Curtis wrote Monday to Grassley and Durbin asking for subpoenas for both sons and an investigation of private financial benefit tied to presidential family relationships; ProPublica reported Umar Kremlev paid hundreds of thousands toward Trump Jr.'s three-day Bahamas wedding celebration including a private-island rental; Trump Jr. confirmed Kremlev hosted celebrations and called it a gift from a friend; the president called it totally allowed and said his son would repay Kremlev; House Republicans subpoenaed Hunter Biden in 2023; the White House, Trump Jr. and Hunter Biden had not responded. A stranger paying for a birthday party and a referee who calls fouls on one team are comparisons. Not a hard story, no shield. Photo: Curtis is the public figure acting, not the subject of the scandal; commons.yml returned his Senate portrait (public domain). The first dispatch found the file but its push lost a race with the Newark commit; dispatched again and it landed. Cover band rotation: this morning was 13-17, so this slot is 5-7; render drew 6, 12 and 15 for the primary and 6, 9 and 13 for the alternate. Every age card on both posts was cut before the renders exited 0, four rounds on the primary and six on the alternate; the extra developmental sentence on the why line survived only on the primary's 5-7 card. All ten JPGs checked: two-line headlines and two-line cover questions on both covers."
  }
 ]

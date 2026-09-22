@@ -1,0 +1,79 @@
+{
+  "slot": "2026-09-22 12:00 CT",
+  "date": "2026-09-22",
+  "category": "Technology",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/nation/new-york-airport-operations-resume-after-technical-disruptions-affecting-northeast",
+  "source_domain": "pbs.org/newshour",
+  "headline": "Newark lost a day to a cut cable. Flights are back.",
+  "summary": "Planes were landing at New York's airports again on Tuesday, with delays. On Monday the main data line into the FAA's Philadelphia control center failed. The backup, a fiber cable, had been cut by railroad construction workers. Controllers lost radar and radio for hours. Newark took no landings from 9:40 in the morning to 5:20.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Were the planes stuck in the sky?"
+  },
+  "cover_answer": "No. Newark stopped. Waiting on the ground is the safe part.",
+  "table_question": "Is it worse to break something or to never check the spare?",
+  "ages": {
+    "5-7": {
+      "chip": "Good one to bring up",
+      "script": "On Monday the planes at New York's airports mostly stayed on the ground all day. The people who guide planes talk to them through a long wire, and it broke. The spare wire had already been cut by workers digging near the train tracks, like losing your key on the day the spare is gone too. By Tuesday it was fixed and the planes were flying again.",
+      "why": "A wire and a spare key are things a six-year-old can hold, and planes on the ground are the calm picture. The detail they keep is the fixed wire.",
+      "why_long": "A five-year-old takes one vivid feature for the whole event, and the feature could be planes in trouble. The script gives them a broken wire and a missing spare key, and puts the planes where they were, on the ground. Expect \"can our plane break like that?\" The plane was fine. A wire on the ground broke, and it is fixed."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "The controllers who guide planes into New York get radar and radio through one main line. On Monday morning it failed. The backup should have taken over, but railroad workers had already cut it, so Newark took no landings from 9:40 to 5:20. The spare tire you find is flat the day you get the puncture.",
+      "why": "A chain with a broken spare in it. The flat spare tire is the mechanism.",
+      "why_long": "This age is working out chains of cause and effect, and this chain has the link they enjoy most: the backup was already broken, and nobody found out until the day it was needed. The flat spare tire is the mechanism. Expect \"why didn't anyone check it?\" Honest answer: nobody has said yet, and that is the right question."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Who takes the blame when a backup fails: the crew that cut the cable, or the system that never checked it? The transport secretary blamed Amtrak. Amtrak blamed New Jersey Transit. Second: how many wires is enough?",
+      "why": "Two true things: a crew cut a wire, and an unchecked spare was always going to fail.",
+      "why_long": "A teenager can hold two true things: a crew cut a cable by accident, and a system with one unchecked backup was going to fail some Monday. The blame trade between Duffy, Amtrak and New Jersey Transit is the argument to practise on. Expect \"so who pays?\" Nobody has said. Some airlines waived change fees, and that is all."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Were the planes stuck in the sky?",
+        "a": "No. The airport stopped, so the planes waited on the ground. Waiting is the safe part."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why didn't they just use the backup?",
+        "a": "They tried. Switching to it is how they found it had been cut."
+      },
+      {
+        "q": "Who cut it?",
+        "a": "Railroad workers, by accident. The transport secretary blamed Amtrak. Amtrak says it was New Jersey Transit."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Whose fault was it?",
+        "a": "Contested. The transport secretary blamed Amtrak, Amtrak blamed NJ Transit, and Verizon, which owns the cable, says it is not responsible."
+      },
+      {
+        "q": "Didn't this happen before?",
+        "a": "Yes. The same Philadelphia facility broke Newark last spring. Ask what changed."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#NewarkAirport",
+    "#DinnerTableNews"
+  ],
+  "photo_subject": "Newark Liberty International Airport",
+  "photo": "data/images/2026-09-22-noon.jpg",
+  "photo_credit": "Photo: Antony-22, Wikimedia Commons, CC BY-SA 4.0",
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 12,
+    "13-17": 15
+  },
+  "caption": "No. Newark stopped. Waiting on the ground is the safe part.\n\nPlanes were landing at New York's airports again on Tuesday, with delays. On Monday the main data line into the FAA's Philadelphia control center failed. The backup, a fiber cable, had been cut by railroad construction workers. Controllers lost radar and radio for hours. Newark took no landings from 9:40 in the morning to 5:20.\n\nSource: PBS NewsHour\nPhoto: Antony-22, Wikimedia Commons, CC BY-SA 4.0\n\nSwipe for what to say at age 6, at 12, and at 15.\n\nThe dinner table question: Is it worse to break something or to never check the spare? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #NewarkAirport #DinnerTableNews"
+}
