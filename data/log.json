@@ -638,5 +638,25 @@
   "publish_run": 35854101967,
   "published": "https://www.instagram.com/p/DdoPpC5m3zG/",
   "published_at": "2026-09-23T11:51:34+0000"
+ },
+ {
+  "slug": "2026-09-23-noon",
+  "date": "2026-09-23",
+  "slot": "noon",
+  "category": "Economy",
+  "headline": "Diesel hits $6.50. Trump backs an export ban.",
+  "photo": true,
+  "photo_subject": "Donald Trump",
+  "cover_band": "5-7",
+  "publish_target": "2026-09-23T11:53-05:00",
+  "chosen": "primary",
+  "alternate": {
+   "folder": "posts/2026-09-23-noon-alt",
+   "category": "Government",
+   "headline": "42 days out, Harris stumps for El-Sayed.",
+   "photo": true,
+   "photo_subject": "Kamala Harris"
+  },
+  "note": "Run fired at 11:11 CT for the 12:00 noon slot; target drawn once at 11:53 CT. Rule 3 count: the last Good news entry is 2026-09-22-morning and three stories have run since (2026-09-22-noon, 2026-09-22-evening, 2026-09-23-morning), so this slot is not the positive one; the count carries at 3 and the evening slot is the fifth. Skipped under rule 1: #1 (day 2 of the UN General Assembly: live-stream pages for Zelenskyy's and Pezeshkian's addresses, a fact-check and takeaways of Trump's speech, and Cuba's walkout, the same UNGA event that ran as 2026-09-22-evening), #4 (Trump's threat to annihilate Iran and the US-Iran meeting, ran 2026-09-22-evening), #8 (the same Iran meeting plus a Semafor piece on sanctions) and #9 (the Venezuelan man shot by ICE in Texas, which published as 2026-09-21-morning's alternate). The highest remaining are #2, Kamala Harris campaigning in Michigan with Abdul El-Sayed (AP, PBS NewsHour, The Hill; 3 outlets, 6 items, Government) and #3, Trump backing a ban on diesel exports (Axios, BBC News, The Hill; 3 outlets, 4 items, Economy; this morning's unrun alternate, which rule 8 leaves fair game). They are within one outlet, so rule 5's tie-break applies: in the last 7 days Government has run 3 times as the published post and 4 as the primary, Economy 2, so the primary is #3, category Economy, lead subject Trump. This morning's lead subject was Sen. Curtis and Trump Jr., so rule 2 is clear. Primary written from the BBC News text (diesel past $6.50 a gallon on Tuesday by AAA's count, the 'let's not send out the diesel' quote, Bessent assessing whether a full or partial ban would work, 1.3 million barrels a day and near a quarter of refining output, the UK and the Netherlands relying on US fuel, Hinson in Iowa and Sullivan in Alaska, the November 3 election) with the Axios text second (a shift for an administration that resisted export limits, economists on short-term relief and higher prices globally) and The Hill's RSS summary for the crunch on agriculture and trucking; the two Hill items had no text. The copy is this morning's alternate carried over with the cover moved to the 5-7 bracket. The truck, the tractor and the last cookies are the comparisons; Bessent's checklist is the mechanism. Not a hard story, no shield. Photo: the last two log entries are one photo (2026-09-22-evening) and one none (2026-09-23-morning), so a photo was allowed; Trump is the one clear subject and this is a policy story, not a death, arrest or scandal, and he is not among the last three subjects (Newark airport, UN headquarters, none). commons.yml returned his official 2025 portrait (Daniel Torok, public domain), used. Alternate (rule 8): the highest remaining cluster of another category is #2, category Government, lead subject Kamala Harris; it passes rules 1, 2 and 6 and is not a hard story. Written from the PBS NewsHour text (Lisa Desjardins's segment: the Detroit roundtable on Black maternal health, her first major stop of the cycle, the 'stopgap on the abuses of this administration' quote, 42 days to Election Day, that she lost Michigan in 2024 and that Haley Stevens took the establishment vote in the primary, the Rogers ad tying El-Sayed to Hasan Piker and El-Sayed distancing himself) with The Hill's RSS summaries second (the Suffolk University poll, 47 to 40 over Mike Rogers; the six-year seat); the AP items and the other Hill items had no text. The famous player at a game and the captain gathering a team are the comparisons; the brake is the mechanism for stopgap. Photo: Kamala Harris, the public figure acting and a different subject from the primary; commons.yml returned her vice presidential portrait (Lawrence Jackson, public domain), used. Cover band rotation: this morning was 13-17, so this slot is 5-7; render drew 6, 11 and 16 for the primary and 7, 11 and 16 for the alternate. The primary's three cards each overran by 14 to 26px with the extra developmental sentence on the why line, so it was dropped on all three and the second render exited 0. The alternate's 8-12 card overran by 120px and the 13-17 by 61px; the scripts, why lines and Try answers were cut and the second render exited 0. The alternate's headline first broke El-Sayed across its hyphen at the line end and was reworded. All ten JPGs checked: two-line headlines and two-line cover questions on both covers. Reel built for the primary, 13.7 seconds, caption 1815 characters."
  }
 ]

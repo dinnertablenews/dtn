@@ -1,0 +1,79 @@
+{
+  "slot": "2026-09-23 12:00 CT",
+  "date": "2026-09-23",
+  "category": "Economy",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/cmkg7560epw0o",
+  "source_domain": "bbc.com",
+  "headline": "Diesel hits $6.50. Trump backs an export ban.",
+  "summary": "Diesel passed $6.50 a gallon on Tuesday, a record, by AAA's count. Trump said he would back a halt to US diesel exports, and Treasury Secretary Scott Bessent said officials are checking whether a full or partial ban would work. The US ships about 1.3 million barrels a day, near a quarter of what it refines, much of it to allies.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Will our car run out of gas?"
+  },
+  "cover_answer": "No. Most cars don't burn diesel. Trucks do.",
+  "table_question": "Is it fair to stop sharing when you're running short?",
+  "photo_subject": "Donald Trump",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "The big trucks that bring food to the store and the tractors on farms run on diesel. It costs more than it ever has, over $6.50 a gallon. America sells a lot of its diesel to other countries, and the president says maybe stop and keep it here, like keeping the last cookies for your own family. The grown-ups are working on it.",
+      "why": "Trucks and tractors are things they can see, and the cookie jar is a choice they have already argued about.",
+      "why_long": "The truck at the store and the tractor on the farm are things this age has seen, so the script starts there and skips the refinery. Keeping the last cookies for your own family is a choice they have made, and it carries the trade-off. Expect \"will our car run out?\" No. Most cars do not burn diesel."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "War in the Middle East and Ukraine's strikes on Russian refineries cut the world's diesel, and the US price hit $6.50. Republicans facing a November election asked Trump to stop exports, and he agreed. Bessent's team is running the checklist: full ban, partial ban, or none.",
+      "why": "One chain from a war to the pump, then a checklist.",
+      "why_long": "This age can follow a chain of cause and effect, and this one is clean: a war, drone strikes on Russian refineries, less diesel, a record price, a president asked to act. Bessent's checklist is the mechanism. Expect \"would a ban work?\" Economists told Axios it could cut US prices for a while, then raise them everywhere."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "If keeping diesel at home lowers your price and raises your allies', is that fair? The US ships about 1.3 million barrels a day, and Britain and the Netherlands lean on it since sanctions cut off Russian fuel. Second: the election is November 3. Would he say this in December?",
+      "why": "A ban could help at home and hurt allies. Then the timing.",
+      "why_long": "A ban could ease prices here and raise them for allies who took American fuel when Russian fuel was cut off, and a teenager can weigh both without picking a side. The script hands them the barrels and the election date and asks which is driving. Expect \"is this just politics?\" Republicans from Iowa and Alaska asked this week."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Will our car run out of gas?",
+        "a": "No. This is about diesel, which big trucks and tractors burn. It costs a lot more right now, and that is the whole worry."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why is diesel so expensive?",
+        "a": "Less oil from the Middle East, and Ukraine's drones hit Russian refineries."
+      },
+      {
+        "q": "Would a ban work?",
+        "a": "Economists told Axios: lower US prices for a while, then higher everywhere."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why not just keep our own diesel?",
+        "a": "Allies buy it to replace Russian fuel. Cut them off and world prices rise."
+      },
+      {
+        "q": "Is this about the election?",
+        "a": "Republicans from Iowa and Alaska asked this week, six weeks before the vote."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#DieselPrices",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 11,
+    "13-17": 16
+  },
+  "photo": "data/images/2026-09-23-noon.jpg",
+  "photo_credit": "Photo: Daniel Torok, Wikimedia Commons, Public domain",
+  "caption": "No. Most cars don't burn diesel. Trucks do.\n\nDiesel passed $6.50 a gallon on Tuesday, a record, by AAA's count. Trump said he would back a halt to US diesel exports, and Treasury Secretary Scott Bessent said officials are checking whether a full or partial ban would work. The US ships about 1.3 million barrels a day, near a quarter of what it refines, much of it to allies.\n\nSource: BBC News\nPhoto: Daniel Torok, Wikimedia Commons, Public domain\n\nSwipe for what to say at age 6, at 11, and at 16.\n\nThe dinner table question: Is it fair to stop sharing when you're running short? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #DieselPrices #DinnerTableNews"
+}
