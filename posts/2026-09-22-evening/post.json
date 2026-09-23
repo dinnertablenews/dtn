@@ -1,0 +1,80 @@
+{
+  "slot": "2026-09-22 20:00 CT",
+  "date": "2026-09-22",
+  "category": "World",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/c52e0ywl9pr7o",
+  "source_domain": "bbc.com",
+  "headline": "Trump threatens Iran. Then his envoys talk.",
+  "summary": "Trump told the UN on Tuesday he has a big decision on Iran: a peace deal, or \"annihilate\" it. Iran's delegates walked out. Hours later he said his envoys had met Iran's foreign minister for three hours in New York and called it productive. The war began in February. He says a deal comes after November's election.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "Why threaten them if he wants a deal?"
+  },
+  "cover_answer": "He is betting the threat brings the deal. Nobody knows yet.",
+  "table_question": "Can you make a real deal with someone who just threatened you?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": true,
+      "script": "America and Iran have been at war since February. On Tuesday the president gave a speech in New York and said the war can end with a deal, or he can hit Iran very hard. That same day people from both sides sat in a room and talked for three hours, longer than a morning at school. Talking is how wars end, and the grown-ups are doing the talking.",
+      "why": "A room and three hours of talking is the picture a six-year-old keeps.",
+      "why_long": "A five-year-old takes one vivid feature for the whole event, and here it is a threat to destroy a country. The script gives them the other room, where two sides talked for three hours, and reads that as the grown-ups at work. Expect \"is the war coming here?\" No. It is far away, and the talking is the news."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "Trump told the UN on Tuesday he has a choice: a peace deal with Iran or, in his word, annihilate it. Iran's delegates walked out. Hours later his envoys met Iran's foreign minister for three hours. It works like a parent counting to three: the threat is there so nobody finds out what happens at three.",
+      "why": "A chain: threat, walkout, talks. Counting to three is the mechanism.",
+      "why_long": "This age is working out cause and effect and whether a threat is real. The chain here is threat, walkout, then three hours of talks, and the count to three is a mechanism they know from their own side of it. Expect \"what if Iran says no?\" Trump says he decides after November, and nobody knows which way."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Can a threat to annihilate a country be a peace move? Trump told the UN on Tuesday that is his choice, and hours later his envoys spent three hours with Iran's foreign minister. Second: he says a deal comes after November's election. So who was the speech for?",
+      "why": "Two true things: the threat is real, and so are the talks.",
+      "why_long": "A teenager can hold two true things at once: the threat is real, and so are the three hours of talks, and a deal may need both. Then the harder one: Trump says the deal comes after November, and the BBC heard a speech pitched at voters. Expect \"so is it a war or a campaign?\" Both. That is the argument to have."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Is the war coming here?",
+        "a": "No. It is far away. And both sides just sat down and talked for three hours."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why threaten them if he wants a deal?",
+        "a": "He is betting the threat brings the deal faster."
+      },
+      {
+        "q": "Did they stop fighting?",
+        "a": "Trump says Iran broke a ceasefire, and he may strike again."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Would he actually do it?",
+        "a": "Nobody knows, and that is the point. The US struck Iran in February."
+      },
+      {
+        "q": "Why did Iran's people walk out?",
+        "a": "He had just said he could annihilate their country while they sat in the room."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#Iran",
+    "#DinnerTableNews"
+  ],
+  "photo_subject": "Headquarters of the United Nations",
+  "photo": "data/images/2026-09-22-evening.jpg",
+  "photo_credit": "Photo: Kidfly182, Wikimedia Commons, CC BY-SA 4.0",
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 11,
+    "13-17": 14
+  },
+  "caption": "He is betting the threat brings the deal. Nobody knows yet.\n\nTrump told the UN on Tuesday he has a big decision on Iran: a peace deal, or \"annihilate\" it. Iran's delegates walked out. Hours later he said his envoys had met Iran's foreign minister for three hours in New York and called it productive. The war began in February. He says a deal comes after November's election.\n\nSource: BBC News\nPhoto: Kidfly182, Wikimedia Commons, CC BY-SA 4.0\n\nSwipe for what to say at age 7, at 11, and at 14.\n\nThe dinner table question: Can you make a real deal with someone who just threatened you? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #Iran #DinnerTableNews"
+}
