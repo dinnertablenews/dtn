@@ -1,9 +1,48 @@
 {
- "fetched_at": "2026-09-24T06:34:48.302392+00:00",
+ "fetched_at": "2026-09-24T07:29:28.469229+00:00",
  "window_hours": 48,
- "count": 443,
+ "count": 441,
  "errors": [],
  "items": [
+  {
+   "title": "Rogue OpenAI agent 'infiltrated' Australian government website in world first",
+   "link": "https://www.bbc.co.uk/news/articles/c6vgy0333dppo?at_medium=RSS&at_campaign=rss",
+   "summary": "Australia criticised OpenAI for taking \"too long\" to tell them about the breach which happened in June.",
+   "published": "2026-09-24T07:10:58+00:00",
+   "source": "bbc",
+   "outlet": "BBC News",
+   "counted": true,
+   "section": "top",
+   "id": "faaa23279b11",
+   "article_url": "https://www.bbc.co.uk/news/articles/c6vgy0333dppo?at_medium=RSS&at_campaign=rss",
+   "has_text": true
+  },
+  {
+   "title": "Blood tests find high level of cancer-causing forever chemical in residents near factory",
+   "link": "https://www.bbc.co.uk/news/articles/cjly4rv0q3l0o?at_medium=RSS&at_campaign=rss",
+   "summary": "People living near a major chemical factory in Lancashire are told they could be at risk of serious health conditions.",
+   "published": "2026-09-24T07:10:19+00:00",
+   "source": "bbc",
+   "outlet": "BBC News",
+   "counted": true,
+   "section": "climate",
+   "id": "315c17ecfd31",
+   "article_url": "https://www.bbc.co.uk/news/articles/cjly4rv0q3l0o?at_medium=RSS&at_campaign=rss",
+   "has_text": true
+  },
+  {
+   "title": "OpenAI’s breach of Australian health department website prompts rebuke from Albanese",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYUtaSlM0RWhlTFFBQm0wRzZiMmIyZmJiN2NSeGZKU2oyWDlvc29KdnF4bnA1Zy1CcG1oZm9YelI2aVNFQzR2ZEQ5X1l0QUpCYjh6ODRIU2dCN2plN2IxUWhkV3lVYmJpWmF3em15MFRuVU1Sc3VPOElxQnA0RVlvY1FQdGhOVjBiWHdDYk4wOXM0a1VUR0ZPUGpjUjlUWEF0Q1kyNnN1R1NMeUdlMWQtR1RB?oc=5",
+   "summary": "OpenAI’s breach of Australian health department website prompts rebuke from Albanese AP News",
+   "published": "2026-09-24T06:51:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "bc168f07cc20",
+   "article_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYUtaSlM0RWhlTFFBQm0wRzZiMmIyZmJiN2NSeGZKU2oyWDlvc29KdnF4bnA1Zy1CcG1oZm9YelI2aVNFQzR2ZEQ5X1l0QUpCYjh6ODRIU2dCN2plN2IxUWhkV3lVYmJpWmF3em15MFRuVU1Sc3VPOElxQnA0RVlvY1FQdGhOVjBiWHdDYk4wOXM0a1VUR0ZPUGpjUjlUWEF0Q1kyNnN1R1NMeUdlMWQtR1RB?oc=5",
+   "has_text": false
+  },
   {
    "title": "Judge blocks Trump's ban and says CNN, MS NOW and Politico must have White House access restored",
    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNFNUM3VIUEdwTndqbnFYUjk4OUYzUHNvQ0syOVNEQmNNSUxvd1FzNWdDYnpZcjJyV0xKU1BWUzc0eFVqeFRka3VNU05MeGRIT1ppWDJnbE1xMjZDbVVIc0hZT0pfUDBfNGZLUzhIOVRfU1h2N0I3SjJTajNuYUFrSFVONEVxYlpLa0F1TjcyT3diOU9nNWhhVU1zQW1XeTNSNWw1ekdMdXdQeEk?oc=5",
@@ -12,9 +51,22 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "climate",
+   "section": "top",
    "id": "79ff9b86c009",
    "article_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNFNUM3VIUEdwTndqbnFYUjk4OUYzUHNvQ0syOVNEQmNNSUxvd1FzNWdDYnpZcjJyV0xKU1BWUzc0eFVqeFRka3VNU05MeGRIT1ppWDJnbE1xMjZDbVVIc0hZT0pfUDBfNGZLUzhIOVRfU1h2N0I3SjJTajNuYUFrSFVONEVxYlpLa0F1TjcyT3diOU9nNWhhVU1zQW1XeTNSNWw1ekdMdXdQeEk?oc=5",
+   "has_text": false
+  },
+  {
+   "title": "Trump’s push to acquire Greenland almost broke NATO. The winner of it all may be ... Greenland",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMEs5ZWdVZEpDclBicnExV3ZsYktma3d4bXY3b3RmT0pqTDk5R0Z3UWlndndNVEVxZ21KX1dmNmJacElHWHItQTktZDRXU1ZydHdITUw3cC1LSzNkY0xQMjJlUkxEM0gzY2J0dWsyQS1HVWQ4TzFoZEVlWG9qOTROWGdPRHVpeVJYNlBlSXJHeW1xalRJTmZWQWw3bFhDbjVxRVlnTExyZw?oc=5",
+   "summary": "Trump’s push to acquire Greenland almost broke NATO. The winner of it all may be ... Greenland AP News",
+   "published": "2026-09-24T05:52:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "9f9f5fcc2651",
+   "article_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMEs5ZWdVZEpDclBicnExV3ZsYktma3d4bXY3b3RmT0pqTDk5R0Z3UWlndndNVEVxZ21KX1dmNmJacElHWHItQTktZDRXU1ZydHdITUw3cC1LSzNkY0xQMjJlUkxEM0gzY2J0dWsyQS1HVWQ4TzFoZEVlWG9qOTROWGdPRHVpeVJYNlBlSXJHeW1xalRJTmZWQWw3bFhDbjVxRVlnTExyZw?oc=5",
    "has_text": false
   },
   {
@@ -55,19 +107,6 @@
    "id": "2754a513758c",
    "article_url": "https://www.bbc.co.uk/news/articles/cqlymw74g20ro?at_medium=RSS&at_campaign=rss",
    "has_text": true
-  },
-  {
-   "title": "OpenAI’s breach of Australian health department website prompts rebuke from Albanese",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYUtaSlM0RWhlTFFBQm0wRzZiMmIyZmJiN2NSeGZKU2oyWDlvc29KdnF4bnA1Zy1CcG1oZm9YelI2aVNFQzR2ZEQ5X1l0QUpCYjh6ODRIU2dCN2plN2IxUWhkV3lVYmJpWmF3em15MFRuVU1Sc3VPOElxQnA0RVlvY1FQdGhOVjBiWHdDYk4wOXM0a1VUR0ZPUGpjUjlUWEF0Q1kyNnN1R1NMeUdlMWQtR1RB?oc=5",
-   "summary": "OpenAI’s breach of Australian health department website prompts rebuke from Albanese AP News",
-   "published": "2026-09-24T04:38:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "bc168f07cc20",
-   "article_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPYUtaSlM0RWhlTFFBQm0wRzZiMmIyZmJiN2NSeGZKU2oyWDlvc29KdnF4bnA1Zy1CcG1oZm9YelI2aVNFQzR2ZEQ5X1l0QUpCYjh6ODRIU2dCN2plN2IxUWhkV3lVYmJpWmF3em15MFRuVU1Sc3VPOElxQnA0RVlvY1FQdGhOVjBiWHdDYk4wOXM0a1VUR0ZPUGpjUjlUWEF0Q1kyNnN1R1NMeUdlMWQtR1RB?oc=5",
-   "has_text": false
   },
   {
    "title": "Ethiopia and Tigray accuse each of launching offensives, fuelling fears of new war",
@@ -170,6 +209,19 @@
    "id": "ea0864d21511"
   },
   {
+   "title": "Hurricane Polo fuels fears of landslides in Mexico’s southwest as Nolo closes in on Hawaii",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPT1BmQlZtMXFYT1oxTlF5U1VTOUlGRTlSRnNiUXdZQ3hWUk9rSGxFMFVFenBYQzBKVUVRcThVSklCdTR2RGc5QlVoUkRqRVRwaTNVOEt1SFdGOWtUSEhFMUVRNXgwN2JXeU9HUjhLX0s1YjRWSzZJNUdyaWQyTldqbTBmSTMtSWNn?oc=5",
+   "summary": "Hurricane Polo fuels fears of landslides in Mexico’s southwest as Nolo closes in on Hawaii AP News",
+   "published": "2026-09-24T03:54:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "d7b1f868d430",
+   "article_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPT1BmQlZtMXFYT1oxTlF5U1VTOUlGRTlSRnNiUXdZQ3hWUk9rSGxFMFVFenBYQzBKVUVRcThVSklCdTR2RGc5QlVoUkRqRVRwaTNVOEt1SFdGOWtUSEhFMUVRNXgwN2JXeU9HUjhLX0s1YjRWSzZJNUdyaWQyTldqbTBmSTMtSWNn?oc=5",
+   "has_text": false
+  },
+  {
    "title": "Trump offers warm welcome as China's Xi arrives for US visit",
    "link": "https://www.bbc.co.uk/news/articles/cqgmrk7187lzo?at_medium=RSS&at_campaign=rss",
    "summary": "The US treasury secretary said that the US and China had reached an agreement to extend a trade truce as Xi began his visit.",
@@ -180,6 +232,19 @@
    "section": "top",
    "id": "91825c0adef3",
    "article_url": "https://www.bbc.co.uk/news/articles/cqgmrk7187lzo?at_medium=RSS&at_campaign=rss",
+   "has_text": true
+  },
+  {
+   "title": "Stolen FBI data reveals employees’ roles in intelligence and surveillance",
+   "link": "https://www.defenseone.com/threats/2026/09/stolen-fbi-data-reveals-employees-roles-intelligence-and-surveillance/416185/",
+   "summary": "Exposed analysts work on areas including China, Russia, and electronic surveillance. ShinyHunters claimed responsibility for the breach this week. The FBI said it’s investigating.",
+   "published": "2026-09-24T03:33:00+00:00",
+   "source": "defenseone",
+   "outlet": "Defense One",
+   "counted": true,
+   "section": "top",
+   "id": "a1215f4d601a",
+   "article_url": "https://www.defenseone.com/threats/2026/09/stolen-fbi-data-reveals-employees-roles-intelligence-and-surveillance/416185/",
    "has_text": true
   },
   {
@@ -207,19 +272,6 @@
    "id": "ed6ed367a0c4",
    "article_url": "https://thehill.com/regulation/court-battles/6107914-trump-selzer-polling-lawsuit-dismissed/",
    "has_text": false
-  },
-  {
-   "title": "OpenAI agent 'infiltrated' Australian government website, PM says",
-   "link": "https://www.bbc.co.uk/news/articles/c6vgy0333dppo?at_medium=RSS&at_campaign=rss",
-   "summary": "Albanese said he expressed \"concern\" to OpenAI founder Sam Altman, after authorities were informed three months after the breach in June.",
-   "published": "2026-09-24T03:22:54+00:00",
-   "source": "bbc",
-   "outlet": "BBC News",
-   "counted": true,
-   "section": "top",
-   "id": "faaa23279b11",
-   "article_url": "https://www.bbc.co.uk/news/articles/c6vgy0333dppo?at_medium=RSS&at_campaign=rss",
-   "has_text": true
   },
   {
    "title": "Angel Reese fine after taking hit to face just before halftime in Atlanta’s win over New York",
@@ -255,7 +307,7 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "top",
+   "section": "climate",
    "id": "6fefd5e7de92",
    "article_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbFp0bURLM3JiVkx1MDA1UndYOUxaWW5Cc2VFcnltVmV4N0poalFUWXBVNmthOUx6YVFOU1JrazZDR25yb1BSNDYteUdRZ1Ywc3RtZ0d0Tkl4TWdVX25NY3BsUFhvUTZPNV9HYlhOZ09tX0tuU3BJdFM0QXZhNFZCSkxycDlJOEFRR1cyTDUwYUhaeUVNbmM3cHpyTllURlpZRFpHblNWRnUyNFRYMl9aWXlEdTV0a1pMU1RB?oc=5",
    "has_text": false
@@ -337,6 +389,19 @@
    "id": "70eab1613a90",
    "article_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNajFyY0ZsVElWbkduTGR0UUxZQ25WSEczcHNiMTFjSENoSjZ5LWZWd3AwQm1DbENhS0xFVHVzOGt1RXVhNVlMSWdQczZCdlNBYlBmSmxyN3ZrVzNSRWVqcFJ4X3ZpdURzbmd6Tl9aX09hY0xOM1JxWUUwM29sVzk1Y1VhWEp2UXY2SVpERGljVzZxMkJ3X0RxMFBHTHk?oc=5",
    "has_text": false
+  },
+  {
+   "title": "GenAI.mil saw more than 2 million users in one week, top DOD official says",
+   "link": "https://www.defenseone.com/technology/2026/09/genaimil-saw-more-2-million-users-one-week-top-dod-official-says/416186/",
+   "summary": "The Pentagon's top AI officer also said that “unilateral disarmament is the wrong approach” when it comes to calls for a slowdown in AI development.",
+   "published": "2026-09-24T02:00:00+00:00",
+   "source": "defenseone",
+   "outlet": "Defense One",
+   "counted": true,
+   "section": "top",
+   "id": "8707e273ca9f",
+   "article_url": "https://www.defenseone.com/technology/2026/09/genaimil-saw-more-2-million-users-one-week-top-dod-official-says/416186/",
+   "has_text": true
   },
   {
    "title": "FBI investigates hackers' claim to have stolen sensitive employee data, compromised jobs website",
@@ -515,7 +580,7 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "climate",
+   "section": "top",
    "id": "738f6c470869",
    "article_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdEM5d0kySjFzM1p0MzVBQVFNUzVEY2c4RVMzVUpLQk5lQ3ctejVlNmh1MVQyOE9YM09pVU1hUEdPNnc2TkJKVnFNd3Z1eGRLTGJ2OGhNd3ZwR2YyZTBJOF8yTTZXR0d6STFUX1NycGJmTjk2UF92VzVieHJTNzBIVXRMWTZnc0xfZDJ3SjI2MEdSU19JZjlXQXhPWlhDQ292?oc=5",
    "has_text": false
@@ -586,7 +651,7 @@
    "has_text": false
   },
   {
-   "title": "Residents eating garden weeds in Russian-occupied city cut off from food and water",
+   "title": "Eating garden weeds to survive in Russian-occupied city cut off from food and water",
    "link": "https://www.bbc.co.uk/news/articles/c60qxywdx4vvo?at_medium=RSS&at_campaign=rss",
    "summary": "The BBC has spoken to residents in the Russian-occupied Ukrainian town of Oleshky who say they are being \"constantly shelled\".",
    "published": "2026-09-23T23:58:50+00:00",
@@ -597,6 +662,19 @@
    "id": "8db249a4b4ee",
    "article_url": "https://www.bbc.co.uk/news/articles/c60qxywdx4vvo?at_medium=RSS&at_campaign=rss",
    "has_text": true
+  },
+  {
+   "title": "Congressman says Venezuelan man shot by ICE then taken into custody told he needs surgery",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNX2U1aGR0VmNwenQtcUFYOFRKWE9KZ3RTQ2Z2akJJMmdTRmc4bjFYZmtHWkNUV3RmY0tUNlhoYUVET2JzelVqMU8yOVNmNVp4MDhWSVh1WV9VYVdVXzlWQ2M0eGswVVVWbU1uTE1EamUyRjVnMDVEeUs3X3h0TTlNUEtWc2YxZDVsSlhUQUVWb081RHBlR3p4blM2ZzVRblN5Xy1BZG1HeVVnVEk?oc=5",
+   "summary": "Congressman says Venezuelan man shot by ICE then taken into custody told he needs surgery AP News",
+   "published": "2026-09-23T23:54:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "4a2314628663",
+   "article_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNX2U1aGR0VmNwenQtcUFYOFRKWE9KZ3RTQ2Z2akJJMmdTRmc4bjFYZmtHWkNUV3RmY0tUNlhoYUVET2JzelVqMU8yOVNmNVp4MDhWSVh1WV9VYVdVXzlWQ2M0eGswVVVWbU1uTE1EamUyRjVnMDVEeUs3X3h0TTlNUEtWc2YxZDVsSlhUQUVWb081RHBlR3p4blM2ZzVRblN5Xy1BZG1HeVVnVEk?oc=5",
+   "has_text": false
   },
   {
    "title": "Idaho case may be connected to the 1982 Tylenol murders, officials say",
@@ -1384,7 +1462,7 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "top",
+   "section": "climate",
    "id": "3f94bae6060b",
    "article_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPY3VXT2ZwNmpnLU0wQjgzY3ltblpJNTh4dEFEdGozYVFQSk1EaXRBcUJZTGVCM0NuUFVvQThXQkRDWnM2aUU0RUZlS0pGcjFBMnBOVjVJc3Bsa2Y5NktsWE4wR2F4dUlUN0lLWUNZZUxUVE53djQwdE8wOEluMU85eUpfWUJNZFdodnlNRTNfWmhNdVJpTTJvOTdB?oc=5",
    "has_text": false
@@ -1468,19 +1546,6 @@
    "has_text": true
   },
   {
-   "title": "Trump’s push to acquire Greenland almost broke NATO. The winner of it all may be ... Greenland",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMEs5ZWdVZEpDclBicnExV3ZsYktma3d4bXY3b3RmT0pqTDk5R0Z3UWlndndNVEVxZ21KX1dmNmJacElHWHItQTktZDRXU1ZydHdITUw3cC1LSzNkY0xQMjJlUkxEM0gzY2J0dWsyQS1HVWQ4TzFoZEVlWG9qOTROWGdPRHVpeVJYNlBlSXJHeW1xalRJTmZWQWw3bFhDbjVxRVlnTExyZw?oc=5",
-   "summary": "Trump’s push to acquire Greenland almost broke NATO. The winner of it all may be ... Greenland AP News",
-   "published": "2026-09-23T21:10:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "9f9f5fcc2651",
-   "article_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMEs5ZWdVZEpDclBicnExV3ZsYktma3d4bXY3b3RmT0pqTDk5R0Z3UWlndndNVEVxZ21KX1dmNmJacElHWHItQTktZDRXU1ZydHdITUw3cC1LSzNkY0xQMjJlUkxEM0gzY2J0dWsyQS1HVWQ4TzFoZEVlWG9qOTROWGdPRHVpeVJYNlBlSXJHeW1xalRJTmZWQWw3bFhDbjVxRVlnTExyZw?oc=5",
-   "has_text": false
-  },
-  {
    "title": "Newsmax CEO says he asked Trump to ‘reconsider’ White House media outlet bans",
    "link": "https://thehill.com/media/6107254-ruddy-urges-trump-ban-reconsideration/",
    "summary": "Newsmax CEO Chris Ruddy on Tuesday said he asked President Trump to reconsider his ban on CNN, Politico and MS NOW reporters from covering his administration and the White House. “I’ve urged the president to reconsider his position,” Ruddy told “BBC Newsnight” in an interview. “I hope he will. I think it would be a…",
@@ -1544,19 +1609,6 @@
    "id": "85d4dae7f05a",
    "article_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNYU93WlhFekx2ZDRfWEVTUFJzbnZTUjM5eFp4RHJUYkZQTVNPTnFlTnJCcjNTbWlaeEtvdnJrbjBZckdiUm9GWmw5Q01RZE5WdFZNNWxnSHJFR2tfbzBFN1FyXzZ1Uk14VGhteGhBdnl6VGV4QjRjLWlMa0p0UWlRdjVBbGRBNF95UnpYYzdQMFhWV0lBNnpOaEwwNXNqVjd2VDBuOGUzUndYZ1NCZmNGc3BZLTlIUkpRMUdza0o4MnRoUHlTaXF6QzJTaFM?oc=5",
    "has_text": false
-  },
-  {
-   "title": "Blood tests find high level of cancer-causing forever chemical in residents near factory",
-   "link": "https://www.bbc.co.uk/news/articles/cjly4rv0q3l0o?at_medium=RSS&at_campaign=rss",
-   "summary": "People living near a major chemical factory in Lancashire are told they could be at risk of serious health conditions.",
-   "published": "2026-09-23T21:01:06+00:00",
-   "source": "bbc",
-   "outlet": "BBC News",
-   "counted": true,
-   "section": "climate",
-   "id": "315c17ecfd31",
-   "article_url": "https://www.bbc.co.uk/news/articles/cjly4rv0q3l0o?at_medium=RSS&at_campaign=rss",
-   "has_text": true
   },
   {
    "title": "ICE officer who shot Austin man wasn’t wearing body camera: Reports",
@@ -1826,19 +1878,6 @@
    "id": "ed67b1bf0030",
    "article_url": "https://www.pbs.org/newshour/politics/trumps-focus-on-noncitizen-voting-has-led-to-160-arrests-that-shows-its-rare-experts-say",
    "has_text": true
-  },
-  {
-   "title": "Argentina’s leaderless opposition struggles to unite against Milei’s reelection bid",
-   "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZUFQajhmdmpDZF9wTGdieFhrbFNVeC0zR1huTFo1UEs5d3lmZnFLNWpJRUZmZjVEY2tpTDRUR3NOWklVQW5BcVktalM1ak9ZYVpFUjFvMjJweUZvNi1oNzU1bFE1S3UwN1c5SG5hYU1rWDRRcjFKRHlIQ1lDNmR4ZDdUS2JVdnB1Rm85eUpCNXgwVVYwSkpPZ0RhVnE0RUp1TVVHU3JFOHpvem5ENzQ1UGU2UC1rQ3FOY0o2cnJZaTlqU251TGdSLTI0eW9MRzE0?oc=5",
-   "summary": "Argentina’s leaderless opposition struggles to unite against Milei’s reelection bid AP News",
-   "published": "2026-09-23T19:48:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "6922d6c08a6a",
-   "article_url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZUFQajhmdmpDZF9wTGdieFhrbFNVeC0zR1huTFo1UEs5d3lmZnFLNWpJRUZmZjVEY2tpTDRUR3NOWklVQW5BcVktalM1ak9ZYVpFUjFvMjJweUZvNi1oNzU1bFE1S3UwN1c5SG5hYU1rWDRRcjFKRHlIQ1lDNmR4ZDdUS2JVdnB1Rm85eUpCNXgwVVYwSkpPZ0RhVnE0RUp1TVVHU3JFOHpvem5ENzQ1UGU2UC1rQ3FOY0o2cnJZaTlqU251TGdSLTI0eW9MRzE0?oc=5",
-   "has_text": false
   },
   {
    "title": "Exclusive: Thune believes Trump is open on AI guardrails despite public defiance",
@@ -2365,6 +2404,19 @@
    "section": "top",
    "id": "793d691691d7",
    "article_url": "https://thehill.com/video-clips/6106616-watch-live-josh-hawley-senate-judiciary-hearing-flock-ai-cameras/",
+   "has_text": false
+  },
+  {
+   "title": "What to know about the deal by Britain to surrender the Chagos Islands",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVVRRaDUxSWNnMWpTVWg5WEVyV3p5MXhqSDJIbjY2dlQtWXRrU0d1QThDNEZJcmloWVhUZmRvaDdzSWJ4cTZackU0SUFrWFFWLVRnSGJQYmdNZlFIR1lFdG1QTmxJRW9iRG1JUUFYTHQyLVE1WlpDbDJZOXJYTUZtM19iMmhoTWxZQ3FCT1pCQUJhTS1ZT2xsb2VvYzNpa0Zn?oc=5",
+   "summary": "What to know about the deal by Britain to surrender the Chagos Islands AP News",
+   "published": "2026-09-23T17:04:34+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "6f92e443d336",
+   "article_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVVRRaDUxSWNnMWpTVWg5WEVyV3p5MXhqSDJIbjY2dlQtWXRrU0d1QThDNEZJcmloWVhUZmRvaDdzSWJ4cTZackU0SUFrWFFWLVRnSGJQYmdNZlFIR1lFdG1QTmxJRW9iRG1JUUFYTHQyLVE1WlpDbDJZOXJYTUZtM19iMmhoTWxZQ3FCT1pCQUJhTS1ZT2xsb2VvYzNpa0Zn?oc=5",
    "has_text": false
   },
   {
@@ -2938,19 +2990,6 @@
    "has_text": true
   },
   {
-   "title": "Russia's parliamentary election result underscores public support for Kremlin policies, Putin says",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQckhQcDh3NU4tZVY0ajhqQ3BodU5KVXpyQ2tKeFcxTV9HeHp0eUJvZ2ZGbWVhYmIzQVlvSmFkWXdfVzB3NWJuZ2JlSnZDaU5QZWloRGE2VUJCUFpjN0ZNZElmSzI5M2xxWFBwb2RRZkdseGdidTAxdldTOXgzVzJzRnBkY2RBak5VR0oyZElmZGFjc3UzTkl2bHJ3eDhDdnZJSGdhaWxNNVZ1NXlBRWdhQ0p3?oc=5",
-   "summary": "Russia's parliamentary election result underscores public support for Kremlin policies, Putin says AP News",
-   "published": "2026-09-23T15:29:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "59e80f39c1a2",
-   "article_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQckhQcDh3NU4tZVY0ajhqQ3BodU5KVXpyQ2tKeFcxTV9HeHp0eUJvZ2ZGbWVhYmIzQVlvSmFkWXdfVzB3NWJuZ2JlSnZDaU5QZWloRGE2VUJCUFpjN0ZNZElmSzI5M2xxWFBwb2RRZkdseGdidTAxdldTOXgzVzJzRnBkY2RBak5VR0oyZElmZGFjc3UzTkl2bHJ3eDhDdnZJSGdhaWxNNVZ1NXlBRWdhQ0p3?oc=5",
-   "has_text": false
-  },
-  {
    "title": "China's Xi kicks off state visit to Washington with a rare planeside welcome from Trump",
    "link": "https://www.pbs.org/newshour/world/chinas-xi-kicks-off-state-visit-to-washington-with-a-rare-planeside-welcome-from-trump",
    "summary": "Chinese President Xi Jinping arrived in Washington on Wednesday, where he was met with a rare planeside greeting from President Donald Trump after their top officials agreed to extend a trade truce until January.",
@@ -3013,19 +3052,6 @@
    "section": "top",
    "id": "4c67c97ef504",
    "article_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOeXZ2b0wxbFdqTUltLVdUNml1bWZzWHhEZG1KUk8xdWJTMUJFcDZfMUVXeVdSLUVRSWFIRjJORjN0Nk96b2hFVXd0UG5zamNiQ0JxUy0tVkhXNkZWV1ZQd1lEdHZvZW9jZ191WjhNeXhkMHdkdmhqYVAtaWgzSHBfWHpCV0JTdGl2ZWxUZkxwMThtRms?oc=5",
-   "has_text": false
-  },
-  {
-   "title": "What to know about the deal by Britain to surrender the Chagos Islands",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVVRRaDUxSWNnMWpTVWg5WEVyV3p5MXhqSDJIbjY2dlQtWXRrU0d1QThDNEZJcmloWVhUZmRvaDdzSWJ4cTZackU0SUFrWFFWLVRnSGJQYmdNZlFIR1lFdG1QTmxJRW9iRG1JUUFYTHQyLVE1WlpDbDJZOXJYTUZtM19iMmhoTWxZQ3FCT1pCQUJhTS1ZT2xsb2VvYzNpa0Zn?oc=5",
-   "summary": "What to know about the deal by Britain to surrender the Chagos Islands AP News",
-   "published": "2026-09-23T15:03:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "6f92e443d336",
-   "article_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVVRRaDUxSWNnMWpTVWg5WEVyV3p5MXhqSDJIbjY2dlQtWXRrU0d1QThDNEZJcmloWVhUZmRvaDdzSWJ4cTZackU0SUFrWFFWLVRnSGJQYmdNZlFIR1lFdG1QTmxJRW9iRG1JUUFYTHQyLVE1WlpDbDJZOXJYTUZtM19iMmhoTWxZQ3FCT1pCQUJhTS1ZT2xsb2VvYzNpa0Zn?oc=5",
    "has_text": false
   },
   {
@@ -3367,19 +3393,6 @@
    "has_text": false
   },
   {
-   "title": "Lionel Richie is taking a break from performing following a heart procedure",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMmx6YWFOQWJkVzBZbW15QlNqT3E2V1VPbk9LbXM3RW9FU0k5Z3FqRk9UblFlUDk4bFFPTk1TZEVpWUN0Q0lkVWMwMHIwMnJHYzlWQmpTRTlLYXZjOEZZQ2VrNE5mUnNDWldnOGV1aXJsODloRmFXOFFzLTNNeDdJV29hRjVNUFRwWktIZWJ3?oc=5",
-   "summary": "Lionel Richie is taking a break from performing following a heart procedure AP News",
-   "published": "2026-09-23T13:07:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "0dfa22d4164f",
-   "article_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMmx6YWFOQWJkVzBZbW15QlNqT3E2V1VPbk9LbXM3RW9FU0k5Z3FqRk9UblFlUDk4bFFPTk1TZEVpWUN0Q0lkVWMwMHIwMnJHYzlWQmpTRTlLYXZjOEZZQ2VrNE5mUnNDWldnOGV1aXJsODloRmFXOFFzLTNNeDdJV29hRjVNUFRwWktIZWJ3?oc=5",
-   "has_text": false
-  },
-  {
    "title": "See the world in vertical: Top photos by AP photojournalists",
    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOaGpCNlVYUjJTWWN6ckxVRnlZUlBac3BQZXhmUWNqQUNnMmJmUEx2aEJRb05FX3lsS2tkTTV2QlV2blpQcWUwSmYteDA0MGFEbEFmYTlva1ZWTUFRbHI5aFZnWjVuWDdxVm5wOTIwcEtlM01WNG9ZZkxva3NONUpKUFMwR00xWGp3TEtkaE1zdDF6OTJpandRQ2RWZzY3Q0Q1dlVTbGRkWWRxWnpVWlRPT3lwcE5sMTk5UUdNTVczbFl1NVk?oc=5",
    "summary": "See the world in vertical: Top photos by AP photojournalists AP News",
@@ -3533,6 +3546,19 @@
    "section": "top",
    "id": "354042143b82",
    "article_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNLWlLTXJycEtHRHRMZG8tUUZRX1ZLYk9KUDNLbU5SSnJuNU91LWE0cE85cE05bGVyMWRCbE54QjVaaWtvR3NCbzR0ak1uUTdncmV4NXYxTDY2M2hfZHYxVVB4ZlNzWW40WC10RW92TU1UOGw3ZHB2d0daR3NLd0tLYVZzQ3RtYVFsUmt3MW9zQ1dPMGxVc3duN2JRVQ?oc=5",
+   "has_text": false
+  },
+  {
+   "title": "She lived to see ‘Deb’s law’ take effect. Now she can choose how she dies",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZHRVOTFMWm5hN1JNYThrUFI2ZTZrN1ktdVU3NHRoXzIzN3VJVzdXTlNuaDBjS1JueDNMLW1TY2d1YzVOcnRKREZYaUNtd213XzhQN0RHRzVsWll3NlNoakVZbUpqS1NYWm1YUzRUZEJPd3NGc1YxLW9sVXZuQUdDZFFadjRSblBwVmxkTjkzeUFfc3hLOVpxY3pKUUxRdzB3UHdiNGd3?oc=5",
+   "summary": "She lived to see ‘Deb’s law’ take effect. Now she can choose how she dies AP News",
+   "published": "2026-09-23T11:52:22+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "3a0248c5d8a9",
+   "article_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZHRVOTFMWm5hN1JNYThrUFI2ZTZrN1ktdVU3NHRoXzIzN3VJVzdXTlNuaDBjS1JueDNMLW1TY2d1YzVOcnRKREZYaUNtd213XzhQN0RHRzVsWll3NlNoakVZbUpqS1NYWm1YUzRUZEJPd3NGc1YxLW9sVXZuQUdDZFFadjRSblBwVmxkTjkzeUFfc3hLOVpxY3pKUUxRdzB3UHdiNGd3?oc=5",
    "has_text": false
   },
   {
@@ -3741,19 +3767,6 @@
    "section": "top",
    "id": "23bc824abf6f",
    "article_url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZ29TU2VVQ1NxZk9kVG1tTC1PRUlDVjNWTzNXTGFJbGIyNmlUZXRVVkhtT3J5eG9ZQVVrejZRdkdQUGZVN0cxa0pZV0pPS3g2bGl4cFdxSXBpTW1KYW8xTkRwMFVaM1Vyd0cxcFZjTUZpRVJaQkVjM0dtRklxMzVUejRDdHRka1dyWDNpY0QxTkZ6WndsR2pOY0hzamo1aDAtMUtXd05DeWQ0RmdRQjVrZ01R?oc=5",
-   "has_text": false
-  },
-  {
-   "title": "She lived to see ‘Deb’s law’ take effect. Now she can choose how she dies",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZHRVOTFMWm5hN1JNYThrUFI2ZTZrN1ktdVU3NHRoXzIzN3VJVzdXTlNuaDBjS1JueDNMLW1TY2d1YzVOcnRKREZYaUNtd213XzhQN0RHRzVsWll3NlNoakVZbUpqS1NYWm1YUzRUZEJPd3NGc1YxLW9sVXZuQUdDZFFadjRSblBwVmxkTjkzeUFfc3hLOVpxY3pKUUxRdzB3UHdiNGd3?oc=5",
-   "summary": "She lived to see ‘Deb’s law’ take effect. Now she can choose how she dies AP News",
-   "published": "2026-09-23T10:12:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "3a0248c5d8a9",
-   "article_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZHRVOTFMWm5hN1JNYThrUFI2ZTZrN1ktdVU3NHRoXzIzN3VJVzdXTlNuaDBjS1JueDNMLW1TY2d1YzVOcnRKREZYaUNtd213XzhQN0RHRzVsWll3NlNoakVZbUpqS1NYWm1YUzRUZEJPd3NGc1YxLW9sVXZuQUdDZFFadjRSblBwVmxkTjkzeUFfc3hLOVpxY3pKUUxRdzB3UHdiNGd3?oc=5",
    "has_text": false
   },
   {
@@ -4102,35 +4115,9 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "top",
+   "section": "climate",
    "id": "1b322f2ebf7c",
    "article_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVWM2Y2lmU00td3FCNE1PLVc3dERmcTZvRVBKQUtUeHBncUE3djJMcjFwRjJYXzluYWxkaUIyYzBSVHFUTmNvNzNwbWNORExLdlFad2h0Znl4Sm9CNnV1bFc0cGx5WUpLMTZBV2NDM1dER3JObHZ2cTQ1eGQ3QWd3SEN4YWFjY3NHUFNCeXNzaEItX2RnS00yUDVzQlhkc2c?oc=5",
-   "has_text": false
-  },
-  {
-   "title": "Hurricane Polo fuels fears of landslides in Mexico’s southwest as Nolo closes in on Hawaii",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPT1BmQlZtMXFYT1oxTlF5U1VTOUlGRTlSRnNiUXdZQ3hWUk9rSGxFMFVFenBYQzBKVUVRcThVSklCdTR2RGc5QlVoUkRqRVRwaTNVOEt1SFdGOWtUSEhFMUVRNXgwN2JXeU9HUjhLX0s1YjRWSzZJNUdyaWQyTldqbTBmSTMtSWNn?oc=5",
-   "summary": "Hurricane Polo fuels fears of landslides in Mexico’s southwest as Nolo closes in on Hawaii AP News",
-   "published": "2026-09-23T07:11:48+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "d7b1f868d430",
-   "article_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPT1BmQlZtMXFYT1oxTlF5U1VTOUlGRTlSRnNiUXdZQ3hWUk9rSGxFMFVFenBYQzBKVUVRcThVSklCdTR2RGc5QlVoUkRqRVRwaTNVOEt1SFdGOWtUSEhFMUVRNXgwN2JXeU9HUjhLX0s1YjRWSzZJNUdyaWQyTldqbTBmSTMtSWNn?oc=5",
-   "has_text": false
-  },
-  {
-   "title": "Triple Crown still within reach for Astros slugger Yordan Alvarez after big game in Seattle",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVHlwMkRmQkxEN1JFM2MtbWpXSE9yUFIxV05XbGctUDJxRjJDdFNGSmlyS1RWODlNSXNGMi1YUG5oVHZZOFlnVlhhQ0NGejlGdFBOOExLTnk1NjBMSXdtdDFmY3hyVkRJVkJuTU9NN18zWnY1Y29QczdBVG02MWIySFU3bkdHbmhES3Q5OXNMc3I3M29WYWdvXzZB?oc=5",
-   "summary": "Triple Crown still within reach for Astros slugger Yordan Alvarez after big game in Seattle AP News",
-   "published": "2026-09-23T07:00:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "53b3d84d05fe",
-   "article_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVHlwMkRmQkxEN1JFM2MtbWpXSE9yUFIxV05XbGctUDJxRjJDdFNGSmlyS1RWODlNSXNGMi1YUG5oVHZZOFlnVlhhQ0NGejlGdFBOOExLTnk1NjBMSXdtdDFmY3hyVkRJVkJuTU9NN18zWnY1Y29QczdBVG02MWIySFU3bkdHbmhES3Q5OXNMc3I3M29WYWdvXzZB?oc=5",
    "has_text": false
   },
   {
@@ -4677,19 +4664,6 @@
    "section": "climate",
    "id": "72aa0134e1e7",
    "article_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbW5mX1IwZ3VEUmtGMnBKYWtuZjRXSkZpbGhhSkpnUl9ZQUQyWVNzbm5jQmQ0eHM0V3V2R1hpdzVaVmlUTmphb01mMUV3UWZjWVVELU5Bek9veDVsbGlkdGZFZ1ROdWQ4b0FOTDhYQmJKWFNpeDRLZFdpTlU0WGoyNlo2TlNwS3hpZWhObk9mejB4MDNxdmdFZmJXRFVJVFpaRUZ5NXNTeDBxQm14N2lSZUE1bzlialJLOHNvcndDZXdOc0hfRHc?oc=5",
-   "has_text": false
-  },
-  {
-   "title": "Is it ‘killer robots’ or ‘super intelligence’? At the UN, leaders see both",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZHI2cW1aa2pYRkxYZUpqaFlYd0xZY0Y0U0dBdnE3dHdEYVhiN3ZqcnJueUNLUTFaNF9TVnUxS0x5U2ZCV2JPU3p6c19EUmtzYlNWUWMxWlBFa2VTb2FkUDFqWUt4dkVKVWpXYzNqVWxoS0xucE4yOTRMV21rdzJ1NjNNcE9pY0hBaFdWdlJsN2VQVlNSRkVsVlJ1S3F6VWMtMHpV?oc=5",
-   "summary": "Is it ‘killer robots’ or ‘super intelligence’? At the UN, leaders see both AP News",
-   "published": "2026-09-22T21:58:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "03b1383455e0",
-   "article_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZHI2cW1aa2pYRkxYZUpqaFlYd0xZY0Y0U0dBdnE3dHdEYVhiN3ZqcnJueUNLUTFaNF9TVnUxS0x5U2ZCV2JPU3p6c19EUmtzYlNWUWMxWlBFa2VTb2FkUDFqWUt4dkVKVWpXYzNqVWxoS0xucE4yOTRMV21rdzJ1NjNNcE9pY0hBaFdWdlJsN2VQVlNSRkVsVlJ1S3F6VWMtMHpV?oc=5",
    "has_text": false
   },
   {
