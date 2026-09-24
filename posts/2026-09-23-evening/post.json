@@ -1,0 +1,79 @@
+{
+  "slot": "2026-09-23 20:00 CT",
+  "date": "2026-09-23",
+  "category": "Security",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/c9n74574elljo",
+  "source_domain": "bbc.com",
+  "headline": "Hackers say they stole files on 38,000 FBI staff",
+  "summary": "A hacking group, ShinyHunters, says it took names, badge numbers and home addresses for about 38,000 FBI agents and applicants. The FBI says it is investigating and has not found the point of breach. Its jobs website was offline Wednesday. The group says it wants no money, only a retraction of an FBI notice that called it a criminal gang.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "Why would they hack the FBI?"
+  },
+  "cover_answer": "Not for money. They want the FBI to take back a warning.",
+  "table_question": "Should you ever take back a warning because someone threatens you?",
+  "photo_subject": "J. Edgar Hoover Building",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "Some computer thieves say they sneaked into the FBI's files. The FBI is the country's top police detectives, and the thieves say they copied the names and home addresses of the people who work there, like copying every page of a class phone list. The FBI is checking what was really taken. The grown-ups have it.",
+      "why": "A copied phone list is a thing they can picture. Say what was taken: names on a list. Hacking is invisible at this age, so the list is the whole story.",
+      "why_long": "Hacking is invisible, and a five-year-old reasons from what they can see, so the script hands them a copied class phone list and stops there. One vivid detail stands in for the whole story, and they size it from your face, not the number. Expect \"can they get into ours?\" They went after the FBI, and our passwords are our lock."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "In May the FBI called the hackers ShinyHunters a criminal gang. The group says it hit back: it broke in and copied files on 38,000 agents and applicants. It says it wants no money, only the warning gone, and gave the FBI a week. The FBI is checking every door, like a locksmith after a break-in.",
+      "why": "One chain: a warning, a break-in, a demand. The locksmith is the check.",
+      "why_long": "This age wants the chain, and this one runs clean: the FBI wrote a warning, the group says it broke in to answer it, and now it wants the warning gone. Fairness is their subject, so the demand is the part to argue: does a thief get to edit the police notice? Expect \"did they really do it?\" The FBI says it cannot tell yet."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "If a gang says it hacked you to punish a warning about it, do you take the warning down? ShinyHunters gave the FBI a week and says it wants no money. Second: BBC News says a sample looks real; the FBI can't yet say where the hole is. Does that matter to the 38,000?",
+      "why": "Data looks real; the FBI can't say how. Then a choice with a cost each way. They can hold both and argue the choice.",
+      "why_long": "A teenager can hold that the sample looks genuine and that the FBI does not yet know where the hole is, and reason about a ransom note that says it is not a ransom. The script hands them the FBI's choice with a cost on each side and lets them pick. Expect \"would you take it down?\" Say what you would do and why, then let them argue."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Can hackers get into our computer?",
+        "a": "They went after the FBI, not families. Our secret passwords are our lock."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why would they hack the FBI?",
+        "a": "It says the FBI's warning about it was false. This is the answer."
+      },
+      {
+        "q": "Did they really do it?",
+        "a": "The FBI can't tell yet. BBC News saw a sample and says it looks real."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Should the FBI give in?",
+        "a": "Give in and every gang learns the price. Refuse and they may post it all."
+      },
+      {
+        "q": "Is this the FBI's fault?",
+        "a": "The FBI doesn't yet know if its own servers or a contractor's were hit."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#ShinyHunters",
+    "#DinnerTableNews"
+  ],
+  "photo": "data/images/2026-09-23-evening.jpg",
+  "photo_credit": "Photo: ajay_suresh, derivative work by Georgfotoart, Wikimedia Commons, CC BY 2.0",
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 9,
+    "13-17": 16
+  },
+  "caption": "Not for money. They want the FBI to take back a warning.\n\nA hacking group, ShinyHunters, says it took names, badge numbers and home addresses for about 38,000 FBI agents and applicants. The FBI says it is investigating and has not found the point of breach. Its jobs website was offline Wednesday. The group says it wants no money, only a retraction of an FBI notice that called it a criminal gang.\n\nSource: BBC News\nPhoto: ajay_suresh, derivative work by Georgfotoart, Wikimedia Commons, CC BY 2.0\n\nSwipe for what to say at age 6, at 9, and at 16.\n\nThe dinner table question: Should you ever take back a warning because someone threatens you? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #ShinyHunters #DinnerTableNews"
+}
