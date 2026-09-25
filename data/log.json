@@ -787,7 +787,7 @@
   "photo_subject": null,
   "cover_band": "5-7",
   "publish_target": "2026-09-25T11:55-05:00",
-  "chosen": "primary",
+  "chosen": "alternate",
   "alternate": {
    "folder": "posts/2026-09-25-noon-alt",
    "category": "World",
@@ -796,6 +796,8 @@
    "photo_subject": null
   },
   "note": "Run fired at 11:12 CT for the 12:00 noon slot; target drawn once at 11:55 CT. Rule 3 count: the last Good news entry is 2026-09-24-noon and two stories have run since (2026-09-24-evening, 2026-09-25-morning), so this slot is not the positive one; the count carries at 2. rank.py's #1 cluster (AP, Axios, BBC News, Semafor, The Hill; 5 outlets, 9 items) mixes the press-ban saga, which published this morning as 2026-09-25-morning and is skipped under rule 1, with Trump showing Xi the new helipad; that half's lead subject is the White House, this morning's lead subject, and #1 leads #2 by one outlet, not two, so rule 2 skips it. #2 (AP, BBC News, PBS NewsHour, The Hill; 4 outlets, 5 items) is Jim Copenhaver, shot at the 2024 Butler rally, dying at 76. Rule 5: it is the highest remaining and within one outlet of the 3-outlet clusters #3 to #7, so the tie-break applies: over the last 7 days Government has published four times, World and Security three each, so Security is joint least and #2 holds. Category Security, lead subject Copenhaver. A death, so hard: Shield on the 5-7 card. Text from PBS NewsHour (AP) and BBC News; the AP item and both Hill items had none. The two disagree on cause: PBS says the family's statement did not say whether the death came from the wounds, BBC says the Pennsylvania attorney general said complications from his injuries. The post attributes the cause to the attorney general and says the family did not. Credited to PBS NewsHour. Alternate: #3 (Netanyahu's UN walkout; AP, BBC News, The Hill) is World and was this morning's alternate, still fair game, but it is a hard story and the primary is hard, so rule 8's preference passes over it. #4 (AP, PBS NewsHour, Semafor; 3 outlets) is Iran's seven-day offer to reopen the Strait of Hormuz: World, lead subject Iran, rules 1, 2 and 6 clear, not hard, no Shield. Text from PBS NewsHour (AP) and Semafor; the AP item had none. Credited to PBS NewsHour. Photos: the last two entries both had photos, so neither post takes one; Copenhaver is a private individual and a death besides. No commons dispatch. Cover band rotates from 13-17 to 5-7. Render: both exit 0 after cutting the 8-12 and 13-17 scripts to six lines, the why lines to one and the Try answers to two on both posts; the covers hold two lines each. Reel built for the primary, 13.4s, after apt-get update and a second ffmpeg install. Dan replied at 11:28 CT: run the Hormuz alternate. HOLD written on the primary, run 36160437786 cancelled, publish.yml dispatched for posts/2026-09-25-noon-alt at the same 11:55 target as run 36160973854. publish.py sets chosen to alternate when it publishes. The primary's reel is deleted and the alternate's built in its place.",
-  "publish_run": 36160973854
+  "publish_run": 36160973854,
+  "published": "https://www.instagram.com/p/Ddt8BD9mtho/",
+  "published_at": "2026-09-25T16:55:31+0000"
  }
 ]
