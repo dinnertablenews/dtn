@@ -753,5 +753,25 @@
   "publish_run": 36077342748,
   "published": "https://www.instagram.com/p/DdsN7YUjQZ2/",
   "published_at": "2026-09-25T00:53:32+0000"
+ },
+ {
+  "slug": "2026-09-25-morning",
+  "date": "2026-09-25",
+  "slot": "morning",
+  "category": "Government",
+  "headline": "A judge let the reporters back in. The dinner shut them out.",
+  "photo": true,
+  "photo_subject": "White House",
+  "cover_band": "13-17",
+  "publish_target": "2026-09-25T06:52-05:00",
+  "chosen": "primary",
+  "alternate": {
+   "folder": "posts/2026-09-25-morning-alt",
+   "category": "World",
+   "headline": "Dozens walked out on Netanyahu. He kept going.",
+   "photo": true,
+   "photo_subject": "Benjamin Netanyahu"
+  },
+  "note": "Run fired at 06:11 CT for the 07:00 morning slot; target drawn once at 06:52 CT. Rule 3 count: the last Good news entry is 2026-09-24-noon and one story has run since (2026-09-24-evening), so this slot is not the positive one; the count carries at 1. rank.py's #1 cluster (AP, Axios, BBC News, Semafor, The Hill; 5 outlets, 8 items) is the White House readmitting CNN, MS NOW and Politico under Judge Kelly's order and then, per BBC News, barring CNN and MS NOW from the state dinner for Xi Jinping. Kelly's ruling was 2026-09-24-evening's alternate, which never counts as having run, and it is a new event from the 2026-09-19-morning ban; the dinner is newer still. Rule 4: morning takes #1, and it did not run yesterday evening (the Navy suicides did). Category Government, lead subject the White House; rule 2 clear, nothing has run today. Not a hard story, no Shield. Articles with text: BBC News (the morning denials, the badges taken, the emergency-hearing request) and both Axios items (the ruling, the 7:10/9:55 filing, the readmission, the Sept. 28 deadline); the AP item and both Hill items had no text. The state-dinner barring is in BBC's headline and RSS summary; the extracted BBC text is the earlier version of the story, so that one fact comes from the summary. Credited to BBC News. Alternate: #2 (Senate defeats the Iran war-powers resolution; AP, PBS NewsHour, Semafor, The Hill) is Government, the primary's category, so rule 8 skips it. #3 (AP, BBC News, The Hill; 3 outlets, 4 items) is Netanyahu's UN speech and the walkout: World, lead subject Netanyahu, rules 1, 2 and 6 clear. Hard story, Shield on the 5-7 card. Text from the two BBC News items; The Hill and AP had none. Photos: the last two entries were none then one, so both take one. Primary: White House, the stacked north-and-south composite, photo_zoom 2.1 as on 2026-09-19-morning, one photograph in the disc. Alternate: Benjamin Netanyahu (Avi Ohayon, CC BY-SA 3.0). Neither subject is in the last three entries. Cover band rotates from 8-12 to 13-17. Render: both exit 0 after cutting the 8-12 and 13-17 scripts, why lines and Try answers; the primary's cover question and the alternate's headline were shortened to hold two lines. Reel built for the primary, 14.2s, after installing ffmpeg."
  }
 ]
