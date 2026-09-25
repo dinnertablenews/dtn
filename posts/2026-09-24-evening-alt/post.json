@@ -1,0 +1,79 @@
+{
+  "slot": "2026-09-24 20:00 CT",
+  "date": "2026-09-24",
+  "category": "Government",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/cqe8ek7608mlo",
+  "source_domain": "bbc.com",
+  "headline": "Trump banned three outlets. A judge let them back in.",
+  "summary": "Judge Timothy Kelly ruled before dawn Thursday that Trump's ban on CNN, MS NOW and Politico likely broke their due-process rights, and ordered their passes restored for 14 days. Some reporters were still turned away that morning, badges taken. By afternoon, The Hill reports, they were back inside. Kelly hears more evidence for two weeks.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "Can a judge tell the president no?"
+  },
+  "cover_answer": "Yes. He did, and by afternoon the reporters were back.",
+  "table_question": "Should you get to explain yourself before you're kicked out?",
+  "photo_subject": "James S. Brady Press Briefing Room",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "Last week the president said three news teams couldn't come into the White House anymore. Today a judge said that's not allowed and they have to be let back in. It's like a hall monitor keeping someone out of class and the principal saying no, they can come in. By the afternoon the reporters were back at work.",
+      "why": "A five-year-old knows who outranks a hall monitor. The story ends with people back at work, which is the piece they keep.",
+      "why_long": "A five-year-old reasons from what is in front of them, so the script gives them a hall monitor, a principal, and people back at work. Vygotsky says the words come from the adult first, so \"a judge said that's not allowed\" is the line they will repeat. Expect \"is the president in trouble?\" No. He has to follow the order."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "The rule: the government can't take something from you without saying why and letting you answer. Trump banned three outlets with no hearing, so Judge Timothy Kelly ordered their passes back for 14 days. A referee stopping play until the call is reviewed. By afternoon the reporters were inside.",
+      "why": "A rule, a skipped step, a referee's pause: a chain they can check.",
+      "why_long": "This age tests whether rules apply to everyone, so the script gives them the rule (notice and a chance to answer), the skipped step, and the referee stopping play. Whether the pause binds the president is what they will check. Expect \"what if he ignores the judge?\" Some were turned away that morning. By afternoon they were in."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Is \"fake news\" a reason to bar reporters, or does the reporter get a hearing first? Judge Kelly said the Fifth Amendment requires notice and a chance to answer. Second: some were still turned away hours after his order. What should happen when a government is slow to obey a court?",
+      "why": "Was the ban fair, and what is an order worth obeyed late?",
+      "why_long": "A teenager can hold two true things: the judge did not rule on whether the outlets lie, only that they got no hearing, and the order was obeyed late. The script gives them both. Kuhn's point is that argument is practised, so let them make the case for the ban first. Expect \"what happens after 14 days?\" More evidence, maybe an appeal."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Why couldn't they come in?",
+        "a": "The president said they weren't telling the truth. A judge said he still has to let them in while it gets sorted out."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Can a judge tell the president no?",
+        "a": "Yes. This judge said the ban skipped the step where you get to answer."
+      },
+      {
+        "q": "Did the White House listen?",
+        "a": "Not at first. Some were turned away that morning. By afternoon they were in."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Isn't it his house?",
+        "a": "The government's. A 1977 court said it can't pick reporters by coverage."
+      },
+      {
+        "q": "Is this over?",
+        "a": "No. The order lasts 14 days, then more evidence and maybe an appeal."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#WhiteHousePress",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 11,
+    "13-17": 13
+  },
+  "photo": "data/images/2026-09-24-evening-alt.jpg",
+  "photo_credit": "Photo: The White House, Wikimedia Commons, Public domain",
+  "caption": "Yes. He did, and by afternoon the reporters were back.\n\nJudge Timothy Kelly ruled before dawn Thursday that Trump's ban on CNN, MS NOW and Politico likely broke their due-process rights, and ordered their passes restored for 14 days. Some reporters were still turned away that morning, badges taken. By afternoon, The Hill reports, they were back inside. Kelly hears more evidence for two weeks.\n\nSource: BBC News\nPhoto: The White House, Wikimedia Commons, Public domain\n\nSwipe for what to say at age 6, at 11, and at 13.\n\nThe dinner table question: Should you get to explain yourself before you're kicked out? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #WhiteHousePress #DinnerTableNews"
+}
