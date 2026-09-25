@@ -1,0 +1,76 @@
+{
+  "slot": "2026-09-25 12:00 CT",
+  "date": "2026-09-25",
+  "category": "Security",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/nation/man-who-was-shot-during-2024-trump-campaign-rally-in-butler-pennsylvania-has-died",
+  "source_domain": "pbs.org/newshour",
+  "headline": "Jim Copenhaver, shot at Butler in 2024, has died at 76.",
+  "summary": "Jim Copenhaver was in the bleachers in Butler, Pennsylvania, when a gunman fired at Trump in 2024. One bullet grazed Trump's ear. Two hit Copenhaver in the arm and the abdomen. He walked with a cane after. He died Wednesday in a Pittsburgh hospital, his lawyer said. He and his wife sued the government in June over security that day.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Did the bullet make him die?"
+  },
+  "cover_answer": "Pennsylvania's attorney general says yes, two years on.",
+  "table_question": "If harm shows up two years late, who still owes for it?",
+  "ages": {
+    "5-7": {
+      "shield": true,
+      "script": "Two years ago a man fired a gun at a big outdoor rally where Trump was speaking. A man named Jim in the stands was hit and never got all the way better. He died this week. He was 76, about as old as a great-grandpa. That was far from here, and the man with the gun was stopped that same day. You're safe.",
+      "why": "Hit, then not all the way better, then gone: one line a seven-year-old can hold. The gun stays two years back, and stopped.",
+      "why_long": "A seven-year-old takes one vivid feature for the whole event, so the script keeps the gun two years back and stopped, and puts a man who never got all the way better in front. Great-grandpa's age is the anchor. Expect \"could that happen to you?\" No. That was one rally, far from here, and it is over."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "In 2024 a gunman on a rooftop fired at a Trump rally. Jim Copenhaver was hit twice; a bullet stayed near his spine. He died Wednesday. Security is a checklist: who's on the roof, who watches the crowd. His family says a step was skipped.",
+      "why": "A rooftop, two bullets, two years. The checklist is the lawsuit.",
+      "why_long": "This age is working out cause and effect and whether adults did their jobs, so the script hands them a chain with a gap in it: rooftop, two bullets, surgeries, two years, then Wednesday. The checklist, a mechanism they trust from fire drills, turns a lawsuit into who skipped a step. Expect \"did the Secret Service get in trouble?\" Not yet. The suit is from June."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "If a man dies two years after being shot, did the gunman kill him? Pennsylvania's attorney general says the wounds did. No court will say: the gunman died that day. Second: Copenhaver sued the Secret Service in June. When protection fails, who owes what?",
+      "why": "Two questions with no clean answer. Let them pick the harder one.",
+      "why_long": "A teenager can hold two true things: the gunman was killed that day, and the state says his bullets killed a second man two years later. The script gives them that count, then a harder one: can a family bill the Secret Service for the roof nobody watched? Expect \"was it really the wounds?\" His family did not say. The state did."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Did the bullet make him die?",
+        "a": "Pennsylvania's top lawyer says yes, from the wounds. It was two years ago and far from here. You're safe."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why did he die now and not then?",
+        "a": "Shot in the arm and the belly, many surgeries, a bullet near his spine. The state says complications from those wounds."
+      },
+      {
+        "q": "Did anyone get in trouble?",
+        "a": "The gunman was killed that day. Copenhaver and his wife sued the government in June, saying security failed."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Does this count as the gunman's second killing?",
+        "a": "Pennsylvania's attorney general says complications from his wounds. Corey Comperatore died that day. No court will rule."
+      },
+      {
+        "q": "Can a family sue the Secret Service?",
+        "a": "He and his wife did in June, saying it \"utterly failed\" to secure the rally. David Dutch, also shot, sued too."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#ButlerRally",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 12,
+    "13-17": 17
+  },
+  "caption": "Pennsylvania's attorney general says yes, two years on.\n\nJim Copenhaver was in the bleachers in Butler, Pennsylvania, when a gunman fired at Trump in 2024. One bullet grazed Trump's ear. Two hit Copenhaver in the arm and the abdomen. He walked with a cane after. He died Wednesday in a Pittsburgh hospital, his lawyer said. He and his wife sued the government in June over security that day.\n\nSource: PBS NewsHour\n\nSwipe for what to say at age 7, at 12, and at 17.\n\nThe dinner table question: If harm shows up two years late, who still owes for it? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #ButlerRally #DinnerTableNews"
+}
