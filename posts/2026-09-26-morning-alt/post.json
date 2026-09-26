@@ -1,0 +1,79 @@
+{
+  "slot": "2026-09-26 07:00 CT",
+  "date": "2026-09-26",
+  "category": "Government",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/politics/new-jerseys-lieutenant-governor-resigns-after-sexual-harassment-and-ethics-complaints",
+  "source_domain": "pbs.org/newshour",
+  "headline": "New Jersey's No. 2 quits. The governor gave him a day.",
+  "summary": "Lt. Gov. Dale Caldwell resigned Friday after Gov. Mikie Sherrill told him to go by end of day. A law firm she hired found he made an advance on a staffer's friend, sought a promotion for an employee he was dating, and took guests to the opera without paying. He disputes it. He also ran New Jersey's elections, weeks before the midterms.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "Can a governor just fire her deputy?"
+  },
+  "cover_answer": "No. He was elected too. She could only ask, loudly.",
+  "table_question": "Your teammate breaks the rules. Do you ask them to quit?",
+  "photo_subject": "New Jersey State House",
+  "ages": {
+    "5-7": {
+      "shield": true,
+      "script": "A helper to New Jersey's governor treated people at work in ways that aren't allowed, so he gave up his job. It's like a player who breaks the rules and has to leave the team. The governor keeps running things. It doesn't touch you.",
+      "why": "A player sent off. No detail about what he did, and none needed.",
+      "why_long": "A five-year-old takes one feature for the whole story, so the script gives them a player who broke the rules and left the team, and nothing about what the rules were. Cantor found that what frightens this age is the near and concrete, so the last line closes that door. Expect \"what did he do?\" He was unkind at work. That is enough."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "New Jersey elects its lieutenant governor, so the governor can't fire him. A law firm found Dale Caldwell broke workplace and ethics rules, so Gov. Mikie Sherrill gave him a public deadline: Friday. He quit. A captain can't bench a teammate, but she can say so out loud.",
+      "why": "Can't fire, can pressure, he quits: power with limits.",
+      "why_long": "This age is working out rules and who enforces them, so the script hands them a puzzle: a boss who cannot fire her deputy. The chain is report, deadline, resignation, and the captain shows pressure doing what a whistle can't. Expect \"what if he'd said no?\" The Legislature could remove him, or she could strip his duties. He went first."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "When your running mate breaks the rules, do you protect him or push him out? Sherrill picked Caldwell last year; eight months in, she gave him a day to go. Second: he denies it, and the report came from a firm she hired. Does that make it less fair, or more?",
+      "why": "Loyalty against rules, and a report from her own lawyers.",
+      "why_long": "A teenager can hold two true things: Sherrill chose this man, and she pushed him out. The script asks whether loyalty or the rulebook wins, then complicates it with the report's source, her own hired firm, and his denial. Let them make his case before you answer. Expect \"why did she pick him?\" The report doesn't say what she knew."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Did he hurt someone?",
+        "a": "He treated people at work in a way that's not allowed. So he left the job. Nobody is in danger."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why couldn't she just fire him?",
+        "a": "He's elected too. Only the Legislature can remove him. She could ask."
+      },
+      {
+        "q": "What did he do?",
+        "a": "Advances at work, a promotion for a girlfriend, free opera seats."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Can a governor just fire her deputy?",
+        "a": "No. He's elected too. She could strip his duties or wait for the Legislature to impeach. She set a deadline and he went."
+      },
+      {
+        "q": "Why does it matter that he ran elections?",
+        "a": "As secretary of state he ran New Jersey's elections, and the midterms are weeks away."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#DaleCaldwell",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 10,
+    "13-17": 13
+  },
+  "photo": "data/images/2026-09-26-morning-alt.jpg",
+  "photo_credit": "Photo: ajay_suresh, Wikimedia Commons, CC BY 4.0",
+  "caption": "No. He was elected too. She could only ask, loudly.\n\nLt. Gov. Dale Caldwell resigned Friday after Gov. Mikie Sherrill told him to go by end of day. A law firm she hired found he made an advance on a staffer's friend, sought a promotion for an employee he was dating, and took guests to the opera without paying. He disputes it. He also ran New Jersey's elections, weeks before the midterms.\n\nSource: PBS NewsHour\nPhoto: ajay_suresh, Wikimedia Commons, CC BY 4.0\n\nSwipe for what to say at age 6, at 10, and at 13.\n\nThe dinner table question: Your teammate breaks the rules. Do you ask them to quit? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #DaleCaldwell #DinnerTableNews"
+}

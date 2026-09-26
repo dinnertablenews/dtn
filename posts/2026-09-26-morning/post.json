@@ -1,0 +1,76 @@
+{
+  "slot": "2026-09-26 07:00 CT",
+  "date": "2026-09-26",
+  "category": "Good news",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/nation/new-mexico-jury-finds-facebook-liable-of-deceiving-users-about-privacy-protections",
+  "source_domain": "pbs.org/newshour",
+  "headline": "A jury says Facebook misled users. New Mexico wins.",
+  "summary": "A jury in Santa Fe found Facebook liable on Friday for deceiving users about how it protected their data. The case goes back to a personality quiz that harvested 87 million profiles and sold them to Cambridge Analytica. Jurors counted over two million violations. The judge sets the penalty: the state wants $5,000 each.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "Isn't this from 2016? Why now?"
+  },
+  "cover_answer": "Other states settled instead. New Mexico kept suing.",
+  "table_question": "If a friend shared your secret years ago, does it still count?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "Facebook is a website grown-ups use to share photos and news. Years ago it let a quiz game scoop up people's information, like a friend reading your diary and passing it around. A jury in New Mexico said Facebook has to answer for that. The grown-ups have it.",
+      "why": "A diary passed around. The quiz and the court stay with the grown-ups.",
+      "why_long": "A six-year-old takes one vivid feature for the whole event, so the script gives them a diary passed around, a thing they can picture, and leaves data brokers with the grown-ups. Expect \"do they have my pictures?\" Kids their age aren't on Facebook, and the quiz ran before they were born."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "A quiz app on Facebook took data from 87 million profiles and sold it to Cambridge Analytica, a political consulting firm that aimed ads with it. New Mexico said Facebook promised to guard that data and didn't. The jury agreed: over two million violations. A judge sets the fine, up to $5,000 each.",
+      "why": "Promise, break, count: one chain. They'll do the multiplication.",
+      "why_long": "This age is working out rules and who they apply to, so the script runs the chain: a promise to guard the data, a quiz that took it, a jury that counted. Two million at $5,000 each is arithmetic they will do at the table. Expect \"why did it take so long?\" The other states signed the claim away. New Mexico kept going."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Should a company answer in 2026 for a data leak from 2016? Facebook's lawyers called the evidence outdated. Second: the other states let this claim go inside Meta's $18 billion child-safety settlement in August. New Mexico sued alone. Who got the better deal?",
+      "why": "Old evidence and a real harm, both true. Let them argue Facebook's side.",
+      "why_long": "A teenager can hold two true things: the quiz ran a decade ago, and the people it scooped up are still here. The script hands them Facebook's outdated-evidence defence and the other states' settlement, then asks who did better. Let them take Facebook's side. Expect \"is $5,000 a lot to Meta?\" Times two million, yes."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Did Facebook take my pictures?",
+        "a": "No. Kids your age aren't on Facebook. This was a grown-ups' quiz, years ago, and a court is sorting it out."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "What did the quiz do?",
+        "a": "It copied 87 million profiles and sold them to a political ad firm."
+      },
+      {
+        "q": "How much does Facebook pay?",
+        "a": "The judge decides. New Mexico wants $5,000 per violation."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Isn't this from 2016? Why now?",
+        "a": "Meta settled with the other states in August and got this claim dropped. New Mexico didn't sign, so its trial went on."
+      },
+      {
+        "q": "Didn't New Mexico already beat Meta this year?",
+        "a": "Yes: $942 million over kids' safety, plus court-ordered age checks and time limits."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#CambridgeAnalytica",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 10,
+    "13-17": 15
+  },
+  "caption": "Other states settled instead. New Mexico kept suing.\n\nA jury in Santa Fe found Facebook liable on Friday for deceiving users about how it protected their data. The case goes back to a personality quiz that harvested 87 million profiles and sold them to Cambridge Analytica. Jurors counted over two million violations. The judge sets the penalty: the state wants $5,000 each.\n\nSource: PBS NewsHour\n\nSwipe for what to say at age 7, at 10, and at 15.\n\nThe dinner table question: If a friend shared your secret years ago, does it still count? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #CambridgeAnalytica #DinnerTableNews"
+}
