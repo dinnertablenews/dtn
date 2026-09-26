@@ -1,0 +1,79 @@
+{
+  "slot": "2026-09-25 20:00 CT",
+  "date": "2026-09-25",
+  "category": "Government",
+  "outlet": "Axios",
+  "source_url": "https://www.axios.com/2026/09/25/trump-administration-revamped-voter-database-supreme-court",
+  "source_domain": "axios.com",
+  "headline": "Supreme Court lets Trump's citizenship check run",
+  "summary": "The justices lifted a June block on SAVE, a DHS immigration database rebuilt last year to check voter rolls for noncitizens in bulk. The majority said the government must answer states asking who is a citizen. Jackson, Sotomayor and Kagan dissented: lawful voters could lose their registrations. Midterms are under two months out.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "What if the list gets you wrong?"
+  },
+  "cover_answer": "It can. Your county clerk is supposed to catch it.",
+  "table_question": "The list says you're out. Who has to prove it, you or them?",
+  "photo_subject": "United States Supreme Court Building",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "Only citizens vote in America, and every town keeps a list of who can. Today the top judges said the government can use a big computer list to help check those town lists. It's like checking the class list against the school's list: now and then a name is spelled wrong. The grown-ups in each town still do the last check.",
+      "why": "Two lists and a spelling mistake. A six-year-old has seen both.",
+      "why_long": "A six-year-old reasons from what is in front of them, so the script gives them two lists and a misspelled name, a thing they have watched a teacher sort out. The court and the dissent stay with the grown-ups. Expect \"could they get me wrong?\" Not you: kids aren't on the list yet, and the town checks before anyone comes off."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "DHS keeps a list of people who aren't citizens. Trump's team made it a tool that checks voter rolls in bulk. A judge stopped it in June: the data had mistakes. Today the Supreme Court let it run, 6-3. It's a spell-checker: it flags, a person decides.",
+      "why": "List, tool, judge, court: one chain. The spell-checker can be wrong.",
+      "why_long": "This age is working out chains of cause and effect, so the script runs one chain, list to tool to judge to court, and hands them a spell-checker, which flags real words too. Who decides after the flag is the question. Expect \"so who's right?\" Nobody yet. The court let it run; the case goes on."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "If a check wrongly flags a few real voters, is it worth running? The majority says the government must answer states asking who's a citizen. Jackson: a few lost lawful voters outweigh waiting. Second: purges stop 90 days before an election. What changed?",
+      "why": "Two real trade-offs. Jackson's line is the one they'll argue with.",
+      "why_long": "A teenager can hold two true things: a check that catches noncitizens, and the same check flagging a naturalized citizen by mistake. The script gives them the majority's duty and Jackson's arithmetic, then the 90-day rule. Expect \"does this change November?\" Jessica Huseman of Votebeat says little now, a sea change after."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "What's a citizen?",
+        "a": "Someone who belongs to the country, by being born here or by joining later. Citizens are the ones who get to vote."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "What if the list gets you wrong?",
+        "a": "It has, in Texas. Votebeat says the county clerk checks again before removing anyone."
+      },
+      {
+        "q": "Why is DHS involved in voting?",
+        "a": "It keeps records on noncitizens. Trump's team made that a tool states can run voter rolls through."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Didn't a judge already call this illegal?",
+        "a": "Judge Sooknanan did, in June. Today's order pauses that while the appeal runs. The case isn't over."
+      },
+      {
+        "q": "Will this change who votes in November?",
+        "a": "Probably not much now, says Votebeat's Jessica Huseman. After November, she calls it a sea change."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#VoterRolls",
+    "#DinnerTableNews"
+  ],
+  "photo": "data/images/2026-09-25-evening.jpg",
+  "photo_credit": "Photo: Joe Ravi, Wikimedia Commons, CC BY-SA 3.0",
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 10,
+    "13-17": 16
+  },
+  "caption": "It can. Your county clerk is supposed to catch it.\n\nThe justices lifted a June block on SAVE, a DHS immigration database rebuilt last year to check voter rolls for noncitizens in bulk. The majority said the government must answer states asking who is a citizen. Jackson, Sotomayor and Kagan dissented: lawful voters could lose their registrations. Midterms are under two months out.\n\nSource: Axios\nPhoto: Joe Ravi, Wikimedia Commons, CC BY-SA 3.0\n\nSwipe for what to say at age 7, at 10, and at 16.\n\nThe dinner table question: The list says you're out. Who has to prove it, you or them? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #VoterRolls #DinnerTableNews"
+}
