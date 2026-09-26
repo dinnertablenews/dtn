@@ -1,0 +1,76 @@
+{
+  "slot": "2026-09-26 12:00 CT",
+  "date": "2026-09-26",
+  "category": "Security",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/nation/report-finds-many-security-deficiencies-at-utah-university-where-charlie-kirk-was-killed",
+  "source_domain": "pbs.org/newshour",
+  "headline": "Report: no security plan the day Charlie Kirk was shot",
+  "summary": "Utah Valley University released an outside review on Friday of the day Charlie Kirk was shot. The college never wrote a security assessment or an event plan and left the big calls to Turning Point USA, which insisted on an outdoor courtyard. The shot came from a rooftop 400 feet away. Kirk's family has filed a wrongful-death notice.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Was it the school's fault?"
+  },
+  "cover_answer": "Partly. The report says the school skipped its checks.",
+  "table_question": "If you asked for the risky spot and got hurt, whose fault is it?",
+  "ages": {
+    "5-7": {
+      "shield": true,
+      "script": "A man named Charlie Kirk was giving a talk outside at a college in Utah last year when someone far away shot him. He died. A report now says the college never checked the rooftops, like a fire drill where nobody checks the exits. That was far away. The police have the man they think did it, and the grown-ups are fixing the checks.",
+      "why": "A fire drill with the exits unchecked. The gun stays a year back.",
+      "why_long": "A six-year-old reasons from what is in front of them, so the script gives them one picture, a fire drill where nobody checks the exits, and keeps the shooting a year back and far away. Expect \"could that happen at my school?\" Your school checks. That check is what the report says this college skipped."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "Big events run on a checklist: who watches the roofs, who checks bags, who's in charge. The report says the college never wrote one for Charlie Kirk's talk and let his team pick a courtyard ringed by tall buildings. The shot came from a roof 400 feet away.",
+      "why": "A checklist with blank lines. They can see which step was skipped.",
+      "why_long": "This age is working out rules and whether adults follow them, so the script hands them the checklist and shows where the lines went blank: no written plan, and a yard chosen by the speaker's team. Expect \"so who was in charge?\" Nobody, the report says. The college handed the decisions to Turning Point."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "If a speaker's own team insists on the risky spot, whose fault is the risk? The review says Turning Point wanted the courtyard and UVU went along with no line-of-sight check. Second: it found no bad faith at the college. Does that settle a wrongful-death claim?",
+      "why": "Blame split two ways, and a finding that clears intent. Let them weigh it.",
+      "why_long": "A teenager can hold two true things: the college skipped the checks, and the man who fired was someone else. The script hands them both, plus the reviewers' finding of no bad faith, and asks what that clears. Expect \"why sue the school and not the shooter?\" The shooter is in criminal court. The notice asks what the college owed him."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Was it the school's fault?",
+        "a": "Partly, the report says. The college didn't check the tall buildings around the yard. Nobody there wanted him hurt."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why didn't they just move it inside?",
+        "a": "Some college staff suggested indoor rooms. Kirk's team wanted the courtyard because he'd spoken there before, and the college went along."
+      },
+      {
+        "q": "Did the school get in trouble?",
+        "a": "Not yet. The review says nobody there acted in bad faith. Kirk's family has filed a notice that usually comes before a lawsuit."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Isn't it the shooter's fault, full stop?",
+        "a": "He's charged with aggravated murder and pleaded not guilty. The review asks a different question: whether the college made his shot easier."
+      },
+      {
+        "q": "Can the family sue a public college?",
+        "a": "They've sent a wrongful-death notice, the step before a suit. Their lawyer says the buck stopped with UVU and the police."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#CharlieKirk",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 11,
+    "13-17": 15
+  },
+  "caption": "Partly. The report says the school skipped its checks.\n\nUtah Valley University released an outside review on Friday of the day Charlie Kirk was shot. The college never wrote a security assessment or an event plan and left the big calls to Turning Point USA, which insisted on an outdoor courtyard. The shot came from a rooftop 400 feet away. Kirk's family has filed a wrongful-death notice.\n\nSource: PBS NewsHour\n\nSwipe for what to say at age 6, at 11, and at 15.\n\nThe dinner table question: If you asked for the risky spot and got hurt, whose fault is it? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #CharlieKirk #DinnerTableNews"
+}

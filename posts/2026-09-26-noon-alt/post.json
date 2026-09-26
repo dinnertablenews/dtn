@@ -1,0 +1,76 @@
+{
+  "slot": "2026-09-26 12:00 CT",
+  "date": "2026-09-26",
+  "category": "Government",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/politics/supreme-court-rejects-trump-backed-missouri-congressional-map-for-third-time",
+  "source_domain": "pbs.org/newshour",
+  "headline": "Supreme Court to Missouri: use the old map. Third time.",
+  "summary": "The Supreme Court on Friday turned away Missouri's Trump-backed congressional map for the third time this month. The state votes in November on the districts it used in 2022 and 2024. Republicans drew the new map to win a seventh of eight seats. It shifted more than a million voters, and absentee ballots went out Tuesday.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Why does a map matter for voting?"
+  },
+  "cover_answer": "It decides which neighbors vote together for one seat.",
+  "table_question": "Can you change the rules of a game after it's started?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "Missouri is cut into eight pieces on a map, and each piece picks one person to send to Washington. Some grown-ups redrew the lines this year so their team would win more pieces. The top court said no, keep the old lines, like a referee saying the goalposts stay where they were. Voting goes on as normal.",
+      "why": "Eight pieces and a referee. The lawsuits stay with the grown-ups.",
+      "why_long": "A six-year-old reasons from what they can see, so the script makes the state a map cut into eight pieces and the court a referee who keeps the goalposts where they were. The sixteen lawsuits stay with the grown-ups. Expect \"which team won?\" Nobody yet. The old lines stay, and Missouri votes in November."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Missouri has eight House seats; Republicans hold six. Last year they redrew the lines to reach seven. Voters petitioned for a vote on the map, the state's top court froze it, and the US Supreme Court agreed, three times now. Ballots are out on the old lines.",
+      "why": "Draw, petition, freeze, appeal, no: a chain with a referee at the end.",
+      "why_long": "This age is working out rules and whether adults apply them evenly, so the script runs the chain as turns: the legislature draws, voters petition, the state court freezes, the Supreme Court says no, three times. Expect \"why is redrawing even allowed?\" The map survived most of its lawsuits. The voters' petition and the calendar stopped it."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Should a party redraw the map between elections? Missouri's did, at Trump's urging, to turn 6-2 into 7-1. Second: voters petitioned to freeze it, and the court said switching lines mid-election would bring chaos. Was that the law, or just the calendar?",
+      "why": "The court ruled on timing, not fairness. See if they notice.",
+      "why_long": "A teenager can hold two true things: the new map won most of its lawsuits, and it lost anyway, on timing. The script gives them the 6-2 to 7-1 motive and the court's chaos line, then asks which one decided it. Expect \"so is gerrymandering legal?\" The court didn't say. It said not mid-election."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Why does a map matter for voting?",
+        "a": "The lines decide which neighbors vote together for one seat. Move a line and a different team can win that seat."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why did it take three tries?",
+        "a": "Two lower courts kept reviving the new map. Each time the Supreme Court said the old lines stay, and Friday it said the fight is over."
+      },
+      {
+        "q": "Can they just redraw it again?",
+        "a": "Not for this election. The new map can't be used unless voters approve it in a referendum."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Was the new map illegal, or just late?",
+        "a": "Late. The court said reverting mid-election would bring chaos and never ruled on whether the map itself was fair."
+      },
+      {
+        "q": "Didn't they use the new map in the primary?",
+        "a": "Yes, in August. Brattin and Cleaver won under the new lines and stay on the ballot, but the district snapped back to its 2022 shape."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#MissouriRedistricting",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 8,
+    "13-17": 15
+  },
+  "caption": "It decides which neighbors vote together for one seat.\n\nThe Supreme Court on Friday turned away Missouri's Trump-backed congressional map for the third time this month. The state votes in November on the districts it used in 2022 and 2024. Republicans drew the new map to win a seventh of eight seats. It shifted more than a million voters, and absentee ballots went out Tuesday.\n\nSource: PBS NewsHour\n\nSwipe for what to say at age 6, at 8, and at 15.\n\nThe dinner table question: Can you change the rules of a game after it's started? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #MissouriRedistricting #DinnerTableNews"
+}
