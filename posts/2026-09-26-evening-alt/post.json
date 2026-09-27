@@ -1,0 +1,79 @@
+{
+  "slot": "2026-09-26 20:00 CT",
+  "date": "2026-09-26",
+  "category": "Culture",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/world/pope-leo-draws-800000-people-to-central-paris-for-open-air-mass-on-iconic-square",
+  "source_domain": "pbs.org/newshour",
+  "headline": "800,000 fill Paris for the Pope's open-air Mass",
+  "summary": "Pope Leo XIV said Mass on the Place de la Concorde in Paris on Saturday. The Vatican counted 800,000 people, 200,000 more than had registered. First the American pope rode 2 km down the Champs-Élysées in the popemobile. President Macron met him Friday but skipped the Mass: in France the state stays out of church. Next stop is Lourdes.",
+  "photo_subject": "Pope Leo XIV",
+  "cover_question": {
+    "band": "8-12",
+    "q": "Why didn't the president go?"
+  },
+  "cover_answer": "It's the rule. In France the state stays out of church.",
+  "table_question": "Should the president go to a church event to be polite?",
+  "ages": {
+    "5-7": {
+      "shield": false,
+      "script": "The Pope went to Paris today, and 800,000 people came to see him. That's enough people to fill a big football stadium ten times. He rode down the widest street in the city in a car with big windows, waving, and stopped to pat babies on the head. Then everyone stood in a huge square and prayed together.",
+      "why": "One crowd, one car, one wave. A picture they can hold.",
+      "why_long": "A six-year-old takes one vivid feature for the whole event, so the script gives them the crowd, the car with windows and the babies, and skips the politics. They read your face first, so let it be a happy one. Expect \"who is the Pope?\" The leader of the Catholic church, and this one was born in Chicago. That is the whole answer."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "France has a rule that the state keeps out of religion, like a referee who never wears a team's shirt. So President Macron met the Pope on Friday, then stayed away from every Mass. His wife and the prime minister went instead.",
+      "why": "A rule with a referee, and a leader who kept it when it looked odd.",
+      "why_long": "This age is working out rules and whether adults apply them consistently, so the script hands them the rule and a president who kept it on the day it was hardest to, with his wife in the crowd. The referee's shirt is the anchor. Expect \"but isn't that rude?\" France has argued that for a century. Ask where they would draw the line."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Is France secular if its president meets the Pope for an hour, then skips his Mass? Or is that a dodge? Second: adult baptisms tripled since 2016, to 13,000 this year, while all baptisms fell from 513,000 in 1980 to 186,000 in 2024. Growing or shrinking?",
+      "why": "Two lines that both go up and down. Make them hold both at once.",
+      "why_long": "A teenager can hold two true things at once, so the script hands them a pair: a president who honours the rule and the man in one weekend, and a church growing on one line and shrinking on the other. They are testing whether you will argue honestly, so admit the numbers cut both ways. Expect \"so which is it?\" Both. That is the point."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Why do so many people like him?",
+        "a": "Lots came to pray with him. Some came just to see him, the way you'd go to see a parade. He stopped to pat babies on the head."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why didn't the president go?",
+        "a": "France's rule keeps the state out of religion. Macron met the Pope on Friday, but his wife and the prime minister went to the Mass."
+      },
+      {
+        "q": "How do they count 800,000 people?",
+        "a": "The Vatican gave that number. 600,000 had signed up in advance, so the count came in 200,000 higher than the sign-ups."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Is France even Catholic anymore?",
+        "a": "Officially secular. Baptisms fell from 513,000 in 1980 to 186,000 in 2024, but adult baptisms tripled since 2016, to 13,000 this year."
+      },
+      {
+        "q": "Why did politicians show up then?",
+        "a": "Marine Le Pen and other presidential candidates were there. An election is next year, and 800,000 people is 800,000 voters."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#PopeLeo",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 9,
+    "13-17": 17
+  },
+  "photo": "data/images/2026-09-26-evening-alt.jpg",
+  "photo_credit": "Photo: Edgar Beltrán, The Pillar, Wikimedia Commons, CC BY-SA 4.0",
+  "caption": "It's the rule. In France the state stays out of church.\n\nPope Leo XIV said Mass on the Place de la Concorde in Paris on Saturday. The Vatican counted 800,000 people, 200,000 more than had registered. First the American pope rode 2 km down the Champs-Élysées in the popemobile. President Macron met him Friday but skipped the Mass: in France the state stays out of church. Next stop is Lourdes.\n\nSource: PBS NewsHour\nPhoto: Edgar Beltrán, The Pillar, Wikimedia Commons, CC BY-SA 4.0\n\nSwipe for what to say at age 6, at 9, and at 17.\n\nThe dinner table question: Should the president go to a church event to be polite? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #PopeLeo #DinnerTableNews"
+}

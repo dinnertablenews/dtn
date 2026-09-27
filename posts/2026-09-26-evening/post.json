@@ -1,0 +1,76 @@
+{
+  "slot": "2026-09-26 20:00 CT",
+  "date": "2026-09-26",
+  "category": "Climate",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/nation/roads-flood-in-new-jersey-inundate-some-homes-as-major-signs-of-noreaster-take-shape",
+  "source_domain": "pbs.org/newshour",
+  "headline": "A nor'easter floods the Shore. Boston loses Ed Sheeran.",
+  "summary": "A nor'easter hit the Northeast on Saturday. Streets flooded in Surf City and Manasquan, New Jersey, and New York and New Jersey declared emergencies. Forecasters called for 65 mph gusts on Cape Cod and 20-foot waves. Flights were cancelled in Boston, ferries stopped, the Red Sox moved a game, and Ed Sheeran called off two stadium shows.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "Why cancel a concert for rain?"
+  },
+  "cover_answer": "Not the rain. The wind, and 70,000 already without power.",
+  "table_question": "What's the one event you'd still show up for in a storm?",
+  "ages": {
+    "5-7": {
+      "shield": false,
+      "script": "A big storm is blowing along the top of the country tonight. In some beach towns in New Jersey the sea came up the streets, deep enough to float a paddleboard. Up in Boston the wind is so strong they cancelled a concert. The weather people saw it coming, so people stayed home, and it passes by the end of the weekend.",
+      "why": "Water where a road should be. They can picture that, and it ends.",
+      "why_long": "A six-year-old takes one vivid feature for the whole event, so the script gives them the true one that does not frighten: the sea up the street, deep enough for a paddleboard, and a concert called off for wind. They read your face first, so say it the way you would say it rained. Expect \"will it come here?\" No. It stays on the coast."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "A nor'easter spins up the Atlantic coast and shoves the sea onto land. Saturday's full moon lifted the tide higher. Then a chain: gale winds knock down trees, trees take down power lines, 70,000 customers go dark. Gillette Stadium called off Ed Sheeran for safety.",
+      "why": "One chain, wind to trees to lights. They can run it themselves.",
+      "why_long": "This age is working out chains of cause and effect, so the script hands them one to run: wind to trees to power lines to dark houses, with a full moon lifting the tide to make it a system. Expect \"why didn't they just wait for it to pass?\" They did. The Red Sox moved Sunday's game, and the island ferries stopped until the water calms."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Would you have cancelled Ed Sheeran, or waited for the wind? Gillette Stadium said safety and pulled two nights. Second: Jersey Shore mayors asked people on low streets to leave. Nobody was ordered. When is leaving mandatory, and who pays if they stay?",
+      "why": "Two real calls, made under a forecast. Let them make each one.",
+      "why_long": "A teenager can reason about what is not in front of them, so the script puts them in the chair: a stadium deciding under a forecast, and mayors asking, not ordering, people off streets that might flood. Take a side and let them take the other. Expect \"why not just order everyone out?\" Sea Bright's mayor hoped they would go on their own."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Did the storm hurt anybody?",
+        "a": "Not that the news says. People stayed home, the lights went out in some houses, and the storm moves on."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why cancel a concert for rain?",
+        "a": "Not the rain. Gusts of 50 mph or more around Boston, and 70,000 customers already dark. Gillette Stadium said safety."
+      },
+      {
+        "q": "What's a nor'easter?",
+        "a": "A storm that runs up the Atlantic coast with northeast winds. It shoves the sea onto land, and a full moon made the tides higher."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Are these getting worse?",
+        "a": "The forecaster in the article said fall nor'easters are normal. The trouble this time is the leaves are still on the trees, so more come down."
+      },
+      {
+        "q": "Why not order people out?",
+        "a": "Sea Bright's mayor hoped hundreds would leave and opened the rec center. He said it could be Irene-scale, the 2011 storm. Nobody was ordered."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#Noreaster",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 12,
+    "13-17": 14
+  },
+  "caption": "Not the rain. The wind, and 70,000 already without power.\n\nA nor'easter hit the Northeast on Saturday. Streets flooded in Surf City and Manasquan, New Jersey, and New York and New Jersey declared emergencies. Forecasters called for 65 mph gusts on Cape Cod and 20-foot waves. Flights were cancelled in Boston, ferries stopped, the Red Sox moved a game, and Ed Sheeran called off two stadium shows.\n\nSource: PBS NewsHour\n\nSwipe for what to say at age 7, at 12, and at 14.\n\nThe dinner table question: What's the one event you'd still show up for in a storm? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #Noreaster #DinnerTableNews"
+}
