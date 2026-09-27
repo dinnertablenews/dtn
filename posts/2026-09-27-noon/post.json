@@ -1,0 +1,80 @@
+{
+  "slot": "2026-09-27 12:00 CT",
+  "date": "2026-09-27",
+  "category": "Security",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/world/uk-police-arrest-5-men-near-an-air-base-used-by-u-s-on-suspicion-of-preparing-a-terrorist-act",
+  "source_domain": "pbs.org/newshour",
+  "headline": "Three vans near a US bomber base. Five men arrested.",
+  "summary": "Police in England arrested five men early Sunday near RAF Fairford, the base American bombers fly from to strike Iran. A caller reported three suspicious vans heading for the base at 12:45 a.m. A bomb disposal robot worked through the vans while 85 households were evacuated. The five are held on suspicion of preparing a terrorist act.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Did they catch them in time?"
+  },
+  "cover_answer": "Yes. Police stopped three vans and arrested five men.",
+  "table_question": "Would you let a friend keep something dangerous in your garage?",
+  "photo_subject": "RAF Fairford",
+  "photo_zoom": 1.0,
+  "ages": {
+    "5-7": {
+      "shield": true,
+      "script": "In England last night, police stopped three vans driving toward an air base and arrested five men. The police think the men were planning something dangerous, so the army sent a robot to look inside the vans, and the families nearby went to a rec center for a while, like a fire drill. That was across an ocean. The police have them, and the grown-ups have it.",
+      "why": "A robot looking in a van, and a fire drill. The script names no bomb.",
+      "why_long": "At this age they take one vivid feature for the whole event, so the script picks it: a robot looking inside a van, and a fire drill for the families next door. The bomb is never named. Shield it: a plot is nothing they can act on. If they hear it anyway, expect \"could they come here?\" No. Across an ocean, and the police have them."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "RAF Fairford is a British base that American bombers fly from to hit Iran. Iran has said a base used to attack it is a fair target. So when a villager reported three strange vans heading for it at 12:45 a.m., armed police were there fast. Like a smoke alarm: someone checks the moment it goes off.",
+      "why": "The base, the threat, the call, the arrest. And a smoke alarm.",
+      "why_long": "This age is working out cause and effect, so the script hands them the chain: bombers fly from the base, Iran calls it a target, a villager sees three vans, police arrive. The smoke alarm is the check. Expect \"did the police know already?\" Trump says the men were under watch. British police say it is early."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Iran calls a base used to bomb it a legitimate target. Britain lent Fairford to the US while its own prime minister opposed the war. Who put the 85 households next door in the path? Second: terror suspects can be held 14 days without charge, against 24 hours for anyone else. Fair?",
+      "why": "Two questions with no clean answer. Let them argue the base first.",
+      "why_long": "A teenager can hold two true things at once: Britain opposed the war, and lent the base for it anyway. The script asks who that put in the path, then hands them a second trade, 14 days against 24 hours. Let them make the case before you weigh in. Expect \"would we lend a base to someone else's war?\" Britain did, under a Cold War deal."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Did they catch them in time?",
+        "a": "Yes. Police stopped three vans before they reached the base and arrested five men. Then the army checked the vans with a robot."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why is an American base in England?",
+        "a": "The UK owns it and the US runs it under a Cold War deal."
+      },
+      {
+        "q": "What was in the vans?",
+        "a": "Police haven't said. A bomb disposal robot searched the trucks."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Was it Iran?",
+        "a": "Police named no one. British officials say Iran-linked proxies have done arson and sabotage in the UK before."
+      },
+      {
+        "q": "Why can they hold them 14 days without charge?",
+        "a": "The Terrorism Act allows it, against 24 hours for a normal arrest."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#RAFFairford",
+    "#DinnerTableNews"
+  ],
+  "photo": "data/images/2026-09-27-noon.jpg",
+  "photo_credit": "Photo: Steve Lynes from Sandshurst, United Kingdom, Wikimedia Commons, CC BY 2.0",
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 12,
+    "13-17": 17
+  },
+  "caption": "Yes. Police stopped three vans and arrested five men.\n\nPolice in England arrested five men early Sunday near RAF Fairford, the base American bombers fly from to strike Iran. A caller reported three suspicious vans heading for the base at 12:45 a.m. A bomb disposal robot worked through the vans while 85 households were evacuated. The five are held on suspicion of preparing a terrorist act.\n\nSource: PBS NewsHour\nPhoto: Steve Lynes from Sandshurst, United Kingdom, Wikimedia Commons, CC BY 2.0\n\nSwipe for what to say at age 7, at 12, and at 17.\n\nThe dinner table question: Would you let a friend keep something dangerous in your garage? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #RAFFairford #DinnerTableNews"
+}
