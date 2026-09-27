@@ -1,0 +1,80 @@
+{
+  "slot": "2026-09-27 07:00 CT",
+  "date": "2026-09-27",
+  "category": "Culture",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/world/pope-leo-draws-800000-people-to-central-paris-for-open-air-mass-on-iconic-square",
+  "source_domain": "pbs.org/newshour",
+  "headline": "The Pope said Mass in Paris. 800,000 showed up.",
+  "summary": "Pope Leo XIV said Mass on Saturday on the Place de la Concorde, the Paris square where Louis XVI was guillotined. The Vatican counted 800,000 people, 200,000 more than had registered. President Macron met the Pope on Friday and skipped the Mass: in France the state stays out of church. Adult baptisms in France have tripled since 2016.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "Why would so many go to Mass?"
+  },
+  "cover_answer": "Not all did. Many came to hear him, not to pray.",
+  "table_question": "Should the person running a country go to a church service?",
+  "photo_subject": "Pope Leo XIV",
+  "photo_zoom": 1.0,
+  "ages": {
+    "5-7": {
+      "shield": false,
+      "script": "The Pope went to Paris this weekend and 800,000 people came out to see him. The night before, 80,000 kids filled the big stadium. Saturday's crowd was ten of those. He rode down the street in his slow glass car and stopped to pat babies on the head, like a giant street party.",
+      "why": "Ten stadiums of people and a slow glass car. The picture does the work. At six a crowd is a number they can't hold, so the script gives them the stadium they can.",
+      "why_long": "A six-year-old takes one vivid feature for the whole event, so the script gives them the true ones: ten stadiums of people and a slow glass car with a pope in it patting babies. They read your face first, so tell it like a parade. Expect \"can we go see him?\" Not this trip. He is in France all weekend, and 800,000 got there first."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "France has a rule: the government stays out of religion. So Macron talked with the Pope for an hour on Friday, then skipped the Mass, while his wife and the prime minister went. Like a referee who shakes hands with both captains but never wears a jersey.",
+      "why": "A rule, and a president keeping it while his wife walks through the gap.",
+      "why_long": "This age is working out rules and whether adults apply them consistently, so the script hands them one with a real test in it: the state stays out of church, the president keeps to it, and his wife and prime minister go anyway. Expect \"isn't that cheating?\" The rule binds the office, not the family. Let them rule on it."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Why would 800,000 go to a Mass in a country where the churches are emptying? France baptised 186,000 people in 2024, against 513,000 in 1980. Second: Macron skipped the Mass, and four rivals for his job went. Neutral, or careful?",
+      "why": "Two facts that pull against each other. Let them hold both first.",
+      "why_long": "A teenager can hold two true things at once, so the script gives them a pair: churches emptying, and 800,000 in one square. Kuhn's point is that argument is a practised skill, so let them argue what the crowd means before you offer the baptism numbers. Expect \"were they all Catholic?\" No. Some came for the crowd, and said so."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Who is the Pope?",
+        "a": "The leader of the Catholic church. This one is American, born in Chicago, and he is 71."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why didn't the president go?",
+        "a": "France keeps the state out of religion by law, so Macron met the Pope on Friday for talks and stayed away from every Mass. His wife went."
+      },
+      {
+        "q": "How do they count 800,000 people?",
+        "a": "The Vatican gave that number, and the article doesn't say how it counted. 600,000 had registered, so about 200,000 more turned up on the day."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why would so many go to Mass?",
+        "a": "Not all did. A startup founder who is not Catholic said it reminds people what matters. Others came for the crowd."
+      },
+      {
+        "q": "Was Macron right to skip it?",
+        "a": "France's law separates church and state, and he kept to it. His wife, his prime minister and Marine Le Pen all went."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#PopeLeo",
+    "#DinnerTableNews"
+  ],
+  "photo": "data/images/2026-09-27-morning.jpg",
+  "photo_credit": "Photo: Edgar Beltrán, The Pillar, Wikimedia Commons, CC BY-SA 4.0",
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 8,
+    "13-17": 16
+  },
+  "caption": "Not all did. Many came to hear him, not to pray.\n\nPope Leo XIV said Mass on Saturday on the Place de la Concorde, the Paris square where Louis XVI was guillotined. The Vatican counted 800,000 people, 200,000 more than had registered. President Macron met the Pope on Friday and skipped the Mass: in France the state stays out of church. Adult baptisms in France have tripled since 2016.\n\nSource: PBS NewsHour\nPhoto: Edgar Beltrán, The Pillar, Wikimedia Commons, CC BY-SA 4.0\n\nSwipe for what to say at age 6, at 8, and at 16.\n\nThe dinner table question: Should the person running a country go to a church service? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #PopeLeo #DinnerTableNews"
+}
