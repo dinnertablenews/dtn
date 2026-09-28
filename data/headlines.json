@@ -1,9 +1,22 @@
 {
- "fetched_at": "2026-09-28T03:31:24.539899+00:00",
+ "fetched_at": "2026-09-28T04:31:56.354501+00:00",
  "window_hours": 48,
- "count": 266,
+ "count": 267,
  "errors": [],
  "items": [
+  {
+   "title": "World News: Top & Breaking World News Today",
+   "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1PRFY2SmRjOGtzcEdoNlUzaU5aR2c4MnhydnlTTm9ZR3lOaEFNbzVhZGd3Zmh2S0IySTVERXRBX3pfTjA?oc=5",
+   "summary": "World News: Top & Breaking World News Today AP News",
+   "published": "2026-09-28T03:19:05+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "08130bc19dc5",
+   "article_url": "https://apnews.com/world-news",
+   "has_text": false
+  },
   {
    "title": "Trump floated US weapons sales to Xi, ambassador says",
    "link": "https://thehill.com/policy/defense/6114367-trump-proposed-selling-weapons-china/",
@@ -44,6 +57,32 @@
    "has_text": false
   },
   {
+   "title": "Trump said he would dine with Anthropic CEO amid mounting AI debate",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNLXRoRE9HbFkyajhqd25WRy1GRFQtTGlncWhsTEJMS0N4YWxLV21rRml3TlVtZm1FUTlLQmJidHEtZlpodF9Mb2N6TGhzaE83NnJ1ZC0za0VjYW1QYUJJUDZ5ZktLXzdxX21ON0dKbjNaLU1YRUI2V2JhN0s4NVBiY3E0ZjZXenBKckdmcmxKWGhxVkU3Q2xCTlE5S2t4NXplakVWV1EtYk54MEtDTEF2VFFhTlRZb00zUEln?oc=5",
+   "summary": "Trump said he would dine with Anthropic CEO amid mounting AI debate AP News",
+   "published": "2026-09-28T02:23:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "4cff57c00798",
+   "article_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNLXRoRE9HbFkyajhqd25WRy1GRFQtTGlncWhsTEJMS0N4YWxLV21rRml3TlVtZm1FUTlLQmJidHEtZlpodF9Mb2N6TGhzaE83NnJ1ZC0za0VjYW1QYUJJUDZ5ZktLXzdxX21ON0dKbjNaLU1YRUI2V2JhN0s4NVBiY3E0ZjZXenBKckdmcmxKWGhxVkU3Q2xCTlE5S2t4NXplakVWV1EtYk54MEtDTEF2VFFhTlRZb00zUEln?oc=5",
+   "has_text": false
+  },
+  {
+   "title": "Inside Malaysia’s gambit to make its pungent durian the most wanted",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQb2NHWm51dGltWE53Nk1QMHFUNHV1NEdCUi1uWjNnLV9kUkxhSGhqc2lBaXBERUc3S0VGalNGNUZvNS1pU2VETjhFWmthcVdMbTB0eFJZQjRCTTFzNmxoQ2NEOTYxRkZ1c20xWWlGSjVXdGhIMVNUREk2dzFoVEx2OF8xOXNlT3l1dG1RMU5TV2V1UDlhb0dlQWZLam9yR3lySE9KQXZOQVI?oc=5",
+   "summary": "Inside Malaysia’s gambit to make its pungent durian the most wanted AP News",
+   "published": "2026-09-28T02:22:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "d162346a9032",
+   "article_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQb2NHWm51dGltWE53Nk1QMHFUNHV1NEdCUi1uWjNnLV9kUkxhSGhqc2lBaXBERUc3S0VGalNGNUZvNS1pU2VETjhFWmthcVdMbTB0eFJZQjRCTTFzNmxoQ2NEOTYxRkZ1c20xWWlGSjVXdGhIMVNUREk2dzFoVEx2OF8xOXNlT3l1dG1RMU5TV2V1UDlhb0dlQWZLam9yR3lySE9KQXZOQVI?oc=5",
+   "has_text": false
+  },
+  {
    "title": "Late September warmth before wind and rain returns this week",
    "link": "https://www.bbc.co.uk/weather/articles/c8wyzzyxed3zo?at_medium=RSS&at_campaign=rss",
    "summary": "Temperatures remain above the average at the start of the week but wetter conditions are on the way for some",
@@ -67,6 +106,19 @@
    "section": "top",
    "id": "cc80765c137b",
    "article_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQ1hZbXQwQ081U1dwTWEwZG5zLXlZcFVMbzdvaXRVd2loUVlxVjJpN0Z2NENZamJiRmd2VFV1N3BCU0RrVnJzVE5QWTdjdFBSNmN6a2pGM3FUSjEwLUdhcFh3QmI0R1lNdkFJdHhZa1FkSzFkVjhRdUIwY0dGMllqQ2hCVUlEblctZDU4ODQ4VF9OeWVoOUhlc3FKQVhaeDFZdHc2cGl1U21WTFg5NWszNg?oc=5",
+   "has_text": false
+  },
+  {
+   "title": "Dan Wilson out as manager of the Seattle Mariners after disappointing season",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcGNPS0xfSnIxTGYzR2g0Y0xqZGg0TVdtcDZ2TjRfUXhhLUl4ckttVUE5MHpLMTRsVXZxazR3d2ZSdGRCUnVLWk9fbkVEOGJyYTZ5TGdNWUY1T2g2OEFGYVZKWE1zZFFnSmp1WjhTR2xXZXU0UW9jZmdmV3NBVnNzZUFHaFRUWWRRRG5ZRHZFUHMtQ0RqOEw1cQ?oc=5",
+   "summary": "Dan Wilson out as manager of the Seattle Mariners after disappointing season AP News",
+   "published": "2026-09-28T01:33:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "06d2345562d5",
+   "article_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcGNPS0xfSnIxTGYzR2g0Y0xqZGg0TVdtcDZ2TjRfUXhhLUl4ckttVUE5MHpLMTRsVXZxazR3d2ZSdGRCUnVLWk9fbkVEOGJyYTZ5TGdNWUY1T2g2OEFGYVZKWE1zZFFnSmp1WjhTR2xXZXU0UW9jZmdmV3NBVnNzZUFHaFRUWWRRRG5ZRHZFUHMtQ0RqOEw1cQ?oc=5",
    "has_text": false
   },
   {
@@ -291,19 +343,6 @@
    "has_text": true
   },
   {
-   "title": "Dan Wilson out as Seattle Mariners manager",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcGNPS0xfSnIxTGYzR2g0Y0xqZGg0TVdtcDZ2TjRfUXhhLUl4ckttVUE5MHpLMTRsVXZxazR3d2ZSdGRCUnVLWk9fbkVEOGJyYTZ5TGdNWUY1T2g2OEFGYVZKWE1zZFFnSmp1WjhTR2xXZXU0UW9jZmdmV3NBVnNzZUFHaFRUWWRRRG5ZRHZFUHMtQ0RqOEw1cQ?oc=5",
-   "summary": "Dan Wilson out as Seattle Mariners manager AP News",
-   "published": "2026-09-27T23:22:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "06d2345562d5",
-   "article_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcGNPS0xfSnIxTGYzR2g0Y0xqZGg0TVdtcDZ2TjRfUXhhLUl4ckttVUE5MHpLMTRsVXZxazR3d2ZSdGRCUnVLWk9fbkVEOGJyYTZ5TGdNWUY1T2g2OEFGYVZKWE1zZFFnSmp1WjhTR2xXZXU0UW9jZmdmV3NBVnNzZUFHaFRUWWRRRG5ZRHZFUHMtQ0RqOEw1cQ?oc=5",
-   "has_text": false
-  },
-  {
    "title": "From collapse to clinch, Phillies survive ‘living hell’ of last week and win final NL wild card",
    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNnNITkhnQS16Qjlxa24yVEhrQUdPQk1OY1FqMW1xRkw0d2FVRnViZnJNSDk5dWNWd0dsY1F2NS1jVURJblNvMkwxclFPNzVzVnFYOHJqRE9pN0tqX09ZNzNCeDBxV1ZMMkI4N3NHLU5XZloyNllaVmhKRkZXbGExZklIUk1ON2dkMkgzaUJzNE1aOGNsYjdRSHRTM1hNay1qZnc?oc=5",
    "summary": "From collapse to clinch, Phillies survive ‘living hell’ of last week and win final NL wild card AP News",
@@ -380,6 +419,19 @@
    "id": "5734901024a3",
    "article_url": "https://www.semafor.com/article/09/27/2026/firms-take-lead-on-ai-safety-standards-as-security-incidents-mount",
    "has_text": true
+  },
+  {
+   "title": "Vikings’ Justin Jefferson ruled out against Buccaneers with an ankle injury",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUUo3U0ZFb0lPLWRyZGhub3BacDY2RVVuMm9VV1F3SGdBanE2UjZOOVpyblVSMmFuVGJ0VEpzVHgtWE5uYlRaaW0xcS0yM1VmUU9HSnFIMTFGNk93Qlp3cGFhekhDVmh2SHdVWC1LOVJWMUJYOWgxSGlQOUdTY19XYTVtV2dGSnhCRnB4aHpJWW1UTlNES2E4OUpn?oc=5",
+   "summary": "Vikings’ Justin Jefferson ruled out against Buccaneers with an ankle injury AP News",
+   "published": "2026-09-27T22:32:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "a2d58c16c072",
+   "article_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUUo3U0ZFb0lPLWRyZGhub3BacDY2RVVuMm9VV1F3SGdBanE2UjZOOVpyblVSMmFuVGJ0VEpzVHgtWE5uYlRaaW0xcS0yM1VmUU9HSnFIMTFGNk93Qlp3cGFhekhDVmh2SHdVWC1LOVJWMUJYOWgxSGlQOUdTY19XYTVtV2dGSnhCRnB4aHpJWW1UTlNES2E4OUpn?oc=5",
+   "has_text": false
   },
   {
    "title": "Foreign investors buy into US equities at record rate",
@@ -515,7 +567,7 @@
    "title": "Sheriff: 12 teens wounded in a shootout at a birthday party in Georgia park",
    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYVhwcGlWNW9yTGMyWEs0ZjJfTUxwaURTemxwN3VkQUZCVHVmbkd6TUxkOW1iOVV6ak1MMXhjWGJRalN4NFRsbGVZcUdpbmdBeVdMem1LRHZSQlUwWVZKQm1fZ1N2MlIzOURGQ3UtLTR1elprNC1XV0hGX0xZVVNWMHZDS2xxMExz?oc=5",
    "summary": "Sheriff: 12 teens wounded in a shootout at a birthday party in Georgia park AP News",
-   "published": "2026-09-27T21:35:00+00:00",
+   "published": "2026-09-27T21:44:15+00:00",
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
@@ -590,6 +642,19 @@
    "has_text": true
   },
   {
+   "title": "Top photos from Week 3 of the NFL season",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPR3hnbTFBY09WX0hoTmRRdlQwOHNNbjVHUmZzRFE1SzNFcHFsTUJGakZvVHRIZ2tjQWphUGE3c0J4TGZqWTBoaE9CN3NoaHhXaWQ3cFBHTktZcC1SWlY3aXdqdnJTYW9uenNvNzZ5U0Z4UDBFOUFLeThfRERFRVRUZV9WNWdKTURYVS1jdzRR?oc=5",
+   "summary": "Top photos from Week 3 of the NFL season AP News",
+   "published": "2026-09-27T21:13:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "b87f1b0e3a5b",
+   "article_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPR3hnbTFBY09WX0hoTmRRdlQwOHNNbjVHUmZzRFE1SzNFcHFsTUJGakZvVHRIZ2tjQWphUGE3c0J4TGZqWTBoaE9CN3NoaHhXaWQ3cFBHTktZcC1SWlY3aXdqdnJTYW9uenNvNzZ5U0Z4UDBFOUFLeThfRERFRVRUZV9WNWdKTURYVS1jdzRR?oc=5",
+   "has_text": false
+  },
+  {
    "title": "The ups and downs of SpaceX's Starship test flights",
    "link": "https://www.bbc.co.uk/news/videos/c5zjzx49p049o?at_medium=RSS&at_campaign=rss",
    "summary": "The BBC's Ricky Boleto looks how previous SpaceX test flights went.",
@@ -640,19 +705,6 @@
    "id": "7160f5ef34fb",
    "article_url": "https://www.pbs.org/newshour/nation/2-giant-pandas-arrive-in-atlanta-under-a-u-s-china-government-agreement",
    "has_text": true
-  },
-  {
-   "title": "Weekend storms bring dangerous weather to North America, in photos",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMTczQm1HcUFsRnRyX2w1X3hlaTN3NUZXU3lrZXpSZWRRZ3IzVi1TN1JhcXJBX21PMzZXSVltUDFvNHczYUk1X2hBSUM0ekF4bTItU1pCMVQ5NDRBSE9xeTZzdjBYUW1CMXJpejVZV1loWjNUaVRUbi1Ea3NoRjFjb3lCRWVNdUU1Rm9zQ3RZUEdHNDA4bW5rS3pqZk5uU1pLMmtYYXcwWEh1ZWFGUnZ3Nm5KSEI?oc=5",
-   "summary": "Weekend storms bring dangerous weather to North America, in photos AP News",
-   "published": "2026-09-27T20:41:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "42f5c096749b",
-   "article_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMTczQm1HcUFsRnRyX2w1X3hlaTN3NUZXU3lrZXpSZWRRZ3IzVi1TN1JhcXJBX21PMzZXSVltUDFvNHczYUk1X2hBSUM0ekF4bTItU1pCMVQ5NDRBSE9xeTZzdjBYUW1CMXJpejVZV1loWjNUaVRUbi1Ea3NoRjFjb3lCRWVNdUU1Rm9zQ3RZUEdHNDA4bW5rS3pqZk5uU1pLMmtYYXcwWEh1ZWFGUnZ3Nm5KSEI?oc=5",
-   "has_text": false
   },
   {
    "title": "British PM Andy Burnham brings good vibes to his party's annual conference, but tough choices are coming",
@@ -1448,19 +1500,6 @@
    "has_text": false
   },
   {
-   "title": "Dylan Raiola leads No. 20 Oregon past No. 12 USC 41-27 after Dante Moore's frightening injury",
-   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTU91M3g3TVkwcTJ6aGg5ajRBSGZ3cWJOMlJGaEtLV2MwYWEzaWdGdEN2al9STEcyM3dRRTU2akVIckxyTE9UNE1MS0hOcVJPX1ZlX0lNVkhBU2hwcDlxSkdrOFB2cWp3dWoxdjVmSG5kNmlhS1hnWEg1Z2xQeHBSQ2R3?oc=5",
-   "summary": "Dylan Raiola leads No. 20 Oregon past No. 12 USC 41-27 after Dante Moore's frightening injury AP News",
-   "published": "2026-09-27T15:07:06+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "6d08e3398fe4",
-   "article_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTU91M3g3TVkwcTJ6aGg5ajRBSGZ3cWJOMlJGaEtLV2MwYWEzaWdGdEN2al9STEcyM3dRRTU2akVIckxyTE9UNE1MS0hOcVJPX1ZlX0lNVkhBU2hwcDlxSkdrOFB2cWp3dWoxdjVmSG5kNmlhS1hnWEg1Z2xQeHBSQ2R3?oc=5",
-   "has_text": false
-  },
-  {
    "title": "5 men arrested near UK air base used by U.S. in Iran war on suspicion of preparing a terrorist act",
    "link": "https://www.pbs.org/newshour/world/uk-police-arrest-5-men-near-an-air-base-used-by-u-s-on-suspicion-of-preparing-a-terrorist-act",
    "summary": "Fairford has been used by American bombers for strictly limited strikes against Iran under an agreement with former British Prime Minister Keir Starmer, who voiced opposition to the war after it was launched by the U.S. and Israel on Feb. 28.",
@@ -2124,6 +2163,19 @@
    "has_text": false
   },
   {
+   "title": "Dylan Raiola leads No. 20 Oregon past No. 12 USC 41-27 after Dante Moore's frightening injury",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTU91M3g3TVkwcTJ6aGg5ajRBSGZ3cWJOMlJGaEtLV2MwYWEzaWdGdEN2al9STEcyM3dRRTU2akVIckxyTE9UNE1MS0hOcVJPX1ZlX0lNVkhBU2hwcDlxSkdrOFB2cWp3dWoxdjVmSG5kNmlhS1hnWEg1Z2xQeHBSQ2R3?oc=5",
+   "summary": "Dylan Raiola leads No. 20 Oregon past No. 12 USC 41-27 after Dante Moore's frightening injury AP News",
+   "published": "2026-09-27T04:46:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "6d08e3398fe4",
+   "article_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTU91M3g3TVkwcTJ6aGg5ajRBSGZ3cWJOMlJGaEtLV2MwYWEzaWdGdEN2al9STEcyM3dRRTU2akVIckxyTE9UNE1MS0hOcVJPX1ZlX0lNVkhBU2hwcDlxSkdrOFB2cWp3dWoxdjVmSG5kNmlhS1hnWEg1Z2xQeHBSQ2R3?oc=5",
+   "has_text": false
+  },
+  {
    "title": "Bangkok roads submerged as flood disaster declared",
    "link": "https://www.bbc.co.uk/news/articles/ck1wxx8n2x3zo?at_medium=RSS&at_campaign=rss",
    "summary": "Authorities said the heavy rains have subsided but the flooding is not yet over.",
@@ -2170,7 +2222,7 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "top",
+   "section": "climate",
    "id": "233737381e81",
    "article_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUTlpQlhDSGZrLU9DOFd2YzdSajl1NGtvV21vVkNTUV9kc0lOX1R1REJMUHBzaFJhSnF4QUYzb1o3Rm4wVnQ5UWNSeHBjM0tEdEtLaEM3QWMyb1d4Sk0tUWFtNElqYzlqeGlHSmYtV1EtUE1LeS01eF9KeWlSZGJyWTFvaHdlZw?oc=5",
    "has_text": false
@@ -2183,7 +2235,7 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "top",
+   "section": "climate",
    "id": "c354a12414e8",
    "article_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOd1JTRGdCNzVjMUkzSmE4cTA3Szh6WE8zNlpLQlRmSGdIRDVoTkVSN1VvS3dqZlBQSUlXSVVwX2xwV0tOVTZ6aUlySExzR2w4RzhwZHlwQlhlVmFfdDZTTWNSSW9KdkpYdGRkeVpXcmgyNzZuZ3FxUm9qbUtCalcwaVNEcm1meS1GU1lJ?oc=5",
    "has_text": false
@@ -2196,7 +2248,7 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "top",
+   "section": "climate",
    "id": "82e69626b0d2",
    "article_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUGN6eERUWDdzYmpxQ0dKV1lhUnlDTUxmQi1qYkxuWm5JY2xmd0s4QmJzd2FDRkhOQTM4VUZKMmxyZm9MYUZ2VXRJYVM3bTJTalVld3FHUmhqYjlmV1U0OGZSRzF0dG1SLUpreWxyaWxlRkV5YVl0UzYxNUtOYzFNdnJHTS00akNSeF9EQzNBa1RGZw?oc=5",
    "has_text": false
@@ -2220,7 +2272,7 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "top",
+   "section": "climate",
    "id": "1f0cfbc7e731",
    "article_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNjE3ODh6bUtrbTNLTUVpOWtjTG9ieUdadGc0VWVsLWw1NjNRNTFGV1VJT3ZEaEJRNEQ4QjZPckR4LUhNVFIwRVItWTZUenJaMmtTQ1A0OVFmMjBmVkUyYTN5UU05VmJ4a2ZRNE03UV91T0hCUVRXeDJSWjdKcno1QnNTd1ZJQ2wxazlBcg?oc=5",
    "has_text": false
@@ -2233,7 +2285,7 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "top",
+   "section": "climate",
    "id": "44eea1961926",
    "article_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOU3JvZDV6TkZRdmF4TnRvbjdiMkI2UGFtRnRVaTM1X2tfX0VGcC1FcFdYQ1I1aENXWGNGWUpLU1hvYVYyS2dGcGhsaFNRRkxHeTcwVllqWnJCZWhpNlBuekUxT1B6TktiVGZoOGVWckN1NEVCRXFaTDl6MUJmM0UtVTg4WVM4QQ?oc=5",
    "has_text": false
@@ -2408,19 +2460,6 @@
    "has_text": false
   },
   {
-   "title": "No. 1 Texas outlasts No. 14 Tennessee 20-17 in Knoxville as Simmons gets 5 sacks with Trump watching",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMHFGM3JHV3huV2ZNeVM5TV9NZGkxRHZKelh5WW9nbXlWWms5NGNOQnJIY1QxNVBsZ293V1VJcE1VMEM1ZnN2TnI2NFJaUjFYODUwd0hBaFB0dC1fazFVZXJyUWRCdE1ZcG9KaFhKdV9Ed2haYWtCalhENHg5MHlpMWFiT3BHbnhI?oc=5",
-   "summary": "No. 1 Texas outlasts No. 14 Tennessee 20-17 in Knoxville as Simmons gets 5 sacks with Trump watching AP News",
-   "published": "2026-09-26T23:49:51+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "cf7f81c0e33f",
-   "article_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMHFGM3JHV3huV2ZNeVM5TV9NZGkxRHZKelh5WW9nbXlWWms5NGNOQnJIY1QxNVBsZ293V1VJcE1VMEM1ZnN2TnI2NFJaUjFYODUwd0hBaFB0dC1fazFVZXJyUWRCdE1ZcG9KaFhKdV9Ed2haYWtCalhENHg5MHlpMWFiT3BHbnhI?oc=5",
-   "has_text": false
-  },
-  {
    "title": "Verlander leaves final start of 21-year career as 7-year-old daughter sprints to the mound for hug",
    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZ1V3cnA1WUVZa1l3Z3Jpc2F4b2lTREFuUGhVelhBbXotQXl0LVRaQkR2UGF4enJoYlJBOE1aSjNVUVpua0dXSUpoU2hDZ2UwZ3pQWnNIbV9USTBNQmVHNkZQaWZJMW54dmJ1My1fSndIMTM5a010c2JSOFg0ZWhlVmM3TDNvdjA?oc=5",
    "summary": "Verlander leaves final start of 21-year career as 7-year-old daughter sprints to the mound for hug AP News",
@@ -2445,6 +2484,19 @@
    "id": "4cbad9125980",
    "article_url": "https://www.axios.com/2026/09/26/senate-republicans-sea-island-midterms-nrsc",
    "has_text": true
+  },
+  {
+   "title": "No. 1 Texas outlasts No. 14 Tennessee 20-17 in Knoxville as Simmons gets 5 sacks with Trump watching",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMHFGM3JHV3huV2ZNeVM5TV9NZGkxRHZKelh5WW9nbXlWWms5NGNOQnJIY1QxNVBsZ293V1VJcE1VMEM1ZnN2TnI2NFJaUjFYODUwd0hBaFB0dC1fazFVZXJyUWRCdE1ZcG9KaFhKdV9Ed2haYWtCalhENHg5MHlpMWFiT3BHbnhI?oc=5",
+   "summary": "No. 1 Texas outlasts No. 14 Tennessee 20-17 in Knoxville as Simmons gets 5 sacks with Trump watching AP News",
+   "published": "2026-09-26T23:33:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "cf7f81c0e33f",
+   "article_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMHFGM3JHV3huV2ZNeVM5TV9NZGkxRHZKelh5WW9nbXlWWms5NGNOQnJIY1QxNVBsZ293V1VJcE1VMEM1ZnN2TnI2NFJaUjFYODUwd0hBaFB0dC1fazFVZXJyUWRCdE1ZcG9KaFhKdV9Ed2haYWtCalhENHg5MHlpMWFiT3BHbnhI?oc=5",
+   "has_text": false
   },
   {
    "title": "OpenAI pauses training of latest models after agents probed US government sites in unexpected ways",
@@ -2772,6 +2824,19 @@
    "has_text": true
   },
   {
+   "title": "China and US agree to establish AI safety channel and continue trade and military talks",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVDVpNXhQYUFNLTZHUVJkeGFXYnhyT0hFSm5CeEZxYi0wNTlxMjRxR3ZYdTNxa2I1bmVDZzRDWVRENFRkRTVmb2FxdDlweGpkOEJnODZpaXl1THFxcDQ5MDVNTWpBTVp1VEE4LU9NSjI4X0N5YjIzckFDU29HZktWWWlYWkMybTluQkZ0Mm5IY2NUSEEzeWp3OQ?oc=5",
+   "summary": "China and US agree to establish AI safety channel and continue trade and military talks AP News",
+   "published": "2026-09-26T17:42:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "192472b50426",
+   "article_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVDVpNXhQYUFNLTZHUVJkeGFXYnhyT0hFSm5CeEZxYi0wNTlxMjRxR3ZYdTNxa2I1bmVDZzRDWVRENFRkRTVmb2FxdDlweGpkOEJnODZpaXl1THFxcDQ5MDVNTWpBTVp1VEE4LU9NSjI4X0N5YjIzckFDU29HZktWWWlYWkMybTluQkZ0Mm5IY2NUSEEzeWp3OQ?oc=5",
+   "has_text": false
+  },
+  {
    "title": "Kennedy Center put off planned repairs despite known structural issues, former employees allege",
    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZHJGdHdkVVlMTVBaV1hVeVFVQW1ianlvTkVKelZ3Ylk0YlVwcmE4R3ROVEhkQWdSZnlrdXI1WGFPZm5ZZ0x4SmtudnkyUmhZSjFxaWpKRUNPZzctblFvTlBSZXBDSjFwUnFPWmllbFB2MjB2bEEyYnpVUUtqQ1NDYmxtMlZ5ZTBPS2VGdEpZak1aNUpfRG9DMTRPYkFTWEFBcTNQX213MGdJYzlsdGRCSg?oc=5",
    "summary": "Kennedy Center put off planned repairs despite known structural issues, former employees allege AP News",
@@ -2899,19 +2964,6 @@
    "section": "top",
    "id": "249a439221d6",
    "article_url": "https://thehill.com/homenews/campaign/6113111-kehoe-missouri-map-blocked/",
-   "has_text": false
-  },
-  {
-   "title": "Colombia extradites rebel leader to US as its security strategy aligns with Washington",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNOGFDcUVqbVZoSmhqb2lwVWVjZExBYzlWY1Z1T1lBemhYUjVvSnh1TTVBRWlscVRtaXVWYUlWc1hHMnQ3RWJlZ1dxam1DZW9ROVROcm1zWHhfdXNsUExfbnc1X0hmVU9yRWVMcllIdDJjMElWWTR3aHhrQkNwQS1PNC05SGU1bjBQRDlNVjZKSjlMRGc?oc=5",
-   "summary": "Colombia extradites rebel leader to US as its security strategy aligns with Washington AP News",
-   "published": "2026-09-26T16:01:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "b276dc2ba5ff",
-   "article_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNOGFDcUVqbVZoSmhqb2lwVWVjZExBYzlWY1Z1T1lBemhYUjVvSnh1TTVBRWlscVRtaXVWYUlWc1hHMnQ3RWJlZ1dxam1DZW9ROVROcm1zWHhfdXNsUExfbnc1X0hmVU9yRWVMcllIdDJjMElWWTR3aHhrQkNwQS1PNC05SGU1bjBQRDlNVjZKSjlMRGc?oc=5",
    "has_text": false
   },
   {
@@ -3419,43 +3471,6 @@
    "section": "climate",
    "id": "d819bd76a819",
    "article_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWGVGNWN6dVQ0WHJ4UTREaTAwZ1p0OW92cURWdFEzdHlGUW1ldGRlNmhlLTU4RkIwNDNRTU9mNS0xbmFWSDI1ZlpTRTlkTnRJUWJfcW1oNkVRcGlaNno0ZkplWUdja18xR2djZFlqajZmVGhBWkNnT3BlR1pFTERBWG5YSjkxdHJtNjdYQ2VncXFrUlNkNUQ1TzdvU050YmhIT0JTN3F1SQ?oc=5",
-   "has_text": false
-  },
-  {
-   "title": "APOD: 2026 September 26 – Mirrored Meteor and Milky Way",
-   "link": "https://science.nasa.gov/image-article/apod-2026-september-26-mirrored-meteor-and-milky-way/",
-   "summary": "APOD Science APOD APOD: 2026 September 26 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Mirrored Meteor and […]",
-   "published": "2026-09-26T04:05:00+00:00",
-   "source": "nasa",
-   "outlet": "NASA",
-   "counted": false,
-   "section": "top",
-   "id": "e8b09004eb49"
-  },
-  {
-   "title": "Photos of record-breaking swimmers and more from the Asian Games’ first week",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPLUtNdEZrWjBTaHJyTXUycEFSNndHMEFnd1diUzJucmFvc2I3d1JnVFRRbzFMZGRrVVAzc242MXZNQ3JORFpwNElaOW5jeWVDMHFJOXJQNUx2VzlnYkdKY3JOaHUxZE44Um1QdE5hdlZOX1FiT2hXeWJ0Z0FnZ2RFaHdIZkw2SVVzb2pJUThVdTk4RTZJcklYc01ialZrbVZMczZqNw?oc=5",
-   "summary": "Photos of record-breaking swimmers and more from the Asian Games’ first week AP News",
-   "published": "2026-09-26T03:50:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "21f1612b67e9",
-   "article_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPLUtNdEZrWjBTaHJyTXUycEFSNndHMEFnd1diUzJucmFvc2I3d1JnVFRRbzFMZGRrVVAzc242MXZNQ3JORFpwNElaOW5jeWVDMHFJOXJQNUx2VzlnYkdKY3JOaHUxZE44Um1QdE5hdlZOX1FiT2hXeWJ0Z0FnZ2RFaHdIZkw2SVVzb2pJUThVdTk4RTZJcklYc01ialZrbVZMczZqNw?oc=5",
-   "has_text": false
-  },
-  {
-   "title": "OpenAI says its models engaged with US government websites in new model misbehavior disclosure",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTXotYUJaRDhtSE9salVqcGVWdUlOR1V4dnVMQzd0OXJKZEdnWWNUTG1TNXZIcG9Pb1RmSmxqeXlMajItSGZZQWpWSXRhajRuNVd0TzNsSjA4Y1FtQXhtekdlRmZsU1c2cTI1RDlXd2lBeTNIVml2Q045aF9OalZXTFgwaUpGbEM4Qm9PbDF2aTRkeGNNVTY4MkRB?oc=5",
-   "summary": "OpenAI says its models engaged with US government websites in new model misbehavior disclosure AP News",
-   "published": "2026-09-26T03:42:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "f794c9cc0f88",
-   "article_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTXotYUJaRDhtSE9salVqcGVWdUlOR1V4dnVMQzd0OXJKZEdnWWNUTG1TNXZIcG9Pb1RmSmxqeXlMajItSGZZQWpWSXRhajRuNVd0TzNsSjA4Y1FtQXhtekdlRmZsU1c2cTI1RDlXd2lBeTNIVml2Q045aF9OalZXTFgwaUpGbEM4Qm9PbDF2aTRkeGNNVTY4MkRB?oc=5",
    "has_text": false
   }
  ]
