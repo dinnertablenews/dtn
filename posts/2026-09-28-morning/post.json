@@ -1,0 +1,76 @@
+{
+  "slot": "2026-09-28 07:00 CT",
+  "date": "2026-09-28",
+  "category": "Technology",
+  "outlet": "Axios",
+  "source_url": "https://www.axios.com/2026/09/27/anthropic-trump-dario-amodei-dinner-invite",
+  "source_domain": "axios.com",
+  "headline": "Trump asked Anthropic's CEO to dinner. Critics sent a memo.",
+  "summary": "Trump invited Anthropic CEO Dario Amodei to a private White House dinner Sunday night, their first one-on-one meeting. Amodei missed last week's state dinner with the other AI chiefs, so Trump asked him himself. Relations have been shaky all year. Before the meal, his opponents sent the White House a brief calling him a Trump critic.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "Why does a company need the president to like it?"
+  },
+  "cover_answer": "No company wants his bad side. Dinner with him is priceless.",
+  "table_question": "Would you have dinner with someone who says you're wrong?",
+  "ages": {
+    "5-7": {
+      "shield": false,
+      "script": "The president invited the boss of an AI company to dinner at the White House last night, just the two of them. The two sides have been cross with each other all year, and the boss missed the big dinner last week. So the president asked him over himself, the way you might ask the one kid who missed the party round to play. It's grown-ups sorting out a grump, and they have it.",
+      "why": "The kid who missed the party. One table, two people.",
+      "why_long": "A six-year-old reasons from what is in front of them, and a year of tension between a company and a government is not in front of anyone. The script gives them one table and two people, and turns the invitation into the kid who missed the party. Expect \"are they friends now?\" Not yet. They had dinner, and the article stops there."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Dario Amodei runs Anthropic and keeps warning that AI has risks. Trump waved those off, and the two sides fell out. He missed last week's state dinner, so Trump invited him to one of his own. Then someone sent the White House a memo on him, like a note to the teacher before your conference.",
+      "why": "A chain a kid can follow. The memo is a note to the teacher.",
+      "why_long": "This age is working out fairness and whether adults play straight, so the script hands them the chain: a warning, a falling out, a missed dinner, a personal invitation, then a memo from someone who won't sign it. The note to the teacher is the mechanism they know. Expect \"who wrote it?\" Nobody knows. Axios read it and could not say."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Amodei warns that AI is risky and runs Anthropic, worth hundreds of billions, which builds it. Can you sell the thing you warn about, or is the warning the pitch? Second: someone sent the White House a memo calling him a Trump critic, author unknown. Should a memo nobody will own count?",
+      "why": "Two true things, then a memo with no author.",
+      "why_long": "A teenager can hold two true things at once: Amodei warns about AI, and his company, which builds it, is worth hundreds of billions. The script asks them to keep both, then hands them a memo with no author and asks what it is worth. Expect \"did the dinner work?\" I don't know. The article was written before it."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Why did he go if they were cross?",
+        "a": "The president asked him himself. You can't sort out a grump without sitting down together."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Who wrote the memo?",
+        "a": "Nobody knows. Axios read it. The White House didn't write it."
+      },
+      {
+        "q": "Why did he miss the big dinner?",
+        "a": "A scheduling conflict, per Axios. Trump then invited him himself."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why does a company need the president to like it?",
+        "a": "Axios says no company wants Trump's bad side. Dinner with him is priceless."
+      },
+      {
+        "q": "Can you warn about AI and still sell it?",
+        "a": "Amodei does both. Anthropic is worth hundreds of billions."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#Anthropic",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 9,
+    "13-17": 16
+  },
+  "caption": "No company wants his bad side. Dinner with him is priceless.\n\nTrump invited Anthropic CEO Dario Amodei to a private White House dinner Sunday night, their first one-on-one meeting. Amodei missed last week's state dinner with the other AI chiefs, so Trump asked him himself. Relations have been shaky all year. Before the meal, his opponents sent the White House a brief calling him a Trump critic.\n\nSource: Axios\n\nSwipe for what to say at age 7, at 9, and at 16.\n\nThe dinner table question: Would you have dinner with someone who says you're wrong? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #Anthropic #DinnerTableNews"
+}

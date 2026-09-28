@@ -960,5 +960,24 @@
   "publish_run": 36361934238,
   "published": "https://www.instagram.com/p/Ddz9Oqqmzni/",
   "published_at": "2026-09-28T01:01:33+0000"
+ },
+ {
+  "slug": "2026-09-28-morning",
+  "date": "2026-09-28",
+  "slot": "morning",
+  "category": "Technology",
+  "headline": "Trump asked Anthropic's CEO to dinner. Critics sent a memo.",
+  "photo": false,
+  "photo_subject": null,
+  "cover_band": "13-17",
+  "publish_target": "2026-09-28T06:57-05:00",
+  "chosen": "primary",
+  "alternate": {
+   "folder": "posts/2026-09-28-morning-alt",
+   "category": "Climate",
+   "headline": "Polo reaches Baja today. The navy sent three ships.",
+   "photo": false
+  },
+  "note": "Run fired at 06:15 CT for the 07:00 morning slot; target drawn once at 06:57 CT. Rule 3 count: the last Good news entry is 2026-09-27-evening and nothing has run since, so this slot is not the positive one; the count carries at 0. Rule 4: rank.py's #1 cluster (AP, Axios, The Hill; 3 outlets, 4 items) is Trump hosting Anthropic CEO Dario Amodei at a private White House dinner on Sunday night, which did not run yesterday evening (the pandas did), so the morning takes it. Not in the last seven days of the log: the 2026-09-20-morning post was the subscribers' lawsuit against four AI labs, a different event. First post of the day, so rule 2 is clear; lead subject Amodei and Anthropic. Category Technology. Written from the two Axios articles (the dinner scoop and the critics' brief), which were the only items in the cluster with text; the AP and The Hill items carried RSS summaries only. The articles were written before the dinner, so the post says he was invited and stops there. Not a hard story, no shield. No photo: the last two entries (2026-09-27-noon and evening) both had photos. The story is about Anthropic, which makes the model that writes this run; the post takes nothing from outside the Axios text and says nothing the articles do not. Alternate under rule 8: #2 (3 outlets) is a false merge of a Semafor piece on Tigray and an AP and The Hill pair on House Democrats' oversight plans; each half on its own ranks below #4, and only the Tigray half has article text. #3 (AP, BBC News, PBS NewsHour) is the same nor'easter that ran as 2026-09-26-evening, skipped under rule 1. So the alternate is #4 (AP, PBS NewsHour; 2 outlets, 4 items): Hurricane Polo due to make landfall on Baja California on Monday, with Nolo passing Hawaii. Category Climate. It was last night's unrun alternate, which rule 8 leaves fair game. Written from the PBS NewsHour (AP) text; the two AP Polo items from this morning had headlines only. No photo, same rule as the primary. Cover band rotation: last entry was 8-12, so 13-17. Reel built for the primary, exit 0. Also trimmed the 2026-09-27-evening 8-12 and 13-17 why_long lines, which ran over that post's summary and were failing site.py (web-only text, not on a slide or in the caption)."
  }
 ]

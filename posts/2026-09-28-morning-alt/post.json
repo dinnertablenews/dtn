@@ -1,0 +1,76 @@
+{
+  "slot": "2026-09-28 07:00 CT",
+  "date": "2026-09-28",
+  "category": "Climate",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/nation/hurricane-nolo-gains-speed-as-it-moves-away-from-hawaii-but-high-winds-flash-floods-are-still-risk",
+  "source_domain": "pbs.org/newshour",
+  "headline": "Polo reaches Baja today. The navy sent three ships.",
+  "summary": "Hurricane Polo is due to make landfall on Mexico's Baja California peninsula Monday, crawling at 10 mph. It peaked at 140 mph and weakened to a Category 3 with 120 mph winds on Sunday. Mexico's navy has stacked aid in Guaymas and Mazatlan and sent out three ships for towns the storm cuts off. Nolo passed 260 miles south of Hawaii.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "Why send help by ship, not by road?"
+  },
+  "cover_answer": "The storm cuts towns off. Ships reach them from the sea.",
+  "table_question": "Would you leave your home before a storm, or stay to guard it?",
+  "ages": {
+    "5-7": {
+      "shield": false,
+      "script": "A storm called Polo is crossing the sea toward Mexico today. Its wind is 120 miles an hour, twice as fast as a car on the highway. Mexico's navy has loaded three ships with food and helpers, so they can reach any town the storm cuts off. It's far from us, and the grown-ups have it.",
+      "why": "One number and three ships. The helpers are already packed.",
+      "why_long": "A six-year-old takes one vivid feature for the whole event, so the script gives them one: 120 miles an hour, twice a highway car. Then it puts the helpers on ships before the storm arrives, which is the part that reassures. Expect \"is it coming here?\" No. It is headed for Mexico, a long way from here."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Polo peaked at 140 mph, then dropped to 120 and a Category 3 by Sunday, moving at 10 mph toward Baja. That crawl gave Mexico a day. The navy spent it stacking aid in two ports and putting three ships to sea for towns the storm cuts off. It's a pit crew: the tires are ready before the car comes in.",
+      "why": "Weaker but still coming. The pit crew is the navy.",
+      "why_long": "This age is working out cause and effect, so the script hands them the chain: the storm weakens but keeps coming, it moves slowly, the slow pace buys a day, and the navy spends it loading ships. The pit crew is ready before it is needed. Expect \"why not just tell people to leave?\" The article does not say who was told to go."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Polo dropped from 140 mph to 120 and is still a Category 3. Does \"weakened\" change what a town should do, or is it a word that makes people stay? Second: San Juanico got full-time power a couple of years ago and buys fuel from tanks. When the storm cuts it off, who owes it help first?",
+      "why": "Weakened is a word. Then who owes a small town help.",
+      "why_long": "A teenager can hold two true things at once: the storm weakened, and it is still a major hurricane. The script asks whether the softer word changes anything, then moves to San Juanico, with its new power lines and fuel in tanks, and asks who owes it help. Expect \"why does that town have so little?\" The article does not say."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Is the storm coming here?",
+        "a": "No. It's headed for Mexico, a long way from us. The navy is already there with three ships."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "How fast is 120 mph?",
+        "a": "About twice a car on the highway. It peaked at 140."
+      },
+      {
+        "q": "Why is it moving so slowly?",
+        "a": "The article doesn't say. It crawls at 10 mph, which gave Mexico a day to load ships."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why send help by ship, not by road?",
+        "a": "The storm cuts coast towns off. Navy ships reach them from the sea."
+      },
+      {
+        "q": "Why does that town have so little?",
+        "a": "It got full-time power only a couple of years ago. The article doesn't say why."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#HurricanePolo",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 10,
+    "13-17": 16
+  },
+  "caption": "The storm cuts towns off. Ships reach them from the sea.\n\nHurricane Polo is due to make landfall on Mexico's Baja California peninsula Monday, crawling at 10 mph. It peaked at 140 mph and weakened to a Category 3 with 120 mph winds on Sunday. Mexico's navy has stacked aid in Guaymas and Mazatlan and sent out three ships for towns the storm cuts off. Nolo passed 260 miles south of Hawaii.\n\nSource: PBS NewsHour\n\nSwipe for what to say at age 7, at 10, and at 16.\n\nThe dinner table question: Would you leave your home before a storm, or stay to guard it? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #HurricanePolo #DinnerTableNews"
+}
