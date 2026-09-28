@@ -1,15 +1,48 @@
 {
- "fetched_at": "2026-09-28T01:28:52.960416+00:00",
+ "fetched_at": "2026-09-28T02:30:12.416511+00:00",
  "window_hours": 48,
- "count": 271,
- "errors": [
-  {
-   "source": "nasa",
-   "url": "https://www.nasa.gov/feed/",
-   "error": "429 Client Error: Too Many Requests for url: https://www.nasa.gov/feed/"
-  }
- ],
+ "count": 269,
+ "errors": [],
  "items": [
+  {
+   "title": "Late September warmth before wind and rain returns this week",
+   "link": "https://www.bbc.co.uk/weather/articles/c8wyzzyxed3zo?at_medium=RSS&at_campaign=rss",
+   "summary": "Temperatures remain above the average at the start of the week but wetter conditions are on the way for some",
+   "published": "2026-09-28T01:46:35+00:00",
+   "source": "bbc",
+   "outlet": "BBC News",
+   "counted": true,
+   "section": "climate",
+   "id": "84af4f824116",
+   "article_url": "https://www.bbc.co.uk/weather/articles/c8wyzzyxed3zo?at_medium=RSS&at_campaign=rss",
+   "has_text": true
+  },
+  {
+   "title": "White House airs taxpayer-funded ad talking about ‘the final battle’",
+   "link": "https://thehill.com/homenews/administration/6114342-trump-nfl-ad-airing/",
+   "summary": "A taxpayer-funded advertisement from the White House aired Sunday during the commercial breaks of two NFL games, CNN reported. Included in the ad, according to the outlet, was imagery of President Trump making his way through a hall with a voiceover of the president saying, “this is the final battle.” “We will cast out the…",
+   "published": "2026-09-28T01:27:04+00:00",
+   "source": "thehill",
+   "outlet": "The Hill",
+   "counted": true,
+   "section": "top",
+   "id": "babb75f116e5",
+   "article_url": "https://thehill.com/homenews/administration/6114342-trump-nfl-ad-airing/",
+   "has_text": false
+  },
+  {
+   "title": "Taylor Swift and Charli XCX among stars to light up VMAs red carpet",
+   "link": "https://www.bbc.co.uk/news/videos/cw7v4plplmgpo?at_medium=RSS&at_campaign=rss",
+   "summary": "Celebrities posed for the cameras ahead of the 2026 MTV Video Music Awards in Los Angeles.",
+   "published": "2026-09-28T01:16:18+00:00",
+   "source": "bbc",
+   "outlet": "BBC News",
+   "counted": true,
+   "section": "top",
+   "id": "22c3787c371b",
+   "article_url": "https://www.bbc.co.uk/news/videos/cw7v4plplmgpo?at_medium=RSS&at_campaign=rss",
+   "has_text": true
+  },
   {
    "title": "Shipwreck found on Nantucket beach during storm",
    "link": "https://www.bbc.co.uk/news/videos/ck980zl0pgq9o?at_medium=RSS&at_campaign=rss",
@@ -24,6 +57,19 @@
    "has_text": true
   },
   {
+   "title": "Mexico's Baja California braces for major Hurricane Polo as Hurricane Nolo still threatens Hawaii",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWkVfdWVCUjVtNkdnYVNkVFNyRE5hS25qNThhZzE0YVdQdWtxMENrS0NnamF1X1htU09qQWVicWl2NEtnaW1SbXAwclpsZUg2WURCaWRNQ0M2c1NKQjBPVGZjRVV0eFc3QjRxeVRDYjdRajY5Q09KX1NsZjVSZUNWV1gxQ3d4VmwxRElOYVRCVDBSV2pkN0FzbA?oc=5",
+   "summary": "Mexico's Baja California braces for major Hurricane Polo as Hurricane Nolo still threatens Hawaii AP News",
+   "published": "2026-09-28T01:03:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "5b0995bb537b",
+   "article_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWkVfdWVCUjVtNkdnYVNkVFNyRE5hS25qNThhZzE0YVdQdWtxMENrS0NnamF1X1htU09qQWVicWl2NEtnaW1SbXAwclpsZUg2WURCaWRNQ0M2c1NKQjBPVGZjRVV0eFc3QjRxeVRDYjdRajY5Q09KX1NsZjVSZUNWV1gxQ3d4VmwxRElOYVRCVDBSV2pkN0FzbA?oc=5",
+   "has_text": false
+  },
+  {
    "title": "Watch: Shipwreck uncovered on Nantucket island during nor'easter storm",
    "link": "https://www.bbc.co.uk/news/videos/cmg497x0p4x3o?at_medium=RSS&at_campaign=rss",
    "summary": "The so-called nor'easter storm has washed up what may be a shipwreck from the 19th century in Massachusetts, local media says.",
@@ -31,10 +77,23 @@
    "source": "bbc",
    "outlet": "BBC News",
    "counted": true,
-   "section": "climate",
+   "section": "top",
    "id": "e7c9e475365d",
    "article_url": "https://www.bbc.co.uk/news/videos/cmg497x0p4x3o?at_medium=RSS&at_campaign=rss",
    "has_text": true
+  },
+  {
+   "title": "Americans rally in singles to win the Presidents Cup for the 11th straight time",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZGhyWXlabThOV1R0czJOb0s0a1Y5UlNzQ1RCVHhfQVhOTnBpNDhIbFliMVJ2aUpock5zTkk0X1FhT3g0Skh4YWcxVVQwcGtQaU9obFVlUjROWmJQQmZaazVzd2VBYjB1RnhMY1ZoUldtWVRmWmJnN21TRFVRUHRDSGdfc0FSMEhXdnY2ZXA2UjVlWlFockQtQmY4RF85VVFSaTFV?oc=5",
+   "summary": "Americans rally in singles to win the Presidents Cup for the 11th straight time AP News",
+   "published": "2026-09-28T00:23:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "fcc8f2e40968",
+   "article_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZGhyWXlabThOV1R0czJOb0s0a1Y5UlNzQ1RCVHhfQVhOTnBpNDhIbFliMVJ2aUpock5zTkk0X1FhT3g0Skh4YWcxVVQwcGtQaU9obFVlUjROWmJQQmZaazVzd2VBYjB1RnhMY1ZoUldtWVRmWmJnN21TRFVRUHRDSGdfc0FSMEhXdnY2ZXA2UjVlWlFockQtQmY4RF85VVFSaTFV?oc=5",
+   "has_text": false
   },
   {
    "title": "Kirk Cousins passes for 3 TDs and the unbeaten Raiders come back to top the Saints 35-27",
@@ -193,16 +252,16 @@
    "has_text": false
   },
   {
-   "title": "Hurricane Nolo still threatens Hawaii as Mexico’s Baja braces for major Hurricane Polo",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWkVfdWVCUjVtNkdnYVNkVFNyRE5hS25qNThhZzE0YVdQdWtxMENrS0NnamF1X1htU09qQWVicWl2NEtnaW1SbXAwclpsZUg2WURCaWRNQ0M2c1NKQjBPVGZjRVV0eFc3QjRxeVRDYjdRajY5Q09KX1NsZjVSZUNWV1gxQ3d4VmwxRElOYVRCVDBSV2pkN0FzbA?oc=5",
-   "summary": "Hurricane Nolo still threatens Hawaii as Mexico’s Baja braces for major Hurricane Polo AP News",
-   "published": "2026-09-27T23:09:00+00:00",
+   "title": "From collapse to clinch, Phillies survive ‘living hell’ of last week and win final NL wild card",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNnNITkhnQS16Qjlxa24yVEhrQUdPQk1OY1FqMW1xRkw0d2FVRnViZnJNSDk5dWNWd0dsY1F2NS1jVURJblNvMkwxclFPNzVzVnFYOHJqRE9pN0tqX09ZNzNCeDBxV1ZMMkI4N3NHLU5XZloyNllaVmhKRkZXbGExZklIUk1ON2dkMkgzaUJzNE1aOGNsYjdRSHRTM1hNay1qZnc?oc=5",
+   "summary": "From collapse to clinch, Phillies survive ‘living hell’ of last week and win final NL wild card AP News",
+   "published": "2026-09-27T23:18:00+00:00",
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
    "section": "top",
-   "id": "5b0995bb537b",
-   "article_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWkVfdWVCUjVtNkdnYVNkVFNyRE5hS25qNThhZzE0YVdQdWtxMENrS0NnamF1X1htU09qQWVicWl2NEtnaW1SbXAwclpsZUg2WURCaWRNQ0M2c1NKQjBPVGZjRVV0eFc3QjRxeVRDYjdRajY5Q09KX1NsZjVSZUNWV1gxQ3d4VmwxRElOYVRCVDBSV2pkN0FzbA?oc=5",
+   "id": "f0028d357780",
+   "article_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNnNITkhnQS16Qjlxa24yVEhrQUdPQk1OY1FqMW1xRkw0d2FVRnViZnJNSDk5dWNWd0dsY1F2NS1jVURJblNvMkwxclFPNzVzVnFYOHJqRE9pN0tqX09ZNzNCeDBxV1ZMMkI4N3NHLU5XZloyNllaVmhKRkZXbGExZklIUk1ON2dkMkgzaUJzNE1aOGNsYjdRSHRTM1hNay1qZnc?oc=5",
    "has_text": false
   },
   {
@@ -239,7 +298,7 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "climate",
+   "section": "top",
    "id": "6fc580e65c82",
    "article_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeC16UU8yb0tuclZUS3Z2dEtHZ2dVZWVrTWxleGw3YUYxWVlweWlMOHlLWlF6NjdZSWtiakVWb3k5WmlUazZrY2R1aTA5QnYwLVpKM1VwV2NzXzRTZjBFWVJMSGVFN0pwMFJfcnRUS1FucW9sWEdXUGlCMVhtSGhGZklhYlFWbmY2RXc?oc=5",
    "has_text": false
@@ -268,19 +327,6 @@
    "section": "top",
    "id": "5aaa57b9f99c",
    "article_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNc29LNjU2WGtLN0FVSWF3c01hQmw0M013X0V1U2N3TjNZQTVwdkVlMDh3bkgwQng2T3FRMFFkblFRNnktMjFwZ2VBbnd2SjR2TTBIN0tNUkVBempHWk5TN3lvYlN5OGNRNjUxaktuU1hQUnExeW5hbk5YaEVVU1lRcEQ3UFRTOE5xRmxjV2diSGtPTXBXdDdMWmln?oc=5",
-   "has_text": false
-  },
-  {
-   "title": "Americans rally in singles to win the Presidents Cup for the 11th straight time",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZGhyWXlabThOV1R0czJOb0s0a1Y5UlNzQ1RCVHhfQVhOTnBpNDhIbFliMVJ2aUpock5zTkk0X1FhT3g0Skh4YWcxVVQwcGtQaU9obFVlUjROWmJQQmZaazVzd2VBYjB1RnhMY1ZoUldtWVRmWmJnN21TRFVRUHRDSGdfc0FSMEhXdnY2ZXA2UjVlWlFockQtQmY4RF85VVFSaTFV?oc=5",
-   "summary": "Americans rally in singles to win the Presidents Cup for the 11th straight time AP News",
-   "published": "2026-09-27T22:43:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "fcc8f2e40968",
-   "article_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZGhyWXlabThOV1R0czJOb0s0a1Y5UlNzQ1RCVHhfQVhOTnBpNDhIbFliMVJ2aUpock5zTkk0X1FhT3g0Skh4YWcxVVQwcGtQaU9obFVlUjROWmJQQmZaazVzd2VBYjB1RnhMY1ZoUldtWVRmWmJnN21TRFVRUHRDSGdfc0FSMEhXdnY2ZXA2UjVlWlFockQtQmY4RF85VVFSaTFV?oc=5",
    "has_text": false
   },
   {
@@ -430,26 +476,13 @@
    "title": "Sheriff: 12 teens wounded in a shootout at a birthday party in Georgia park",
    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYVhwcGlWNW9yTGMyWEs0ZjJfTUxwaURTemxwN3VkQUZCVHVmbkd6TUxkOW1iOVV6ak1MMXhjWGJRalN4NFRsbGVZcUdpbmdBeVdMem1LRHZSQlUwWVZKQm1fZ1N2MlIzOURGQ3UtLTR1elprNC1XV0hGX0xZVVNWMHZDS2xxMExz?oc=5",
    "summary": "Sheriff: 12 teens wounded in a shootout at a birthday party in Georgia park AP News",
-   "published": "2026-09-27T21:44:15+00:00",
+   "published": "2026-09-27T21:35:00+00:00",
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
    "section": "top",
    "id": "8fae55bd8eac",
    "article_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNYVhwcGlWNW9yTGMyWEs0ZjJfTUxwaURTemxwN3VkQUZCVHVmbkd6TUxkOW1iOVV6ak1MMXhjWGJRalN4NFRsbGVZcUdpbmdBeVdMem1LRHZSQlUwWVZKQm1fZ1N2MlIzOURGQ3UtLTR1elprNC1XV0hGX0xZVVNWMHZDS2xxMExz?oc=5",
-   "has_text": false
-  },
-  {
-   "title": "From collapse to clinch, Phillies put last-week meltdown behind them and win final NL wild-card spot",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNnNITkhnQS16Qjlxa24yVEhrQUdPQk1OY1FqMW1xRkw0d2FVRnViZnJNSDk5dWNWd0dsY1F2NS1jVURJblNvMkwxclFPNzVzVnFYOHJqRE9pN0tqX09ZNzNCeDBxV1ZMMkI4N3NHLU5XZloyNllaVmhKRkZXbGExZklIUk1ON2dkMkgzaUJzNE1aOGNsYjdRSHRTM1hNay1qZnc?oc=5",
-   "summary": "From collapse to clinch, Phillies put last-week meltdown behind them and win final NL wild-card spot AP News",
-   "published": "2026-09-27T21:44:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "f0028d357780",
-   "article_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNnNITkhnQS16Qjlxa24yVEhrQUdPQk1OY1FqMW1xRkw0d2FVRnViZnJNSDk5dWNWd0dsY1F2NS1jVURJblNvMkwxclFPNzVzVnFYOHJqRE9pN0tqX09ZNzNCeDBxV1ZMMkI4N3NHLU5XZloyNllaVmhKRkZXbGExZklIUk1ON2dkMkgzaUJzNE1aOGNsYjdRSHRTM1hNay1qZnc?oc=5",
    "has_text": false
   },
   {
@@ -752,6 +785,19 @@
    "has_text": false
   },
   {
+   "title": "Bucharest’s SofistiCAT returns this fall with top cat judging, in photos",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdGVWN19hYXdrZkMzUEJEd2lwWXFRRWl4eU1PMV9Ob2NYdnk3R1dyWGN3T2ZaNDRQZVVxUi1HTFBWZUszUm42LUFJdXVEaXc5ZklTU2hvV2hQV3BBQlUzd0tTd014RW15VFpHelI1ODlYcmxiQ3RhcnhwbzU0QnNvN3VQVTVPaklu?oc=5",
+   "summary": "Bucharest’s SofistiCAT returns this fall with top cat judging, in photos AP News",
+   "published": "2026-09-27T19:35:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "80c3c65f919f",
+   "article_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdGVWN19hYXdrZkMzUEJEd2lwWXFRRWl4eU1PMV9Ob2NYdnk3R1dyWGN3T2ZaNDRQZVVxUi1HTFBWZUszUm42LUFJdXVEaXc5ZklTU2hvV2hQV3BBQlUzd0tTd014RW15VFpHelI1ODlYcmxiQ3RhcnhwbzU0QnNvN3VQVTVPaklu?oc=5",
+   "has_text": false
+  },
+  {
    "title": "Palestinian death toll in Gaza war passes 74,000, and other Mideast news",
    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNN2lsZXMteVl2UXhnTWE4UWl6eG9FUE50RFkzN3V0cFlQZldUeDF2YTlGVlpmMmxMX0cwQUdrQ0ctVWZMaTcyeU15bnN1dXM4YmNsd2tUMnRjR0JXUWtYRGw3S1I0azUtSjQ5RnZOOTdJa3pYVzRaSmptb25xVmNlRUZOTV8tVmxJZW14S2c2c3kxVklLTUwxeFlqNFp5Q2U4ODNTLXhoRWJiQTA?oc=5",
    "summary": "Palestinian death toll in Gaza war passes 74,000, and other Mideast news AP News",
@@ -866,6 +912,19 @@
    "section": "top",
    "id": "72a0b488e215",
    "article_url": "https://thehill.com/policy/technology/6113895-waiting-at-a-red-light-it-may-not-know-youre-there/",
+   "has_text": false
+  },
+  {
+   "title": "‘Avengers: Endgame’ retakes box office crown; Robert Pattinson drives sales for ‘Primetime’",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWU1lTVNCTkY3YkZLSVA3SzVBdXdUWmppRENUN2VucFk5OV93SGp3VHA5RkdDWHVUTGw0YXVYeUJwQ1Y5VzZCdVZZVGl5dHpSMjhyamp2VkIwYkhWUUhxT1YzbVNjOFdJbThHNFlwNDFSREw2UWJmdDRfaWQ3c1pDdGk4TXdFaDNuUDdvQkRFWG13bmRzR3NDbFRZZWFuUF9MWTlfdnJtT2toc212MTRnQg?oc=5",
+   "summary": "‘Avengers: Endgame’ retakes box office crown; Robert Pattinson drives sales for ‘Primetime’ AP News",
+   "published": "2026-09-27T18:17:03+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "215a284a14fb",
+   "article_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWU1lTVNCTkY3YkZLSVA3SzVBdXdUWmppRENUN2VucFk5OV93SGp3VHA5RkdDWHVUTGw0YXVYeUJwQ1Y5VzZCdVZZVGl5dHpSMjhyamp2VkIwYkhWUUhxT1YzbVNjOFdJbThHNFlwNDFSREw2UWJmdDRfaWQ3c1pDdGk4TXdFaDNuUDdvQkRFWG13bmRzR3NDbFRZZWFuUF9MWTlfdnJtT2toc212MTRnQg?oc=5",
    "has_text": false
   },
   {
@@ -1077,19 +1136,6 @@
    "has_text": false
   },
   {
-   "title": "‘Avengers: Endgame’ retakes box office crown; Robert Pattinson drives sales for ‘Primetime’",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWU1lTVNCTkY3YkZLSVA3SzVBdXdUWmppRENUN2VucFk5OV93SGp3VHA5RkdDWHVUTGw0YXVYeUJwQ1Y5VzZCdVZZVGl5dHpSMjhyamp2VkIwYkhWUUhxT1YzbVNjOFdJbThHNFlwNDFSREw2UWJmdDRfaWQ3c1pDdGk4TXdFaDNuUDdvQkRFWG13bmRzR3NDbFRZZWFuUF9MWTlfdnJtT2toc212MTRnQg?oc=5",
-   "summary": "‘Avengers: Endgame’ retakes box office crown; Robert Pattinson drives sales for ‘Primetime’ AP News",
-   "published": "2026-09-27T16:56:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "215a284a14fb",
-   "article_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWU1lTVNCTkY3YkZLSVA3SzVBdXdUWmppRENUN2VucFk5OV93SGp3VHA5RkdDWHVUTGw0YXVYeUJwQ1Y5VzZCdVZZVGl5dHpSMjhyamp2VkIwYkhWUUhxT1YzbVNjOFdJbThHNFlwNDFSREw2UWJmdDRfaWQ3c1pDdGk4TXdFaDNuUDdvQkRFWG13bmRzR3NDbFRZZWFuUF9MWTlfdnJtT2toc212MTRnQg?oc=5",
-   "has_text": false
-  },
-  {
    "title": "Blanche claims Trump ‘hasn’t denied access’ to White House reporters",
    "link": "https://thehill.com/homenews/administration/6113681-blanche-defends-trump-media-ban/",
    "summary": "Attorney General Todd Blanche on Sunday claimed that President Trump did not deny White House reporters access to the executive mansion, after the president banned CNN, Politico and MS NOW reporters from the grounds and had their passes confiscated by Secret Service. “Well, the president hasn’t denied access,” Blanche told host Martha Raddatz during the…",
@@ -1220,19 +1266,6 @@
    "has_text": true
   },
   {
-   "title": "To mitigate Himalayan disasters, Beijing must abandon its narrow, fear-based controls",
-   "link": "https://thehill.com/opinion/energy-environment/6112764-china-nepal-flood-deaths/",
-   "summary": "Following a devastating flood on Aug. 26, critics accused Beijing of suppressing casualty figures and blamed regional instability on aggressive hydroelectric dam construction in the fragile Himalayan ecosystem.",
-   "published": "2026-09-27T16:00:00+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "f66b9c017e31",
-   "article_url": "https://thehill.com/opinion/energy-environment/6112764-china-nepal-flood-deaths/",
-   "has_text": false
-  },
-  {
    "title": "GOP fears ‘perfect storm’ could lead to Marshall’s loss in red state Kansas",
    "link": "https://thehill.com/homenews/senate/6112686-pastor-challenges-incumbent-roger-marshall/",
    "summary": "It’s been nearly a century since Kansas voters sent a Democrat to the Senate. But Adam Hamilton, a prominent pastor, is looking to make that jump as Republicans grow more and more unsettled about incumbent GOP Sen. Roger Marshall’s chances in the heartland. “It’s all or nothing in a sense, because the story is that…",
@@ -1243,6 +1276,19 @@
    "section": "top",
    "id": "98765517cb6f",
    "article_url": "https://thehill.com/homenews/senate/6112686-pastor-challenges-incumbent-roger-marshall/",
+   "has_text": false
+  },
+  {
+   "title": "To mitigate Himalayan disasters, Beijing must abandon its narrow, fear-based controls",
+   "link": "https://thehill.com/opinion/energy-environment/6112764-china-nepal-flood-deaths/",
+   "summary": "Following a devastating flood on Aug. 26, critics accused Beijing of suppressing casualty figures and blamed regional instability on aggressive hydroelectric dam construction in the fragile Himalayan ecosystem.",
+   "published": "2026-09-27T16:00:00+00:00",
+   "source": "thehill",
+   "outlet": "The Hill",
+   "counted": true,
+   "section": "top",
+   "id": "f66b9c017e31",
+   "article_url": "https://thehill.com/opinion/energy-environment/6112764-china-nepal-flood-deaths/",
    "has_text": false
   },
   {
@@ -1282,6 +1328,19 @@
    "section": "top",
    "id": "f379326b6d5d",
    "article_url": "https://thehill.com/policy/technology/6107508-cloud-pics-wanted-nasa-renews-call-for-peoples-photos-of-the-sky/",
+   "has_text": false
+  },
+  {
+   "title": "Armani charts its future as Bottega Veneta sheds layers in Milan",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVjV5d3NkcTRjcE5KXzJ0dDhLMGxuTDFUSGJTcnhNMG81V2t5NHV3UGlWSmotQXg5MkdBNHZUT3I2aGRLYjVfSF95MzgzVWN3ZGNKTnJRMlVJUTVuNEpNYmFreVpBZ1BlNm5oZ0FWQU9lMldBMEg5dVZTSk1PVnkteFJDRnFsV1ZpVzFHcnln?oc=5",
+   "summary": "Armani charts its future as Bottega Veneta sheds layers in Milan AP News",
+   "published": "2026-09-27T15:42:46+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "48e877af3d15",
+   "article_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVjV5d3NkcTRjcE5KXzJ0dDhLMGxuTDFUSGJTcnhNMG81V2t5NHV3UGlWSmotQXg5MkdBNHZUT3I2aGRLYjVfSF95MzgzVWN3ZGNKTnJRMlVJUTVuNEpNYmFreVpBZ1BlNm5oZ0FWQU9lMldBMEg5dVZTSk1PVnkteFJDRnFsV1ZpVzFHcnln?oc=5",
    "has_text": false
   },
   {
@@ -1517,6 +1576,19 @@
    "id": "9009d481ab08",
    "article_url": "https://www.bbc.co.uk/news/articles/ck5ywnp075d1o?at_medium=RSS&at_campaign=rss",
    "has_text": true
+  },
+  {
+   "title": "Avalanche sweeps Nepal mountain, killing 2 and leaving 12 missing",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSVBlUC1iVlhFWkhPRy1YRlZYc1hsV08xQVRPT1Z1UnBEcTdWeHRJbzJraUpkYmdKaEM0YnFCd0wzcXNRWkQwS2ZvSXlla0dKS2VIYXdPNkNTX09CdFJ4ZWRlRm04WlU3Y196WjRheXZvbFQ4S3p6RkVXMFJsRG1QUmQzRno2OTZNUVVxMFZYV0JiU21GN2wtbg?oc=5",
+   "summary": "Avalanche sweeps Nepal mountain, killing 2 and leaving 12 missing AP News",
+   "published": "2026-09-27T14:05:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "5644fbf9b6f3",
+   "article_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSVBlUC1iVlhFWkhPRy1YRlZYc1hsV08xQVRPT1Z1UnBEcTdWeHRJbzJraUpkYmdKaEM0YnFCd0wzcXNRWkQwS2ZvSXlla0dKS2VIYXdPNkNTX09CdFJ4ZWRlRm04WlU3Y196WjRheXZvbFQ4S3p6RkVXMFJsRG1QUmQzRno2OTZNUVVxMFZYV0JiU21GN2wtbg?oc=5",
+   "has_text": false
   },
   {
    "title": "These states are scrambling to become home to a US Space Academy",
@@ -1909,6 +1981,19 @@
    "has_text": false
   },
   {
+   "title": "Heavy rain and flooding in Bangkok disrupts traffic and prompts evacuations",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWXlKVUxEWGNGYktRN01VOE1CbVY4SDhlemprYWVZUmVkdy1BZTh4UGp1TEMwc2tRb2JJTHZtWkRreXliLTBQbDNnUlNleWNxbGZNMUlabEZXd29QUDI4aUduQ1MyVE1mLXNJcnQ1QS11UHpzYWxSdVNiWExGbG9OcFFiTEZRZldwaUduRWdlUWpDWHFSLVQtUTA0RENHNUdLUXNhVg?oc=5",
+   "summary": "Heavy rain and flooding in Bangkok disrupts traffic and prompts evacuations AP News",
+   "published": "2026-09-27T06:37:13+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "e51d8b59d9cd",
+   "article_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWXlKVUxEWGNGYktRN01VOE1CbVY4SDhlemprYWVZUmVkdy1BZTh4UGp1TEMwc2tRb2JJTHZtWkRreXliLTBQbDNnUlNleWNxbGZNMUlabEZXd29QUDI4aUduQ1MyVE1mLXNJcnQ1QS11UHpzYWxSdVNiWExGbG9OcFFiTEZRZldwaUduRWdlUWpDWHFSLVQtUTA0RENHNUdLUXNhVg?oc=5",
+   "has_text": false
+  },
+  {
    "title": "Why families are being urged to look closer on autumn walks",
    "link": "https://www.bbc.co.uk/news/articles/cvlylxxp3xg9o?at_medium=RSS&at_campaign=rss",
    "summary": "Experts urge families to spot, photograph and enjoy autumn fungi on their doorstep.",
@@ -2104,6 +2189,17 @@
    "has_text": false
   },
   {
+   "title": "APOD: 2026 September 27 – Andromeda Before and After Photoshop",
+   "link": "https://science.nasa.gov/image-article/apod-2026-september-27-andromeda-before-photoshop/",
+   "summary": "APOD Science APOD APOD: 2026 September 27 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. BeforeAfter Andromeda Before […]",
+   "published": "2026-09-27T04:05:00+00:00",
+   "source": "nasa",
+   "outlet": "NASA",
+   "counted": false,
+   "section": "top",
+   "id": "c0ccf9cb6b19"
+  },
+  {
    "title": "A perfect day for Florida teams, with Canes, Gators, FSU, UCF, USF, FIU and FAU all winning Saturday",
    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNjE3ODh6bUtrbTNLTUVpOWtjTG9ieUdadGc0VWVsLWw1NjNRNTFGV1VJT3ZEaEJRNEQ4QjZPckR4LUhNVFIwRVItWTZUenJaMmtTQ1A0OVFmMjBmVkUyYTN5UU05VmJ4a2ZRNE03UV91T0hCUVRXeDJSWjdKcno1QnNTd1ZJQ2wxazlBcg?oc=5",
    "summary": "A perfect day for Florida teams, with Canes, Gators, FSU, UCF, USF, FIU and FAU all winning Saturday AP News",
@@ -2189,7 +2285,7 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "top",
+   "section": "climate",
    "id": "72829c3c64b9",
    "article_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOY0JyWTd3WlRweXE4a2ZVUkRZVXNhMVBkNUVkWnk1Zkg5SWRtRjZKS2QyRU1rMC1GdDdRUnpySlc0NnRUbjY0V2FHbGx3UTJjLUIxajRrQndjeU9lZnZXSV9qU3hzNW5JajNnOG13MnhKanprMGYtQkhSWXpLQmhpSUtUN2NlMWVQaVBYX0JR?oc=5",
    "has_text": false
@@ -2208,19 +2304,6 @@
    "has_text": false
   },
   {
-   "title": "The top photos of the week by AP photojournalists",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdTdyTmZiSEt6RW5vcDhrUXZsa3pnOXcyY3hmQmlaOFh4OG81YXhoNjM2NU9sTmpqcTVUa05XZVhPUXdFT1dqNDc2aURkWXd6cDB4SHh1Rkh0ZFNrc1NUMk1IdGNKRHR3cE91eEVkejNrWC1MWVlYazRUZFdjZWdCWG5LWEZqcHpFZjNYT3E2NDBRbVhXbWc3M0l3?oc=5",
-   "summary": "The top photos of the week by AP photojournalists AP News",
-   "published": "2026-09-27T02:16:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "e3fd303db08d",
-   "article_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdTdyTmZiSEt6RW5vcDhrUXZsa3pnOXcyY3hmQmlaOFh4OG81YXhoNjM2NU9sTmpqcTVUa05XZVhPUXdFT1dqNDc2aURkWXd6cDB4SHh1Rkh0ZFNrc1NUMk1IdGNKRHR3cE91eEVkejNrWC1MWVlYazRUZFdjZWdCWG5LWEZqcHpFZjNYT3E2NDBRbVhXbWc3M0l3?oc=5",
-   "has_text": false
-  },
-  {
    "title": "Russia's top diplomat rejects German calls to ease off its `dangerous' escalation toward the country",
    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSU14aTYxS3I5YTNMLVhSTEljNmc1cExlcmhSZ3hVa2NmQ0JlVkRCbEo2NFJ4QTlBXzhqU181WjBrUEFyYzc4dnpOamZDOTRNRGdDbnBCZV9xaWE0YUJBUkJQRHVxMHlHbk9aRmd1bG9LRTlxSWtRZlBOSkhtUDdOR29EVGQ3bXBPbWFjZ3pXYzhXaEl5cDkwejlOX3dpSzAyd3pPV01OMUNuQVM4RGc?oc=5",
    "summary": "Russia's top diplomat rejects German calls to ease off its `dangerous' escalation toward the country AP News",
@@ -2228,22 +2311,9 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "top",
+   "section": "climate",
    "id": "535015e50a57",
    "article_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSU14aTYxS3I5YTNMLVhSTEljNmc1cExlcmhSZ3hVa2NmQ0JlVkRCbEo2NFJ4QTlBXzhqU181WjBrUEFyYzc4dnpOamZDOTRNRGdDbnBCZV9xaWE0YUJBUkJQRHVxMHlHbk9aRmd1bG9LRTlxSWtRZlBOSkhtUDdOR29EVGQ3bXBPbWFjZ3pXYzhXaEl5cDkwejlOX3dpSzAyd3pPV01OMUNuQVM4RGc?oc=5",
-   "has_text": false
-  },
-  {
-   "title": "Turang’s go-ahead homer lifts Brewers over Cardinals 3-2 for 102nd win",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRnZ2T0xmWE1lLTJRRWxhOVRUMGpwNk1nV3VBM3NGZzM0V1JpY0pMZ0tqS1dJT2NMbE1iMXAzYkFxdnpYWEZ3WVI1aGI0ak9oUnRCZnVEcVZvRUFlYXgwZzFtVTFvdWktWVFLWEp1QlljendLVGVFSHAxYmF2VUZWZUpINTc4Z1VsTDhXazd2bkdfaVAw?oc=5",
-   "summary": "Turang’s go-ahead homer lifts Brewers over Cardinals 3-2 for 102nd win AP News",
-   "published": "2026-09-27T01:56:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "4da7bb7115fd",
-   "article_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRnZ2T0xmWE1lLTJRRWxhOVRUMGpwNk1nV3VBM3NGZzM0V1JpY0pMZ0tqS1dJT2NMbE1iMXAzYkFxdnpYWEZ3WVI1aGI0ak9oUnRCZnVEcVZvRUFlYXgwZzFtVTFvdWktWVFLWEp1QlljendLVGVFSHAxYmF2VUZWZUpINTc4Z1VsTDhXazd2bkdfaVAw?oc=5",
    "has_text": false
   },
   {
@@ -2254,35 +2324,9 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "top",
+   "section": "climate",
    "id": "f5e82d4fa896",
    "article_url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQ2ZMYXp0Q081eWc1MHlxZC1QdXJOS1dlSEVYM2lIN19YVU1fbzdMcC1OX2xoYUYwVzdQdjZYTXh3Vl9WNk5tQVd5UG02Y2NvdDI2eThuaDZxeHRkYjFWa0MxdGVCdGllYWYtNFRqMGd2eVNUWFR5SXlFUk1ycjdnMTRnZUxHNDRmM1pXTGliTVNyaFdKbHc2Y0V3eVdFbjRYSklSWm5SRTlXdU02QUFtb1ZZRlcydw?oc=5",
-   "has_text": false
-  },
-  {
-   "title": "Wisconsin scores twice in last 4 minutes, rallies to beat No. 13 Penn State 24-20",
-   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSkdydmRJVGNsclZ1VnRELUk5NEJ4OHBQRmhBNEhYRUtSRjZ0WGh4MzhRc2lPcS1RSkc5d3I0c3ZpV05aeGNNcGNUb2JnMEtjT0lSNjRzbzRLZ0h2RWtCN29leG9neGYxYmJiVGtzUTVJSk1ZSmY1QnBVMXlEZEJvUFlMT09CVG9lemgxbldnOA?oc=5",
-   "summary": "Wisconsin scores twice in last 4 minutes, rallies to beat No. 13 Penn State 24-20 AP News",
-   "published": "2026-09-27T01:50:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "7b05fb3e807c",
-   "article_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSkdydmRJVGNsclZ1VnRELUk5NEJ4OHBQRmhBNEhYRUtSRjZ0WGh4MzhRc2lPcS1RSkc5d3I0c3ZpV05aeGNNcGNUb2JnMEtjT0lSNjRzbzRLZ0h2RWtCN29leG9neGYxYmJiVGtzUTVJSk1ZSmY1QnBVMXlEZEJvUFlMT09CVG9lemgxbldnOA?oc=5",
-   "has_text": false
-  },
-  {
-   "title": "87-year-old’s eviction becomes a rallying cry for protest of Spain’s housing crisis",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTVlVWVhHMFNRb0ozNUdpdWoyUjNOQm5BVUM0X1RZNmF3Q3c4emZtWjZXNndwclliUlhVQlp1SXV6WVVxRURBN0tRYjE5WlljS01waHBXaVM2c0xEOG9POG14bXFUbExJeGVkQ0JWYUg0RzNFUk41cDhxdm5kZUVMQ2tlU3VqS3ZqUzdONUFfWlJibVM0RkU0VDZwOA?oc=5",
-   "summary": "87-year-old’s eviction becomes a rallying cry for protest of Spain’s housing crisis AP News",
-   "published": "2026-09-27T00:58:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "23c922e40091",
-   "article_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTVlVWVhHMFNRb0ozNUdpdWoyUjNOQm5BVUM0X1RZNmF3Q3c4emZtWjZXNndwclliUlhVQlp1SXV6WVVxRURBN0tRYjE5WlljS01waHBXaVM2c0xEOG9POG14bXFUbExJeGVkQ0JWYUg0RzNFUk41cDhxdm5kZUVMQ2tlU3VqS3ZqUzdONUFfWlJibVM0RkU0VDZwOA?oc=5",
    "has_text": false
   },
   {
@@ -2296,6 +2340,19 @@
    "section": "climate",
    "id": "47a7ec8ad2db",
    "article_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNT3NJdnRGdDdHQ0FJZzVwdjBId09ZT2RfOHh5dXA4S0U3dGd6dndrMVNURUEyN3JYdnN2MUVrUWN2NXJKQW1hWWNVWTRDdlJKUTNidF92SnBkSXpaUlhtc1JobmN6d2NabzBqb0IxRGZkelFWeGY2TVo4eXZqRjVKZUZ3eGJrdE0?oc=5",
+   "has_text": false
+  },
+  {
+   "title": "87-year-old’s eviction becomes a rallying cry for protest of Spain’s housing crisis",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTVlVWVhHMFNRb0ozNUdpdWoyUjNOQm5BVUM0X1RZNmF3Q3c4emZtWjZXNndwclliUlhVQlp1SXV6WVVxRURBN0tRYjE5WlljS01waHBXaVM2c0xEOG9POG14bXFUbExJeGVkQ0JWYUg0RzNFUk41cDhxdm5kZUVMQ2tlU3VqS3ZqUzdONUFfWlJibVM0RkU0VDZwOA?oc=5",
+   "summary": "87-year-old’s eviction becomes a rallying cry for protest of Spain’s housing crisis AP News",
+   "published": "2026-09-27T00:58:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "23c922e40091",
+   "article_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTVlVWVhHMFNRb0ozNUdpdWoyUjNOQm5BVUM0X1RZNmF3Q3c4emZtWjZXNndwclliUlhVQlp1SXV6WVVxRURBN0tRYjE5WlljS01waHBXaVM2c0xEOG9POG14bXFUbExJeGVkQ0JWYUg0RzNFUk41cDhxdm5kZUVMQ2tlU3VqS3ZqUzdONUFfWlJibVM0RkU0VDZwOA?oc=5",
    "has_text": false
   },
   {
@@ -2637,19 +2694,6 @@
    "has_text": true
   },
   {
-   "title": "Shooting leaves 4 dead in Caribbean nation known for luxury tourism, police say",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQT0RjZWZpUVJsVzZKWkZrc3dnaDVBODBYbGRkT3psMW5WMXBUMkQ4ZHJkNW9JWTNYRXlZbExscXNhVFZvQ1hOLVNIRlNsVlZfX3ctVmlRVzNUbV9JVGRINmRwcWU3R1l6aVowRTgyZ0djQ1hiQll4VGxBdTFVVTBLNHlJaTlwNm5VUXJvVVRJMTEtMzE0Q1hrRERKNWplekktUzJqakVtTWI?oc=5",
-   "summary": "Shooting leaves 4 dead in Caribbean nation known for luxury tourism, police say AP News",
-   "published": "2026-09-26T20:21:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "5c3115f48d5a",
-   "article_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQT0RjZWZpUVJsVzZKWkZrc3dnaDVBODBYbGRkT3psMW5WMXBUMkQ4ZHJkNW9JWTNYRXlZbExscXNhVFZvQ1hOLVNIRlNsVlZfX3ctVmlRVzNUbV9JVGRINmRwcWU3R1l6aVowRTgyZ0djQ1hiQll4VGxBdTFVVTBLNHlJaTlwNm5VUXJvVVRJMTEtMzE0Q1hrRERKNWplekktUzJqakVtTWI?oc=5",
-   "has_text": false
-  },
-  {
    "title": "CNN says it was left off Air Force One for Trump’s Saturday trip to a college football game",
    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZEpla0E3cVNTSkdHWE5Lb0xLbk82YnlDRkJFYmxEU05HNnVHaFhPdTZuMXllaXh4LXdwS0NyRkR5a05pT0U1X1hNczdYMXRVREc1OG9xbTY2Y3RvbXZCQTIzWmRsTGtpWm5SbU5RNWJCbDNjeHREaGo5NW1Pd0xiWnc4MzV5SFhUOFhPUlllNU1pVUxLekp5VzFZc3c?oc=5",
    "summary": "CNN says it was left off Air Force One for Trump’s Saturday trip to a college football game AP News",
@@ -2689,19 +2733,6 @@
    "has_text": true
   },
   {
-   "title": "Heavy rain and flooding in Bangkok disrupts traffic and prompts evacuations",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWXlKVUxEWGNGYktRN01VOE1CbVY4SDhlemprYWVZUmVkdy1BZTh4UGp1TEMwc2tRb2JJTHZtWkRreXliLTBQbDNnUlNleWNxbGZNMUlabEZXd29QUDI4aUduQ1MyVE1mLXNJcnQ1QS11UHpzYWxSdVNiWExGbG9OcFFiTEZRZldwaUduRWdlUWpDWHFSLVQtUTA0RENHNUdLUXNhVg?oc=5",
-   "summary": "Heavy rain and flooding in Bangkok disrupts traffic and prompts evacuations AP News",
-   "published": "2026-09-26T18:50:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "e51d8b59d9cd",
-   "article_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWXlKVUxEWGNGYktRN01VOE1CbVY4SDhlemprYWVZUmVkdy1BZTh4UGp1TEMwc2tRb2JJTHZtWkRreXliLTBQbDNnUlNleWNxbGZNMUlabEZXd29QUDI4aUduQ1MyVE1mLXNJcnQ1QS11UHpzYWxSdVNiWExGbG9OcFFiTEZRZldwaUduRWdlUWpDWHFSLVQtUTA0RENHNUdLUXNhVg?oc=5",
-   "has_text": false
-  },
-  {
    "title": "Bodies of 6 people, including 4 Americans, recovered from collapsed building in Athens",
    "link": "https://www.pbs.org/newshour/world/bodies-of-6-people-including-4-americans-recovered-from-collapsed-building-in-athens",
    "summary": "The blast on Friday was believed to have been caused by a major gas leak, Athens Mayor Haris Doukas said. Neighboring buildings were damaged and evacuated.",
@@ -2739,45 +2770,6 @@
    "id": "c9e3da14b53f",
    "article_url": "https://www.pbs.org/newshour/world/china-and-u-s-agree-to-establish-ai-safety-channel-and-continue-trade-and-military-talks",
    "has_text": true
-  },
-  {
-   "title": "China and US agree to establish AI safety channel and continue trade and military talks",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVDVpNXhQYUFNLTZHUVJkeGFXYnhyT0hFSm5CeEZxYi0wNTlxMjRxR3ZYdTNxa2I1bmVDZzRDWVRENFRkRTVmb2FxdDlweGpkOEJnODZpaXl1THFxcDQ5MDVNTWpBTVp1VEE4LU9NSjI4X0N5YjIzckFDU29HZktWWWlYWkMybTluQkZ0Mm5IY2NUSEEzeWp3OQ?oc=5",
-   "summary": "China and US agree to establish AI safety channel and continue trade and military talks AP News",
-   "published": "2026-09-26T17:42:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "192472b50426",
-   "article_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVDVpNXhQYUFNLTZHUVJkeGFXYnhyT0hFSm5CeEZxYi0wNTlxMjRxR3ZYdTNxa2I1bmVDZzRDWVRENFRkRTVmb2FxdDlweGpkOEJnODZpaXl1THFxcDQ5MDVNTWpBTVp1VEE4LU9NSjI4X0N5YjIzckFDU29HZktWWWlYWkMybTluQkZ0Mm5IY2NUSEEzeWp3OQ?oc=5",
-   "has_text": false
-  },
-  {
-   "title": "Bodies of 6 people, including 4 Americans, recovered from collapsed building in Athens",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOd3Q1b3RINld2NHRkQU4ybk1VOHVnRGkxc2EwZFU3WFJKOV92WEhZSm1zbnptVHczYjIwLVBTU2tncklsQzgwN05RRFJQRFhBekV2Q2psUGpUWmRJTTZDaWxJOTVYbXdzcmc5d3dCRjZLTU5aa2FzNTFtQ1kwZ3oyeW1Fcldscm9KSDJpYjVseTJrLTI0clhwZEdzSW1ublVkYjFTeA?oc=5",
-   "summary": "Bodies of 6 people, including 4 Americans, recovered from collapsed building in Athens AP News",
-   "published": "2026-09-26T17:41:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "341ec0b4f698",
-   "article_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOd3Q1b3RINld2NHRkQU4ybk1VOHVnRGkxc2EwZFU3WFJKOV92WEhZSm1zbnptVHczYjIwLVBTU2tncklsQzgwN05RRFJQRFhBekV2Q2psUGpUWmRJTTZDaWxJOTVYbXdzcmc5d3dCRjZLTU5aa2FzNTFtQ1kwZ3oyeW1Fcldscm9KSDJpYjVseTJrLTI0clhwZEdzSW1ublVkYjFTeA?oc=5",
-   "has_text": false
-  },
-  {
-   "title": "Kennedy Center put off planned repairs despite known structural issues, former employees allege",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZHJGdHdkVVlMTVBaV1hVeVFVQW1ianlvTkVKelZ3Ylk0YlVwcmE4R3ROVEhkQWdSZnlrdXI1WGFPZm5ZZ0x4SmtudnkyUmhZSjFxaWpKRUNPZzctblFvTlBSZXBDSjFwUnFPWmllbFB2MjB2bEEyYnpVUUtqQ1NDYmxtMlZ5ZTBPS2VGdEpZak1aNUpfRG9DMTRPYkFTWEFBcTNQX213MGdJYzlsdGRCSg?oc=5",
-   "summary": "Kennedy Center put off planned repairs despite known structural issues, former employees allege AP News",
-   "published": "2026-09-26T17:34:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "a9f2d7f1b13e",
-   "article_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZHJGdHdkVVlMTVBaV1hVeVFVQW1ianlvTkVKelZ3Ylk0YlVwcmE4R3ROVEhkQWdSZnlrdXI1WGFPZm5ZZ0x4SmtudnkyUmhZSjFxaWpKRUNPZzctblFvTlBSZXBDSjFwUnFPWmllbFB2MjB2bEEyYnpVUUtqQ1NDYmxtMlZ5ZTBPS2VGdEpZak1aNUpfRG9DMTRPYkFTWEFBcTNQX213MGdJYzlsdGRCSg?oc=5",
-   "has_text": false
   },
   {
    "title": "By the Numbers: Pope Leo XIV’s open-air Mass in Paris draws many more than expected",
@@ -2869,6 +2861,19 @@
    "id": "6ced93d77fd4",
    "article_url": "https://www.pbs.org/newshour/politics/cnn-says-it-was-left-off-air-force-one-for-trumps-saturday-trip-to-a-college-football-game",
    "has_text": true
+  },
+  {
+   "title": "Wall Street week ahead: consumer confidence, inflation, employment updates",
+   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQT1U1UmFUdU1PQVNoRXBES1c0OXV1aGRMWjB5dEFieDUxRVZQSVR6TWNtNWVSMlYtYkFqeGtXNEUwYzlpTTBMSEpCLU8zVENyVktPMzhHNi1NR216eEZPUHFJYkQ5RFFKeVBRN2JvWUNXZ3lfYlJrMi1JcVNKbkozQjhOSHpOeUJsMDZTc2YtZ01xYzlmdllWbVllbGZ0T0VjcHBDOUdLdGxvZw?oc=5",
+   "summary": "Wall Street week ahead: consumer confidence, inflation, employment updates AP News",
+   "published": "2026-09-26T16:35:10+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "ae94cf6670c9",
+   "article_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQT1U1UmFUdU1PQVNoRXBES1c0OXV1aGRMWjB5dEFieDUxRVZQSVR6TWNtNWVSMlYtYkFqeGtXNEUwYzlpTTBMSEpCLU8zVENyVktPMzhHNi1NR216eEZPUHFJYkQ5RFFKeVBRN2JvWUNXZ3lfYlJrMi1JcVNKbkozQjhOSHpOeUJsMDZTc2YtZ01xYzlmdllWbVllbGZ0T0VjcHBDOUdLdGxvZw?oc=5",
+   "has_text": false
   },
   {
    "title": "China has kept its promise to stop funding overseas coal, but loopholes are helping coal expand",
@@ -2972,19 +2977,6 @@
    "section": "top",
    "id": "e3a8a427de88",
    "article_url": "https://www.bbc.co.uk/news/articles/cqm2mm4y5dkko?at_medium=RSS&at_campaign=rss",
-   "has_text": true
-  },
-  {
-   "title": "Watch: Bangkok declared flood disaster zone",
-   "link": "https://www.bbc.co.uk/news/videos/cwp933mr9v1xo?at_medium=RSS&at_campaign=rss",
-   "summary": "Heavy rain over the last two days has overwhelmed Bangkok's water systems, with more rain forecast on Sunday.",
-   "published": "2026-09-26T15:34:18+00:00",
-   "source": "bbc",
-   "outlet": "BBC News",
-   "counted": true,
-   "section": "top",
-   "id": "71d6b14ffd6e",
-   "article_url": "https://www.bbc.co.uk/news/videos/cwp933mr9v1xo?at_medium=RSS&at_campaign=rss",
    "has_text": true
   },
   {
@@ -3430,6 +3422,17 @@
    "has_text": false
   },
   {
+   "title": "APOD: 2026 September 26 – Mirrored Meteor and Milky Way",
+   "link": "https://science.nasa.gov/image-article/apod-2026-september-26-mirrored-meteor-and-milky-way/",
+   "summary": "APOD Science APOD APOD: 2026 September 26 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Mirrored Meteor and […]",
+   "published": "2026-09-26T04:05:00+00:00",
+   "source": "nasa",
+   "outlet": "NASA",
+   "counted": false,
+   "section": "top",
+   "id": "e8b09004eb49"
+  },
+  {
    "title": "Photos of record-breaking swimmers and more from the Asian Games’ first week",
    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPLUtNdEZrWjBTaHJyTXUycEFSNndHMEFnd1diUzJucmFvc2I3d1JnVFRRbzFMZGRrVVAzc242MXZNQ3JORFpwNElaOW5jeWVDMHFJOXJQNUx2VzlnYkdKY3JOaHUxZE44Um1QdE5hdlZOX1FiT2hXeWJ0Z0FnZ2RFaHdIZkw2SVVzb2pJUThVdTk4RTZJcklYc01ialZrbVZMczZqNw?oc=5",
    "summary": "Photos of record-breaking swimmers and more from the Asian Games’ first week AP News",
@@ -3492,45 +3495,6 @@
    "section": "top",
    "id": "6c7096ff6fb5",
    "article_url": "https://www.bbc.co.uk/news/articles/cw62jje658dlo?at_medium=RSS&at_campaign=rss",
-   "has_text": true
-  },
-  {
-   "title": "CNN says its reporters were barred from joining press pool on Air Force One",
-   "link": "https://thehill.com/media/6112790-trump-cnn-barred-air-force-one/",
-   "summary": "CNN reported its journalists have been barred from joining the press pool traveling with President Trump this weekend. They were set to board Air Force One on Saturday to cover his visit to Knoxville for a college football game. The outlet had been scheduled to serve as this weekend’s TV press pooler — a rotating…",
-   "published": "2026-09-26T02:14:15+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "17a3ff331706",
-   "article_url": "https://thehill.com/media/6112790-trump-cnn-barred-air-force-one/",
-   "has_text": false
-  },
-  {
-   "title": "Polish defense official says US has decided to establish a base in Poland",
-   "link": "https://www.defenseone.com/policy/2026/09/poland-get-us-base-polish-defense-official-says/416257/",
-   "summary": "But the Pentagon declined to confirm a decision about Warsaw's longtime goal.",
-   "published": "2026-09-26T02:03:57+00:00",
-   "source": "defenseone",
-   "outlet": "Defense One",
-   "counted": true,
-   "section": "top",
-   "id": "abab44c0352e",
-   "article_url": "https://www.defenseone.com/policy/2026/09/poland-get-us-base-polish-defense-official-says/416257/",
-   "has_text": true
-  },
-  {
-   "title": "Trump rescinds nearly $1B in federal funding, bypassing congressional approval",
-   "link": "https://thehill.com/homenews/administration/6112779-trump-cancels-billion-federal-funding/",
-   "summary": "President Trump cancelled almost $1 billion in federal funding Friday using the controversial “pocket rescission” process, which allows him to sidestep congressional approval. Most of the cancellations targeted Health and Human Services (HHS) programs serving undocumented immigrants and unaccompanied children in court, as well as similar initiatives under the agency’s Minority Health office and the…",
-   "published": "2026-09-26T01:50:22+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "fb71a7115f4f",
-   "article_url": "https://thehill.com/homenews/administration/6112779-trump-cancels-billion-federal-funding/",
    "has_text": true
   }
  ]
