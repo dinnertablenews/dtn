@@ -1,0 +1,76 @@
+{
+  "slot": "2026-09-27 20:00 CT",
+  "date": "2026-09-27",
+  "category": "Climate",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/nation/hurricane-nolo-gains-speed-as-it-moves-away-from-hawaii-but-high-winds-flash-floods-are-still-risk",
+  "source_domain": "pbs.org/newshour",
+  "headline": "Nolo passes Hawaii. Polo hits Baja on Monday.",
+  "summary": "Hurricane Nolo passed 260 miles south of Hawaii on Sunday with winds near 105 mph. Its outer bands may still drop 20 inches of rain on the Big Island, where Hurricane Lala swept about 100 homes off their foundations in August. About 400 National Guard members are out. In Mexico, Hurricane Polo, a Category 3, reaches Baja on Monday.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "Why so many storms in Hawaii?"
+  },
+  "cover_answer": "It's an El Niño year. The Pacific is busier than usual.",
+  "table_question": "Who gets a town ready for a storm: the town, or each family?",
+  "ages": {
+    "5-7": {
+      "shield": false,
+      "script": "A big storm called Nolo went past Hawaii today, out at sea. It didn't come ashore, but its rain reaches a long way, the way a lawn sprinkler wets the path even when it's pointed at the grass. Some roads flooded, and 400 soldiers are there helping people through the water. The grown-ups have it.",
+      "why": "A sprinkler wetting the path. The storm is out at sea and the soldiers are there.",
+      "why_long": "A six-year-old reasons from what is in front of them, and a storm that missed but still floods makes no sense until the sprinkler puts it on the lawn. The script keeps the storm at sea and the soldiers on the ground, which is the part that reassures. Expect \"is it coming here?\" No. It is far out in the Pacific and moving away."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Nolo's center stayed 260 miles south of Hawaii. Its rain bands reach far past the eye, and the Big Island could get 20 inches. People there are still rebuilding after Lala pushed about 100 homes off their foundations in August. So the governor sent the Guard early, like a fire drill before a fire.",
+      "why": "Missed, but still flooding. The fire drill explains the Guard.",
+      "why_long": "This age is working out cause and effect, so the script hands them the chain: a storm passes 260 miles out, its bands drop 20 inches, the ground is still wrecked from August, so the Guard goes out early. The fire drill is the mechanism, prepare before the thing happens. Expect \"why didn't they leave?\" Most did not have to. Shelters opened."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Hawaii has had Lala, Lowell and now Nolo since August, and the weather service says this season fits El Niño. When is a run of storms weather, and when is it a pattern you plan around? Second: San Juanico, in Baja, has one plan for Polo: the school as a shelter. Who owes that town protection?",
+      "why": "Weather or pattern, then who owes a small town help.",
+      "why_long": "A teenager can reason about what is not in front of them, so the script asks them to weigh a season against a trend, with El Niño as the honest complication. Then it moves to San Juanico, a town on its own with a school for a shelter. Expect \"is this climate change?\" The article does not say. The forecaster names El Niño and stops."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Is the storm coming here?",
+        "a": "No. It's far out in the Pacific and moving away from Hawaii. The people there have soldiers and shelters helping."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why so many storms in Hawaii?",
+        "a": "The Pacific is unusually busy this year. That fits El Niño."
+      },
+      {
+        "q": "How can a storm that missed still flood?",
+        "a": "Its rain bands reach far past the eye. It was 260 miles out."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Is this climate change?",
+        "a": "The article doesn't say. The forecaster names El Niño."
+      },
+      {
+        "q": "Why is that Mexican town on its own?",
+        "a": "It got full-time power only recently. Its plan is the school."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#HurricaneNolo",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 9,
+    "13-17": 14
+  },
+  "caption": "It's an El Niño year. The Pacific is busier than usual.\n\nHurricane Nolo passed 260 miles south of Hawaii on Sunday with winds near 105 mph. Its outer bands may still drop 20 inches of rain on the Big Island, where Hurricane Lala swept about 100 homes off their foundations in August. About 400 National Guard members are out. In Mexico, Hurricane Polo, a Category 3, reaches Baja on Monday.\n\nSource: PBS NewsHour\n\nSwipe for what to say at age 7, at 9, and at 14.\n\nThe dinner table question: Who gets a town ready for a storm: the town, or each family? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #HurricaneNolo #DinnerTableNews"
+}
