@@ -1,9 +1,54 @@
 {
- "fetched_at": "2026-09-28T00:38:50.848654+00:00",
+ "fetched_at": "2026-09-28T01:28:52.960416+00:00",
  "window_hours": 48,
- "count": 273,
- "errors": [],
+ "count": 271,
+ "errors": [
+  {
+   "source": "nasa",
+   "url": "https://www.nasa.gov/feed/",
+   "error": "429 Client Error: Too Many Requests for url: https://www.nasa.gov/feed/"
+  }
+ ],
  "items": [
+  {
+   "title": "Shipwreck found on Nantucket beach during storm",
+   "link": "https://www.bbc.co.uk/news/videos/ck980zl0pgq9o?at_medium=RSS&at_campaign=rss",
+   "summary": "The so-called nor'easter storm has washed up what may be a shipwreck from the 19th century in Massachusetts, local media says.",
+   "published": "2026-09-28T01:09:57+00:00",
+   "source": "bbc",
+   "outlet": "BBC News",
+   "counted": true,
+   "section": "climate",
+   "id": "1f6ebae61927",
+   "article_url": "https://www.bbc.co.uk/news/videos/ck980zl0pgq9o?at_medium=RSS&at_campaign=rss",
+   "has_text": true
+  },
+  {
+   "title": "Watch: Shipwreck uncovered on Nantucket island during nor'easter storm",
+   "link": "https://www.bbc.co.uk/news/videos/cmg497x0p4x3o?at_medium=RSS&at_campaign=rss",
+   "summary": "The so-called nor'easter storm has washed up what may be a shipwreck from the 19th century in Massachusetts, local media says.",
+   "published": "2026-09-28T00:52:49+00:00",
+   "source": "bbc",
+   "outlet": "BBC News",
+   "counted": true,
+   "section": "climate",
+   "id": "e7c9e475365d",
+   "article_url": "https://www.bbc.co.uk/news/videos/cmg497x0p4x3o?at_medium=RSS&at_campaign=rss",
+   "has_text": true
+  },
+  {
+   "title": "Kirk Cousins passes for 3 TDs and the unbeaten Raiders come back to top the Saints 35-27",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSXpZb2tYWjhLeHpDc3ZfQXZ5Q0VNSy0xUjBlcjdrLVJSemk3Z2R1eXBJZExVeWhyT1NtbTBPNWkya2xFeEl6SHZXNEctaUo4dkJZTzh5dWRic2tTTERxUTNNVmN3a1BiNm1rbTFPTlFWTTQtQkdjT2VmUFFZT2VWdkZkWU1DZTg?oc=5",
+   "summary": "Kirk Cousins passes for 3 TDs and the unbeaten Raiders come back to top the Saints 35-27 AP News",
+   "published": "2026-09-28T00:22:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "b2063e837a56",
+   "article_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSXpZb2tYWjhLeHpDc3ZfQXZ5Q0VNSy0xUjBlcjdrLVJSemk3Z2R1eXBJZExVeWhyT1NtbTBPNWkya2xFeEl6SHZXNEctaUo4dkJZTzh5dWRic2tTTERxUTNNVmN3a1BiNm1rbTFPTlFWTTQtQkdjT2VmUFFZT2VWdkZkWU1DZTg?oc=5",
+   "has_text": false
+  },
   {
    "title": "MLB, Trump administration mulling baseball game in National Park: Report",
    "link": "https://thehill.com/policy/sports-gaming/6114278-mlb-grand-teton-national-park/",
@@ -15,6 +60,32 @@
    "section": "top",
    "id": "28e3d40a1ad4",
    "article_url": "https://thehill.com/policy/sports-gaming/6114278-mlb-grand-teton-national-park/",
+   "has_text": false
+  },
+  {
+   "title": "House Democrats plan vast oversight of Trump administration. Impeachment is an option",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcy10ZFE2SGc4eGtIcnVnWUNmQ0I3YTZJc3RwX21XNV9BOUpoVFBILURqSy1PRUNxeEtmVWZSRnFDYXBCbHVCdzRKZU9CdHg2bW5qaVhTY0lqTzhDTE0ySlZqaDJnbS1jSlF5aXE1ZzNCdFhUV0xheFY1dV9zLUNJVHZQdXNZcndoV3ZJYmY2SjBSdlJXQUhIeEhJYVJTS2Y2OGt5bXE4cEFBMUdfaDRvRDg0ZzZjMHFaLVB4MDVBLWpZNTFLa29V?oc=5",
+   "summary": "House Democrats plan vast oversight of Trump administration. Impeachment is an option AP News",
+   "published": "2026-09-28T00:17:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "622f06d0efdf",
+   "article_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcy10ZFE2SGc4eGtIcnVnWUNmQ0I3YTZJc3RwX21XNV9BOUpoVFBILURqSy1PRUNxeEtmVWZSRnFDYXBCbHVCdzRKZU9CdHg2bW5qaVhTY0lqTzhDTE0ySlZqaDJnbS1jSlF5aXE1ZzNCdFhUV0xheFY1dV9zLUNJVHZQdXNZcndoV3ZJYmY2SjBSdlJXQUhIeEhJYVJTS2Y2OGt5bXE4cEFBMUdfaDRvRDg0ZzZjMHFaLVB4MDVBLWpZNTFLa29V?oc=5",
+   "has_text": false
+  },
+  {
+   "title": "Trump asked China’s president if he wants to buy US arms, ambassador says",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQS0RpWWZ5VnRieXhDRkcyTE9ieGRNTkFCc1gxZzBiMkQ5LTZ5cUdwT1BLbTdSSGtGc042MWxUbXVzanZwTUJJcmpWN1JQTEpWOUdsNFdQdm8wTjZOUlU4eUNyMGdic3NXZG9fUV9pcHVwRi13Z3I0ZDNpdG1yWG9qUFVxczFoRlNCNEdUOE45VVM4TEEzU3Q5dQ?oc=5",
+   "summary": "Trump asked China’s president if he wants to buy US arms, ambassador says AP News",
+   "published": "2026-09-28T00:13:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "887a96ebf5cd",
+   "article_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQS0RpWWZ5VnRieXhDRkcyTE9ieGRNTkFCc1gxZzBiMkQ5LTZ5cUdwT1BLbTdSSGtGc042MWxUbXVzanZwTUJJcmpWN1JQTEpWOUdsNFdQdm8wTjZOUlU4eUNyMGdic3NXZG9fUV9pcHVwRi13Z3I0ZDNpdG1yWG9qUFVxczFoRlNCNEdUOE45VVM4TEEzU3Q5dQ?oc=5",
    "has_text": false
   },
   {
@@ -31,6 +102,19 @@
    "has_text": false
   },
   {
+   "title": "Powerful nor’easter floods Northeast again, causing problems from New Jersey to New England",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSm8yTVN4Z0tmWTVURVhPYTdqVWRYOXVqXzllQkJ1ZzRGZ040SXdRQjJ1ZlFLRDNYTlN6aWFyeXBQQXBsSUZ0UmtSWEdHVWtzZTJsVGFaZW9DSmd5ZXpUejdkSldwSHdiN3ZtYUJLNEJ2aFRQX05DVl80NVI1dzhlcUZtNHFDUm1NazZKT2Ryd0xJT1JoT0E?oc=5",
+   "summary": "Powerful nor’easter floods Northeast again, causing problems from New Jersey to New England AP News",
+   "published": "2026-09-28T00:06:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "c04e3a69b3c9",
+   "article_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSm8yTVN4Z0tmWTVURVhPYTdqVWRYOXVqXzllQkJ1ZzRGZ040SXdRQjJ1ZlFLRDNYTlN6aWFyeXBQQXBsSUZ0UmtSWEdHVWtzZTJsVGFaZW9DSmd5ZXpUejdkSldwSHdiN3ZtYUJLNEJ2aFRQX05DVl80NVI1dzhlcUZtNHFDUm1NazZKT2Ryd0xJT1JoT0E?oc=5",
+   "has_text": false
+  },
+  {
    "title": "Water brand Liquid Death will make others’ ads",
    "link": "https://www.semafor.com/article/09/27/2026/water-brand-liquid-death-will-make-others-ads",
    "summary": "The water brand Liquid Death is one of the purest marketing stories of the moment: a billion-dollar company that sells the ultimate commodity through edgy comedy. CEO Mike Cessario told Liz and me on last week’s that his company’s in-house agency, Death Machine, has also taken on a “few select brands” as external clients. But they’ll need to understand LD’s hardcore sense of humor. “We don’t need” the money, Cessario said, noting the brand will do some $5 million in merch sales alone this year. “It’s like, hey, if you want the Liquid Death magic, we can do that … [but] if you want us to just g",
@@ -42,6 +126,19 @@
    "id": "b865b4297a23",
    "article_url": "https://www.semafor.com/article/09/27/2026/water-brand-liquid-death-will-make-others-ads",
    "has_text": true
+  },
+  {
+   "title": "Washington LB Leo Chenal carted off with a neck injury against Seattle",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVUZCWTlCazZEeUtrMy1OV1RQai10Y2x4bnM0aF83cm9TbDhMeGd2NXdSU2t4TEhJWDBFQkREdHpUOGRfTVp6TW5iVGFSREd1STU0d1JkVWMzbzgySW1JcWE1Qy1fTXFPY09NNkhSY2hIRG9sMDBlNEZ3bXJpZXhhX1RnX19HSUdHSTRjbTdqOTVsT29YTTRzTDlLOVdnSUtG?oc=5",
+   "summary": "Washington LB Leo Chenal carted off with a neck injury against Seattle AP News",
+   "published": "2026-09-27T23:49:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "197110f86308",
+   "article_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVUZCWTlCazZEeUtrMy1OV1RQai10Y2x4bnM0aF83cm9TbDhMeGd2NXdSU2t4TEhJWDBFQkREdHpUOGRfTVp6TW5iVGFSREd1STU0d1JkVWMzbzgySW1JcWE1Qy1fTXFPY09NNkhSY2hIRG9sMDBlNEZ3bXJpZXhhX1RnX19HSUdHSTRjbTdqOTVsT29YTTRzTDlLOVdnSUtG?oc=5",
+   "has_text": false
   },
   {
    "title": "Trump to travel to Ohio to stump for Sen. Jon Husted as the Republican faces competitive challenge",
@@ -174,6 +271,19 @@
    "has_text": false
   },
   {
+   "title": "Americans rally in singles to win the Presidents Cup for the 11th straight time",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZGhyWXlabThOV1R0czJOb0s0a1Y5UlNzQ1RCVHhfQVhOTnBpNDhIbFliMVJ2aUpock5zTkk0X1FhT3g0Skh4YWcxVVQwcGtQaU9obFVlUjROWmJQQmZaazVzd2VBYjB1RnhMY1ZoUldtWVRmWmJnN21TRFVRUHRDSGdfc0FSMEhXdnY2ZXA2UjVlWlFockQtQmY4RF85VVFSaTFV?oc=5",
+   "summary": "Americans rally in singles to win the Presidents Cup for the 11th straight time AP News",
+   "published": "2026-09-27T22:43:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "fcc8f2e40968",
+   "article_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZGhyWXlabThOV1R0czJOb0s0a1Y5UlNzQ1RCVHhfQVhOTnBpNDhIbFliMVJ2aUpock5zTkk0X1FhT3g0Skh4YWcxVVQwcGtQaU9obFVlUjROWmJQQmZaazVzd2VBYjB1RnhMY1ZoUldtWVRmWmJnN21TRFVRUHRDSGdfc0FSMEhXdnY2ZXA2UjVlWlFockQtQmY4RF85VVFSaTFV?oc=5",
+   "has_text": false
+  },
+  {
    "title": "Firms take lead on AI safety standards as security incidents mount",
    "link": "https://www.semafor.com/article/09/27/2026/firms-take-lead-on-ai-safety-standards-as-security-incidents-mount",
    "summary": "Google, OpenAI, and Anthropic are coordinating on their own “Standards Authority for Frontier AI,” The Information reported.",
@@ -249,19 +359,6 @@
    "section": "top",
    "id": "8a2024af4031",
    "article_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdERWaEZKN0I0ODhHWXdiVGpfeHpfWjVjeVNKR2tDcXBCTGEtNkQ3UnlWb0dHUTJyV21kMXNEaTVuTHNhY3JPUHA5Z0tjRWJIRGtmZ3lpMUZGUktmTERkLWhUUmg5Mm90SkNzaTM3ZHd3WW85U0w1N252NVVsa1JHSQ?oc=5",
-   "has_text": false
-  },
-  {
-   "title": "Americans rally in singles to win the Presidents Cup for the 11th straight time",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZGhyWXlabThOV1R0czJOb0s0a1Y5UlNzQ1RCVHhfQVhOTnBpNDhIbFliMVJ2aUpock5zTkk0X1FhT3g0Skh4YWcxVVQwcGtQaU9obFVlUjROWmJQQmZaazVzd2VBYjB1RnhMY1ZoUldtWVRmWmJnN21TRFVRUHRDSGdfc0FSMEhXdnY2ZXA2UjVlWlFockQtQmY4RF85VVFSaTFV?oc=5",
-   "summary": "Americans rally in singles to win the Presidents Cup for the 11th straight time AP News",
-   "published": "2026-09-27T21:59:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "fcc8f2e40968",
-   "article_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZGhyWXlabThOV1R0czJOb0s0a1Y5UlNzQ1RCVHhfQVhOTnBpNDhIbFliMVJ2aUpock5zTkk0X1FhT3g0Skh4YWcxVVQwcGtQaU9obFVlUjROWmJQQmZaazVzd2VBYjB1RnhMY1ZoUldtWVRmWmJnN21TRFVRUHRDSGdfc0FSMEhXdnY2ZXA2UjVlWlFockQtQmY4RF85VVFSaTFV?oc=5",
    "has_text": false
   },
   {
@@ -460,19 +557,6 @@
    "has_text": false
   },
   {
-   "title": "Powerful nor’easter floods Northeast again, causing problems from New Jersey to New England",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSm8yTVN4Z0tmWTVURVhPYTdqVWRYOXVqXzllQkJ1ZzRGZ040SXdRQjJ1ZlFLRDNYTlN6aWFyeXBQQXBsSUZ0UmtSWEdHVWtzZTJsVGFaZW9DSmd5ZXpUejdkSldwSHdiN3ZtYUJLNEJ2aFRQX05DVl80NVI1dzhlcUZtNHFDUm1NazZKT2Ryd0xJT1JoT0E?oc=5",
-   "summary": "Powerful nor’easter floods Northeast again, causing problems from New Jersey to New England AP News",
-   "published": "2026-09-27T20:59:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "c04e3a69b3c9",
-   "article_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNSm8yTVN4Z0tmWTVURVhPYTdqVWRYOXVqXzllQkJ1ZzRGZ040SXdRQjJ1ZlFLRDNYTlN6aWFyeXBQQXBsSUZ0UmtSWEdHVWtzZTJsVGFaZW9DSmd5ZXpUejdkSldwSHdiN3ZtYUJLNEJ2aFRQX05DVl80NVI1dzhlcUZtNHFDUm1NazZKT2Ryd0xJT1JoT0E?oc=5",
-   "has_text": false
-  },
-  {
    "title": "2 giant pandas arrive in Atlanta under a U.S.-China government agreement",
    "link": "https://www.pbs.org/newshour/nation/2-giant-pandas-arrive-in-atlanta-under-a-u-s-china-government-agreement",
    "summary": "A new agreement between Zoo Atlanta and the China Wildlife Conservation Association makes Atlanta one of three zoos in the U.S. to house giant pandas, along with the San Diego Zoo and the Smithsonian's National Zoo in Washington, D.C.",
@@ -484,6 +568,19 @@
    "id": "7160f5ef34fb",
    "article_url": "https://www.pbs.org/newshour/nation/2-giant-pandas-arrive-in-atlanta-under-a-u-s-china-government-agreement",
    "has_text": true
+  },
+  {
+   "title": "Weekend storms bring dangerous weather to North America, in photos",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMTczQm1HcUFsRnRyX2w1X3hlaTN3NUZXU3lrZXpSZWRRZ3IzVi1TN1JhcXJBX21PMzZXSVltUDFvNHczYUk1X2hBSUM0ekF4bTItU1pCMVQ5NDRBSE9xeTZzdjBYUW1CMXJpejVZV1loWjNUaVRUbi1Ea3NoRjFjb3lCRWVNdUU1Rm9zQ3RZUEdHNDA4bW5rS3pqZk5uU1pLMmtYYXcwWEh1ZWFGUnZ3Nm5KSEI?oc=5",
+   "summary": "Weekend storms bring dangerous weather to North America, in photos AP News",
+   "published": "2026-09-27T20:41:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "42f5c096749b",
+   "article_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMTczQm1HcUFsRnRyX2w1X3hlaTN3NUZXU3lrZXpSZWRRZ3IzVi1TN1JhcXJBX21PMzZXSVltUDFvNHczYUk1X2hBSUM0ekF4bTItU1pCMVQ5NDRBSE9xeTZzdjBYUW1CMXJpejVZV1loWjNUaVRUbi1Ea3NoRjFjb3lCRWVNdUU1Rm9zQ3RZUEdHNDA4bW5rS3pqZk5uU1pLMmtYYXcwWEh1ZWFGUnZ3Nm5KSEI?oc=5",
+   "has_text": false
   },
   {
    "title": "British PM Andy Burnham brings good vibes to his party's annual conference, but tough choices are coming",
@@ -744,19 +841,6 @@
    "id": "a6e3508a564b",
    "article_url": "https://www.axios.com/2026/09/27/amodei-trump-anthropic-white-house-briefing",
    "has_text": true
-  },
-  {
-   "title": "Washington LB Leo Chenal carted off with a neck injury against Seattle",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVUZCWTlCazZEeUtrMy1OV1RQai10Y2x4bnM0aF83cm9TbDhMeGd2NXdSU2t4TEhJWDBFQkREdHpUOGRfTVp6TW5iVGFSREd1STU0d1JkVWMzbzgySW1JcWE1Qy1fTXFPY09NNkhSY2hIRG9sMDBlNEZ3bXJpZXhhX1RnX19HSUdHSTRjbTdqOTVsT29YTTRzTDlLOVdnSUtG?oc=5",
-   "summary": "Washington LB Leo Chenal carted off with a neck injury against Seattle AP News",
-   "published": "2026-09-27T18:54:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "197110f86308",
-   "article_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVUZCWTlCazZEeUtrMy1OV1RQai10Y2x4bnM0aF83cm9TbDhMeGd2NXdSU2t4TEhJWDBFQkREdHpUOGRfTVp6TW5iVGFSREd1STU0d1JkVWMzbzgySW1JcWE1Qy1fTXFPY09NNkhSY2hIRG9sMDBlNEZ3bXJpZXhhX1RnX19HSUdHSTRjbTdqOTVsT29YTTRzTDlLOVdnSUtG?oc=5",
-   "has_text": false
   },
   {
    "title": "Iran ‘fully prepared’ for war to resume if Trump authorizes strikes after midterms",
@@ -2020,17 +2104,6 @@
    "has_text": false
   },
   {
-   "title": "APOD: 2026 September 27 – Andromeda Before and After Photoshop",
-   "link": "https://science.nasa.gov/image-article/apod-2026-september-27-andromeda-before-photoshop/",
-   "summary": "APOD Science APOD APOD: 2026 September 27 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. BeforeAfter Andromeda Before […]",
-   "published": "2026-09-27T04:05:00+00:00",
-   "source": "nasa",
-   "outlet": "NASA",
-   "counted": false,
-   "section": "top",
-   "id": "c0ccf9cb6b19"
-  },
-  {
    "title": "A perfect day for Florida teams, with Canes, Gators, FSU, UCF, USF, FIU and FAU all winning Saturday",
    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQNjE3ODh6bUtrbTNLTUVpOWtjTG9ieUdadGc0VWVsLWw1NjNRNTFGV1VJT3ZEaEJRNEQ4QjZPckR4LUhNVFIwRVItWTZUenJaMmtTQ1A0OVFmMjBmVkUyYTN5UU05VmJ4a2ZRNE03UV91T0hCUVRXeDJSWjdKcno1QnNTd1ZJQ2wxazlBcg?oc=5",
    "summary": "A perfect day for Florida teams, with Canes, Gators, FSU, UCF, USF, FIU and FAU all winning Saturday AP News",
@@ -2207,7 +2280,7 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "top",
+   "section": "climate",
    "id": "23c922e40091",
    "article_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTVlVWVhHMFNRb0ozNUdpdWoyUjNOQm5BVUM0X1RZNmF3Q3c4emZtWjZXNndwclliUlhVQlp1SXV6WVVxRURBN0tRYjE5WlljS01waHBXaVM2c0xEOG9POG14bXFUbExJeGVkQ0JWYUg0RzNFUk41cDhxdm5kZUVMQ2tlU3VqS3ZqUzdONUFfWlJibVM0RkU0VDZwOA?oc=5",
    "has_text": false
@@ -2220,35 +2293,9 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "top",
+   "section": "climate",
    "id": "47a7ec8ad2db",
    "article_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNT3NJdnRGdDdHQ0FJZzVwdjBId09ZT2RfOHh5dXA4S0U3dGd6dndrMVNURUEyN3JYdnN2MUVrUWN2NXJKQW1hWWNVWTRDdlJKUTNidF92SnBkSXpaUlhtc1JobmN6d2NabzBqb0IxRGZkelFWeGY2TVo4eXZqRjVKZUZ3eGJrdE0?oc=5",
-   "has_text": false
-  },
-  {
-   "title": "Internationals finish strong to lead Presidents Cup. Now they have to find a way to close it out",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPLUR4akpGU1Q0NWhBeUhsQ2Jnal9Od0NvTFhTTEEtZ3ljckxlX1BRLU5BSUt4c3V1SkRYbTZaQVYtV0UzOWJCaTJOUU1RYWVUSTJTaTU5LWdzVFpuYTRkdG1xRy1lN3NUTzREQmVkcldEMWdfN0w5VGU1QmtpWllDeTJDM2J0ZGVsNnYyRnFYYm92RFQyRUJyN2FMQjRseGozN1E?oc=5",
-   "summary": "Internationals finish strong to lead Presidents Cup. Now they have to find a way to close it out AP News",
-   "published": "2026-09-27T00:56:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "87fa1e2436ee",
-   "article_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPLUR4akpGU1Q0NWhBeUhsQ2Jnal9Od0NvTFhTTEEtZ3ljckxlX1BRLU5BSUt4c3V1SkRYbTZaQVYtV0UzOWJCaTJOUU1RYWVUSTJTaTU5LWdzVFpuYTRkdG1xRy1lN3NUTzREQmVkcldEMWdfN0w5VGU1QmtpWllDeTJDM2J0ZGVsNnYyRnFYYm92RFQyRUJyN2FMQjRseGozN1E?oc=5",
-   "has_text": false
-  },
-  {
-   "title": "Pope Leo draws 800,000 people to central Paris for open-air Mass on iconic square",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbEJFcjNvV3FnbnMyU21pVDFZV1k0TzFRajdDb0hHaVlrcFZlWThrTDZqdEwtQjdsOUdGeWR4c0JUdE1BMEFzamc5SmtfT3FUWVB2Tm1aa3daSWRoM3JqUl8zMVZkLWdfVm8wdXoyNzBmXzRRYnBvdGptV08xYkFYT1VmZ21wSUlvRHppckpmWXhUdWpCX0Z4RVhaNA?oc=5",
-   "summary": "Pope Leo draws 800,000 people to central Paris for open-air Mass on iconic square AP News",
-   "published": "2026-09-27T00:55:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "81ce0bec5bd0",
-   "article_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbEJFcjNvV3FnbnMyU21pVDFZV1k0TzFRajdDb0hHaVlrcFZlWThrTDZqdEwtQjdsOUdGeWR4c0JUdE1BMEFzamc5SmtfT3FUWVB2Tm1aa3daSWRoM3JqUl8zMVZkLWdfVm8wdXoyNzBmXzRRYnBvdGptV08xYkFYT1VmZ21wSUlvRHppckpmWXhUdWpCX0Z4RVhaNA?oc=5",
    "has_text": false
   },
   {
@@ -2275,19 +2322,6 @@
    "section": "climate",
    "id": "0d1af408349b",
    "article_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaFZLLS1lQkt1U3JMNWZERThzMVRwek5zNWhJTk5YTU1SWWJmTFBsREdXTnRwSVl6WklrMklFd2o4LWlwM2lmWmtuRDZ5Wk1jNVVUQUZrOGdaRnZhU0JGT0pxYnRUMzh1SjVka3hzZjl4dVJKNWFYUjlndzhxOGJEOUt1QjU5T0lNZm1NN1NxNlVmNnR3ME1kdlBDRVU0WjVld3JEdHBBdjA5SGNldXhZ?oc=5",
-   "has_text": false
-  },
-  {
-   "title": "No. 17 Iowa drives for last-play TD to beat No. 18 Michigan 20-19",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZ0FxX1BWTVJMU1dzS2NBVEtPcXJ2Z2ktQUkxaEpDekItajVLdm9JVktXT09yVTg0T2FpTHVNdkhJMm8wbUhuLUtoUF9zbGNRbGZTTjc2bmxuWlROOGNYSjVZbE8taHE5dEhKUTBUalRFVXVjLTg0LWZZVDc1WlQ4c2NUbFVuZw?oc=5",
-   "summary": "No. 17 Iowa drives for last-play TD to beat No. 18 Michigan 20-19 AP News",
-   "published": "2026-09-27T00:13:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "f23c3fb74a36",
-   "article_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZ0FxX1BWTVJMU1dzS2NBVEtPcXJ2Z2ktQUkxaEpDekItajVLdm9JVktXT09yVTg0T2FpTHVNdkhJMm8wbUhuLUtoUF9zbGNRbGZTTjc2bmxuWlROOGNYSjVZbE8taHE5dEhKUTBUalRFVXVjLTg0LWZZVDc1WlQ4c2NUbFVuZw?oc=5",
    "has_text": false
   },
   {
@@ -2372,7 +2406,7 @@
    "title": "Boise State beats Western Michigan 32-7 behind Madsen’s 3 TD passes",
    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTDA2TS1VZjl6dmZjU2gwVEI1bk5uOHpPeXZ3YjUwbTl4MHI5aTVNd1hiUVJlMmVCaWJvODhZT2h2LV8tMVVRRFFVOWVMODg4VjQxcGFheHI5V0RFWWVuUHNMdjVSQWliQ2hJaGhIN19zRjJMcm90dlBNTjFGenFJOWNxU3hQdFNxb1FGd2cwUkREUFhLRF9Fa29R?oc=5",
    "summary": "Boise State beats Western Michigan 32-7 behind Madsen’s 3 TD passes AP News",
-   "published": "2026-09-26T23:14:20+00:00",
+   "published": "2026-09-26T23:10:00+00:00",
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
@@ -2655,19 +2689,6 @@
    "has_text": true
   },
   {
-   "title": "Weekend storms bring dangerous weather to North America, in photos",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMTczQm1HcUFsRnRyX2w1X3hlaTN3NUZXU3lrZXpSZWRRZ3IzVi1TN1JhcXJBX21PMzZXSVltUDFvNHczYUk1X2hBSUM0ekF4bTItU1pCMVQ5NDRBSE9xeTZzdjBYUW1CMXJpejVZV1loWjNUaVRUbi1Ea3NoRjFjb3lCRWVNdUU1Rm9zQ3RZUEdHNDA4bW5rS3pqZk5uU1pLMmtYYXcwWEh1ZWFGUnZ3Nm5KSEI?oc=5",
-   "summary": "Weekend storms bring dangerous weather to North America, in photos AP News",
-   "published": "2026-09-26T18:59:07+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "42f5c096749b",
-   "article_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMTczQm1HcUFsRnRyX2w1X3hlaTN3NUZXU3lrZXpSZWRRZ3IzVi1TN1JhcXJBX21PMzZXSVltUDFvNHczYUk1X2hBSUM0ekF4bTItU1pCMVQ5NDRBSE9xeTZzdjBYUW1CMXJpejVZV1loWjNUaVRUbi1Ea3NoRjFjb3lCRWVNdUU1Rm9zQ3RZUEdHNDA4bW5rS3pqZk5uU1pLMmtYYXcwWEh1ZWFGUnZ3Nm5KSEI?oc=5",
-   "has_text": false
-  },
-  {
    "title": "Heavy rain and flooding in Bangkok disrupts traffic and prompts evacuations",
    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWXlKVUxEWGNGYktRN01VOE1CbVY4SDhlemprYWVZUmVkdy1BZTh4UGp1TEMwc2tRb2JJTHZtWkRreXliLTBQbDNnUlNleWNxbGZNMUlabEZXd29QUDI4aUduQ1MyVE1mLXNJcnQ1QS11UHpzYWxSdVNiWExGbG9OcFFiTEZRZldwaUduRWdlUWpDWHFSLVQtUTA0RENHNUdLUXNhVg?oc=5",
    "summary": "Heavy rain and flooding in Bangkok disrupts traffic and prompts evacuations AP News",
@@ -2718,6 +2739,19 @@
    "id": "c9e3da14b53f",
    "article_url": "https://www.pbs.org/newshour/world/china-and-u-s-agree-to-establish-ai-safety-channel-and-continue-trade-and-military-talks",
    "has_text": true
+  },
+  {
+   "title": "China and US agree to establish AI safety channel and continue trade and military talks",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVDVpNXhQYUFNLTZHUVJkeGFXYnhyT0hFSm5CeEZxYi0wNTlxMjRxR3ZYdTNxa2I1bmVDZzRDWVRENFRkRTVmb2FxdDlweGpkOEJnODZpaXl1THFxcDQ5MDVNTWpBTVp1VEE4LU9NSjI4X0N5YjIzckFDU29HZktWWWlYWkMybTluQkZ0Mm5IY2NUSEEzeWp3OQ?oc=5",
+   "summary": "China and US agree to establish AI safety channel and continue trade and military talks AP News",
+   "published": "2026-09-26T17:42:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "192472b50426",
+   "article_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVDVpNXhQYUFNLTZHUVJkeGFXYnhyT0hFSm5CeEZxYi0wNTlxMjRxR3ZYdTNxa2I1bmVDZzRDWVRENFRkRTVmb2FxdDlweGpkOEJnODZpaXl1THFxcDQ5MDVNTWpBTVp1VEE4LU9NSjI4X0N5YjIzckFDU29HZktWWWlYWkMybTluQkZ0Mm5IY2NUSEEzeWp3OQ?oc=5",
+   "has_text": false
   },
   {
    "title": "Bodies of 6 people, including 4 Americans, recovered from collapsed building in Athens",
@@ -2796,19 +2830,6 @@
    "id": "463f1be6e502",
    "article_url": "https://www.pbs.org/newshour/world/pope-leo-draws-800000-people-to-central-paris-for-open-air-mass-on-iconic-square",
    "has_text": true
-  },
-  {
-   "title": "Thousands welcome cycling students in Kragujevac ahead of Serbia’s Oct. 25 election",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOR19mYTdDM0RpYVBFUjRlOTFxc3JtTEw2RV9LV0NvY1FxMXJXdXlFdHJNT3YweGVGUHBrVkNYZXFHNzdJam9GTnVaNXRxM2Fhb2t6SmlVLUJUZ0pjSTFlQkh6eDVCaWZJdDJlRkJrUzhMVC1tYlprWjFQS3hZQ3dEWTJlOHVIMlNXTEs1TmpMUDdCRVFSeVUzQW9vTUNoaXc?oc=5",
-   "summary": "Thousands welcome cycling students in Kragujevac ahead of Serbia’s Oct. 25 election AP News",
-   "published": "2026-09-26T17:05:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "5e2c4fa396cc",
-   "article_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOR19mYTdDM0RpYVBFUjRlOTFxc3JtTEw2RV9LV0NvY1FxMXJXdXlFdHJNT3YweGVGUHBrVkNYZXFHNzdJam9GTnVaNXRxM2Fhb2t6SmlVLUJUZ0pjSTFlQkh6eDVCaWZJdDJlRkJrUzhMVC1tYlprWjFQS3hZQ3dEWTJlOHVIMlNXTEs1TmpMUDdCRVFSeVUzQW9vTUNoaXc?oc=5",
-   "has_text": false
   },
   {
    "title": "United in debt: America has become a nation of fake rich people",
@@ -2925,6 +2946,19 @@
    "section": "climate",
    "id": "39f3c430d3a1",
    "article_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZjlvZG5TRFZIZ29zTFJ5dUUzcDhUT0pyZFM1dEN5al9lUkVKUk96V2JmQnptcGZlV1dwUGtDSFBoQncwc2FZVGp3bExoT0M0Tm4xOVBnN19lNG0yZTdqT2dBQlU0UnkwZjVDZDRZVk9obWlhXzVIeVN5elN2OE1SQ01XTlFhemNjb3dYcExJQUpKUWRvcWNRbVEyVDRBRGtQRXVmaUtn?oc=5",
+   "has_text": false
+  },
+  {
+   "title": "European ministers discuss stronger border controls and fast-track migrant returns",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQOTliYkFuM0xFaWFESUZTSU5MblRMQUFyRkZxS0ljczdzRnJWcklIdEplX2ZjazJ1b1RydHo4aVNQMVVwanpzV2xKNENsd3gtMEpqcWZ5SWRqZ253X2VPMDNJTGlpY0ZvRUlick5idXpMQ2Zxeng0el85SGM1ZXlOTDA5bF9YYVBXQzVkTWQyTHBiMFltbG1vYmhkajhBbWVIa0ktMg?oc=5",
+   "summary": "European ministers discuss stronger border controls and fast-track migrant returns AP News",
+   "published": "2026-09-26T15:52:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "2ab98864814c",
+   "article_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQOTliYkFuM0xFaWFESUZTSU5MblRMQUFyRkZxS0ljczdzRnJWcklIdEplX2ZjazJ1b1RydHo4aVNQMVVwanpzV2xKNENsd3gtMEpqcWZ5SWRqZ253X2VPMDNJTGlpY0ZvRUlick5idXpMQ2Zxeng0el85SGM1ZXlOTDA5bF9YYVBXQzVkTWQyTHBiMFltbG1vYmhkajhBbWVIa0ktMg?oc=5",
    "has_text": false
   },
   {
@@ -3123,19 +3157,6 @@
    "has_text": false
   },
   {
-   "title": "House Democrats plan vast oversight of Trump administration. Impeachment is an option",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcy10ZFE2SGc4eGtIcnVnWUNmQ0I3YTZJc3RwX21XNV9BOUpoVFBILURqSy1PRUNxeEtmVWZSRnFDYXBCbHVCdzRKZU9CdHg2bW5qaVhTY0lqTzhDTE0ySlZqaDJnbS1jSlF5aXE1ZzNCdFhUV0xheFY1dV9zLUNJVHZQdXNZcndoV3ZJYmY2SjBSdlJXQUhIeEhJYVJTS2Y2OGt5bXE4cEFBMUdfaDRvRDg0ZzZjMHFaLVB4MDVBLWpZNTFLa29V?oc=5",
-   "summary": "House Democrats plan vast oversight of Trump administration. Impeachment is an option AP News",
-   "published": "2026-09-26T12:54:39+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "622f06d0efdf",
-   "article_url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcy10ZFE2SGc4eGtIcnVnWUNmQ0I3YTZJc3RwX21XNV9BOUpoVFBILURqSy1PRUNxeEtmVWZSRnFDYXBCbHVCdzRKZU9CdHg2bW5qaVhTY0lqTzhDTE0ySlZqaDJnbS1jSlF5aXE1ZzNCdFhUV0xheFY1dV9zLUNJVHZQdXNZcndoV3ZJYmY2SjBSdlJXQUhIeEhJYVJTS2Y2OGt5bXE4cEFBMUdfaDRvRDg0ZzZjMHFaLVB4MDVBLWpZNTFLa29V?oc=5",
-   "has_text": false
-  },
-  {
    "title": "British national among six dead in building explosion close to Acropolis in Athens",
    "link": "https://www.bbc.co.uk/news/articles/c6p3kk78l4l1o?at_medium=RSS&at_campaign=rss",
    "summary": "Four Americans and a Greek national are among those killed in a suspected gas explosion, officials said.",
@@ -3294,7 +3315,7 @@
   {
    "title": "Trump’s polls sink further in warning sign for GOP",
    "link": "https://thehill.com/homenews/administration/6112712-trump-approval-ratings-midterm-elections/",
-   "summary": "President Trump’s approval ratings have sunk to new lows in several recent polls, driven by declining GOP support and souring views on the economy in a possible warning sign for Republicans just weeks out from the midterms. In the latest Reuters/Ipsos poll, Trump’s overall approval fell three points from the previous week to an all-time…",
+   "summary": "President Trump’s approval ratings have sunk to new lows in several recent polls, driven by declining GOP support and souring views on the economy in a possible warning sign for Republicans just weeks out from the midterms. In the latest Reuters/Ipsos poll, Trump’s overall approval fell 3 points from the previous week to an all-time…",
    "published": "2026-09-26T10:00:00+00:00",
    "source": "thehill",
    "outlet": "The Hill",
@@ -3409,17 +3430,6 @@
    "has_text": false
   },
   {
-   "title": "APOD: 2026 September 26 – Mirrored Meteor and Milky Way",
-   "link": "https://science.nasa.gov/image-article/apod-2026-september-26-mirrored-meteor-and-milky-way/",
-   "summary": "APOD Science APOD APOD: 2026 September 26 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Mirrored Meteor and […]",
-   "published": "2026-09-26T04:05:00+00:00",
-   "source": "nasa",
-   "outlet": "NASA",
-   "counted": false,
-   "section": "top",
-   "id": "e8b09004eb49"
-  },
-  {
    "title": "Photos of record-breaking swimmers and more from the Asian Games’ first week",
    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPLUtNdEZrWjBTaHJyTXUycEFSNndHMEFnd1diUzJucmFvc2I3d1JnVFRRbzFMZGRrVVAzc242MXZNQ3JORFpwNElaOW5jeWVDMHFJOXJQNUx2VzlnYkdKY3JOaHUxZE44Um1QdE5hdlZOX1FiT2hXeWJ0Z0FnZ2RFaHdIZkw2SVVzb2pJUThVdTk4RTZJcklYc01ialZrbVZMczZqNw?oc=5",
    "summary": "Photos of record-breaking swimmers and more from the Asian Games’ first week AP News",
@@ -3487,7 +3497,7 @@
   {
    "title": "CNN says its reporters were barred from joining press pool on Air Force One",
    "link": "https://thehill.com/media/6112790-trump-cnn-barred-air-force-one/",
-   "summary": "CNN reported its journalists have been barred from joining the press pool traveling with President Trump this weekend. They were set to board Air Force One Saturday to cover his visit to Knoxville for a college football game. The outlet had been scheduled to serve as this weekend’s TV press pooler — a rotating group…",
+   "summary": "CNN reported its journalists have been barred from joining the press pool traveling with President Trump this weekend. They were set to board Air Force One on Saturday to cover his visit to Knoxville for a college football game. The outlet had been scheduled to serve as this weekend’s TV press pooler — a rotating…",
    "published": "2026-09-26T02:14:15+00:00",
    "source": "thehill",
    "outlet": "The Hill",
@@ -3522,32 +3532,6 @@
    "id": "fb71a7115f4f",
    "article_url": "https://thehill.com/homenews/administration/6112779-trump-cancels-billion-federal-funding/",
    "has_text": true
-  },
-  {
-   "title": "Black woman found hanging from tree was dead before body was 'staged', police say",
-   "link": "https://www.bbc.co.uk/news/articles/cwp933nzpp9ro?at_medium=RSS&at_campaign=rss",
-   "summary": "Tasia Fortune's body was found hanging from a tree on the grounds of an abandoned home in Jackson in August.",
-   "published": "2026-09-26T01:24:31+00:00",
-   "source": "bbc",
-   "outlet": "BBC News",
-   "counted": true,
-   "section": "top",
-   "id": "dbf9cc7c78e2",
-   "article_url": "https://www.bbc.co.uk/news/articles/cwp933nzpp9ro?at_medium=RSS&at_campaign=rss",
-   "has_text": true
-  },
-  {
-   "title": "Trump administration uses rare authority to claw back nearly $1B in spending approved by Congress",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTWFvZGl3dnM3QXZvYy1LZFYtS3JYcGROcHZtRDN3eFg2Z241SWFSSTBpUHVONW9Pb2FnVTJQakdZNW5NMDZzSFE1dXhoMU5JS2J0UDZrZlVMcmwtYzdodElTeFdsZG9KQkZXUHNjZXMzV3NSeXpoSVF6c0N1QXVFU2tKYzhlQ1NXTGlVMXdn?oc=5",
-   "summary": "Trump administration uses rare authority to claw back nearly $1B in spending approved by Congress AP News",
-   "published": "2026-09-26T00:43:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "29eb779ffe5f",
-   "article_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTWFvZGl3dnM3QXZvYy1LZFYtS3JYcGROcHZtRDN3eFg2Z241SWFSSTBpUHVONW9Pb2FnVTJQakdZNW5NMDZzSFE1dXhoMU5JS2J0UDZrZlVMcmwtYzdodElTeFdsZG9KQkZXUHNjZXMzV3NSeXpoSVF6c0N1QXVFU2tKYzhlQ1NXTGlVMXdn?oc=5",
-   "has_text": false
   }
  ]
 }
