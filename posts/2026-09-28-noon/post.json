@@ -1,0 +1,79 @@
+{
+  "slot": "2026-09-28 12:00 CT",
+  "date": "2026-09-28",
+  "category": "Science",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/science/spacexs-supersized-starship-launches-into-orbit-for-the-first-time",
+  "source_domain": "pbs.org/newshour",
+  "headline": "Starship reached orbit. An engine quit on the way up.",
+  "summary": "SpaceX's Starship, the biggest rocket ever built, reached orbit for the first time Monday from Starbase, Texas. One engine shut down early, and controllers waited several tense minutes before pressing on. It released 26 Starlink satellites and was to circle Earth six times. By late morning AP's headline said the flight was ending early.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Is anyone inside the rocket?"
+  },
+  "cover_answer": "No. Nobody. It carried 26 satellites and let them go.",
+  "table_question": "If one part of your plan breaks, do you stop or keep going?",
+  "ages": {
+    "5-7": {
+      "shield": false,
+      "script": "A rocket called Starship flew into space today and went around the Earth for the first time. It is 407 feet tall, longer than a football field stood on its end. Nobody was inside, just 26 small satellites that popped out one by one. One engine stopped early, but the rest kept going, and the grown-ups in the control room had it.",
+      "why": "One tall thing, one number, nobody inside. At six, the empty seats are the whole story.",
+      "why_long": "A six-year-old takes one vivid feature for the whole event, so the script gives them the height and the empty seats. The engine that quit stays in, because the rest kept going and the control room decided, which is the reassurance. Expect \"will people ride it?\" Not yet. NASA wants it for the moon, and the article says that is years off."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Starship flew 13 times in three years and never got past the Indian Ocean, often in flames. Today an engine quit on the way up. The rest covered, so controllers checked the numbers and let it go on to orbit. A rowing crew with one oar down: the rest pull harder.",
+      "why": "One dead engine, one call. The crew keeps rowing. At this age they want to know who decided, and why.",
+      "why_long": "This age is working out cause and effect, so the script hands them the chain: 13 flights that fell short, an engine that quit, a check of the numbers, a decision to go on. The rowing crew is the mechanism. Expect \"what if they'd been wrong?\" Earlier failures came down in the ocean, and nobody was aboard this one either."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Musk says SpaceX won't fly Starship over land yet, because if debris fell on people \"our popularity would diminish very rapidly.\" Safety or PR, and does it matter? Second: NASA needs Starship for Artemis III next summer. Should a moon program ride on one company's tests?",
+      "why": "Two true things: the caution is real, and so is the motive.",
+      "why_long": "A teenager can hold two true things: SpaceX's caution keeps debris off people, and Musk gave popularity as the reason. The script asks whether the motive changes the act, then adds a second pair: NASA's moon program and one company's test flights. Expect \"is Musk going to Mars?\" He says the moon first. Mars was the original plan."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Is anyone inside the rocket?",
+        "a": "No. Nobody rides Starship yet. It carried 26 satellites and let them go, one by one."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why keep going with a broken engine?",
+        "a": "The rest worked and the flight didn't need it. Controllers pressed on."
+      },
+      {
+        "q": "Where does it land?",
+        "a": "In the Pacific near Chile, on purpose. Next time, giant arms may catch it."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why not fly it back to Texas already?",
+        "a": "Not yet safe enough, Musk says. A crash over people would sink SpaceX fast."
+      },
+      {
+        "q": "Does NASA actually need this?",
+        "a": "Yes. Artemis III, maybe next summer, docks Starship with Orion in orbit."
+      }
+    ]
+  },
+  "photo_subject": "SpaceX Starship",
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#Starship",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 10,
+    "13-17": 13
+  },
+  "photo": "data/images/2026-09-28-noon.jpg",
+  "photo_credit": "Photo: SpaceX, Wikimedia Commons, CC BY 2.0",
+  "caption": "No. Nobody. It carried 26 satellites and let them go.\n\nSpaceX's Starship, the biggest rocket ever built, reached orbit for the first time Monday from Starbase, Texas. One engine shut down early, and controllers waited several tense minutes before pressing on. It released 26 Starlink satellites and was to circle Earth six times. By late morning AP's headline said the flight was ending early.\n\nSource: PBS NewsHour\nPhoto: SpaceX, Wikimedia Commons, CC BY 2.0\n\nSwipe for what to say at age 6, at 10, and at 13.\n\nThe dinner table question: If one part of your plan breaks, do you stop or keep going? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #Starship #DinnerTableNews"
+}
