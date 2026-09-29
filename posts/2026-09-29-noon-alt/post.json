@@ -1,0 +1,80 @@
+{
+  "slot": "2026-09-29 12:00 CT",
+  "date": "2026-09-29",
+  "category": "Technology",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/world/contradicting-trump-pope-leo-says-ai-safety-concerns-not-fake-news",
+  "source_domain": "pbs.org/newshour",
+  "headline": "The Pope says AI fears aren't fake news. Trump says hoax.",
+  "summary": "Pope Leo XIV told reporters on the plane home from France that warnings from AI experts should be taken seriously and are not fake news. Trump has called fears of AI going rogue a hoax. Leo said he is not in panic mode and sleeps at night. He noted Nvidia's new guardrails, then that its CEO opposes regulation.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Is the computer going to be bad?"
+  },
+  "cover_answer": "No. The Pope says he sleeps fine. He just wants rules.",
+  "table_question": "Can you take a warning seriously without panicking?",
+  "ages": {
+    "5-7": {
+      "shield": false,
+      "script": "The Pope, the leader of the Catholic church, said yesterday that clever computer programs need some rules, the way a fast bike needs brakes. The president says the worry is made up. Two grown-ups disagreeing is normal, and this is one the grown-ups have.",
+      "why": "A bike needs brakes. Two grown-ups disagree, and that is normal.",
+      "why_long": "A five-year-old takes one vivid feature for the whole event, and \"AI going rogue\" is the vivid feature here, so the script never says it. It gives them brakes on a bike and two grown-ups who disagree, which they see every week. Expect \"is the computer going to be bad?\" The Pope says he sleeps fine."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "AI programs can now do jobs on their own. Some companies building them say slow down; Trump calls the worry a hoax. On Monday Pope Leo said the warnings are not fake news and leaders should sit down and talk about rules. Like a smoke detector: you don't panic, you check it.",
+      "why": "The smoke detector: check it, don't panic.",
+      "why_long": "This age is testing whether adults apply the rules they preach, so the script hands them the chain: a warning, a hoax claim, the Pope's answer. The smoke detector is the mechanism they know: check it, don't panic. Expect \"why would Trump say hoax?\" The AP says he wants the US ahead of China."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "How do you tell caution from a sales pitch? The Pope says take the AI warnings seriously; Trump says hoax; Nvidia's CEO says panic sells security software. Leo praised Nvidia's guardrails and noted Huang wants no regulation. Right on the fix, wrong on the rules?",
+      "why": "Everyone has a motive. Let them sort who gains.",
+      "why_long": "The script gives a teenager three motives: a pope with an encyclical on AI, a president who wants the US ahead of China, a chip CEO who calls panic a sales pitch. Nvidia's tools can be useful and its stance self-serving; they can hold both. Expect \"so who's right?\" Answer, then ask what would change theirs."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Is the computer going to be bad?",
+        "a": "The Pope says he sleeps fine at night. The grown-ups are talking about rules for it. That's the right order."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why would Trump call it a hoax?",
+        "a": "He wants the US ahead of China in AI and calls the worries a plot by his opponents."
+      },
+      {
+        "q": "What did the Pope say about Nvidia?",
+        "a": "He noted its new safety tools, then that its boss wants no rules at all."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Who's right, the Pope or Trump?",
+        "a": "The AI companies say slow down. Anthropic's CEO warns of a swarm."
+      },
+      {
+        "q": "Why does a pope talk about AI?",
+        "a": "His first encyclical, in May, was on AI. He calls it a top challenge."
+      }
+    ]
+  },
+  "photo_subject": "Pope Leo XIV",
+  "photo_zoom": 1.0,
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#PopeLeo",
+    "#DinnerTableNews"
+  ],
+  "photo": "data/images/2026-09-29-noon-alt.jpg",
+  "photo_credit": "Photo: Edgar Beltrán, The Pillar, Wikimedia Commons, CC BY-SA 4.0",
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 10,
+    "13-17": 16
+  },
+  "caption": "No. The Pope says he sleeps fine. He just wants rules.\n\nPope Leo XIV told reporters on the plane home from France that warnings from AI experts should be taken seriously and are not fake news. Trump has called fears of AI going rogue a hoax. Leo said he is not in panic mode and sleeps at night. He noted Nvidia's new guardrails, then that its CEO opposes regulation.\n\nSource: PBS NewsHour\nPhoto: Edgar Beltrán, The Pillar, Wikimedia Commons, CC BY-SA 4.0\n\nSwipe for what to say at age 7, at 10, and at 16.\n\nThe dinner table question: Can you take a warning seriously without panicking? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #PopeLeo #DinnerTableNews"
+}

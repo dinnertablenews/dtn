@@ -1,0 +1,80 @@
+{
+  "slot": "2026-09-29 12:00 CT",
+  "date": "2026-09-29",
+  "category": "Economy",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/world/u-s-ban-on-1-billion-worth-of-canadian-imports-from-motorcycles-to-booze-goes-into-effect",
+  "source_domain": "pbs.org/newshour",
+  "headline": "US bans $1 billion of Canadian goods. Mostly booze.",
+  "summary": "At 12:01 this morning the US stopped nearly $1 billion of Canadian goods at the border: alcohol, some dairy and motorcycles. Trump put 50% tariffs on Canada over the summer. Canada matched them dollar for dollar, so this is the punishment for hitting back. It is a ripple in $880 billion of yearly trade, and 87% of it is alcohol.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Is Canada mad at us?"
+  },
+  "cover_answer": "Yes. Canada's trade minister called the ban unjustified.",
+  "table_question": "Is hitting back fair, or does it just keep the fight going?",
+  "ages": {
+    "5-7": {
+      "shield": false,
+      "script": "Starting today, some things made in Canada, like three-wheel motorcycles and some milk products, aren't allowed into our country. Canada is our neighbor to the north, and the two countries swap goods every day. It's like two neighbors who each shut their gate after an argument. The grown-ups have it.",
+      "why": "A gate between two neighbors is the whole story at this age.",
+      "why_long": "A six-year-old takes one vivid feature for the whole event, so the script gives them one: a gate between two neighbors, shut after an argument. Tariffs stay out; a gate is a thing they have seen in a yard. Expect \"are we still friends with Canada?\" Yes. The two countries still trade $880 billion a year, and this ban is a sliver."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Trump put a 50% tariff on about $20 billion of Canadian goods this summer. Canada hit back, dollar for dollar. Today Trump banned a list of Canadian products: alcohol, some dairy, motorcycles. Like a shoving match: each shove answers the last, and nobody says stop.",
+      "why": "Tariff, tariff back, ban: three moves they can follow.",
+      "why_long": "This age is working out cause and effect and whether rules get applied evenly, so the script hands them the chain in order: a tariff, a matching tariff, a ban. The shoving match is the mechanism they know from the playground, and it shows that punishing a hit back is still a move in the fight. Expect \"who wins?\" Nobody yet."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Is it fair to punish someone for hitting back? Trump taxed Canadian goods at 50%, Canada matched it, and today Trump banned $1 billion of Canadian goods for retaliating. Second: Carney says there is now a price for access to the US market. Keep hitting back, or walk away?",
+      "why": "Hit back or walk away: two real options, and they pick.",
+      "why_long": "A teenager can hold two true things at once: the ban punishes Canada for hitting back, and hitting back was the move Trump made first. The script hands them both, then Carney's third option, trading elsewhere, and asks which they would take. Expect \"does this hurt us?\" The AP says barely: $967 million out of $880 billion a year."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Is Canada mad at us?",
+        "a": "Yes. Their trade minister's office called the ban unjustified. Countries argue and stay neighbors, the way people do."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "What's a tariff?",
+        "a": "A tax on goods coming in. Canada charged Trump's 50% right back."
+      },
+      {
+        "q": "Why booze?",
+        "a": "Canadian provinces pulled US alcohol off shelves. The ban hits theirs."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Does this actually hurt Canada?",
+        "a": "Barely, so far. The 50% tariff already kept most of these goods out."
+      },
+      {
+        "q": "Why does Trump keep going after Canada?",
+        "a": "The AP says he wants Canada's factories to move south. He calls it the 51st state."
+      }
+    ]
+  },
+  "photo_subject": "Donald Trump",
+  "photo_zoom": 1.0,
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#CanadaTariffs",
+    "#DinnerTableNews"
+  ],
+  "photo": "data/images/2026-09-29-noon.jpg",
+  "photo_credit": "Photo: Daniel Torok, Wikimedia Commons, Public domain",
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 9,
+    "13-17": 13
+  },
+  "caption": "Yes. Canada's trade minister called the ban unjustified.\n\nAt 12:01 this morning the US stopped nearly $1 billion of Canadian goods at the border: alcohol, some dairy and motorcycles. Trump put 50% tariffs on Canada over the summer. Canada matched them dollar for dollar, so this is the punishment for hitting back. It is a ripple in $880 billion of yearly trade, and 87% of it is alcohol.\n\nSource: PBS NewsHour\nPhoto: Daniel Torok, Wikimedia Commons, Public domain\n\nSwipe for what to say at age 6, at 9, and at 13.\n\nThe dinner table question: Is hitting back fair, or does it just keep the fight going? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #CanadaTariffs #DinnerTableNews"
+}
