@@ -1005,5 +1005,25 @@
   "publish_run": 36450518241,
   "published": "https://www.instagram.com/p/Dd1rjIFIKZE/",
   "published_at": "2026-09-28T17:05:33+0000"
+ },
+ {
+  "slug": "2026-09-28-evening",
+  "date": "2026-09-28",
+  "slot": "evening",
+  "category": "Technology",
+  "headline": "Nvidia's fix for rogue AI: a sandbox and a watchdog",
+  "photo": true,
+  "photo_subject": "Nvidia",
+  "cover_band": "8-12",
+  "publish_target": "2026-09-28T20:09-05:00",
+  "chosen": "primary",
+  "alternate": {
+   "folder": "posts/2026-09-28-evening-alt",
+   "category": "Government",
+   "headline": "Trump loosens the miles-per-gallon rule for new cars",
+   "photo": true,
+   "photo_subject": "Donald Trump"
+  },
+  "note": "Run fired at 19:12 CT for the 20:00 evening slot; target drawn once at 20:09 CT. Rule 3 count: the last Good news entry is 2026-09-27-evening and two stories have run since (2026-09-28-morning and noon), so this slot is not the positive one; the count carries at 2. Rule 5: rank.py's #1 cluster (AP News, Axios, PBS NewsHour, Semafor, The Hill; 5 outlets, 6 items) is Nvidia unveiling its Open Agent Safety Platform to keep AI agents from going rogue, two outlets clear of any eligible cluster, so no tie-break. Not in the last seven days of the log: the 2026-09-28-morning post was the Amodei dinner and the 2026-09-20-morning post the subscribers' lawsuit, different events. Rule 2: lead subject Nvidia, which is not this morning's (Amodei and Anthropic) or noon's (SpaceX and Starship). Category Technology, the second Technology post of the day; rule 2 is about the lead subject, not the category. Skipped under rule 1: #2 and #6 (the RAF Fairford plot and the five men bailed, ran 2026-09-27-noon), #3 (Starship, ran today at noon), #5 (the nor'easter, the same storm that ran 2026-09-26-evening, as this morning's note judged it). Primary written from the PBS NewsHour (AP) text, two pieces: the unveiling (OpenShell and Sentry, quarantine in milliseconds, the OpenAI swarm that hacked Hugging Face, more than 100 organizations at launch, Huang calling safety an engineering problem, the $150 billion buyback) and the explainer (the sandbox with a rule book, the invoice folder example, that it cannot stop a model being dishonest or making mistakes, Somesh Jha of the University of Wisconsin on case studies); Axios second (Huang's 'Safety is how trust is earned' post, AI monitoring AI creating more demand for chips, Huang dismissing the concerns as fearmongering) and Semafor's short text for the 'let's just secure it' line; the AP and Hill items had headlines only. The dog in a yard, the hall monitor and time-out are ours; sandbox and watchdog are the articles' words. Not a hard story, no shield. Photo: allowed because only one of the last two entries had a photo (noon yes, morning no) and the last three subjects were SpaceX Starship, none and Giant panda. Jensen Huang was dispatched first and commons.py refused his Wikipedia image as too small (645x839); a second dispatch for Nvidia, the institution, returned a single photograph of the Santa Clara headquarters (Coolcaesar, CC BY-SA 4.0, one artist, no composite), used. Alternate under rule 8: the highest remaining cluster in a different category is #4 (AP News, PBS NewsHour, The Hill; 3 outlets, 4 items), the Trump administration lowering fuel economy standards, category Government, lead subject Trump, which passes rule 2 (neither post today led with Trump) and rules 1 and 6. It was noon's unrun alternate, which rule 8 leaves fair game; the copy is noon's carried over with the cover moved to the 8-12 bracket, the summary cut to 340 characters and the why_long lines cut under it. Its PBS NewsHour (AP) item is still the only text in the cluster; the new PBS segment page has a two-sentence blurb and The Hill's RSS summary names the Biden-era 50.4 miles per gallon by 2031 target, neither used. Photo: Donald Trump, the actor in the headline on a policy story, not a death, arrest or scandal, the 2026-09-23-noon precedent, and a different subject from the primary; commons.yml returned his 2025 official portrait (Daniel Torok, public domain), used. Cover band rotation: noon was 5-7, so this slot is 8-12; render drew 7, 8 and 17 for the primary and 7, 9 and 15 for the alternate. The primary's 8-12 card overran by 120px and the 13-17 by 120px on the first render; three rounds of cuts to the scripts, why lines and Try answers, and the extra developmental sentence on the why line survived on none of the three cards. The primary's cover question ('Can you put a computer in time-out?') cleared the chip row but wrapped to three lines under a two-line headline, so it was swapped for a shorter one from the same bracket ('Can a computer be grounded?'), two lines. The alternate rendered clean on the first pass. All ten JPGs checked: two-line headlines and two-line cover questions on both covers. ffmpeg needed an apt-get update before it would install, as at noon. Reel built for the primary, 13.3 seconds, caption 1,874 characters."
  }
 ]

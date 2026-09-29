@@ -1,0 +1,79 @@
+{
+  "slot": "2026-09-28 20:00 CT",
+  "date": "2026-09-28",
+  "category": "Government",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/politics/trump-administration-lowers-fuel-economy-standards-critics-say-at-a-significant-environmental-cost",
+  "source_domain": "pbs.org/newshour",
+  "headline": "Trump loosens the miles-per-gallon rule for new cars",
+  "summary": "The Trump administration released new fuel economy standards Monday. They relax how far a new gasoline car or light truck must go on a gallon, the rule that controls its pollution. Trump promised to undo policies that pushed electric cars. Transportation Secretary Sean Duffy called the old rule an illegal mandate. Critics say the air pays.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "Why did Trump change it?"
+  },
+  "cover_answer": "He promised to stop pushing electric cars.",
+  "table_question": "If a rule is hard to follow, do you loosen it or try harder?",
+  "ages": {
+    "5-7": {
+      "shield": false,
+      "script": "There's a rule that says how far a new car has to go on one gallon of gas. Today the government made that rule easier on the car companies, so new cars can use a bit more gas. A gallon is a big milk jug. Nothing changes about our car, and the grown-ups are arguing it out.",
+      "why": "One milk jug, one rule. Their car is the same tomorrow. A seven-year-old needs the jug to see the rule at all.",
+      "why_long": "A six-year-old reasons from what is in front of them, so the script starts with a gallon they have carried in from the car. The rule becomes how far a car goes on that jug, and today it got easier. Expect \"is that bad?\" Some people say yes, because more gas means more smoke. The secretary says cars will cost less. Both are in the story."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "A fuel economy rule says how far new cars must go on a gallon. Trump promised to stop pushing electric cars, and his team says the old rule forced carmakers to build them. Today it got looser. Like a high-jump bar lowered: everyone clears it.",
+      "why": "The bar lowered. Everyone clears it. At this age they can already ask whether clearing it counts.",
+      "why_long": "This age is working out rules and whether adults apply them straight, so the script hands them the chain: a rule about miles per gallon, a promise to stop pushing electric cars, a secretary who calls the old rule illegal, a bar lowered. Expect \"so is it fair?\" Duffy says families didn't want the cars. Critics say the air pays. Let them weigh it."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Duffy says the old rule forced carmakers to build electric cars \"American families didn't want.\" Is a rule that makes companies build what buyers skip a bad rule, or is that the point of rules? Second: critics say looser rules cost the environment. Who pays for clean air?",
+      "why": "Two claims, both true. Let them pick the harder one.",
+      "why_long": "A teenager can hold two true things at once: the old rule made carmakers build cars many buyers skipped, and dropping it lets cars burn more gas. The script gives them Duffy's words and the critics' charge and asks who pays for clean air. Expect \"which side is right?\" The article has a quote and a charge, not numbers. Say so."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Why do cars have a rule?",
+        "a": "So they go farther on a gallon of gas and make less smoke. Today the rule got easier."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "What's a fuel economy rule?",
+        "a": "How far a new car must go on a gallon of gas. Carmakers have to hit it."
+      },
+      {
+        "q": "Why did Trump change it?",
+        "a": "He promised to stop pushing electric cars. His team calls the old rule illegal."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Does this mean more pollution?",
+        "a": "Critics say yes, at a significant cost. The article gives no number."
+      },
+      {
+        "q": "Who decided this?",
+        "a": "The administration. Transportation Secretary Sean Duffy announced it."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#FuelEconomy",
+    "#DinnerTableNews"
+  ],
+  "photo_subject": "Donald Trump",
+  "photo": "data/images/2026-09-28-evening-alt.jpg",
+  "photo_credit": "Photo: Daniel Torok, Wikimedia Commons, Public domain",
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 9,
+    "13-17": 16
+  },
+  "caption": "He promised to stop pushing electric cars.\n\nThe Trump administration released new fuel economy standards Monday. They relax how far a new gasoline car or light truck must go on a gallon, the rule that controls its pollution. Trump promised to undo policies that pushed electric cars. Transportation Secretary Sean Duffy called the old rule an illegal mandate. Critics say the air pays.\n\nSource: PBS NewsHour\nPhoto: Daniel Torok, Wikimedia Commons, Public domain\n\nSwipe for what to say at age 7, at 9, and at 16.\n\nThe dinner table question: If a rule is hard to follow, do you loosen it or try harder? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #FuelEconomy #DinnerTableNews"
+}
