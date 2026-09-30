@@ -1,0 +1,80 @@
+{
+  "slot": "2026-09-29 20:00 CT",
+  "date": "2026-09-29",
+  "category": "Government",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/politics/supreme-court-lets-trump-continue-deporting-people-to-3rd-countries-while-justices-consider-policy",
+  "source_domain": "pbs.org/newshour",
+  "headline": "Supreme Court lets third-country deportations go on",
+  "summary": "The Supreme Court on Tuesday let the Trump administration keep deporting people to countries other than their own while it decides if that is legal. The question is whether migrants get a real chance to object first. About 25,000 people have gone to more than two dozen countries, most to Mexico. A lower court had grounded a flight of 70.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "Can they send you anywhere?"
+  },
+  "cover_answer": "Yes, for now. The court will decide if that's legal.",
+  "table_question": "If you're being sent away, should you get to argue first?",
+  "ages": {
+    "5-7": {
+      "shield": true,
+      "script": "Some people who came to our country without permission are being sent away, and a big court said that can keep happening for now. Some are sent to a country they've never lived in, not the one they came from. It's like being told to go home and then dropped at a stranger's house. Judges are checking whether that's allowed, and the grown-ups have it.",
+      "why": "The stranger's house is the one piece a five-year-old can hold.",
+      "why_long": "A six-year-old reads your face before your words and reasons from what is in front of them, so the script keeps the fear small and physical: a stranger's house instead of home. Shielded because a child this age can do nothing with the rest. Expect \"could that happen to us?\" Answer for your own family, plainly, and stop there."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "When someone's own country won't take them back, the US sends them to a third one, like Liberia or Guyana. A lower court said they must get a chance to object first. On Tuesday the Supreme Court paused that order: flights go on while it hears the case. Like a referee letting play run during a replay.",
+      "why": "Deport, object, pause: a chain with a referee in it.",
+      "why_long": "This age is working out cause and effect and whether rules get applied in order, so the script hands them the chain: a deportation, a court saying object first, a higher court pausing that while it looks. The replay referee is one they know, and it shows \"for now\" is a move, not a verdict. Expect \"so who's right?\" Nobody has said."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Should you get a say before being sent to a country you've never seen? The Supreme Court let the flights continue on Tuesday and will hear the case later. The government says those countries promise no harm; the migrants' lawyers say some were jailed on arrival. Second: is \"for now\" a decision or a dodge?",
+      "why": "Two sides with real claims, and one procedural question.",
+      "why_long": "A teenager can hold two true things at once: a government that says it only sends people no other country will take, and lawyers who say some were jailed on arrival. The script gives them both as claims, then asks if letting a policy run while you judge it is itself a judgment. Expect \"why not stop the flights first?\" It did not say."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "What does deported mean?",
+        "a": "Being made to leave the country because the government says you don't have permission to live here. Grown-ups are arguing about how it's done."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Can they send you anywhere?",
+        "a": "For now, yes, if their own country won't take them back."
+      },
+      {
+        "q": "Why did the court say yes before deciding?",
+        "a": "It didn't. It paused a lower court's order until it hears the case."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "How is that legal?",
+        "a": "That's the question the court took: whether people get a real chance to object first."
+      },
+      {
+        "q": "Do these people have criminal records?",
+        "a": "Some do, the government says. Their lawyers say many don't."
+      }
+    ]
+  },
+  "photo_subject": "United States Supreme Court Building",
+  "photo_zoom": 1.0,
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#ThirdCountryDeportations",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 10,
+    "13-17": 17
+  },
+  "photo": "data/images/2026-09-29-evening-alt.jpg",
+  "photo_credit": "Photo: Joe Ravi, Wikimedia Commons, CC BY-SA 3.0",
+  "caption": "Yes, for now. The court will decide if that's legal.\n\nThe Supreme Court on Tuesday let the Trump administration keep deporting people to countries other than their own while it decides if that is legal. The question is whether migrants get a real chance to object first. About 25,000 people have gone to more than two dozen countries, most to Mexico. A lower court had grounded a flight of 70.\n\nSource: PBS NewsHour\nPhoto: Joe Ravi, Wikimedia Commons, CC BY-SA 3.0\n\nSwipe for what to say at age 7, at 10, and at 17.\n\nThe dinner table question: If you're being sent away, should you get to argue first? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #ThirdCountryDeportations #DinnerTableNews"
+}

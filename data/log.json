@@ -1073,5 +1073,25 @@
   "publish_run": 36597214013,
   "published": "https://www.instagram.com/p/Dd4QlKKkYbS/",
   "published_at": "2026-09-29T17:07:38+0000"
+ },
+ {
+  "slug": "2026-09-29-evening",
+  "date": "2026-09-29",
+  "slot": "evening",
+  "category": "Good news",
+  "headline": "Morocco names its first woman prime minister",
+  "photo": false,
+  "photo_subject": "Fatima Zahra Mansouri",
+  "cover_band": "8-12",
+  "publish_target": "2026-09-29T19:52-05:00",
+  "chosen": "primary",
+  "alternate": {
+   "folder": "posts/2026-09-29-evening-alt",
+   "category": "Government",
+   "headline": "Supreme Court lets third-country deportations go on",
+   "photo": true,
+   "photo_subject": "United States Supreme Court Building"
+  },
+  "note": "Run fired at 19:12 CT for the 20:00 evening slot; target drawn once at 19:52 CT. Rule 3 count: the last Good news entry is 2026-09-27-evening and five stories have run since (2026-09-28 morning, noon and evening, 2026-09-29 morning and noon; noon carried at 4 with nothing qualifying), so this slot is the positive one. #11 (PBS NewsHour, BBC News; 2 outlets, both with text) is Morocco's king naming Fatima Zahra Mansouri the country's first woman prime minister, a first and a win, so it takes the slot as Good news. Lead subject Morocco, rule 2 clear (today ran the Senate and Trump). Rule 1 clear: nothing on Morocco in the log. Photo: dispatched commons.yml for 'Fatima Zahra Mansouri'; the lookup resolved to the article 'Fatima Ezzahra El Mansouri' and found no infobox image, so the primary runs without a photo. Alternate: rule 8 says the highest remaining cluster of any other category. #1 (AP News, Axios, PBS NewsHour; 3 outlets, 4 items) is the Supreme Court letting third-country deportations continue while it hears the case: Government, lead subject the Supreme Court, a new event (the 2026-09-25-evening court story was the citizenship check). Three texts: the PBS/AP article, the PBS news wrap and an Axios stub; leaned on PBS NewsHour. Photo: United States Supreme Court Building, last used 2026-09-25-evening, four entries back, so clear of the last-three rule. 5-7 shielded: a deportation to a country you have never seen is not a story to raise with a six-year-old unprompted. Passed over under rule 3: #2 OpenAI's shelved model (Technology), #3 the Venezuelan man shot by an ICE agent, #4 the Cornell rape investigation, #6 the Pope on AI (ran as this morning's and noon's alternate). Cover band advanced to 8-12. Reel built for the primary."
  }
 ]
