@@ -1,0 +1,79 @@
+{
+  "slot": "2026-09-30 12:00 CT",
+  "date": "2026-09-30",
+  "category": "World",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/world/u-s-military-says-its-withdrawal-of-troops-from-iraq-for-islamic-state-fight-is-complete",
+  "source_domain": "pbs.org/newshour",
+  "headline": "The last US troops left Iraq. The Kurds are worried.",
+  "summary": "The Pentagon said Wednesday the last US troops left Irbil, ending a 12-year mission against the Islamic State group. Baghdad and Washington agreed the exit in 2024. Iraq's prime minister called it a new phase of sovereignty. Kurdish officials, hit by 1,000 drone and missile attacks this year, call leaving with no air defense a concern.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Why did our soldiers go to Iraq?"
+  },
+  "cover_answer": "To fight the Islamic State. Iraq says it can do that now.",
+  "table_question": "You promised to leave by a date. The job isn't tidy. Do you go?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "American soldiers went to Iraq, a country far away, to help it fight a violent group. That was 12 years ago, longer than you've been alive. On Wednesday the last ones packed up and left, like a coach going home once the team can run practice on its own. Iraq's own soldiers have the job now, and the grown-ups have it.",
+      "why": "The coach going home is the one picture a six-year-old can hold. They take one vivid feature for the whole event, so make it the handover.",
+      "why_long": "A six-year-old reasons from what is in front of them and takes one vivid feature for the whole event, so the script gives them the coach going home once the team can run practice alone. Nothing about drones or militias, which they can do nothing with. Expect \"were they fighting?\" Yes, years ago. Iraq's own soldiers finished it."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "In 2014 Iraq asked the US back to fight the Islamic State, which had grabbed big pieces of the country. By 2017 Iraq called the group beaten, and the troops stayed to stop a comeback. In 2024 both governments set an end date, and Wednesday was the day. Training wheels off, on the date circled.",
+      "why": "Ask, fight, date, leave: a chain with a calendar in it.",
+      "why_long": "This age is working out cause and effect and whether adults keep the rules they set, so the script hands them the chain: Iraq asked, the group was beaten, a date was agreed, the date came. The training wheels are a promise kept on the day. Expect \"but is the bad group gone?\" Mostly. The UN counts a few hundred fighters left."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Would you leave a job on the agreed date if the customer said the roof still leaks? The last US troops left Iraq on Wednesday, the deadline set in 2024. Kurdish officials counted 1,000 attacks this year and asked who guards them now. Second: militias tied to Iran cheered. Wrong call, or only who gains?",
+      "why": "A kept promise and an open worry, both true.",
+      "why_long": "A teenager can hold two true things at once: a deal kept on its date and a region that counted 1,000 attacks and now has no US air defense. The script gives them both, then the harder one: if the militias Iran backs are cheering, is that proof the exit was wrong, or only who gains? Expect \"was it worth it?\" The reports don't say."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Why did our soldiers go to Iraq?",
+        "a": "To help Iraq fight a violent group called the Islamic State. That was years ago. Iraq's own soldiers have the job now."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Is the Islamic State gone?",
+        "a": "Mostly. The UN counts a few hundred fighters left in Iraq."
+      },
+      {
+        "q": "Why did the troops leave now?",
+        "a": "Iraq and the US set the date in 2024. Wednesday was the day."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Who protects the Kurds now?",
+        "a": "Iraq's forces and the Peshmerga. Kurdish officials are worried."
+      },
+      {
+        "q": "Did Iran win here?",
+        "a": "Iran-backed militias cheered. The Pentagon calls it a success."
+      }
+    ]
+  },
+  "photo_subject": "The Pentagon",
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#IraqWithdrawal",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 11,
+    "13-17": 15
+  },
+  "photo": "data/images/2026-09-30-noon.jpg",
+  "photo_credit": "Photo: Touch Of Light, Wikimedia Commons, CC BY-SA 4.0",
+  "caption": "To fight the Islamic State. Iraq says it can do that now.\n\nThe Pentagon said Wednesday the last US troops left Irbil, ending a 12-year mission against the Islamic State group. Baghdad and Washington agreed the exit in 2024. Iraq's prime minister called it a new phase of sovereignty. Kurdish officials, hit by 1,000 drone and missile attacks this year, call leaving with no air defense a concern.\n\nSource: PBS NewsHour\nPhoto: Touch Of Light, Wikimedia Commons, CC BY-SA 4.0\n\nSwipe for what to say at age 6, at 11, and at 15.\n\nThe dinner table question: You promised to leave by a date. The job isn't tidy. Do you go? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #IraqWithdrawal #DinnerTableNews"
+}
