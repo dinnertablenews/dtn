@@ -1,0 +1,77 @@
+{
+  "slot": "2026-10-01 07:00 CT",
+  "date": "2026-10-01",
+  "category": "Government",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/cq8r6rjdvlx6o",
+  "source_domain": "bbc.com",
+  "headline": "Tennessee tried to execute Christa Pike. She survived.",
+  "summary": "Tennessee gave Christa Pike two syringes of pentobarbital Wednesday night. Her lawyers say she lost consciousness but her heart kept beating, and she is in hospital on life-saving measures. The Supreme Court cleared the execution hours earlier. AP reports the governor has halted executions. Pike, 50, killed a classmate in 1995, at 18.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "Can they try again?"
+  },
+  "cover_answer": "Nobody has said. The governor halted executions.",
+  "table_question": "If a punishment goes wrong halfway, should it start over?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": true,
+      "script": "A woman in Tennessee hurt someone very badly a long time ago, more than 30 years, longer than you've been alive. The state tried to end her life as a punishment, and it didn't work. She's in a hospital now. The grown-ups in charge are sorting it out, far from us.",
+      "why": "If it reaches a six-year-old, leave them a hospital. The needle never appears.",
+      "why_long": "A six-year-old takes one vivid feature for the whole event, so the one this script hands them is a hospital, far away, with grown-ups in charge. The thirty years does the distance work. The needle never appears. Expect \"did she die?\" No. She's alive, in a hospital, and nobody knows what happens next."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "Christa Pike was sentenced to death in 1996 for killing a classmate. Wednesday night the state gave her the drugs, and her heart kept beating. Her lawyers ran to a court to stop it, like a referee halting a game when a player is down. She's in hospital, and the governor has halted executions.",
+      "why": "Sentence, drugs, heartbeat, court: a chain with a rule they know.",
+      "why_long": "This age is working out cause and effect and whether grown-ups follow their own rules, so the script hands them the chain: a sentence in 1996, the drugs Wednesday, a heartbeat, a lawyer running to court. The referee stopping the game is the mechanism. Expect \"so does she get to live?\" Nobody has said. The governor stopped the rest."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "If a state tries to execute someone and fails, can it try again? Tennessee gave Christa Pike two doses of pentobarbital Wednesday night. Her lawyers say she kept a heartbeat, and she is in hospital. Second: she was 18, abused as a child, and her boyfriend got life with parole. Does that change the answer?",
+      "why": "Two true things: she killed a 19-year-old, and the method failed.",
+      "why_long": "A teenager can hold two true things at once, and this story is two: Pike killed Colleen Slemmer, and the state's method failed on her. The script leads with the question the articles cannot answer, then her lawyers' facts. Expect \"would you have voted for death?\" Say what you think, then ask them to argue the other side."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Did she die?",
+        "a": "No. She's alive, in a hospital, far from here. Doctors are looking after her."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why didn't it work?",
+        "a": "The articles don't say. Two doses, and her heart kept beating."
+      },
+      {
+        "q": "What did she do?",
+        "a": "She killed a classmate in 1995, at 18. She doesn't deny it."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Can they try again?",
+        "a": "Nobody has said. The governor halted executions."
+      },
+      {
+        "q": "Why does her age matter?",
+        "a": "Her lawyers say an 18-year-old brain isn't adult."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#ChristaPike",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 8,
+    "13-17": 16
+  },
+  "caption": "Nobody has said. The governor halted executions.\n\nTennessee gave Christa Pike two syringes of pentobarbital Wednesday night. Her lawyers say she lost consciousness but her heart kept beating, and she is in hospital on life-saving measures. The Supreme Court cleared the execution hours earlier. AP reports the governor has halted executions. Pike, 50, killed a classmate in 1995, at 18.\n\nSource: BBC News\n\nSwipe for what to say at age 7, at 8, and at 16.\n\nThe dinner table question: If a punishment goes wrong halfway, should it start over? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #ChristaPike #DinnerTableNews"
+}

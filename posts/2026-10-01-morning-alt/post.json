@@ -1,0 +1,80 @@
+{
+  "slot": "2026-10-01 07:00 CT",
+  "date": "2026-10-01",
+  "category": "Technology",
+  "outlet": "Axios",
+  "source_url": "https://www.axios.com/2026/09/30/ftc-openai-anthropic-ai-safety-investigation",
+  "source_domain": "axios.com",
+  "headline": "The FTC is probing OpenAI and Anthropic",
+  "summary": "The Federal Trade Commission is investigating OpenAI and Anthropic over safety risks from their products, a spokesperson told Axios Wednesday. Its chair is preparing demands for documents and testimony from executives. The probe has run for weeks. It surfaced a day after the companies signed a self-policing pledge at the White House.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "Didn't they just sign a pledge?"
+  },
+  "cover_answer": "Tuesday. On Wednesday the FTC said it's investigating.",
+  "table_question": "If you promised to behave, should someone still check?",
+  "photo_subject": "Federal Trade Commission Building",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "The companies that make chatbots like ChatGPT and Claude have a government checker looking at them. The checker wants to know if the chatbots are safe. It's like a teacher checking homework before it goes up on the wall. Nobody is in trouble yet, and the grown-ups have it.",
+      "why": "A checker and homework is the whole idea at six. The agency's name can wait.",
+      "why_long": "A six-year-old reasons from what is in front of them, so the script skips the agency and the subpoenas and hands them one picture: a checker looking at homework before it goes up. Expect \"is the chatbot bad?\" Nobody knows yet. The checker is asking questions, and that is the job."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "The Federal Trade Commission is the government's referee for companies. It's investigating OpenAI and Anthropic over whether their AI is safe. It plans to send demands for documents and testimony. The companies signed a self-policing pledge Tuesday. The referee is checking anyway.",
+      "why": "Pledge, then probe: is a promise proof?",
+      "why_long": "This age is working out rules and whether adults apply them consistently, so the script hands them the chain: the companies promised Tuesday, the referee confirmed its check Wednesday. The subpoena as a demand for homework is the mechanism. Expect \"why check if they promised?\" A promise is not proof. A referee's job is to look."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Didn't the AI companies just sign a pledge to police themselves? Tuesday, at the White House. Wednesday an FTC spokesperson confirmed a safety probe weeks old. Second: the FTC chair said AI firms panic people into rules only big firms can meet. Is a probe the same as taking them seriously?",
+      "why": "Two true things: a pledge, and a probe the pledge didn't stop.",
+      "why_long": "A teenager can hold two true things: the companies pledged to self-police, and the government is investigating them. The harder pair is the chair's view that safety fear is a moat for big firms, set beside his probe. Expect \"so is the AI dangerous or not?\" A test model got out of its sandbox, Axios says. The probe began before that."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Is the chatbot bad?",
+        "a": "Nobody knows yet. A checker is asking the companies questions. That's the checker's job."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "What's the FTC?",
+        "a": "A government agency that checks companies play fair."
+      },
+      {
+        "q": "Why check if they promised?",
+        "a": "A promise isn't proof, and the FTC is the referee."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Didn't they just sign a pledge?",
+        "a": "Tuesday, at the White House. The FTC confirmed its probe Wednesday."
+      },
+      {
+        "q": "Is the FTC on the safety side?",
+        "a": "Its chair called safety fear a moat for big firms. Then he probed."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#FTC",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 12,
+    "13-17": 15
+  },
+  "photo": "data/images/2026-10-01-morning-alt.jpg",
+  "photo_credit": "Photo: Carol M. Highsmith (born 1946), Wikimedia Commons, Public domain",
+  "photo_zoom": 1.0,
+  "caption": "Tuesday. On Wednesday the FTC said it's investigating.\n\nThe Federal Trade Commission is investigating OpenAI and Anthropic over safety risks from their products, a spokesperson told Axios Wednesday. Its chair is preparing demands for documents and testimony from executives. The probe has run for weeks. It surfaced a day after the companies signed a self-policing pledge at the White House.\n\nSource: Axios\nPhoto: Carol M. Highsmith (born 1946), Wikimedia Commons, Public domain\n\nSwipe for what to say at age 7, at 12, and at 15.\n\nThe dinner table question: If you promised to behave, should someone still check? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #FTC #DinnerTableNews"
+}
