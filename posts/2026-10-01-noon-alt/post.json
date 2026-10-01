@@ -1,0 +1,77 @@
+{
+  "slot": "2026-10-01 12:00 CT",
+  "date": "2026-10-01",
+  "category": "Culture",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/cmpq0r1ljpqwo",
+  "source_domain": "bbc.com",
+  "headline": "Cornell ruled on a rape case itself. Now a grand jury will.",
+  "summary": "A former Cornell student says seven fraternity men drugged and raped her at their house in October 2024. Cornell's own panel expelled two and suspended others; some wrote essays. No one was charged. She sued on 16 September, and on Monday the district attorney reopened the case for a grand jury. Cornell won't release its report.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Did the college get in trouble?"
+  },
+  "cover_answer": "Not yet. Prosecutors reopened the case on Monday.",
+  "table_question": "Should a school judge a crime, or hand it straight to police?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": true,
+      "script": "Some students at a college hurt another student very badly at a party two years ago. The college punished them, and lots of people think it wasn't enough, so now the police and a court are looking again, like a teacher asking the principal to check. It happened far away, and the grown-ups are on it.",
+      "why": "They can do nothing with this, so say it only if they hear it. One picture: the principal checking.",
+      "why_long": "A five-year-old can do nothing with this, so the shield: say it only if they hear it. The script gives them one thing a child can hold, a teacher asking the principal to check, because this age reads your face before your words and takes a calm one as the verdict. Expect \"will the bad people go to jail?\" Nobody has decided."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "In 2024 a Cornell student told campus police seven fraternity men drugged and sexually assaulted her. Cornell's panel expelled two; some wrote essays. The prosecutor didn't charge: her first statement wasn't enough. She sued last month. Monday he reopened the case, like a call going to video review.",
+      "why": "A rule applied twice, two answers. Video review is the mechanism.",
+      "why_long": "This age is testing whether adults apply rules consistently, and the story is a rule applied twice with two answers: the university's panel, the prosecutor's no, then his yes after the lawsuit. The video review is the mechanism. Expect \"why did he change his mind?\" He says her first statement didn't mention a drug or a group."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Who investigates a rape at college, the school or the police? A Cornell student says seven fraternity men drugged and raped her in 2024. Cornell's panel expelled two; some wrote essays; no charges. After she sued, the DA reopened it. Second: she says she was too drunk to consent. Where's the line?",
+      "why": "Two true things: two were expelled, and some wrote essays.",
+      "why_long": "Two true things for a teenager to hold: Cornell says it expelled two, and the woman says the rest wrote essays, and both can be true. The script leads with who should investigate because a teen will have an opinion before you finish, and Kuhn's point is that arguing it is the practice. Expect \"could it happen at my school?\" Yes."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Did the college get in trouble?",
+        "a": "Not yet. Police and a court are checking what it did. It's far away, and grown-ups are handling it."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why didn't the police charge anyone?",
+        "a": "He says her first statement didn't say drugged, or a group."
+      },
+      {
+        "q": "What's a fraternity?",
+        "a": "A club of college men, often sharing a house. This one is shut."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why does an essay count as punishment?",
+        "a": "Cornell says nobody got only an essay. Her lawyer disagrees."
+      },
+      {
+        "q": "What is Title IX?",
+        "a": "A law making schools on federal money handle assault reports."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#Cornell",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 8,
+    "13-17": 14
+  },
+  "caption": "Not yet. Prosecutors reopened the case on Monday.\n\nA former Cornell student says seven fraternity men drugged and raped her at their house in October 2024. Cornell's own panel expelled two and suspended others; some wrote essays. No one was charged. She sued on 16 September, and on Monday the district attorney reopened the case for a grand jury. Cornell won't release its report.\n\nSource: BBC News\n\nSwipe for what to say at age 7, at 8, and at 14.\n\nThe dinner table question: Should a school judge a crime, or hand it straight to police? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #Cornell #DinnerTableNews"
+}

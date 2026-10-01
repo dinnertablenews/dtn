@@ -1,0 +1,78 @@
+{
+  "slot": "2026-10-01 12:00 CT",
+  "date": "2026-10-01",
+  "category": "Good news",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/cje3r3z7g0zzo",
+  "source_domain": "bbc.com",
+  "headline": "A stabbed pilot opened the door. 174 landed safe.",
+  "summary": "Capt Smit Machchhar was flying 174 people from Dubai to Tel Aviv Wednesday when his copilot stabbed him. The plane fell 16,000 feet in about a minute. Bleeding, he opened the cockpit door. Passengers and crew pinned the copilot and pulled it out of its dive, and it landed in Saudi Arabia. He is stable. The copilot is under arrest.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Is the hurt pilot going to be OK?"
+  },
+  "cover_answer": "Yes. Doctors say he's stable. Everyone else is safe.",
+  "table_question": "If the person in charge got hurt, would you step up or wait?",
+  "photo_subject": "Flydubai",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": true,
+      "script": "A pilot on a big plane got hurt by the other pilot while they were flying. He opened the cockpit door, and the passengers rushed in to help. They held the plane steady, like lots of hands grabbing a wobbly bike, and it landed safely. Everyone got off, and doctors are looking after the pilot.",
+      "why": "Keep the knife out. What a six-year-old gets is a door, a lot of hands and a landing.",
+      "why_long": "A six-year-old reasons from what is in front of them and keeps the most vivid thing, so the vivid thing here has to be the door and the hands, never the knife. Cantor's work on what frightens young children agrees: plain physical harm sticks. Expect \"could that happen on our plane?\" Almost never, and this time everyone was fine."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "The copilot stabbed the captain, and the plane dropped 16,000 feet in about a minute. The captain, bleeding, got the cockpit door open. Passengers and crew held the copilot down and levelled the plane; one said he knew to pull the nose up from a TV show. It landed with all 174 alive.",
+      "why": "Stab, dive, door, hands, landing: a chain, and the door is the hinge.",
+      "why_long": "This age wants the chain and the rule behind it. The chain is stab, dive, door, hands, landing. The rule is that the cockpit door stayed shut until the captain opened it, so his choice is the hinge, and the passenger who learned from a TV show is the detail they will repeat at school. Expect \"why did he do it?\" Nobody knows yet."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Would you break into a falling plane's cockpit? A Flydubai copilot stabbed his captain; the plane fell 16,000 feet in a minute. The captain opened the door, passengers pinned the copilot, and all 174 landed alive. Second: Netanyahu says the copilot was radicalised but won't say how. Do you wait for proof?",
+      "why": "Two true things: strangers saved 174, and nobody knows why.",
+      "why_long": "A teenager can hold two true things at once: strangers' instinct saved 174 people, and nobody yet knows why the copilot did it. The script hands them both and leaves the gap open rather than filling it with Netanyahu's unproven claim. Expect \"so was it terrorism?\" Nothing is ruled out. Ask what proof would change their mind."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Is the hurt pilot going to be OK?",
+        "a": "Doctors say he's stable, in a hospital in Saudi Arabia. Everyone else on the plane is fine."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why did the other pilot do it?",
+        "a": "Nobody knows yet. He's under arrest; five countries are asking him."
+      },
+      {
+        "q": "How did passengers know what to do?",
+        "a": "One said he'd watched a TV show about crashes. Mostly they held on."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Was it terrorism?",
+        "a": "Netanyahu says radicalised. Investigators say nothing is ruled out."
+      },
+      {
+        "q": "Why could they get in at all?",
+        "a": "Only because the stabbed captain opened the door."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#Flydubai",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 10,
+    "13-17": 13
+  },
+  "caption": "Yes. Doctors say he's stable. Everyone else is safe.\n\nCapt Smit Machchhar was flying 174 people from Dubai to Tel Aviv Wednesday when his copilot stabbed him. The plane fell 16,000 feet in about a minute. Bleeding, he opened the cockpit door. Passengers and crew pinned the copilot and pulled it out of its dive, and it landed in Saudi Arabia. He is stable. The copilot is under arrest.\n\nSource: BBC News\n\nSwipe for what to say at age 6, at 10, and at 13.\n\nThe dinner table question: If the person in charge got hurt, would you step up or wait? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #Flydubai #DinnerTableNews"
+}
