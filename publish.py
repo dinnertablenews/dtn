@@ -90,7 +90,17 @@ def publish(folder):
         if st["status_code"] == "FINISHED": break
         if st["status_code"] == "ERROR": raise SystemExit(f"container error: {st}")
         time.sleep(5)
-    pub = call("POST", f"{uid}/media_publish", creation_id=car["id"])
+    # Instagram can report the container FINISHED and still refuse media_publish for a while with
+    # error 9007 / subcode 2207027, "not ready for publishing, please wait". That failed the
+    # 2026-10-01 morning post. Retry that one error for up to two minutes; anything else still stops.
+    for attempt in range(12):
+        try:
+            pub = call("POST", f"{uid}/media_publish", creation_id=car["id"]); break
+        except SystemExit as ex:
+            if "2207027" not in str(ex) and '"code": 9007' not in str(ex): raise
+            print(f"not ready for publishing, waiting ({attempt + 1}/12)"); time.sleep(10)
+    else:
+        raise SystemExit(f"container {car['id']} never became publishable")
     media = call("GET", pub["id"], fields="id,permalink,timestamp")
     json.dump(media, open(os.path.join(folder, "published.json"), "w"), indent=1)
     logged = record(folder, media)
