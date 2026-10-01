@@ -1,0 +1,77 @@
+{
+  "slot": "2026-09-30 20:00 CT",
+  "date": "2026-09-30",
+  "category": "Government",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/cq8r6rjdvlx6o",
+  "source_domain": "bbc.com",
+  "headline": "Justices let Tennessee execute Christa Pike",
+  "summary": "The Supreme Court lifted a stay Wednesday and cleared Tennessee to execute Christa Pike. An appeals court had halted it an hour before it was due, to review whether her childhood sexual abuse was weighed at sentencing. Pike, 50, was 18 when she killed classmate Colleen Slemmer in 1995. Tennessee has not executed a woman in 200 years.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "Why kill her for a murder?"
+  },
+  "cover_answer": "Tennessee's law allows it. A jury chose it in 1996.",
+  "table_question": "Should what happened to you as a kid change your punishment?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": true,
+      "script": "A woman in Tennessee killed another young woman a long time ago, before you were born. A judge said her punishment is to die, and this week the top court said that can go ahead. It is a grown-up punishment, as far from your life as a storm on the other side of the world. Nobody is going to hurt you, and the grown-ups have it.",
+      "why": "Only if they hear it. A six-year-old reads your face before your words, so the calm matters more than the facts.",
+      "why_long": "Shielded: a six-year-old reads a parent's face before the words, so this is only for a child who has already heard. The script keeps the crime to one plain sentence and spends the rest on distance, the storm on the far side of the world. Expect \"could that happen to me?\" No. It is a punishment for grown-ups who did something terrible, nowhere near you."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "In 1995 Christa Pike, 18, killed her classmate Colleen Slemmer. A jury chose the death penalty in 1996. Wednesday an appeals court paused the execution to check whether her childhood abuse was weighed. The Supreme Court said go ahead: a referee's call sent upstairs and reversed.",
+      "why": "Crime, sentence, pause, reversal: a chain with a rule at each step.",
+      "why_long": "This age is working out rules and whether adults apply them consistently, so the script hands them the chain: a crime, a sentence, a pause, a reversal, two courts reading one rule differently an hour apart. The referee's call sent upstairs is a mechanism they already know. Expect \"did she say sorry?\" Yes. She wrote that it sickens her now."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Should the worst thing you did at 18 decide what happens to you at 50? Christa Pike killed a classmate in 1995. She says she was mentally ill at 18 and raped from toddlerhood. The victim's mother has waited 30 years. Second: the top court gave no reason for lifting the stay. Should it have?",
+      "why": "Two true things: a victim's mother and an abused 18-year-old.",
+      "why_long": "A teenager can hold two true things at once, and this case asks exactly that: a mother who has waited 30 years for a sentence, and a woman whose lawyers say her childhood rape was never properly weighed. The script gives them both, then whether a court that ends a life owes a reason. Expect \"what do you think?\" Say it, and argue honestly."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Will they kill her?",
+        "a": "The top court said Tennessee can. It is a punishment from a judge, only for grown-ups who did something terrible. Nothing like this is near you."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why kill her for a murder?",
+        "a": "State law allows it and a jury chose it. Many think it's wrong."
+      },
+      {
+        "q": "Why did one court stop it and another say go?",
+        "a": "To weigh her childhood abuse. The top court gave no reason."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Does her age at the time matter?",
+        "a": "Her lawyers say yes: other 18-year-olds there had it vacated."
+      },
+      {
+        "q": "How often is a woman executed?",
+        "a": "Rarely. 18 women since 1976, about 1% of US executions."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#ChristaPike",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 12,
+    "13-17": 15
+  },
+  "caption": "Tennessee's law allows it. A jury chose it in 1996.\n\nThe Supreme Court lifted a stay Wednesday and cleared Tennessee to execute Christa Pike. An appeals court had halted it an hour before it was due, to review whether her childhood sexual abuse was weighed at sentencing. Pike, 50, was 18 when she killed classmate Colleen Slemmer in 1995. Tennessee has not executed a woman in 200 years.\n\nSource: BBC News\n\nSwipe for what to say at age 6, at 12, and at 15.\n\nThe dinner table question: Should what happened to you as a kid change your punishment? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #ChristaPike #DinnerTableNews"
+}
