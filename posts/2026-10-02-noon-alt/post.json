@@ -1,0 +1,79 @@
+{
+  "slot": "2026-10-02 12:00 CT",
+  "date": "2026-10-02",
+  "category": "Government",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/nation/watch-live-cornell-sexual-assault-investigation-update-with-gov-hochul-ny-attorney-general-james",
+  "source_domain": "pbs.org/newshour",
+  "headline": "Hochul pulls the Cornell rape case from the local DA",
+  "summary": "Governor Kathy Hochul said Thursday she had lost faith in the local district attorney and handed the Cornell case to Attorney General Letitia James as special prosecutor. A woman says she was gang raped at a fraternity house in 2024. The DA closed the case without charges, then reopened it last month after she sued. James can take it to a grand jury.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Can you get your job taken away?"
+  },
+  "cover_answer": "Yes. The governor gave this one to someone else.",
+  "table_question": "If the ref keeps missing calls, who gets to swap the ref?",
+  "photo_subject": "Kathy Hochul",
+  "ages": {
+    "5-7": {
+      "shield": true,
+      "script": "A woman says some men hurt her at a college in New York. The person whose job it was to check didn't do it well, so the governor gave the checking to someone else, the way a coach puts in a new goalie. The grown-ups have it.",
+      "why": "Shielded. If it reaches them: someone was hurt, the checker got swapped, your face steady.",
+      "why_long": "Shielded: a rape case is a story a six-year-old can do nothing with, and Cantor's work says they take one vivid feature for the whole event, so the script never names the act. The new goalie is the anchor: a job handed to someone else because the first one missed. Expect \"is she okay?\" She is asking for help, and grown-ups are giving it."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "A woman says she was attacked at a Cornell fraternity party in 2024. The local prosecutor closed the case without charges, then reopened it after she sued. The governor lost faith in him and gave it to the attorney general, who can take it to a grand jury. A referee swapped for missed calls.",
+      "why": "Closed, sued, reopened, replaced.",
+      "why_long": "This age is checking whether adults apply the rules consistently, and here one didn't: the script gives them the chain, closed, sued, reopened, replaced. The referee is the mechanism, a job you can lose for missing calls. Expect \"why didn't he do it right the first time?\" The report doesn't say, and he hasn't answered; say that."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Should one person decide whether a rape case goes forward? DA Matthew Van Houten closed the Cornell case in 2024 without charges, reopened it after the woman sued, and now Governor Hochul has given it to Attorney General Letitia James. Second: it took a lawsuit. What if you can't afford one?",
+      "why": "One gatekeeper, one lawsuit.",
+      "why_long": "A teenager can hold two true things: a prosecutor's call can be wrong, and a governor overriding one is a big step. The script hands them both, then the harder one, that it took a lawsuit to reopen the case, which tests whether the rules work the same for everyone. Expect \"are the men guilty?\" Nobody is charged; two lawyers deny it."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Can you get your job taken away?",
+        "a": "This one job, yes. The governor gave it to someone she trusts to do it right."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "What's a special prosecutor?",
+        "a": "A lawyer the governor picks to run one case."
+      },
+      {
+        "q": "Did the governor fire him?",
+        "a": "No. She took this case from him. He is still the county's DA."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why did it take a lawsuit?",
+        "a": "The report doesn't say. The DA reopened it after she sued."
+      },
+      {
+        "q": "Does this mean the men are guilty?",
+        "a": "No. Two of their lawyers deny it. A grand jury decides on charges."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#Cornell",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 9,
+    "13-17": 15
+  },
+  "photo": "data/images/2026-10-02-noon-alt.jpg",
+  "photo_credit": "Photo: Metropolitan Transportation Authority, Wikimedia Commons, CC BY 4.0",
+  "caption": "Yes. The governor gave this one to someone else.\n\nGovernor Kathy Hochul said Thursday she had lost faith in the local district attorney and handed the Cornell case to Attorney General Letitia James as special prosecutor. A woman says she was gang raped at a fraternity house in 2024. The DA closed the case without charges, then reopened it last month after she sued. James can take it to a grand jury.\n\nSource: PBS NewsHour\nPhoto: Metropolitan Transportation Authority, Wikimedia Commons, CC BY 4.0\n\nSwipe for what to say at age 6, at 9, and at 15.\n\nThe dinner table question: If the ref keeps missing calls, who gets to swap the ref? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #Cornell #DinnerTableNews"
+}
