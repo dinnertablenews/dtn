@@ -1,14 +1,40 @@
 {
- "fetched_at": "2026-10-02T07:32:51.694937+00:00",
+ "fetched_at": "2026-10-02T08:33:47.932798+00:00",
  "window_hours": 48,
- "count": 437,
+ "count": 442,
  "errors": [],
  "items": [
+  {
+   "title": "OpenAI fires workers for 'mishandling sensitive information'",
+   "link": "https://www.bbc.co.uk/news/articles/c6y9z9r4ejzwo?at_medium=RSS&at_campaign=rss",
+   "summary": "The former employees were investigated for sharing data with an outside AI evaluation group.",
+   "published": "2026-10-02T08:20:32+00:00",
+   "source": "bbc",
+   "outlet": "BBC News",
+   "counted": true,
+   "section": "top",
+   "id": "fbc7283f1ec7",
+   "article_url": "https://www.bbc.co.uk/news/articles/c6y9z9r4ejzwo?at_medium=RSS&at_campaign=rss",
+   "has_text": true
+  },
+  {
+   "title": "'I was not going to let others die' - pilot of Flydubai flight describes cockpit attack by co-pilot",
+   "link": "https://www.bbc.co.uk/news/articles/c639m98gde00o?at_medium=RSS&at_campaign=rss",
+   "summary": "Capt Smit Machchhar, who was stabbed during the flight, speaks to Indian Prime Minister Narendra Modi.",
+   "published": "2026-10-02T08:16:53+00:00",
+   "source": "bbc",
+   "outlet": "BBC News",
+   "counted": true,
+   "section": "top",
+   "id": "6794210fbfdf",
+   "article_url": "https://www.bbc.co.uk/news/articles/c639m98gde00o?at_medium=RSS&at_campaign=rss",
+   "has_text": true
+  },
   {
    "title": "US pressures Europe to release diesel reserves as Trump threatens export ban",
    "link": "https://www.bbc.co.uk/news/articles/c5zjzjgdeneeo?at_medium=RSS&at_campaign=rss",
    "summary": "President Donald Trump has threatened to ban diesel exports in a bid to ease prices in the US ahead of the November elections.",
-   "published": "2026-10-02T07:31:52+00:00",
+   "published": "2026-10-02T08:16:32+00:00",
    "source": "bbc",
    "outlet": "BBC News",
    "counted": true,
@@ -18,16 +44,16 @@
    "has_text": true
   },
   {
-   "title": "I opened cockpit door of plane while being attacked, Indian pilot tells Modi",
-   "link": "https://www.bbc.co.uk/news/articles/c639m98gde00o?at_medium=RSS&at_campaign=rss",
-   "summary": "Capt Smit Machchhar, who was stabbed on the Israel-bound flight, has been hailed as a hero.",
-   "published": "2026-10-02T07:20:25+00:00",
+   "title": "Ethiopia and Eritrea cut diplomatic ties as northern conflict escalates",
+   "link": "https://www.bbc.co.uk/news/articles/crpd0d0jl0y0o?at_medium=RSS&at_campaign=rss",
+   "summary": "The diplomatic fallout comes as Ethiopian forces battle rebel fighters across its northern region.",
+   "published": "2026-10-02T08:01:10+00:00",
    "source": "bbc",
    "outlet": "BBC News",
    "counted": true,
    "section": "top",
-   "id": "6794210fbfdf",
-   "article_url": "https://www.bbc.co.uk/news/articles/c639m98gde00o?at_medium=RSS&at_campaign=rss",
+   "id": "fb4124cf5dd6",
+   "article_url": "https://www.bbc.co.uk/news/articles/crpd0d0jl0y0o?at_medium=RSS&at_campaign=rss",
    "has_text": true
   },
   {
@@ -44,6 +70,45 @@
    "has_text": true
   },
   {
+   "title": "Hurricane Rachel strengthens to a Category 3 storm off Mexico’s Pacific coast",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeVJhSGVobUxHZWNqZ3FDWmd1TWtHSzBZUE12amtIVXN1anBZcDVqMzBMUllfUEJNcXRIczlyZWd5Q1Q2N3VfbWYzLWZVWEN0Q09OODdlWjdGdjVNc3E5TzUyMzV6ekd2VHBxTTRWQklOZU1aUmRTT0pQcFlfYjJoT1ZYTnlmb3QtalNnR2x4eGJrTmUxa2E1MFV3?oc=5",
+   "summary": "Hurricane Rachel strengthens to a Category 3 storm off Mexico’s Pacific coast AP News",
+   "published": "2026-10-02T07:14:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "29d1fc2c579b",
+   "article_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeVJhSGVobUxHZWNqZ3FDWmd1TWtHSzBZUE12amtIVXN1anBZcDVqMzBMUllfUEJNcXRIczlyZWd5Q1Q2N3VfbWYzLWZVWEN0Q09OODdlWjdGdjVNc3E5TzUyMzV6ekd2VHBxTTRWQklOZU1aUmRTT0pQcFlfYjJoT1ZYTnlmb3QtalNnR2x4eGJrTmUxa2E1MFV3?oc=5",
+   "has_text": false
+  },
+  {
+   "title": "In-flight attack on FlyDubai pilot puts aviation security measures under fresh scrutiny",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQWQ0bnZHZTRpU08tcW9kNURFSWpUdzlmUVF4RW1aWEcxQlJwM2paM01Sc1Q1eTZyWkxtSDNWbE1QcjNSR2N6NGtxUjNINF9HYmk2YzJib3p2V0l3NXQ5Smx6c0hhazBIU1RKc2VpcWhpTm5XdzhFckR2MnNxWENHcjlNUm1xemp0RTFQa3dqLUZaVlYzamFzMjdBTnlfUXpGMmlF?oc=5",
+   "summary": "In-flight attack on FlyDubai pilot puts aviation security measures under fresh scrutiny AP News",
+   "published": "2026-10-02T06:56:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "9b99e0241e8a",
+   "article_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQWQ0bnZHZTRpU08tcW9kNURFSWpUdzlmUVF4RW1aWEcxQlJwM2paM01Sc1Q1eTZyWkxtSDNWbE1QcjNSR2N6NGtxUjNINF9HYmk2YzJib3p2V0l3NXQ5Smx6c0hhazBIU1RKc2VpcWhpTm5XdzhFckR2MnNxWENHcjlNUm1xemp0RTFQa3dqLUZaVlYzamFzMjdBTnlfUXpGMmlF?oc=5",
+   "has_text": false
+  },
+  {
+   "title": "Japan's first mayor to take maternity leave lands on TIME100 Next list",
+   "link": "https://www.bbc.co.uk/news/articles/cqj3d3d37nxgo?at_medium=RSS&at_campaign=rss",
+   "summary": "Shoko Kawata's maternity leave drew mixed reactions in Japan, a country struggling to lift birth rates.",
+   "published": "2026-10-02T05:53:51+00:00",
+   "source": "bbc",
+   "outlet": "BBC News",
+   "counted": true,
+   "section": "top",
+   "id": "93536a5305f0",
+   "article_url": "https://www.bbc.co.uk/news/articles/cqj3d3d37nxgo?at_medium=RSS&at_campaign=rss",
+   "has_text": true
+  },
+  {
    "title": "Six years, hundreds of plants and one tree casualty",
    "link": "https://www.bbc.co.uk/news/articles/cq77022kk27jo?at_medium=RSS&at_campaign=rss",
    "summary": "The Palm House at Edinburgh's Botanic Garden is finally restored and ready for the public.",
@@ -54,19 +119,6 @@
    "section": "climate",
    "id": "403184c61943",
    "article_url": "https://www.bbc.co.uk/news/articles/cq77022kk27jo?at_medium=RSS&at_campaign=rss",
-   "has_text": true
-  },
-  {
-   "title": "Ethiopia and Eritrea cut diplomatic ties as northern conflict escalates",
-   "link": "https://www.bbc.co.uk/news/articles/crpd0d0jl0y0o?at_medium=RSS&at_campaign=rss",
-   "summary": "The diplomatic fallout comes as Ethiopian forces battle rebel fighters across its northern region.",
-   "published": "2026-10-02T05:42:07+00:00",
-   "source": "bbc",
-   "outlet": "BBC News",
-   "counted": true,
-   "section": "top",
-   "id": "fb4124cf5dd6",
-   "article_url": "https://www.bbc.co.uk/news/articles/crpd0d0jl0y0o?at_medium=RSS&at_campaign=rss",
    "has_text": true
   },
   {
@@ -81,6 +133,19 @@
    "id": "39424d5ceb8a",
    "article_url": "https://www.bbc.co.uk/news/articles/cwj3d3zmrn5zo?at_medium=RSS&at_campaign=rss",
    "has_text": true
+  },
+  {
+   "title": "Nepal avalanche toll rises to 15 deaths with discovery of 8 bodies on Mount Himlung",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORjJuS2dYZXAtSlBfVDJreGVwRHdEMXI4c3FIQXlvLUpiY2dfN1pVNWtxdlk2dmJKWFJUSUpZX3lPUGVqdmlnU1J2bERXQmJzZElJa2JCUkJKRTUxb3VEMXlEYUROMUpYcC10cHBPdVFSQ1JrcG5nVUE4QlVhX1BqWkd1NjNuOFkzRWxzSG41QmlVaFRGbFFRRWloTWI5a2dpODdldmZSUF9yZ1NubG5iLV9CZw?oc=5",
+   "summary": "Nepal avalanche toll rises to 15 deaths with discovery of 8 bodies on Mount Himlung AP News",
+   "published": "2026-10-02T04:55:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "44487906bec2",
+   "article_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORjJuS2dYZXAtSlBfVDJreGVwRHdEMXI4c3FIQXlvLUpiY2dfN1pVNWtxdlk2dmJKWFJUSUpZX3lPUGVqdmlnU1J2bERXQmJzZElJa2JCUkJKRTUxb3VEMXlEYUROMUpYcC10cHBPdVFSQ1JrcG5nVUE4QlVhX1BqWkd1NjNuOFkzRWxzSG41QmlVaFRGbFFRRWloTWI5a2dpODdldmZSUF9yZ1NubG5iLV9CZw?oc=5",
+   "has_text": false
   },
   {
    "title": "Braves hit 3 homers and Chris Sale closes out 6-2 win over Phillies to win Wild Card Series",
@@ -122,19 +187,6 @@
    "has_text": true
   },
   {
-   "title": "In-flight attack on FlyDubai pilot puts aviation security measures under fresh scrutiny",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQWQ0bnZHZTRpU08tcW9kNURFSWpUdzlmUVF4RW1aWEcxQlJwM2paM01Sc1Q1eTZyWkxtSDNWbE1QcjNSR2N6NGtxUjNINF9HYmk2YzJib3p2V0l3NXQ5Smx6c0hhazBIU1RKc2VpcWhpTm5XdzhFckR2MnNxWENHcjlNUm1xemp0RTFQa3dqLUZaVlYzamFzMjdBTnlfUXpGMmlF?oc=5",
-   "summary": "In-flight attack on FlyDubai pilot puts aviation security measures under fresh scrutiny AP News",
-   "published": "2026-10-02T04:18:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "9b99e0241e8a",
-   "article_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQWQ0bnZHZTRpU08tcW9kNURFSWpUdzlmUVF4RW1aWEcxQlJwM2paM01Sc1Q1eTZyWkxtSDNWbE1QcjNSR2N6NGtxUjNINF9HYmk2YzJib3p2V0l3NXQ5Smx6c0hhazBIU1RKc2VpcWhpTm5XdzhFckR2MnNxWENHcjlNUm1xemp0RTFQa3dqLUZaVlYzamFzMjdBTnlfUXpGMmlF?oc=5",
-   "has_text": false
-  },
-  {
    "title": "APOD: 2026 October 2 – The Complete Sharpless Catalog: 313 Nebulas",
    "link": "https://science.nasa.gov/image-article/apod-2026-october-2-the-complete-sharpless-catalog-313-nebulae/",
    "summary": "What does it take to image hundreds of nebulas? Today’s image contains the entire Sharpless Catalog of H II Regions, totaling 313 objects. Zoom in and explore!",
@@ -146,16 +198,29 @@
    "id": "af3a9dab9f09"
   },
   {
-   "title": "U2 goes back to school to put on a show where it all began 50 years ago",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORkEtd3JJaWdZaHM0dFdQRlZEd3k5Y1ZrcTBWUnJzUGNOcjllQ2pDcFVrR1RaLVlKSTJPWkJWT3Y3S0xWdFR3UUNhNmtNSmNwNms1RzJhX1V4WGZiczlqN3d1VXZteVVERC1HUWxpRERDUDIzYXVHak9lVjFXZTZqQkxuM29QOUJkY1ZJWlR5b3FYTFg1dTd2aC1JSGx2ZEMzUVhiS2JGcTNDWk5GUWR4aA?oc=5",
-   "summary": "U2 goes back to school to put on a show where it all began 50 years ago AP News",
-   "published": "2026-10-02T03:33:08+00:00",
+   "title": "Pete Hegseth creates a Pentagon Office of Religious Affairs reporting directly to him",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSmRrQXZJdTZYTnAyN3B3Vk9aRk5FS3cwRjczVDdZdy1YanFDeUhoTXZnTWlDdnU1eldUWVZYeFpXRVJwUUN3LXhtVGp4ZnhkOVdDZmZTcExGY0wwMnk0REdEdDFlQmdHY01ZUzN2Mm1RaUNGa2N1bjFhTXZkc1hUbDY5UzhRLXVKLWxIX0hfQWxXbTJBdTVFcXpVOEVHRDhab2l0NC1MQ2Y0S3ladlE?oc=5",
+   "summary": "Pete Hegseth creates a Pentagon Office of Religious Affairs reporting directly to him AP News",
+   "published": "2026-10-02T04:01:00+00:00",
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
    "section": "top",
-   "id": "4b096c4bd8c2",
-   "article_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORkEtd3JJaWdZaHM0dFdQRlZEd3k5Y1ZrcTBWUnJzUGNOcjllQ2pDcFVrR1RaLVlKSTJPWkJWT3Y3S0xWdFR3UUNhNmtNSmNwNms1RzJhX1V4WGZiczlqN3d1VXZteVVERC1HUWxpRERDUDIzYXVHak9lVjFXZTZqQkxuM29QOUJkY1ZJWlR5b3FYTFg1dTd2aC1JSGx2ZEMzUVhiS2JGcTNDWk5GUWR4aA?oc=5",
+   "id": "eeb1c986ab44",
+   "article_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSmRrQXZJdTZYTnAyN3B3Vk9aRk5FS3cwRjczVDdZdy1YanFDeUhoTXZnTWlDdnU1eldUWVZYeFpXRVJwUUN3LXhtVGp4ZnhkOVdDZmZTcExGY0wwMnk0REdEdDFlQmdHY01ZUzN2Mm1RaUNGa2N1bjFhTXZkc1hUbDY5UzhRLXVKLWxIX0hfQWxXbTJBdTVFcXpVOEVHRDhab2l0NC1MQ2Y0S3ladlE?oc=5",
+   "has_text": false
+  },
+  {
+   "title": "Trump administration says it has no plans for ICE officers at polls. Activists are preparing, anyway",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOWdzU3J4aWVmX0RMZ2xscUtJZVhCcjdyVG1EV09tVWhTMjZxaU5jYXVDRXRWVmFzdWFNUWQ2SzBTanhzVGxBb28xVnVhUHhtbUZNR3A0Y25wWV91cFdvQ01Oc05PNE1wTmpMUTBGanFvdktLZXkyQmNVSHpuRXk5Y0Q5TUhjM25YZFN3dmZ5Z1VOOEdidUthVWU1QjlxVDllUDFKU3U3TE9QdVJHZEE?oc=5",
+   "summary": "Trump administration says it has no plans for ICE officers at polls. Activists are preparing, anyway AP News",
+   "published": "2026-10-02T04:01:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "c6bc88272590",
+   "article_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQOWdzU3J4aWVmX0RMZ2xscUtJZVhCcjdyVG1EV09tVWhTMjZxaU5jYXVDRXRWVmFzdWFNUWQ2SzBTanhzVGxBb28xVnVhUHhtbUZNR3A0Y25wWV91cFdvQ01Oc05PNE1wTmpMUTBGanFvdktLZXkyQmNVSHpuRXk5Y0Q5TUhjM25YZFN3dmZ5Z1VOOEdidUthVWU1QjlxVDllUDFKU3U3TE9QdVJHZEE?oc=5",
    "has_text": false
   },
   {
@@ -315,19 +380,6 @@
    "has_text": false
   },
   {
-   "title": "OpenAI fires workers for mishandling 'sensitive information'",
-   "link": "https://www.bbc.co.uk/news/articles/c6y9z9r4ejzwo?at_medium=RSS&at_campaign=rss",
-   "summary": "The former employees were investigated for sharing data with an outside AI evaluation group.",
-   "published": "2026-10-02T01:34:56+00:00",
-   "source": "bbc",
-   "outlet": "BBC News",
-   "counted": true,
-   "section": "top",
-   "id": "fbc7283f1ec7",
-   "article_url": "https://www.bbc.co.uk/news/articles/c6y9z9r4ejzwo?at_medium=RSS&at_campaign=rss",
-   "has_text": true
-  },
-  {
    "title": "Cornell students voice frustration at public hearing over rape case",
    "link": "https://www.bbc.co.uk/news/videos/cwe8e8jpnpy5o?at_medium=RSS&at_campaign=rss",
    "summary": "The BBC's Nada Tawfik was at the hearing, where the university's Student Assembly led a discussion around safety concerns and sexual violence on campus.",
@@ -377,19 +429,6 @@
    "section": "top",
    "id": "0f3e773c6366",
    "article_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZlkteU15R3RhLUJDczR6Q1Z1NWw5R2hRME5lVWpnazMwVnp5WEdDbW1UekxjVnlMYVdZVEdNeEhpclZVSGhhUHlVU052Z3hfSjg5bFVHQXBYT2ROUzFwUWpPSU4xU0FYV1JNa3doOTJZWEYzZmF1U0hiaVl5cHN4RjVtazBBaGtQaE4zXy1sVVA0bE9HaC1RRjZteDRGVUJqXy1wcXAzWldkMjQ?oc=5",
-   "has_text": false
-  },
-  {
-   "title": "Hurricane Rachel strengthens to a Category 3 storm off Mexico’s Pacific coast",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeVJhSGVobUxHZWNqZ3FDWmd1TWtHSzBZUE12amtIVXN1anBZcDVqMzBMUllfUEJNcXRIczlyZWd5Q1Q2N3VfbWYzLWZVWEN0Q09OODdlWjdGdjVNc3E5TzUyMzV6ekd2VHBxTTRWQklOZU1aUmRTT0pQcFlfYjJoT1ZYTnlmb3QtalNnR2x4eGJrTmUxa2E1MFV3?oc=5",
-   "summary": "Hurricane Rachel strengthens to a Category 3 storm off Mexico’s Pacific coast AP News",
-   "published": "2026-10-02T00:45:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "29d1fc2c579b",
-   "article_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeVJhSGVobUxHZWNqZ3FDWmd1TWtHSzBZUE12amtIVXN1anBZcDVqMzBMUllfUEJNcXRIczlyZWd5Q1Q2N3VfbWYzLWZVWEN0Q09OODdlWjdGdjVNc3E5TzUyMzV6ekd2VHBxTTRWQklOZU1aUmRTT0pQcFlfYjJoT1ZYTnlmb3QtalNnR2x4eGJrTmUxa2E1MFV3?oc=5",
    "has_text": false
   },
   {
@@ -497,19 +536,6 @@
    "has_text": false
   },
   {
-   "title": "Trump says Iran will be hit ‘very hard’ if it is behind copilot who tried to crash flight to Israel",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOY1JEUjNsbnRKZ2tUX1RIcDczNFdTQWp6aENMM2JaLTk2WXMtbkllazZFZHg1RjhCUmJiRk9pbllEOFBJa21tYVk0cEpBY0RGM0ZieGRlcUxoaG85cmN2V2NQaDl4bnRsb19EWGY5MkZERTBpcE5aVzNmMVdyX3JyS3RLMWNCREI3UnFOOGlva3pFZXdjNTIzUlJVWnZyMENBNGpFXzBDX2p3NEkwN2c4?oc=5",
-   "summary": "Trump says Iran will be hit ‘very hard’ if it is behind copilot who tried to crash flight to Israel AP News",
-   "published": "2026-10-01T23:50:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "46149b4284a5",
-   "article_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOY1JEUjNsbnRKZ2tUX1RIcDczNFdTQWp6aENMM2JaLTk2WXMtbkllazZFZHg1RjhCUmJiRk9pbllEOFBJa21tYVk0cEpBY0RGM0ZieGRlcUxoaG85cmN2V2NQaDl4bnRsb19EWGY5MkZERTBpcE5aVzNmMVdyX3JyS3RLMWNCREI3UnFOOGlva3pFZXdjNTIzUlJVWnZyMENBNGpFXzBDX2p3NEkwN2c4?oc=5",
-   "has_text": false
-  },
-  {
    "title": "Making politics 'fun, trendy, sexy': How Gen Z could shape Kenya's next election",
    "link": "https://www.bbc.co.uk/news/articles/cwly7v7kk17mo?at_medium=RSS&at_campaign=rss",
    "summary": "A voter mobilisation campaign has registered huge numbers of young people but it is not clear who they are backing.",
@@ -538,7 +564,7 @@
   {
    "title": "Spain and China are cosying up",
    "link": "https://www.bbc.co.uk/news/articles/c6vgyg824m02o?at_medium=RSS&at_campaign=rss",
-   "summary": "Amid global tumult, the two countries alliance is not the only unlikely pairing.",
+   "summary": "Amid global tumult, the two countries' alliance is not the only unlikely pairing.",
    "published": "2026-10-01T23:42:33+00:00",
    "source": "bbc",
    "outlet": "BBC News",
@@ -679,19 +705,6 @@
    "has_text": false
   },
   {
-   "title": "Rubio waives human rights restrictions to release $320 million in military aid to Egypt",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZkQ2Y0dQS3ZOT1BoWHBHY3MxOTlPb0lxaHNlQ2lxZEx3ZVJVTjhpWm1EZ1NKU2JEWDBlcTV6RHhFbElhazNTSEYyVWZuMG1GaDhYczJiZGRodnR1Z3V1NFZ0d1BEWmo2djNpNjAwR2swb1U1MEtNTXByNEVnNmlDZmZBS2w5ZUloRmpBcmVIVm5HXzYzZkN4b1FGekRMdw?oc=5",
-   "summary": "Rubio waives human rights restrictions to release $320 million in military aid to Egypt AP News",
-   "published": "2026-10-01T22:45:18+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "fe959c4aaa4f",
-   "article_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZkQ2Y0dQS3ZOT1BoWHBHY3MxOTlPb0lxaHNlQ2lxZEx3ZVJVTjhpWm1EZ1NKU2JEWDBlcTV6RHhFbElhazNTSEYyVWZuMG1GaDhYczJiZGRodnR1Z3V1NFZ0d1BEWmo2djNpNjAwR2swb1U1MEtNTXByNEVnNmlDZmZBS2w5ZUloRmpBcmVIVm5HXzYzZkN4b1FGekRMdw?oc=5",
-   "has_text": false
-  },
-  {
    "title": "Investigators search for motive after alleged attack by FlyDubai co-pilot",
    "link": "https://www.pbs.org/newshour/show/investigators-search-for-motive-after-alleged-attack-by-flydubai-co-pilot",
    "summary": "Investigators across the Middle East are hunting for answers after a co-pilot stabbed his captain and allegedly attempted to crash a FlyDubai aircraft bound for Israel. President Trump claimed the attack could be linked to Iran, but did not provide evidence. Geoff Bennett discussed what we do and don't know with Juliette Kayyem, a former assistant secretary at the Department of Homeland Security.",
@@ -718,6 +731,19 @@
    "has_text": true
   },
   {
+   "title": "G20 trade talks yield little progress while tensions simmer",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWWNyVEFVQTg4SDA3NEh2cXlPTXBEeFdoUFhqVklJVi10aHBza2V4enU1NGlqcDJZeUpnc1RRcU1XVk9VdnVLUGhGYVhXMk9qQUFWRUFqellnX2JQcnFsZXVTTEd6UnozbHl2WWZ6TnZrNjYwWGRtd2VSOHo1V2kxNlgzWTFBSE5tbl94aA?oc=5",
+   "summary": "G20 trade talks yield little progress while tensions simmer AP News",
+   "published": "2026-10-01T22:42:13+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "4003b671dc06",
+   "article_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWWNyVEFVQTg4SDA3NEh2cXlPTXBEeFdoUFhqVklJVi10aHBza2V4enU1NGlqcDJZeUpnc1RRcU1XVk9VdnVLUGhGYVhXMk9qQUFWRUFqellnX2JQcnFsZXVTTEd6UnozbHl2WWZ6TnZrNjYwWGRtd2VSOHo1V2kxNlgzWTFBSE5tbl94aA?oc=5",
+   "has_text": false
+  },
+  {
    "title": "News Wrap: Supreme Court to review mandatory detention policy for migrants",
    "link": "https://www.pbs.org/newshour/show/news-wrap-supreme-court-to-review-mandatory-detention-policy-for-migrants",
    "summary": "In our news wrap Thursday, the Supreme Court agreed to review the Trump administration's mandatory detention policy for migrants, UK police arrested a British-Iranian citizen on suspicion of planning a terror attack following a security incident at an air base and a Russian drone slammed into a school in Kyiv as the capital endured yet another day of aerial attacks.",
@@ -729,6 +755,19 @@
    "id": "7ef49014f4c3",
    "article_url": "https://www.pbs.org/newshour/show/news-wrap-supreme-court-to-review-mandatory-detention-policy-for-migrants",
    "has_text": true
+  },
+  {
+   "title": "Rubio waives human rights restrictions to release $320 million in military aid to Egypt",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZkQ2Y0dQS3ZOT1BoWHBHY3MxOTlPb0lxaHNlQ2lxZEx3ZVJVTjhpWm1EZ1NKU2JEWDBlcTV6RHhFbElhazNTSEYyVWZuMG1GaDhYczJiZGRodnR1Z3V1NFZ0d1BEWmo2djNpNjAwR2swb1U1MEtNTXByNEVnNmlDZmZBS2w5ZUloRmpBcmVIVm5HXzYzZkN4b1FGekRMdw?oc=5",
+   "summary": "Rubio waives human rights restrictions to release $320 million in military aid to Egypt AP News",
+   "published": "2026-10-01T22:36:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "fe959c4aaa4f",
+   "article_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZkQ2Y0dQS3ZOT1BoWHBHY3MxOTlPb0lxaHNlQ2lxZEx3ZVJVTjhpWm1EZ1NKU2JEWDBlcTV6RHhFbElhazNTSEYyVWZuMG1GaDhYczJiZGRodnR1Z3V1NFZ0d1BEWmo2djNpNjAwR2swb1U1MEtNTXByNEVnNmlDZmZBS2w5ZUloRmpBcmVIVm5HXzYzZkN4b1FGekRMdw?oc=5",
+   "has_text": false
   },
   {
    "title": "New details intensify scrutiny of Cornell's handling of gang rape allegations",
@@ -1017,19 +1056,6 @@
    "has_text": false
   },
   {
-   "title": "G20 trade talks yield little progress while tensions simmer",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWWNyVEFVQTg4SDA3NEh2cXlPTXBEeFdoUFhqVklJVi10aHBza2V4enU1NGlqcDJZeUpnc1RRcU1XVk9VdnVLUGhGYVhXMk9qQUFWRUFqellnX2JQcnFsZXVTTEd6UnozbHl2WWZ6TnZrNjYwWGRtd2VSOHo1V2kxNlgzWTFBSE5tbl94aA?oc=5",
-   "summary": "G20 trade talks yield little progress while tensions simmer AP News",
-   "published": "2026-10-01T21:58:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "4003b671dc06",
-   "article_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWWNyVEFVQTg4SDA3NEh2cXlPTXBEeFdoUFhqVklJVi10aHBza2V4enU1NGlqcDJZeUpnc1RRcU1XVk9VdnVLUGhGYVhXMk9qQUFWRUFqellnX2JQcnFsZXVTTEd6UnozbHl2WWZ6TnZrNjYwWGRtd2VSOHo1V2kxNlgzWTFBSE5tbl94aA?oc=5",
-   "has_text": false
-  },
-  {
    "title": "FBI arrests Energy Department employee accused of attempting to support Houthis",
    "link": "https://thehill.com/homenews/state-watch/6124659-doe-employee-arrested-alleged-houthi-support/",
    "summary": "The FBI arrested a Department of Energy (DOE) employee Thursday at the Hanford, Wash., nuclear site under suspicion of trying to aid the Iranian-backed Houthi terrorist group in Yemen, according to the Justice Department. Ashton Hamed Ellaboudy, 51, of Richland, Wash., was charged with “attempting to provide material support or resources to the Houthis” after…",
@@ -1040,6 +1066,19 @@
    "section": "top",
    "id": "ccb0e7898ebd",
    "article_url": "https://thehill.com/homenews/state-watch/6124659-doe-employee-arrested-alleged-houthi-support/",
+   "has_text": false
+  },
+  {
+   "title": "Major global news moments of September, in AP photos",
+   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUEZMNkpSZTMxMnNfVXVHY2NMMXIyeWE0Q2VmSUNDVzA3VUNPNE82dnhGTzFpLWFZSUp0ZUZ0czNSMkIxSEF1M2FQM0M3MURET19jRW5YR19iVEtrZGlxVzViYWFLd0FQak9FX1V2UnhCajVNZFFleDI1OHBQS244Tk1iMlN5NDlSem1maGVZTThZbDdLTjBOWHU0Qm4yNlJJRUtuWTBiX05zS29IZTR4dQ?oc=5",
+   "summary": "Major global news moments of September, in AP photos AP News",
+   "published": "2026-10-01T21:54:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "42ff6ead30fd",
+   "article_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUEZMNkpSZTMxMnNfVXVHY2NMMXIyeWE0Q2VmSUNDVzA3VUNPNE82dnhGTzFpLWFZSUp0ZUZ0czNSMkIxSEF1M2FQM0M3MURET19jRW5YR19iVEtrZGlxVzViYWFLd0FQak9FX1V2UnhCajVNZFFleDI1OHBQS244Tk1iMlN5NDlSem1maGVZTThZbDdLTjBOWHU0Qm4yNlJJRUtuWTBiX05zS29IZTR4dQ?oc=5",
    "has_text": false
   },
   {
@@ -1300,6 +1339,19 @@
    "section": "top",
    "id": "9e144d662719",
    "article_url": "https://thehill.com/policy/technology/6124282-ro-khanna-ai-theft-investigation-china/",
+   "has_text": false
+  },
+  {
+   "title": "Dual UK-Iranian national arrested over security incident at US-run air base in England",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWDFBc1NtMUxrV3E5ZDZwMXRHeks1LUh4VWg1VS1oVThqd1M4UnRzN2g4VFMwWWZXX253ZVdWN1J3eTFWM1BfQ01JNlpaWTRNNlJ5a25nY2xBa2RRa2FjRVJEQmVZc1NLSzVlOFJGVFdqcmhiaVo4UjN5MmZZYndkWjRPOHdDbnlXNi11bmlWSkhnOGpH?oc=5",
+   "summary": "Dual UK-Iranian national arrested over security incident at US-run air base in England AP News",
+   "published": "2026-10-01T20:49:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "06a9b9612785",
+   "article_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWDFBc1NtMUxrV3E5ZDZwMXRHeks1LUh4VWg1VS1oVThqd1M4UnRzN2g4VFMwWWZXX253ZVdWN1J3eTFWM1BfQ01JNlpaWTRNNlJ5a25nY2xBa2RRa2FjRVJEQmVZc1NLSzVlOFJGVFdqcmhiaVo4UjN5MmZZYndkWjRPOHdDbnlXNi11bmlWSkhnOGpH?oc=5",
    "has_text": false
   },
   {
@@ -2079,19 +2131,6 @@
    "has_text": false
   },
   {
-   "title": "Dual UK-Iranian national arrested over security incident at US-run air base in England",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWDFBc1NtMUxrV3E5ZDZwMXRHeks1LUh4VWg1VS1oVThqd1M4UnRzN2g4VFMwWWZXX253ZVdWN1J3eTFWM1BfQ01JNlpaWTRNNlJ5a25nY2xBa2RRa2FjRVJEQmVZc1NLSzVlOFJGVFdqcmhiaVo4UjN5MmZZYndkWjRPOHdDbnlXNi11bmlWSkhnOGpH?oc=5",
-   "summary": "Dual UK-Iranian national arrested over security incident at US-run air base in England AP News",
-   "published": "2026-10-01T17:40:25+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "06a9b9612785",
-   "article_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWDFBc1NtMUxrV3E5ZDZwMXRHeks1LUh4VWg1VS1oVThqd1M4UnRzN2g4VFMwWWZXX253ZVdWN1J3eTFWM1BfQ01JNlpaWTRNNlJ5a25nY2xBa2RRa2FjRVJEQmVZc1NLSzVlOFJGVFdqcmhiaVo4UjN5MmZZYndkWjRPOHdDbnlXNi11bmlWSkhnOGpH?oc=5",
-   "has_text": false
-  },
-  {
    "title": "Trump says he rejected Secret Service plan to tear down Oval Office",
    "link": "https://thehill.com/homenews/administration/6123889-trump-rejects-oval-office-demolition-plan/",
    "summary": "President Trump said he told the Secret Service that he wouldn’t allow for the Oval Office to be demolished. Trump was asked what he would miss the most about the White House when he leaves office at the end of his second term, and the president spoke about the historic West Wing office. “This beautiful…",
@@ -2376,16 +2415,16 @@
    "has_text": false
   },
   {
-   "title": "Haiti struggles with rise in kidnappings as general election looms",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPM1lKRk5pMW9kY00xbXVPbGgxeFJCd0JxaFJuNVg0Nm0yNGNFQ2ZoV1hPUk4xb3M1OVpwNHIxV255aTZ0enU4MW9oRk53QUpEdWliTktNZmFobFhPSXZLamJnT3BjTF9JZzVjQ0xUMk5JZnJ6UlBpQUgwUE1tWUNMWUpHTHlnNVVSektoWmlNaXB1ZmM?oc=5",
-   "summary": "Haiti struggles with rise in kidnappings as general election looms AP News",
-   "published": "2026-10-01T16:20:00+00:00",
+   "title": "Naomi Campbell's 5-year ban on serving as a charity trustee in England and Wales is overturned",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdXN2U1ZSZHAyc2JyRnNIenlVOFc2cjFWbmppZzd5OVc4WlM4bzlnY3FFZjZqRWtlNXdWdUNMSG1NYnYyaU1leEVIWFkyNS0zVkxDS2JjVnhxUU4yWkFqbGdTMFViWnNrRlVJaERMS0g3UGhBYnFSX0o0ZDBuQ0RKTnJpNk80SUd2XzYtY0d2OTg2YnpIRVhwS2hLek5HRFJNd19JSXFPLWc?oc=5",
+   "summary": "Naomi Campbell's 5-year ban on serving as a charity trustee in England and Wales is overturned AP News",
+   "published": "2026-10-01T16:13:00+00:00",
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
    "section": "top",
-   "id": "33ae2d7c5a11",
-   "article_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPM1lKRk5pMW9kY00xbXVPbGgxeFJCd0JxaFJuNVg0Nm0yNGNFQ2ZoV1hPUk4xb3M1OVpwNHIxV255aTZ0enU4MW9oRk53QUpEdWliTktNZmFobFhPSXZLamJnT3BjTF9JZzVjQ0xUMk5JZnJ6UlBpQUgwUE1tWUNMWUpHTHlnNVVSektoWmlNaXB1ZmM?oc=5",
+   "id": "9183c50d226f",
+   "article_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdXN2U1ZSZHAyc2JyRnNIenlVOFc2cjFWbmppZzd5OVc4WlM4bzlnY3FFZjZqRWtlNXdWdUNMSG1NYnYyaU1leEVIWFkyNS0zVkxDS2JjVnhxUU4yWkFqbGdTMFViWnNrRlVJaERMS0g3UGhBYnFSX0o0ZDBuQ0RKTnJpNk80SUd2XzYtY0d2OTg2YnpIRVhwS2hLek5HRFJNd19JSXFPLWc?oc=5",
    "has_text": false
   },
   {
@@ -3490,19 +3529,6 @@
    "has_text": false
   },
   {
-   "title": "Naomi Campbell's 5-year ban on serving as a charity trustee in England and Wales is overturned",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdXN2U1ZSZHAyc2JyRnNIenlVOFc2cjFWbmppZzd5OVc4WlM4bzlnY3FFZjZqRWtlNXdWdUNMSG1NYnYyaU1leEVIWFkyNS0zVkxDS2JjVnhxUU4yWkFqbGdTMFViWnNrRlVJaERMS0g3UGhBYnFSX0o0ZDBuQ0RKTnJpNk80SUd2XzYtY0d2OTg2YnpIRVhwS2hLek5HRFJNd19JSXFPLWc?oc=5",
-   "summary": "Naomi Campbell's 5-year ban on serving as a charity trustee in England and Wales is overturned AP News",
-   "published": "2026-10-01T11:47:30+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "9183c50d226f",
-   "article_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdXN2U1ZSZHAyc2JyRnNIenlVOFc2cjFWbmppZzd5OVc4WlM4bzlnY3FFZjZqRWtlNXdWdUNMSG1NYnYyaU1leEVIWFkyNS0zVkxDS2JjVnhxUU4yWkFqbGdTMFViWnNrRlVJaERMS0g3UGhBYnFSX0o0ZDBuQ0RKTnJpNk80SUd2XzYtY0d2OTg2YnpIRVhwS2hLek5HRFJNd19JSXFPLWc?oc=5",
-   "has_text": false
-  },
-  {
    "title": "Cornell case highlights 'draining' maze for victims to report campus sex assaults",
    "link": "https://www.bbc.co.uk/news/articles/crpd0wdnlgxno?at_medium=RSS&at_campaign=rss",
    "summary": "Victims often have to navigate both university and local law enforcement processes to find justice.",
@@ -3854,6 +3880,19 @@
    "has_text": true
   },
   {
+   "title": "China-linked hackers posed as former US officials, Anthropic employee to target AI experts",
+   "link": "https://www.defenseone.com/threats/2026/10/china-linked-hackers-posed-former-us-officials-anthropic-employee-target-ai-experts/416384/",
+   "summary": "Proofpoint identified phishing campaigns that borrowed prominent figures’ identities to approach U.S. policy researchers before attempting to steal access to their cloud accounts.",
+   "published": "2026-10-01T09:00:00+00:00",
+   "source": "defenseone",
+   "outlet": "Defense One",
+   "counted": true,
+   "section": "top",
+   "id": "55219f79d5b6",
+   "article_url": "https://www.defenseone.com/threats/2026/10/china-linked-hackers-posed-former-us-officials-anthropic-employee-target-ai-experts/416384/",
+   "has_text": true
+  },
+  {
    "title": "‘Mega-Industrial’ Trawlers Threaten Europe’s Ocean Health",
    "link": "https://insideclimatenews.org/news/01102026/europe-mega-industrial-trawlers-threaten-ocean/",
    "summary": "For Europe’s fishing industry, it turns out size does matter. Of 60,000 European-flagged fishing boats, just 638 are responsible for most of the harm, according to a new report by French non-profit BLOOM. The largest in the fleet, at 108 feet or longer, pose the greatest threat to food security, cost taxpayers the most and […]",
@@ -3952,7 +3991,7 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "top",
+   "section": "climate",
    "id": "2d97a8f8ffdc",
    "article_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOd1Z0V0xfSkpYcWJ4elhUOFBPbm5uUlhBdFl6YXMzMEZfZ3hnZ2tUajlEMVk2bmtEWm42TUxqbXc2a05SdnFPQ0tyWTdTVi1XaWFLc3pPdG4weXN3ZG9IUzRqaXkwNkRYLW5RaWF5cEFfaUk0SnlNbXR3WWtMbDFWNVQzclgyQ183bHpURUJPbHUwa29QYnc?oc=5",
    "has_text": false
@@ -3995,19 +4034,6 @@
    "id": "21712073561e",
    "article_url": "https://www.bbc.co.uk/news/videos/cq5ymyl1y29ko?at_medium=RSS&at_campaign=rss",
    "has_text": true
-  },
-  {
-   "title": "Creative Nigerians use Guinness World Records to seek global recognition elusive at home",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTFl5ZXY1R2ZoUVhMSldXUHBTcnZzMjZEcHM1V1NPaDN3UFhpZk83Q21WNElNdElVZ0E3a3dvempjVHFwMnU5UkgycW8zUVctZDVaeHdjSXl3R2VkTVhpY1RmZHV3QUg0QXVpQWgwZjJXU09zNDZ0Ujd6NlM2Nm81WHVOWWstQzZmZTYwdy1Rd1U5SXY5?oc=5",
-   "summary": "Creative Nigerians use Guinness World Records to seek global recognition elusive at home AP News",
-   "published": "2026-10-01T05:44:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "0f9358881476",
-   "article_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQTFl5ZXY1R2ZoUVhMSldXUHBTcnZzMjZEcHM1V1NPaDN3UFhpZk83Q21WNElNdElVZ0E3a3dvempjVHFwMnU5UkgycW8zUVctZDVaeHdjSXl3R2VkTVhpY1RmZHV3QUg0QXVpQWgwZjJXU09zNDZ0Ujd6NlM2Nm81WHVOWWstQzZmZTYwdy1Rd1U5SXY5?oc=5",
-   "has_text": false
   },
   {
    "title": "K-pop star convicted of violating military service law",
@@ -4149,19 +4175,6 @@
    "has_text": false
   },
   {
-   "title": "Tropical Pacific moisture drenches central US as another Pacific hurricane forms",
-   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNckplNUdvQlNvRVoxM3hlZjNSMHNRLWExeWxLYlZzMkZOUnBpQy1Fblczb1ZodFg2Um96Z0V3amI4X3R5aVFnUGZDaXlJa2FfSmVBY01nWk5UaEFpZVZRTE9rZDRKYlJiMkRpVFpfY3VBdGNabG1XYmhaS0I5cW0zTU9QS1kyN0x3Mm12aA?oc=5",
-   "summary": "Tropical Pacific moisture drenches central US as another Pacific hurricane forms AP News",
-   "published": "2026-10-01T03:20:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "d84cc1047eaf",
-   "article_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNckplNUdvQlNvRVoxM3hlZjNSMHNRLWExeWxLYlZzMkZOUnBpQy1Fblczb1ZodFg2Um96Z0V3amI4X3R5aVFnUGZDaXlJa2FfSmVBY01nWk5UaEFpZVZRTE9rZDRKYlJiMkRpVFpfY3VBdGNabG1XYmhaS0I5cW0zTU9QS1kyN0x3Mm12aA?oc=5",
-   "has_text": false
-  },
-  {
    "title": "Botched execution leaves Tennessee death-row inmate Christa Pike alive after legal saga",
    "link": "https://thehill.com/regulation/court-battles/6122135-tennessee-christa-pike-execution-botched/",
    "summary": "Lawyers for Christa Pike, an inmate facing execution in Tennessee, said she was still alive Wednesday night after being administered two syringes of lethal injection drugs. Pike’s federal public defenders wrote in a motion to the Tennessee Supreme Court that witnesses reported she had been given doses of pentobarbital at 8:26 p.m. but was “still…",
@@ -4224,6 +4237,19 @@
    "section": "top",
    "id": "bcc1e1f7faac",
    "article_url": "https://thehill.com/homenews/state-watch/6122088-man-arrested-texas-capitol-threat/",
+   "has_text": false
+  },
+  {
+   "title": "Iran indicates it’s received an official US response to its latest offer on ending the war",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPa0ZnME5PM2tFOXBTRG9ibkxwMG5Pd1AtTmY4V0ZCU3I4Z0tsam1mcjdNWDVTQ3Jwa0d5YUg3YTdvcXkzNTFSdy1FbktYWHJFazAxRGlMaGozVXNxcXpFZm9GUGpXazBTSVpFdjdzQUNoaDZYMmVvWGUtckxtTjVRQzN5Y3M0bnczVkVnbVMtek9ONGZJ?oc=5",
+   "summary": "Iran indicates it’s received an official US response to its latest offer on ending the war AP News",
+   "published": "2026-10-01T02:26:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "d102178cbed7",
+   "article_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPa0ZnME5PM2tFOXBTRG9ibkxwMG5Pd1AtTmY4V0ZCU3I4Z0tsam1mcjdNWDVTQ3Jwa0d5YUg3YTdvcXkzNTFSdy1FbktYWHJFazAxRGlMaGozVXNxcXpFZm9GUGpXazBTSVpFdjdzQUNoaDZYMmVvWGUtckxtTjVRQzN5Y3M0bnczVkVnbVMtek9ONGZJ?oc=5",
    "has_text": false
   },
   {
@@ -4695,6 +4721,19 @@
    "has_text": false
   },
   {
+   "title": "Arizona State places hockey coach Greg Powers on administrative leave following player's collpase",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMVdQNVFHU2tkQ2tlSV9aTlBmMUxkYUd6MlI0d3Z0aWpYdE9iRUFfREFBR25qa3N0cGZPY1g3QVlQd29hLWtUMjRlVS1ocE5lTWNrMk1kUGVBcTh1cU1fQW5DMnlBbDFCeGgxLU8xVExVNTVpZ011eFVIbHc1MjQzMlBsSTVIckVDWERRSVFMWkhBbVp1c0JnNm53SVhLMDFQOGhJbi1ndnpiU3M?oc=5",
+   "summary": "Arizona State places hockey coach Greg Powers on administrative leave following player's collpase AP News",
+   "published": "2026-09-30T21:36:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "2d054c1a5741",
+   "article_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMVdQNVFHU2tkQ2tlSV9aTlBmMUxkYUd6MlI0d3Z0aWpYdE9iRUFfREFBR25qa3N0cGZPY1g3QVlQd29hLWtUMjRlVS1ocE5lTWNrMk1kUGVBcTh1cU1fQW5DMnlBbDFCeGgxLU8xVExVNTVpZ011eFVIbHc1MjQzMlBsSTVIckVDWERRSVFMWkhBbVp1c0JnNm53SVhLMDFQOGhJbi1ndnpiU3M?oc=5",
+   "has_text": false
+  },
+  {
    "title": "AI safety fears put OpenAI and Anthropic in the FTC's crosshairs",
    "link": "https://www.axios.com/2026/09/30/ftc-openai-anthropic-ai-safety-investigation",
    "summary": "The Federal Trade Commission is investigating OpenAI, Anthropic and other AI companies over potential safety risks posed by their products, an agency spokesperson told Axios Wednesday. Why it matters: The federal government has largely taken a hands-off approach to regulating AI , but the FTC investigation could signal a shift for the industry. Driving the news: FTC Chair Andrew Ferguson is preparing civil investigative demands that would compel AI executives to turn over documents and testify about the safety of their models, according to the New York Post, which first reported the news. The ",
@@ -4929,6 +4968,19 @@
    "has_text": false
   },
   {
+   "title": "Tropical Pacific moisture drenches central US as another Pacific hurricane forms",
+   "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNckplNUdvQlNvRVoxM3hlZjNSMHNRLWExeWxLYlZzMkZOUnBpQy1Fblczb1ZodFg2Um96Z0V3amI4X3R5aVFnUGZDaXlJa2FfSmVBY01nWk5UaEFpZVZRTE9rZDRKYlJiMkRpVFpfY3VBdGNabG1XYmhaS0I5cW0zTU9QS1kyN0x3Mm12aA?oc=5",
+   "summary": "Tropical Pacific moisture drenches central US as another Pacific hurricane forms AP News",
+   "published": "2026-09-30T19:46:16+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "d84cc1047eaf",
+   "article_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNckplNUdvQlNvRVoxM3hlZjNSMHNRLWExeWxLYlZzMkZOUnBpQy1Fblczb1ZodFg2Um96Z0V3amI4X3R5aVFnUGZDaXlJa2FfSmVBY01nWk5UaEFpZVZRTE9rZDRKYlJiMkRpVFpfY3VBdGNabG1XYmhaS0I5cW0zTU9QS1kyN0x3Mm12aA?oc=5",
+   "has_text": false
+  },
+  {
    "title": "FTC is investigating OpenAI and Anthropic over possible risks to consumers",
    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOLUhCdEZlM2xkNVpqTkRoNk1UbHdrQ1lkUWlwdzltbDhMWS1RemN3WEFkTmJYdl9DYXBJQU14VGMtcXQ3OGhRM01pcjBOaDVtLS00THJUeHMwdlcxQ2ZXWWlvUk90azgtQVBLNGV1eGlZN0t6RG1oQkdjRS1nZEZPNnd1dmwyaXp4eWhDdFoybWdXSEI2Uk1YRklFUTBjZw?oc=5",
    "summary": "FTC is investigating OpenAI and Anthropic over possible risks to consumers AP News",
@@ -4994,19 +5046,6 @@
    "has_text": true
   },
   {
-   "title": "Photos of Madrid protests after an 87-year-old woman’s eviction from her longtime home",
-   "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOaS1uWUdGREtfdkJ6YkxEYTJab1c3cnNZOUo4ck0wamZfYzAtZjVNWHZhbFIwTU5qZXRFTF9ZaFhWSE9GX1VQYmFEdlVpbzRNMnVvVERFYllOR1pZNGpqUzBKNHdpbGpfb0RZbEJhQURERnRlb09LVm8tRS13OWVyMEJ3UGtiVUZRWF9UTWpMeHhzaU9jaWs5UkJveVhwcmp3RVdmQ3RwQ1NIZDRCZF9JektNTDlSTUwyWmQ4R1BDT0dnZlZuTFJWZEtuQ3Z2aTlfNTl3?oc=5",
-   "summary": "Photos of Madrid protests after an 87-year-old woman’s eviction from her longtime home AP News",
-   "published": "2026-09-30T18:28:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "3501cc3ea8f3",
-   "article_url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOaS1uWUdGREtfdkJ6YkxEYTJab1c3cnNZOUo4ck0wamZfYzAtZjVNWHZhbFIwTU5qZXRFTF9ZaFhWSE9GX1VQYmFEdlVpbzRNMnVvVERFYllOR1pZNGpqUzBKNHdpbGpfb0RZbEJhQURERnRlb09LVm8tRS13OWVyMEJ3UGtiVUZRWF9UTWpMeHhzaU9jaWs5UkJveVhwcmp3RVdmQ3RwQ1NIZDRCZF9JektNTDlSTUwyWmQ4R1BDT0dnZlZuTFJWZEtuQ3Z2aTlfNTl3?oc=5",
-   "has_text": false
-  },
-  {
    "title": "944 children abused by Catholic clergy, Mass. AG says — but no new charges",
    "link": "https://www.axios.com/2026/09/30/massachusetts-catholic-clergy-sex-abuse-report",
    "summary": "The Massachusetts attorney general released a report Wednesday documenting more than 270 Catholic clerics accused of sexually abusing 944 children across three dioceses — but the investigation will result in no new indictments. Why it matters: The dioceses created an illusion of safety while church leaders repeatedly exploited loopholes to protect the institution's reputation, systematically concealing staggering levels of abuse. What they're saying: \"We deeply understand that behind every number is a child whose safety was violated, a family that was changed, and a survivor who has carried th",
@@ -5018,6 +5057,19 @@
    "id": "61b47fb7fcf6",
    "article_url": "https://www.axios.com/2026/09/30/massachusetts-catholic-clergy-sex-abuse-report",
    "has_text": true
+  },
+  {
+   "title": "Data center bill falls short in Senate as lawmakers take final votes before the midterms",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWm1JZlFjTmhPRVlGamI2UGtVemJHSVB6RDl0YmxIdjljNS02M3I3ZEZYN0phN1FJRXRlbldFWTgwUEZEMzIyRUlGVHl2STl2ZXNlR0cwQldpazNzMXlZMjdtbldwNXhYeFlmNW53VzVPQ0tldFFBN0Nha2JKMEdwaEp0Z3NmaGVOalM3Y3FJb01oOWJqYUhfZ1Bn?oc=5",
+   "summary": "Data center bill falls short in Senate as lawmakers take final votes before the midterms AP News",
+   "published": "2026-09-30T17:48:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "c1bfb9dc1efb",
+   "article_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPWm1JZlFjTmhPRVlGamI2UGtVemJHSVB6RDl0YmxIdjljNS02M3I3ZEZYN0phN1FJRXRlbldFWTgwUEZEMzIyRUlGVHl2STl2ZXNlR0cwQldpazNzMXlZMjdtbldwNXhYeFlmNW53VzVPQ0tldFFBN0Nha2JKMEdwaEp0Z3NmaGVOalM3Y3FJb01oOWJqYUhfZ1Bn?oc=5",
+   "has_text": false
   },
   {
    "title": "\"Strong indications\" Iran had role in U.K. bomb plot, PM Andy Burnham says",
@@ -5186,6 +5238,19 @@
    "section": "climate",
    "id": "555b41bb40bf",
    "article_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdXhZcjU3dXRldEVpdXh1ZXlfN3RXTVh2cEZ6cnZ0YjZpSHgwZ280ekw3WEtjV3NVR3p6cHF3TDU0OWc1cVFrdWNzY1AzaDZYWG9Hb1NNdUFYSGdDMzd5aV94aU84ZzdZcktBTEVORTBKbGR1Zl9DNXl3bGFpSGhiSDdWSVF3WXFtQWVyaGN6dUdCUExwU0Nj?oc=5",
+   "has_text": false
+  },
+  {
+   "title": "Trump administration considers scaling back border project in Texas' Big Bend National Park",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcWNmbExmLVhVb2pnQVVpZTkyM1lGUUpMQVNyUGxiTzV3TXdtWkpocE9qWTNCdGo0dk15THphUHZfYlNaOF9fQTNaRy11NXpVWDduYnhXWkFFb1piZ0REUUxCQUZZWTdRd2VDMk1vdmI0NWRndzk4akc4UmpjelhtT1hyemhvSUV1cEpDSW5ObWk5cUIyZHFGdXdWOWZLMHJYcWpDc0FCNA?oc=5",
+   "summary": "Trump administration considers scaling back border project in Texas' Big Bend National Park AP News",
+   "published": "2026-09-30T15:09:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "6d9fa436407d",
+   "article_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcWNmbExmLVhVb2pnQVVpZTkyM1lGUUpMQVNyUGxiTzV3TXdtWkpocE9qWTNCdGo0dk15THphUHZfYlNaOF9fQTNaRy11NXpVWDduYnhXWkFFb1piZ0REUUxCQUZZWTdRd2VDMk1vdmI0NWRndzk4akc4UmpjelhtT1hyemhvSUV1cEpDSW5ObWk5cUIyZHFGdXdWOWZLMHJYcWpDc0FCNA?oc=5",
    "has_text": false
   },
   {
