@@ -1,0 +1,79 @@
+{
+  "slot": "2026-10-01 20:00 CT",
+  "date": "2026-10-01",
+  "category": "Science",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/science/watch-nasa-launches-crew-13-to-international-space-station",
+  "source_domain": "pbs.org/newshour",
+  "headline": "Four astronauts up. One's a dad soon.",
+  "summary": "SpaceX launched four astronauts from Cape Canaveral Thursday, three weeks late over a leak in the capsule's fuel system. The trip to the space station takes eight hours, the fastest yet. Commander Jessica Watkins is the first Black woman to lead a crew to orbit. Canada's Joshua Kutryk has a baby due in late November. They stay six months.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "Will he miss his baby being born?"
+  },
+  "cover_answer": "In person, yes. NASA says it'll keep him looped in.",
+  "table_question": "Would you go to space if you'd miss something big at home?",
+  "photo_subject": "Jessica Watkins",
+  "ages": {
+    "5-7": {
+      "chip": "Good one to bring up",
+      "script": "Four astronauts blasted off from Florida today to live on the space station until spring. Getting there takes about eight hours, about as long as a school day. One of them, from Canada, will become a dad while he is up there. SpaceX has flown crews there 13 times now, so they know the way.",
+      "why": "Eight hours is a school day. Six months is not a number a six-year-old can hold yet, so give them the one they can.",
+      "why_long": "A six-year-old reasons from what is in front of them, and six months is not. Eight hours is a school day, so the script measures the trip in school days and leaves the stay as \"until spring.\" The dad in space is the detail they keep, because it is about a family. Expect \"can they come home if they want?\" Not today, and they chose to go."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "The Dragon capsule's fuel system was leaking, so the launch waited three weeks for the fix. Thursday the clouds nearly stopped it again, then cleared. The ride to the station takes eight hours, the fastest yet. A launch runs on a checklist: one box unchecked, nobody goes.",
+      "why": "Leak, delay, fix, launch is a chain, and the checklist is the mechanism.",
+      "why_long": "This age is working out cause and effect and whether rules hold for everyone. The chain is leak, delay, fix, clouds, launch, and the rule is the checklist: NASA waited on one unchecked box, the same rule as a packed bag or a fire drill. Expect \"what if something breaks up there?\" The ground crew talks them through it. That is the job."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Would you take a six-month job in orbit if your third child was due in November? Joshua Kutryk did. His wife is due in late November and NASA says it will keep him looped in. Second: Jessica Watkins is the first Black woman to command a crew to orbit. Why did that take until 2026?",
+      "why": "Two questions, one personal and one about who gets the chair.",
+      "why_long": "A teenager can hold two true things at once: Kutryk chose the mission, and he will miss the birth. The script hands them the choice first, because they are testing whether you will argue a trade-off honestly instead of selling it. The second question asks why a first arrives in 2026. Expect \"would you have gone?\" Answer it straight."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "How long do they stay up there?",
+        "a": "Until spring, about six months. Then another four come up and they fly home."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Will he miss his baby being born?",
+        "a": "In orbit, yes. NASA says it'll keep him looped in."
+      },
+      {
+        "q": "Why was the launch three weeks late?",
+        "a": "A fuel leak in the capsule. They fixed it first."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Isn't 13 bad luck?",
+        "a": "They leaned in: 'Lucky 13' plates and a crocheted dragon with a clover."
+      },
+      {
+        "q": "Why is a first Black woman commander still news?",
+        "a": "Because it took until now. Ask who got the seat before."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#Crew13",
+    "#DinnerTableNews"
+  ],
+  "photo": "data/images/2026-10-01-evening.jpg",
+  "photo_credit": "Photo: Josh Valcarcel, Wikimedia Commons, Public domain",
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 11,
+    "13-17": 15
+  },
+  "caption": "In person, yes. NASA says it'll keep him looped in.\n\nSpaceX launched four astronauts from Cape Canaveral Thursday, three weeks late over a leak in the capsule's fuel system. The trip to the space station takes eight hours, the fastest yet. Commander Jessica Watkins is the first Black woman to lead a crew to orbit. Canada's Joshua Kutryk has a baby due in late November. They stay six months.\n\nSource: PBS NewsHour\nPhoto: Josh Valcarcel, Wikimedia Commons, Public domain\n\nSwipe for what to say at age 7, at 11, and at 15.\n\nThe dinner table question: Would you go to space if you'd miss something big at home? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #Crew13 #DinnerTableNews"
+}

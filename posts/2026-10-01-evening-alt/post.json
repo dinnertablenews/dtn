@@ -1,0 +1,80 @@
+{
+  "slot": "2026-10-01 20:00 CT",
+  "date": "2026-10-01",
+  "category": "Government",
+  "outlet": "The Hill",
+  "source_url": "https://thehill.com/regulation/court-battles/6122542-supreme-court-mandatory-detention-policy-trump/",
+  "source_domain": "thehill.com",
+  "headline": "Top court takes Trump's no-bond rule",
+  "summary": "The Supreme Court announced Thursday it will decide whether President Trump's mandatory detention policy is legal. The administration argues it can hold people without bond if they are found to be in the country unlawfully. The case goes on the justices' docket for their upcoming term. The reports do not say when they will rule.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "What does no bond mean?"
+  },
+  "cover_answer": "Held, with no way to go home while the case runs.",
+  "table_question": "Is it fair to hold someone before a judge hears their case?",
+  "photo_subject": "United States Supreme Court Building",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": true,
+      "script": "The biggest court in the country is going to look at a rule about people who came here without permission. The rule says they wait in a locked building until their case is finished. Nine judges will decide if that rule is allowed, like a referee checking a play. Nothing changes for you tonight, and the judges have it.",
+      "why": "A six-year-old hears \"locked up\" and checks your face. The referee is the whole story, and the last line is for them.",
+      "why_long": "A six-year-old takes one vivid feature for the whole event, and here it is a locked building, so the script does not open there and ends at home. Cantor says this age fears harm and separation; the referee gives them a grown-up in charge of the rule. Expect \"could that happen to us?\" If the answer is no, say no."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "Trump's rule says someone found here unlawfully is held with no bond, so no paying to wait at home while their case runs. Lower courts argued over whether that is legal. Thursday the Supreme Court said it will decide. Nine judges check the rule against the law, like a referee checking a play on replay.",
+      "why": "Rule, challenge, review, ruling: a chain, and the replay booth is the mechanism.",
+      "why_long": "This age is working out whether rules apply to everyone and who checks the people who make them. The chain is rule, challenge, review, ruling. The replay booth is the mechanism: the play happened, now nine officials check it against the rulebook. Expect \"what if they say it's not allowed?\" Then the rule stops. That is the job."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Should the government be able to hold someone with no bond hearing while their immigration case runs? The administration says yes for anyone found here unlawfully; the Supreme Court will now decide. Second: the justices took this case for the term starting now. Why now?",
+      "why": "The rule and the timing. Both have more than one honest answer.",
+      "why_long": "A teenager can hold two true things at once: the government has a case for detention and a person has a case for a hearing, and the script asks for both first. Kuhn's point is that argument is practised, so the timing question is there to be argued. Expect \"what do you think?\" Say it, then ask what would change your mind."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Is that going to happen to us?",
+        "a": "No. This is about a rule for people who came without permission. The judges are checking it."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "What does no bond mean?",
+        "a": "Bond is money paid to wait at home for your case. No bond, you stay held."
+      },
+      {
+        "q": "When will the judges decide?",
+        "a": "The reports don't say. It's on the list for the term that is starting."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Who wins if the court says the rule is legal?",
+        "a": "The administration keeps holding people without bond. If not, the rule stops."
+      },
+      {
+        "q": "Why does the Supreme Court get to decide?",
+        "a": "It has the last word on what the law allows. Nine votes."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#MandatoryDetention",
+    "#DinnerTableNews"
+  ],
+  "photo": "data/images/2026-10-01-evening-alt.jpg",
+  "photo_credit": "Photo: Joe Ravi, Wikimedia Commons, CC BY-SA 3.0",
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 12,
+    "13-17": 15
+  },
+  "caption": "Held, with no way to go home while the case runs.\n\nThe Supreme Court announced Thursday it will decide whether President Trump's mandatory detention policy is legal. The administration argues it can hold people without bond if they are found to be in the country unlawfully. The case goes on the justices' docket for their upcoming term. The reports do not say when they will rule.\n\nSource: The Hill\nPhoto: Joe Ravi, Wikimedia Commons, CC BY-SA 3.0\n\nSwipe for what to say at age 6, at 12, and at 15.\n\nThe dinner table question: Is it fair to hold someone before a judge hears their case? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #MandatoryDetention #DinnerTableNews"
+}
