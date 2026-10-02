@@ -1,0 +1,76 @@
+{
+  "slot": "2026-10-02 07:00 CT",
+  "date": "2026-10-02",
+  "category": "Security",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/cwly7y5gvxlmo",
+  "source_domain": "bbc.com",
+  "headline": "An ICE agent shot Renee Good. Her family sues the US.",
+  "summary": "Renee Good's partner and brother announced two lawsuits on Thursday over her death. An ICE officer shot the 37-year-old mother of three in her car at a Minneapolis traffic stop on January 7. One suit says the government's sweep set up \"state-sponsored violence\". The other names the officer, Stephen Miller, Kristi Noem and Tom Homan.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "Can you sue the government?"
+  },
+  "cover_answer": "Yes. Renee Good's family just did, twice.",
+  "table_question": "If someone working for you hurts somebody, is it on you too?",
+  "ages": {
+    "5-7": {
+      "shield": true,
+      "script": "In January an officer in Minneapolis shot a mom named Renee, and she died. Her family thinks the people in charge let it happen, so they are asking a judge to look at it. A judge hears both sides and decides, the way a teacher does when a game goes wrong at recess. You are safe, and the grown-ups have it.",
+      "why": "Shielded. If it reaches them: one fact, one judge, and your face steady.",
+      "why_long": "Shielded: a mother shot in her car is a story a six-year-old can do nothing with, and they read your face before the words. Cantor's work says this age fears harm to a parent above all, so the script moves fast from the shooting to the judge and ends at home. Expect \"could that happen to you?\" No."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "On January 7 an ICE officer shot Renee Good in her car at a traffic stop in Minneapolis. The government said she tried to hurt agents; her family and witnesses say no. Now her partner and brother are suing the government and the officer's bosses. A lawsuit makes the other side show its work to a judge.",
+      "why": "Stop, shot, two accounts, suit. Then show your work.",
+      "why_long": "This age is working out cause and effect, so the script hands them the chain in order: stop, shot, two accounts, suit. Showing your work is the mechanism: a lawsuit makes the government lay out what happened before a judge. Expect \"did she really try to hurt them?\" The government said yes; her family says no."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Who's to blame, the agent or his bosses? Renee Good's family says both: one suit blames the Minneapolis sweep, the other names the officer, Stephen Miller, Kristi Noem and Tom Homan. Second: her mother told Congress she voted for Trump and wants accountability. Does that change how you hear it?",
+      "why": "Two suits, two theories of blame.",
+      "why_long": "A teenager can hold two true things: an officer pulled the trigger and the people who ran the sweep set the conditions, the way the two suits split it. Her mother's testimony is the second thing, a Trump voter asking for accountability; weighing the source is argument practised. Expect \"will they win?\" The reports don't say."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Did the police shoot her?",
+        "a": "An immigration officer did, in January. Her family is asking a judge to say who was wrong. You are safe."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why sue instead of calling the police?",
+        "a": "The shooter works for the government. A suit makes it answer in court."
+      },
+      {
+        "q": "What's a sweep?",
+        "a": "Hundreds of agents sent to Minneapolis to find immigrants."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Who's to blame, the agent or his bosses?",
+        "a": "The family says both: the government, and the officer and his bosses."
+      },
+      {
+        "q": "Can you sue the government?",
+        "a": "Yes. The Federal Tort Claims Act allows it for negligence."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#ReneeGood",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 12,
+    "13-17": 16
+  },
+  "caption": "Yes. Renee Good's family just did, twice.\n\nRenee Good's partner and brother announced two lawsuits on Thursday over her death. An ICE officer shot the 37-year-old mother of three in her car at a Minneapolis traffic stop on January 7. One suit says the government's sweep set up \"state-sponsored violence\". The other names the officer, Stephen Miller, Kristi Noem and Tom Homan.\n\nSource: BBC News\n\nSwipe for what to say at age 6, at 12, and at 16.\n\nThe dinner table question: If someone working for you hurts somebody, is it on you too? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #ReneeGood #DinnerTableNews"
+}
