@@ -1,0 +1,76 @@
+{
+  "slot": "2026-10-03 12:00 CT",
+  "date": "2026-10-03",
+  "category": "Government",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/cqvg04718lr9o",
+  "source_domain": "bbc.com",
+  "headline": "Hochul: Cornell accuser 'failed at every turn'",
+  "summary": "A woman says several men drugged and raped her at a Cornell fraternity house in 2024. No one was charged. On Friday Governor Kathy Hochul said she was failed \"at every turn\", handed the case to Attorney General Letitia James, and vowed to close a loophole that blocks rape charges when the victim drank or took drugs by choice.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Who was supposed to help her?"
+  },
+  "cover_answer": "The people whose job it was. The governor says they didn't.",
+  "table_question": "If the referee skips a step, who referees the referee?",
+  "ages": {
+    "5-7": {
+      "shield": true,
+      "script": "A woman says some men hurt her at a college in New York. The people whose job it was to look into it didn't do it properly, like a crossing guard who wasn't watching. So the governor picked a new one. The grown-ups have it.",
+      "why": "Shielded. If it reaches them: someone was hurt, the helper got swapped, your face steady.",
+      "why_long": "Shielded: a six-year-old can do nothing with a rape case, and takes one vivid feature for the whole event, so the script never names the act. The crossing guard who wasn't watching is the anchor: a helper who did not help, now replaced. Expect \"is she okay?\" She asked for help, and this time the grown-ups are listening."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "A woman says she was attacked at a Cornell party in 2024. The local prosecutor never interviewed her. No charges. Friday the governor gave the case to the attorney general and vowed to fix the law so being drunk can't cancel a rape charge. A rulebook gets its missing page.",
+      "why": "No interview, no charges, a new page.",
+      "why_long": "This age is checking whether adults apply the rules consistently, and here the rule had a gap: the script walks the chain from no interview to no charges to a new law. The rulebook page is the mechanism, written down so no checker can skip it. Expect \"why didn't they ask her?\" The DA says much of it never reached him."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "If someone is too drunk to say yes, does it matter how they got drunk? A New York loophole says it does: no rape charge if the victim drank by choice. Hochul vowed Friday to close it. Second: the DA says much of the evidence never reached him. Who checks him?",
+      "why": "Consent first, then who checks the checker.",
+      "why_long": "A teenager can hold two true things at once: the law treats a drugged victim differently from a drunk one, and the prosecutor says the evidence never reached him. The script leads with consent because it is theirs to reason about, then asks whether the system checks itself. Expect \"are the men guilty?\" Nobody is charged yet."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Who was supposed to help her?",
+        "a": "The people whose job it is to check what happened. The governor says they didn't, so she picked someone new."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "What's a loophole?",
+        "a": "A gap in a rule. Here, if the victim drank on purpose, no rape charge."
+      },
+      {
+        "q": "Did the first prosecutor get fired?",
+        "a": "No. She took this one case from him. He says the evidence never reached him."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why does it matter whether she drank on purpose?",
+        "a": "Under the loophole, it decides whether a rape charge is possible."
+      },
+      {
+        "q": "Does this mean the men are guilty?",
+        "a": "No. Nobody is charged. Witnesses get interviewed first."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#Cornell",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 8,
+    "13-17": 13
+  },
+  "caption": "The people whose job it was. The governor says they didn't.\n\nA woman says several men drugged and raped her at a Cornell fraternity house in 2024. No one was charged. On Friday Governor Kathy Hochul said she was failed \"at every turn\", handed the case to Attorney General Letitia James, and vowed to close a loophole that blocks rape charges when the victim drank or took drugs by choice.\n\nSource: BBC News\n\nSwipe for what to say at age 7, at 8, and at 13.\n\nThe dinner table question: If the referee skips a step, who referees the referee? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #Cornell #DinnerTableNews"
+}
