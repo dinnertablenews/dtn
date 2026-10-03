@@ -1,0 +1,79 @@
+{
+  "slot": "2026-10-03 07:00 CT",
+  "date": "2026-10-03",
+  "category": "Economy",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/ck87zg8jnwngo",
+  "source_domain": "bbc.com",
+  "headline": "The G7 opens its oil reserves. 100 million barrels.",
+  "summary": "Diesel prices have soared since the US and Israel invaded Iran and the Strait of Hormuz closed. Trump threatened to stop US diesel exports unless Europe released its stocks. On Friday the G7 agreed to release 100 million barrels of oil and diesel over four months, with no export bans on each other. Trump said a ban was never on the table.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "Did Trump's threat actually work?"
+  },
+  "cover_answer": "Europe opened its stocks. He says it was never a threat.",
+  "table_question": "Is it fair to make a friend share by threatening to stop sharing?",
+  "photo_subject": "Emmanuel Macron",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "Diesel is the fuel that trucks and tractors drink, and right now there isn't enough of it, so it costs a lot. Seven big countries agreed to open their emergency supplies, like opening the big jar you keep for when the little jar runs out. The trucks keep running. The grown-ups have it.",
+      "why": "Trucks, a jar, enough. The war and the election can wait.",
+      "why_long": "A six-year-old takes one vivid feature for the whole event, so the script picks the truck that drinks diesel and the big jar kept for when the little jar runs out. Nothing about Iran or elections. The jar is the anchor and the word enough is the point. Expect \"will our car run out?\" No. Prices went up; the pumps did not go dry."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "A war near Iran blocked oil ships, so diesel got scarce and dear. The US makes more than it uses and sells the rest. Trump threatened to keep it home unless Europe opened its emergency stocks; on Friday the G7 agreed to release 100 million barrels. The spare-pencil drawer, opened.",
+      "why": "Scarce, threat, deal. A drawer they know.",
+      "why_long": "This age is working out chains of cause and effect, so the script gives them one: ships blocked, fuel scarce, a threat, a deal. The spare-pencil drawer is the mechanism: the stock exists for this day. Expect \"why would he take it from friends?\" Because the people who vote for him buy it here, and a shortage abroad is not their problem."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Did Trump's threat actually work? He said he'd ban US diesel exports unless Europe opened its stocks. Europe did, and then he said a ban was never really on the table. Second: Brent crude was $73 a barrel before the Iran war and $102 on Friday. Who is paying for this war?",
+      "why": "Threat, then \"never on the table.\" Let them judge it.",
+      "why_long": "A teenager can hold two true things at once: the threat moved Europe, and the man who made it says it was never real. The script hands them both, then the $73 to $102 barrel, the war's bill landing on people who did not choose it. Expect \"is this why gas is so expensive?\" Mostly. The strait that carries a fifth of the world's oil is shut."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Why isn't there enough diesel?",
+        "a": "A war far away blocked the ships that carry it. The countries that have some saved up are sharing it now."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why would Trump stop selling diesel?",
+        "a": "To keep more in the US, so pump prices fall before the election."
+      },
+      {
+        "q": "What is a reserve?",
+        "a": "Fuel a country stores for emergencies. The G7 will open theirs."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Did Trump's threat actually work?",
+        "a": "Europe opened its stocks. Then Trump said a ban was never really on the table."
+      },
+      {
+        "q": "Why is diesel the fuel that matters?",
+        "a": "Trucks and farms run on it, so it feeds into food prices."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#G7",
+    "#DinnerTableNews"
+  ],
+  "photo": "data/images/2026-10-03-morning-alt.jpg",
+  "photo_credit": "Photo: Nebojša Tejić, Wikimedia Commons, Public domain",
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 12,
+    "13-17": 17
+  },
+  "caption": "Europe opened its stocks. He says it was never a threat.\n\nDiesel prices have soared since the US and Israel invaded Iran and the Strait of Hormuz closed. Trump threatened to stop US diesel exports unless Europe released its stocks. On Friday the G7 agreed to release 100 million barrels of oil and diesel over four months, with no export bans on each other. Trump said a ban was never on the table.\n\nSource: BBC News\nPhoto: Nebojša Tejić, Wikimedia Commons, Public domain\n\nSwipe for what to say at age 7, at 12, and at 17.\n\nThe dinner table question: Is it fair to make a friend share by threatening to stop sharing? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #G7 #DinnerTableNews"
+}
