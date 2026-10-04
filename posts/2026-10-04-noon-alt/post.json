@@ -1,0 +1,76 @@
+{
+  "slot": "2026-10-04 12:00 CT",
+  "date": "2026-10-04",
+  "category": "World",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/c6wyz0r2n0djo",
+  "source_domain": "bbc.com",
+  "headline": "Brazil votes today. The Bolsonaro is the son.",
+  "summary": "Brazilians began voting Sunday. Lula, 80, wants a fourth term. Flávio Bolsonaro, 45, is a senator whose father Jair is serving 27 years for plotting a coup after losing to Lula in 2022. Polls put both near 40%. If nobody passes 50%, a run-off follows on October 25. Voting is compulsory from 18 to 70; 160 million can vote.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Do you have to vote in Brazil?"
+  },
+  "cover_answer": "Yes, from 18 to 70, or you pay a fine.",
+  "table_question": "Should everyone be made to vote, with a fine for skipping it?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "Today grown-ups all over Brazil are choosing their president. There, voting is a rule like going to school: from 18 to 70 you have to, or you pay a fine. Almost 160 million people can vote, a line longer than any you have ever stood in. They count every one, and if nobody wins more than half, they vote again in three weeks.",
+      "why": "A rule they live under, going to school, explains a rule they have never heard of.",
+      "why_long": "A six-year-old reasons from rules they already live under, so the script makes voting a rule like school, with a fine for skipping, and leaves the coup and the prison out. The first word they get is a rule, not a side. Expect \"who do we want to win?\" Say Brazilians pick, and we find out tonight or in three weeks."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Four years ago Lula beat Jair Bolsonaro by 1.8 points. His supporters stormed Congress, a court convicted him of plotting a coup, and he is serving 27 years, barred from running. So his son Flávio is on the ballot. It's a two-round tournament: if nobody wins half today, the top two play again on October 25.",
+      "why": "Four links from a close election to a son on the ballot, and a bracket.",
+      "why_long": "This age checks whether rules get applied, so the script runs the chain: a close loss, a stormed Congress, a conviction, a ban, a son. The run-off is a final they know from any tournament. Expect \"is it fair that his son can run?\" Say the ban is on the father, the rules let the son stand, and ask if a name should count."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Should a convicted coup plotter's son run on his father's name? Flávio Bolsonaro opened his campaign with an AI avatar of his jailed father. Lula vowed his third term would be his last; he is running anyway. Second: Lula says Brazil is in nobody's backyard. Whose business is this election?",
+      "why": "Two men bending their own rules, and whose business an election is.",
+      "why_long": "A teenager can hold two true things at once: the father is a convicted coup plotter and the son has broken no rule by running. The script adds Lula breaking a vow to retire, so neither side gets the clean half. The backyard line is the drill: whose business is this? Expect \"who would you vote for?\" Answer, and say why."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Do you have to vote in Brazil?",
+        "a": "Yes, if you are 18 to 70 and can read. Skip it and you pay a fine. At 16 you can vote if you want to."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why can't his dad run?",
+        "a": "He was convicted of plotting a coup after losing in 2022. 27 years."
+      },
+      {
+        "q": "What if nobody wins today?",
+        "a": "The top two run again on October 25. Both poll near 40%."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Is the AI video of his dad legal?",
+        "a": "The Supreme Court asked. His lawyers say Jair never signed off."
+      },
+      {
+        "q": "Why does Trump care who wins?",
+        "a": "Some in his team want the right-winger to win, the BBC says."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#BrazilElection",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 12,
+    "13-17": 17
+  },
+  "caption": "Yes, from 18 to 70, or you pay a fine.\n\nBrazilians began voting Sunday. Lula, 80, wants a fourth term. Flávio Bolsonaro, 45, is a senator whose father Jair is serving 27 years for plotting a coup after losing to Lula in 2022. Polls put both near 40%. If nobody passes 50%, a run-off follows on October 25. Voting is compulsory from 18 to 70; 160 million can vote.\n\nSource: BBC News\n\nSwipe for what to say at age 7, at 12, and at 17.\n\nThe dinner table question: Should everyone be made to vote, with a fine for skipping it? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #BrazilElection #DinnerTableNews"
+}
