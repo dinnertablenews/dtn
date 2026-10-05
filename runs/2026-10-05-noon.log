@@ -1,0 +1,15 @@
+2026-10-05 11:15 CT  slot: noon  slug: 2026-10-05-noon
+Run stopped before any post was built. Nothing was dispatched and nothing publishes.
+
+What happened:
+- Setup ran clean: clone at e674006 (main), config read (dry_run false, window 10 min), deps installed, ffmpeg present.
+- `python target.py noon` was refused by the session's permission layer, twice. No target was drawn.
+- `python rank.py data/headlines.json 30` was refused the same way, twice. No candidates were read.
+- Both refusals came from the Claude Code auto-mode classifier, not from the scripts; neither script ran at all.
+- Per TASK.md section 0 (a step fails after two tries): write this log, push, stop.
+
+What did not happen:
+- No story was picked, no post.json written, no render, no reel, no data/log.json entry.
+- publish.yml was not dispatched. The noon slot has no post unless Dan runs it by hand.
+
+To recover: re-run the noon task, or start a session with permissions that allow the repo's own scripts to run.
