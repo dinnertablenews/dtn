@@ -1436,5 +1436,27 @@
   "publish_run": 37216444355,
   "published": "https://www.instagram.com/p/DeFHDsdHBHG/",
   "published_at": "2026-10-04T16:54:31+0000"
+ },
+ {
+  "slug": "2026-10-04-evening",
+  "date": "2026-10-04",
+  "slot": "evening",
+  "category": "World",
+  "headline": "Bosnia picks three presidents. The banned man's party won.",
+  "cluster_headline": "Serb separatist Dodik declares victory in Bosnia vote as ethnic tensions and EU hopes collide",
+  "outlet": "PBS NewsHour",
+  "photo": true,
+  "photo_subject": "Milorad Dodik",
+  "cover_band": "8-12",
+  "publish_target": "2026-10-04T19:54-05:00",
+  "chosen": "primary",
+  "alternate": {
+   "folder": "posts/2026-10-04-evening-alt",
+   "category": "Economy",
+   "headline": "Oil is over $100. Seven countries won't pump more.",
+   "photo": false,
+   "photo_subject": "OPEC"
+  },
+  "note": "Run fired at 19:11 CT for the 20:00 evening slot; target drawn once at 19:54 CT. Rule 3 count: the last Good news entry is 2026-10-03-morning (Tom Kim) and four stories have run since (2026-10-03-noon, 2026-10-03-evening, 2026-10-04-morning, 2026-10-04-noon), so this slot is the positive one. Nothing in the top 15 qualifies: a failed execution, the Cornell case twice, bombers leaving Fairford, OPEC+, an AI task force, an Ohio rally, two elections, a missing air ambulance, Yemen, a murder on Okinawa. Taken by rule 5 and labelled by its real category; the count carries at 4 and the next slot tries again. Rule 1 skips #1 (Christa Pike, the 2026-10-01-morning story with the headline moved on), #2 and #6 (Cornell, 2026-10-03-noon), #3 (the bombers pulled from RAF Fairford follow the suspected plot at the base that ran 2026-09-27-noon, the edge of the window) and #10 (Cotton's number, this morning). Rule 2 skips #5 (Trump names Jay Clayton) and #7 (Trump's Ohio data-center rally): both Trump-led after this morning's Cotton post, and neither leads by two outlets, all at 3. #8 and #12, Brazil's election day, were today's noon alternate and stay fair game, but polls closed at 20:00Z with a count expected within hours and the articles carry no result; a neck-and-neck post at 00:54Z would publish stale, so skipped. Rule 5: the highest remaining is #4 (OPEC+, 3 outlets), and #9, #11, #13, #14 and #15 at 2 outlets are within one of it, so the diversity tie-break applies. Last 7 days: Good news 4, Government 4, Technology 3, Science 3, Economy 3, Security 2, Culture 1, Sports 1, World 1, Climate 1, Health 0. #13 (AP via PBS NewsHour; 2 outlets), Bosnia's election, is World at 1 and beats OPEC+ at Economy 3; #9, the missing air ambulance, is a domestic search filed under Nation with no result yet. Lead subject Milorad Dodik; today's were Trump and Cotton, then the Pacific. Written from the PBS NewsHour (AP, Eldar Emric) text: the three-member presidency, the 1995 US-brokered deal, Dodik banned after last year's conviction for defying the international envoy, off the ballot for the first time in nearly 30 years, Cvijanovic above 55% and about 30 points clear with nearly 90% counted, Dodik crediting Trump's 2024 win and Putin, the Russian ambassador at the Banja Luka rally, 1,432,269 votes and 42% turnout down around 8% on 2022. The three captains and the three referees are ours; the war's death toll and Mladic stay off every card. Not shielded: an election is counting. Rule 8 for the alternate: rule 3 made this the positive slot, so the alternate is the highest remaining cluster of any other category, #4 OPEC+ (The Hill, PBS NewsHour, AP News; 3 outlets), Economy, lead subject the seven producers. Written from the PBS NewsHour (AP) text, the only item with text: the seven countries named, steady in November, Brent above $100, the war since Feb. 28, the G7's 100 million barrels, diesel first within 20 days and the rest over four months, record US diesel, the Nov. 1 meeting. The juice box and the thermostat are ours. Photos: the last two entries were one with and one without, so photos allowed. Primary: Milorad Dodik via commons.yml, Milorad_Dodik_2026_(cropped).jpg, a single photograph, CC BY 4.0, Office of the President of Russia. Alternate: OPEC via commons.yml returned only the 500x300 flag SVG, too small, so no photo. Cover band 8-12 (the last entry with a cover_band was 5-7); render drew 7, 10 and 15 for the primary and 7, 8 and 17 for the alternate. Both renders exit 0 after cutting the 8-12 and 13-17 scripts, why lines and Try answers; the alternate's cover question was cut from three lines to two. Reel built for the primary, exit 0, 13.1s."
  }
 ]
