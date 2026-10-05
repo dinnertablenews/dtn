@@ -1,0 +1,79 @@
+{
+  "slot": "2026-10-05 07:00 CT",
+  "date": "2026-10-05",
+  "category": "Good news",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/c5ev3ypmzly8o",
+  "source_domain": "bbc.com",
+  "headline": "A Nobel for showing how nerve cells shape feelings",
+  "summary": "Karl Deisseroth, a US psychiatrist and neurologist, and German colleagues Peter Hegemann and Georg Nagel won the Nobel Prize in Physiology or Medicine this morning for optogenetics. The committee said their work revealed the brain circuits behind specific memories, feelings and behaviours. Researchers are using it to try to restore sight.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "Can this really cure blindness?"
+  },
+  "cover_answer": "Not yet. Researchers are using it to try to restore sight.",
+  "table_question": "If you could find the switch for one feeling, would you flip it?",
+  "photo_subject": "Karl Deisseroth",
+  "ages": {
+    "5-7": {
+      "chip": "Good one to bring up",
+      "script": "Three scientists won a famous prize this morning, the Nobel Prize. One is American and two are German. They found a way to show which tiny cells in your brain are working when you feel something, like finding which switch runs which light in a huge building. Doctors are now trying it to help people who can't see.",
+      "why": "A switch panel is a thing they have seen. The rest is a prize and people getting help.",
+      "why_long": "A six-year-old reasons from what is in front of them, so the script skips the word optogenetics and hands them a switch panel, an object they know. The words come from the adult, as Vygotsky said, and \"cells that work when you feel something\" is far enough. Expect \"can they see what I'm thinking?\" No. It shows which cells are busy."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Karl Deisseroth, Peter Hegemann and Georg Nagel won the Nobel Prize in medicine for optogenetics. Their method revealed which brain circuits sit behind a memory or a feeling. A fuse box with every switch labelled: find the one that runs the kitchen, and you can work on the kitchen.",
+      "why": "A labelled fuse box: find the circuit, then work on it.",
+      "why_long": "This age is working out cause and effect, so the script turns the prize into a chain: a method, the circuit it finds, the thing you can then work on. The labelled fuse box is the mechanism, and restoring sight is the last link, already being tried. Expect \"does it work on people yet?\" It is being tried on people who can't see. Say try."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Can this really cure blindness? Not yet, but researchers are trying it to restore sight, and the three scientists behind the method won the Nobel Prize in medicine today for revealing the circuits behind memories and feelings. Second: if a lab can find the circuit behind a feeling, who gets to touch it?",
+      "why": "The first question has an answer. The second is theirs to argue.",
+      "why_long": "A teenager can reason about what is not yet real, so the script moves from the prize to the question it opens: find the circuit behind a feeling, and who gets to touch it? Kuhn: argument is practised against someone who argues back, so argue back. Expect \"would you let them switch off my anxiety?\" Say what you would decide, and why."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Can they see what I'm thinking?",
+        "a": "No. They showed which brain cells are busy behind a feeling. Nobody is reading minds."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "What did they actually win it for?",
+        "a": "A method that shows which brain circuits sit behind a feeling."
+      },
+      {
+        "q": "Does it work on people yet?",
+        "a": "Researchers are using it to try to restore sight. Try is the word."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Can this really cure blindness?",
+        "a": "Not yet. Researchers are using the method to try to restore sight."
+      },
+      {
+        "q": "Could they change how someone feels?",
+        "a": "The prize is for finding the circuits. What comes next is the argument."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#NobelPrize",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 10,
+    "13-17": 17
+  },
+  "photo": "data/images/2026-10-05-morning.jpg",
+  "photo_credit": "Photo: Cmichel67, Wikimedia Commons, CC BY-SA 4.0",
+  "caption": "Not yet. Researchers are using it to try to restore sight.\n\nKarl Deisseroth, a US psychiatrist and neurologist, and German colleagues Peter Hegemann and Georg Nagel won the Nobel Prize in Physiology or Medicine this morning for optogenetics. The committee said their work revealed the brain circuits behind specific memories, feelings and behaviours. Researchers are using it to try to restore sight.\n\nSource: BBC News\nPhoto: Cmichel67, Wikimedia Commons, CC BY-SA 4.0\n\nSwipe for what to say at age 7, at 10, and at 17.\n\nThe dinner table question: If you could find the switch for one feeling, would you flip it? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #NobelPrize #DinnerTableNews"
+}

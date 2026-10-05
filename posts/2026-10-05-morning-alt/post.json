@@ -1,0 +1,79 @@
+{
+  "slot": "2026-10-05 07:00 CT",
+  "date": "2026-10-05",
+  "category": "Security",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/world/ap-report-u-s-air-force-removes-all-bombers-from-british-air-base-targeted-by-a-suspected-terror-attack",
+  "source_domain": "pbs.org/newshour",
+  "headline": "Every US bomber has left RAF Fairford. No reason given.",
+  "summary": "The US Air Force has flown all its bombers home from RAF Fairford, the base in Gloucestershire where police stopped three suspicious vehicles on September 27. Six men were arrested and released on bail. Britain links the incident to Iran, which denies it. Dozens of B-52s and B-1s had flown from the base since the Iran war began.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "Did the plotters just win?"
+  },
+  "cover_answer": "Nobody has said why the planes left. Six men are on bail.",
+  "table_question": "Someone keeps aiming at your spot. Do you move, or hold it?",
+  "photo_subject": "RAF Fairford",
+  "ages": {
+    "5-7": {
+      "shield": true,
+      "script": "In England, police stopped three vans near an air base last week. Now the big American planes that lived there have flown home, all the way across the ocean. Nobody has said why. The police are still working on it, and the grown-ups have it.",
+      "why": "Planes flying home is a picture they can hold. The script names no bomb or plot.",
+      "why_long": "A six-year-old takes one vivid feature for the whole event, so the script gives them the planes flying home across the ocean and leaves out the plot. Cantor says the concrete threat is what frightens at this age, so there is no bomb on the card. Expect \"could the planes come to our house?\" No. They went back to their own bases."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "Police in England stopped three vans near RAF Fairford last week and arrested six men. Britain blames Iran; Iran says no. On Sunday the US flew every bomber there, planes that had been striking Iran, home. No reason given. Like moving the goal when someone keeps aiming at it.",
+      "why": "Plot stopped, planes leave. The goal moved.",
+      "why_long": "This age is working out chains of cause and effect, so the script runs one in order: vans stopped, men arrested, bombers gone, no reason given. The moved goal is a thing that happens on their own pitch. Expect \"so did the bad guys win?\" Nobody has said why the planes left, and more ships are heading toward Iran."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Did the plotters just win? Six men were arrested and bailed, Britain blames Iran, and eight days later the US flew every bomber home without a reason. Second: Trump says Iran is decimated, easy way or hard way, and two more warship groups sail for the region. Retreat, or moving the pieces?",
+      "why": "Two true things: the planes left, the force grows elsewhere.",
+      "why_long": "A teenager can hold two true things at once: the bombers left the base that was targeted, and the US is sending more ships to the same war. The script hands them both and asks which is the story. Expect \"why won't they say why?\" Militaries rarely explain a move while a war is on. Say so, and ask what they would guess."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Why did the planes go home?",
+        "a": "Nobody has said. The police are still looking into the people in the vans."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Did they catch the people?",
+        "a": "Six men were arrested and bailed. Police are still investigating."
+      },
+      {
+        "q": "Is the war over then?",
+        "a": "No. Trump is weighing new strikes, and more ships are heading over."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Did the plotters just win?",
+        "a": "Nobody has said why. Two more warship groups are heading the other way."
+      },
+      {
+        "q": "Why would Iran go after a base in England?",
+        "a": "Bombers there had been striking Iran since the war began. Iran denies it."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#RAFFairford",
+    "#DinnerTableNews"
+  ],
+  "photo": "data/images/2026-10-05-morning-alt.jpg",
+  "photo_credit": "Photo: Steve Lynes from Sandshurst, United Kingdom, Wikimedia Commons, CC BY 2.0",
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 9,
+    "13-17": 17
+  },
+  "caption": "Nobody has said why the planes left. Six men are on bail.\n\nThe US Air Force has flown all its bombers home from RAF Fairford, the base in Gloucestershire where police stopped three suspicious vehicles on September 27. Six men were arrested and released on bail. Britain links the incident to Iran, which denies it. Dozens of B-52s and B-1s had flown from the base since the Iran war began.\n\nSource: PBS NewsHour\nPhoto: Steve Lynes from Sandshurst, United Kingdom, Wikimedia Commons, CC BY 2.0\n\nSwipe for what to say at age 7, at 9, and at 17.\n\nThe dinner table question: Someone keeps aiming at your spot. Do you move, or hold it? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #RAFFairford #DinnerTableNews"
+}
