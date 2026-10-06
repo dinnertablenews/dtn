@@ -1,0 +1,76 @@
+{
+  "slot": "2026-10-05 20:00 CT",
+  "date": "2026-10-05",
+  "category": "Health",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/world/what-to-know-about-a-russian-lab-workers-death-and-speculation-about-pneumonic-plague",
+  "source_domain": "pbs.org/newshour",
+  "headline": "A plague lab death in Siberia. Russia says pneumonia.",
+  "summary": "A technician at the Irkutsk Anti-Plague Institute, about 3,000 miles east of Moscow, fell ill and died. Russia's health agency says pneumonia of unknown cause and no plague bacteria in her samples. A local outlet says she broke a test tube. 189 contacts are in hospital. Rubio calls it \"cause for focus.\"",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Is the plague coming here?"
+  },
+  "cover_answer": "No. One woman died in Siberia. Nobody else is sick.",
+  "table_question": "Someone says \"nothing to see here.\" When do you believe them?",
+  "ages": {
+    "5-7": {
+      "shield": true,
+      "script": "A scientist in Russia who studied germs got very sick and died. She worked in a lab so far away a plane would take all day to get there. Doctors are checking everyone she was near, and so far nobody else is sick. The grown-ups have it.",
+      "why": "Plague is a scary word. The script never says it, and the plane ride puts the lab far away.",
+      "why_long": "A five-year-old takes one vivid feature, and Cantor says a named disease that can reach them is what frightens at this age. So the script drops the word plague, puts the lab a day's flight away and ends on the checking. Expect \"can I catch it?\" No. Nobody else is sick, and it is a world away."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "A lab worker in Siberia who studied plague got sick and died. Russia says pneumonia, cause unknown. A local reporter says she broke a test tube. Doctors put 189 people she met in hospital to watch them, a smoke alarm before any fire. Nobody else is sick.",
+      "why": "A chain they can follow, and a smoke alarm for the quarantine.",
+      "why_long": "This age is working out cause and effect and whether adults tell the truth, so the script runs the chain: a lab, a death, two accounts, 189 people watched. The smoke alarm says why a quarantine is not a sign anyone else is ill. Expect \"so which story is true?\" Nobody outside Russia knows yet."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Why does the US care about one death in Siberia? A plague-lab technician died, Russia says pneumonia, a local outlet says a broken test tube, and 189 contacts are in hospital. Second: Russia deleted its own warnings. Does that make it more likely, or just less known?",
+      "why": "The official account, and the deleted posts.",
+      "why_long": "A teenager can hold two true things: Russia's account, a death from pneumonia, and the posts deleted after it. The script hands them both and asks what deletion proves: less than it feels. Expect \"is this how COVID started?\" Nobody knows. Plague is treatable with antibiotics when caught early."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Is the plague coming here?",
+        "a": "No. One woman died, very far away. The doctors checked everyone near her and nobody else is sick."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "What is pneumonic plague?",
+        "a": "A germ that gets into the lungs. It is serious, and antibiotics treat it if doctors catch it early."
+      },
+      {
+        "q": "Why are 189 people in hospital if nobody is sick?",
+        "a": "To watch them. If one gets sick, the doctors are already there. So far none has."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why does the US care about one death in Siberia?",
+        "a": "Plague spreads, and Russia's accounts differ. Rubio calls it cause for focus."
+      },
+      {
+        "q": "Is Russia hiding something?",
+        "a": "A state channel pulled five articles. A town warning vanished. What it means is open."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#Irkutsk",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 9,
+    "13-17": 17
+  },
+  "caption": "No. One woman died in Siberia. Nobody else is sick.\n\nA technician at the Irkutsk Anti-Plague Institute, about 3,000 miles east of Moscow, fell ill and died. Russia's health agency says pneumonia of unknown cause and no plague bacteria in her samples. A local outlet says she broke a test tube. 189 contacts are in hospital. Rubio calls it \"cause for focus.\"\n\nSource: PBS NewsHour\n\nSwipe for what to say at age 7, at 9, and at 17.\n\nThe dinner table question: Someone says \"nothing to see here.\" When do you believe them? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #Irkutsk #DinnerTableNews"
+}
