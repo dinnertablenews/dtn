@@ -1,0 +1,80 @@
+{
+  "slot": "2026-10-06 07:00 CT",
+  "date": "2026-10-06",
+  "category": "World",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/cw8rzd6lp0xpo",
+  "source_domain": "bbc.com",
+  "headline": "Yemen says it retook the strait. Houthis say no.",
+  "summary": "Saudi-backed Yemeni forces say they have secured the Bab al-Mandab Strait, where 12% of world trade passes, in a new offensive against the Houthis. They say they hold Dhubab's airport and have cut the road to Mokha. Houthi media deny it. Saudi jets hit 300 targets. Yemen's health ministry counts 959 dead since 6 August.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "Why fight over a strait?"
+  },
+  "cover_answer": "Ships. 12% of world trade squeezes through it.",
+  "table_question": "Who gets to say every chance for peace has been used up?",
+  "photo_subject": "Bab-el-Mandeb",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": true,
+      "script": "Far away in a country called Yemen, two sides are fighting over a narrow strip of sea where big ships pass, like a doorway everyone has to walk through. Soldiers are doing the fighting. It is very far from here, and you are safe.",
+      "why": "A doorway is the whole map a six-year-old needs. Nothing about the dead: they take one vivid detail for the whole event.",
+      "why_long": "A six-year-old takes one vivid feature for the whole event, so the script hands them a doorway in the sea and nothing else: no missiles, no count of the dead. Shielded, because a war they have never heard of is not for breakfast. If they hear it elsewhere, expect \"will the ships come here?\" No. The fighting stays there."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "A four-year ceasefire in Yemen broke in July. Last month the Houthis took the coast beside the Bab al-Mandab Strait, where 12% of world trade passes. On Monday the government said it took the town above the strait back. Whoever holds the hallway door decides who gets through.",
+      "why": "A chain with dates, and a door they can picture.",
+      "why_long": "This age is working out chains of cause and effect, so the script gives them dates: a ceasefire broken in July, a coast taken in September, a town retaken in October. The hallway door is the mechanism: they know who holds a door decides who gets through. Expect \"who's the good side?\" Both say the other started it."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Does holding a strait make you a government? The Houthis took Yemen's capital 12 years ago and its Red Sea coast last month. Saudi-backed forces are now taking it back. Second: Yemen's president says every chance for peace is used up. Who decides that?",
+      "why": "Two questions a teenager can argue either way. They are testing whether you will argue honestly.",
+      "why_long": "A teenager can reason about what is not in front of them, so the script asks whether holding ground makes you a government, as the Houthis have claimed for 12 years, then who gets to declare peace exhausted. Each has honest answers on both sides. Expect \"why is the US in it?\" The AP says intelligence and targets."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Why are they fighting?",
+        "a": "Both sides want to run the country. The grown-ups in charge of ships know how to stay out of the way."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why fight over a strait?",
+        "a": "12% of world trade sails through it. Hold the shore, you threaten the ships."
+      },
+      {
+        "q": "Who are the Houthis?",
+        "a": "Rebels holding Yemen's capital. Iran backs them, Saudi Arabia the government."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Does holding a strait make you a government?",
+        "a": "The Houthis have run Sanaa for 12 years. The UN backs the other side."
+      },
+      {
+        "q": "Why is the US in this?",
+        "a": "Officials told the AP it shared intelligence and helped plan."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#BabElMandeb",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 12,
+    "13-17": 17
+  },
+  "photo": "data/images/2026-10-06-morning-alt.jpg",
+  "photo_credit": "Photo: NASA, Wikimedia Commons, Public domain",
+  "caption": "Ships. 12% of world trade squeezes through it.\n\nSaudi-backed Yemeni forces say they have secured the Bab al-Mandab Strait, where 12% of world trade passes, in a new offensive against the Houthis. They say they hold Dhubab's airport and have cut the road to Mokha. Houthi media deny it. Saudi jets hit 300 targets. Yemen's health ministry counts 959 dead since 6 August.\n\nSource: BBC News\nPhoto: NASA, Wikimedia Commons, Public domain\n\nSwipe for what to say at age 7, at 12, and at 17.\n\nThe dinner table question: Who gets to say every chance for peace has been used up? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #BabElMandeb #DinnerTableNews"
+}
