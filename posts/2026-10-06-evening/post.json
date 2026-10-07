@@ -1,0 +1,77 @@
+{
+  "slot": "2026-10-06 20:00 CT",
+  "date": "2026-10-06",
+  "category": "World",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/world/french-police-fire-tear-gas-as-more-than-250000-protest-nationwide-for-school-funding",
+  "source_domain": "pbs.org/newshour",
+  "headline": "891 French schools shut. 256,000 marched.",
+  "summary": "French high schoolers have boycotted class for two weeks over rundown schools: no desks, no chairs, rats. On Tuesday 256,000 people marched with them, the Interior Ministry says, and police fired tear gas in Paris. Classes stopped at 891 schools. Arrests pass 6,100, mostly minors. A 15-year-old lost a hand to a police stun grenade.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Why did French kids skip school?"
+  },
+  "cover_answer": "Their schools are falling apart. They want them fixed.",
+  "table_question": "Your school is falling apart. Is skipping class a fair way to say so?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": true,
+      "script": "Big kids in France stopped going to school and marched in the streets, because their classrooms have no chairs and leaking ceilings and they want them fixed. Police used a stinging smoke to push the crowds back, and some kids got hurt. It is far away, across an ocean, and the grown-ups there met tonight to sort it out.",
+      "why": "Shielded: tear gas on teenagers is not a story to hand a six-year-old. If it reaches them, the script gives the why and the distance.",
+      "why_long": "Cantor's work on fright says a young child takes one vivid feature for the whole event, here police gassing kids, so a parent does not raise it. If it arrives, the script leads with the reason, broken classrooms, which a six-year-old can picture, and puts an ocean between them and it. Expect \"did the kids get in trouble?\" Some did."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "Students at one high school near Paris walked out in mid-September over rundown classrooms. By Tuesday it was 256,000 people in the streets, 891 schools shut, and tear gas in Paris and Marseille. Over 6,100 arrests, mostly minors. A fire alarm: one school pulled it, the whole country heard.",
+      "why": "One walkout became a national movement. A fire alarm does that.",
+      "why_long": "This age is working out chains of cause and effect, and this one runs clean: one school walks out, more join, the government shuts schools to cool it, and the crowds grow. The fire alarm is the mechanism, one pull and every room empties. They weigh fairness too, so the boy's hand will land hard. Expect \"did it work?\" Not yet."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Is it fair to arrest a 15-year-old for blocking his own school? France has made over 6,100 arrests since the walkouts began, mostly of minors, and one boy lost a hand when a police grenade went off. Second: 715 officers are hurt too. Who says which side went too far?",
+      "why": "Two injury counts and no referee. Let them argue it.",
+      "why_long": "A teenager can hold two true things at once: these schools have been falling apart since September, and the police count 715 injured officers. Kuhn treats argument as a skill you practise, so the script hands them both tallies and asks who went too far. Expect \"would you let me go?\" Paris parents stood between the sides Tuesday."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Why did French kids skip school?",
+        "a": "Their schools are falling apart: no desks, leaking roofs. They want them fixed."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why did the police use tear gas on students?",
+        "a": "To break up crowds. The minister calls it fair in almost all cases."
+      },
+      {
+        "q": "Could our school do that?",
+        "a": "Walk out, maybe. These did, and the government is listening now."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Is it fair to arrest a 15-year-old for blocking his own school?",
+        "a": "6,100 arrests so far, mostly minors. The PM promises inquiries."
+      },
+      {
+        "q": "Who's winning?",
+        "a": "Nobody yet. A complaints website so far. More marches Thursday."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#FranceProtests",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 11,
+    "13-17": 16
+  },
+  "caption": "Their schools are falling apart. They want them fixed.\n\nFrench high schoolers have boycotted class for two weeks over rundown schools: no desks, no chairs, rats. On Tuesday 256,000 people marched with them, the Interior Ministry says, and police fired tear gas in Paris. Classes stopped at 891 schools. Arrests pass 6,100, mostly minors. A 15-year-old lost a hand to a police stun grenade.\n\nSource: PBS NewsHour\n\nSwipe for what to say at age 6, at 11, and at 16.\n\nThe dinner table question: Your school is falling apart. Is skipping class a fair way to say so? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #FranceProtests #DinnerTableNews"
+}

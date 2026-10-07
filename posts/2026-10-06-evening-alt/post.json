@@ -1,0 +1,76 @@
+{
+  "slot": "2026-10-06 20:00 CT",
+  "date": "2026-10-06",
+  "category": "Science",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/cq203mymlvkeo",
+  "source_domain": "bbc.com",
+  "headline": "A physics Nobel for catching ghost particles in ice",
+  "summary": "Francis Halzen won the Nobel Prize in Physics on Tuesday for IceCube, a detector built into a cubic kilometre of Antarctic ice. It catches neutrinos, particles that pass through the Earth and your body unnoticed. Billions cross your fingernail every second. He first pitched it in 1988. \"A new way of looking at the universe,\" he said.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Can a ghost particle go through me?"
+  },
+  "cover_answer": "Yes. Billions a second, and you never feel a thing.",
+  "table_question": "Would you spend 38 years building something that might find nothing?",
+  "ages": {
+    "5-7": {
+      "chip": "Good one to bring up",
+      "script": "A scientist named Francis Halzen just won a big prize for catching ghost particles. They are tiny bits from space that zip through the Earth, through you, billions every second, and you never feel it. His trap is a block of ice at the South Pole, taller than the tallest building. Once in a while one bumps the ice and makes a tiny flash.",
+      "why": "Ghost particles going through you is a fact a seven-year-old can feel. The ice and the flash make the trap real.",
+      "why_long": "A seven-year-old reasons from what is in front of them, so the script starts with particles going through their own body, which they can test by looking at their hand and feeling nothing. The ice block taller than any building and one flash give them a trap. Expect \"can I see one?\" No, and neither can he. He sees the flash."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Neutrinos pass through the Earth without touching anything. Francis Halzen's idea, in 1988: fill a cubic kilometre of South Pole ice with light sensors and wait. Once in a while one hits the ice and makes a flash that points home. A tripwire in the dark: you never see the visitor, only the flash.",
+      "why": "Idea, trap, flash, direction. The tripwire they already know.",
+      "why_long": "This age is working out chains of cause and effect, and the script hands them a four-link one: a particle nothing stops, a trap of clear ice, a flash when one hits, a direction read off it. The tripwire is the mechanism, known from spy films. Expect \"why ice?\" The South Pole's ice is unusually clear, so the sensors see the flash."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Why give a Nobel to a man who calls his own discovery minor? Francis Halzen spent from 1988 until now building IceCube, a cubic kilometre of Antarctic ice wired with light sensors, to catch neutrinos from far galaxies. Second: he says what it will bring is \"impossible to predict.\" Fund it, or not?",
+      "why": "A prize for leading, and a scientist who won't promise results. Argue both.",
+      "why_long": "A teenager can hold two true things at once: the prize went to one man, and he says the instrument is the point. The script asks what a Nobel is for, leadership or discovery, then whether \"impossible to predict\" argues for the money or against. Expect \"so what has it found?\" Violent events in galaxies telescopes can't see."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Can a ghost particle go through me?",
+        "a": "Yes. Billions every second, from the Sun. You never feel one."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why build it in ice?",
+        "a": "South Pole ice is unusually clear, so sensors can see the flash."
+      },
+      {
+        "q": "What do the particles tell us?",
+        "a": "Where violent things happen in galaxies telescopes can't see well."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why does leading a team get a prize?",
+        "a": "The committee cited his vision and leadership. This big, it's a team's work."
+      },
+      {
+        "q": "What's the point if you can't predict what it finds?",
+        "a": "He says that is the point: a new way of looking at the universe."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#IceCube",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 8,
+    "13-17": 16
+  },
+  "caption": "Yes. Billions a second, and you never feel a thing.\n\nFrancis Halzen won the Nobel Prize in Physics on Tuesday for IceCube, a detector built into a cubic kilometre of Antarctic ice. It catches neutrinos, particles that pass through the Earth and your body unnoticed. Billions cross your fingernail every second. He first pitched it in 1988. \"A new way of looking at the universe,\" he said.\n\nSource: BBC News\n\nSwipe for what to say at age 7, at 8, and at 16.\n\nThe dinner table question: Would you spend 38 years building something that might find nothing? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #IceCube #DinnerTableNews"
+}
