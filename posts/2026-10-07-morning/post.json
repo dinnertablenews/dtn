@@ -1,0 +1,79 @@
+{
+  "slot": "2026-10-07 07:00 CT",
+  "date": "2026-10-07",
+  "category": "Good news",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/cq203mymlvkeo",
+  "source_domain": "bbc.com",
+  "headline": "He wired a cubic kilometre of ice. It won him a Nobel.",
+  "summary": "Francis Halzen won the Nobel Prize in Physics on Tuesday for IceCube: a cubic kilometre of South Pole ice fitted with light sensors. It catches neutrinos, particles from distant galaxies that pass through the Earth, and through you, untouched. Most slip past the ice too. Once in a while one hits it and flashes. He pitched it in 1988.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "How do you catch a ghost particle?"
+  },
+  "cover_answer": "Wire a cubic kilometre of ice and wait for a flash.",
+  "table_question": "If the team did the work, who should get the prize?",
+  "photo_subject": "IceCube Neutrino Observatory",
+  "ages": {
+    "5-7": {
+      "chip": "Good one to bring up",
+      "script": "A scientist named Francis Halzen won a big prize for catching ghost particles at the South Pole. They come from space and zip through the whole Earth: billions go through your fingernail every second and you never feel one. His trap is a block of ice taller than any building, with lights inside watching for one tiny flash. They never bump a thing.",
+      "why": "Billions through their own fingernail is a fact they can check on their hand. The ice block taller than any building makes the trap real.",
+      "why_long": "A child this age reasons from what is in front of them, so the script starts at their own fingernail, where billions of neutrinos pass every second and nothing happens. The ice block taller than any building makes the trap something they can picture. Expect \"can I see one?\" No. Nobody can. The scientists see the flash it leaves."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Neutrinos from far galaxies pass straight through the Earth. In 1988 Francis Halzen pitched a trap: a cubic kilometre of South Pole ice wired with light sensors. Now and then one hits the ice and flashes, and the flash points home. A porch light on a sensor: nothing all night, then one flash.",
+      "why": "A four-link chain, and the porch light is a mechanism they already own.",
+      "why_long": "This age is working out chains of cause and effect, and the script hands them one with four links: a particle nothing stops, clear ice wired with sensors, a flash when one hits, a direction read from it. The porch light is a mechanism they own. Expect \"why ice?\" The South Pole's is unusually clear, so the sensors see the flash."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Would you give a Nobel to a man who calls what his machine will find \"impossible to predict\"? Francis Halzen pitched IceCube in 1988 and led the team that built it. Second: he says it needs many more telescopes to be real astronomy. Keep paying?",
+      "why": "A prize for leading, from a man who won't promise results. A teenager can hold both and argue the money.",
+      "why_long": "A teenager can hold two true things at once: the prize went to one man, and the committee cited his leadership of a team. The script asks what a Nobel is for, then whether \"impossible to predict\" is a reason to fund the next telescope or to stop. Expect \"so what has it found?\" Signals from violent events in far galaxies."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Can a ghost particle go through me?",
+        "a": "Yes. Billions go through your fingernail every second. You never feel one."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "How do you catch a ghost particle?",
+        "a": "Mostly you don't. Wire a cubic kilometre of ice with sensors and wait."
+      },
+      {
+        "q": "Why build it at the South Pole?",
+        "a": "The ice there is unusually clear, so the sensors can see the flash."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why does one man get the prize for a team's work?",
+        "a": "The committee cited his vision and leadership of an international team."
+      },
+      {
+        "q": "What has it actually found?",
+        "a": "Neutrinos from violent events in far galaxies that telescopes can't see."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#IceCube",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 10,
+    "13-17": 16
+  },
+  "photo": "data/images/2026-10-07-morning.jpg",
+  "photo_credit": "Photo: Christopher Michel, Wikimedia Commons, CC BY-SA 4.0",
+  "caption": "Wire a cubic kilometre of ice and wait for a flash.\n\nFrancis Halzen won the Nobel Prize in Physics on Tuesday for IceCube: a cubic kilometre of South Pole ice fitted with light sensors. It catches neutrinos, particles from distant galaxies that pass through the Earth, and through you, untouched. Most slip past the ice too. Once in a while one hits it and flashes. He pitched it in 1988.\n\nSource: BBC News\nPhoto: Christopher Michel, Wikimedia Commons, CC BY-SA 4.0\n\nSwipe for what to say at age 6, at 10, and at 16.\n\nThe dinner table question: If the team did the work, who should get the prize? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #IceCube #DinnerTableNews"
+}
