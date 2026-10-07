@@ -1,0 +1,76 @@
+{
+  "slot": "2026-10-07 12:00 CT",
+  "date": "2026-10-07",
+  "category": "Science",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/c6ly038jg0d4o",
+  "source_domain": "bbc.com",
+  "headline": "A Nobel for picking a molecule's hand",
+  "summary": "Henri Kagan of France and Kenso Soai of Japan won the Nobel Prize in Chemistry on Wednesday. Many molecules come in two versions that are mirror images, like a pair of hands. Life uses only one. In a drug, one version can fight disease while its twin does nothing. The pair designed reactions that make far more of the version you want.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "Why make the useless twin?"
+  },
+  "cover_answer": "Chemistry made both. They taught it to favour one.",
+  "table_question": "Your hands match but won't stack. What else is like that?",
+  "ages": {
+    "5-7": {
+      "chip": "Good one to bring up",
+      "script": "Two scientists won a big prize for something about molecules, the tiny pieces everything is made of. Lots of them come in two shapes, like your left hand and your right hand: the same, but flipped. Your body only uses one of the shapes. These scientists worked out how to make mostly the shape we want. Clever grown-ups, and nothing for you to do.",
+      "why": "Their hands are on the table. The mirror does the rest.",
+      "why_long": "A six-year-old reasons from what is in front of them, and their two hands are on the table: the same shape, and they will not stack. That is the whole idea, and the script stops there. Expect \"which hand does my body use?\" The articles don't say, so say that. The scientists know, and that is what the prize is for."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Your hands are mirror images: a left glove won't fit your right. Many molecules come in a left and a right too, and life uses only one. A medicine's twin can do nothing. Kagan and Soai designed reactions that make mostly the useful one, like a sorting machine set to one side.",
+      "why": "The glove is the mechanism, and the chain runs from it to the medicine.",
+      "why_long": "This age is working out chains of cause and effect, and the script hands them one: hands are mirror images, so are many molecules, life uses one, a medicine's twin can do nothing, so make the useful one on purpose. The glove that won't fit is a rule they can test at the door. Expect \"why only one?\" The article doesn't say. Say that."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "If a medicine's mirror-image twin does nothing, why make it? Reactions make both. Kagan and Soai won the chemistry Nobel for designing ones that favour the version you want. Second: the committee says they also answered why life picks one hand. Which half earns the prize?",
+      "why": "The medicine question is real. The second is about prizes.",
+      "why_long": "A teenager can hold two true things at once: the committee cited a question answered, why life favours one mirror image, and a tool built, reactions that make much more of the version you want. The script asks which half earns a Nobel. The article gives no ranking. Expect \"which drugs?\" It names none. Say so, and ask what they'd want."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Are my hands the same?",
+        "a": "Same shape, flipped. Put them palm to palm and they match. Stack them and they don't."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why does life use only one version?",
+        "a": "The prize says Kagan and Soai answered that. The article doesn't say how, so I don't know."
+      },
+      {
+        "q": "Does the wrong twin hurt you?",
+        "a": "It can do nothing, the article says. It says nothing more."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why make the useless twin?",
+        "a": "Reactions tend to make both. The prize is for ones that make much more of the useful one."
+      },
+      {
+        "q": "What's the actual use?",
+        "a": "Medicines. One mirror image can fight a disease; its twin does nothing."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#NobelChemistry",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 10,
+    "13-17": 17
+  },
+  "caption": "Chemistry made both. They taught it to favour one.\n\nHenri Kagan of France and Kenso Soai of Japan won the Nobel Prize in Chemistry on Wednesday. Many molecules come in two versions that are mirror images, like a pair of hands. Life uses only one. In a drug, one version can fight disease while its twin does nothing. The pair designed reactions that make far more of the version you want.\n\nSource: BBC News\n\nSwipe for what to say at age 6, at 10, and at 17.\n\nThe dinner table question: Your hands match but won't stack. What else is like that? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #NobelChemistry #DinnerTableNews"
+}
