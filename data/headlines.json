@@ -1,20 +1,79 @@
 {
- "fetched_at": "2026-10-08T01:32:48.245205+00:00",
+ "fetched_at": "2026-10-08T02:30:38.949104+00:00",
  "window_hours": 48,
- "count": 428,
- "errors": [
-  {
-   "source": "nasa",
-   "url": "https://www.nasa.gov/feed/",
-   "error": "429 Client Error: Too Many Requests for url: https://www.nasa.gov/feed/"
-  }
- ],
+ "count": 441,
+ "errors": [],
  "items": [
+  {
+   "title": "Tropical Storm Isaias is forecast to strike the US Gulf Coast as a hurricane",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQOEhBWXUtdkhWTUo1bUV3ZUxIZWtVbGlVa1lmbjMwVmJBaF9XMnZER2V5WnRMaGRSejBNNUYzWExKSHV1SUNLSFdXbXNaQTlwbEdlN2tmdWxwUGNOdG5sNzB3OHNDbTEteDFTeVV1SFN3ZG4wUzFqNHktWU1mZ2QzeUJ5Zzk4Q2hJam5BQTJDempteVBBRGFyNFF4UQ?oc=5",
+   "summary": "Tropical Storm Isaias is forecast to strike the US Gulf Coast as a hurricane AP News",
+   "published": "2026-10-08T02:22:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "8cfe101e7ff8",
+   "article_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQOEhBWXUtdkhWTUo1bUV3ZUxIZWtVbGlVa1lmbjMwVmJBaF9XMnZER2V5WnRMaGRSejBNNUYzWExKSHV1SUNLSFdXbXNaQTlwbEdlN2tmdWxwUGNOdG5sNzB3OHNDbTEteDFTeVV1SFN3ZG4wUzFqNHktWU1mZ2QzeUJ5Zzk4Q2hJam5BQTJDempteVBBRGFyNFF4UQ?oc=5",
+   "has_text": false
+  },
+  {
+   "title": "Disaster relief funding is creeping into Trump's midterm rhetoric. Critics say it has no place there",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZUE3N0NIeWlyLVNSM3BhYk5LMFRIUXpGWmNzbW5FU0k4VlJ2ZU9OclU0RncxUGVlMjQwV2ZBbUpybnQ2QnVTVV9oUk1jV1MtdVdwSHAyTlQxbDgwRndscndKczdhUEZPU24wSjk2SEU5dFpKVkR0anNqdDJJUXd1RlBCZHpxenJfcHJWd2wtZ290NWJEODNrcEdlZnA1LXl3RGl5aA?oc=5",
+   "summary": "Disaster relief funding is creeping into Trump's midterm rhetoric. Critics say it has no place there AP News",
+   "published": "2026-10-08T02:08:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "f11e3b89e393",
+   "article_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZUE3N0NIeWlyLVNSM3BhYk5LMFRIUXpGWmNzbW5FU0k4VlJ2ZU9OclU0RncxUGVlMjQwV2ZBbUpybnQ2QnVTVV9oUk1jV1MtdVdwSHAyTlQxbDgwRndscndKczdhUEZPU24wSjk2SEU5dFpKVkR0anNqdDJJUXd1RlBCZHpxenJfcHJWd2wtZ290NWJEODNrcEdlZnA1LXl3RGl5aA?oc=5",
+   "has_text": false
+  },
+  {
+   "title": "Army activates sustainment brigade as part of Pacific restructuring",
+   "link": "https://www.defenseone.com/threats/2026/10/army-activates-sustainment-brigade-part-pacific-restructuring/416486/",
+   "summary": "The change will bring some additional soldiers to Okinawa, Japan.",
+   "published": "2026-10-08T02:06:11+00:00",
+   "source": "defenseone",
+   "outlet": "Defense One",
+   "counted": true,
+   "section": "top",
+   "id": "5b1a536c6707",
+   "article_url": "https://www.defenseone.com/threats/2026/10/army-activates-sustainment-brigade-part-pacific-restructuring/416486/",
+   "has_text": true
+  },
+  {
+   "title": "HBCUs are underfunded. A legal effort starting in Missouri seeks to fix it",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNjBjbnJqeGROdG9meDQ3UkkzdWd6NDVIVGlScVJkZFk2NFpuU1BEUlVXcnNHLW53b1d0ZlQtLU44anNxR3VvaWd6aG9HM1I1WW5JUUlmdEtRVXM0VlRxbEFDTmFZVTYtOWEwWk03ZWtoQlNmOGRkalREZlY4RktnTVpQakdibFR2WHdmcDl6OHgwNEtYWEtwRU5oNXdZQmdq?oc=5",
+   "summary": "HBCUs are underfunded. A legal effort starting in Missouri seeks to fix it AP News",
+   "published": "2026-10-08T01:50:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "c0c85a0ddf76",
+   "article_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNjBjbnJqeGROdG9meDQ3UkkzdWd6NDVIVGlScVJkZFk2NFpuU1BEUlVXcnNHLW53b1d0ZlQtLU44anNxR3VvaWd6aG9HM1I1WW5JUUlmdEtRVXM0VlRxbEFDTmFZVTYtOWEwWk03ZWtoQlNmOGRkalREZlY4RktnTVpQakdibFR2WHdmcDl6OHgwNEtYWEtwRU5oNXdZQmdq?oc=5",
+   "has_text": false
+  },
+  {
+   "title": "Christa Pike is angry and confused after surviving execution attempt, attorney says",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVWtGMUw5bm5GeHpTZlBGZC1NMmN3dkFuU2c2d2t6MURNdlljYUR1ZHVBdmI5eEZsV3p3ckRvNkxRS0tLVXFjYXM4WW95d1lrMjg5VE8xZ3NHNENhQXZjeXIyd2JINWlCN0MyUWVTcnR3TjNnUklTS0Y4R0pHT0RVWHFZeVlOeG1EQmRUWnVnMkdMUjhfU3Y1THlLc0N4Y01zWnM4ZDgwdVU?oc=5",
+   "summary": "Christa Pike is angry and confused after surviving execution attempt, attorney says AP News",
+   "published": "2026-10-08T01:45:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "e591595e31fd",
+   "article_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVWtGMUw5bm5GeHpTZlBGZC1NMmN3dkFuU2c2d2t6MURNdlljYUR1ZHVBdmI5eEZsV3p3ckRvNkxRS0tLVXFjYXM4WW95d1lrMjg5VE8xZ3NHNENhQXZjeXIyd2JINWlCN0MyUWVTcnR3TjNnUklTS0Y4R0pHT0RVWHFZeVlOeG1EQmRUWnVnMkdMUjhfU3Y1THlLc0N4Y01zWnM4ZDgwdVU?oc=5",
+   "has_text": false
+  },
   {
    "title": "Texas carries out nation’s first execution since Christa Pike’s failed lethal injection",
    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOcGl2SlVFaHRUOWlQUHZyQVVjT3hhUV83M1V1aC1lYWlPYXRqZUZMMWtmQ3J4aUdxdHNPakFEckExU2g0eXRuQXh6UGdJODd2QjBQYUJRUzc5djBZQmdpa3hJLW9QQ3lsOEE3WXdLMXhWXzFGeU50X18wMXhNakJQeXVCRklMM0NyTjNSMjNPTlNIUVU?oc=5",
    "summary": "Texas carries out nation’s first execution since Christa Pike’s failed lethal injection AP News",
-   "published": "2026-10-08T01:27:00+00:00",
+   "published": "2026-10-08T01:39:00+00:00",
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
@@ -61,6 +120,19 @@
    "id": "8c3b0878175b",
    "article_url": "https://www.bbc.co.uk/news/articles/cm5yn3592xk9o?at_medium=RSS&at_campaign=rss",
    "has_text": true
+  },
+  {
+   "title": "Trying to execute Christa Pike again would push into uncharted legal territory, experts say",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOc3RWcUFDQ0puY2U1bDE4NDFHWHdzMTJlUDVOSlp1UmYyQ295cl9TZVFKY1V2WS1zbjBvRVl5RVVpWFItcU1ELTZlYzV4M3l1TnM4ckowYTN0VTk4cDFSdF9XeVZZQkVQdWFHWHVJV3N4QmFMWGYtdmltZFJLS1dGWUJkb3ZqV0Z2bmhuMzZKYmtSX25NVnhTN21hZ2VJVTZG?oc=5",
+   "summary": "Trying to execute Christa Pike again would push into uncharted legal territory, experts say AP News",
+   "published": "2026-10-08T00:48:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "d58207304112",
+   "article_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOc3RWcUFDQ0puY2U1bDE4NDFHWHdzMTJlUDVOSlp1UmYyQ295cl9TZVFKY1V2WS1zbjBvRVl5RVVpWFItcU1ELTZlYzV4M3l1TnM4ckowYTN0VTk4cDFSdF9XeVZZQkVQdWFHWHVJV3N4QmFMWGYtdmltZFJLS1dGWUJkb3ZqV0Z2bmhuMzZKYmtSX25NVnhTN21hZ2VJVTZG?oc=5",
+   "has_text": false
   },
   {
    "title": "Trump to award National Medal of Science to Elon Musk",
@@ -113,19 +185,6 @@
    "id": "9581b561a31d",
    "article_url": "https://www.bbc.co.uk/news/articles/c6e3x21ev9wwo?at_medium=RSS&at_campaign=rss",
    "has_text": true
-  },
-  {
-   "title": "Tropical Storm Isaias is forecast to strike the US Gulf Coast as a hurricane",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQOEhBWXUtdkhWTUo1bUV3ZUxIZWtVbGlVa1lmbjMwVmJBaF9XMnZER2V5WnRMaGRSejBNNUYzWExKSHV1SUNLSFdXbXNaQTlwbEdlN2tmdWxwUGNOdG5sNzB3OHNDbTEteDFTeVV1SFN3ZG4wUzFqNHktWU1mZ2QzeUJ5Zzk4Q2hJam5BQTJDempteVBBRGFyNFF4UQ?oc=5",
-   "summary": "Tropical Storm Isaias is forecast to strike the US Gulf Coast as a hurricane AP News",
-   "published": "2026-10-08T00:06:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "8cfe101e7ff8",
-   "article_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQOEhBWXUtdkhWTUo1bUV3ZUxIZWtVbGlVa1lmbjMwVmJBaF9XMnZER2V5WnRMaGRSejBNNUYzWExKSHV1SUNLSFdXbXNaQTlwbEdlN2tmdWxwUGNOdG5sNzB3OHNDbTEteDFTeVV1SFN3ZG4wUzFqNHktWU1mZ2QzeUJ5Zzk4Q2hJam5BQTJDempteVBBRGFyNFF4UQ?oc=5",
-   "has_text": false
   },
   {
    "title": "From the Acropolis, Rubio urges Europe to defend Western values and strengthen alliance with US",
@@ -479,19 +538,6 @@
    "has_text": true
   },
   {
-   "title": "Appeals court says Atlanta family cannot take the government to trial for a mistaken FBI raid",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcHd5V3FDdkkwOXBkR2c5Z19seWVvU1Rwc1RnNFFTeU96c1JvZWc2THd6OTJVbzBjTEItdXE4M2ROTzZjOFo4d2FmTnFzTUkxWFhiSExlV2o3TmFaVUVBMVVkQ0xKWkRGOGE2a3V3eEdKemE1WG9IdFJFdXlabkJjZkY4M0xIeXlHekZyQklvMWlLVTcz?oc=5",
-   "summary": "Appeals court says Atlanta family cannot take the government to trial for a mistaken FBI raid AP News",
-   "published": "2026-10-07T22:32:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "10c3575b99d6",
-   "article_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOcHd5V3FDdkkwOXBkR2c5Z19seWVvU1Rwc1RnNFFTeU96c1JvZWc2THd6OTJVbzBjTEItdXE4M2ROTzZjOFo4d2FmTnFzTUkxWFhiSExlV2o3TmFaVUVBMVVkQ0xKWkRGOGE2a3V3eEdKemE1WG9IdFJFdXlabkJjZkY4M0xIeXlHekZyQklvMWlLVTcz?oc=5",
-   "has_text": false
-  },
-  {
    "title": "Tanker hiring costs surge amid shipping threats",
    "link": "https://www.semafor.com/article/10/07/2026/tanker-hiring-costs-surge-amid-shipping-threats",
    "summary": "The cost of hiring one very large crude carrier to move US oil to Asia topped $77 million, new data showed Wednesday.",
@@ -635,19 +681,6 @@
    "has_text": false
   },
   {
-   "title": "HBCUs are underfunded. A legal effort starting in Missouri seeks to fix it",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNjBjbnJqeGROdG9meDQ3UkkzdWd6NDVIVGlScVJkZFk2NFpuU1BEUlVXcnNHLW53b1d0ZlQtLU44anNxR3VvaWd6aG9HM1I1WW5JUUlmdEtRVXM0VlRxbEFDTmFZVTYtOWEwWk03ZWtoQlNmOGRkalREZlY4RktnTVpQakdibFR2WHdmcDl6OHgwNEtYWEtwRU5oNXdZQmdq?oc=5",
-   "summary": "HBCUs are underfunded. A legal effort starting in Missouri seeks to fix it AP News",
-   "published": "2026-10-07T22:09:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "c0c85a0ddf76",
-   "article_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNjBjbnJqeGROdG9meDQ3UkkzdWd6NDVIVGlScVJkZFk2NFpuU1BEUlVXcnNHLW53b1d0ZlQtLU44anNxR3VvaWd6aG9HM1I1WW5JUUlmdEtRVXM0VlRxbEFDTmFZVTYtOWEwWk03ZWtoQlNmOGRkalREZlY4RktnTVpQakdibFR2WHdmcDl6OHgwNEtYWEtwRU5oNXdZQmdq?oc=5",
-   "has_text": false
-  },
-  {
    "title": "Tropical storm threat churns planning for Georgia-Alabama game with Trump set to attend",
    "link": "https://www.pbs.org/newshour/nation/tropical-storm-threat-churns-planning-for-georgia-alabama-game-with-trump-set-to-attend",
    "summary": "Tropical Storm Isaias could make landfall on the U.S. Gulf Coast as a hurricane this weekend, hours before No. 2 Georgia plays at No. 6 Alabama in a major college football game on Saturday night that President Donald Trump is planning to attend.",
@@ -765,16 +798,16 @@
    "has_text": true
   },
   {
-   "title": "Christa Pike is angry and confused after surviving execution attempt, attorney says",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVWtGMUw5bm5GeHpTZlBGZC1NMmN3dkFuU2c2d2t6MURNdlljYUR1ZHVBdmI5eEZsV3p3ckRvNkxRS0tLVXFjYXM4WW95d1lrMjg5VE8xZ3NHNENhQXZjeXIyd2JINWlCN0MyUWVTcnR3TjNnUklTS0Y4R0pHT0RVWHFZeVlOeG1EQmRUWnVnMkdMUjhfU3Y1THlLc0N4Y01zWnM4ZDgwdVU?oc=5",
-   "summary": "Christa Pike is angry and confused after surviving execution attempt, attorney says AP News",
-   "published": "2026-10-07T21:30:00+00:00",
+   "title": "UN health agency wants more details from Russia on suspected pneumonic plague case",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUVNxZUVSYWs2akY2NUdadlZBU1BadGtSbWx6SlpaWVY2ZVhJWG85Q0lIZlpRYWt4X3lpbzNyZG5HbDFZa3lRWFU4LXo2VG15eHlJWGhJTlBLVi1xb0dtOXV2Z3dZWVVXdlRxYmZzMkR4VUV6U2I2WFVCdWJPQVFqSVNpNFhlRTNQN01mbHNOaGR5Z2RNMkE?oc=5",
+   "summary": "UN health agency wants more details from Russia on suspected pneumonic plague case AP News",
+   "published": "2026-10-07T21:31:00+00:00",
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
    "section": "top",
-   "id": "e591595e31fd",
-   "article_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVWtGMUw5bm5GeHpTZlBGZC1NMmN3dkFuU2c2d2t6MURNdlljYUR1ZHVBdmI5eEZsV3p3ckRvNkxRS0tLVXFjYXM4WW95d1lrMjg5VE8xZ3NHNENhQXZjeXIyd2JINWlCN0MyUWVTcnR3TjNnUklTS0Y4R0pHT0RVWHFZeVlOeG1EQmRUWnVnMkdMUjhfU3Y1THlLc0N4Y01zWnM4ZDgwdVU?oc=5",
+   "id": "ccd39a4623b2",
+   "article_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUVNxZUVSYWs2akY2NUdadlZBU1BadGtSbWx6SlpaWVY2ZVhJWG85Q0lIZlpRYWt4X3lpbzNyZG5HbDFZa3lRWFU4LXo2VG15eHlJWGhJTlBLVi1xb0dtOXV2Z3dZWVVXdlRxYmZzMkR4VUV6U2I2WFVCdWJPQVFqSVNpNFhlRTNQN01mbHNOaGR5Z2RNMkE?oc=5",
    "has_text": false
   },
   {
@@ -785,7 +818,7 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "climate",
+   "section": "top",
    "id": "2878eb92304e",
    "article_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRVJfUXhfdnJsYjV2TGhHRkhNOFU5S2t0MFVWMHZQZFduZVhRUnQ5dkZkRjl3blFuVWRLNUNwTVBNQzVuSGRvVVNpSGxtQk5OX1Q3XzlLR0pJbkhCR1QyUG5seHlaM2VRZ3FmQ3A4SEZLeEFYcy1VYncwY1dBQUZxQWRxRUprUmlBVnhfRlRDUWJhUnhLM0plSlRReF8zM3A2ZXluQkRuZ2tZdGp1YXlN?oc=5",
    "has_text": false
@@ -867,6 +900,17 @@
    "id": "d441dfbd1c05",
    "article_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObEdnNE1kcHgtbWdRRnBzSE9BMm9ma1F0MUQ0ZWVpM2FSeHhpbnJ1ZWpKUkNqYXNKU2VydUNqWDJ4RkVBVDh2Q0hJcnF4dHJVX20wdS10ZVdidnh4SEpNeGY1c3NRNDYzMjJMOTQySUVNZzN6dE5FdVg4SEVKdDVhcldPdUZ5YzE4bUdLQURkLXJUa3dpMHp3?oc=5",
    "has_text": false
+  },
+  {
+   "title": "NASA Sets Coverage for SpaceX 35th Station Resupply Launch, Arrival",
+   "link": "https://www.nasa.gov/news-release/nasa-sets-coverage-for-spacex-35th-station-resupply-launch-arrival/",
+   "summary": "NASA and SpaceX are targeting 6:33 a.m. EDT, Tuesday, Oct. 13, for the next launch to deliver science investigations, supplies, and equipment, including the final set of International Space Station Roll-Out Solar Arrays, to the space station. This is the 35th SpaceX commercial resupply services mission to the orbital complex for NASA. NASA also will […]",
+   "published": "2026-10-07T21:16:42+00:00",
+   "source": "nasa",
+   "outlet": "NASA",
+   "counted": false,
+   "section": "top",
+   "id": "4722246626fc"
   },
   {
    "title": "Trump administration proposes a $70,000 fee for international students to work in the U.S.",
@@ -1077,9 +1121,9 @@
    "has_text": false
   },
   {
-   "title": "DNC sues Trump administration, alleging taxpayer-funded ads violate propaganda law",
+   "title": "Two lawsuits challenge Trump’s taxpayer-funded ads, alleging they violate propaganda law",
    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPT1ZYckFSQkR0bVpVSkNEOEhWUmxhTXplS1ZsZ0huNkRfLXVldlNwLTVFNUJBZGVPNGdsbjRBVFJNSHpZamk0Yk1TQm5Eelp5MWVuMmEwVmJNRktHVXFYdEdfMVpyNTJtV0ZIVnZYM1V5SXBRWF9qR2ltNGlUYms4YUtXUlR3bEN2TncxLUxEc1IwLUMzU0RRejdoVFR4aTlvVW1vNlVIOA?oc=5",
-   "summary": "DNC sues Trump administration, alleging taxpayer-funded ads violate propaganda law AP News",
+   "summary": "Two lawsuits challenge Trump’s taxpayer-funded ads, alleging they violate propaganda law AP News",
    "published": "2026-10-07T20:20:56+00:00",
    "source": "ap",
    "outlet": "AP News",
@@ -1103,17 +1147,15 @@
    "has_text": true
   },
   {
-   "title": "Disaster relief funding is creeping into Trump's midterm rhetoric. Critics say it has no place there",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZUE3N0NIeWlyLVNSM3BhYk5LMFRIUXpGWmNzbW5FU0k4VlJ2ZU9OclU0RncxUGVlMjQwV2ZBbUpybnQ2QnVTVV9oUk1jV1MtdVdwSHAyTlQxbDgwRndscndKczdhUEZPU24wSjk2SEU5dFpKVkR0anNqdDJJUXd1RlBCZHpxenJfcHJWd2wtZ290NWJEODNrcEdlZnA1LXl3RGl5aA?oc=5",
-   "summary": "Disaster relief funding is creeping into Trump's midterm rhetoric. Critics say it has no place there AP News",
-   "published": "2026-10-07T20:17:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
+   "title": "NASA’s SpaceX 35th Commercial Resupply Mission Overview",
+   "link": "https://www.nasa.gov/general/nasas-spacex-35th-commercial-resupply-mission-overview/",
+   "summary": "NASA and SpaceX are targeting no earlier than Tuesday, Oct. 13 to launch scientific investigations, supplies, and equipment to the International Space Station.",
+   "published": "2026-10-07T20:17:16+00:00",
+   "source": "nasa",
+   "outlet": "NASA",
+   "counted": false,
    "section": "top",
-   "id": "f11e3b89e393",
-   "article_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZUE3N0NIeWlyLVNSM3BhYk5LMFRIUXpGWmNzbW5FU0k4VlJ2ZU9OclU0RncxUGVlMjQwV2ZBbUpybnQ2QnVTVV9oUk1jV1MtdVdwSHAyTlQxbDgwRndscndKczdhUEZPU24wSjk2SEU5dFpKVkR0anNqdDJJUXd1RlBCZHpxenJfcHJWd2wtZ290NWJEODNrcEdlZnA1LXl3RGl5aA?oc=5",
-   "has_text": false
+   "id": "bf1ec1789784"
   },
   {
    "title": "Grammy-nominated R&B singer Freddie Jackson, known for '80s hits like 'You Are My Lady,' dies at 70",
@@ -1127,6 +1169,17 @@
    "id": "d5f728977c98",
    "article_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeTNGZXZyTWxPUUZjWl85MUlvMXJVQ21wRjFRcTEzOWVla3NwbzVTbDI3ajZNN0tzcDFIWWpreFpwa0p6UXJ0SnVGb3haYktTcG9FeWRPY25lOVMwaGx1WlZmSVdjS0VxWF9JOHV4NDA3YVRHUi1mYjdibWdDVi1oX2JEZEVJTEFsMlFZcFp3?oc=5",
    "has_text": false
+  },
+  {
+   "title": "NASA’s PRIMA Spacecraft (Artist’s Concept)",
+   "link": "https://science.nasa.gov/photojournal/nasas-prima-spacecraft-artists-concept/",
+   "summary": "Description This artist’s concept depicts the proposed design for NASA’s PRobe far-Infrared Mission for Astrophysics (PRIMA), which was selected by the agency in September 2026. The PRIMA observatory is the first in a new class of NASA astrophysics missions, called Probe Explorers, within the agency’s longstanding Explorers Program. By observing far-infrared light, PRIMA will enable scientists to study cosmic […]",
+   "published": "2026-10-07T20:15:49+00:00",
+   "source": "nasa",
+   "outlet": "NASA",
+   "counted": false,
+   "section": "top",
+   "id": "a6391bbd3196"
   },
   {
    "title": "Opal Lee, 'grandmother of Juneteenth,' spends 100th birthday at the center of celebrations in Texas",
@@ -1922,6 +1975,17 @@
    "has_text": true
   },
   {
+   "title": "NASA’s Curiosity Looks Back After Reaching Elevation Milestone",
+   "link": "https://science.nasa.gov/photojournal/nasas-curiosity-looks-back-after-reaching-elevation-milestone/",
+   "summary": "Description NASA’s Curiosity Mars rover captured this view looking back at the floor of Gale Crater, with the crater’s rim visible in the distance, on Sept. 5, 2026, the 5,006th Martian day, or sol, of the mission. Just nine days prior, on Aug. 26 (Sol 4,996), Curiosity set a mission milestone by reaching 1 kilometer […]",
+   "published": "2026-10-07T17:00:47+00:00",
+   "source": "nasa",
+   "outlet": "NASA",
+   "counted": false,
+   "section": "top",
+   "id": "67bfd0ca0906"
+  },
+  {
    "title": "Here’s why to vote in midterms to give Democrats congressional majorities",
    "link": "https://thehill.com/opinion/campaign/6133116-protect-democracy-vote-nov-3/",
    "summary": "Attorney A. Scott Bolden urged American voters to elect Democratic majorities in the House and Senate to counter President Trump's policies and protect the constitutional system of government.",
@@ -1946,6 +2010,17 @@
    "id": "9ca116a3d3f5",
    "article_url": "https://thehill.com/homenews/6134135-trump-consultants-balkans-work/",
    "has_text": false
+  },
+  {
+   "title": "NASA’s Curiosity Captures Dawn Breaking on Wind-Carved Cliffs",
+   "link": "https://science.nasa.gov/photojournal/nasas-curiosity-captures-dawn-breaking-on-wind-carved-cliffs/",
+   "summary": "Description NASA’s Curiosity Mars rover captured this panorama of sunrise illuminating distant, wind-carved features called yardangs on Aug. 11, 2026, the 4,982nd Martian day, or sol, of the mission. Scientists are eager to learn more about how the yardang layer formed. Figure A is a crop zooming in on the distant yardangs. Since 2014, Curiosity […]",
+   "published": "2026-10-07T16:49:50+00:00",
+   "source": "nasa",
+   "outlet": "NASA",
+   "counted": false,
+   "section": "top",
+   "id": "b46af429359b"
   },
   {
    "title": "What is kratom, herb drawing scrutiny from lawmakers?",
@@ -2156,6 +2231,19 @@
    "has_text": false
   },
   {
+   "title": "Recent Taiwan simulation highlights US cyberdefense gaps against China, experts warn",
+   "link": "https://www.defenseone.com/threats/2026/10/recent-taiwan-simulation-highlights-us-cyberdefense-gaps-against-china-experts-warn/416487/",
+   "summary": "Organizers of a cyber exercise say Washington needs to prepare for attacks that both disrupt civilian services and pressure Taipei without triggering outright military conflict.",
+   "published": "2026-10-07T15:59:00+00:00",
+   "source": "defenseone",
+   "outlet": "Defense One",
+   "counted": true,
+   "section": "top",
+   "id": "3977a79028bd",
+   "article_url": "https://www.defenseone.com/threats/2026/10/recent-taiwan-simulation-highlights-us-cyberdefense-gaps-against-china-experts-warn/416487/",
+   "has_text": true
+  },
+  {
    "title": "Why France is a warning sign for the markets",
    "link": "https://www.axios.com/2026/10/07/france-global-bond-markets",
    "summary": "The good news about the epic shifts in global bond markets is that they mostly reflect economic fundamentals, not the kinds of panicky swings seen in a crisis. The bad news is that there's a risk the disruptions metastasize into a broader crisis in an era of fractured politics across major democracies. The big picture: Turmoil in the streets this week in France is the latest sign of hazards that await elected leaders who try to address yawning fiscal deficits head-on. They are squeezed between voters who want to maintain public benefit levels and tax levels and a bond market that is resetting ",
@@ -2219,6 +2307,17 @@
    "id": "e0ef7bdc55a5",
    "article_url": "https://www.bbc.co.uk/weather/articles/cw146l6pnvx0o?at_medium=RSS&at_campaign=rss",
    "has_text": true
+  },
+  {
+   "title": "Artemis II Crew Moon Photo Annotations",
+   "link": "https://www.nasa.gov/image-article/artemis-ii-crew-moon-photo-annotations/",
+   "summary": "A visualization of a dark Moon eclipsing the Sun is marked with handwritten notes in this April 6, 2026, screenshot from an Artemis II crew member’s tablet. NASA astronauts Reid Wiseman (in blue) and Victor “Ike” Glover (in green) and CSA (Canadian Space Agency) Jeremy Hansen (in red) observed impact flashes and their locations, which […]",
+   "published": "2026-10-07T15:44:59+00:00",
+   "source": "nasa",
+   "outlet": "NASA",
+   "counted": false,
+   "section": "top",
+   "id": "ca70e70bc2d1"
   },
   {
    "title": "Photos of Messi playing his last game with Argentina",
@@ -2621,19 +2720,6 @@
    "section": "top",
    "id": "5207b94c28e5",
    "article_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbU5TWXRrWnZaRE9pRXJ3c1JwMXM4dnoyazM2Q0ZxQjEwbmdxdWwwQlQ1bFpwMHZZMlZHNmN4M0g5OFQyVXhWc0JMa2xLRlpwZ1J6T1JuS0Vna0VkaHRBWUplaHlmYWZ1NU03ZUhybGhJQXk4cnNZcjJuTi1wTjlhckowcVZfelhMNjlnRE94UTdLa2NYa2tscUs0Z3M?oc=5",
-   "has_text": false
-  },
-  {
-   "title": "UN health agency wants more details from Russia on suspected pneumonic plague case",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUVNxZUVSYWs2akY2NUdadlZBU1BadGtSbWx6SlpaWVY2ZVhJWG85Q0lIZlpRYWt4X3lpbzNyZG5HbDFZa3lRWFU4LXo2VG15eHlJWGhJTlBLVi1xb0dtOXV2Z3dZWVVXdlRxYmZzMkR4VUV6U2I2WFVCdWJPQVFqSVNpNFhlRTNQN01mbHNOaGR5Z2RNMkE?oc=5",
-   "summary": "UN health agency wants more details from Russia on suspected pneumonic plague case AP News",
-   "published": "2026-10-07T14:18:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "ccd39a4623b2",
-   "article_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUVNxZUVSYWs2akY2NUdadlZBU1BadGtSbWx6SlpaWVY2ZVhJWG85Q0lIZlpRYWt4X3lpbzNyZG5HbDFZa3lRWFU4LXo2VG15eHlJWGhJTlBLVi1xb0dtOXV2Z3dZWVVXdlRxYmZzMkR4VUV6U2I2WFVCdWJPQVFqSVNpNFhlRTNQN01mbHNOaGR5Z2RNMkE?oc=5",
    "has_text": false
   },
   {
@@ -3833,6 +3919,17 @@
    "has_text": false
   },
   {
+   "title": "APOD: 2026 October 7 – Supernova Remnant Pa 30",
+   "link": "https://science.nasa.gov/image-article/apod-2026-october-7-supernova-remnant-pa-30/",
+   "summary": "APOD Science APOD APOD: 2026 October 7 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Supernova Remnant Pa […]",
+   "published": "2026-10-07T04:05:00+00:00",
+   "source": "nasa",
+   "outlet": "NASA",
+   "counted": false,
+   "section": "top",
+   "id": "dbd33503bc4d"
+  },
+  {
    "title": "In Virginia, Democrat hoping to oust Republican tests anti-corruption message echoing around country",
    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUTczbDVfNUd2QTVmcjZRdnRZRHk1SHF4bTNhZmxGSmhRdFMwZjN1OEo3ajNnRk5LakhYNzVOb280aXl5c2tZN0l6VUFGNm04TTlOMXFxSkt6a0NqcGp1QmpPZmFtcFhVNjRlcHVHMVJpdm1LMTJQVUFQSnZEODR4NUNBRHdXOFJ0cngwLU1PcElzSGQtUG90c21tSFF2NXJKNENQV3hUVXBCa1JFUTA4?oc=5",
    "summary": "In Virginia, Democrat hoping to oust Republican tests anti-corruption message echoing around country AP News",
@@ -3844,6 +3941,17 @@
    "id": "15a55a86c894",
    "article_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUTczbDVfNUd2QTVmcjZRdnRZRHk1SHF4bTNhZmxGSmhRdFMwZjN1OEo3ajNnRk5LakhYNzVOb280aXl5c2tZN0l6VUFGNm04TTlOMXFxSkt6a0NqcGp1QmpPZmFtcFhVNjRlcHVHMVJpdm1LMTJQVUFQSnZEODR4NUNBRHdXOFJ0cngwLU1PcElzSGQtUG90c21tSFF2NXJKNENQV3hUVXBCa1JFUTA4?oc=5",
    "has_text": false
+  },
+  {
+   "title": "Arctic Sea Ice Shrinks to Its 2026 Minimum",
+   "link": "https://science.nasa.gov/earth/earth-observatory/arctic-sea-ice-shrinks-to-its-2026-minimum/",
+   "summary": "Satellite records show Arctic sea ice covering less of the ocean in both winter and summer.",
+   "published": "2026-10-07T04:00:00+00:00",
+   "source": "nasa",
+   "outlet": "NASA",
+   "counted": false,
+   "section": "top",
+   "id": "016a8596114e"
   },
   {
    "title": "Skydance now runs two of Hollywood's legacy film studios. A look at the new company, by the numbers",
@@ -3950,19 +4058,6 @@
    "has_text": false
   },
   {
-   "title": "Families of some US troops killed in the Iran war's deadliest strike absent from White House event",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNa1VpOTVFYU5JaFIxSGZ4SFg1dTVDamJQb2xSc18zanA3Nkc3UGxJTmhXS24xTmxwbUlRb255NGtncnJpSU1fUDBzUzNSREtydzJhdFIzS1kzcEVESGw2UDY4dDN2Sll6Rzg3MlM5REhiOXJSSDYyZW02cWFsendNMGFTbTJyejRILWRMMXNOVzU4blMxQ2NIdHIwSXNTeGkxaFIzdg?oc=5",
-   "summary": "Families of some US troops killed in the Iran war's deadliest strike absent from White House event AP News",
-   "published": "2026-10-07T02:19:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "8e493de07a6a",
-   "article_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNa1VpOTVFYU5JaFIxSGZ4SFg1dTVDamJQb2xSc18zanA3Nkc3UGxJTmhXS24xTmxwbUlRb255NGtncnJpSU1fUDBzUzNSREtydzJhdFIzS1kzcEVESGw2UDY4dDN2Sll6Rzg3MlM5REhiOXJSSDYyZW02cWFsendNMGFTbTJyejRILWRMMXNOVzU4blMxQ2NIdHIwSXNTeGkxaFIzdg?oc=5",
-   "has_text": false
-  },
-  {
    "title": "The Pentagon’s autonomy command should draw on lessons old and new",
    "link": "https://www.defenseone.com/policy/2026/10/pentagon-autonomy-command-patriot-maven/416444/",
    "summary": "AUTOWARCOM will have a big task. Luckily, it’s not starting from scratch.",
@@ -3983,7 +4078,7 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "top",
+   "section": "climate",
    "id": "5afe48955f7f",
    "article_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQbXVlNk81Q3JJY3I1a2o3UmRKTklQZnNxYzh3OHc1d0ZaRkU3RXNqT0txLWgwV0kxYzR5cGlyMTBnY0RKY054bTg0WkRXeUliaHJfME1EWHNTY1hFcTM5Q2xkbUhDd3JSbEJoUGRjcTd5cHBkNUhUVGxLc3h0MWllZkE1ZDdwb055dWJPZ2JDZzg0QQ?oc=5",
    "has_text": false
@@ -3996,7 +4091,7 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "top",
+   "section": "climate",
    "id": "b3396fc72f80",
    "article_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNTjRNSjlTdFRRc09mRVdBcUJwTnNDYzRFZUtzdHV2NFk3VHdzb2F4LVlHcEsxRm00NloxZGRobC1uZjlNZlA0bEctMDU2ZGlnRnhDRGwxMXJoYUdKcTVEWkUweGk3eVc5WkZIOVlpZ0xRZllYcEdtcEg1bG9NclNkQnVQTGQwNWprcWxMZ3I2akVYb1gyMkRuaGd5dUxfMnlUTWluUHo5TVM5N0JH?oc=5",
    "has_text": false
@@ -4009,7 +4104,7 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "top",
+   "section": "climate",
    "id": "0b2455bf0bc5",
    "article_url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSE1QSWgzLVNrRy1fbFdqc0FwdkctYmcyZ2UxcmxxdWdyRENwM3VKSFpqbnpxVUdpcHJISDlpVV96eDdSV3pyZ0UzZUtRZzR1UEhIQlNhaDdjRVVNWUJrN3dyRDAyMTZjcl9rbWx2QW54ZkV4V1lRNXU5bFJURmlhTG42RkxHODJPWmpOWi1hOWVMVDY1N1phMVJrZWtUSDNOcS0zWWdvZlBBNU1YOFNwWmdYaGMzcFg4ODd2c1dB?oc=5",
    "has_text": false
@@ -4025,6 +4120,19 @@
    "section": "top",
    "id": "859a03b76cef",
    "article_url": "https://thehill.com/homenews/campaign/6132984-maine-senate-debate-collins-jackson/",
+   "has_text": false
+  },
+  {
+   "title": "Trump says he has call scheduled with Putin to discuss possible case of pneumonic plague in Russia",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRTJMdE1KUnVHRjRkU1hGYThhUWkyX3JXN1dmeWw3R2prc212by13VUFyU0JVNC1xRVVOdDhobGwyOEcwdE5pdk1FOFFfTU90bWpwaFNFcnRpMS1SMTc0cUFYdHJtUkRWZTlqZW5YeVpSX2NSWjBEUklKUld2STFRTnUzcmlSdDFfMHlkLVp1ZjVlQlZwcnBKSHAxbw?oc=5",
+   "summary": "Trump says he has call scheduled with Putin to discuss possible case of pneumonic plague in Russia AP News",
+   "published": "2026-10-07T00:55:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "6b280f4708de",
+   "article_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRTJMdE1KUnVHRjRkU1hGYThhUWkyX3JXN1dmeWw3R2prc212by13VUFyU0JVNC1xRVVOdDhobGwyOEcwdE5pdk1FOFFfTU90bWpwaFNFcnRpMS1SMTc0cUFYdHJtUkRWZTlqZW5YeVpSX2NSWjBEUklKUld2STFRTnUzcmlSdDFfMHlkLVp1ZjVlQlZwcnBKSHAxbw?oc=5",
    "has_text": false
   },
   {
@@ -4158,16 +4266,16 @@
    "has_text": false
   },
   {
-   "title": "Bulgaria's leader says drone attack hits 2 commercial vessels, and Ukraine's president blames Russia",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaU5DemRLSkhTVjNkckR2UjdISjRuV05vRjh3OHNUOWhTOUpQeDluSnl4QktrUHlad0VBakVfNjUzSHhnUXZvYXd4N1dydU96anliOERsckxiVWJVRXEtZXVyWGhtOEdDczl4VW41YndjczVKM0l0RnY1dGFkLTFETW4tZXhTT1R3UXI4dFVtVkd4dVltNlNiREdVRlVmSWxyVnMxYlI3enZqWHpIQVFZ?oc=5",
-   "summary": "Bulgaria's leader says drone attack hits 2 commercial vessels, and Ukraine's president blames Russia AP News",
-   "published": "2026-10-06T23:34:00+00:00",
+   "title": "French riot police fire tear gas as more than 250,000 rally nationwide for school funding",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUnN2bXRwby0zM25GY1BlLXJKNW5CVzJ0SDNaSTdySmR6Y2pGa1o0dDJBY2NGVFNONjk2UDFqaVRlcnhKNmw5T3pncWNhMWpyYVNuMVZyRzVOYzdkZmRYeXRGUUxpSjNqdHpJQVFYcHR0WHl1RllNZGZEdEZicG5xdW1JemhvYkpSUlVSbjc0dnFYblpzbkMtUEloUy0wMGEz?oc=5",
+   "summary": "French riot police fire tear gas as more than 250,000 rally nationwide for school funding AP News",
+   "published": "2026-10-06T23:37:00+00:00",
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
    "section": "climate",
-   "id": "594d7755a19a",
-   "article_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaU5DemRLSkhTVjNkckR2UjdISjRuV05vRjh3OHNUOWhTOUpQeDluSnl4QktrUHlad0VBakVfNjUzSHhnUXZvYXd4N1dydU96anliOERsckxiVWJVRXEtZXVyWGhtOEdDczl4VW41YndjczVKM0l0RnY1dGFkLTFETW4tZXhTT1R3UXI4dFVtVkd4dVltNlNiREdVRlVmSWxyVnMxYlI3enZqWHpIQVFZ?oc=5",
+   "id": "275288d19f4c",
+   "article_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUnN2bXRwby0zM25GY1BlLXJKNW5CVzJ0SDNaSTdySmR6Y2pGa1o0dDJBY2NGVFNONjk2UDFqaVRlcnhKNmw5T3pncWNhMWpyYVNuMVZyRzVOYzdkZmRYeXRGUUxpSjNqdHpJQVFYcHR0WHl1RllNZGZEdEZicG5xdW1JemhvYkpSUlVSbjc0dnFYblpzbkMtUEloUy0wMGEz?oc=5",
    "has_text": false
   },
   {
@@ -4234,6 +4342,19 @@
    "id": "05ac353d6821",
    "article_url": "https://www.sciencenews.org/article/extinct-crocodilian-rocks-great-sphinx",
    "has_text": true
+  },
+  {
+   "title": "What Paramount’s Warner Bros. takeover means for streaming, movies and news",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTmZTWWV3YWQ4OWRoeWJNNXpCWFc4dGROcmxndXMzdmNGSW1ZV1ZMT3FLLUJaR2t4dG1hc1pEWmNLWloxekpKb3FjQVFRTDNINDZkQTM5SjRkZHFNS3FsUzFPV0JqWFNkSGlrdmJpaG96OTNSS3NoTXc2WndDYVRmd09mMUh1YUQtdnBLZm0xZG5reldlZWlUSlV5Mm8xc0NncTR1SkNBTHV2dkk?oc=5",
+   "summary": "What Paramount’s Warner Bros. takeover means for streaming, movies and news AP News",
+   "published": "2026-10-06T23:04:15+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "a8d91aac5815",
+   "article_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTmZTWWV3YWQ4OWRoeWJNNXpCWFc4dGROcmxndXMzdmNGSW1ZV1ZMT3FLLUJaR2t4dG1hc1pEWmNLWloxekpKb3FjQVFRTDNINDZkQTM5SjRkZHFNS3FsUzFPV0JqWFNkSGlrdmJpaG96OTNSS3NoTXc2WndDYVRmd09mMUh1YUQtdnBLZm0xZG5reldlZWlUSlV5Mm8xc0NncTR1SkNBTHV2dkk?oc=5",
+   "has_text": false
   },
   {
    "title": "Archdiocese of St. Louis sues ICE officials over blocked religious services",
@@ -4379,19 +4500,6 @@
    "has_text": true
   },
   {
-   "title": "Cornell brings in ex-Justice official Sally Yates to review school’s handling of sex assault claims",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPT19JZUxESnFXdWhiQ0Y4VHJleU43bThEd01zVkpMNVNfMmF0ZlVKa2ppNkFad2pWZ3A4UHRwcXNVeDJFTy1VcnFDbzlNVGd1SUpXanR0RGw0WUMzRTdZOTRFelM0N3pCOHRBNnN3dF80LW1EUm8yRHlfTEJsWEN6NnpLa1JCR3R3dmRiUzZRS1FzLW9COTMyY3pjVXBobTZVMF83cm1BMG04YXp6OUE?oc=5",
-   "summary": "Cornell brings in ex-Justice official Sally Yates to review school’s handling of sex assault claims AP News",
-   "published": "2026-10-06T22:19:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "c5d421cc06c3",
-   "article_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPT19JZUxESnFXdWhiQ0Y4VHJleU43bThEd01zVkpMNVNfMmF0ZlVKa2ppNkFad2pWZ3A4UHRwcXNVeDJFTy1VcnFDbzlNVGd1SUpXanR0RGw0WUMzRTdZOTRFelM0N3pCOHRBNnN3dF80LW1EUm8yRHlfTEJsWEN6NnpLa1JCR3R3dmRiUzZRS1FzLW9COTMyY3pjVXBobTZVMF83cm1BMG04YXp6OUE?oc=5",
-   "has_text": false
-  },
-  {
    "title": "Many Nepalis swept away in the floods aren't officially dead, leaving families in limbo",
    "link": "https://www.bbc.co.uk/news/articles/ck054zm1701qo?at_medium=RSS&at_campaign=rss",
    "summary": "Relatives are finding themselves with no compensation and facing an administrative nightmare.",
@@ -4483,19 +4591,6 @@
    "has_text": false
   },
   {
-   "title": "Trump says he has call scheduled with Putin to discuss possible case of pneumonic plague in Russia",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRTJMdE1KUnVHRjRkU1hGYThhUWkyX3JXN1dmeWw3R2prc212by13VUFyU0JVNC1xRVVOdDhobGwyOEcwdE5pdk1FOFFfTU90bWpwaFNFcnRpMS1SMTc0cUFYdHJtUkRWZTlqZW5YeVpSX2NSWjBEUklKUld2STFRTnUzcmlSdDFfMHlkLVp1ZjVlQlZwcnBKSHAxbw?oc=5",
-   "summary": "Trump says he has call scheduled with Putin to discuss possible case of pneumonic plague in Russia AP News",
-   "published": "2026-10-06T21:30:40+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "6b280f4708de",
-   "article_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRTJMdE1KUnVHRjRkU1hGYThhUWkyX3JXN1dmeWw3R2prc212by13VUFyU0JVNC1xRVVOdDhobGwyOEcwdE5pdk1FOFFfTU90bWpwaFNFcnRpMS1SMTc0cUFYdHJtUkRWZTlqZW5YeVpSX2NSWjBEUklKUld2STFRTnUzcmlSdDFfMHlkLVp1ZjVlQlZwcnBKSHAxbw?oc=5",
-   "has_text": false
-  },
-  {
    "title": "What the Paramount and Warner Bros deal means for you",
    "link": "https://www.bbc.co.uk/news/videos/cq70p4llze5jo?at_medium=RSS&at_campaign=rss",
    "summary": "The BBC's Samira Hussain explains the impact the $110bn merger will have on consumers of both entertainment giants.",
@@ -4520,19 +4615,6 @@
    "id": "54bec60fc46d",
    "article_url": "https://www.bbc.co.uk/news/videos/cwm26078pkepo?at_medium=RSS&at_campaign=rss",
    "has_text": true
-  },
-  {
-   "title": "What Paramount’s Warner Bros. takeover means for streaming, movies and news",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTmZTWWV3YWQ4OWRoeWJNNXpCWFc4dGROcmxndXMzdmNGSW1ZV1ZMT3FLLUJaR2t4dG1hc1pEWmNLWloxekpKb3FjQVFRTDNINDZkQTM5SjRkZHFNS3FsUzFPV0JqWFNkSGlrdmJpaG96OTNSS3NoTXc2WndDYVRmd09mMUh1YUQtdnBLZm0xZG5reldlZWlUSlV5Mm8xc0NncTR1SkNBTHV2dkk?oc=5",
-   "summary": "What Paramount’s Warner Bros. takeover means for streaming, movies and news AP News",
-   "published": "2026-10-06T21:09:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "a8d91aac5815",
-   "article_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTmZTWWV3YWQ4OWRoeWJNNXpCWFc4dGROcmxndXMzdmNGSW1ZV1ZMT3FLLUJaR2t4dG1hc1pEWmNLWloxekpKb3FjQVFRTDNINDZkQTM5SjRkZHFNS3FsUzFPV0JqWFNkSGlrdmJpaG96OTNSS3NoTXc2WndDYVRmd09mMUh1YUQtdnBLZm0xZG5reldlZWlUSlV5Mm8xc0NncTR1SkNBTHV2dkk?oc=5",
-   "has_text": false
   },
   {
    "title": "CDC ‘closely monitoring’ suspected pneumonic plague case",
@@ -4626,6 +4708,19 @@
    "has_text": false
   },
   {
+   "title": "Trump administration to assign government lawyers to migrant kids’ cases, worrying advocates",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPel9uNE9GMV9kYkxuSmRfOERPQkhaV2hGaEg4XzBaaTJzaS05OWJBM1piYlBHMHlPc2JXUU5BOUpKV282OHYzaGY0TDcyQktzamcxeXlhSk5mUVhianZoajk0NE5Bc2VFWjlFbnFCMndnSG1IR3BJbUZQS2NWZlFVS1hzT2RiQzdfXzVpaHc1OHVXekdFVHhRdmY3d29HdFhwTFUwY29WcVNudWd2X3pBbkYxdE1VcFRLOUZR?oc=5",
+   "summary": "Trump administration to assign government lawyers to migrant kids’ cases, worrying advocates AP News",
+   "published": "2026-10-06T20:05:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "b83e875a2b76",
+   "article_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPel9uNE9GMV9kYkxuSmRfOERPQkhaV2hGaEg4XzBaaTJzaS05OWJBM1piYlBHMHlPc2JXUU5BOUpKV282OHYzaGY0TDcyQktzamcxeXlhSk5mUVhianZoajk0NE5Bc2VFWjlFbnFCMndnSG1IR3BJbUZQS2NWZlFVS1hzT2RiQzdfXzVpaHc1OHVXekdFVHhRdmY3d29HdFhwTFUwY29WcVNudWd2X3pBbkYxdE1VcFRLOUZR?oc=5",
+   "has_text": false
+  },
+  {
    "title": "Ex-US spy who stashed gold bars in his home admits to $200m scam",
    "link": "https://www.bbc.co.uk/news/articles/cr3wvq965dngo?at_medium=RSS&at_campaign=rss",
    "summary": "David Rush, who also confessed to providing secrets to a foreign government, had revealed the existence of a \"clandestine human source\", prosecutors said.",
@@ -4678,6 +4773,32 @@
    "has_text": false
   },
   {
+   "title": "Colombia’s president offers support to veterans extradited to US over Haitian leader’s killing",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNT1NUaXhDSGtYblBBam5ORkNaOWN5aTdFTllZMFhOcFl4NEdLcEVXNDhVcmxVdTQ4S0NOWkEyNm5kTEFfZUxUc2YxLThTS1VmdGZnRjRCSVV0aG1BWFBqUXZLb0xjUnRGQjdaLXRxY3BaOXdBSHMyRS1mNW9haVZiWVMwdXFqR01WWG45bHljVGNWNm16dnNCcjVqcGowZw?oc=5",
+   "summary": "Colombia’s president offers support to veterans extradited to US over Haitian leader’s killing AP News",
+   "published": "2026-10-06T19:15:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "e358bef70796",
+   "article_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNT1NUaXhDSGtYblBBam5ORkNaOWN5aTdFTllZMFhOcFl4NEdLcEVXNDhVcmxVdTQ4S0NOWkEyNm5kTEFfZUxUc2YxLThTS1VmdGZnRjRCSVV0aG1BWFBqUXZLb0xjUnRGQjdaLXRxY3BaOXdBSHMyRS1mNW9haVZiWVMwdXFqR01WWG45bHljVGNWNm16dnNCcjVqcGowZw?oc=5",
+   "has_text": false
+  },
+  {
+   "title": "ABC and Trump’s FCC battle in federal court over issues of free speech and jurisdiction",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUFBCcXdHTlIxS2UwVHRmWlc3YW5RSDJQdGJnWFRqTkRWeTFVVlNMREhhcmN3SEJJNHo2TWRfcFB0bjViZnNuZXZXQUJXZmh0c3FUWGdhWEdFVVpBZ1I4ME5YeTNFQTdBLTFveW5IcnBXTjQ1SUltY2RoTzhCWGxucXhkYTFFNnM0SV84NklEU3ItT1U?oc=5",
+   "summary": "ABC and Trump’s FCC battle in federal court over issues of free speech and jurisdiction AP News",
+   "published": "2026-10-06T19:06:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "aab599644cc6",
+   "article_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUFBCcXdHTlIxS2UwVHRmWlc3YW5RSDJQdGJnWFRqTkRWeTFVVlNMREhhcmN3SEJJNHo2TWRfcFB0bjViZnNuZXZXQUJXZmh0c3FUWGdhWEdFVVpBZ1I4ME5YeTNFQTdBLTFveW5IcnBXTjQ1SUltY2RoTzhCWGxucXhkYTFFNnM0SV84NklEU3ItT1U?oc=5",
+   "has_text": false
+  },
+  {
    "title": "State judge strikes down Montana’s ballot envelope birth year requirement",
    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOemJUSmN6TWJLUGhPb2poWkVITUxocTNlWElYVVhrRFVsak9jdHluT1p3ZndNSXpVRU95dXE4LU1yVGZpX2xLRVVMNUQtM0ZYT0luSlpaSmpRWDVWQ0h3eHFaN3dHczhyQVJ1Q2tMY21PTVZJV0pmWnZ2Sno2VTBNbkZtWnB2M3A3a3hraF9JUEZlalRlMTZBQXFJbWlTY1RTUDg2cmhkX1lxLWlUZXVYWlF3QWVzZ0o2OTB4UDRabTM?oc=5",
    "summary": "State judge strikes down Montana’s ballot envelope birth year requirement AP News",
@@ -4704,6 +4825,19 @@
    "has_text": true
   },
   {
+   "title": "Lawyers for ex-Olympian cleared in Reflecting Pool case call for government watchdog investigations",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQU3cyNEZVWmhHMmZ2M212S2JST1lhVVo1WXZoYWd6VjNOdmtjRjFOalBWUTR2QlppUkNfMDdIbkdycmFSbHJVS1hoZHlpWjc4R1JBMEtEVGVGLUJZM3Z3SlVNclREaDV0enVDRzd3dVphZkxLRGxiYVhKZGxEaHdRNGlyRURIdlB6cnAyUG82ZTU?oc=5",
+   "summary": "Lawyers for ex-Olympian cleared in Reflecting Pool case call for government watchdog investigations AP News",
+   "published": "2026-10-06T18:57:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "2fd1d7588539",
+   "article_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQU3cyNEZVWmhHMmZ2M212S2JST1lhVVo1WXZoYWd6VjNOdmtjRjFOalBWUTR2QlppUkNfMDdIbkdycmFSbHJVS1hoZHlpWjc4R1JBMEtEVGVGLUJZM3Z3SlVNclREaDV0enVDRzd3dVphZkxLRGxiYVhKZGxEaHdRNGlyRURIdlB6cnAyUG82ZTU?oc=5",
+   "has_text": false
+  },
+  {
    "title": "Big Ten won't discipline Maryland-Nebraska officiating crew or fine Rhule for postgame criticism",
    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSThXbzFuRXBTVk1QQVN1b3o5U2lKT3pydlB3Ql9yblBvT3FiclAtQ0lUQ0I5MmlqR1R1dGRCLXVuLUczc21lNkQ5M2p2b1dMSDhaMi1PenlrdE5KbVRCS2pBT3BHU0ZSV3BMalB5TDVvdldJWkhybnRiR1RpQTB6UkNrQ0JKNFQ1TTRhY2xZWQ?oc=5",
    "summary": "Big Ten won't discipline Maryland-Nebraska officiating crew or fine Rhule for postgame criticism AP News",
@@ -4728,6 +4862,28 @@
    "id": "78134a155c2d",
    "article_url": "https://www.bbc.co.uk/news/articles/cm62ep294qxlo?at_medium=RSS&at_campaign=rss",
    "has_text": true
+  },
+  {
+   "title": "NASA to Cover Northrop Grumman CRS-24 Spacecraft Departure",
+   "link": "https://www.nasa.gov/news-release/nasa-to-cover-northrop-grumman-crs-24-spacecraft-departure/",
+   "summary": "After delivering more than 11,000 pounds of supplies, science experiments, and other cargo to the International Space Station for NASA, Northrop Grumman’s Cygnus XL spacecraft is scheduled to depart Friday, Oct. 9, as part of the company’s Commercial Resupply Services-24 mission, or Northrop Grumman CRS-24. Watch NASA’s live coverage of undocking and departure beginning at 12:30 […]",
+   "published": "2026-10-06T18:31:40+00:00",
+   "source": "nasa",
+   "outlet": "NASA",
+   "counted": false,
+   "section": "top",
+   "id": "906e7976dadd"
+  },
+  {
+   "title": "October 2026 Satellite Puzzler",
+   "link": "https://science.nasa.gov/earth/earth-observatory/october-2026-satellite-puzzler/",
+   "summary": "Your challenge is to tell us the location of the satellite image and why it is interesting.",
+   "published": "2026-10-06T18:27:38+00:00",
+   "source": "nasa",
+   "outlet": "NASA",
+   "counted": false,
+   "section": "top",
+   "id": "813dcb58bca1"
   },
   {
    "title": "A separatist party just won power in Quebec",
@@ -4767,6 +4923,19 @@
    "id": "ce6b0447aa8d",
    "article_url": "https://www.axios.com/2026/10/06/ai-cybercrime-hacker-tools-marketplace",
    "has_text": true
+  },
+  {
+   "title": "What to know about Pedro Sánchez's bid to turn Spain's housing crunch into an electoral victory",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNGUxaU1UaUpyWkVqNXJZNTRqYnEwR0Jxenc0S2k1MmplUm92NzFlQXlWT3NNQ2oxOFVXVkVGVzZJNERhSVRla1NYSGVVU2EzMy1XRXZnTXdKV3hVNTdaell1aUFSbFVpODM0ZmM0a3NHQ1JsRzF0enJBU2RQb19PRlI4eXFYOUhPcGUyVG1pNHlQNjFOYUNoY0stQzI3RkliR3NxNlQ1Mkl2cU05b0lZ?oc=5",
+   "summary": "What to know about Pedro Sánchez's bid to turn Spain's housing crunch into an electoral victory AP News",
+   "published": "2026-10-06T17:27:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "d15bfec63fd2",
+   "article_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNGUxaU1UaUpyWkVqNXJZNTRqYnEwR0Jxenc0S2k1MmplUm92NzFlQXlWT3NNQ2oxOFVXVkVGVzZJNERhSVRla1NYSGVVU2EzMy1XRXZnTXdKV3hVNTdaell1aUFSbFVpODM0ZmM0a3NHQ1JsRzF0enJBU2RQb19PRlI4eXFYOUhPcGUyVG1pNHlQNjFOYUNoY0stQzI3RkliR3NxNlQ1Mkl2cU05b0lZ?oc=5",
+   "has_text": false
   },
   {
    "title": "Former ‘American Idol’ singer Caleb Flynn is sentenced to life in prison for wife’s murder",
@@ -5120,6 +5289,19 @@
    "has_text": true
   },
   {
+   "title": "Far-right election win leaves migrants questioning their future in eastern Germany",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUDhPN3JpU2dYckFTWW9NeG9pam5hT2c5NTZRMW5jdlJwVThxRWdpLXNyNzV2LTc1UGx2cWlva0gxcGgtT0U4eHVhVk9kanhuUTladEtIVWJma0hoS3pnQ3ZUaXl1UzRmeE5LVE9BRF9HRmlZd1FVTzR0UW9lelNUSnpEOUZnT01JQ1hLdmdZV3FkMXA2WGl6QWtPMnBDOWxmUE1nMnozdw?oc=5",
+   "summary": "Far-right election win leaves migrants questioning their future in eastern Germany AP News",
+   "published": "2026-10-06T11:40:17+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "4e01f9011f3c",
+   "article_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUDhPN3JpU2dYckFTWW9NeG9pam5hT2c5NTZRMW5jdlJwVThxRWdpLXNyNzV2LTc1UGx2cWlva0gxcGgtT0U4eHVhVk9kanhuUTladEtIVWJma0hoS3pnQ3ZUaXl1UzRmeE5LVE9BRF9HRmlZd1FVTzR0UW9lelNUSnpEOUZnT01JQ1hLdmdZV3FkMXA2WGl6QWtPMnBDOWxmUE1nMnozdw?oc=5",
+   "has_text": false
+  },
+  {
    "title": "'Ghost particles' from space telescope wins physics Nobel",
    "link": "https://www.bbc.co.uk/news/articles/cq203mymlvkeo?at_medium=RSS&at_campaign=rss",
    "summary": "Belgian physicist Prof Francis Halzen has won for his pioneering work on an observatory that detects particles from space.",
@@ -5131,19 +5313,6 @@
    "id": "ee6d7989a563",
    "article_url": "https://www.bbc.co.uk/news/articles/cq203mymlvkeo?at_medium=RSS&at_campaign=rss",
    "has_text": true
-  },
-  {
-   "title": "Far-right election win leaves migrants questioning their future in eastern Germany",
-   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUDhPN3JpU2dYckFTWW9NeG9pam5hT2c5NTZRMW5jdlJwVThxRWdpLXNyNzV2LTc1UGx2cWlva0gxcGgtT0U4eHVhVk9kanhuUTladEtIVWJma0hoS3pnQ3ZUaXl1UzRmeE5LVE9BRF9HRmlZd1FVTzR0UW9lelNUSnpEOUZnT01JQ1hLdmdZV3FkMXA2WGl6QWtPMnBDOWxmUE1nMnozdw?oc=5",
-   "summary": "Far-right election win leaves migrants questioning their future in eastern Germany AP News",
-   "published": "2026-10-06T11:17:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "4e01f9011f3c",
-   "article_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUDhPN3JpU2dYckFTWW9NeG9pam5hT2c5NTZRMW5jdlJwVThxRWdpLXNyNzV2LTc1UGx2cWlva0gxcGgtT0U4eHVhVk9kanhuUTladEtIVWJma0hoS3pnQ3ZUaXl1UzRmeE5LVE9BRF9HRmlZd1FVTzR0UW9lelNUSnpEOUZnT01JQ1hLdmdZV3FkMXA2WGl6QWtPMnBDOWxmUE1nMnozdw?oc=5",
-   "has_text": false
   },
   {
    "title": "BlackRock steps up Gulf investment",
@@ -5534,19 +5703,6 @@
    "has_text": true
   },
   {
-   "title": "Photos of Israelis marking three years since Hamas’ Oct. 7 attack as an election nears",
-   "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYnNVeXhxbHd4T1d3MTl5am1qS25Ob1EwZjZzTmxuVjc0OGhOOVE1dlVWSUxJOExTUTZqWXRFTmpZVV9tWmgxeWdENlZ4aW9qbkZMckIzSUFMa29QVXNzTEJMck4tZFZ6TUk4N3dNMi1LX0l3d3lrRG1CYUU0ajUyVC1RRnMyOEZmWmlyUlJ6MzRCc0FTXzBacUFoVUNWRVREYWZjMjBQbnlFb1BCNnJUSEFPZlE1WUxRMXJ5Yk9vU2xjNDdLM19VNHU1bjFoSENROFdxRkplSDY?oc=5",
-   "summary": "Photos of Israelis marking three years since Hamas’ Oct. 7 attack as an election nears AP News",
-   "published": "2026-10-06T05:53:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "f014943ae059",
-   "article_url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNYnNVeXhxbHd4T1d3MTl5am1qS25Ob1EwZjZzTmxuVjc0OGhOOVE1dlVWSUxJOExTUTZqWXRFTmpZVV9tWmgxeWdENlZ4aW9qbkZMckIzSUFMa29QVXNzTEJMck4tZFZ6TUk4N3dNMi1LX0l3d3lrRG1CYUU0ajUyVC1RRnMyOEZmWmlyUlJ6MzRCc0FTXzBacUFoVUNWRVREYWZjMjBQbnlFb1BCNnJUSEFPZlE1WUxRMXJ5Yk9vU2xjNDdLM19VNHU1bjFoSENROFdxRkplSDY?oc=5",
-   "has_text": false
-  },
-  {
    "title": "PHOTO ESSAY: Flamenco’s heart-wrenching wail captured in images",
    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdVFucEdBc2h4NVZuNUk2b1NPcjBvM01lcDVpX1hoN25tbDRFZ2QteGhWRjZVVk5xRjB3V1Nia0dwa1NTR2VGWm5aN2p1WHR3Tm85LUJXYXZOaVl1V1cwM2RZMlBVYXNWNlZDZmthemdOV01mdkphUGREWEUyQV9TbVdyNEVZb0lxWGVDN0tXcC1FdFhJRHZMYm00bTFrTGtma0pYbg?oc=5",
    "summary": "PHOTO ESSAY: Flamenco’s heart-wrenching wail captured in images AP News",
@@ -5557,19 +5713,6 @@
    "section": "climate",
    "id": "fc5707f3e8f8",
    "article_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdVFucEdBc2h4NVZuNUk2b1NPcjBvM01lcDVpX1hoN25tbDRFZ2QteGhWRjZVVk5xRjB3V1Nia0dwa1NTR2VGWm5aN2p1WHR3Tm85LUJXYXZOaVl1V1cwM2RZMlBVYXNWNlZDZmthemdOV01mdkphUGREWEUyQV9TbVdyNEVZb0lxWGVDN0tXcC1FdFhJRHZMYm00bTFrTGtma0pYbg?oc=5",
-   "has_text": false
-  },
-  {
-   "title": "Nicaragua torture victim imprisoned for second time after being deported by US",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSXA4UHZDMXVKSHJzSEI4SmlIZ2FRbzQtNTJMWFVsTHlGUzY2b25HLUg1ckQwdFhFcURZTVJpTVFseV91SVQzNzZHbDJzVlBBak1POXdfRlBDdlR6Z1hwcTduN0ZHTEhTWklycXVpNjdtelo3eHgtaFdPYjVjUG8yV2NfZndhVDFveEpIVmZLemhlUWR3dENjZA?oc=5",
-   "summary": "Nicaragua torture victim imprisoned for second time after being deported by US AP News",
-   "published": "2026-10-06T01:55:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "4795191a151d",
-   "article_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSXA4UHZDMXVKSHJzSEI4SmlIZ2FRbzQtNTJMWFVsTHlGUzY2b25HLUg1ckQwdFhFcURZTVJpTVFseV91SVQzNzZHbDJzVlBBak1POXdfRlBDdlR6Z1hwcTduN0ZHTEhTWklycXVpNjdtelo3eHgtaFdPYjVjUG8yV2NfZndhVDFveEpIVmZLemhlUWR3dENjZA?oc=5",
    "has_text": false
   }
  ]
