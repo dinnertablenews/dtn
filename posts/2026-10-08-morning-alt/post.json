@@ -1,0 +1,79 @@
+{
+  "slot": "2026-10-08 07:00 CT",
+  "date": "2026-10-08",
+  "category": "Economy",
+  "outlet": "Semafor",
+  "source_url": "https://www.semafor.com/article/10/07/2026/us-fed-minutes-show-bank-is-unlikely-to-hike-rates-in-october",
+  "source_domain": "semafor.com",
+  "headline": "The Fed's notes say one more rate hike. Not in October.",
+  "summary": "The Federal Reserve published the minutes of its September meeting on Wednesday. Most officials expect another rate increase this year. Last month's vote to raise was unanimous, but some wanted to cool demand and others to curb energy and AI price shocks. After a cooler jobs report and higher bond yields, markets bet on December, not October.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "What does a rate hike do to us?"
+  },
+  "cover_answer": "Borrowing costs more, so people buy less and prices slow.",
+  "table_question": "If you all vote yes for different reasons, did you agree?",
+  "photo_subject": "Marriner S. Eccles Federal Reserve Board Building",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "The grown-ups in charge of the country's money met and wrote down what they think. Last month they made borrowing money cost more, like raising the toll on a bridge so fewer cars cross, because prices in the shops keep climbing. They say they might do it once more this year. Nothing changes for you today.",
+      "why": "The toll is the whole mechanism at six. One bridge, one price, fewer cars.",
+      "why_long": "A six-year-old reasons from what is in front of them, so the script turns an interest rate into a bridge toll: raise it and fewer cars cross. That one picture carries the idea, and the minutes, the camps and December stay out. Expect \"do we have to pay the toll?\" Only people borrowing money do. We're fine."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "The Fed raised interest rates in September. Its notes, out Wednesday, show two reasons: cool spending, or fight price jumps from energy and AI. Most expect one more rise this year. A thermostat: prices run hot, so they turn borrowing colder.",
+      "why": "A thermostat they can work. They agreed on the dial, not the cause.",
+      "why_long": "This age is working out cause and effect, and the script hands them a chain: prices climb, the Fed makes borrowing dearer, spending cools, prices slow. The thermostat is a mechanism they can work. The twist is one vote with two reasons behind it, a fairness puzzle they chew on. Expect \"so will prices go down?\" No. Slower climbing is the aim."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "If a committee votes the same way for different reasons, did it agree? The Fed's minutes show a unanimous hike with two camps: one fighting demand, one fighting energy and AI price shocks. Second: a former Fed president says bond yields rose first. Who really sets rates?",
+      "why": "A vote and its reasons come apart. Let them find the seam.",
+      "why_long": "A teenager can reason about what is not in front of them, so the script separates a vote from its reasons and asks whether unanimity means agreement. The second question hands them a market that moved before the Fed did, and a former Fed president saying that end matters more. Expect \"why does AI raise prices?\" The articles don't say."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "What is the Fed?",
+        "a": "A team of grown-ups in charge of the country's money. When prices climb too fast, they make borrowing cost more to slow things down."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "What does a rate hike do to us?",
+        "a": "Borrowing costs more, so people spend less and prices climb more slowly."
+      },
+      {
+        "q": "Why not raise again in October?",
+        "a": "A weaker jobs report and higher bond yields argued for a pause. Markets bet on December."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Who actually decides interest rates?",
+        "a": "The committee votes. A former Fed president says bond yields rose first."
+      },
+      {
+        "q": "Why does AI push prices up?",
+        "a": "The articles don't say how. Officials put AI beside energy as a price shock."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#FederalReserve",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 12,
+    "13-17": 16
+  },
+  "photo": "data/images/2026-10-08-morning-alt.jpg",
+  "photo_credit": "Photo: Federalreserve, Wikimedia Commons, Public domain",
+  "caption": "Borrowing costs more, so people buy less and prices slow.\n\nThe Federal Reserve published the minutes of its September meeting on Wednesday. Most officials expect another rate increase this year. Last month's vote to raise was unanimous, but some wanted to cool demand and others to curb energy and AI price shocks. After a cooler jobs report and higher bond yields, markets bet on December, not October.\n\nSource: Semafor\nPhoto: Federalreserve, Wikimedia Commons, Public domain\n\nSwipe for what to say at age 6, at 12, and at 16.\n\nThe dinner table question: If you all vote yes for different reasons, did you agree? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #FederalReserve #DinnerTableNews"
+}
