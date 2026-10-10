@@ -1,0 +1,80 @@
+{
+  "slot": "2026-10-10 12:00 CT",
+  "date": "2026-10-10",
+  "category": "Climate",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/c3vgx4450v2lo",
+  "source_domain": "bbc.com",
+  "headline": "Isaias hit Florida at 110 mph. The year's first hurricane.",
+  "summary": "Hurricane Isaias came ashore on Florida's Panhandle on Friday evening with 110 mph winds, a category 2. Florida, Alabama and Georgia declared emergencies. Forecasters warned of storm surge up to 9 feet. More than 350,000 homes in Florida and 170,000 in Alabama lost power. It is the Atlantic's first hurricane this year, the latest start in 30 years.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "Why no hurricanes until October?"
+  },
+  "cover_answer": "El Niño held the season back. This one came in at 110 mph.",
+  "table_question": "Would you stay in your house if everyone on your street left?",
+  "photo_subject": "Hurricane Isaias (2026)",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": false,
+      "script": "A big storm called Hurricane Isaias hit Florida last night, with wind faster than a car on the highway. Most families drove away before it came. One man stayed and put his ducks and chickens in the bathroom. The storm gets weaker over land, and the grown-ups have it.",
+      "why": "One storm, one man, ducks in the bathroom. Weaker over land is the ending they keep.",
+      "why_long": "A six-year-old takes one vivid feature for the whole event, and with a storm the vivid feature on a screen is the wave. The script hands over a different one, the man who put his ducks in the bathroom, and a car on the highway for the wind. Expect \"could it come here?\" Get a map out and show them Florida, then where you are."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "El Niño in the Pacific kept the Atlantic quiet until October, the latest start in 30 years. Then Isaias came ashore in Florida at 110 mph, moving fast enough to carry wind deep into Alabama and Georgia. A storm on land is a car with the engine cut: it coasts, then stops.",
+      "why": "A late start, a fast storm, a coasting car. One chain.",
+      "why_long": "This age builds chains of cause and effect, so the script runs one: warm water makes hurricanes, El Niño delayed them, this one arrived fast and carries inland. The car with its engine cut is why it weakens over land. Expect \"why don't people just leave?\" Most did. Some stayed to guard their homes, and the forecasters said that was the wrong call."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Why no Atlantic hurricane until October? The BBC says El Niño held the season back, then Isaias hit Florida at 110 mph. Second: a man in Navarre stayed while his street left. \"We get them all the time.\" Who owns that risk, him or the governor?",
+      "why": "A late season and a man who stayed. Hold both.",
+      "why_long": "A teenager can hold two true things at once: one quiet season proves nothing, and a 110 mph storm in October is still a fact to reason from. The script adds a man who stayed against the advice and asks who owns that risk. Argument is practised, so let them argue his side first. Expect \"is this climate change?\" The articles name only El Niño."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Could the storm come to our house?",
+        "a": "Hurricanes need warm ocean to live. This one is in Florida and gets weaker every hour over land. Look at a map together."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "What is a storm surge?",
+        "a": "The storm pushes the sea up onto the land. Forecasters said up to 9 feet of it, about as high as a one-storey house."
+      },
+      {
+        "q": "Why do some people stay?",
+        "a": "One man in Navarre told the BBC he gets hurricanes all the time and had tied everything down. Forecasters said leave early."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why no hurricanes until October?",
+        "a": "El Niño in the Pacific delayed the Atlantic season, the BBC says. The latest first hurricane in 30 years."
+      },
+      {
+        "q": "Is it climate change?",
+        "a": "The articles don't say. They name El Niño, a Pacific warm-water pattern, for the late start."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#HurricaneIsaias",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 9,
+    "13-17": 15
+  },
+  "photo": "data/images/2026-10-10-noon.jpg",
+  "photo_credit": "Photo: VIIRS Imagery from NOAA’s NOAA-21 Satellite, Wikimedia Commons, Public domain",
+  "caption": "El Niño held the season back. This one came in at 110 mph.\n\nHurricane Isaias came ashore on Florida's Panhandle on Friday evening with 110 mph winds, a category 2. Florida, Alabama and Georgia declared emergencies. Forecasters warned of storm surge up to 9 feet. More than 350,000 homes in Florida and 170,000 in Alabama lost power. It is the Atlantic's first hurricane this year, the latest start in 30 years.\n\nSource: BBC News\nPhoto: VIIRS Imagery from NOAA’s NOAA-21 Satellite, Wikimedia Commons, Public domain\n\nSwipe for what to say at age 6, at 9, and at 15.\n\nThe dinner table question: Would you stay in your house if everyone on your street left? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #HurricaneIsaias #DinnerTableNews"
+}
