@@ -1809,5 +1809,27 @@
   "publish_run": 38008847102,
   "published": "https://www.instagram.com/p/DeS1nt3FqbR/",
   "published_at": "2026-10-10T00:51:31+0000"
+ },
+ {
+  "slug": "2026-10-10-morning",
+  "slot": "morning",
+  "date": "2026-10-10",
+  "category": "World",
+  "headline": "Navi Pillay, 85, wins the Nobel Peace Prize",
+  "cluster_headline": "South African-born jurist Navi Pillay wins Nobel Peace Prize for her work in international justice",
+  "outlet": "BBC News",
+  "photo": false,
+  "photo_subject": "Navi Pillay",
+  "cover_band": "8-12",
+  "publish_target": "2026-10-10T07:06-05:00",
+  "chosen": "primary",
+  "alternate": {
+   "folder": "posts/2026-10-10-morning-alt",
+   "category": "Government",
+   "headline": "Trump names his sixth press secretary",
+   "photo": false,
+   "photo_subject": "Katie Zacharia"
+  },
+  "note": "Run fired at 06:12 CT for the 07:00 morning slot; target drawn once at 06:12 CT: 07:06. Rule 3 count: the last Good news entry is 2026-10-08-evening (the Lincoln) and three stories have run since (2026-10-09 morning, noon and evening), so this slot is not the positive one; the count carries at 3 and noon is the fifth. Rule 4: #1 (AP News, Axios, BBC News, PBS NewsHour, Semafor, The Hill; 6 outlets, 10 items) is Navi Pillay's Nobel Peace Prize. It did not run yesterday evening (the diesel deal did; the prize was the alternate at all three of yesterday's slots and never ran, so it stays fair game), so the morning takes it. World, lead subject Navi Pillay. Rule 2: first slot of the day, nothing to clash with. Rule 6: not a hard story, no shield. Rule 1 for the rest: #2 the diesel deal ran 2026-10-09-evening, #3 the Fort Hood livestream ran 2026-10-09-morning, #4 the ICE shooting in New York ran 2026-10-09-noon. Written from the BBC News profile (85, bus driver's daughter in a poor Indian section of Durban, first non-white woman on the high court, the Rwanda tribunal and four years as its president, the Gaza inquiry and its genocidal-acts finding, Israel's 'grotesque weaponisation' and 'genoLIE', Frydnes's 'absolute necessity' and the committee taking no position, 'it must be a joke', the Trump clap line) with the BBC News report on Trump's Syracuse rally ('never heard' of the 'mystery person', 'indelible stain on the country of Norway', 'disgraceful and embarrassing') and the BBC News and PBS NewsHour items on the ICC sanctions hours later. Today's cluster has only the PBS segment blurb and the BBC video blurb as text, so the run leaned on the BBC articles still in data/articles.json from yesterday's cluster; same story, same outlets. Photo: none. The Commons image of Navi Pillay is 730x940, under the 800px floor (the 2026-10-09-noon run's dispatch), so it was not dispatched again; photo_subject recorded for provenance. The last two entries were no photo then photo, and the last three subjects were none, none, Donald Trump. Alternate: #5 (AP News, Axios, BBC News, The Hill; 4 outlets, 5 items), Katie Zacharia named White House press secretary, Government, the highest remaining cluster of another category; it passes rules 1, 2 and 6 and is not a hard story. #6, Hurricane Isaias making landfall (3 outlets), ranks one below it. Written from the BBC News text (42, four children, sixth chief spokesperson across two administrations, Trump Media since June, DHS February to March, the UFC quotes, Leavitt left in August and reportedly to Fox News) with the Axios text (about two months at DHS, Fox News, CNN, Newsmax and OAN, the 'huge fan of ICE' line). Photo: commons.yml dispatched for Katie Zacharia; the Wikipedia article has no infobox image, so no photo. Cover band 8-12, next after yesterday evening's 5-7; both posts share it. The primary's 8-12 and 13-17 cards took two passes of shortening (script, why line, Try answers) for TOO LOW; the alternate's took the same two passes, and its cover question was cut from 41 to 28 characters when it ran to three lines. The 5-7 why lines on both posts were changed from six to seven after the render drew 7. Reel built for the primary, exit 0, 14.5 seconds, rebuilt after the last edit so it matches post.json. All ten slides looked at; headlines and cover questions two lines each."
  }
 ]
