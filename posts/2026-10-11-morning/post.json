@@ -1,0 +1,77 @@
+{
+  "slot": "2026-10-11 07:00 CT",
+  "date": "2026-10-11",
+  "category": "Government",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/cmlyle97pqd7o",
+  "source_domain": "bbc.com",
+  "headline": "Christa Pike survived. She's back in prison.",
+  "summary": "Christa Pike left hospital on Saturday and went back to the Tennessee prison where she has spent 30 years, her lawyers say. She survived two doses of pentobarbital on 30 September and woke on Tuesday asking \"Where am I?\" The state's lawyer told a judge he does not know whether it will try again. The governor has ordered a review.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "Can they try to execute her again?"
+  },
+  "cover_answer": "Nobody knows. The state's own lawyer says he doesn't.",
+  "table_question": "Does surviving a punishment mean you've served it?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": true,
+      "script": "A woman in Tennessee hurt someone very badly, long before you were born. The state tried to end her life as a punishment, and it didn't work, so she went to a hospital. After ten days, about the length of a school holiday, she went back to the prison where she has lived for 30 years. The grown-ups have it, far from us.",
+      "why": "If it reaches them, leave a hospital and a long way off. The needle never appears.",
+      "why_long": "A child this age takes one vivid feature for the whole event, so this script's one feature is ten days with doctors, far away, then a return to the place she already lived. The needle never appears. Expect \"is she better now?\" Not all the way. Her lawyers say she still needs care, and the prison's doctors have her."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "Tennessee gave Christa Pike two doses of pentobarbital on 30 September, and she kept breathing. Ten days in hospital, then back to prison on Saturday. A judge told the state to keep all the evidence, like a referee keeping the match footage. The state's lawyer doesn't know if it will try again.",
+      "why": "Two doses, ten days, a judge keeping the tape: one chain.",
+      "why_long": "This age is working out cause and effect, so the script runs one chain: two doses, ten days in hospital, a judge ordering the evidence kept. The referee holding the footage is the mechanism they know. Expect \"can they do it again?\" The state's lawyer says he doesn't know. The governor called off the next one while a review runs."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "If a state cannot say why its execution failed, should it get a second try? Tennessee gave Christa Pike two doses of pentobarbital on 30 September. Saturday she went back to prison. Second: a judge ordered the evidence kept for a possible lawsuit. Can a state owe her?",
+      "why": "She killed Colleen Slemmer, and the state could not finish. Hold both.",
+      "why_long": "A teenager can hold two true things at once: Pike killed Colleen Slemmer, 19, and the state cannot say what it will do now that its method failed. The script leads with the open question, then the lawsuit the judge's order allows. Expect \"would you let them try again?\" Answer straight, then take the other side yourself."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Did she die?",
+        "a": "No. Doctors cared for her for ten days, and she is back in the prison where she lives. The grown-ups decide what comes next."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Can they try to execute her again?",
+        "a": "Nobody knows. Tennessee's lawyer told a judge he doesn't know what the state intends."
+      },
+      {
+        "q": "Why didn't it work?",
+        "a": "The articles don't say. The governor has ordered a review."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Has anyone else survived one?",
+        "a": "The BBC says she is believed to be the only person ever to survive one."
+      },
+      {
+        "q": "What did she do?",
+        "a": "In 1995, at 18, she and her boyfriend tortured and killed Colleen Slemmer, 19."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#ChristaPike",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 9,
+    "13-17": 16
+  },
+  "caption": "Nobody knows. The state's own lawyer says he doesn't.\n\nChrista Pike left hospital on Saturday and went back to the Tennessee prison where she has spent 30 years, her lawyers say. She survived two doses of pentobarbital on 30 September and woke on Tuesday asking \"Where am I?\" The state's lawyer told a judge he does not know whether it will try again. The governor has ordered a review.\n\nSource: BBC News\n\nSwipe for what to say at age 6, at 9, and at 16.\n\nThe dinner table question: Does surviving a punishment mean you've served it? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #ChristaPike #DinnerTableNews"
+}

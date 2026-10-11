@@ -1,0 +1,77 @@
+{
+  "slot": "2026-10-11 07:00 CT",
+  "date": "2026-10-11",
+  "category": "Culture",
+  "outlet": "Axios",
+  "source_url": "https://www.axios.com/2026/10/11/youth-sports-sunday-morning-church-attendance",
+  "source_domain": "axios.com",
+  "headline": "Youth sports took Sunday morning. Churches adjust.",
+  "summary": "Among parents of children aged 5 to 17, Sunday religious participation fell from 26.8% in 2003-07 to 16.7% in 2021-24, by Axios's reading of the American Time Use Survey. Youth sports participation reached 58% in 2024, a third straight rise. Tournaments run pool play Saturday, finals Sunday. One pastor says families split: a parent in the pew, one at the field.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "Why are the finals always on Sunday?"
+  },
+  "cover_answer": "Pool play fills Saturday. The finals take the next day.",
+  "table_question": "If two things you love land on the same morning, who picks?",
+  "ages": {
+    "5-7": {
+      "chip": "Good one to bring up",
+      "shield": false,
+      "script": "More kids play on a team now than ever: 58 of every 100, more than half your class. The big games often land on Sunday morning, which used to be when many families went to church. Some families split up, one grown-up in the pew and one on the sideline. Our Sunday is ours to plan, and you're in it.",
+      "why": "Half the class is a number they can see. The split-up family is the whole story.",
+      "why_long": "A child this age reasons from what is in front of them, so the script turns 58% into half the kids in their class, a crowd they can picture, and makes the story one family's Sunday rather than a religious shift. Expect \"do we have to pick?\" Say what your family does and why. The pastor in the story says some send one parent each way."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Youth sports is a multi-billion-dollar industry. Its tournaments play Saturday for early rounds and Sunday for finals. Parents' Sunday church attendance fell from 27% to 17% in twenty years. The calendar is a thermostat: what is set to Sunday decides where everyone goes.",
+      "why": "Tournament, calendar, church: one chain.",
+      "why_long": "This age is working out chains of cause and effect, so the script runs one: tournaments put finals on Sunday, families follow the schedule, church attendance among parents drops. The thermostat is the mechanism: whatever is set first decides the room. Expect \"is it bad to miss church for a game?\" One pastor says if sports beat worship, everything will."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Is a travel team a community, or a customer base? The average sports family spent $1,016 on one child's main sport in 2024, up 46% on 2019, and Sunday church attendance among parents fell by over a third in twenty years. Second: one parent at church, one at the field. Is that Sunday either?",
+      "why": "Community or customer base is a real argument. Let them run it.",
+      "why_long": "A teenager can hold two true things at once: the team gives a family the belonging a church once did, and someone is selling that belonging at $1,016 a year. The script hands them both, with the numbers, and asks which one they are standing in. Expect \"are you saying I should quit?\" No. Ask what the team gives them that nothing else does, and listen."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Why can't the games be on Saturday?",
+        "a": "The early rounds are on Saturday. The finals need another day, and Sunday is what's left of the weekend."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why are the finals always on Sunday?",
+        "a": "Saturday is pool play, so every team gets games. Sunday is the knockouts."
+      },
+      {
+        "q": "How many kids play sports now?",
+        "a": "58% in 2024, the Aspen Institute's count, the third rise in a row."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Is the church side exaggerating?",
+        "a": "Axios read the government's time-use survey: 26.8% to 16.7% of parents."
+      },
+      {
+        "q": "Why does it cost so much?",
+        "a": "Tournaments across a region: fees, hotels, meals. Aspen: $1,016 per child in 2024."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#YouthSports",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 11,
+    "13-17": 17
+  },
+  "caption": "Pool play fills Saturday. The finals take the next day.\n\nAmong parents of children aged 5 to 17, Sunday religious participation fell from 26.8% in 2003-07 to 16.7% in 2021-24, by Axios's reading of the American Time Use Survey. Youth sports participation reached 58% in 2024, a third straight rise. Tournaments run pool play Saturday, finals Sunday. One pastor says families split: a parent in the pew, one at the field.\n\nSource: Axios\n\nSwipe for what to say at age 7, at 11, and at 17.\n\nThe dinner table question: If two things you love land on the same morning, who picks? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #YouthSports #DinnerTableNews"
+}
