@@ -1,0 +1,77 @@
+{
+  "slot": "2026-10-11 12:00 CT",
+  "date": "2026-10-11",
+  "category": "Security",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/ckp8gyd65z2go",
+  "source_domain": "bbc.com",
+  "headline": "Three attacks on Polish schools. 117 arrests.",
+  "summary": "Three attacks on Polish schools in one week left a caretaker dead and others hurt, children among them. Police then searched tens of thousands of schools and arrested 117 people for carrying knives or threatening attacks. Prime Minister Donald Tusk said Sunday the attacks were spontaneous, inspired by the glorification of violence online.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "Is it the internet's fault?"
+  },
+  "cover_answer": "Tusk says it inspired them. It didn't hold the knife.",
+  "table_question": "Does watching something cruel change you, or just pass the time?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": true,
+      "script": "In Poland, a country across the whole Atlantic Ocean from here, some people hurt others at three schools this week. So the police went to visit schools all over the country, thousands of them, to check that everyone was safe. The grown-ups there have it, and the police are still checking.",
+      "why": "If it reaches them, an ocean away and police at every school. No knife, no name.",
+      "why_long": "A child this age takes one vivid feature for the whole event and reads your face before your words, so if this reaches them the one feature is police visiting every school, an ocean away. No knife, no caretaker, no age of the attacker. Expect \"could that happen at my school?\" Say what your school's plan is, and that the grown-ups run it."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "Three attacks at Polish schools in a week: nine hurt, a caretaker killed. Police then searched tens of thousands of schools and arrested 117 people for knives or threats. Tusk says the attackers copied violence celebrated online. A fire drill after a real fire, everywhere at once.",
+      "why": "Attacks, sweep, arrests: one chain. The fire drill is the mechanism.",
+      "why_long": "This age is working out cause and effect, so the script runs one chain: three attacks, a nationwide search, 117 arrests, a prime minister naming a cause. The fire drill after a real fire is the mechanism they know. Expect \"why did a kid do it?\" Tusk says they copied violence celebrated online. His answer, not a proven one."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Tusk says the attackers were inspired by killers who became idols online. Who is to blame? Three school attacks in a week, a caretaker dead, then 117 arrests in a school sweep. Second: the sweep followed a 'Bloody Friday' rumour. Does a rumour earn thousands of police?",
+      "why": "Blame the feed or the hand. Then: does a rumour earn a sweep?",
+      "why_long": "A teenager can hold two true things at once: online glorification of violence can shape what a 15-year-old does, and the 15-year-old still did it. The script hands them that, then a sweep set off partly by a rumour. Expect \"do you think the internet does that to me?\" Say what you think, and ask what they've seen celebrated."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Could that happen at my school?",
+        "a": "This was far away in Poland. Your school has its own plan to keep you safe, and the grown-ups run it."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why did they arrest 117 people?",
+        "a": "The 117 had knives or weapons, or had made threats, police say."
+      },
+      {
+        "q": "Were kids hurt?",
+        "a": "Yes. The BBC says children are among the injured. Nine were hurt at one school on Wednesday."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Is it the internet's fault?",
+        "a": "Tusk says online glorification of violence inspired them, not a group."
+      },
+      {
+        "q": "Was it a real online challenge?",
+        "a": "The BBC calls 'Bloody Friday' a rumour of a supposed challenge. Police visited schools to calm pupils."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#Poland",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 9,
+    "13-17": 16
+  },
+  "caption": "Tusk says it inspired them. It didn't hold the knife.\n\nThree attacks on Polish schools in one week left a caretaker dead and others hurt, children among them. Police then searched tens of thousands of schools and arrested 117 people for carrying knives or threatening attacks. Prime Minister Donald Tusk said Sunday the attacks were spontaneous, inspired by the glorification of violence online.\n\nSource: BBC News\n\nSwipe for what to say at age 7, at 9, and at 16.\n\nThe dinner table question: Does watching something cruel change you, or just pass the time? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #Poland #DinnerTableNews"
+}

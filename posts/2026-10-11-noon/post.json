@@ -1,0 +1,80 @@
+{
+  "slot": "2026-10-11 12:00 CT",
+  "date": "2026-10-11",
+  "category": "Health",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/c6m2dnngvw8xo",
+  "source_domain": "bbc.com",
+  "headline": "The Pope has a lump on his lung. Surgery in days.",
+  "summary": "Pope Leo XIV told the crowd at Sunday prayers in St Peter's Square that doctors found a small nodule on his lung during a check-up. He is 71. He called it early and well-contained, and said his doctors want to operate within days. The Vatican says the surgery is at Gemelli Hospital in Rome and recovery takes about a week.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "Why announce it before the surgery?"
+  },
+  "cover_answer": "He wanted their prayers, so he asked for them in person.",
+  "table_question": "If you had bad news about yourself, who would you tell first?",
+  "photo_subject": "Pope Leo XIV",
+  "ages": {
+    "5-7": {
+      "chip": "Good one to bring up",
+      "shield": false,
+      "script": "The Pope stood in front of a crowd in Rome on Sunday and said doctors found a small lump on his lung, one of the two balloons in your chest that fill when you breathe in. They caught it early and will take it out in hospital in a few days. He should take about a week to get better, one school week, and the doctors have it.",
+      "why": "A balloon and a school week: two things they can picture. No word the article doesn't use.",
+      "why_long": "A child this age reasons from what is in front of them, so the script gives them a balloon for the lung and a school week for the recovery, two things they can picture, and uses no word the article doesn't. Expect \"is he going to die?\" No. His doctors found it early and expect him to recover in about a week."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Pope Leo, 71, had a routine check-up and doctors spotted a nodule on his lung. Early and well-contained, he says, so his doctors want it out now. It's a smoke alarm at the first wisp: deal with it while it's small. Surgery in Rome in days, then about a week to recover.",
+      "why": "Check-up, nodule, surgery, a week: one chain. The alarm is why early matters.",
+      "why_long": "This age is working out chains of cause and effect, so the script runs one: a check-up, a nodule spotted early, doctors acting now, a week to recover. The smoke alarm is the mechanism: deal with it while it is small. Expect \"how do you get a lump on your lung?\" The article doesn't say, and that is the honest answer."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Why tell a square full of strangers about a lump on your lung before your own surgery? Pope Leo, 71, did, at Sunday prayers, and asked for their prayers. Second: his doctors call it early and well-contained, a week to recover. Does telling people first make bad news smaller?",
+      "why": "Say it out loud or keep it private: a real argument.",
+      "why_long": "A teenager can hold two true things at once: a lump on the lung is frightening, and early, well-contained and a week's recovery is what his doctors say. The script leads with his choice to tell the square himself, which they will argue about, then the facts. Expect \"would you tell us if it were you?\" Answer that straight."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Is the Pope going to die?",
+        "a": "No. The doctors found it early, and they expect him to be better in about a week."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "How do you get a lump on your lung?",
+        "a": "The article doesn't say. Doctors found it at a check-up, and he calls it early and well-contained."
+      },
+      {
+        "q": "Where will they do the surgery?",
+        "a": "Gemelli Hospital in Rome. It has kept a special suite for popes since 1981."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why announce it before the surgery?",
+        "a": "He asked the crowd for prayers and said he entrusted himself to them."
+      },
+      {
+        "q": "Is it cancer?",
+        "a": "The BBC doesn't say. He calls it early and well-localised, and his doctors chose to operate."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#PopeLeo",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 8,
+    "13-17": 16
+  },
+  "photo": "data/images/2026-10-11-noon.jpg",
+  "photo_credit": "Photo: Edgar Beltrán, The Pillar, Wikimedia Commons, CC BY-SA 4.0",
+  "caption": "He wanted their prayers, so he asked for them in person.\n\nPope Leo XIV told the crowd at Sunday prayers in St Peter's Square that doctors found a small nodule on his lung during a check-up. He is 71. He called it early and well-contained, and said his doctors want to operate within days. The Vatican says the surgery is at Gemelli Hospital in Rome and recovery takes about a week.\n\nSource: BBC News\nPhoto: Edgar Beltrán, The Pillar, Wikimedia Commons, CC BY-SA 4.0\n\nSwipe for what to say at age 7, at 8, and at 16.\n\nThe dinner table question: If you had bad news about yourself, who would you tell first? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #PopeLeo #DinnerTableNews"
+}
