@@ -1,0 +1,77 @@
+{
+  "slot": "2026-10-12 12:00 CT",
+  "date": "2026-10-12",
+  "category": "Government",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/cvp8glg97393o",
+  "source_domain": "bbc.com",
+  "headline": "Omar's home searched. No one will say why.",
+  "summary": "Homeland Security Investigations agents searched Rep. Ilhan Omar's home near Washington on Monday morning with a warrant a judge had signed. The Justice Department calls it part of a criminal investigation and will say nothing more. Omar, a Minnesota Democrat, is up for re-election in 22 days. She has called the probes into her shams.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "Can they search her home?"
+  },
+  "cover_answer": "Yes, with a judge's warrant. They had one.",
+  "table_question": "If a rule is legal but the timing looks bad, is it fair?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": false,
+      "script": "Officers went into the house of a woman called Ilhan Omar on Monday. She helps make the laws for the whole country, the way a teacher helps make the rules for a class. They are checking something and have not said what. Checking is not the same as being in trouble. The grown-ups have it.",
+      "why": "A lawmaker as a teacher, and checking is not trouble. That is the whole lesson.",
+      "why_long": "A six-year-old reasons from what is in front of them and reads a parent's face first, so the script makes Omar a teacher who helps write the rules, and turns the search into checking, a word they know from school. Expect \"is she going to jail?\" No one has said she did anything wrong. The agents will not say what they are checking."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "Federal agents searched Rep. Ilhan Omar's home on Monday. They needed a warrant, a judge's permission slip: show a reason, get a signature, then search. The Justice Department says it is a criminal investigation and won't say what about. Omar calls it a sham. Her election is in 22 days.",
+      "why": "The warrant is the permission slip.",
+      "why_long": "This age is working out rules and whether adults apply them evenly, so the script gives them the warrant as a permission slip, a reason, a signature, then a search, with both sides and the election date set out plainly. Expect \"did she do it?\" Nobody has said what she is accused of. A warrant means a judge saw a reason, not guilt."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Should the government search a candidate's home 22 days before her election? Agents had a judge's warrant, so it was legal. Justice Department policy says to avoid actions that look like they affect a vote. Second: Vance said in May he was looking for a way to investigate her. Does that change it?",
+      "why": "Legal and badly timed. Then Vance.",
+      "why_long": "A teenager can hold two true things at once: the search was legal, and the department's own policy says to avoid actions that look like they touch an election. The script sets Vance's words from May beside Monday's search and lets them weigh it. Expect \"so it is political?\" The articles do not say. Vance said they were looking."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Did she do something bad?",
+        "a": "Nobody knows. Officers looked in her house to check something. Checking is not the same as being in trouble."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why did they search her house?",
+        "a": "A criminal investigation, they say, and no more. A judge signed off."
+      },
+      {
+        "q": "What is a warrant?",
+        "a": "A judge's permission slip. Agents show a reason before they search."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Can they search her home?",
+        "a": "Yes, with a judge's warrant, and they had one. The question is why now."
+      },
+      {
+        "q": "Is this political?",
+        "a": "Vance said in May they were working out how to investigate her."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#IlhanOmar",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 11,
+    "13-17": 14
+  },
+  "caption": "Yes, with a judge's warrant. They had one.\n\nHomeland Security Investigations agents searched Rep. Ilhan Omar's home near Washington on Monday morning with a warrant a judge had signed. The Justice Department calls it part of a criminal investigation and will say nothing more. Omar, a Minnesota Democrat, is up for re-election in 22 days. She has called the probes into her shams.\n\nSource: BBC News\n\nSwipe for what to say at age 6, at 11, and at 14.\n\nThe dinner table question: If a rule is legal but the timing looks bad, is it fair? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #IlhanOmar #DinnerTableNews"
+}

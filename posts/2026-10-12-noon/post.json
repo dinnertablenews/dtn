@@ -1,0 +1,77 @@
+{
+  "slot": "2026-10-12 12:00 CT",
+  "date": "2026-10-12",
+  "category": "World",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/world/saudis-probe-how-defense-systems-failed-to-stop-deadly-houthi-attack-on-riyadh-airport",
+  "source_domain": "pbs.org/newshour",
+  "headline": "A missile hit Riyadh's airport. 13 dead.",
+  "summary": "A Houthi missile hit a passenger terminal at Riyadh's airport on Saturday. Thirteen people died and more than 300 were hurt, the deadliest attack on a Gulf state since the Iran war began. The missiles flew more than 600 miles from Yemen. Saudi Arabia has opened an investigation into why its air defenses did not stop them.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "Why didn't the air defenses stop it?"
+  },
+  "cover_answer": "The Saudis don't know yet. Drones went in first.",
+  "table_question": "If the shield fails once, do you fix the shield or hit back?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": true,
+      "script": "A missile hit an airport in Saudi Arabia, a country so far away it takes a whole day to fly there. Some people were hurt and some died. The airport is closed while grown-ups work out how it happened. You are safe here, and the grown-ups have it.",
+      "why": "One place, far away, and a closed door. Nothing they have to carry.",
+      "why_long": "A six-year-old reads your face before your words and takes one vivid feature for the whole event, so the script gives them distance, a day's flight, and a door shut while adults check. It never describes the hit. Expect \"could it happen here?\" No. This is a war between Yemen and Saudi Arabia."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "The Houthis, a group in Yemen at war with Saudi Arabia, fired drones and missiles at the airport in Riyadh. They flew more than 600 miles and got past the defenses built to stop them. Thirteen people died. Now the Saudis go to the replay, like a referee, to see what failed.",
+      "why": "Missile, defenses, failure, review. The replay is the check.",
+      "why_long": "This age is working out chains of cause and effect, so the script hands them one: a group at war, missiles that fly 600 miles, defenses that missed, a review. The referee's replay is a check on a call that went wrong. Expect \"why an airport?\" The Houthis want airlines to stop flying to Saudi Arabia."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Why does a country with Patriot missiles let one through? Drones went in first, then missiles that change course in the air, and the Saudis are low on interceptors. Thirteen people died at Riyadh's airport on Saturday. Second: Trump says he may send US strikes. Should he?",
+      "why": "Drones, missiles, an empty quiver. Then the US.",
+      "why_long": "A teenager can hold two true things at once: the defenses were there, and they failed. The script gives the probe's sequence, drones, then missiles, then interceptors running low, before the harder question, whether the US should join. Expect \"will we go to war?\" Trump says he is looking at it. Nothing is decided."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Could a missile hit our airport?",
+        "a": "No. This happened in Saudi Arabia, a day's flight away. Our airport is fine, and you are safe."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why would anyone attack an airport?",
+        "a": "The Houthis are at war with Saudi Arabia and want planes to stop flying there."
+      },
+      {
+        "q": "Is the airport still open?",
+        "a": "No. It was closed Monday, and city office workers stayed home."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why didn't the air defenses stop it?",
+        "a": "Drones first, then missiles that change course mid-flight. The Saudis are checking."
+      },
+      {
+        "q": "Will the US get into this fight?",
+        "a": "Trump says he is looking at it. The US has not struck the Houthis itself."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#RiyadhAirport",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 8,
+    "13-17": 16
+  },
+  "caption": "The Saudis don't know yet. Drones went in first.\n\nA Houthi missile hit a passenger terminal at Riyadh's airport on Saturday. Thirteen people died and more than 300 were hurt, the deadliest attack on a Gulf state since the Iran war began. The missiles flew more than 600 miles from Yemen. Saudi Arabia has opened an investigation into why its air defenses did not stop them.\n\nSource: PBS NewsHour\n\nSwipe for what to say at age 6, at 8, and at 16.\n\nThe dinner table question: If the shield fails once, do you fix the shield or hit back? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #RiyadhAirport #DinnerTableNews"
+}
