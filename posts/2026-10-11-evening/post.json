@@ -1,0 +1,80 @@
+{
+  "slot": "2026-10-11 20:00 CT",
+  "date": "2026-10-11",
+  "category": "World",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/world/trump-claims-russia-and-ukraine-agree-to-energy-ceasefire-despite-continued-attacks",
+  "source_domain": "pbs.org/newshour",
+  "headline": "Trump posts a ceasefire. Hours later, Kharkiv is hit.",
+  "summary": "Trump posted Sunday that Russia and Ukraine had agreed to stop striking each other's energy sites. He gave no details. Zelensky said it was news to him, then said Ukraine would hold off if Russia did. Hours later a Russian strike hit a power plant in Kharkiv. Moscow has not commented. He made the same claim on September 14.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Does that mean the war is over?"
+  },
+  "cover_answer": "No. One side kept firing the same night.",
+  "table_question": "Would you stop fighting first, before the other kid agrees to?",
+  "photo_subject": "Donald Trump",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": false,
+      "script": "Russia and Ukraine have been at war for four and a half years, and lately they hit each other's power plants, the big machines that make electricity for a city's lights. On Sunday our president said both sides agreed to stop. Ukraine said it would if Russia did. Russia kept going that night, and the grown-ups are still talking.",
+      "why": "Power plants and lights: one thing they can picture. The six dead stay out.",
+      "why_long": "A child this age takes one vivid feature for the whole event, so the script hands them power plants and the lights they run, and leaves out the six dead. They read your face before your words, so say it flat. Expect \"does that mean the war is over?\" No. Russia hasn't answered, and the grown-ups are still talking."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Trump wants Ukraine to stop hitting Russian oil refineries; he says the strikes push up US diesel prices. Sunday he posted that both sides had agreed to stop. Ukraine said yes if Russia does. Russia said nothing, then hit a Kharkiv power plant. A ceasefire is a handshake: it takes two hands.",
+      "why": "One chain, then the handshake: two hands or nothing.",
+      "why_long": "This age is working out cause and effect and whether rules bind everyone, so the script runs the chain: a post declaring a truce, Ukraine's yes, a strike on Kharkiv the same night. The handshake is the mechanism, two hands or nothing. Expect \"can he just say there's a ceasefire?\" He can say it. It's real when both stop."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Can a ceasefire exist because another country's president posts that it does? Trump wrote Sunday: \"Do not break it!\" Ukraine said yes if Russia did; Russia said nothing. Second: the White House calls it \"refinery for refinery.\" Ukraine has one refinery. Russia has a vast network. Fair trade?",
+      "why": "Who can declare a truce, and is one-for-one fair here.",
+      "why_long": "A teenager can hold two true things at once: Ukraine welcomed the announcement, and Russia hit a power plant that night. The script asks who gets to declare a truce, then hands them \"refinery for refinery\", one refinery against a vast network. Expect \"why announce it before Russia agreed?\" The articles don't say."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Does that mean the war is over?",
+        "a": "No. Ukraine said yes, Russia hasn't answered, and it hit a power plant that same night. The grown-ups are still talking."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Can he just say there's a ceasefire?",
+        "a": "He can say it. It's real when both sides stop, and Russia hasn't said it will."
+      },
+      {
+        "q": "Has this happened before?",
+        "a": "Yes. On September 14 he posted the same claim. Ukraine said yes if Russia did. Nothing came of it."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why announce something Russia hasn't agreed to?",
+        "a": "Unclear. A White House official told Axios Russia is \"thinking about\" it."
+      },
+      {
+        "q": "Who gains if Ukraine stops hitting refineries?",
+        "a": "Russia keeps its fuel money; Trump hopes diesel gets cheaper. Ukraine says the strikes cut Russia's war funding."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#EnergyCeasefire",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 11,
+    "13-17": 14
+  },
+  "photo": "data/images/2026-10-11-evening.jpg",
+  "photo_credit": "Photo: Daniel Torok, Wikimedia Commons, Public domain",
+  "caption": "No. One side kept firing the same night.\n\nTrump posted Sunday that Russia and Ukraine had agreed to stop striking each other's energy sites. He gave no details. Zelensky said it was news to him, then said Ukraine would hold off if Russia did. Hours later a Russian strike hit a power plant in Kharkiv. Moscow has not commented. He made the same claim on September 14.\n\nSource: PBS NewsHour\nPhoto: Daniel Torok, Wikimedia Commons, Public domain\n\nSwipe for what to say at age 7, at 11, and at 14.\n\nThe dinner table question: Would you stop fighting first, before the other kid agrees to? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #EnergyCeasefire #DinnerTableNews"
+}
