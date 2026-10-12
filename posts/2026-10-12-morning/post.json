@@ -1,0 +1,80 @@
+{
+  "slot": "2026-10-12 07:00 CT",
+  "date": "2026-10-12",
+  "category": "Good news",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/cwvgde0m2d73o",
+  "source_domain": "bbc.com",
+  "headline": "Eight orangutans go home after the fires",
+  "summary": "Three orangutan mothers, their three daughters and two adult males went back into a reserve in western Borneo on Friday. Indonesian rescuers pulled 46 of the apes out of wildfires in August and September. El Niño made this year's fires worse. About 104,000 orangutans are left, down from more than 230,000 a century ago.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "Why did they need rescuing?"
+  },
+  "cover_answer": "The fire took their forest, and with it their food.",
+  "table_question": "Is it a rescue if you have to take someone from their home?",
+  "photo_subject": "Bornean orangutan",
+  "ages": {
+    "5-7": {
+      "chip": "Good one to bring up",
+      "shield": false,
+      "script": "Eight orangutans went back to the forest in Borneo on Friday. Big fires burned the trees where they lived and ate, so rescuers picked them up and kept them safe. One mum and her baby were stuck in a little patch of trees with farms all round, like an island. The new forest has food and water. They are home.",
+      "why": "Mums and daughters, and an island of trees: two things they can picture.",
+      "why_long": "A six-year-old takes one vivid feature for the whole event, so the script hands them mothers with their daughters and a patch of trees ringed by farms, an island they can picture. The fire stays in the past tense. Expect \"did any get burned?\" The articles say 46 were rescued and eight went home, not that any died."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Borneo gets fires every dry season, and El Niño made this year's worse. The fires burned the forest the orangutans eat from, so they wandered into plantations looking for food. Rescuers picked up 46. On Friday eight went into a reserve picked like a campsite: water, food, a way out.",
+      "why": "Fire, no food, plantation, rescue, reserve. The campsite is the checklist.",
+      "why_long": "This age is learning cause and effect, so the script hands them one chain: a dry season, an El Niño year, forest burned, apes in the plantations, a rescue, a reserve. The campsite is the rescuers' checklist: food, water, a way out. Expect \"why not put them back where they lived?\" It burned; that is why they moved."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Is it still wild if people chose the forest? Eight orangutans went into a Borneo reserve on Friday, picked for its food, water and a link to other forest. Second: El Niño made the fires worse, and cleared land burns faster. Which can anyone fix?",
+      "why": "Chosen forest, still wild? Then the climate or the plantations.",
+      "why_long": "A teenager can hold two true things at once: the apes are free, and people picked the forest they are free in. The script asks if that is still wild, then puts El Niño next to the plantations, asking which anyone can touch. Expect \"so is this climate change?\" Partly. El Niño drove the fires; cleared land spread them."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Why was there a fire?",
+        "a": "Borneo has a dry season with fires every year. This year they were much bigger. The grown-ups got the orangutans out."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why did they need rescuing?",
+        "a": "Fire burned their forest, and plantations have no food. So rescuers moved them."
+      },
+      {
+        "q": "Will they be safe in the new forest?",
+        "a": "It has food, water and a link to other forest: a real chance to survive."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why not just stop clearing the forest?",
+        "a": "Cleared land spreads fire, the BBC says, and fires hit where 52% of Borneo's orangutans live. Nothing says that stops."
+      },
+      {
+        "q": "How many orangutans are left?",
+        "a": "About 104,000 in Borneo and Sumatra, WWF says, down from 230,000 a century ago. Critically endangered."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#BorneoOrangutans",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 12,
+    "13-17": 17
+  },
+  "photo": "data/images/2026-10-12-morning.jpg",
+  "photo_credit": "Photo: Nanosanchez, Wikimedia Commons, CC BY-SA 4.0",
+  "caption": "The fire took their forest, and with it their food.\n\nThree orangutan mothers, their three daughters and two adult males went back into a reserve in western Borneo on Friday. Indonesian rescuers pulled 46 of the apes out of wildfires in August and September. El Niño made this year's fires worse. About 104,000 orangutans are left, down from more than 230,000 a century ago.\n\nSource: BBC News\nPhoto: Nanosanchez, Wikimedia Commons, CC BY-SA 4.0\n\nSwipe for what to say at age 7, at 12, and at 17.\n\nThe dinner table question: Is it a rescue if you have to take someone from their home? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #BorneoOrangutans #DinnerTableNews"
+}
