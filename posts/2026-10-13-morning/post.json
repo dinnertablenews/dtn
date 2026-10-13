@@ -1,0 +1,80 @@
+{
+  "slot": "2026-10-13 07:00 CT",
+  "date": "2026-10-13",
+  "category": "Security",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/world/suspected-plot-at-u-s-run-air-base-almost-certainly-directed-by-iran-uk-prime-minister-says",
+  "source_domain": "pbs.org/newshour",
+  "headline": "Britain blames Iran for the base plot. No one is charged.",
+  "summary": "Andy Burnham told Parliament on Monday that last month's plot against RAF Fairford, the English base US bombers struck Iran from, was almost certainly directed by Iran's Revolutionary Guard. Seven men were arrested; all are on bail, none charged. Britain summoned Iran's ambassador and sanctioned two Iranians. Iran denies it.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "How do they know it was Iran?"
+  },
+  "cover_answer": "Intelligence, Burnham says. None of it is public.",
+  "table_question": "Can you punish someone before you can prove it?",
+  "photo_subject": "RAF Fairford",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": true,
+      "script": "Some men in England were planning to hurt a place where big American planes park, like a parking lot for airplanes, and the police caught them first. Nothing got hurt, not one plane and not one person. The planes have flown all the way home across the ocean. The grown-ups have it.",
+      "why": "The police got there first. At six, that is the whole story.",
+      "why_long": "A six-year-old takes one vivid feature, so the script never describes the attack and hands them the one that matters: the police got there first. Cantor says this age fears harm it can picture, so the pictures are planes parked and flying home. Expect \"could it happen here?\" It was in England. The men are caught."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "US bombers flew from RAF Fairford in England to hit Iran. On Sept. 27 police found gasoline in three vans and arrested seven men. Now Britain's prime minister says Iran's Revolutionary Guard directed it. Nobody is charged yet: the referee saw the foul and is still checking the replay.",
+      "why": "Bombers, vans, arrests, blame. The replay is sure versus proven.",
+      "why_long": "This age is learning rules, so the script runs the chain: bombers strike Iran, vans with gasoline at their base, seven arrests, a prime minister naming Iran. The referee checking the replay is the gap between sure and proven, one every kid has argued. Expect \"why aren't they in jail?\" On bail, while police build the case."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Britain sanctioned two Iranians on Monday over a plot it says Iran's Guard directed, and has charged nobody. Can a government be sure enough for one and not the other? Second: Iran says a base that bombs it is a target, and Britain let the bombers fly. Did Britain pick a side?",
+      "why": "Sure enough to punish, not to charge. Then Britain's own yes.",
+      "why_long": "A teenager can hold two true things at once: Britain is sure enough to sanction and not sure enough to charge. The script sets that beside Britain's choice to let the bombers fly, so the argument runs on evidence and on consent. Expect \"so are we at war with Iran?\" The US is striking Iran. Britain calls its part defensive."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Did anybody get hurt?",
+        "a": "No. The police stopped it before anything happened. Not one plane, not one person."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "How do they know it was Iran?",
+        "a": "British intelligence, Burnham says. None of it is public."
+      },
+      {
+        "q": "Why would Iran attack England?",
+        "a": "US bombers struck Iran from a base there. Iran calls that base a target."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "How can they sanction people they haven't charged?",
+        "a": "Sanctions need an assessment. A charge needs evidence a court will see."
+      },
+      {
+        "q": "Is a base that bombs you a fair target?",
+        "a": "Iran says yes. Britain and its allies call a plot on their soil an attack."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#RAFFairford",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 10,
+    "13-17": 15
+  },
+  "photo": "data/images/2026-10-13-morning.jpg",
+  "photo_credit": "Photo: Steve Lynes from Sandshurst, United Kingdom, Wikimedia Commons, CC BY 2.0",
+  "caption": "Intelligence, Burnham says. None of it is public.\n\nAndy Burnham told Parliament on Monday that last month's plot against RAF Fairford, the English base US bombers struck Iran from, was almost certainly directed by Iran's Revolutionary Guard. Seven men were arrested; all are on bail, none charged. Britain summoned Iran's ambassador and sanctioned two Iranians. Iran denies it.\n\nSource: PBS NewsHour\nPhoto: Steve Lynes from Sandshurst, United Kingdom, Wikimedia Commons, CC BY 2.0\n\nSwipe for what to say at age 7, at 10, and at 15.\n\nThe dinner table question: Can you punish someone before you can prove it? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #RAFFairford #DinnerTableNews"
+}
