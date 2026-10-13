@@ -1,0 +1,77 @@
+{
+  "slot": "2026-10-12 20:00 CT",
+  "date": "2026-10-12",
+  "category": "Government",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/show/rep-omar-accuses-trump-of-political-intimidation-after-agents-search-her-home",
+  "source_domain": "pbs.org/newshour",
+  "headline": "Agents took boxes from Omar's home.",
+  "summary": "Homeland Security Investigations agents searched Rep. Ilhan Omar's Washington home early Monday and carried boxes out to an unmarked car. The Justice Department calls it a criminal investigation and says no more. Devlin Barrett of The New York Times says it concerns her family's citizenship paperwork. Omar calls it political intimidation.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Is she going to jail?"
+  },
+  "cover_answer": "No. She hasn't been charged with anything.",
+  "table_question": "Can you judge a case fairly once you've said who's guilty?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": false,
+      "script": "On Monday, government agents went into the home of a lawmaker named Ilhan Omar and carried out boxes, like the ones you pack to move house. She helps write the rules for the whole country. The agents say they are checking something and will not say what, and checking is not the same as being in trouble. The grown-ups have it.",
+      "why": "Boxes they can picture, and checking is a school word. Nothing to carry.",
+      "why_long": "A six-year-old takes one vivid feature for the whole event, so the script gives them the boxes, a thing they have packed themselves, and calls the search checking, a word from school with no fear in it. Expect \"is she going to jail?\" No. She has not been charged with anything, and that is the honest answer for now."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Agents with a judge's warrant searched Rep. Ilhan Omar's home on Monday. The Justice Department calls it a criminal case and won't say more. It used to keep a 60-day rule: nothing loud near an election, like a coach freezing the lineup once the game starts. Omar's vote is in 22 days.",
+      "why": "Warrant, search, rule, date. Was the rule broken?",
+      "why_long": "This age is working out rules and whether adults apply them to themselves, so the script hands them a chain: a warrant, a search, a 60-day rule, and a vote 22 days off. The frozen lineup is a rule they have lived under. Expect \"did she do it?\" No one has said what she did. A judge saw a reason to search, which is not a verdict."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Should the government search a candidate's home 22 days before her election? A judge signed the warrant, so it was legal. Second: Vance said in the spring she \"definitely committed immigration fraud.\" If the vice president calls the verdict first, can the case look fair?",
+      "why": "Legal and badly timed. Then the vice president.",
+      "why_long": "A teenager can hold two true things at once: the search was legal, and the department's own habit says not to do it this close to a vote. The script sets Vance's verdict from the spring beside Monday's search and asks whether a case can look fair after that. Expect \"so it's political?\" The articles don't settle it. Vance spoke first."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Is she going to jail?",
+        "a": "No. She hasn't been charged with anything. Agents are checking, and that is all anyone knows."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "What is a warrant?",
+        "a": "A judge's OK to search, given once agents show a reason."
+      },
+      {
+        "q": "Why does the timing matter?",
+        "a": "Her election is in 22 days. The department usually goes quiet first."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "What are they looking for?",
+        "a": "Officials won't say. A Times reporter says her family's citizenship papers."
+      },
+      {
+        "q": "Is this political?",
+        "a": "Vance called her guilty in the spring. Omar calls the search intimidation."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#IlhanOmar",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 9,
+    "13-17": 13
+  },
+  "caption": "No. She hasn't been charged with anything.\n\nHomeland Security Investigations agents searched Rep. Ilhan Omar's Washington home early Monday and carried boxes out to an unmarked car. The Justice Department calls it a criminal investigation and says no more. Devlin Barrett of The New York Times says it concerns her family's citizenship paperwork. Omar calls it political intimidation.\n\nSource: PBS NewsHour\n\nSwipe for what to say at age 6, at 9, and at 13.\n\nThe dinner table question: Can you judge a case fairly once you've said who's guilty? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #IlhanOmar #DinnerTableNews"
+}

@@ -1,0 +1,80 @@
+{
+  "slot": "2026-10-12 20:00 CT",
+  "date": "2026-10-12",
+  "category": "Security",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/world/suspected-plot-at-u-s-run-air-base-almost-certainly-directed-by-iran-uk-prime-minister-says",
+  "source_domain": "pbs.org/newshour",
+  "headline": "Britain says Iran was behind a plot on a US bomber base",
+  "summary": "Prime Minister Andy Burnham told Parliament on Monday that a suspected plot to attack RAF Fairford, the English base American bombers used to strike Iran, was almost certainly directed by Iran's Revolutionary Guard. Police found gasoline but no explosives in three vans and arrested seven men, all on bail and none charged. Iran denies it.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Are the planes OK?"
+  },
+  "cover_answer": "Yes. Police stopped it, and the bombers flew home.",
+  "table_question": "If someone hits you from a friend's house, is the friend fair game?",
+  "photo_subject": "RAF Fairford",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": true,
+      "script": "Police in England stopped some men they think were planning to attack a base where big American planes park, a parking lot for airplanes. The planes are fine, and they have flown back home across the ocean. Britain says the men were working for a country called Iran. The grown-ups have it.",
+      "why": "A parking lot for planes, and the planes are fine. That is the whole of it.",
+      "why_long": "A six-year-old reasons from what is in front of them, and a bomber base is not, so the script makes it a parking lot for planes and ends on the planes being fine. Cantor's work says what frightens this age is harm they can picture, so the attack is never described. Expect \"could it happen here?\" It was in England. The men were arrested."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "American bombers at RAF Fairford in England have been striking Iran. On Sept. 27 police swarmed the base and found gasoline in three vans. Seven men were arrested. Britain says Iran ran it through paid locals, the way a kid gets a friend to pass the note so it can't be traced. Iran says it wasn't them.",
+      "why": "Bombers, vans, arrests, blame. The passed note is the proxy.",
+      "why_long": "This age is working out chains of cause and effect, so the script runs one: bombers strike Iran, vans with gasoline turn up at their base, seven are arrested, Britain names Iran. The passed note is how a proxy works, and every classroom has seen one. Expect \"why not just do it themselves?\" So they can deny it, which Iran did on Monday."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Burnham says the plot was \"almost certainly\" Iran's. Almost certainly is not proof. Seven men were arrested, all are on bail, none charged, and Iran's ambassador wants evidence. Second: Iran says any base used to attack it is a legitimate target. Is it?",
+      "why": "Almost certainly, then not proof. Then Iran's own argument.",
+      "why_long": "A teenager can hold two true things at once: Britain's assessment is serious, and no one has been charged. The script hands them both, then Iran's claim that a base used against it is fair game, an argument they can test rather than a verdict to accept. Expect \"so was it Iran or not?\" Britain says almost certainly. No evidence is public."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Are the planes OK?",
+        "a": "Yes. Police stopped it before anything happened, and the big planes have flown home to America."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why would Iran attack England?",
+        "a": "Its American bombers have been striking Iran. Iran calls any base used against it a target."
+      },
+      {
+        "q": "Why pay other people to do it?",
+        "a": "So it can deny it. Britain says Iran hires criminals for that reason."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "How do they know it was Iran?",
+        "a": "Burnham says British intelligence. Netanyahu says Israel passed a tip. None of it is public."
+      },
+      {
+        "q": "Is a base that bombs you a fair target?",
+        "a": "Iran says yes. Britain, the US and 27 others say no: a plot on their soil."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#RAFFairford",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 9,
+    "13-17": 13
+  },
+  "photo": "data/images/2026-10-12-evening-alt.jpg",
+  "photo_credit": "Photo: Steve Lynes from Sandshurst, United Kingdom, Wikimedia Commons, CC BY 2.0",
+  "caption": "Yes. Police stopped it, and the bombers flew home.\n\nPrime Minister Andy Burnham told Parliament on Monday that a suspected plot to attack RAF Fairford, the English base American bombers used to strike Iran, was almost certainly directed by Iran's Revolutionary Guard. Police found gasoline but no explosives in three vans and arrested seven men, all on bail and none charged. Iran denies it.\n\nSource: PBS NewsHour\nPhoto: Steve Lynes from Sandshurst, United Kingdom, Wikimedia Commons, CC BY 2.0\n\nSwipe for what to say at age 6, at 9, and at 13.\n\nThe dinner table question: If someone hits you from a friend's house, is the friend fair game? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #RAFFairford #DinnerTableNews"
+}
