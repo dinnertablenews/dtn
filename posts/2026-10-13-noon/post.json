@@ -1,0 +1,77 @@
+{
+  "slot": "2026-10-13 12:00 CT",
+  "date": "2026-10-13",
+  "category": "Culture",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/c6n4ejx8x1z7o",
+  "source_domain": "bbc.com",
+  "headline": "One dead on a Six Flags coaster. Nobody has said how.",
+  "summary": "One person died and several were hurt Monday on a roller coaster at Six Flags Over Georgia, near Atlanta. Police have not named the ride or said how the person died. Helicopters showed the Goliath coaster stuck, with workers helping riders off. Weeks ago Six Flags retired a California coaster after 100-plus riders alleged brain injuries.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "How does a coaster kill you?"
+  },
+  "cover_answer": "Nobody has said yet. Witnesses say a man was thrown off.",
+  "table_question": "Who gets to decide when a ride is safe enough to run again?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": true,
+      "script": "At a big amusement park near Atlanta, something went wrong on a roller coaster on Monday and a person died. The ride is as tall as a 20-story building. It stopped, and workers helped everyone else climb off. The police are finding out what happened. The grown-ups have it.",
+      "why": "The ride stopped and everyone else got off. At six, that is the story.",
+      "why_long": "A six-year-old takes one vivid feature for the whole event, and the one they must not get is a body in the air, so the script never describes it: a ride that stopped, workers helping everyone off. Cantor says this age fears harm it can picture, so the picture is the climb down. Expect \"could it happen to me?\" The ride is stopped."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "On Monday a roller coaster at Six Flags Over Georgia, near Atlanta, went wrong. One person died and several were hurt. The Goliath, 200 feet tall, sat stuck with riders on it until workers got them off. Police haven't said what failed. Now it works like a car after a crash: every part gets checked before anyone says why.",
+      "why": "Ride, stuck, rescue, then a check. A chain they know.",
+      "why_long": "This age is working out cause and effect, and the hard part of this story is that the cause is missing, so the script runs the chain that is known, ride, stuck, rescue, and hands them the mechanic's check as the way the missing link gets found. Expect \"did the ride break?\" Nobody knows. Police haven't even said which ride it was."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "One person died on a Six Flags coaster Monday. Weeks ago the company retired a California coaster that passed its safety tests, after 100-plus riders alleged brain injuries. If a ride passes every test and still hurts people, what is a test for? Second: would you ride Goliath?",
+      "why": "Passed its tests, hurt people anyway. Then their own choice.",
+      "why_long": "A teenager can hold two true things at once: the X2 passed its tests, and more than 100 riders say it hurt them. The script sets those side by side and asks what a test is for, then makes it personal, because this is a risk they will be offered. Expect \"so are roller coasters dangerous?\" This one killed someone. Nobody has said why yet."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Could that happen to me?",
+        "a": "Grown-ups check rides before anyone rides. This one is stopped while the police find out what went wrong."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Did the ride break?",
+        "a": "Nobody knows yet. Police haven't even said which ride it was."
+      },
+      {
+        "q": "Has this happened before?",
+        "a": "Weeks ago Six Flags retired a California coaster over brain injuries."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "How does a coaster kill you?",
+        "a": "Nobody has said. Witnesses told local TV a man was thrown off."
+      },
+      {
+        "q": "What's a safety test worth, then?",
+        "a": "X2 passed and was retired anyway. A test checks what it was built to check."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#SixFlags",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 11,
+    "13-17": 15
+  },
+  "caption": "Nobody has said yet. Witnesses say a man was thrown off.\n\nOne person died and several were hurt Monday on a roller coaster at Six Flags Over Georgia, near Atlanta. Police have not named the ride or said how the person died. Helicopters showed the Goliath coaster stuck, with workers helping riders off. Weeks ago Six Flags retired a California coaster after 100-plus riders alleged brain injuries.\n\nSource: BBC News\n\nSwipe for what to say at age 6, at 11, and at 15.\n\nThe dinner table question: Who gets to decide when a ride is safe enough to run again? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #SixFlags #DinnerTableNews"
+}
