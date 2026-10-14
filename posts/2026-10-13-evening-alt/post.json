@@ -1,0 +1,80 @@
+{
+  "slot": "2026-10-13 20:00 CT",
+  "date": "2026-10-13",
+  "category": "Government",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/politics/trump-heads-to-alaska-in-a-sign-of-how-close-its-senate-race-may-be",
+  "source_domain": "pbs.org/newshour",
+  "headline": "Trump flies to Alaska. It isn't supposed to be close.",
+  "summary": "Trump flew to Wasilla, Alaska, on Tuesday to rally for Sen. Dan Sullivan, 21 days before the midterms. Alaska last sent a Democrat to the Senate in 2008. Gas prices from the Iran war and inflation have cut Trump's approval, and Sullivan faces Democrat Mary Peltola. A pollster says it may turn on 2024 Trump voters who are no longer sure.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Can the president help someone win?"
+  },
+  "cover_answer": "He can ask. The voters decide, on November 3.",
+  "table_question": "If a powerful friend shows up for you, is it still your win?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": false,
+      "script": "The president flew to Alaska on Tuesday, so far west that when it is dinnertime in Washington it is still the middle of the afternoon there. He went to a town called Wasilla to ask people to vote for his friend Dan Sullivan, who is a senator. A president can ask, like a friend cheering for you at a race. The people of Alaska choose on November 3.",
+      "why": "Far away is a clock they can read. Asking is not deciding.",
+      "why_long": "A six-year-old reasons from what is in front of them, so the distance becomes a clock: dinner here, afternoon there. The script separates asking from deciding, the one election rule this age can hold, and leaves the polling out. Expect \"will his friend win?\" Nobody knows. The vote is on November 3, and the article says it may be close."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Alaska has not sent a Democrat to the Senate since 2008. But gas got expensive in the Iran war, prices stayed high, and Trump's approval fell. So a safe seat looks shaky, and he flew there for Sen. Dan Sullivan. A coach leaves the bench only when the score is close.",
+      "why": "Safe seat, gas prices, approval down, the coach gets up. One chain.",
+      "why_long": "This age is working out cause and effect, so the script hands them the article's chain: a safe seat, then gas prices, then approval down, then a president on a plane. The coach leaving the bench says what the trip means without a poll number. Expect \"why does one senator matter?\" Republicans fear losing Congress. One seat can decide it."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Why fly a day to a state your party has not lost a Senate race since 2008? The pollster says Trump's own 2024 voters are wavering over gas and inflation. Second: in 2022 Trump went to Alaska to beat Republican Lisa Murkowski. She won. Does a visit help, or remind voters who he's tied to?",
+      "why": "The trip as evidence. Then the 2022 precedent against it.",
+      "why_long": "A teenager can reason about what is not in front of them, so the script treats the trip as evidence of a close race and asks them to read it. Then it hands them 2022, when Trump went to Alaska and lost, to weigh against it. Expect \"does a rally change votes?\" The pollster says the visit is appropriate. Whether it works is another thing."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Can the president help someone win?",
+        "a": "He can ask people to vote for his friend. That is all. On November 3, the people of Alaska pick."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why does one senator matter so much?",
+        "a": "Republicans fear losing Congress. One seat can decide it."
+      },
+      {
+        "q": "Why are there two Dan Sullivans?",
+        "a": "A retired teacher, Dan J. Sullivan. The senator's camp calls him a sham."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Does a rally actually change votes?",
+        "a": "The pollster calls it appropriate. Whether it works is another matter."
+      },
+      {
+        "q": "What is ranked choice voting?",
+        "a": "Alaska's top four from an open primary go on, and voters rank them."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#Alaska",
+    "#DinnerTableNews"
+  ],
+  "photo_subject": "Donald Trump",
+  "photo": "data/images/2026-10-13-evening-alt.jpg",
+  "photo_credit": "Photo: Daniel Torok, Wikimedia Commons, Public domain",
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 9,
+    "13-17": 13
+  },
+  "caption": "He can ask. The voters decide, on November 3.\n\nTrump flew to Wasilla, Alaska, on Tuesday to rally for Sen. Dan Sullivan, 21 days before the midterms. Alaska last sent a Democrat to the Senate in 2008. Gas prices from the Iran war and inflation have cut Trump's approval, and Sullivan faces Democrat Mary Peltola. A pollster says it may turn on 2024 Trump voters who are no longer sure.\n\nSource: PBS NewsHour\nPhoto: Daniel Torok, Wikimedia Commons, Public domain\n\nSwipe for what to say at age 6, at 9, and at 13.\n\nThe dinner table question: If a powerful friend shows up for you, is it still your win? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #Alaska #DinnerTableNews"
+}
