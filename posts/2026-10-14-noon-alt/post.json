@@ -1,0 +1,77 @@
+{
+  "slot": "2026-10-14 12:00 CT",
+  "date": "2026-10-14",
+  "category": "Technology",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/cwg5jq4vlddzo",
+  "source_domain": "bbc.com",
+  "headline": "A bug at OpenAI, wrapped in toilet paper.",
+  "summary": "OpenAI staff found a recording device plugged into a USB port behind a TV in an executive conference room on September 30. Prosecutors say Abdulrahman Alfozan, an engineer there since July 2025, planted it two days earlier after asking a chatbot how to build and hide one. OpenAI says its own AI traced it to him. He was charged Tuesday.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "Did a chatbot help him?"
+  },
+  "cover_answer": "Prosecutors say yes. Those logs are evidence now.",
+  "table_question": "If you asked for help doing something wrong, should the helper tell?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": false,
+      "script": "A worker at a computer company called OpenAI hid a tiny recorder behind a TV in the room where the bosses meet. He wanted to hear their secrets, like a kid hiding a walkie-talkie under the dinner table. The other workers found it in two days and called the police. The grown-ups have it.",
+      "why": "A walkie-talkie under the table. Found in two days, and the police came.",
+      "why_long": "A six-year-old takes one vivid feature for the whole event, so the script hands them the walkie-talkie under the table, a trick they have tried themselves, and ends on the two days it took to find it. The chatbot and the charge stay off the card. Expect \"did he go to jail?\" He is in trouble and a judge will decide. Nobody got hurt."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "An OpenAI engineer hid a recorder behind a TV in the bosses' meeting room, after asking a chatbot how, prosecutors say. Staff found it in two days, OpenAI's AI worked out who, and a camera caught him checking on it. His questions left a trail, like a search history nobody cleared.",
+      "why": "Plant, find, trace, camera: a chain in order.",
+      "why_long": "This age is working out chains of cause and effect, so the script runs this one in order: the recorder goes in, staff find it, the company's AI traces it, a camera catches him coming back. The search history is the mechanism they already know: what you type is kept. Expect \"did the chatbot tell on him?\" The articles don't say."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "If you ask a chatbot how to hide a recorder, who else can read that? An OpenAI engineer did, prosecutors say, and the logs are evidence against him. Second: OpenAI used its own AI to work out which employee planted the bug, in days. Would you want your boss to have that tool?",
+      "why": "Who reads your prompts, and who gets to run the trace.",
+      "why_long": "A teenager can hold two true things at once: the prompts he typed convict him, and the same kind of tool is what caught him. The script asks who can read what you ask a chatbot, then whether a boss should run that trace on staff. Expect \"did he get anything?\" OpenAI says no code, model weights or customer data went out."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Is it bad to record people?",
+        "a": "Secretly, yes. Recording grown-ups at work without telling them is against the law. That is why he is in trouble."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "How did they catch him?",
+        "a": "Staff found it, OpenAI's AI traced it, a camera saw him return."
+      },
+      {
+        "q": "What was he trying to hear?",
+        "a": "The FBI says details about OpenAI's AI product."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Did a chatbot help him?",
+        "a": "Prosecutors say he asked one how. Those logs are evidence now."
+      },
+      {
+        "q": "Did he get anything?",
+        "a": "OpenAI says no code, weights or customer data were taken."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#OpenAI",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 10,
+    "13-17": 17
+  },
+  "caption": "Prosecutors say yes. Those logs are evidence now.\n\nOpenAI staff found a recording device plugged into a USB port behind a TV in an executive conference room on September 30. Prosecutors say Abdulrahman Alfozan, an engineer there since July 2025, planted it two days earlier after asking a chatbot how to build and hide one. OpenAI says its own AI traced it to him. He was charged Tuesday.\n\nSource: BBC News\n\nSwipe for what to say at age 6, at 10, and at 17.\n\nThe dinner table question: If you asked for help doing something wrong, should the helper tell? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #OpenAI #DinnerTableNews"
+}
