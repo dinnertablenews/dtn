@@ -30,6 +30,11 @@ what this story is about, #DinnerTableNews. The third slot is the only free one,
 category label — the cover already prints the category, so #Economy or #GoodNews spends a tag saying
 nothing. check_hashtags() reports a "HASHTAGS:" line on stderr and the script exits 1.
 
+Why-length rule (enforced, not auto-fixed). A `why_long` may not run longer than the post's summary.
+site.py applies the same rule to every published post when it builds the website, and one post over
+the line fails the whole build. check_why() reports a "WHY TOO LONG:" line on stderr and the script
+exits 1, so the cut happens before the push.
+
 Photo zoom rule (enforced, not auto-fixed). `photo_zoom` enlarges the picture inside the disc and
 the crop still comes off the bottom and the sides, never the top. It exists because a Commons infobox
 image is sometimes two photographs stacked in one file, which at zoom 1.0 renders as a doubled
@@ -406,6 +411,22 @@ def check(pg, name):
     return None
 
 
+def check_why(p):
+    """Return a WHY TOO LONG message if a why_long runs past the post's summary, else None. The
+    website prints why_long in place of why, and the reader came for the news: the note about how
+    to talk about it is the smaller of the two. site.py refuses the whole build on the same rule,
+    for every published post at once, so a note that slips past here takes the site down with it
+    and keeps it down until someone cuts an old post. This catches it on the run's own machine,
+    before the push."""
+    cap = len(p.get("summary", ""))
+    for band, a in p.get("ages", {}).items():
+        t = a.get("why_long")
+        if t and cap and len(t) > cap:
+            return (f"WHY TOO LONG: {band}: why_long is {len(t)} characters against a {cap}-character "
+                    f"summary. Cut {len(t) - cap} more and re-render.")
+    return None
+
+
 def render(post, outdir, post_path=None):
     for k in ("date", "cover_question", "cover_answer", "table_question", "source_domain", "hashtags"):
         if k not in post: raise SystemExit(f"post.json is missing '{k}' (see posts/samples-v2-2026-09-13-evening/post.json)")
@@ -414,7 +435,7 @@ def render(post, outdir, post_path=None):
     slides = [("1-cover", cover(post)), ("2-ages-5-7", age(post, "5-7")), ("3-ages-8-12", age(post, "8-12")),
               ("4-ages-13-17", age(post, "13-17")), ("5-table", table(post))]
     os.makedirs(outdir, exist_ok=True); problems = []
-    for msg in (check_composite(post), check_hashtags(post)):
+    for msg in (check_composite(post), check_hashtags(post), check_why(post)):
         if msg: problems.append(msg)
     caption = build_caption(post)
     if post_path and (drew or not post.get("caption")):  # write the drawn ages, and the caption on a first render
