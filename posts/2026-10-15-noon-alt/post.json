@@ -1,0 +1,80 @@
+{
+  "slot": "2026-10-15 12:00 CT",
+  "date": "2026-10-15",
+  "category": "World",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/show/news-wrap-iran-says-cargo-ship-sank-after-hitting-a-mine-in-strait-of-hormuz",
+  "source_domain": "pbs.org/newshour",
+  "headline": "A ship sank in Hormuz. Iran says it hit a mine.",
+  "summary": "Iran says a cargo ship hit a mine and sank in the Strait of Hormuz, its first such report since the war began. State TV showed a ship on fire; nobody has checked the footage. Semafor counts two Emirati ships sunk in 24 hours. Iranian officials told Reuters the strikes are meant to keep oil prices high before the US votes on November 3.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "Why would anyone want oil prices up?"
+  },
+  "cover_answer": "Iran told Reuters it wants pressure on Trump before Nov. 3.",
+  "table_question": "If someone's trying to provoke you, is waiting them out a plan?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": true,
+      "script": "Far away, in a narrow bit of sea next to Iran, a big cargo ship sank. Iran says it bumped into a mine, a bomb that floats in the water. The ships there carry oil, the stuff that becomes gas for cars. It's a long way from us, and the grown-ups have it.",
+      "why": "A narrow bit of sea, a floating bomb, a long way from here.",
+      "why_long": "A six-year-old takes one vivid feature for the whole event and reads your face before the words, so the script gives one picture, a ship in a narrow sea, and names the mine as a floating bomb only because the child will ask what sank it. Expect \"could that happen here?\" No. It is a sea on the other side of the world."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "The Strait of Hormuz is a narrow sea lane where ships carry oil out of the Gulf. Iran, at war with the US, has been hitting ships there; it says one sank on a mine Wednesday. Officials told Reuters they want oil prices high before America votes November 3. Like squeezing a hose so the house notices.",
+      "why": "Narrow lane, fewer ships, pricier oil, a vote in three weeks.",
+      "why_long": "This age is working out cause and effect, so the script hands over the chain: a narrow lane, ships hit, oil costs more, voters notice in three weeks. The hose is the mechanism: squeeze the pipe and everyone downstream feels it. Expect \"why doesn't America stop them?\" One analyst says Trump keeps promising to, after the vote."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Why would anyone want oil prices up? Iranian officials told Reuters they are hitting ships in Hormuz to keep oil high until Americans vote November 3. Two Emirati ships sank in a day. Second: an analyst calls Washington's silence \"remarkable\": action promised only after the vote. Strategy or dodge?",
+      "why": "Pressure as a tactic, and whether waiting it out is a plan.",
+      "why_long": "A teenager can hold two true things at once: Iran says the sinkings are aimed at American voters, and the American answer is to wait until those voters have voted. The script asks whether the pressure works and whether waiting is a strategy or a dodge. Expect \"will gas cost more here?\" The articles say that is the aim, not by how much."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Did people on the ship die?",
+        "a": "The reports don't say anyone was hurt. The ship sank, and that is all anyone has said."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "What's a mine?",
+        "a": "A bomb in the water that goes off when a ship touches it."
+      },
+      {
+        "q": "Why does one ship matter?",
+        "a": "Ships carry oil through it. Fewer ships, pricier oil, even here."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why would anyone want oil prices up?",
+        "a": "Iran told Reuters it's leverage: pricier gas hurts Trump before the vote."
+      },
+      {
+        "q": "Why doesn't the US respond?",
+        "a": "One analyst says Trump keeps promising action, but after the midterms."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#StraitOfHormuz",
+    "#DinnerTableNews"
+  ],
+  "photo": "data/images/2026-10-15-noon-alt.jpg",
+  "photo_credit": "Photo: MODIS Land Rapid Response Team, NASA GSFC, Wikimedia Commons, Public domain",
+  "photo_subject": "Strait of Hormuz",
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 8,
+    "13-17": 14
+  },
+  "caption": "Iran told Reuters it wants pressure on Trump before Nov. 3.\n\nIran says a cargo ship hit a mine and sank in the Strait of Hormuz, its first such report since the war began. State TV showed a ship on fire; nobody has checked the footage. Semafor counts two Emirati ships sunk in 24 hours. Iranian officials told Reuters the strikes are meant to keep oil prices high before the US votes on November 3.\n\nSource: PBS NewsHour\nPhoto: MODIS Land Rapid Response Team, NASA GSFC, Wikimedia Commons, Public domain\n\nSwipe for what to say at age 6, at 8, and at 14.\n\nThe dinner table question: If someone's trying to provoke you, is waiting them out a plan? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #StraitOfHormuz #DinnerTableNews"
+}
