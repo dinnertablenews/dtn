@@ -1,0 +1,77 @@
+{
+  "slot": "2026-10-15 07:00 CT",
+  "date": "2026-10-15",
+  "category": "Economy",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/economy/what-is-the-social-security-cola-for-2027-heres-how-it-could-affect-you",
+  "source_domain": "pbs.org/newshour",
+  "headline": "Social Security goes up 3.6%. That's $76 a month.",
+  "summary": "Social Security checks rise 3.6% in January, the government said Wednesday. For the average retired worker that is about $76 a month, a little over $900 a year, the biggest raise since 2023. The number is a formula: July-to-September prices against last year's. In an AARP poll, 76% of adults over 50 said a raise that size would not keep up.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "Why do they get more money?"
+  },
+  "cover_answer": "Prices rose 3.6%, so the checks rise 3.6% to match.",
+  "table_question": "If prices go up, should your allowance go up by the same amount?",
+  "ages": {
+    "5-7": {
+      "chip": "Good one to bring up",
+      "shield": false,
+      "script": "Every month the government sends money to people who are retired, like grandparents. In January those checks grow by about $76, because things in the shops cost more than last year. It's like a bigger allowance when the candy bar costs more. Nothing changes for you.",
+      "why": "A bigger allowance when the candy bar costs more. One number, one reason.",
+      "why_long": "A six-year-old reasons from what is in front of them, and an allowance that grows when the candy bar costs more is a trade they have already run at the counter. The script gives them one number and one reason and leaves the formula out. Expect \"do Grandma and Grandpa get it?\" If they are retired, yes, in January."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Social Security pays 76 million retired and disabled people every month. Each fall the government compares July-to-September prices with the year before. Prices rose 3.6%, so in January every check rises 3.6%, about $76 for the average retiree. A thermostat: the heat comes on by as much as it got cold.",
+      "why": "Prices up, checks up, by the same number. A thermostat.",
+      "why_long": "This age is working out rules and whether adults apply them consistently, so the script hands them a rule with no one's thumb on it: a price count sets the number, by law, every fall. The thermostat is the mechanism: the response matches the change. Expect \"who decides?\" Nobody. A price count does, and that is the point."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "If prices rose 3.6% and your check rises 3.6%, are you even? In an AARP poll, 76% of people over 50 said a raise that size won't cover it. They spend far more on health care than the formula counts. Second: the fund paying this runs short in six years. Who covers the gap?",
+      "why": "Even on paper and even in life. Then the bill coming due.",
+      "why_long": "A teenager can hold two true things at once: the raise matches inflation, and most of the people getting it say it won't cover their costs, because the index counts a worker's basket, not a retiree's. The script asks for both, then who pays when the fund runs short. Expect \"will it be there for me?\" The articles don't say. Say so."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Why do they get more money?",
+        "a": "Things cost more than last year, so retired people get a bit more each month to keep up. About $76."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why do they get more money?",
+        "a": "Prices rose 3.6% in a year, so by law the checks rise 3.6%. Every January."
+      },
+      {
+        "q": "Who decides the number?",
+        "a": "Nobody picks it. A price count from July to September sets it, by law."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Is $76 a month a lot?",
+        "a": "A little over $900 a year. Most older people AARP polled say it won't cover their costs."
+      },
+      {
+        "q": "Where does the money come from?",
+        "a": "Payroll taxes on workers, on pay up to $192,300 next year. The fund is due to run short in six years."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#SocialSecurity",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 10,
+    "13-17": 14
+  },
+  "caption": "Prices rose 3.6%, so the checks rise 3.6% to match.\n\nSocial Security checks rise 3.6% in January, the government said Wednesday. For the average retired worker that is about $76 a month, a little over $900 a year, the biggest raise since 2023. The number is a formula: July-to-September prices against last year's. In an AARP poll, 76% of adults over 50 said a raise that size would not keep up.\n\nSource: PBS NewsHour\n\nSwipe for what to say at age 7, at 10, and at 14.\n\nThe dinner table question: If prices go up, should your allowance go up by the same amount? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #SocialSecurity #DinnerTableNews"
+}
