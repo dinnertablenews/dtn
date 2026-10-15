@@ -1,0 +1,77 @@
+{
+  "slot": "2026-10-14 20:00 CT",
+  "date": "2026-10-14",
+  "category": "Culture",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/nation/cornell-president-admits-he-never-followed-up-on-gang-rape-allegation-ahead-of-no-confidence-debate",
+  "source_domain": "pbs.org/newshour",
+  "headline": "Cornell bans frat parties. Its president never followed up.",
+  "summary": "Cornell's president knew in 2024 that a student reported being gang raped at a fraternity house. He said this week he never followed up on what happened to her. On Tuesday he banned fraternity parties for the rest of the school year and gave state police a role in assault cases. His faculty began debating a no-confidence vote Wednesday.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Why did the school ban parties?"
+  },
+  "cover_answer": "A student was hurt at one, and the school didn't check.",
+  "table_question": "Can a group fairly investigate itself?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": true,
+      "script": "A big college called Cornell said no more parties at its fraternity houses, the clubs where some students live. A student was hurt badly at one, and the man in charge never checked on her, like a coach who sees a kid fall and never asks if she is okay. Now the police will help the college do better. The grown-ups have it.",
+      "why": "A coach who never asks. What happened to her stays off the card.",
+      "why_long": "A six-year-old reads your face before your words and takes one vivid feature for the whole event, so the script keeps the assault off the card and hands them the coach who never asks if a fallen kid is okay. That failure is what the story is about. Expect \"did she get better?\" She left the college. Say the police are helping now."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "A student told Cornell in 2024 she was assaulted at a frat party. Campus police sent the prosecutor a summary missing key details, so he dropped it, and the president never asked how it ended. She sued. Now frat parties are banned and state police take reports, a sign-in sheet someone finally reads.",
+      "why": "Report, thin summary, dropped case, nobody asks. Then the lawsuit.",
+      "why_long": "This age is working out whether adults follow their rules, so the script runs the chain: a report, a summary missing details, a dropped case, a president who never asked. Then she sued, and the rules changed. The sign-in sheet is the mechanism: a rule works only if someone checks. Expect \"why didn't anyone ask her?\" He never said why."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "If a college president hears a student was gang raped at a fraternity and never asks what happened next, is that a broken system or a broken man? Cornell's admitted it this week, then banned frat parties and called in state police. Second: should a school's own police investigate its students?",
+      "why": "System or man, and whether a school can investigate itself.",
+      "why_long": "A teenager can hold two true things at once: the president apologised and changed the rules, and he never asked what became of her. The script asks which is the story, then whether a school's own police can investigate its students. Expect \"would real police have done better?\" The prosecutor dropped it too, on the college's summary."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Why did the school ban parties?",
+        "a": "A student was hurt at one, and the people in charge didn't check on her. The parties stop until the college fixes how it looks after students."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "What's a fraternity?",
+        "a": "A club where male students live and throw parties."
+      },
+      {
+        "q": "Why did it take two years?",
+        "a": "A thin police summary. It reopened when she sued."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Is the president getting fired?",
+        "a": "Not yet. The faculty vote on no confidence after October 28."
+      },
+      {
+        "q": "What is Title IX?",
+        "a": "The law that makes schools run their own assault cases."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#Cornell",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 11,
+    "13-17": 14
+  },
+  "caption": "A student was hurt at one, and the school didn't check.\n\nCornell's president knew in 2024 that a student reported being gang raped at a fraternity house. He said this week he never followed up on what happened to her. On Tuesday he banned fraternity parties for the rest of the school year and gave state police a role in assault cases. His faculty began debating a no-confidence vote Wednesday.\n\nSource: PBS NewsHour\n\nSwipe for what to say at age 7, at 11, and at 14.\n\nThe dinner table question: Can a group fairly investigate itself? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #Cornell #DinnerTableNews"
+}
