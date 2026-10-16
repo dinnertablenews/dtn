@@ -1,0 +1,77 @@
+{
+  "slot": "2026-10-15 20:00 CT",
+  "date": "2026-10-15",
+  "category": "Security",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/cmq8n513x523o",
+  "source_domain": "bbc.com",
+  "headline": "Powder in the mail, three weeks before an election.",
+  "summary": "Letters with white powder went to election offices in Delaware, Oklahoma and Louisiana, and to at least five senators. Louisiana's office emptied out Tuesday; police found nothing harmful. Most of the senators' letters were caught in the post. The FBI and postal inspectors are hunting whoever sent them, three weeks before Election Day.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Can a letter make you sick?"
+  },
+  "cover_answer": "Almost never. In Louisiana they checked. Nothing harmful.",
+  "table_question": "A scary note arrives. Do you tell everyone, or keep it quiet?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": true,
+      "script": "Somebody mailed letters with white powder inside to the offices that run the big vote coming up. Nobody knew what the powder was, so the offices treated it like a hot pan: don't touch, call a grown-up who knows. In Louisiana the police checked and found nothing harmful. The post office caught most of the others before they arrived, and the grown-ups have it.",
+      "why": "A hot pan they already know, then the one checked fact.",
+      "why_long": "A six-year-old reads your face before the words and takes one vivid feature for the whole event, so the script gives the powder one rule they already know, the hot pan: don't touch, call a grown-up. Then the one checked fact, Louisiana, nothing harmful. Expect \"could one come to our house?\" No. These went to offices, not homes."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "Election offices in three states opened letters this week with white powder inside. Louisiana's emptied out; police found nothing harmful. Letters to five senators were mostly caught first, the way a school checks a bag before class. The FBI is hunting the sender, three weeks before Election Day.",
+      "why": "Letter, all clear, then the hunt. The bag check is the mechanism.",
+      "why_long": "This age is working out cause and effect so the script runs one chain: a letter opened, an office emptied, police find nothing, the FBI starts looking. The bag check is the mechanism: inspection before delivery. Expect \"will they catch them?\" The FBI says it is trying. No name yet."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Who gets to feel safe counting votes? Powder letters reached election offices in three states and five senators this week, three weeks before Election Day. In 2023 some carried fentanyl; offices stocked naloxone. Second: if the point is fear, does reporting it hand the sender a win?",
+      "why": "The powder may be harmless. The fear is the point. Hold both.",
+      "why_long": "A teenager can hold two true things at once: the powder may be harmless, and the fear it spreads is the point of sending it. The script asks who gets to feel safe counting votes, then whether reporting the letters serves the sender, and argues both sides. Expect \"who did it?\" The FBI says it is looking. No name, no motive yet."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Can a letter make you sick?",
+        "a": "Almost never. Grown-ups check the mail before it gets to the people who work there. In Louisiana the police looked and found nothing harmful."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Is the powder poison?",
+        "a": "Not said yet. Louisiana found nothing. In 2023 some had fentanyl."
+      },
+      {
+        "q": "Why send it to election offices?",
+        "a": "To scare the people who run the vote, three weeks before it."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Is this terrorism?",
+        "a": "No one's said it. The FBI calls them suspicious mailings."
+      },
+      {
+        "q": "If the point is fear, does covering it help them?",
+        "a": "Maybe. It's also how offices knew to check their mail."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#ElectionOffices",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 11,
+    "13-17": 16
+  },
+  "caption": "Almost never. In Louisiana they checked. Nothing harmful.\n\nLetters with white powder went to election offices in Delaware, Oklahoma and Louisiana, and to at least five senators. Louisiana's office emptied out Tuesday; police found nothing harmful. Most of the senators' letters were caught in the post. The FBI and postal inspectors are hunting whoever sent them, three weeks before Election Day.\n\nSource: BBC News\n\nSwipe for what to say at age 6, at 11, and at 16.\n\nThe dinner table question: A scary note arrives. Do you tell everyone, or keep it quiet? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #ElectionOffices #DinnerTableNews"
+}
