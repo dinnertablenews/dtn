@@ -1,0 +1,80 @@
+{
+  "slot": "2026-10-16 07:00 CT",
+  "date": "2026-10-16",
+  "category": "Good news",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/world/prince-harry-and-meghan-make-first-joint-appearances-since-returning-to-uk",
+  "source_domain": "pbs.org/newshour",
+  "headline": "Harry and Meghan's first day out. Nottingham cheered.",
+  "summary": "Harry and Meghan made three stops in Nottingham on Thursday: a recording studio for young people, central England's biggest food bank, and a sports and mentoring charity. Schoolchildren cheered. It was their first joint appearance since moving back from California, six years after leaving royal duties. They came as private citizens.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "Did they make up with the King?"
+  },
+  "cover_answer": "Getting there. Harry wants his kids to know their grandad.",
+  "table_question": "You left home in a huff. Six years on, how do you walk back in?",
+  "photo_subject": "Prince Harry, Duke of Sussex",
+  "ages": {
+    "5-7": {
+      "chip": "Good one to bring up",
+      "shield": false,
+      "script": "Prince Harry and Meghan went to Nottingham in England on Thursday and visited a food bank and a music studio for kids. The kids cheered like an assembly when someone famous walks in. Harry grew up a prince, moved to America six years ago, and has just moved back. Nobody is in trouble. They came to say hello.",
+      "why": "A visit and a cheer. The assembly is the picture.",
+      "why_long": "A six-year-old takes one vivid feature for the whole event, so the script gives them the cheer, kids in a studio shouting for a visitor, and leaves the palace letter out. Expect \"is he a real prince?\" Yes. He was born one and still is. He just doesn't do the job any more."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Harry and Meghan quit royal duties in 2020 and moved to California. They moved back in September, and on Thursday visited three charities in Nottingham, where kids cheered. The King's letter says they are family, not working royals: an ex-player in the stands, not on the team sheet.",
+      "why": "Quit, back, cheered, the letter. The team sheet is the mechanism.",
+      "why_long": "This age tracks rules and who they apply to, so the script runs one chain: they quit in 2020, moved back in September, were cheered Thursday, and the King's letter set the rule. The team sheet is the mechanism: in the family, not on the team. Expect \"can they go back on the team?\" Nothing says so. The letter says private."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Can you quit the family business and come back for the good parts? Harry and Meghan quit in 2020 for Netflix and Spotify deals. Thursday in Nottingham came with a press pool and the Sussex titles. The King's office says private citizens. Second: should taxpayers pay for Harry's police protection?",
+      "why": "Back for the good parts? Then the security bill. Hold both.",
+      "why_long": "A teenager can hold two true things at once: the couple quit the job, and they came back with a press pool and the titles on the announcement. The script asks whether that is fair, then puts the security bill beside it and lets them argue either side. Expect \"so are they royals or not?\" Family, yes. Working royals, no."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Is he a real prince?",
+        "a": "Yes. He was born one and still is. He just stopped doing the royal job, like a teacher who retires but is still a teacher."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Did they make up with the King?",
+        "a": "Getting there. Harry wants his kids to know their grandad."
+      },
+      {
+        "q": "Why aren't they working royals?",
+        "a": "They quit in 2020. The King's letter says that still stands."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why does the King care what they call themselves?",
+        "a": "No HRH, it says. The AP reads it as fear of a rival royal court."
+      },
+      {
+        "q": "Should the public pay for Harry's security?",
+        "a": "He says his family is at risk. His kids changed schools over it."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#HarryAndMeghan",
+    "#DinnerTableNews"
+  ],
+  "photo": "data/images/2026-10-16-morning.jpg",
+  "photo_credit": "Photo: Ministerie van Defensie, Wikimedia Commons, CC BY-SA 4.0",
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 12,
+    "13-17": 15
+  },
+  "caption": "Getting there. Harry wants his kids to know their grandad.\n\nHarry and Meghan made three stops in Nottingham on Thursday: a recording studio for young people, central England's biggest food bank, and a sports and mentoring charity. Schoolchildren cheered. It was their first joint appearance since moving back from California, six years after leaving royal duties. They came as private citizens.\n\nSource: PBS NewsHour\nPhoto: Ministerie van Defensie, Wikimedia Commons, CC BY-SA 4.0\n\nSwipe for what to say at age 7, at 12, and at 15.\n\nThe dinner table question: You left home in a huff. Six years on, how do you walk back in? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #HarryAndMeghan #DinnerTableNews"
+}
