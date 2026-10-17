@@ -1,0 +1,79 @@
+{
+  "slot": "2026-10-17 07:00 CT",
+  "date": "2026-10-17",
+  "category": "Government",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/politics/doj-says-california-officials-who-process-ballots-from-suspected-noncitizens-risk-prosecution",
+  "source_domain": "pbs.org/newshour",
+  "headline": "Count those ballots, risk a charge, DOJ tells LA.",
+  "summary": "A Justice Department letter warned Los Angeles County on Friday that officials who knowingly count mail ballots from people federal agencies call likely noncitizens risk prosecution as aiders and abettors. It follows Thursday's lawsuit over a list of 20,000 names. California says no evidence came with it. The election is November 3.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "Is counting votes a crime?"
+  },
+  "cover_answer": "The letter says yes, if you know the voter isn't a citizen.",
+  "table_question": "Someone hands you a list of names and says trust me. Do you?",
+  "photo_subject": "Robert F. Kennedy Department of Justice Building",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "In California, the people who count the votes got a stern letter from Washington. It says some voters might not be allowed to vote, and counting their votes could get the counters in trouble. Like being told some tickets in the jar are fake before anyone has checked. Nobody is in trouble yet, and the grown-ups have it.",
+      "why": "A jar of tickets, some maybe fake, nobody has checked. The whole story at six.",
+      "why_long": "A six-year-old reasons from the thing in front of them, so the script gives them the jar of tickets and the one rule that matters: check before you throw any out. The politics of the letter cannot land at this age; a stern note from a far-away office can. Expect \"are they going to jail?\" No. Nobody has been charged."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Washington sent California 20,000 names it says are likely not citizens. The state says no evidence came with them. Thursday the Justice Department sued; Friday it told Los Angeles County that knowingly counting those ballots could be a crime. A referee handed names to bench, and no proof.",
+      "why": "List, lawsuit, letter. The proof is missing in the middle.",
+      "why_long": "This age builds chains of cause and effect and checks whether adults follow their own rules, so the script runs it in order with the gap where it sits: list, deadline, lawsuit, letter, no evidence shown. Expect \"so who's right?\" The department charged 50 people this year for voting as noncitizens, out of 227 million registered."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Is a warning a threat 18 days before an election? The Justice Department told LA County that counting ballots from 20,000 \"likely\" noncitizens risks charges; California says no proof came. Second: 50 charged this year for voting as noncitizens, of 227 million registered. Crisis, or rounding error?",
+      "why": "Threat or warning, 50 or 227 million. Both are in the article. A teenager can hold two framings at once; a younger kid picks one.",
+      "why_long": "A teenager reasons about what is not in front of them, so the script sets two numbers side by side, 50 charged and 227 million registered, and asks which fits. Kuhn says argument is practised, best against a parent who concedes: noncitizen voting is a crime, and no proof came. Expect \"is this about the election?\" It is 18 days away."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Did somebody cheat?",
+        "a": "Nobody knows yet. Washington says 20,000 people on a list might not be allowed to vote. California says show us the proof. That is the fight."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Is counting votes a crime?",
+        "a": "The letter says yes, if you know the voter isn't a citizen. No one is charged."
+      },
+      {
+        "q": "How do they know those 20,000 aren't citizens?",
+        "a": "They haven't said. In Nevada a list of 1,500 turned out to be zero."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Is this legal?",
+        "a": "The letter says it's aiding a crime. UCLA's Rick Hasen says it overreaches."
+      },
+      {
+        "q": "Why California?",
+        "a": "A few of its House races could decide who controls the House."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#NoncitizenVoting",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 12,
+    "13-17": 14
+  },
+  "photo": "data/images/2026-10-17-morning-alt.jpg",
+  "photo_credit": "Photo: APK, Wikimedia Commons, CC BY 4.0",
+  "caption": "The letter says yes, if you know the voter isn't a citizen.\n\nA Justice Department letter warned Los Angeles County on Friday that officials who knowingly count mail ballots from people federal agencies call likely noncitizens risk prosecution as aiders and abettors. It follows Thursday's lawsuit over a list of 20,000 names. California says no evidence came with it. The election is November 3.\n\nSource: PBS NewsHour\nPhoto: APK, Wikimedia Commons, CC BY 4.0\n\nSwipe for what to say at age 7, at 12, and at 14.\n\nThe dinner table question: Someone hands you a list of names and says trust me. Do you? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #NoncitizenVoting #DinnerTableNews"
+}
