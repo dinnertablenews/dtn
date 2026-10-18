@@ -1,0 +1,77 @@
+{
+  "slot": "2026-10-18 12:00 CT",
+  "date": "2026-10-18",
+  "category": "World",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/cr86z0w4lxdxo",
+  "source_domain": "bbc.com",
+  "headline": "Fire at a Canadian military base. Dead, but no count.",
+  "summary": "A large fire at Canadian Forces Base Wainwright in Alberta killed and injured people on Saturday. Defence minister David McGuinty would not say how many, calling it \"very, very active and delicate.\" High winds pushed it through the base's fences. On a normal day about 690 troops and 300 civilians work there.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "Why won't they say how many died?"
+  },
+  "cover_answer": "The minister wouldn't give a number. Not yet.",
+  "table_question": "Should officials say what they know, or wait until they're sure?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": true,
+      "script": "There was a big fire at a place in Canada where soldiers train, a long way from here. The wind pushed it fast, the way wind pushes leaves across a yard. Firefighters and soldiers are working on it together. The grown-ups have it.",
+      "why": "Only if they hear it. Far away, wind like leaves, grown-ups on it. At six the fire is the whole event, so it gets a yard and a long way.",
+      "why_long": "A six-year-old takes one vivid feature for the whole event, here the fire, so the script puts it far away and gives the wind a yard of leaves they have seen blow. The deaths stay out: this age can do nothing with them, hence the shield. Expect \"could it happen here?\" No. That base is far away."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "A fire started Saturday at Wainwright, an Alberta base where Canadian soldiers train with live ammunition. High winds spread it through the base fences. People died, but the defence minister would not say how many until he was sure. Like a referee who waits for the replay before the call.",
+      "why": "Fire, wind, fences, then the referee waiting for the replay.",
+      "why_long": "This age is working out chains and whether adults follow the rules, so the script hands them fire, wind, fences, then a minister who knows people died and will not give a number until he is sure. The referee waiting for the replay is a rule they accept. Expect \"why not just say?\" He called it delicate."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Canada's defence minister said people died in a fire at a training base, then declined to give a number. Is that caution or evasion? Second: Wainwright is where soldiers do live-fire training, and nobody has said what started it. What would you need to know before you guessed?",
+      "why": "Caution or evasion is a real question. Let them pick a side before you do.",
+      "why_long": "A teenager can hold two true things: the minister said people died, and he would not say how many. The script asks whether that is caution or evasion and lets them argue it. Kuhn calls argument a skill that is practised. Then the cause, which nobody knows. Expect \"was it an explosion?\" Nobody has said."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Did people get hurt?",
+        "a": "Yes, some did, and nobody has said how many. Doctors and firefighters are helping them."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "What started the fire?",
+        "a": "Nobody has said. The armed forces are looking into it."
+      },
+      {
+        "q": "Is it still burning?",
+        "a": "Yes, when the story ran, and spreading in the wind."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why won't they say how many died?",
+        "a": "He said the number wasn't confirmed. Whether that's caution is your call."
+      },
+      {
+        "q": "What is a live-fire base?",
+        "a": "One where soldiers train with real ammunition. CBC calls Wainwright Canada's principal one."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#Wainwright",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 10,
+    "13-17": 17
+  },
+  "caption": "The minister wouldn't give a number. Not yet.\n\nA large fire at Canadian Forces Base Wainwright in Alberta killed and injured people on Saturday. Defence minister David McGuinty would not say how many, calling it \"very, very active and delicate.\" High winds pushed it through the base's fences. On a normal day about 690 troops and 300 civilians work there.\n\nSource: BBC News\n\nSwipe for what to say at age 7, at 10, and at 17.\n\nThe dinner table question: Should officials say what they know, or wait until they're sure? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #Wainwright #DinnerTableNews"
+}
