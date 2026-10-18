@@ -1,0 +1,77 @@
+{
+  "slot": "2026-10-18 07:00 CT",
+  "date": "2026-10-18",
+  "category": "World",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/c962ydpmjm3zo",
+  "source_domain": "bbc.com",
+  "headline": "Settlers attacked the diplomats who came to look.",
+  "summary": "Masked Israeli settlers attacked a convoy of European diplomats in Taybeh, a West Bank village, on Saturday. The envoys had come to see the settler attacks on the olive harvest for themselves. A French mayor says he was kicked and beaten with iron bars. Israel's army condemned it. Netanyahu's office said to wait for the facts.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "Why attack people who came to look?"
+  },
+  "cover_answer": "No one has said why. They wore masks. Police are looking.",
+  "table_question": "You get hurt on a trip you didn't tell anyone about. Whose fault?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": true,
+      "script": "Far away, in the West Bank, visitors from Europe went to check on families who pick olives, the way a teacher checks the playground. Men in masks came and hit them and broke a car window. The visitors are safe. Police are looking for the men who did it.",
+      "why": "Only if they hear it. A check-up visit, masks, and the visitors safe. At six the masks become the whole event, so they get one sentence.",
+      "why_long": "A six-year-old takes one vivid feature for the whole event, here the masks, so the script puts the playground check first and the masks in one sentence. Cantor found this age fears the picture, not the politics, so it ends on the visitors safe. Expect \"why did they wear masks?\" So no one knows who they are."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "Settlers have attacked West Bank villages almost daily this olive harvest. So European diplomats drove to Taybeh to see for themselves. Masked settlers beat a French mayor. The army condemned it. Netanyahu's office said wait for the facts. A hall monitor sent to check on a fight, and shoved.",
+      "why": "Attacks, inspectors, an attack on the inspectors. Then the monitor.",
+      "why_long": "This age tests whether adults apply the rules they announce, so the script runs one chain: daily attacks, inspectors sent to look, an attack on the inspectors. Then two answers from one government, the army condemning and Netanyahu's office asking for caution. Expect \"will they get in trouble?\" Police opened an investigation."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Israel's army called it a severe act of violence. Netanyahu's office warned of a campaign to smear Israel. Same government, same day: which one is the policy? Second: the foreign minister said the visit should have been cleared with the army first. Safety point, or a shift of blame?",
+      "why": "Two statements from one government. They can hold both.",
+      "why_long": "A teenager can hold two true things at once, and one government handed them a pair: the army's condemnation and Netanyahu's office casting doubt. Kuhn says argument is practised against a real opponent, so the script gives them Sa'ar's coordination point to test, not dismiss. Expect \"settlers or government?\" Belgium says both."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Why did they wear masks?",
+        "a": "So nobody knows who they are. Police are trying to find out."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why attack people who came to look?",
+        "a": "No one has said. The attackers wore masks."
+      },
+      {
+        "q": "Will they get in trouble?",
+        "a": "Police opened an investigation. Belgium wants EU sanctions."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why does it matter that they were diplomats?",
+        "a": "Countries protect each other's envoys. Belgium says Israel must."
+      },
+      {
+        "q": "Is the election part of this?",
+        "a": "AP says it is under two weeks away, and Netanyahu could lose."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#Taybeh",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 11,
+    "13-17": 13
+  },
+  "caption": "No one has said why. They wore masks. Police are looking.\n\nMasked Israeli settlers attacked a convoy of European diplomats in Taybeh, a West Bank village, on Saturday. The envoys had come to see the settler attacks on the olive harvest for themselves. A French mayor says he was kicked and beaten with iron bars. Israel's army condemned it. Netanyahu's office said to wait for the facts.\n\nSource: BBC News\n\nSwipe for what to say at age 7, at 11, and at 13.\n\nThe dinner table question: You get hurt on a trip you didn't tell anyone about. Whose fault? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #Taybeh #DinnerTableNews"
+}
