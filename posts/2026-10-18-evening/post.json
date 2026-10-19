@@ -1,0 +1,80 @@
+{
+  "slot": "2026-10-18 20:00 CT",
+  "date": "2026-10-18",
+  "category": "Good news",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/world/pope-leo-tells-faithful-in-st-peters-square-he-will-gradually-resume-duties-after-cancer-surgery",
+  "source_domain": "pbs.org/newshour",
+  "headline": "Four days after surgery, the Pope waves again.",
+  "summary": "Pope Leo XIV appeared at his window over St Peter's Square on Sunday, four days after surgeons removed the lower lobe of his right lung. The crowd cheered. He thanked them for their prayers and said he will gradually take up his duties again. The tumour was adenocarcinoma. His surgeon says the November trip to South America can go ahead.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Is the Pope all better now?"
+  },
+  "cover_answer": "Not yet. Up and waving, with tests still to come.",
+  "table_question": "Back at work four days after surgery: brave or too soon?",
+  "photo_subject": "Pope Leo XIV",
+  "ages": {
+    "5-7": {
+      "chip": "Good one to bring up",
+      "shield": false,
+      "script": "The Pope, who leads the Catholic church, had an operation on Tuesday to take out a sick bit of his lung. On Sunday he came to his window and waved, and the crowd below cheered like a stadium. His doctors say he will be mended in about ten more days. He is being looked after by good people.",
+      "why": "The wave and the cheer are the whole story. A six-year-old reads your face before the words, so say it easy.",
+      "why_long": "A six-year-old takes one vivid feature for the whole event, so the script hands them the wave and the stadium cheer, and leaves the word cancer out unless they bring it. Cantor's work says an ill leader frightens this age less than a parent's worried face. Expect \"could you get sick like that?\" Anyone can. Most people never get this one."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "A week ago the Pope told the crowd doctors had found a lump on his lung. Tuesday surgeons took it out, with part of the lung. It was cancer. Sunday he was back at the window, thanking them. A lab now tests the lump, like a mechanic reading a pulled part, to decide on more treatment.",
+      "why": "Lump, surgery, window, lab. The mechanic is the mechanism.",
+      "why_long": "This age is working out chains of cause and effect, so the script runs one: lump announced, lung lobe out, back at the window, lab testing the lump. The mechanic reading the pulled part is a mechanism they know: the decision waits on what the part shows. Expect \"will he need chemo?\" Nobody knows yet. The tests decide."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Should a leader announce his illness a week before surgery, then show up four days after? The Pope did both, from the same window. Second: his surgeon has cleared a 12-flight trip to South America in November while the lab still tests the tumour. Confidence, or pressure to look well?",
+      "why": "Open about illness, back fast. Hold the trip and the tests together.",
+      "why_long": "A teenager can hold two true things at once: the Pope's openness about his illness, and a surgeon clearing a 12-flight trip while the tumour is still in the lab. The script puts both on the table and asks whether that is confidence or pressure to look well. Expect \"would you tell everyone?\" Answer it; they are testing whether you argue."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Is the Pope all better now?",
+        "a": "Not yet. The doctors took out the sick part, and he is up and waving. They will check him again to see if he needs more medicine."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Does he still have cancer?",
+        "a": "The sick part is out. A lab is testing it to see if he needs more."
+      },
+      {
+        "q": "Can he still go on his big trip?",
+        "a": "His surgeon says yes. Three countries, November 6 to 17."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why show himself so soon?",
+        "a": "He said the week made him feel close to people who are ill."
+      },
+      {
+        "q": "Is a 12-flight trip wise three weeks after lung surgery?",
+        "a": "His surgeon says no clinical reason against it. Tests pending."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#PopeLeo",
+    "#DinnerTableNews"
+  ],
+  "photo": "data/images/2026-10-18-evening.jpg",
+  "photo_credit": "Photo: Edgar Beltrán, The Pillar, Wikimedia Commons, CC BY-SA 4.0",
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 12,
+    "13-17": 14
+  },
+  "caption": "Not yet. Up and waving, with tests still to come.\n\nPope Leo XIV appeared at his window over St Peter's Square on Sunday, four days after surgeons removed the lower lobe of his right lung. The crowd cheered. He thanked them for their prayers and said he will gradually take up his duties again. The tumour was adenocarcinoma. His surgeon says the November trip to South America can go ahead.\n\nSource: PBS NewsHour\nPhoto: Edgar Beltrán, The Pillar, Wikimedia Commons, CC BY-SA 4.0\n\nSwipe for what to say at age 6, at 12, and at 14.\n\nThe dinner table question: Back at work four days after surgery: brave or too soon? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #PopeLeo #DinnerTableNews"
+}
