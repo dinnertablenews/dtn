@@ -1,0 +1,77 @@
+{
+  "slot": "2026-10-20 12:00 CT",
+  "date": "2026-10-20",
+  "category": "Technology",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/cjkgeq0k1wevo",
+  "source_domain": "bbc.com",
+  "headline": "US bans DeepSeek from its agencies. Quietly, since July.",
+  "summary": "Homeland Security has ordered DeepSeek's AI, and anything built with it, out of civilian agencies such as Treasury, State and Justice. The order went public Monday. It took effect at the end of July. It names no specific security concern. DeepSeek's models are open source and cheap, and its chatbot app is among Apple's most downloaded.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "So what did DeepSeek do?"
+  },
+  "cover_answer": "The order says \"threat vectors\" and names none.",
+  "table_question": "Should you have to say why before you ban something?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": false,
+      "script": "The US government has told its offices to stop using a computer helper called DeepSeek, which was made in China. It's like a school saying one brand of pencil can't come into the building, even though you can still use it at home. The grown-ups want to be careful about what goes into their computers. Nothing changes for you.",
+      "why": "A pencil you can picture, and a ban on grown-up computers only.",
+      "why_long": "A six-year-old reasons from what is in front of them, so a software ban becomes a pencil kept out of school. The script says the rule is for the government's computers, not theirs, because this age takes the one feature it understands and fears for the tablet at home. Expect \"is DeepSeek bad?\" Nobody has said what was wrong with it."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "DeepSeek is a Chinese AI that is free to copy and cheap to run, so startups and some US tech companies build on it. In July Homeland Security told civilian agencies to take it out. The order only went public Monday. It's like a coach benching a player and not saying why. The Defense Department is exempt.",
+      "why": "Banned in July, public in October, no reason. Kids this age keep score.",
+      "why_long": "This age is working out whether adults apply rules consistently, so the story is a chain to check: a ban in July, an announcement in October, no reason given. The benched player is the mechanism, and the Defense exemption is the inconsistency they spot first. Expect \"can I still use it?\" Government computers only, so a family call."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "The order cites \"multiple threat vectors\" and names none. Should a government say why before it bans something? DeepSeek says its first model cost about $6m, against roughly $100m for GPT-4, and OpenAI and Anthropic say it copied their work. Is that a security threat or a business one?",
+      "why": "The missing reason and the business grudge. Keep them apart.",
+      "why_long": "A teenager can hold two true things at once: the order gives no reason, and the US firms it shelters have their own grievance against DeepSeek. The script asks them to keep the security question and the business question apart, so neither answers the other. Expect \"so is it spyware?\" Nobody has reported that. The gap is the story."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Is DeepSeek bad?",
+        "a": "Nobody said what was wrong with it. It's off their computers. Your tablet is fine."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "What is DeepSeek?",
+        "a": "A Chinese company's free AI chatbot, one of Apple's most downloaded apps."
+      },
+      {
+        "q": "Can I still use it?",
+        "a": "The ban is for government computers. Chatbots at home are a family rule."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "So what did DeepSeek do?",
+        "a": "The order cites multiple threat vectors, its words, and gives no detail."
+      },
+      {
+        "q": "Isn't this just protecting American companies?",
+        "a": "Maybe both. OpenAI and Anthropic say it copied them. The order doesn't."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#DeepSeek",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 10,
+    "13-17": 13
+  },
+  "caption": "The order says \"threat vectors\" and names none.\n\nHomeland Security has ordered DeepSeek's AI, and anything built with it, out of civilian agencies such as Treasury, State and Justice. The order went public Monday. It took effect at the end of July. It names no specific security concern. DeepSeek's models are open source and cheap, and its chatbot app is among Apple's most downloaded.\n\nSource: BBC News\n\nSwipe for what to say at age 6, at 10, and at 13.\n\nThe dinner table question: Should you have to say why before you ban something? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #DeepSeek #DinnerTableNews"
+}
