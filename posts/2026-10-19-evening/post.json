@@ -1,0 +1,80 @@
+{
+  "slot": "2026-10-19 20:00 CT",
+  "date": "2026-10-19",
+  "category": "Science",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/science/japan-launches-spacecraft-to-mars-moon-in-mission-to-bring-back-soil-samples",
+  "source_domain": "pbs.org/newshour",
+  "headline": "Japan's spacecraft is off to fetch a piece of a Mars moon.",
+  "summary": "The MMX spacecraft launched before dawn Tuesday from Tanegashima Island. It reaches Mars late next summer, drops a rover the size of a microwave on Phobos, then lands for two hours to drill up 10 grams of dust. Nobody has landed on either Mars moon. The dust is due back in Australia in 2031. Five space agencies split the $578 million.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Why do they want moon dirt?"
+  },
+  "cover_answer": "To find out where that little moon came from.",
+  "table_question": "Would you spend ten years to bring home two teaspoons of dust?",
+  "photo_subject": "Martian Moons eXploration",
+  "ages": {
+    "5-7": {
+      "chip": "Good one to bring up",
+      "shield": false,
+      "script": "A rocket left Japan this morning carrying a spacecraft to Mars. Next year it will reach a tiny moon called Phobos, shaped like a potato, and drop off a rover the size of a microwave. Later it will scoop up about two teaspoons of dust and fly them home. No people are on board, only robots, so nobody is far from home.",
+      "why": "A potato moon and a microwave rover are things a seven-year-old can picture. The last line answers the worry before it lands.",
+      "why_long": "A seven-year-old reasons from what is in front of them, so the script hands over a potato-shaped moon and a microwave-sized rover and leaves the orbits alone. The one worry at this age is who is on the rocket, so the script answers it last, the line they keep. Expect \"can I go to Mars?\" Not yet. This dust is part of working out how."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Phobos has almost no gravity, so a lander can't just set down: it could bounce off or sink. So Japan sends a rover first to crawl around for 100 days and map the ground. Only then does the lander come, for two hours, to drill up 10 grams. The kid who tests the ice before anyone skates.",
+      "why": "Scout first, land second, leave fast. The order is the lesson.",
+      "why_long": "This age is working out chains of cause and effect, so the script runs one: almost no gravity, so no safe landing; so a rover scouts for 100 days; so the lander stays two hours. The rover is the kid testing the ice, a job they already trust. Expect \"what if it lands upside down?\" It can flip itself over, until its solar panels open."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Would you spend $578 million for two teaspoons of dust? Five agencies did, to learn whether Phobos is debris from a crash into Mars or a captured asteroid. Second: NASA has 30 sample tubes stuck on Mars with no ride home while Japan and China aim for 2031. Does being first matter?",
+      "why": "Price against payoff, then a race nobody declared.",
+      "why_long": "A teenager can hold two true things at once: 10 grams is almost nothing, and it is enough to settle how Mars got its moons. Price sits beside payoff, then the race: Japan and China aiming for 2031 while NASA's tubes wait on Mars. Expect \"why not just send people?\" Nobody knows how to bring them back yet. Arguing it is the practice."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Why do they want moon dirt?",
+        "a": "To find out where that little moon came from. Scientists can read a whole story in a pinch of dust, like a detective with one footprint."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why does it take so long?",
+        "a": "Mars is far. Arrive next summer, dust home in 2031."
+      },
+      {
+        "q": "Can the rover get stuck?",
+        "a": "Yes. Soft soil or a wedge between rocks ends it."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why Japan and not NASA?",
+        "a": "Japan has two asteroid samples home already. NASA is paying $87 million of this one."
+      },
+      {
+        "q": "Why would Phobos have bits of Mars on it?",
+        "a": "It orbits so close that rocks hitting Mars splash grains up onto it."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#Phobos",
+    "#DinnerTableNews"
+  ],
+  "photo": "data/images/2026-10-19-evening.jpg",
+  "photo_credit": "Photo: JAXA, Wikimedia Commons, CC BY 4.0",
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 8,
+    "13-17": 16
+  },
+  "caption": "To find out where that little moon came from.\n\nThe MMX spacecraft launched before dawn Tuesday from Tanegashima Island. It reaches Mars late next summer, drops a rover the size of a microwave on Phobos, then lands for two hours to drill up 10 grams of dust. Nobody has landed on either Mars moon. The dust is due back in Australia in 2031. Five space agencies split the $578 million.\n\nSource: PBS NewsHour\nPhoto: JAXA, Wikimedia Commons, CC BY 4.0\n\nSwipe for what to say at age 7, at 8, and at 16.\n\nThe dinner table question: Would you spend ten years to bring home two teaspoons of dust? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #Phobos #DinnerTableNews"
+}
