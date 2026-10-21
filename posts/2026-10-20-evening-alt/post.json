@@ -1,0 +1,80 @@
+{
+  "slot": "2026-10-20 20:00 CT",
+  "date": "2026-10-20",
+  "category": "Economy",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/cmlyl09xjke4o",
+  "source_domain": "bbc.com",
+  "headline": "Musk wants to merge Tesla and SpaceX. $3.5 trillion.",
+  "summary": "Elon Musk told analysts Tuesday that a merger of Tesla and SpaceX is under active consideration and that he thinks it is a good idea. Each company has formed a special committee to examine it. Musk sits on neither, calling himself a conflicted party. Tesla is valued around $1.5 trillion, SpaceX at $2 trillion. SpaceX shares rose 8%.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Is he the boss of both?"
+  },
+  "cover_answer": "Yes. That's why he can't be in the room.",
+  "table_question": "If you'd gain from a decision, should you be in the room?",
+  "photo_subject": "Elon Musk",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": false,
+      "script": "A man named Elon Musk is the boss of two giant companies. One builds electric cars and the other builds rockets. He says he'd like to join them into one company, like two Lego sets snapped together. Lots of other people have to agree first, so nothing has happened yet.",
+      "why": "Two Lego sets, one click. The trillions can wait.",
+      "why_long": "A six-year-old reasons from what is in front of them, so the merger is two Lego sets and the trillions stay out of it. The script ends on \"nothing has happened yet\" because this age hears an announcement as a done thing. Expect \"will the cars fly?\" No. Same cars, same rockets, maybe one name on the door."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Elon Musk runs Tesla, the car company, and SpaceX, the rocket company. Tuesday he said merging them would be a good idea, but he can't join the talks because he'd be on both sides of the table. Other directors at each company decide instead, a referee called in because both captains are one person.",
+      "why": "Both captains are one man. That's the fairness problem.",
+      "why_long": "This age is working out rules and whether adults follow them, and this story is a rule in action: the man who wants the deal stepped out of the talks. The committee is the referee, and the shareholder vote is the second check. Expect \"why can't he just decide?\" The companies belong to their shareholders, and he is one of many."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Musk says a Tesla-SpaceX merger would be a good idea, and that as a conflicted party he can't sit in the talks. Can a founder step out of a room he built? Together they'd be worth about $3.5 trillion. SpaceX has lost $1.1 billion this year, and its shares jumped 8% on the news. What is the market buying?",
+      "why": "The recusal, and the loss beside the jump. Let them sort it.",
+      "why_long": "A teenager can hold two true things at once: Musk has stepped out of the talks, and the deal is still his idea, floated on his own earnings call. The script puts the loss beside the share jump so they have to say what a price measures. Expect \"is that a conflict of interest?\" He said so himself. Does the committee fix it?"
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Is he the boss of both?",
+        "a": "Yes, of both. That's why other people, not him, get to decide if they join up."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "What's a merger?",
+        "a": "Two companies becoming one. Half of Tesla's shareholders must say yes."
+      },
+      {
+        "q": "Why can't Musk be in the talks?",
+        "a": "He'd be arguing with himself. Other directors talk instead."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Can a founder step out of a room he built?",
+        "a": "He says he's out of the talks. The idea still came from him, on his earnings call."
+      },
+      {
+        "q": "Is this good for shareholders?",
+        "a": "One analyst says they'd back it. SpaceX lost $1.1 billion this year. Hold both."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#SpaceX",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 12,
+    "13-17": 13
+  },
+  "photo": "data/images/2026-10-20-evening-alt.jpg",
+  "photo_credit": "Photo: Gage Skidmore, Wikimedia Commons, CC BY-SA 4.0",
+  "caption": "Yes. That's why he can't be in the room.\n\nElon Musk told analysts Tuesday that a merger of Tesla and SpaceX is under active consideration and that he thinks it is a good idea. Each company has formed a special committee to examine it. Musk sits on neither, calling himself a conflicted party. Tesla is valued around $1.5 trillion, SpaceX at $2 trillion. SpaceX shares rose 8%.\n\nSource: BBC News\nPhoto: Gage Skidmore, Wikimedia Commons, CC BY-SA 4.0\n\nSwipe for what to say at age 6, at 12, and at 13.\n\nThe dinner table question: If you'd gain from a decision, should you be in the room? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #SpaceX #DinnerTableNews"
+}
