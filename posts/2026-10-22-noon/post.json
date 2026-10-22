@@ -1,0 +1,77 @@
+{
+  "slot": "2026-10-22 12:00 CT",
+  "date": "2026-10-22",
+  "category": "Security",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/cqwy71ww156ro",
+  "source_domain": "bbc.com",
+  "headline": "Two killed at a Saudi airport. 21 this month.",
+  "summary": "An attack on the airport in Dammam, eastern Saudi Arabia, killed two people and injured eight on Wednesday evening. Nobody has claimed it; the Houthis have hit Saudi airports with drones and missiles all month, 21 dead since October began. That morning, drone debris killed two at an Aramco oil field. A four-year truce fell apart in July.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "Why hit an airport, not an army?"
+  },
+  "cover_answer": "Payback for air strikes on Yemen, the Houthis say.",
+  "table_question": "Does hitting back ever end a fight, or just keep it going?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": true,
+      "script": "Far away, in a country called Saudi Arabia, a drone, a flying machine with nobody inside, hit an airport and some people died. That is on the other side of the world from us. People there watch the sky all night, and they stopped four more drones that same night. The grown-ups have it.",
+      "why": "A drone as a plane with nobody inside, and the four they stopped. Only if they hear.",
+      "why_long": "A six-year-old takes one vivid feature for the whole event and reads your face first, so this stays in the drawer unless they hear it. If they do, the script gives them a drone as a plane with nobody inside, far away, and four more that were stopped that night. Expect \"could one come here?\" No. This is a fight between two neighbours."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "Yemen's Houthis and Saudi Arabia kept a truce for four years. In July it broke. Now Saudi jets bomb Yemen and the Houthis send drones at Saudi airports. On Wednesday one hit Dammam's airport and killed two; 21 have died at airports this month. A playground fight where each says the other hit first.",
+      "why": "Truce, bombing, drones, airport. Then the playground fight.",
+      "why_long": "At this age a child is working out chains of cause and effect and whether the rules apply to both sides, so the script runs one: a truce held four years, it broke, each side says the other struck first, and a drone reached an airport. The playground fight is the mechanism they know. Expect \"who's right?\" Each says the other started it."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Why hit an airport, not an army? Payback for Saudi air strikes on Yemen, the Houthis say; 21 people have died at Saudi airports this month. Second: Yemen's own count is at least 1,574 dead in three months and 256,000 driven from home. Why does the airport make the news and the village not?",
+      "why": "The airport, then the village. Both true.",
+      "why_long": "A teenager can hold two true things at once: the airport attack is the headline, and the village count is the bigger number. The script hands them both and asks why one makes the news. Kuhn's point is that arguing is a skill you practise, so let them. Expect \"should Saudi Arabia stop bombing then?\" I don't know. The Houthis say so."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Could a drone come to our airport?",
+        "a": "No. This is a fight between two countries on the other side of the world."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Who are the Houthis?",
+        "a": "A group that took Yemen's capital in 2014 and runs part of the country."
+      },
+      {
+        "q": "Why did the truce break?",
+        "a": "Over a blockade the Houthis blame on Saudi Arabia."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why hit an airport, not an army?",
+        "a": "Payback for Saudi air strikes on Yemen, the Houthis say."
+      },
+      {
+        "q": "Will this become a bigger war?",
+        "a": "It is one: 1,574 dead in Yemen in three months, 256,000 driven from home."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#Houthis",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 10,
+    "13-17": 14
+  },
+  "caption": "Payback for air strikes on Yemen, the Houthis say.\n\nAn attack on the airport in Dammam, eastern Saudi Arabia, killed two people and injured eight on Wednesday evening. Nobody has claimed it; the Houthis have hit Saudi airports with drones and missiles all month, 21 dead since October began. That morning, drone debris killed two at an Aramco oil field. A four-year truce fell apart in July.\n\nSource: BBC News\n\nSwipe for what to say at age 6, at 10, and at 14.\n\nThe dinner table question: Does hitting back ever end a fight, or just keep it going? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #Houthis #DinnerTableNews"
+}
