@@ -1,0 +1,76 @@
+{
+  "slot": "2026-10-22 20:00 CT",
+  "date": "2026-10-22",
+  "category": "Technology",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/cq74pjpmx0e8o",
+  "source_domain": "bbc.com",
+  "headline": "Trump says Musk put Ukraine's Starlink back on.",
+  "summary": "Ukraine's army runs its drones and missile warnings over Starlink, Elon Musk's satellite internet. A speed cap left the drones unable to keep up with Russian attacks. Musk says the US government controls that access; the White House says it ordered nothing. Trump now says Musk \"put it back\". Zelensky says it is not at full speed yet.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Can he turn ours off too?"
+  },
+  "cover_answer": "No. Ours doesn't come from his satellites.",
+  "table_question": "Should one person hold the off switch for a whole country?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "A country called Ukraine gets its internet from satellites, little machines up in space that a man named Elon Musk owns. For a while it got slow, like a hose with a kink in it, and nobody would say who put the kink there. Today the president said Musk fixed it. Your internet is fine, and the grown-ups have it.",
+      "why": "The kink in the hose is the whole story. Who did it stays with the grown-ups.",
+      "why_long": "A six-year-old reasons from what is in front of them and takes one vivid feature for the whole event, so the script gives them one: a hose with a kink in it, and a man who owns the satellites. The war and the drones stay off this card. Expect \"why did it get slow?\" Nobody will say, and that is the honest answer."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Ukraine's army uses Starlink, Musk's satellite internet, to fly its drones and to warn of Russian missiles. A speed cap slowed the drones. Musk said he didn't; the White House said it didn't. Two kids by a broken lamp, each pointing at the other, until Trump said Musk \"put it back\".",
+      "why": "Cap, slow drones, two denials, one fix. The pointing is the part they know.",
+      "why_long": "At this age a child is working out cause and effect and whether grown-ups own up when they break something, so the script runs one chain: a cap went on, the drones slowed, two people denied it, and the president says it is fixed. Two kids by a broken lamp is the mechanism they know. Expect \"so who did it?\" Nobody has admitted it."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Should one company get to throttle an army mid-war? Ukraine's drones run on Musk's Starlink, and a speed cap slowed them. Musk says the government controls access; Trump says Musk \"put it back\". Second: it came as Trump pressed Zelensky to stop hitting Russian refineries. What would link the two?",
+      "why": "The off switch, then the timing. Let them say what they'd need to know.",
+      "why_long": "A teenager can hold two true things at once: a private network kept Ukraine's drones flying, and the president was pressing Ukraine to stop hitting Russian refineries. The script hands them both and asks what would link them; Kuhn's point is that arguing is practised on evidence. Expect \"so did Trump do it?\" Nobody has owned it."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Can he turn ours off too?",
+        "a": "No. Ours doesn't come from his satellites. Ukraine borrows a special internet from space that his company owns."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why does an army need internet?",
+        "a": "Drones and missile warnings run on Starlink. Slow it, drones lag."
+      },
+      {
+        "q": "Who slowed it down?",
+        "a": "Nobody will say. Musk blames the government; it says it didn't."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Should one company hold an army's off switch?",
+        "a": "Ukraine's army runs on a network it doesn't own. This week showed the cost."
+      },
+      {
+        "q": "Did Trump order the slowdown?",
+        "a": "The White House says no. Musk says the government holds the keys."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#Starlink",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 9,
+    "13-17": 15
+  },
+  "caption": "No. Ours doesn't come from his satellites.\n\nUkraine's army runs its drones and missile warnings over Starlink, Elon Musk's satellite internet. A speed cap left the drones unable to keep up with Russian attacks. Musk says the US government controls that access; the White House says it ordered nothing. Trump now says Musk \"put it back\". Zelensky says it is not at full speed yet.\n\nSource: BBC News\n\nSwipe for what to say at age 7, at 9, and at 15.\n\nThe dinner table question: Should one person hold the off switch for a whole country? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #Starlink #DinnerTableNews"
+}
