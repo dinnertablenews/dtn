@@ -1,0 +1,80 @@
+{
+  "slot": "2026-10-23 12:00 CT",
+  "date": "2026-10-23",
+  "category": "Good news",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo",
+  "source_domain": "bbc.com",
+  "headline": "A truce for one besieged city. It starts October 29.",
+  "summary": "The White House says Melania Trump brokered a local ceasefire in Oleshky, a Russian-held city in southern Ukraine, to begin October 29. About 6,000 people are left of 24,000, mostly elderly, and some have been eating garden weeds. Aid goes in, and anyone who wants out gets a ride to Russia or Ukraine. Neither government has confirmed it.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "Can one city have its own truce?"
+  },
+  "cover_answer": "Yes. For now only the White House says this one is real.",
+  "table_question": "Would you pause a fight so the people stuck in it could get out?",
+  "photo_subject": "Melania Trump",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": false,
+      "script": "There is a town in Ukraine called Oleshky with a war all around it, and the people still there, mostly grandparents, have run short of food. Melania Trump, the president's wife, says both sides agreed to stop fighting around the town for a while, like a timeout in a game, so helpers can bring in food and drive out anyone who wants to leave. It starts next week, and the grown-ups are on it.",
+      "why": "A timeout, food, a ride out. The hunger gets one line.",
+      "why_long": "A six-year-old takes one vivid feature for the whole event, so the script makes that feature a timeout and a ride out, and gives the hunger one line. Timeouts are a rule they have called themselves. Expect \"are the grandparents okay?\" Not yet. That is what the timeout is for."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Oleshky sits on a river with Ukraine's army on the far bank and Russia's all around, so no food got in for months and nobody got out. The White House says Melania Trump got both sides to a ceasefire for that one city from October 29, a timeout on one square of the board. Neither side has confirmed it.",
+      "why": "River, army, no trucks. A timeout on one square is a rule they know.",
+      "why_long": "At this age a child is building chains of cause and effect, and this one runs clean: river on one side, army on the other, no trucks, no food. The ceasefire is a timeout on one square of the board, a rule they know from games. Expect \"why didn't they do this sooner?\" Ukraine asked for months. Russia never said yes."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Can one city have its own truce? The White House says Melania Trump brokered one for Oleshky, 6,000 people under Russian blockade, from October 29. Neither government has confirmed it. Second: Ukraine asked for this for months and got nowhere. What changed when the first lady asked?",
+      "why": "A truce that could save 6,000, and a claim one side has made. Hold both.",
+      "why_long": "A teenager can hold two true things at once: a truce that could save 6,000 people, and a claim only the White House has made so far. The script asks them to carry both until Russia and Ukraine speak. Expect \"is this just PR?\" The honest answer is that it can be both, and October 29 will tell."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Why don't they have food?",
+        "a": "The fighting cut the town off, so trucks couldn't get in. The timeout is so they can."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why only one city?",
+        "a": "A small deal is easier than a big one. The war goes on elsewhere."
+      },
+      {
+        "q": "Where will the people go?",
+        "a": "Wherever they choose, Russia or Ukraine."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Can one city have its own truce?",
+        "a": "Yes. For now only the White House says this one is real."
+      },
+      {
+        "q": "Why hasn't Ukraine or Russia confirmed it?",
+        "a": "Neither had commented by Friday. Ukraine asked for months; Russia never committed."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#Oleshky",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 12,
+    "13-17": 16
+  },
+  "photo": "data/images/2026-10-23-noon.jpg",
+  "photo_credit": "Photo: The White House, Wikimedia Commons, Public domain",
+  "caption": "Yes. For now only the White House says this one is real.\n\nThe White House says Melania Trump brokered a local ceasefire in Oleshky, a Russian-held city in southern Ukraine, to begin October 29. About 6,000 people are left of 24,000, mostly elderly, and some have been eating garden weeds. Aid goes in, and anyone who wants out gets a ride to Russia or Ukraine. Neither government has confirmed it.\n\nSource: BBC News\nPhoto: The White House, Wikimedia Commons, Public domain\n\nSwipe for what to say at age 7, at 12, and at 16.\n\nThe dinner table question: Would you pause a fight so the people stuck in it could get out? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #Oleshky #DinnerTableNews"
+}
