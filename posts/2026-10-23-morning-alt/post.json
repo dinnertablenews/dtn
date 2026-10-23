@@ -1,0 +1,80 @@
+{
+  "slot": "2026-10-23 07:00 CT",
+  "date": "2026-10-23",
+  "category": "World",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/world/iran-says-7-oil-tankers-damaged-in-strait-of-hormuz-and-other-middle-east-news",
+  "source_domain": "pbs.org/newshour",
+  "headline": "Seven oil tankers hit in one night in the Strait of Hormuz.",
+  "summary": "Iran's state TV says seven oil tankers were hit overnight in the Strait of Hormuz, the narrow exit from the Gulf. Its Revolutionary Guard navy says four caught fire while moving oil between ships and three struck mines. No word on crews or flags. Tankers now run the strait at night, in a US-guarded lane, with their trackers switched off.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "Why do ships still sail through?"
+  },
+  "cover_answer": "The oil has to get out. So they go at night, guarded.",
+  "table_question": "Would you take a dangerous road if it was the only way to work?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": true,
+      "script": "Huge ships that carry oil squeeze through a narrow bit of sea called the Strait of Hormuz, like the neck of a bottle. Last night seven of them were damaged there, some by fire and some by bumping into mines, bombs that wait in the water. Nobody has said any sailors were hurt. It is a long way from us, and the grown-ups have it.",
+      "why": "The bottle neck is the picture. Only if they hear it.",
+      "why_long": "A child this age reasons from what is in front of them, and nothing here is in front of them but the word \"attacked\", so this stays in the drawer unless they hear it. If they do, the bottle neck gives them a picture to hold, and the script keeps the war off the card. Expect \"could that happen to our boat?\" No. Ours do not go there."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "The Strait of Hormuz is the Gulf's one exit to the sea, and its oil leaves through it. Tankers now run it at night, in a US-guarded lane, trackers off. Iran says seven were hit in one night, four by its navy, three by mines. Saudi Arabia now pipes three times the oil round it: the detour when the bridge is out.",
+      "why": "One exit, a night run, a detour when the bridge is out.",
+      "why_long": "At this age a child can follow a chain of cause and effect when each link is physical, and this one is: one narrow exit, ships that dare it only at night, seven hit, and oil rerouted by pipeline the way traffic takes the detour when a bridge is out. Expect \"so will gas cost more?\" It can, and that is the honest answer."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "When a country says it hit seven oil tankers and names neither the ships nor their flags, what do you do with the claim? Iran's state TV carried it; no one else has confirmed it. Second: Saudi Arabia tripled the oil it pipes round the strait. Who pays when the shortcut closes?",
+      "why": "An unconfirmed claim and a real price. Weigh the source first.",
+      "why_long": "A teenager can hold two true things at once: the claim is unverified, and the strait is a real choke point where damage shows up in prices far away. The script asks them to weigh the source before the stakes; Kuhn's point is that argument is practised on evidence. Expect \"are we at war?\" AP says the fear is a return to war."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Did the ships sink?",
+        "a": "No. The report says damaged, not sunk. Nobody has said any sailors were hurt."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why do ships still sail through?",
+        "a": "It's the only sea exit from the Gulf. They go at night, guarded."
+      },
+      {
+        "q": "Will gas cost more?",
+        "a": "It can. Less oil out, higher prices. Saudi Arabia pipes more round."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Did Iran really do it?",
+        "a": "Its state TV says so. No one else has confirmed it; no flags were named."
+      },
+      {
+        "q": "Is the war starting again?",
+        "a": "AP says fears of a return to war are growing. Most ships hit in a day yet."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#StraitOfHormuz",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 9,
+    "13-17": 14
+  },
+  "photo": "data/images/2026-10-23-morning-alt.jpg",
+  "photo_credit": "Photo: MODIS Land Rapid Response Team, NASA GSFC, Wikimedia Commons, Public domain",
+  "photo_subject": "Strait of Hormuz",
+  "caption": "The oil has to get out. So they go at night, guarded.\n\nIran's state TV says seven oil tankers were hit overnight in the Strait of Hormuz, the narrow exit from the Gulf. Its Revolutionary Guard navy says four caught fire while moving oil between ships and three struck mines. No word on crews or flags. Tankers now run the strait at night, in a US-guarded lane, with their trackers switched off.\n\nSource: PBS NewsHour\nPhoto: MODIS Land Rapid Response Team, NASA GSFC, Wikimedia Commons, Public domain\n\nSwipe for what to say at age 6, at 9, and at 14.\n\nThe dinner table question: Would you take a dangerous road if it was the only way to work? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #StraitOfHormuz #DinnerTableNews"
+}
