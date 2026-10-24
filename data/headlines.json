@@ -1,20 +1,382 @@
 {
- "fetched_at": "2026-10-24T01:37:42.910002+00:00",
+ "fetched_at": "2026-10-24T07:20:15.706735+00:00",
  "window_hours": 48,
- "count": 434,
+ "count": 430,
  "errors": [],
  "items": [
+  {
+   "title": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
+   "link": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss",
+   "summary": "Ukraine and Russia confirm the truce in Russian-occupied Oleshky, where residents have had to eat garden weeds to survive.",
+   "published": "2026-10-24T07:17:44+00:00",
+   "source": "bbc",
+   "outlet": "BBC News",
+   "counted": true,
+   "section": "top",
+   "id": "39341045ad89",
+   "article_url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss",
+   "has_text": true
+  },
+  {
+   "title": "Second storm to hit UK with up to 80mph gusts as hundreds still without power",
+   "link": "https://www.bbc.co.uk/weather/articles/cv8ez97k0wnlo?at_medium=RSS&at_campaign=rss",
+   "summary": "An amber weather warning has been issued for much of Scotland, parts of Northern Ireland and northern England, as Storm Boelo approaches.",
+   "published": "2026-10-24T06:40:39+00:00",
+   "source": "bbc",
+   "outlet": "BBC News",
+   "counted": true,
+   "section": "climate",
+   "id": "d957061e4495",
+   "article_url": "https://www.bbc.co.uk/weather/articles/cv8ez97k0wnlo?at_medium=RSS&at_campaign=rss",
+   "has_text": true
+  },
+  {
+   "title": "France prepares for day of protest a week after nationwide riots",
+   "link": "https://www.bbc.co.uk/news/articles/cj62yv5k0w4yo?at_medium=RSS&at_campaign=rss",
+   "summary": "Hundreds of thousands are expected to turn out, as more than 70,000 police officers are to be deployed over some may defy restrictions.",
+   "published": "2026-10-24T06:19:46+00:00",
+   "source": "bbc",
+   "outlet": "BBC News",
+   "counted": true,
+   "section": "top",
+   "id": "b3dfed1f3aa5",
+   "article_url": "https://www.bbc.co.uk/news/articles/cj62yv5k0w4yo?at_medium=RSS&at_campaign=rss",
+   "has_text": true
+  },
+  {
+   "title": "Project to restore rare native trees with DNA testing",
+   "link": "https://www.bbc.co.uk/news/articles/cw240ln41mq2o?at_medium=RSS&at_campaign=rss",
+   "summary": "Conservation groups say black poplars are endangered due to felling, land drainage and habitat loss.",
+   "published": "2026-10-24T06:17:32+00:00",
+   "source": "bbc",
+   "outlet": "BBC News",
+   "counted": true,
+   "section": "climate",
+   "id": "0b14b3fa9c55",
+   "article_url": "https://www.bbc.co.uk/news/articles/cw240ln41mq2o?at_medium=RSS&at_campaign=rss",
+   "has_text": true
+  },
+  {
+   "title": "Historic swimming pond to be restored",
+   "link": "https://www.bbc.co.uk/news/articles/c5lyellrmlego?at_medium=RSS&at_campaign=rss",
+   "summary": "Specialists are looking at how to clear the Cornwall bath house pond and understand the tidal inlet.",
+   "published": "2026-10-24T06:08:37+00:00",
+   "source": "bbc",
+   "outlet": "BBC News",
+   "counted": true,
+   "section": "climate",
+   "id": "b970e175e011",
+   "article_url": "https://www.bbc.co.uk/news/articles/c5lyellrmlego?at_medium=RSS&at_campaign=rss",
+   "has_text": true
+  },
+  {
+   "title": "The people on standby when a storm strikes",
+   "link": "https://www.bbc.co.uk/news/articles/c6gqwz79ylw4o?at_medium=RSS&at_campaign=rss",
+   "summary": "While most people are preparing to stay indoors as another storm approaches, others are getting ready to head straight into it.",
+   "published": "2026-10-24T05:44:22+00:00",
+   "source": "bbc",
+   "outlet": "BBC News",
+   "counted": true,
+   "section": "climate",
+   "id": "a21218cbcd14",
+   "article_url": "https://www.bbc.co.uk/news/articles/c6gqwz79ylw4o?at_medium=RSS&at_campaign=rss",
+   "has_text": true
+  },
+  {
+   "title": "Brewers withstand Rays’ comeback attempt to win 3-2 in Game 1 of World Series",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbnRqb3RYTGxrcUs4M0p2Mk11b2JjQmdVZmdsS2lILTlnNmctY2JfRjQzNnU3akxwOUxKQy1maVlKeXNhTXV3ZXMyWi10NlRYNlVTNUl6ZVh0TVVYVXpJUlBNZmlHTTJKV1RaLUhBQmxQZENmcndpbV9KWFNKSVNMNVlUWWFEb1BQdElBOHhOVGhTLTlZYkRB?oc=5",
+   "summary": "Brewers withstand Rays’ comeback attempt to win 3-2 in Game 1 of World Series AP News",
+   "published": "2026-10-24T05:34:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "fcb339eeb645",
+   "article_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbnRqb3RYTGxrcUs4M0p2Mk11b2JjQmdVZmdsS2lILTlnNmctY2JfRjQzNnU3akxwOUxKQy1maVlKeXNhTXV3ZXMyWi10NlRYNlVTNUl6ZVh0TVVYVXpJUlBNZmlHTTJKV1RaLUhBQmxQZENmcndpbV9KWFNKSVNMNVlUWWFEb1BQdElBOHhOVGhTLTlZYkRB?oc=5",
+   "has_text": false
+  },
+  {
+   "title": "Minneapolis withdrawal was 'surrender', Trump's ex-border patrol chief tells BBC",
+   "link": "https://www.bbc.co.uk/news/articles/ck20rery78lro?at_medium=RSS&at_campaign=rss",
+   "summary": "Greg Bovino was the public face of the controversial immigration enforcement operation in the city earlier this year.",
+   "published": "2026-10-24T05:31:01+00:00",
+   "source": "bbc",
+   "outlet": "BBC News",
+   "counted": true,
+   "section": "top",
+   "id": "02383c10e697",
+   "article_url": "https://www.bbc.co.uk/news/articles/ck20rery78lro?at_medium=RSS&at_campaign=rss",
+   "has_text": true
+  },
+  {
+   "title": "How Brazil's changing working class is reshaping the presidential race",
+   "link": "https://www.bbc.co.uk/news/articles/cw80zx79nkvno?at_medium=RSS&at_campaign=rss",
+   "summary": "Calls for change present a challenge to President Lula in the second round of the election on Sunday.",
+   "published": "2026-10-24T05:05:44+00:00",
+   "source": "bbc",
+   "outlet": "BBC News",
+   "counted": true,
+   "section": "top",
+   "id": "d46e9c302b91",
+   "article_url": "https://www.bbc.co.uk/news/articles/cw80zx79nkvno?at_medium=RSS&at_campaign=rss",
+   "has_text": true
+  },
+  {
+   "title": "The rise of AI election ads in US midterms campaign",
+   "link": "https://www.bbc.co.uk/news/videos/cm62y59zw8zko?at_medium=RSS&at_campaign=rss",
+   "summary": "BBC Verify has tracked dozens of AI ads to assess how they are being used by campaigns in the midterms.",
+   "published": "2026-10-24T05:03:44+00:00",
+   "source": "bbc",
+   "outlet": "BBC News",
+   "counted": true,
+   "section": "top",
+   "id": "e5ea854cf613",
+   "article_url": "https://www.bbc.co.uk/news/videos/cm62y59zw8zko?at_medium=RSS&at_campaign=rss",
+   "has_text": true
+  },
+  {
+   "title": "Paris shuts museums and police deploy in big numbers for new protests across France",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWFhXb1VmdWxKRzJmZnRpSGpJTk40b3JoTldmR0FjTW9nWWxibmNBOTJCN1NNa1IyenIycmtueTVnVHhaR19YOUU3TkE2ODBHRFFlRWdDYVZzVWY0MVlqV0dTOHlkaTdEbmxkdnFNMnJicVFjSkhYUVdOaGFYYU5jVEQ5VEhRUU5tWlJjZ1pzOE5GQQ?oc=5",
+   "summary": "Paris shuts museums and police deploy in big numbers for new protests across France AP News",
+   "published": "2026-10-24T04:59:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "df37a991d7a2",
+   "article_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWFhXb1VmdWxKRzJmZnRpSGpJTk40b3JoTldmR0FjTW9nWWxibmNBOTJCN1NNa1IyenIycmtueTVnVHhaR19YOUU3TkE2ODBHRFFlRWdDYVZzVWY0MVlqV0dTOHlkaTdEbmxkdnFNMnJicVFjSkhYUVdOaGFYYU5jVEQ5VEhRUU5tWlJjZ1pzOE5GQQ?oc=5",
+   "has_text": false
+  },
+  {
+   "title": "APOD: 2026 October 24 – Rosetta’s Selfie",
+   "link": "https://science.nasa.gov/image-article/apod-2026-october-24-rosettas-selfie/",
+   "summary": "APOD Science APOD APOD: 2026 October 24 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer. Rosetta’s Selfie Explanation: […]",
+   "published": "2026-10-24T04:05:00+00:00",
+   "source": "nasa",
+   "outlet": "NASA",
+   "counted": false,
+   "section": "top",
+   "id": "3a8965c9479c"
+  },
+  {
+   "title": "Obama is set to campaign with Democrats in Ohio and Michigan as he ramps up midterm efforts",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZkp6bHg5OWk2TXZXZndoNmVFcGlkRmktbEtieHpmckduS1BiSFB6dHN4N3dnamM2YUc0OVQ1d2VMSGZOUS1qQzRmRFZuZV9sQ0d5cjBwS1JJemtkRFBIZGdBSFpKVDd0bzdCWEpXSkJkZWE2ek9Pd1E1MXpSN0NVNUQ0enlqcEV6bFFhT1dJNWVjeUlxZHRjZFhtazV5TnpCZlBlUEc0eXA3SGZzQkdn?oc=5",
+   "summary": "Obama is set to campaign with Democrats in Ohio and Michigan as he ramps up midterm efforts AP News",
+   "published": "2026-10-24T04:02:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "b29aecf7f304",
+   "article_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZkp6bHg5OWk2TXZXZndoNmVFcGlkRmktbEtieHpmckduS1BiSFB6dHN4N3dnamM2YUc0OVQ1d2VMSGZOUS1qQzRmRFZuZV9sQ0d5cjBwS1JJemtkRFBIZGdBSFpKVDd0bzdCWEpXSkJkZWE2ek9Pd1E1MXpSN0NVNUQ0enlqcEV6bFFhT1dJNWVjeUlxZHRjZFhtazV5TnpCZlBlUEc0eXA3SGZzQkdn?oc=5",
+   "has_text": false
+  },
+  {
+   "title": "Arrest made after fire at Hitler's famed Eagle's Nest retreat",
+   "link": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss",
+   "summary": "Around 200 emergency personnel are deployed to fight the blaze at the Nazi dictator's Alpine residence in Germany.",
+   "published": "2026-10-24T03:51:25+00:00",
+   "source": "bbc",
+   "outlet": "BBC News",
+   "counted": true,
+   "section": "top",
+   "id": "681a8cea85fd",
+   "article_url": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo?at_medium=RSS&at_campaign=rss",
+   "has_text": true
+  },
+  {
+   "title": "DNI warned Rubio of ‘advanced’ Iranian efforts to target US personnel, memo shows",
+   "link": "https://thehill.com/policy/international/6169784-clayton-warns-rubio-iran-threats/",
+   "summary": "Iranian plots to target and kill U.S. officials in the Middle East have “substantially increased,” according to a declassified intelligence memo dated Friday, with these efforts reportedly reaching “advanced stages.” The warning, addressed to Secretary of State Marco Rubio from Director of National Intelligence Jay Clayton, came days after the State Department ordered the departure…",
+   "published": "2026-10-24T03:24:37+00:00",
+   "source": "thehill",
+   "outlet": "The Hill",
+   "counted": true,
+   "section": "top",
+   "id": "0f6c2da85491",
+   "article_url": "https://thehill.com/policy/international/6169784-clayton-warns-rubio-iran-threats/",
+   "has_text": false
+  },
+  {
+   "title": "Prince Harry's wife Meghan 'deeply distressed' by allegations her father had indecent images",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdmxsY2x1WFVOTHcxNnV3WnpvZG9tRkhVeFFVLXFfR3FLSG5ISEJIcGNuZExHQ0JJeURDOTJ4ZFVoV0RfUTJTcVk5QzFVamg3NXNOR0EyQjhSNlB1RTktcTJ1UmczV2RhRzU1eW5mcTAxMzFIdWtLMmo5N0JQUExoN1hLa09IME1VT2dGdktuZjVnd09SbzZNYXZRMmJ5VEI0emd5OTMwWVZ0YmNs?oc=5",
+   "summary": "Prince Harry's wife Meghan 'deeply distressed' by allegations her father had indecent images AP News",
+   "published": "2026-10-24T03:10:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "ecd43f25295e",
+   "article_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdmxsY2x1WFVOTHcxNnV3WnpvZG9tRkhVeFFVLXFfR3FLSG5ISEJIcGNuZExHQ0JJeURDOTJ4ZFVoV0RfUTJTcVk5QzFVamg3NXNOR0EyQjhSNlB1RTktcTJ1UmczV2RhRzU1eW5mcTAxMzFIdWtLMmo5N0JQUExoN1hLa09IME1VT2dGdktuZjVnd09SbzZNYXZRMmJ5VEI0emd5OTMwWVZ0YmNs?oc=5",
+   "has_text": false
+  },
+  {
+   "title": "Vance intensifies rapidly and could become a major Category 3 hurricane off Mexico's Pacific Coast",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTVZOWTFKeWc0bWo4eF9Bd1BYeVpPUkVZUnF4V2FSWDUwUTM0QWpGX05wV0ZjV19kcFNkckRKZ2kxX3MyckMyZ09yVVI5ZkJHbGxlaFJFakN0aHhDOFdfMlRYRi1PZHN6NXhUQ1V4bnlBcmhkTmhMZzNaOWVvNGttbDB6c3hGMjNYV0E?oc=5",
+   "summary": "Vance intensifies rapidly and could become a major Category 3 hurricane off Mexico's Pacific Coast AP News",
+   "published": "2026-10-24T03:08:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "e2ad640daf30",
+   "article_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTVZOWTFKeWc0bWo4eF9Bd1BYeVpPUkVZUnF4V2FSWDUwUTM0QWpGX05wV0ZjV19kcFNkckRKZ2kxX3MyckMyZ09yVVI5ZkJHbGxlaFJFakN0aHhDOFdfMlRYRi1PZHN6NXhUQ1V4bnlBcmhkTmhMZzNaOWVvNGttbDB6c3hGMjNYV0E?oc=5",
+   "has_text": false
+  },
+  {
+   "title": "Pelicans’ Missi injures left knee against Jazz",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMFhVMjZ5ajF1cUMwejVydkxHSnV4UWRaZ21rRlZOZWY2b3NKaG9HWUxIajBqSG4za0RaNTRDYzlmLThNR1VNbFdwX1FZUFgwUU5JSWFmeFZlRTR1SXE4OFZ2VFpxbXdscWRTdDE4YXpJOGlCWWpFMlFJYVlPZG04ZXFNWWloOE5t?oc=5",
+   "summary": "Pelicans’ Missi injures left knee against Jazz AP News",
+   "published": "2026-10-24T03:04:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "39f10b99b5d2",
+   "article_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMFhVMjZ5ajF1cUMwejVydkxHSnV4UWRaZ21rRlZOZWY2b3NKaG9HWUxIajBqSG4za0RaNTRDYzlmLThNR1VNbFdwX1FZUFgwUU5JSWFmeFZlRTR1SXE4OFZ2VFpxbXdscWRTdDE4YXpJOGlCWWpFMlFJYVlPZG04ZXFNWWloOE5t?oc=5",
+   "has_text": false
+  },
+  {
+   "title": "Rubio floats CIA ‘partnership’ to Cubans tired of ‘failed promises, corruption’",
+   "link": "https://thehill.com/homenews/administration/6169754-rubio-offers-cia-cuban-partnership/",
+   "summary": "Secretary of State Marco Rubio offered Cubans a discreet CIA partnership opportunity in a Friday social media post, saying “now is the time” for those looking to “create positive change” in the Caribbean country. “The disappointment of failed promises, corruption, and the privileged lives of only a few; seize this opportunity to create the change…",
+   "published": "2026-10-24T02:51:14+00:00",
+   "source": "thehill",
+   "outlet": "The Hill",
+   "counted": true,
+   "section": "top",
+   "id": "a53ee9ed00df",
+   "article_url": "https://thehill.com/homenews/administration/6169754-rubio-offers-cia-cuban-partnership/",
+   "has_text": false
+  },
+  {
+   "title": "24-year-old Coast Guard swimmer says he fought waves and darkness to rescue 16 people from ocean",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNN3ZnYlRYeXNMaXdNLWtiZ2duMkViNWhjTnB3RlRpUW9ETTFKSEFPM0ctZUI5d2NrSUxKOUFTRUxTakhPVk1mS0JVM0ptVFFhWTl4OWIzSDgxT0FfbDJ3UlZub2NhSzhYbUJSY3dnVTJSaGFkT3UxV2lwUy1vVEhmOHgxQlNRdjg2MjhCTjl0dGZENHdRcVpv?oc=5",
+   "summary": "24-year-old Coast Guard swimmer says he fought waves and darkness to rescue 16 people from ocean AP News",
+   "published": "2026-10-24T02:49:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "47eace640f82",
+   "article_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNN3ZnYlRYeXNMaXdNLWtiZ2duMkViNWhjTnB3RlRpUW9ETTFKSEFPM0ctZUI5d2NrSUxKOUFTRUxTakhPVk1mS0JVM0ptVFFhWTl4OWIzSDgxT0FfbDJ3UlZub2NhSzhYbUJSY3dnVTJSaGFkT3UxV2lwUy1vVEhmOHgxQlNRdjg2MjhCTjl0dGZENHdRcVpv?oc=5",
+   "has_text": false
+  },
+  {
+   "title": "A shooting in the Paris suburbs kills 1 and wounds five in a suspected racist attack",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbnZ3Y2dPX1lNWkprR3Nnc3FZQjdWRW5aNzYwRGZJbmFfNlZfcE8xQWxmUlZ6U0ZQQlhpem1IM0VnZ2N4M3B0dHlQeVFqZ1M3V1JlLUpxczJ3TVM5RmZlemxfMkFSQzdUMGpxX2J5dGctTURuUnNhX1V3Tkx4ME1TRTFQaHpnTXNrb2d0QlMtelJFcEd0?oc=5",
+   "summary": "A shooting in the Paris suburbs kills 1 and wounds five in a suspected racist attack AP News",
+   "published": "2026-10-24T02:45:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "3f4caf1f91d8",
+   "article_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbnZ3Y2dPX1lNWkprR3Nnc3FZQjdWRW5aNzYwRGZJbmFfNlZfcE8xQWxmUlZ6U0ZQQlhpem1IM0VnZ2N4M3B0dHlQeVFqZ1M3V1JlLUpxczJ3TVM5RmZlemxfMkFSQzdUMGpxX2J5dGctTURuUnNhX1V3Tkx4ME1TRTFQaHpnTXNrb2d0QlMtelJFcEd0?oc=5",
+   "has_text": false
+  },
   {
    "title": "Trump says he ordered the Justice Department’s lawsuit over Alaska’s US Senate race",
    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNY2lwdVh1SXlFeWVFaFRvNGN6a0dUaVV1b0diS0ZvaXhmYWJRR3JVYmRudTdhRmg0V18wYVVvenVWaUJJLTRBRkFkZXhIbEdYcHFGOXZiQ1JUMGRadHRMclMxdG9GTE5rTnBlVVoxbUdNM3VuZ0pkN2REZ2hKYWxVcDNubW9ESVMyQmVtS3doVUNLRTk4a1ZBT1hKTVNoT1Qta2U4V28tMW9KaTdpcUI3bDhPYjk?oc=5",
    "summary": "Trump says he ordered the Justice Department’s lawsuit over Alaska’s US Senate race AP News",
-   "published": "2026-10-24T01:30:00+00:00",
+   "published": "2026-10-24T02:44:00+00:00",
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
    "section": "top",
    "id": "aa3e6879aafb",
    "article_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNY2lwdVh1SXlFeWVFaFRvNGN6a0dUaVV1b0diS0ZvaXhmYWJRR3JVYmRudTdhRmg0V18wYVVvenVWaUJJLTRBRkFkZXhIbEdYcHFGOXZiQ1JUMGRadHRMclMxdG9GTE5rTnBlVVoxbUdNM3VuZ0pkN2REZ2hKYWxVcDNubW9ESVMyQmVtS3doVUNLRTk4a1ZBT1hKTVNoT1Qta2U4V28tMW9KaTdpcUI3bDhPYjk?oc=5",
+   "has_text": false
+  },
+  {
+   "title": "Ohio Republicans' statewide bus tour rolls as Ramaswamy ad with Acton's mother divides the party",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQllNaUg2eWxXTUNDQ2V1TVNFZDhubTQwZDhvb1p3SXJha0F5WllvbzRwLXdUdDRSY19sQ3h5YnpBdE9UVE11cFF4RFZpcHBTNnREWWh4cGNCYXFTWHZvSHRVMnAwZzhIYzRVS0g3aVVDeGhOV1JZSnhxQWNxMFRaZWRZRDZvYmNqbFU1TFNiTXBsRlJfamJDb1pRcw?oc=5",
+   "summary": "Ohio Republicans' statewide bus tour rolls as Ramaswamy ad with Acton's mother divides the party AP News",
+   "published": "2026-10-24T02:42:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "432624a736f1",
+   "article_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQllNaUg2eWxXTUNDQ2V1TVNFZDhubTQwZDhvb1p3SXJha0F5WllvbzRwLXdUdDRSY19sQ3h5YnpBdE9UVE11cFF4RFZpcHBTNnREWWh4cGNCYXFTWHZvSHRVMnAwZzhIYzRVS0g3aVVDeGhOV1JZSnhxQWNxMFRaZWRZRDZvYmNqbFU1TFNiTXBsRlJfamJDb1pRcw?oc=5",
+   "has_text": false
+  },
+  {
+   "title": "Attack in the West Bank kills 2 Israeli soldiers, and other Mideast news",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNVjk1RXRCNHBkeXhWRXgwMTdlX3RERmtfNFBpMVlYY3BjTlVaUnpfMmdXdEFZdDdzQjVTMVlIYzhVQnpHZmQxTWdYeFNqOERVc0ZPQVhKcmFKRXVINThvdVJyS2tud2p1ZThUdDF6UTNSempUcFczUnFoWV8tbGZBZ2UxOGM2RXZlUXBiYktTS1h0UQ?oc=5",
+   "summary": "Attack in the West Bank kills 2 Israeli soldiers, and other Mideast news AP News",
+   "published": "2026-10-24T02:29:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "bcbd54ce4ea8",
+   "article_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNVjk1RXRCNHBkeXhWRXgwMTdlX3RERmtfNFBpMVlYY3BjTlVaUnpfMmdXdEFZdDdzQjVTMVlIYzhVQnpHZmQxTWdYeFNqOERVc0ZPQVhKcmFKRXVINThvdVJyS2tud2p1ZThUdDF6UTNSempUcFczUnFoWV8tbGZBZ2UxOGM2RXZlUXBiYktTS1h0UQ?oc=5",
+   "has_text": false
+  },
+  {
+   "title": "US is reducing staffing at 4 Middle East embassies over increased threats from Iran",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZDNtSXd5ZFJ3emQ3V0MxamwycEVtX0dlNTZsaUpHRzROR3hYbEhNLXpwSE9CS1ltMUdPQ3RZbmpROGhiZFlkVFdmTS1Qb0wyMnlvRHFBNXlYTEVQU3F2REdndlJkaVNKbWt0cWNoVFRJblFjM1AzU1JSRTVxSkd6bDViZzk1amxEUlNGbDR0ZFNLcmtDZDJyS1F5MEZiWkN3VlhF?oc=5",
+   "summary": "US is reducing staffing at 4 Middle East embassies over increased threats from Iran AP News",
+   "published": "2026-10-24T02:19:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "69d1167850fb",
+   "article_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZDNtSXd5ZFJ3emQ3V0MxamwycEVtX0dlNTZsaUpHRzROR3hYbEhNLXpwSE9CS1ltMUdPQ3RZbmpROGhiZFlkVFdmTS1Qb0wyMnlvRHFBNXlYTEVQU3F2REdndlJkaVNKbWt0cWNoVFRJblFjM1AzU1JSRTVxSkd6bDViZzk1amxEUlNGbDR0ZFNLcmtDZDJyS1F5MEZiWkN3VlhF?oc=5",
+   "has_text": false
+  },
+  {
+   "title": "Kenya announces 2nd Ebola death, a close relative of the first patient",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYkl0UEdpTXV6OFBma24xNHpldWI4Yk1lT2xjX0tlbElGMjZCSkNUNlZCQ1lhWUZYYVFCVHlvT01WZVRGRTVQVFg5U3hwM3B5SjNkNURfLW1QV1lOSUZfVWJheVc0dWlvdGNoU3dHc0owU1BzU0ZsMy1CLXVFcGVtZXB1MmJwV2Fma3otN21jUzhKVlBOMHMw?oc=5",
+   "summary": "Kenya announces 2nd Ebola death, a close relative of the first patient AP News",
+   "published": "2026-10-24T02:07:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "ac9d035d6567",
+   "article_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPYkl0UEdpTXV6OFBma24xNHpldWI4Yk1lT2xjX0tlbElGMjZCSkNUNlZCQ1lhWUZYYVFCVHlvT01WZVRGRTVQVFg5U3hwM3B5SjNkNURfLW1QV1lOSUZfVWJheVc0dWlvdGNoU3dHc0owU1BzU0ZsMy1CLXVFcGVtZXB1MmJwV2Fma3otN21jUzhKVlBOMHMw?oc=5",
+   "has_text": false
+  },
+  {
+   "title": "Australian MP's condition improves after alleged car attack",
+   "link": "https://www.bbc.co.uk/news/articles/c670pr1ryxyno?at_medium=RSS&at_campaign=rss",
+   "summary": "The Independent MP is now in a serious but stable condition, according to the Melbourne hospital.",
+   "published": "2026-10-24T01:55:15+00:00",
+   "source": "bbc",
+   "outlet": "BBC News",
+   "counted": true,
+   "section": "top",
+   "id": "29347624e05f",
+   "article_url": "https://www.bbc.co.uk/news/articles/c670pr1ryxyno?at_medium=RSS&at_campaign=rss",
+   "has_text": true
+  },
+  {
+   "title": "Peltola calls Alaska lawsuit a ‘desperate attempt’ for GOP to ‘cling to power’",
+   "link": "https://thehill.com/blogs/ballot-box/6169725-peltola-slams-alaska-doj-lawsuit-sullivan/",
+   "summary": "Alaska Senate candidate Mary Peltola (D) responded to the Justice Department’s (DOJ) lawsuit seeking to block her state from certifying its election results should her Republican challenger lose, saying Friday the move was “frivolous.” “This is clearly corruption. This is clearly a very desperate attempt to cling to power, using his allies in Washington, D.C.…",
+   "published": "2026-10-24T01:53:56+00:00",
+   "source": "thehill",
+   "outlet": "The Hill",
+   "counted": true,
+   "section": "top",
+   "id": "a15babf59c43",
+   "article_url": "https://thehill.com/blogs/ballot-box/6169725-peltola-slams-alaska-doj-lawsuit-sullivan/",
+   "has_text": false
+  },
+  {
+   "title": "DOJ orders some California counties to verify ballots in 48 hours",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRlc0YW1zZ2RBWXBYeXQwT2sxdlYxc3RCWk1BZ1ROZmktaFEtNFFqaVBicWZMcjI3aUhQVDhSNzRzUzJCeXEtYnhFX1ZQRnZnM3Y2SnZ3Q2JlM0p3amVVM2xOSlpUS211QXh4NWRoNlIydGF1anYzd1RpZUtCY1A4R1ltYVV5RFJLbHpGZDJldVNWTFVPb3BLaFFGNkxJVGdIRzk3eUFxQjNVNDB3cUpFaXJwOW5WREFmZzZn?oc=5",
+   "summary": "DOJ orders some California counties to verify ballots in 48 hours AP News",
+   "published": "2026-10-24T01:29:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "9f5a0cf443da",
+   "article_url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRlc0YW1zZ2RBWXBYeXQwT2sxdlYxc3RCWk1BZ1ROZmktaFEtNFFqaVBicWZMcjI3aUhQVDhSNzRzUzJCeXEtYnhFX1ZQRnZnM3Y2SnZ3Q2JlM0p3amVVM2xOSlpUS211QXh4NWRoNlIydGF1anYzd1RpZUtCY1A4R1ltYVV5RFJLbHpGZDJldVNWTFVPb3BLaFFGNkxJVGdIRzk3eUFxQjNVNDB3cUpFaXJwOW5WREFmZzZn?oc=5",
    "has_text": false
   },
   {
@@ -44,6 +406,84 @@
    "has_text": false
   },
   {
+   "title": "First tanker of Russian diesel sets sail for the US in Trump’s controversial deal with Putin",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNlBURXk2bjFrc3ZkS2YxamJJM1RjZ1lOblh6ZTJPWTdrbHpPWjJIdzZMdjdBR0pOZFZ1eHhOcnUxRllDOGMweV9NN1JpU28yMmpEeFMwaFBweFk5bGR1QnRBd2NfdXI4Tk1uOWdjNFRhR2dZOG9BNGVWN1ZhQjBIdkloVEsxaUxkWlJJMTFjbnRCZ3I5dkgtN0U4bXBfbnZQVzliVThn?oc=5",
+   "summary": "First tanker of Russian diesel sets sail for the US in Trump’s controversial deal with Putin AP News",
+   "published": "2026-10-24T01:17:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "143380f2ed3a",
+   "article_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNlBURXk2bjFrc3ZkS2YxamJJM1RjZ1lOblh6ZTJPWTdrbHpPWjJIdzZMdjdBR0pOZFZ1eHhOcnUxRllDOGMweV9NN1JpU28yMmpEeFMwaFBweFk5bGR1QnRBd2NfdXI4Tk1uOWdjNFRhR2dZOG9BNGVWN1ZhQjBIdkloVEsxaUxkWlJJMTFjbnRCZ3I5dkgtN0U4bXBfbnZQVzliVThn?oc=5",
+   "has_text": false
+  },
+  {
+   "title": "Brewers’ Jacob Misiorowski sets World Series velocity record on his first pitch",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPa20wMHA1LUJRM3dSYjB1YzgwQXlaZlNGN1lWX3hmNmtRT25WNGpCWW5obVpvY1JjYzhGQ0lTcmVMaS1HcURPWVNCN1d2VTdod0o0ZFdnQTdNb0RJZUlDbGtaVDMwRzlSbWpjUVYyOGFkdDNFc1lTTVFOcXA1aDlaVWt3MHYxYVhIanY5dGRRMWxPUThjZTRhZjhFYm1DTXc?oc=5",
+   "summary": "Brewers’ Jacob Misiorowski sets World Series velocity record on his first pitch AP News",
+   "published": "2026-10-24T01:06:33+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "08e407c5b05a",
+   "article_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPa20wMHA1LUJRM3dSYjB1YzgwQXlaZlNGN1lWX3hmNmtRT25WNGpCWW5obVpvY1JjYzhGQ0lTcmVMaS1HcURPWVNCN1d2VTdod0o0ZFdnQTdNb0RJZUlDbGtaVDMwRzlSbWpjUVYyOGFkdDNFc1lTTVFOcXA1aDlaVWt3MHYxYVhIanY5dGRRMWxPUThjZTRhZjhFYm1DTXc?oc=5",
+   "has_text": false
+  },
+  {
+   "title": "Trump at South Florida rally revives the idea of military intervention in Cuba after Iran",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWFM2WGlGZ2t1U3U3M3JjOWs4UGV5VXhDeUstU1ZuUTVFMFJ0WDgyeEtTc2dTeXp0OUpVS01rVlk2WG1Sekt4X043Y3lpb3liQlhORlNyTGxZQUI5cWpHRWJWUTNReFFZUzkyWFFWS2lwSnpqbjc3eXJUc3VuY3dsWnN1R01qWWNnRHVkLTlOdG0zWU44YVhFeFB4TQ?oc=5",
+   "summary": "Trump at South Florida rally revives the idea of military intervention in Cuba after Iran AP News",
+   "published": "2026-10-24T01:04:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "ff69c5cd34d6",
+   "article_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWFM2WGlGZ2t1U3U3M3JjOWs4UGV5VXhDeUstU1ZuUTVFMFJ0WDgyeEtTc2dTeXp0OUpVS01rVlk2WG1Sekt4X043Y3lpb3liQlhORlNyTGxZQUI5cWpHRWJWUTNReFFZUzkyWFFWS2lwSnpqbjc3eXJUc3VuY3dsWnN1R01qWWNnRHVkLTlOdG0zWU44YVhFeFB4TQ?oc=5",
+   "has_text": false
+  },
+  {
+   "title": "Brazil's Lula opens state toolbox to woo voters in runoff against Bolsonaro. Here's what is on offer",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMVk3ODVoRjR6QllSMjBiWkVwWEJSN0hIcWljWDBxb2czZDVMV2lrSnVpUTlTWWdHanhpMGRIUUxaM0ZLN1dyMUJLNHZCaXF4WWRXRGQ2bG5uQVFJV2RLM0ZrZURkU0RKbEphZVh1R1dIeUlhMkpiQzVuaDN2MGdiWmdJUDYyT25LVzRRSXBOLUVldms?oc=5",
+   "summary": "Brazil's Lula opens state toolbox to woo voters in runoff against Bolsonaro. Here's what is on offer AP News",
+   "published": "2026-10-24T01:03:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "9bb3be739156",
+   "article_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMVk3ODVoRjR6QllSMjBiWkVwWEJSN0hIcWljWDBxb2czZDVMV2lrSnVpUTlTWWdHanhpMGRIUUxaM0ZLN1dyMUJLNHZCaXF4WWRXRGQ2bG5uQVFJV2RLM0ZrZURkU0RKbEphZVh1R1dIeUlhMkpiQzVuaDN2MGdiWmdJUDYyT25LVzRRSXBOLUVldms?oc=5",
+   "has_text": false
+  },
+  {
+   "title": "AP Exclusive: Trump’s border chief defends wall plans in Texas’ Big Bend despite a court setback",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQME53UG5SaHNkWGhpOWtuNGZIYXh0V0lMNXdMeGpzNmtHel9EQ0hmVVh3YW1vNVNUNkc5RXR6ZHhDV2VSTVZuS1ZndXl5OE9RT2w4bS04aktFNTJteVRJcjRWMVk2c1k1ZXo3S0sxZGdQMGNyR1J6OVl5Wlh4anVkNGxzV1I0S0ljWm95U0tBcFZKNEgwMW9FdVczZVVQcGZoVmlKRTJFQ1M?oc=5",
+   "summary": "AP Exclusive: Trump’s border chief defends wall plans in Texas’ Big Bend despite a court setback AP News",
+   "published": "2026-10-24T00:55:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "4bbfdcb13018",
+   "article_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQME53UG5SaHNkWGhpOWtuNGZIYXh0V0lMNXdMeGpzNmtHel9EQ0hmVVh3YW1vNVNUNkc5RXR6ZHhDV2VSTVZuS1ZndXl5OE9RT2w4bS04aktFNTJteVRJcjRWMVk2c1k1ZXo3S0sxZGdQMGNyR1J6OVl5Wlh4anVkNGxzV1I0S0ljWm95U0tBcFZKNEgwMW9FdVczZVVQcGZoVmlKRTJFQ1M?oc=5",
+   "has_text": false
+  },
+  {
+   "title": "Robin Yount and Brewers' broadcast team pay tribute to Bob Uecker by borrowing from his wardrobe",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdlEwQ3Y3OHhMbG9BdnBINmxZYW1DaHduaWhBeGZITE9tM0tEWUlmZ1hHYXhLekdXS2dTdklfQnIzQUM5Zk1iTkZVZ20yQlZONXFpRjlMSWRtbjFGYndEbkhCZWQ1VDRhNmtxVzZOYjRiSmkyTlpaQ041QjFfQUFSOUNuLVVTblJsVDBubl9uV0tYN1FLUEZuMHR0Yl8zcjA?oc=5",
+   "summary": "Robin Yount and Brewers' broadcast team pay tribute to Bob Uecker by borrowing from his wardrobe AP News",
+   "published": "2026-10-24T00:37:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "0c299432faf8",
+   "article_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQdlEwQ3Y3OHhMbG9BdnBINmxZYW1DaHduaWhBeGZITE9tM0tEWUlmZ1hHYXhLekdXS2dTdklfQnIzQUM5Zk1iTkZVZ20yQlZONXFpRjlMSWRtbjFGYndEbkhCZWQ1VDRhNmtxVzZOYjRiSmkyTlpaQ041QjFfQUFSOUNuLVVTblJsVDBubl9uV0tYN1FLUEZuMHR0Yl8zcjA?oc=5",
+   "has_text": false
+  },
+  {
    "title": "White House lifts tariffs on some Canadian goods as midterm elections loom",
    "link": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o?at_medium=RSS&at_campaign=rss",
    "summary": "From 30 October, tariffs will be eased on some products, including certain machinery, and placed on others, such as carpets.",
@@ -55,6 +495,19 @@
    "id": "a732864d1bbe",
    "article_url": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o?at_medium=RSS&at_campaign=rss",
    "has_text": true
+  },
+  {
+   "title": "Dallas Cowboys cheerleaders unionize after years of fighting for higher pay",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSFpuYnN6WVBnSHE0akxPZ2Uyd1BGYVVmYmdaMF9IYTk3cmtrV181d0MxcFAtN0I0akFMSW1nTUhDa1BDenctQ1BYTnZ4SDZ3WnhkaW5NZW1WRDVMVkdmbWc1MzYxUkE3QXBpRlpURTUtdTFDREJvY0xhWklUUEFtLWJGMzNfTkdqaGJfeHZwU3ZOVjY2RV92Qg?oc=5",
+   "summary": "Dallas Cowboys cheerleaders unionize after years of fighting for higher pay AP News",
+   "published": "2026-10-24T00:17:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "cbe852c1a61e",
+   "article_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSFpuYnN6WVBnSHE0akxPZ2Uyd1BGYVVmYmdaMF9IYTk3cmtrV181d0MxcFAtN0I0akFMSW1nTUhDa1BDenctQ1BYTnZ4SDZ3WnhkaW5NZW1WRDVMVkdmbWc1MzYxUkE3QXBpRlpURTUtdTFDREJvY0xhWklUUEFtLWJGMzNfTkdqaGJfeHZwU3ZOVjY2RV92Qg?oc=5",
+   "has_text": false
   },
   {
    "title": "Scoop: U.S. intel memo warns of \"advanced\" Iranian plots to kill officials abroad",
@@ -83,6 +536,19 @@
    "has_text": false
   },
   {
+   "title": "Woman, 65, becomes second patient to die of Ebola in Kenya",
+   "link": "https://www.bbc.co.uk/news/articles/c6x2355448eyo?at_medium=RSS&at_campaign=rss",
+   "summary": "She was a close family member of the first victim, a man who had travelled from the Democratic Republic of Congo.",
+   "published": "2026-10-24T00:05:43+00:00",
+   "source": "bbc",
+   "outlet": "BBC News",
+   "counted": true,
+   "section": "top",
+   "id": "ac755d5918f9",
+   "article_url": "https://www.bbc.co.uk/news/articles/c6x2355448eyo?at_medium=RSS&at_campaign=rss",
+   "has_text": true
+  },
+  {
    "title": "Union head calls MLB’s salary cap proposal ‘nuclear bomb’ ahead of World Series opener",
    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPLTlrNkdkWE11eW5pcGtOZWY4WXRHVWl0d2dzbjVhZUx3NUtDSGE2NDNOaDdDOENyVzB2S1E0Q2V6c3pYVTBKMkZKWnRoTTlsYkRHbl9jZVNHQzlEdTBzTWpRLVRiS3A3NmF5VFl1WFJ5bXNTODU4eXU3cmhlb3dFbHVSTXVzS0NhYUtKYQ?oc=5",
    "summary": "Union head calls MLB’s salary cap proposal ‘nuclear bomb’ ahead of World Series opener AP News",
@@ -93,6 +559,19 @@
    "section": "top",
    "id": "27f943d20760",
    "article_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPLTlrNkdkWE11eW5pcGtOZWY4WXRHVWl0d2dzbjVhZUx3NUtDSGE2NDNOaDdDOENyVzB2S1E0Q2V6c3pYVTBKMkZKWnRoTTlsYkRHbl9jZVNHQzlEdTBzTWpRLVRiS3A3NmF5VFl1WFJ5bXNTODU4eXU3cmhlb3dFbHVSTXVzS0NhYUtKYQ?oc=5",
+   "has_text": false
+  },
+  {
+   "title": "Defense attorneys in Charlie Kirk’s killing want to have a trial in 2029",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPV1Ayb2RVWFVwVkFfZWNaYUgxMG1YeTNpVlRVN21rX0pJWmxYQWVmbFByZmMwc3l2QVZSTDhrcG5zdTVfODFtSDVMSHo2MkhDMGVUZ2doOFdWVzlFWFV0bDl0T2JobkxRZXNRVXRlLVRTcWQyckQ2b0Y1d09XLXVWbkZfQkRSTjZqQ1BERlpzZlJIaG5Ob2JsSQ?oc=5",
+   "summary": "Defense attorneys in Charlie Kirk’s killing want to have a trial in 2029 AP News",
+   "published": "2026-10-24T00:00:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "470201c9eb6a",
+   "article_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPV1Ayb2RVWFVwVkFfZWNaYUgxMG1YeTNpVlRVN21rX0pJWmxYQWVmbFByZmMwc3l2QVZSTDhrcG5zdTVfODFtSDVMSHo2MkhDMGVUZ2doOFdWVzlFWFV0bDl0T2JobkxRZXNRVXRlLVRTcWQyckQ2b0Y1d09XLXVWbkZfQkRSTjZqQ1BERlpzZlJIaG5Ob2JsSQ?oc=5",
    "has_text": false
   },
   {
@@ -107,19 +586,6 @@
    "id": "95edad54a9cf",
    "article_url": "https://www.pbs.org/newshour/politics/rollins-says-usda-is-full-bore-ahead-on-forest-service-reorganization",
    "has_text": true
-  },
-  {
-   "title": "Attack in the West Bank kills 2 Israeli soldiers, and other Mideast news",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNVjk1RXRCNHBkeXhWRXgwMTdlX3RERmtfNFBpMVlYY3BjTlVaUnpfMmdXdEFZdDdzQjVTMVlIYzhVQnpHZmQxTWdYeFNqOERVc0ZPQVhKcmFKRXVINThvdVJyS2tud2p1ZThUdDF6UTNSempUcFczUnFoWV8tbGZBZ2UxOGM2RXZlUXBiYktTS1h0UQ?oc=5",
-   "summary": "Attack in the West Bank kills 2 Israeli soldiers, and other Mideast news AP News",
-   "published": "2026-10-23T23:43:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "bcbd54ce4ea8",
-   "article_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNVjk1RXRCNHBkeXhWRXgwMTdlX3RERmtfNFBpMVlYY3BjTlVaUnpfMmdXdEFZdDdzQjVTMVlIYzhVQnpHZmQxTWdYeFNqOERVc0ZPQVhKcmFKRXVINThvdVJyS2tud2p1ZThUdDF6UTNSempUcFczUnFoWV8tbGZBZ2UxOGM2RXZlUXBiYktTS1h0UQ?oc=5",
-   "has_text": false
   },
   {
    "title": "Kennedy rolls out US-caught seafood labeling, Seafood.gov",
@@ -148,6 +614,19 @@
    "has_text": true
   },
   {
+   "title": "Knicks say using championship rings in an email to fool employees was an 'unfortunate mistake'",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQamZRRjFOdkJrdmx2OUJzX0RRc2prYnpPV1Q4b0FQajZWZGQ3ejhMaTNZanFsUHh3X0VMUjNGTGJLNi1oZkRYTTJNTXNkNnFZdzhsbHhvTEtSTEF5RlZ6ZkxJeVppQTh3VUxhSG1TczRVaUFVTEZ6NE1xcFlmXzBhZFJocXd1c2pMWS1adjNXUjRGVXRyenc?oc=5",
+   "summary": "Knicks say using championship rings in an email to fool employees was an 'unfortunate mistake' AP News",
+   "published": "2026-10-23T23:30:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "45717ca86d09",
+   "article_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQamZRRjFOdkJrdmx2OUJzX0RRc2prYnpPV1Q4b0FQajZWZGQ3ejhMaTNZanFsUHh3X0VMUjNGTGJLNi1oZkRYTTJNTXNkNnFZdzhsbHhvTEtSTEF5RlZ6ZkxJeVppQTh3VUxhSG1TczRVaUFVTEZ6NE1xcFlmXzBhZFJocXd1c2pMWS1adjNXUjRGVXRyenc?oc=5",
+   "has_text": false
+  },
+  {
    "title": "Man who fatally struck deputy after his son was killed by Cincinnati police is convicted of murder",
    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOT2g0ODROM0kxcVduS2pCT1FaVWlIdFVCTzZITmhISXFObzl6ZGJsbE45R1hMLUFTM0RQdGJnc0E1NFdNNkVlSzZKR3M3WVd0dzd6YTRneGxRRnhBb2UwbldYcWxNR01JS1liRktNTVhRTUJYX2VZMVVmZDBwVUJTWXl5Q3loSEFSNFlGZGJWa21aS2hENVBJWg?oc=5",
    "summary": "Man who fatally struck deputy after his son was killed by Cincinnati police is convicted of murder AP News",
@@ -174,30 +653,43 @@
    "has_text": true
   },
   {
-   "title": "'Rent' musical celebrates its 30th Broadway anniversary with a starry show: 'No day but today'",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSkxEZk9rOVcwR3dOYUkzTFlDaVZYNTkwZUpOSlBhak9kNFFvYnVnQ0hKLUd3QWlXSVRKZzdkYjRqdXg1WTMyMXVCNFhkU0xGSS12emlHa2FaZ2M4R29SazQwcF84NUxmYThiNEpiY3pKdEhCSkNCWmtPVHNHUVlwMGFPQUM4cnFm?oc=5",
-   "summary": "'Rent' musical celebrates its 30th Broadway anniversary with a starry show: 'No day but today' AP News",
-   "published": "2026-10-23T23:13:41+00:00",
-   "source": "ap",
-   "outlet": "AP News",
+   "title": "Are California voters about to impose 'world's first' tax on billionaires?",
+   "link": "https://www.bbc.co.uk/news/articles/ck4g1jg4n9dno?at_medium=RSS&at_campaign=rss",
+   "summary": "Voters are about to decide if the mega-rich among them should hand over billions of dollars to pay for improvements to healthcare.",
+   "published": "2026-10-23T23:11:31+00:00",
+   "source": "bbc",
+   "outlet": "BBC News",
    "counted": true,
    "section": "top",
-   "id": "e6a360e87c59",
-   "article_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSkxEZk9rOVcwR3dOYUkzTFlDaVZYNTkwZUpOSlBhak9kNFFvYnVnQ0hKLUd3QWlXSVRKZzdkYjRqdXg1WTMyMXVCNFhkU0xGSS12emlHa2FaZ2M4R29SazQwcF84NUxmYThiNEpiY3pKdEhCSkNCWmtPVHNHUVlwMGFPQUM4cnFm?oc=5",
-   "has_text": false
+   "id": "7f2b59f1d517",
+   "article_url": "https://www.bbc.co.uk/news/articles/ck4g1jg4n9dno?at_medium=RSS&at_campaign=rss",
+   "has_text": true
   },
   {
-   "title": "24-year-old Coast Guard swimmer says he fought waves and darkness to rescue 16 people from ocean",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNN3ZnYlRYeXNMaXdNLWtiZ2duMkViNWhjTnB3RlRpUW9ETTFKSEFPM0ctZUI5d2NrSUxKOUFTRUxTakhPVk1mS0JVM0ptVFFhWTl4OWIzSDgxT0FfbDJ3UlZub2NhSzhYbUJSY3dnVTJSaGFkT3UxV2lwUy1vVEhmOHgxQlNRdjg2MjhCTjl0dGZENHdRcVpv?oc=5",
-   "summary": "24-year-old Coast Guard swimmer says he fought waves and darkness to rescue 16 people from ocean AP News",
-   "published": "2026-10-23T23:03:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
+   "title": "Ruins of Limoges city hall a symbol of France divided by national protests",
+   "link": "https://www.bbc.co.uk/news/articles/cxyvrged14d0o?at_medium=RSS&at_campaign=rss",
+   "summary": "Younger Limoges residents see the destruction of their town hall as unfortunate collateral damage in a wider movement. For others, the fire was an unacceptable tragedy.",
+   "published": "2026-10-23T23:09:16+00:00",
+   "source": "bbc",
+   "outlet": "BBC News",
    "counted": true,
    "section": "top",
-   "id": "47eace640f82",
-   "article_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNN3ZnYlRYeXNMaXdNLWtiZ2duMkViNWhjTnB3RlRpUW9ETTFKSEFPM0ctZUI5d2NrSUxKOUFTRUxTakhPVk1mS0JVM0ptVFFhWTl4OWIzSDgxT0FfbDJ3UlZub2NhSzhYbUJSY3dnVTJSaGFkT3UxV2lwUy1vVEhmOHgxQlNRdjg2MjhCTjl0dGZENHdRcVpv?oc=5",
-   "has_text": false
+   "id": "7b4a48e38bc7",
+   "article_url": "https://www.bbc.co.uk/news/articles/cxyvrged14d0o?at_medium=RSS&at_campaign=rss",
+   "has_text": true
+  },
+  {
+   "title": "Student movement takes Serbia's Vučić to the wire in neck-and-neck election",
+   "link": "https://www.bbc.co.uk/news/articles/cm1dwz311476o?at_medium=RSS&at_campaign=rss",
+   "summary": "The Student List has emerged from almost two years of anti-corruption protests to form the biggest challenge to Vučić's rule.",
+   "published": "2026-10-23T23:08:23+00:00",
+   "source": "bbc",
+   "outlet": "BBC News",
+   "counted": true,
+   "section": "top",
+   "id": "215b513f36ab",
+   "article_url": "https://www.bbc.co.uk/news/articles/cm1dwz311476o?at_medium=RSS&at_campaign=rss",
+   "has_text": true
   },
   {
    "title": "About half concerned Republicans could try to overturn midterm results: Survey",
@@ -417,19 +909,6 @@
    "has_text": true
   },
   {
-   "title": "Dallas Cowboys cheerleaders unionize after years of fighting for higher pay",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSFpuYnN6WVBnSHE0akxPZ2Uyd1BGYVVmYmdaMF9IYTk3cmtrV181d0MxcFAtN0I0akFMSW1nTUhDa1BDenctQ1BYTnZ4SDZ3WnhkaW5NZW1WRDVMVkdmbWc1MzYxUkE3QXBpRlpURTUtdTFDREJvY0xhWklUUEFtLWJGMzNfTkdqaGJfeHZwU3ZOVjY2RV92Qg?oc=5",
-   "summary": "Dallas Cowboys cheerleaders unionize after years of fighting for higher pay AP News",
-   "published": "2026-10-23T22:24:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "cbe852c1a61e",
-   "article_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSFpuYnN6WVBnSHE0akxPZ2Uyd1BGYVVmYmdaMF9IYTk3cmtrV181d0MxcFAtN0I0akFMSW1nTUhDa1BDenctQ1BYTnZ4SDZ3WnhkaW5NZW1WRDVMVkdmbWc1MzYxUkE3QXBpRlpURTUtdTFDREJvY0xhWklUUEFtLWJGMzNfTkdqaGJfeHZwU3ZOVjY2RV92Qg?oc=5",
-   "has_text": false
-  },
-  {
    "title": "Nuclear power could more than triple by 2060, UN agency says",
    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcnBheFRGdGdiejVYTHpwTEpLUjgxd211TUttS3VySFd4U3Q3cUo0RHlvRFlwSlFZVGxad3NfNjlxX1N1ZVRyRnN1ZzNiTFpQMHlNdGkyMmU0d1FOV1R6eFJkSnhkZExvc08wOHYwQm00WTFfSlE1a2Z3eWdad3MyQkVJQ1A3Yjh6eTMyUnJ3NmpHODNNMmltSzVtSQ?oc=5",
    "summary": "Nuclear power could more than triple by 2060, UN agency says AP News",
@@ -443,16 +922,16 @@
    "has_text": false
   },
   {
-   "title": "Trump at South Florida rally revives the idea of military intervention in Cuba after Iran",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWFM2WGlGZ2t1U3U3M3JjOWs4UGV5VXhDeUstU1ZuUTVFMFJ0WDgyeEtTc2dTeXp0OUpVS01rVlk2WG1Sekt4X043Y3lpb3liQlhORlNyTGxZQUI5cWpHRWJWUTNReFFZUzkyWFFWS2lwSnpqbjc3eXJUc3VuY3dsWnN1R01qWWNnRHVkLTlOdG0zWU44YVhFeFB4TQ?oc=5",
-   "summary": "Trump at South Florida rally revives the idea of military intervention in Cuba after Iran AP News",
-   "published": "2026-10-23T22:10:00+00:00",
+   "title": "NASA adopting Apollo’s urgency to build a moon base and land astronauts within two years",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQa0h5UmtYWUN2RnJJbUlacnl0ejQzZmhsUU9YOVVHY2M3SjVldDJ0UXdaR3J4bXh4dlU1QXpKU2sxN3lOYUxibEhkczkxYmFTVi04aUotTng4UWNUQTUyOGxDa1BoRlBBY21kcnlkZ2lpdzdWenVRamxqNmd2RmVrcDV3SkdyOW40MGY5QTA3TVFDWm9TT3NyMHJ3?oc=5",
+   "summary": "NASA adopting Apollo’s urgency to build a moon base and land astronauts within two years AP News",
+   "published": "2026-10-23T22:06:38+00:00",
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
    "section": "top",
-   "id": "ff69c5cd34d6",
-   "article_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWFM2WGlGZ2t1U3U3M3JjOWs4UGV5VXhDeUstU1ZuUTVFMFJ0WDgyeEtTc2dTeXp0OUpVS01rVlk2WG1Sekt4X043Y3lpb3liQlhORlNyTGxZQUI5cWpHRWJWUTNReFFZUzkyWFFWS2lwSnpqbjc3eXJUc3VuY3dsWnN1R01qWWNnRHVkLTlOdG0zWU44YVhFeFB4TQ?oc=5",
+   "id": "49c7085841de",
+   "article_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQa0h5UmtYWUN2RnJJbUlacnl0ejQzZmhsUU9YOVVHY2M3SjVldDJ0UXdaR3J4bXh4dlU1QXpKU2sxN3lOYUxibEhkczkxYmFTVi04aUotTng4UWNUQTUyOGxDa1BoRlBBY21kcnlkZ2lpdzdWenVRamxqNmd2RmVrcDV3SkdyOW40MGY5QTA3TVFDWm9TT3NyMHJ3?oc=5",
    "has_text": false
   },
   {
@@ -467,19 +946,6 @@
    "id": "52ab4932660e",
    "article_url": "https://www.pbs.org/newshour/nation/defense-attorneys-in-case-over-charlie-kirks-killing-say-they-need-years-to-prepare-for-trial",
    "has_text": true
-  },
-  {
-   "title": "NASA adopting Apollo’s urgency to build a moon base and land astronauts within two years",
-   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQa0h5UmtYWUN2RnJJbUlacnl0ejQzZmhsUU9YOVVHY2M3SjVldDJ0UXdaR3J4bXh4dlU1QXpKU2sxN3lOYUxibEhkczkxYmFTVi04aUotTng4UWNUQTUyOGxDa1BoRlBBY21kcnlkZ2lpdzdWenVRamxqNmd2RmVrcDV3SkdyOW40MGY5QTA3TVFDWm9TT3NyMHJ3?oc=5",
-   "summary": "NASA adopting Apollo’s urgency to build a moon base and land astronauts within two years AP News",
-   "published": "2026-10-23T22:00:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "49c7085841de",
-   "article_url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQa0h5UmtYWUN2RnJJbUlacnl0ejQzZmhsUU9YOVVHY2M3SjVldDJ0UXdaR3J4bXh4dlU1QXpKU2sxN3lOYUxibEhkczkxYmFTVi04aUotTng4UWNUQTUyOGxDa1BoRlBBY21kcnlkZ2lpdzdWenVRamxqNmd2RmVrcDV3SkdyOW40MGY5QTA3TVFDWm9TT3NyMHJ3?oc=5",
-   "has_text": false
   },
   {
    "title": "Cook Political Report shifts Ohio governor’s race from toss-up to lean Democrat",
@@ -662,32 +1128,6 @@
    "has_text": true
   },
   {
-   "title": "Knicks say using championship rings in an email to fool employees was an 'unfortunate mistake'",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQamZRRjFOdkJrdmx2OUJzX0RRc2prYnpPV1Q4b0FQajZWZGQ3ejhMaTNZanFsUHh3X0VMUjNGTGJLNi1oZkRYTTJNTXNkNnFZdzhsbHhvTEtSTEF5RlZ6ZkxJeVppQTh3VUxhSG1TczRVaUFVTEZ6NE1xcFlmXzBhZFJocXd1c2pMWS1adjNXUjRGVXRyenc?oc=5",
-   "summary": "Knicks say using championship rings in an email to fool employees was an 'unfortunate mistake' AP News",
-   "published": "2026-10-23T21:16:42+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "45717ca86d09",
-   "article_url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQamZRRjFOdkJrdmx2OUJzX0RRc2prYnpPV1Q4b0FQajZWZGQ3ejhMaTNZanFsUHh3X0VMUjNGTGJLNi1oZkRYTTJNTXNkNnFZdzhsbHhvTEtSTEF5RlZ6ZkxJeVppQTh3VUxhSG1TczRVaUFVTEZ6NE1xcFlmXzBhZFJocXd1c2pMWS1adjNXUjRGVXRyenc?oc=5",
-   "has_text": false
-  },
-  {
-   "title": "Vance intensifies rapidly and could become a major Category 3 hurricane off Mexico's Pacific Coast",
-   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTVZOWTFKeWc0bWo4eF9Bd1BYeVpPUkVZUnF4V2FSWDUwUTM0QWpGX05wV0ZjV19kcFNkckRKZ2kxX3MyckMyZ09yVVI5ZkJHbGxlaFJFakN0aHhDOFdfMlRYRi1PZHN6NXhUQ1V4bnlBcmhkTmhMZzNaOWVvNGttbDB6c3hGMjNYV0E?oc=5",
-   "summary": "Vance intensifies rapidly and could become a major Category 3 hurricane off Mexico's Pacific Coast AP News",
-   "published": "2026-10-23T21:16:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "e2ad640daf30",
-   "article_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTVZOWTFKeWc0bWo4eF9Bd1BYeVpPUkVZUnF4V2FSWDUwUTM0QWpGX05wV0ZjV19kcFNkckRKZ2kxX3MyckMyZ09yVVI5ZkJHbGxlaFJFakN0aHhDOFdfMlRYRi1PZHN6NXhUQ1V4bnlBcmhkTmhMZzNaOWVvNGttbDB6c3hGMjNYV0E?oc=5",
-   "has_text": false
-  },
-  {
    "title": "Mississippi DEI ban can go into full effect after Fifth Circuit reversal",
    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZzRiYi02c1d5RzhWM01pcndHcUE2aWNnZlVlSEIteHRkZ0tnaFZ4dlh1UXpOWmhsVTBkMS1pZV9rVzRsSU5pbGN6Q2NsUmp2dzdwQWR0OHVhczZPTmtPTE5zMVJaM1ZsQTRhUzlWVzNpOEl1RnNmdUlBelRISlN5RVJ2UjBJUFBEeUoweVp4c3JFcW5nM01vUnhzcE5yS1lhRHNJSWNCWU13UQ?oc=5",
    "summary": "Mississippi DEI ban can go into full effect after Fifth Circuit reversal AP News",
@@ -776,19 +1216,6 @@
    "section": "top",
    "id": "1484149258fc",
    "article_url": "https://thehill.com/homenews/state-watch/6169374-secret-service-investigates-suspicious-item/",
-   "has_text": false
-  },
-  {
-   "title": "Oregon man who killed school shooter says he regrets there were children he didn’t save",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWWUtT3V0bk9qRnJ3M0tfRWhjUjJzRFJzdnZMSzdsdFQ4Y1NBVzhCdWVmSXpZb3B4RW5WQVJ0Y1lqdTlGQWVUTFdENG9hWXBHU1R2VHRoRUpnTy1GUUNaZDZfS2tuSzRfTmJGWUd3aVNvb0dZMjRwUEEwZGJjVV80QlB4OXNCY082SXNCWjZHME9wS1ZnRkt2SkM3UDJ1Um5taXpuZEdSSS1OX05m?oc=5",
-   "summary": "Oregon man who killed school shooter says he regrets there were children he didn’t save AP News",
-   "published": "2026-10-23T20:45:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "25a536b7e82a",
-   "article_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWWUtT3V0bk9qRnJ3M0tfRWhjUjJzRFJzdnZMSzdsdFQ4Y1NBVzhCdWVmSXpZb3B4RW5WQVJ0Y1lqdTlGQWVUTFdENG9hWXBHU1R2VHRoRUpnTy1GUUNaZDZfS2tuSzRfTmJGWUd3aVNvb0dZMjRwUEEwZGJjVV80QlB4OXNCY082SXNCWjZHME9wS1ZnRkt2SkM3UDJ1Um5taXpuZEdSSS1OX05m?oc=5",
    "has_text": false
   },
   {
@@ -883,16 +1310,16 @@
    "has_text": false
   },
   {
-   "title": "First tanker of Russian diesel sets sail for the US in Trump’s controversial deal with Putin",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNlBURXk2bjFrc3ZkS2YxamJJM1RjZ1lOblh6ZTJPWTdrbHpPWjJIdzZMdjdBR0pOZFZ1eHhOcnUxRllDOGMweV9NN1JpU28yMmpEeFMwaFBweFk5bGR1QnRBd2NfdXI4Tk1uOWdjNFRhR2dZOG9BNGVWN1ZhQjBIdkloVEsxaUxkWlJJMTFjbnRCZ3I5dkgtN0U4bXBfbnZQVzliVThn?oc=5",
-   "summary": "First tanker of Russian diesel sets sail for the US in Trump’s controversial deal with Putin AP News",
+   "title": "Chicago Is Getting A Life-Size Siskel And Ebert Sculpture Giving ‘Two Thumbs Up’",
+   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNXhGbXFrVjlTZGRjR25UX2w4VGdsdmRPeU1jRWtoY0x3b0d6YkFIVEhtWE9RREE3bUJvX0ttc01RZVZRdHFoSGxncHNkRGVKeHRHWHdzUlV1WWQwYTV3NFdZa0tGM3FYQnNVd3RTREgtYjZUbkJpb3ZMcVA4X2hsaXkwRkpQLVk0Z3laM1RnQ0Z5MGQ3Ujc3MVV1WlJpYlpLT3c?oc=5",
+   "summary": "Chicago Is Getting A Life-Size Siskel And Ebert Sculpture Giving ‘Two Thumbs Up’ AP News",
    "published": "2026-10-23T20:17:00+00:00",
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
    "section": "top",
-   "id": "143380f2ed3a",
-   "article_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNlBURXk2bjFrc3ZkS2YxamJJM1RjZ1lOblh6ZTJPWTdrbHpPWjJIdzZMdjdBR0pOZFZ1eHhOcnUxRllDOGMweV9NN1JpU28yMmpEeFMwaFBweFk5bGR1QnRBd2NfdXI4Tk1uOWdjNFRhR2dZOG9BNGVWN1ZhQjBIdkloVEsxaUxkWlJJMTFjbnRCZ3I5dkgtN0U4bXBfbnZQVzliVThn?oc=5",
+   "id": "2987e136aa42",
+   "article_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNXhGbXFrVjlTZGRjR25UX2w4VGdsdmRPeU1jRWtoY0x3b0d6YkFIVEhtWE9RREE3bUJvX0ttc01RZVZRdHFoSGxncHNkRGVKeHRHWHdzUlV1WWQwYTV3NFdZa0tGM3FYQnNVd3RTREgtYjZUbkJpb3ZMcVA4X2hsaXkwRkpQLVk0Z3laM1RnQ0Z5MGQ3Ujc3MVV1WlJpYlpLT3c?oc=5",
    "has_text": false
   },
   {
@@ -919,6 +1346,19 @@
    "section": "top",
    "id": "11614f6d91bb",
    "article_url": "https://thehill.com/business/6168995-treasury-bans-institutional-home-buys/",
+   "has_text": false
+  },
+  {
+   "title": "Oregon man who killed school shooter says he regrets there were children he didn’t save",
+   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWWUtT3V0bk9qRnJ3M0tfRWhjUjJzRFJzdnZMSzdsdFQ4Y1NBVzhCdWVmSXpZb3B4RW5WQVJ0Y1lqdTlGQWVUTFdENG9hWXBHU1R2VHRoRUpnTy1GUUNaZDZfS2tuSzRfTmJGWUd3aVNvb0dZMjRwUEEwZGJjVV80QlB4OXNCY082SXNCWjZHME9wS1ZnRkt2SkM3UDJ1Um5taXpuZEdSSS1OX05m?oc=5",
+   "summary": "Oregon man who killed school shooter says he regrets there were children he didn’t save AP News",
+   "published": "2026-10-23T20:11:47+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "25a536b7e82a",
+   "article_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWWUtT3V0bk9qRnJ3M0tfRWhjUjJzRFJzdnZMSzdsdFQ4Y1NBVzhCdWVmSXpZb3B4RW5WQVJ0Y1lqdTlGQWVUTFdENG9hWXBHU1R2VHRoRUpnTy1GUUNaZDZfS2tuSzRfTmJGWUd3aVNvb0dZMjRwUEEwZGJjVV80QlB4OXNCY082SXNCWjZHME9wS1ZnRkt2SkM3UDJ1Um5taXpuZEdSSS1OX05m?oc=5",
    "has_text": false
   },
   {
@@ -1091,19 +1531,6 @@
    "has_text": true
   },
   {
-   "title": "A shooting in the Paris suburbs kills 1 and wounds five in a suspected racist attack",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbnZ3Y2dPX1lNWkprR3Nnc3FZQjdWRW5aNzYwRGZJbmFfNlZfcE8xQWxmUlZ6U0ZQQlhpem1IM0VnZ2N4M3B0dHlQeVFqZ1M3V1JlLUpxczJ3TVM5RmZlemxfMkFSQzdUMGpxX2J5dGctTURuUnNhX1V3Tkx4ME1TRTFQaHpnTXNrb2d0QlMtelJFcEd0?oc=5",
-   "summary": "A shooting in the Paris suburbs kills 1 and wounds five in a suspected racist attack AP News",
-   "published": "2026-10-23T19:32:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "3f4caf1f91d8",
-   "article_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbnZ3Y2dPX1lNWkprR3Nnc3FZQjdWRW5aNzYwRGZJbmFfNlZfcE8xQWxmUlZ6U0ZQQlhpem1IM0VnZ2N4M3B0dHlQeVFqZ1M3V1JlLUpxczJ3TVM5RmZlemxfMkFSQzdUMGpxX2J5dGctTURuUnNhX1V3Tkx4ME1TRTFQaHpnTXNrb2d0QlMtelJFcEd0?oc=5",
-   "has_text": false
-  },
-  {
    "title": "Trains cancelled and roads warnings as Scotland prepares for Storm Boelo",
    "link": "https://www.bbc.co.uk/news/articles/c60qk5lw1z8wo?at_medium=RSS&at_campaign=rss",
    "summary": "Heavy rain and strong winds are expected during the second named storm to hit in two days, with gusts of up to 80mph forecast.",
@@ -1117,17 +1544,17 @@
    "has_text": true
   },
   {
-   "title": "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
-   "link": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss",
-   "summary": "Ukraine and Russia confirm the truce in Russian-occupied Oleshky, where residents have had to eat garden weeds to survive.",
-   "published": "2026-10-23T19:30:19+00:00",
-   "source": "bbc",
-   "outlet": "BBC News",
+   "title": "Mike McDaniel, Brian Daboll and other first-year offensive coordinators are struggling",
+   "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQU0E1YklaUm1iM1pvR1RhZmpCUDBQUlFHc1d0M3lHaHFtdEdfc05VdUx0YlczVEZmTWg4Q3lQQXVyTTVLYlE0UHlIS2F2aThzR3hWZFlnaXlSUUNKT3l3VlVUSlpaZVd3eEFpeHdWMWFvUWpXWVhTeXNUYW5xZmtxRg?oc=5",
+   "summary": "Mike McDaniel, Brian Daboll and other first-year offensive coordinators are struggling AP News",
+   "published": "2026-10-23T19:24:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
    "counted": true,
    "section": "top",
-   "id": "39341045ad89",
-   "article_url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo?at_medium=RSS&at_campaign=rss",
-   "has_text": true
+   "id": "bc0871665979",
+   "article_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQU0E1YklaUm1iM1pvR1RhZmpCUDBQUlFHc1d0M3lHaHFtdEdfc05VdUx0YlczVEZmTWg4Q3lQQXVyTTVLYlE0UHlIS2F2aThzR3hWZFlnaXlSUUNKT3l3VlVUSlpaZVd3eEFpeHdWMWFvUWpXWVhTeXNUYW5xZmtxRg?oc=5",
+   "has_text": false
   },
   {
    "title": "Trump on Alaska election lawsuit: ‘I’m the one who said do it’",
@@ -1310,6 +1737,19 @@
    "has_text": false
   },
   {
+   "title": "University enrollment drops 2% in Michigan, first drop in three years",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTkpaRGZOSEE1Tk1ub0JkN2NTdW1qcWFHNmdZRGxBX2l0RHMtLTc1RldpRHhybUF5TlYtR1R4TmpvdU9OV1BPU0ZxdTl0cWR1ZURGZ0cwWm5KcDJlN0xNWGt0MEtiYngyM0JkeTd2THZPczVkMWRnMklKd25hMHNVUDhNd0kxMEYtbWhFOWFaN1V3aldSUzRLMkF6UHdDbjQ3ZW90ckpfTUY?oc=5",
+   "summary": "University enrollment drops 2% in Michigan, first drop in three years AP News",
+   "published": "2026-10-23T18:35:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "9c29f6abac8e",
+   "article_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTkpaRGZOSEE1Tk1ub0JkN2NTdW1qcWFHNmdZRGxBX2l0RHMtLTc1RldpRHhybUF5TlYtR1R4TmpvdU9OV1BPU0ZxdTl0cWR1ZURGZ0cwWm5KcDJlN0xNWGt0MEtiYngyM0JkeTd2THZPczVkMWRnMklKd25hMHNVUDhNd0kxMEYtbWhFOWFaN1V3aldSUzRLMkF6UHdDbjQ3ZW90ckpfTUY?oc=5",
+   "has_text": false
+  },
+  {
    "title": "Most of the World’s Shallow Coral Reefs Could Collapse in the Next 50 Years",
    "link": "https://insideclimatenews.org/news/23102026/most-of-the-worlds-shallow-coral-reefs-could-collapse-in-the-next-50-years/",
    "summary": "By 2075, the vast majority of the world’s shallow coral reefs could cease to function as both critical habitat for marine life and a lifeline for hundreds of millions of people who rely on them. According to a new assessment by the International Union for Conservation of Nature, 96 percent of the planet’s 127 major […]",
@@ -1321,19 +1761,6 @@
    "id": "e95030d47e61",
    "article_url": "https://insideclimatenews.org/news/23102026/most-of-the-worlds-shallow-coral-reefs-could-collapse-in-the-next-50-years/",
    "has_text": true
-  },
-  {
-   "title": "Atlanta Falcons’ social media post of their throwback logo causes a stir online",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbEd5ZTVMaE1XN3BLTy1kX2dMM3FMSHZpd3JMVVJ2Wk4xWnV1a2lLQV9kVlE5dzdhTEJpcUR5a25IUHo3eEtReHc1aTlpUVlzUmgxU2Y2X3pxZzJBYzYyQUZNdWV2aG5wcjhiX3B2TU5Yd1MwVmE0dGgwOW9lV1BNYURoV3VoUVUyYzFJdi1R?oc=5",
-   "summary": "Atlanta Falcons’ social media post of their throwback logo causes a stir online AP News",
-   "published": "2026-10-23T18:04:13+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "12028cf98afe",
-   "article_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbEd5ZTVMaE1XN3BLTy1kX2dMM3FMSHZpd3JMVVJ2Wk4xWnV1a2lLQV9kVlE5dzdhTEJpcUR5a25IUHo3eEtReHc1aTlpUVlzUmgxU2Y2X3pxZzJBYzYyQUZNdWV2aG5wcjhiX3B2TU5Yd1MwVmE0dGgwOW9lV1BNYURoV3VoUVUyYzFJdi1R?oc=5",
-   "has_text": false
   },
   {
    "title": "Why did humans’ brains surpass chimps’? A tiny foe might help explain it",
@@ -1401,6 +1828,19 @@
    "has_text": false
   },
   {
+   "title": "Steelers QB Aaron Rodgers backs NFL on holding game in Paris despite recent unrest",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONkR5TnFSWjI5WDFvMUV0N0FmMVg0cmx5VXg5UnR4MVVWN1lvT1J3ZGM2Ny1NUFBtNmFXLVlGVk9tM05xNV9yTmUtNzFRNXZ2QWhReWdDeVJqWTdpdkszME5hS21KblJuZHpULWliS3dtQU50b0drN1JVOHpZamdJYlBaeXhxZ3loS3F0bkJR?oc=5",
+   "summary": "Steelers QB Aaron Rodgers backs NFL on holding game in Paris despite recent unrest AP News",
+   "published": "2026-10-23T17:51:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "abb4fbb006bd",
+   "article_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONkR5TnFSWjI5WDFvMUV0N0FmMVg0cmx5VXg5UnR4MVVWN1lvT1J3ZGM2Ny1NUFBtNmFXLVlGVk9tM05xNV9yTmUtNzFRNXZ2QWhReWdDeVJqWTdpdkszME5hS21KblJuZHpULWliS3dtQU50b0drN1JVOHpZamdJYlBaeXhxZ3loS3F0bkJR?oc=5",
+   "has_text": false
+  },
+  {
    "title": "NASA, Virginia Launch Power Partnership for Energy Security",
    "link": "https://www.nasa.gov/centers-and-facilities/langley/nasa-power-energy-partnership/",
    "summary": "NASA is helping to foster long-term energy security in Virginia. NASA’s Langley Research Center in Hampton, Virginia, is partnering with the Virginia Department of Energy to support informed decisions for effective energy generation, delivery and use by providing solar, meteorological, and future weather risk datasets for energy system modeling and planning purposes. Under a new […]",
@@ -1422,19 +1862,6 @@
    "section": "top",
    "id": "34a1ceeb7233",
    "article_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVGF3WGNKbzBxVUFCNldNUHJMVmpBQ3FxS2tCYVhqWmZ0emdGMk5BQUtjWXdydWlNWXJOQ1lGd2xSUWVwdzJrUThlY2FIZ3VQZm1DcUxDX0JaODhqWmpvTVVwc3UySVdfOUFTTlNNUllGWG1McG1iandqY1FfY1ZPbWRySGhwUGdRWDdEckR5c0kzWm1hSUptdUlOT19XOU0yUGR1Y3pGUkVFNkhvYVhhb1VteVNtcFU?oc=5",
-   "has_text": false
-  },
-  {
-   "title": "Defense attorneys in Charlie Kirk’s killing say they need years to prepare for trial",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPV1Ayb2RVWFVwVkFfZWNaYUgxMG1YeTNpVlRVN21rX0pJWmxYQWVmbFByZmMwc3l2QVZSTDhrcG5zdTVfODFtSDVMSHo2MkhDMGVUZ2doOFdWVzlFWFV0bDl0T2JobkxRZXNRVXRlLVRTcWQyckQ2b0Y1d09XLXVWbkZfQkRSTjZqQ1BERlpzZlJIaG5Ob2JsSQ?oc=5",
-   "summary": "Defense attorneys in Charlie Kirk’s killing say they need years to prepare for trial AP News",
-   "published": "2026-10-23T17:42:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "470201c9eb6a",
-   "article_url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPV1Ayb2RVWFVwVkFfZWNaYUgxMG1YeTNpVlRVN21rX0pJWmxYQWVmbFByZmMwc3l2QVZSTDhrcG5zdTVfODFtSDVMSHo2MkhDMGVUZ2doOFdWVzlFWFV0bDl0T2JobkxRZXNRVXRlLVRTcWQyckQ2b0Y1d09XLXVWbkZfQkRSTjZqQ1BERlpzZlJIaG5Ob2JsSQ?oc=5",
    "has_text": false
   },
   {
@@ -1474,6 +1901,19 @@
    "section": "top",
    "id": "ad5818080b55",
    "article_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdkItYzRWZzBERjFLS2NSVkJoSk1HTFl4LUgxdjdJU3pnWHNqbWlaRE82eXhERmN0eWFfTlFMak1CRkVWeXBNMlBocFE2dW1iTnBDVXlldUhCR0JVenJRQTVaOEwteUN1Q2xZbnBGd01LMl9hcW1FNHlVYVVqNmlhUVFvWWk3MWNHdnFTancteGwyQQ?oc=5",
+   "has_text": false
+  },
+  {
+   "title": "Atlanta Falcons’ social media post of their throwback logo causes a stir online",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbEd5ZTVMaE1XN3BLTy1kX2dMM3FMSHZpd3JMVVJ2Wk4xWnV1a2lLQV9kVlE5dzdhTEJpcUR5a25IUHo3eEtReHc1aTlpUVlzUmgxU2Y2X3pxZzJBYzYyQUZNdWV2aG5wcjhiX3B2TU5Yd1MwVmE0dGgwOW9lV1BNYURoV3VoUVUyYzFJdi1R?oc=5",
+   "summary": "Atlanta Falcons’ social media post of their throwback logo causes a stir online AP News",
+   "published": "2026-10-23T17:36:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "12028cf98afe",
+   "article_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbEd5ZTVMaE1XN3BLTy1kX2dMM3FMSHZpd3JMVVJ2Wk4xWnV1a2lLQV9kVlE5dzdhTEJpcUR5a25IUHo3eEtReHc1aTlpUVlzUmgxU2Y2X3pxZzJBYzYyQUZNdWV2aG5wcjhiX3B2TU5Yd1MwVmE0dGgwOW9lV1BNYURoV3VoUVUyYzFJdi1R?oc=5",
    "has_text": false
   },
   {
@@ -1555,19 +1995,6 @@
    "has_text": false
   },
   {
-   "title": "AP Exclusive: Trump’s border chief defends wall plans in Texas’ Big Bend despite a court setback",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQME53UG5SaHNkWGhpOWtuNGZIYXh0V0lMNXdMeGpzNmtHel9EQ0hmVVh3YW1vNVNUNkc5RXR6ZHhDV2VSTVZuS1ZndXl5OE9RT2w4bS04aktFNTJteVRJcjRWMVk2c1k1ZXo3S0sxZGdQMGNyR1J6OVl5Wlh4anVkNGxzV1I0S0ljWm95U0tBcFZKNEgwMW9FdVczZVVQcGZoVmlKRTJFQ1M?oc=5",
-   "summary": "AP Exclusive: Trump’s border chief defends wall plans in Texas’ Big Bend despite a court setback AP News",
-   "published": "2026-10-23T17:03:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "4bbfdcb13018",
-   "article_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQME53UG5SaHNkWGhpOWtuNGZIYXh0V0lMNXdMeGpzNmtHel9EQ0hmVVh3YW1vNVNUNkc5RXR6ZHhDV2VSTVZuS1ZndXl5OE9RT2w4bS04aktFNTJteVRJcjRWMVk2c1k1ZXo3S0sxZGdQMGNyR1J6OVl5Wlh4anVkNGxzV1I0S0ljWm95U0tBcFZKNEgwMW9FdVczZVVQcGZoVmlKRTJFQ1M?oc=5",
-   "has_text": false
-  },
-  {
    "title": "Watch live: Trump rallies in Fort Myers, Florida",
    "link": "https://thehill.com/homenews/campaign/6167454-watch-live-trump-rallies-in-fort-myers-florida/",
    "summary": "President Trump will rally in Fort Myers, Fla., on Friday as Republicans in the state are feeling bullish about statewide races. Fort Myers is part of the 19th Congressional District, where Rep. Byron Donalds (R) vacated his seat to run for governor. Donalds is favored to win against Democrat David Jolly in the race to…",
@@ -1604,19 +2031,6 @@
    "section": "top",
    "id": "18b36e4ee01c",
    "article_url": "https://thehill.com/opinion/lindseys-lens/6168643-dhs-voter-intimidation-investigation/",
-   "has_text": false
-  },
-  {
-   "title": "Ohio Republicans' statewide bus tour rolls as Ramaswamy ad with Acton's mother divides the party",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQllNaUg2eWxXTUNDQ2V1TVNFZDhubTQwZDhvb1p3SXJha0F5WllvbzRwLXdUdDRSY19sQ3h5YnpBdE9UVE11cFF4RFZpcHBTNnREWWh4cGNCYXFTWHZvSHRVMnAwZzhIYzRVS0g3aVVDeGhOV1JZSnhxQWNxMFRaZWRZRDZvYmNqbFU1TFNiTXBsRlJfamJDb1pRcw?oc=5",
-   "summary": "Ohio Republicans' statewide bus tour rolls as Ramaswamy ad with Acton's mother divides the party AP News",
-   "published": "2026-10-23T16:48:25+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "432624a736f1",
-   "article_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQllNaUg2eWxXTUNDQ2V1TVNFZDhubTQwZDhvb1p3SXJha0F5WllvbzRwLXdUdDRSY19sQ3h5YnpBdE9UVE11cFF4RFZpcHBTNnREWWh4cGNCYXFTWHZvSHRVMnAwZzhIYzRVS0g3aVVDeGhOV1JZSnhxQWNxMFRaZWRZRDZvYmNqbFU1TFNiTXBsRlJfamJDb1pRcw?oc=5",
    "has_text": false
   },
   {
@@ -1763,6 +2177,19 @@
    "has_text": false
   },
   {
+   "title": "Ethiopia’s Tigray rebels urged to disarm as commander vows to fight on",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNbE5td21JbjFkZVBJNUE1Nm1SUVdYelVrTEstd1hOTWFhR2JCOWJiMnJ4alpqOFd2cFR4VTExby1HUlp3eEJPclNUa3I2b05nSzQwOE9HRE10b2lUM3J2cVE2dUFpR1RYeEVXOGxIcnVyRk1mWWZZOTNpX1pFUFBDV2V0SW96M0tDWDNDVFFSQW0zTjViTEtwRGQ5STVIOWhUcUY2aXNxNlRiOTg0b1FZY0NVNXlfZUp2WS1hQklNalowSzJLRFdaUDB1SQ?oc=5",
+   "summary": "Ethiopia’s Tigray rebels urged to disarm as commander vows to fight on AP News",
+   "published": "2026-10-23T16:15:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "d2c4c24fe00a",
+   "article_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNbE5td21JbjFkZVBJNUE1Nm1SUVdYelVrTEstd1hOTWFhR2JCOWJiMnJ4alpqOFd2cFR4VTExby1HUlp3eEJPclNUa3I2b05nSzQwOE9HRE10b2lUM3J2cVE2dUFpR1RYeEVXOGxIcnVyRk1mWWZZOTNpX1pFUFBDV2V0SW96M0tDWDNDVFFSQW0zTjViTEtwRGQ5STVIOWhUcUY2aXNxNlRiOTg0b1FZY0NVNXlfZUp2WS1hQklNalowSzJLRFdaUDB1SQ?oc=5",
+   "has_text": false
+  },
+  {
    "title": "Scotland to be hit with 80mph wind gusts as Storm Boelo warning upgraded to amber",
    "link": "https://www.bbc.co.uk/news/articles/cwkgjz3dpyj6o?at_medium=RSS&at_campaign=rss",
    "summary": "It is due to be the second of two storms to hit Scotland over the weekend, with Storm Austen bringing heavy rain on Friday.",
@@ -1851,19 +2278,6 @@
    "section": "top",
    "id": "abc194253767",
    "article_url": "https://thehill.com/homenews/administration/6168388-trump-discusses-starlink-restrictions-elon-musk/",
-   "has_text": false
-  },
-  {
-   "title": "Many feared trapped as a tall building collapses in Kenya",
-   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRTRXak1SOHdpMTFYY0diUmJkbnBCcFhjS1RScVl0YktpcWV0ZG40VWhFbFhEbE05ZjM1Rl9uNVFWT01aWXF4TE9jVnd1LU9IVUhaTi1VcVhhM3ZZaFdRRUtXSXRSTUVtdGMxUy1iVTZEV181Q3U5OHRRZ0ZhUE8yWExYYWtnMHNiN3VN?oc=5",
-   "summary": "Many feared trapped as a tall building collapses in Kenya AP News",
-   "published": "2026-10-23T15:41:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "4c3d23ade81f",
-   "article_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRTRXak1SOHdpMTFYY0diUmJkbnBCcFhjS1RScVl0YktpcWV0ZG40VWhFbFhEbE05ZjM1Rl9uNVFWT01aWXF4TE9jVnd1LU9IVUhaTi1VcVhhM3ZZaFdRRUtXSXRSTUVtdGMxUy1iVTZEV181Q3U5OHRRZ0ZhUE8yWExYYWtnMHNiN3VN?oc=5",
    "has_text": false
   },
   {
@@ -2140,6 +2554,19 @@
    "has_text": false
   },
   {
+   "title": "'Rent' musical celebrates its 30th Broadway anniversary with a starry show: 'No day but today'",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSkxEZk9rOVcwR3dOYUkzTFlDaVZYNTkwZUpOSlBhak9kNFFvYnVnQ0hKLUd3QWlXSVRKZzdkYjRqdXg1WTMyMXVCNFhkU0xGSS12emlHa2FaZ2M4R29SazQwcF84NUxmYThiNEpiY3pKdEhCSkNCWmtPVHNHUVlwMGFPQUM4cnFm?oc=5",
+   "summary": "'Rent' musical celebrates its 30th Broadway anniversary with a starry show: 'No day but today' AP News",
+   "published": "2026-10-23T14:57:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "e6a360e87c59",
+   "article_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSkxEZk9rOVcwR3dOYUkzTFlDaVZYNTkwZUpOSlBhak9kNFFvYnVnQ0hKLUd3QWlXSVRKZzdkYjRqdXg1WTMyMXVCNFhkU0xGSS12emlHa2FaZ2M4R29SazQwcF84NUxmYThiNEpiY3pKdEhCSkNCWmtPVHNHUVlwMGFPQUM4cnFm?oc=5",
+   "has_text": false
+  },
+  {
    "title": "2 Air Force pilots eject from training jet in Texas",
    "link": "https://thehill.com/policy/defense/6168016-air-force-pilots-safely-eject-texas/",
    "summary": "Two Air Force pilots safely ejected from their aircraft near San Antonio on Thursday because of potential issues with their landing gear. The pilots — who were part of a training program at Joint Base San Antonio-Randolph in Texas — received indications their landing gear was unsafe and ejected at the recommendation of experts, a…",
@@ -2179,16 +2606,16 @@
    "has_text": false
   },
   {
-   "title": "Prince Harry's wife Meghan 'deeply distressed' by allegations her father had indecent images",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdmxsY2x1WFVOTHcxNnV3WnpvZG9tRkhVeFFVLXFfR3FLSG5ISEJIcGNuZExHQ0JJeURDOTJ4ZFVoV0RfUTJTcVk5QzFVamg3NXNOR0EyQjhSNlB1RTktcTJ1UmczV2RhRzU1eW5mcTAxMzFIdWtLMmo5N0JQUExoN1hLa09IME1VT2dGdktuZjVnd09SbzZNYXZRMmJ5VEI0emd5OTMwWVZ0YmNs?oc=5",
-   "summary": "Prince Harry's wife Meghan 'deeply distressed' by allegations her father had indecent images AP News",
-   "published": "2026-10-23T14:31:00+00:00",
+   "title": "Many feared trapped as a tall building collapses in Kenya",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRTRXak1SOHdpMTFYY0diUmJkbnBCcFhjS1RScVl0YktpcWV0ZG40VWhFbFhEbE05ZjM1Rl9uNVFWT01aWXF4TE9jVnd1LU9IVUhaTi1VcVhhM3ZZaFdRRUtXSXRSTUVtdGMxUy1iVTZEV181Q3U5OHRRZ0ZhUE8yWExYYWtnMHNiN3VN?oc=5",
+   "summary": "Many feared trapped as a tall building collapses in Kenya AP News",
+   "published": "2026-10-23T14:34:38+00:00",
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
    "section": "top",
-   "id": "ecd43f25295e",
-   "article_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdmxsY2x1WFVOTHcxNnV3WnpvZG9tRkhVeFFVLXFfR3FLSG5ISEJIcGNuZExHQ0JJeURDOTJ4ZFVoV0RfUTJTcVk5QzFVamg3NXNOR0EyQjhSNlB1RTktcTJ1UmczV2RhRzU1eW5mcTAxMzFIdWtLMmo5N0JQUExoN1hLa09IME1VT2dGdktuZjVnd09SbzZNYXZRMmJ5VEI0emd5OTMwWVZ0YmNs?oc=5",
+   "id": "4c3d23ade81f",
+   "article_url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQRTRXak1SOHdpMTFYY0diUmJkbnBCcFhjS1RScVl0YktpcWV0ZG40VWhFbFhEbE05ZjM1Rl9uNVFWT01aWXF4TE9jVnd1LU9IVUhaTi1VcVhhM3ZZaFdRRUtXSXRSTUVtdGMxUy1iVTZEV181Q3U5OHRRZ0ZhUE8yWExYYWtnMHNiN3VN?oc=5",
    "has_text": false
   },
   {
@@ -2216,19 +2643,6 @@
    "id": "fd6603360a89",
    "article_url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTDVBZjdhdHlxNHh1T0dpcU02T3hfcnZqcHhqT3BoRVR0bk83NFZ6dkRvZTFta1FpeXVNaTQtYXZFd2VxbmJkQ3B1RW9XTV9TQU9ldVBiRFNLNjBCLXZnQU1pRFVMcW1TbFcyS2ZzbGxndFppaUJHOWZ1TDI3d2h2dEFvSHhZZU1JZEI2dnYtMXVlM2V0NnltQjdFb21uNzNMdm43TEVTaDVBeFpNc0JrS0xKQQ?oc=5",
    "has_text": false
-  },
-  {
-   "title": "PSG v Lyon moved as Paris prepares for more protests",
-   "link": "https://www.bbc.co.uk/sport/football/articles/cw8rz3eyn26po?at_medium=RSS&at_campaign=rss",
-   "summary": "Paris St-Germain's Ligue 1 match against Lyon at the Parc des Princes is pushed back 24 hours as the French capital prepares for another weekend of protests.",
-   "published": "2026-10-23T14:18:41+00:00",
-   "source": "bbc",
-   "outlet": "BBC News",
-   "counted": true,
-   "section": "top",
-   "id": "e89eb87148b7",
-   "article_url": "https://www.bbc.co.uk/sport/football/articles/cw8rz3eyn26po?at_medium=RSS&at_campaign=rss",
-   "has_text": true
   },
   {
    "title": "Manchin: Collins should leave GOP, become an independent",
@@ -2309,19 +2723,6 @@
    "has_text": false
   },
   {
-   "title": "Brazil's Lula opens state toolbox to woo voters in runoff against Bolsonaro. Here's what is on offer",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMVk3ODVoRjR6QllSMjBiWkVwWEJSN0hIcWljWDBxb2czZDVMV2lrSnVpUTlTWWdHanhpMGRIUUxaM0ZLN1dyMUJLNHZCaXF4WWRXRGQ2bG5uQVFJV2RLM0ZrZURkU0RKbEphZVh1R1dIeUlhMkpiQzVuaDN2MGdiWmdJUDYyT25LVzRRSXBOLUVldms?oc=5",
-   "summary": "Brazil's Lula opens state toolbox to woo voters in runoff against Bolsonaro. Here's what is on offer AP News",
-   "published": "2026-10-23T14:05:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "9bb3be739156",
-   "article_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMVk3ODVoRjR6QllSMjBiWkVwWEJSN0hIcWljWDBxb2czZDVMV2lrSnVpUTlTWWdHanhpMGRIUUxaM0ZLN1dyMUJLNHZCaXF4WWRXRGQ2bG5uQVFJV2RLM0ZrZURkU0RKbEphZVh1R1dIeUlhMkpiQzVuaDN2MGdiWmdJUDYyT25LVzRRSXBOLUVldms?oc=5",
-   "has_text": false
-  },
-  {
    "title": "Africa's job market fails to provide decent work for youth, think tank says",
    "link": "https://www.semafor.com/article/10/23/2026/employment-market-fails-to-provide-decent-work-to-africas-young-population",
    "summary": "The continent’s youth could be a huge asset but what they need is secure, well-paid work, according to the African Center for Economic Transformation.",
@@ -2359,6 +2760,17 @@
    "id": "6ae15bdd4842",
    "article_url": "https://thehill.com/opinion/criminal-justice/6166028-anti-drug-abuse-act-legacy/",
    "has_text": false
+  },
+  {
+   "title": "Indonesia seizes over 2 tons of narcotics in one of the country’s largest drug busts",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZmR1TGFpSVJGbGxGeTl6RWRza2hxdzMtSzZmNWo5Vmh3cjZlQVU1bHpCMGJQckNKREpxQmp3NFhDNG1jMmFaNVM0V0NmMTlRc1RZN21XSlFxcXBNek5SY0gzWDJPWDliSXFnR09MSHgyUm03STREMTlDZGVjc3RtNlVXd3pfbVh0UWM3MUFjRjgxVEJvTXRn?oc=5",
+   "summary": "Indonesia seizes over 2 tons of narcotics in one of the country’s largest drug busts AP News",
+   "published": "2026-10-23T13:59:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "24433ebc7ab5"
   },
   {
    "title": "American Express profits rise; company plans to cut workforce by 5%, or about 3,500 employees",
@@ -2592,19 +3004,6 @@
    "section": "climate",
    "id": "cb8ee52488d7",
    "article_url": "https://www.bbc.co.uk/weather/articles/cw4g19dll8jlo?at_medium=RSS&at_campaign=rss",
-   "has_text": true
-  },
-  {
-   "title": "Denmark to ban mink farming in government U-turn",
-   "link": "https://www.bbc.co.uk/news/articles/c59vzjm118j1o?at_medium=RSS&at_campaign=rss",
-   "summary": "Once the world's largest producer of mink pelts, the nation's industry has declined in recent years.",
-   "published": "2026-10-23T12:17:45+00:00",
-   "source": "bbc",
-   "outlet": "BBC News",
-   "counted": true,
-   "section": "top",
-   "id": "666eba96da32",
-   "article_url": "https://www.bbc.co.uk/news/articles/c59vzjm118j1o?at_medium=RSS&at_campaign=rss",
    "has_text": true
   },
   {
@@ -2866,6 +3265,17 @@
    "has_text": true
   },
   {
+   "title": "Coal mine blast in northern Turkey kills 3, leaves 5 hurt",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNMWNad25ralF2VXdKTGtjV1A0OXVZQUo1WjRJZjlMQnZrRWlqWkl3REdFNlVpeVVnOVBPNG9WUTJIQ2N2SVFrbHlTaEtkTlJXRWVfU3BYT2hKRndtTkdWZDFKMlZuTHlaN2oyXzdTZVUtdF9KenQ4TFpScFY0NDdFOFdackV2MG51RmZhbDVEWGtmb0tWZkE?oc=5",
+   "summary": "Coal mine blast in northern Turkey kills 3, leaves 5 hurt AP News",
+   "published": "2026-10-23T10:47:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "cab04f564bfb"
+  },
+  {
    "title": "US Treasurys gained in investors’ flight to safety",
    "link": "https://www.semafor.com/article/10/23/2026/us-treasury-bond-yields-gained-in-investors-flight-to-safety",
    "summary": "Markets have grown worried that Big Tech firms will not make sufficient money to cover their ballooning investments and are running into supply-chain bottlenecks.",
@@ -2876,45 +3286,6 @@
    "section": "top",
    "id": "e4c27aa67698",
    "article_url": "https://www.semafor.com/article/10/23/2026/us-treasury-bond-yields-gained-in-investors-flight-to-safety",
-   "has_text": true
-  },
-  {
-   "title": "Fund to help businesses switch to green vehicles",
-   "link": "https://www.bbc.co.uk/news/articles/cr62ydqjvg9lo?at_medium=RSS&at_campaign=rss",
-   "summary": "Council leader Stephen Place says it will help businesses counter the rising cost of fuel.",
-   "published": "2026-10-23T10:15:00+00:00",
-   "source": "bbc",
-   "outlet": "BBC News",
-   "counted": true,
-   "section": "climate",
-   "id": "2de4bd50b435",
-   "article_url": "https://www.bbc.co.uk/news/articles/cr62ydqjvg9lo?at_medium=RSS&at_campaign=rss",
-   "has_text": true
-  },
-  {
-   "title": "Cyprus police open investigation into financial affairs of Roman Abramovich",
-   "link": "https://www.bbc.co.uk/news/articles/c875p1yy90ryo?at_medium=RSS&at_campaign=rss",
-   "summary": "Questions about the integrity of some of Abramovich's professional advisers, were raised earlier this month.",
-   "published": "2026-10-23T10:14:37+00:00",
-   "source": "bbc",
-   "outlet": "BBC News",
-   "counted": true,
-   "section": "top",
-   "id": "5b28b5af0f9b",
-   "article_url": "https://www.bbc.co.uk/news/articles/c875p1yy90ryo?at_medium=RSS&at_campaign=rss",
-   "has_text": true
-  },
-  {
-   "title": "Woman with Ebola in Nigeria confirmed as wife of Swiss diplomat",
-   "link": "https://www.bbc.co.uk/news/articles/cmwy4wlzqz3zo?at_medium=RSS&at_campaign=rss",
-   "summary": "Her husband is currently in isolation but has not developed any symptoms, Swiss officials say.",
-   "published": "2026-10-23T10:14:33+00:00",
-   "source": "bbc",
-   "outlet": "BBC News",
-   "counted": true,
-   "section": "top",
-   "id": "80e2963232be",
-   "article_url": "https://www.bbc.co.uk/news/articles/cmwy4wlzqz3zo?at_medium=RSS&at_campaign=rss",
    "has_text": true
   },
   {
@@ -2929,6 +3300,17 @@
    "id": "e6847352f1a0",
    "article_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRkMyZVRndERxUkk5OVlrV0RkZG5hN0l4enZoZmZpWEJPVlhqcVRsVVF6M01TVFJYaUM1OE1KZkZPeEJDNzVWV0hsTWhRZVJjcTdFcjZVeFdpNDVRbTlJNXEwc3Y5aFRzQkFhWHN4MDZoYjQ4MlhFaWVWSHFZZ1NPdFNmQ19EWVotVFk1ek9oOXd6MjJzMmV2MzR0MjBVOHVVdzdzSA?oc=5",
    "has_text": false
+  },
+  {
+   "title": "How Spanish coaches became soccer’s hottest commodity",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdEpJd3hCLW5UTl95b0ViMkZBZHNNUV9lN1ZzeGJ3NUUyeW55QnVrd2JPVVllMlhFQ1Jsdl9GU09ONC15N2N3OVprLUkzVm42cjJwQXBELXFhRlF0Z0xISTBmQk4tZy1iWlp2cFdCVmtpM3dQMzgtWnpqazZIZGpRZXpmWnVBdEUxWHlHa1BkRDZzVlFaWEdvNm03eXZrSmswclp1SVNzS2pxTC14aXRN?oc=5",
+   "summary": "How Spanish coaches became soccer’s hottest commodity AP News",
+   "published": "2026-10-23T10:01:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "e2197439fc06"
   },
   {
    "title": "Move over, bat flips. Baseball’s slow home run trots could have their World Series moment",
@@ -2970,6 +3352,19 @@
    "has_text": false
   },
   {
+   "title": "GOP pushes for oversight of Musk’s dominance of space",
+   "link": "https://thehill.com/homenews/senate/6166981-rep-lawmakers-scrutinize-spacex-monopoly/",
+   "summary": "Republican lawmakers alarmed over Ukraine’s loss of access to Starshield, a critical battlefield tool, are pushing for more congressional oversight on what some view as Elon Musk’s “space monopoly,” fearing that Musk will have too much power over future national security operations. Sen. Kevin Cramer (R-N.D.), a member of the Senate Armed Services Committee, on…",
+   "published": "2026-10-23T10:00:00+00:00",
+   "source": "thehill",
+   "outlet": "The Hill",
+   "counted": true,
+   "section": "top",
+   "id": "1fd9e3aa8c1a",
+   "article_url": "https://thehill.com/homenews/senate/6166981-rep-lawmakers-scrutinize-spacex-monopoly/",
+   "has_text": false
+  },
+  {
    "title": "Free lunch, transgender athletes: Voters nationwide face major education decisions",
    "link": "https://thehill.com/homenews/education/6165686-free-lunch-transgender-athletes-state-education-votes/",
    "summary": "Voters across the country are making big decisions about the education of their children at a local, state and federal level in this year’s midterms. Ballot initiatives, school board elections, governor’s races and Senate spots are all on the line as parents head to the polls thinking about AI, school choice and what topics should…",
@@ -2993,19 +3388,6 @@
    "section": "top",
    "id": "559648804394",
    "article_url": "https://thehill.com/homenews/administration/6166920-trump-midterm-campaign-promises-republicans/",
-   "has_text": false
-  },
-  {
-   "title": "GOP pushes for oversight of Musk’s dominance of space",
-   "link": "https://thehill.com/homenews/senate/6166981-rep-lawmakers-scrutinize-spacex-monopoly/",
-   "summary": "Republican lawmakers alarmed over Ukraine’s loss of access to Starshield, a critical battlefield tool, are pushing for more congressional oversight on what some view as Elon Musk’s “space monopoly,” fearing that Musk will have too much power over future national security operations. Sen. Kevin Cramer (R-N.D.), a member of the Senate Armed Services Committee, on…",
-   "published": "2026-10-23T10:00:00+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "1fd9e3aa8c1a",
-   "article_url": "https://thehill.com/homenews/senate/6166981-rep-lawmakers-scrutinize-spacex-monopoly/",
    "has_text": false
   },
   {
@@ -3061,6 +3443,19 @@
    "has_text": true
   },
   {
+   "title": "UN climate fund promises $20 million for Nepal flood recovery, far short of billions needed",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYmNLREtTRHBEem4wNm13eUJRd2h3T1haWGx2cUp0emRud1UwNkFZNzVneDJzdjk1MUE4S0R4eU1UcFk2Z1N0emxWdnY5dUQ5dm03UTVtVG5JWTVvMDhnbUUxWjdJUkJtUjAtRWZqdmYzY2J3SERWU2dDdEhaamhJRG5JZzl1dWRYVjFEamo4N3MzdTFaMTRJYjQ3ZUE2cm1CbWE5Sk1wWUcwbkE?oc=5",
+   "summary": "UN climate fund promises $20 million for Nepal flood recovery, far short of billions needed AP News",
+   "published": "2026-10-23T09:23:41+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "396134f6f802",
+   "article_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYmNLREtTRHBEem4wNm13eUJRd2h3T1haWGx2cUp0emRud1UwNkFZNzVneDJzdjk1MUE4S0R4eU1UcFk2Z1N0emxWdnY5dUQ5dm03UTVtVG5JWTVvMDhnbUUxWjdJUkJtUjAtRWZqdmYzY2J3SERWU2dDdEhaamhJRG5JZzl1dWRYVjFEamo4N3MzdTFaMTRJYjQ3ZUE2cm1CbWE5Sk1wWUcwbkE?oc=5",
+   "has_text": false
+  },
+  {
    "title": "Why soaring prices aren't breaking America's diesel habit",
    "link": "https://www.axios.com/2026/10/23/soaring-prices-diesel-habit",
    "summary": "The quickest and most affordable response to historically high diesel prices is also the simplest: Use less of it. Why it matters: Diesel is so entrenched in farming, trucking and other industries that even soaring prices aren't enough — at least not yet — to prompt a wholesale shift to alternatives from electric semi trucks to manure-powered tractors. Catch up fast: Diesel prices have climbed to record highs since the U.S. war with Iran began in March, rising faster than gasoline amid global oil supply disruptions . Diesel averaged $6.31 a gallon Thursday, up 74% from a year ago, according to",
@@ -3084,6 +3479,30 @@
    "section": "top",
    "id": "04f9b7d848e4",
    "article_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQ1JaNXRheUZhMjdBWWNKdTlhd2J5ekxlLWx2Q0VSSkI2YVFQNFI0X0JMUkd4bk9BcnpmcGI3TUJnU21uTGw4VlBKYm9kZ0NwTjZQTlpDV2xSNGEzdWM1Qkk1VmdEb0dSeUJlTkt0NC1MNGFsaHFoMGgwWGhjN2xQZnRzU0pSRkZIVERSRTdTamI?oc=5",
+   "has_text": false
+  },
+  {
+   "title": "A tense election in Serbia will decide if a student movement can topple populist leader Vucic",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQ2MzWlRXM2ktVWFQTWZTeG54ZG1Wd2RKS2VLTUtUU3FBV3UxUEw3UG1YSU81WDNCTHZ5LTFCSjVodUx0SDlvWFpLYm1qT051ckFET3FSZ0dYZWFfMnZEM2xUOTNTcndJWVFBc00yeXQ1T1JaVU9lTnFoaE51Wmcxam9UVjZMQjJmUkYwZXRvNHdhank3V0c4QWJCZ3dVUkVUR01n?oc=5",
+   "summary": "A tense election in Serbia will decide if a student movement can topple populist leader Vucic AP News",
+   "published": "2026-10-23T09:10:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "bb8fd4b9ace4"
+  },
+  {
+   "title": "Caleb Williams throws 2 TD passes as the Bears beat Drake Maye and the Patriots 30-24",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPelZNWUZuWnlwMDZOQVhrRlItTnFDOWRManA1SXVzSFh1Wm11ZHRaMG5oSjJLdks3Unl3b0NnNWVlUHZnSnhCLTFGTGRsLS1ocWdjUThhNEZhVHhiTURfelViYndBMTdiYU5xWlpqUF9YdzE2aEFZalNzTlpLeDB4WllnNUVORTg?oc=5",
+   "summary": "Caleb Williams throws 2 TD passes as the Bears beat Drake Maye and the Patriots 30-24 AP News",
+   "published": "2026-10-23T09:09:51+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "top",
+   "id": "d4a7779a7353",
+   "article_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPelZNWUZuWnlwMDZOQVhrRlItTnFDOWRManA1SXVzSFh1Wm11ZHRaMG5oSjJLdks3Unl3b0NnNWVlUHZnSnhCLTFGTGRsLS1ocWdjUThhNEZhVHhiTURfelViYndBMTdiYU5xWlpqUF9YdzE2aEFZalNzTlpLeDB4WllnNUVORTg?oc=5",
    "has_text": false
   },
   {
@@ -3243,19 +3662,6 @@
    "has_text": true
   },
   {
-   "title": "Rubio turns to small Indian town as US faces high oil prices",
-   "link": "https://www.bbc.co.uk/news/articles/c3x2wnk8ejq5o?at_medium=RSS&at_campaign=rss",
-   "summary": "US Secretary of State Marco Rubio pushed a business and energy agenda over diplomacy on his second trip to India this year.",
-   "published": "2026-10-23T08:39:42+00:00",
-   "source": "bbc",
-   "outlet": "BBC News",
-   "counted": true,
-   "section": "top",
-   "id": "e6a590ba1d7e",
-   "article_url": "https://www.bbc.co.uk/news/articles/c3x2wnk8ejq5o?at_medium=RSS&at_campaign=rss",
-   "has_text": true
-  },
-  {
    "title": "US Treasury proposes a rule to crack down on high-tech investments in China, other adversaries",
    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSE5iNkpiZ2FiYnczNGJ4Z1NXUzQ2WU1OaVhXbjlRaXpHVy1HMHg5S1Q0dFgwS1Y3ajJIV1V4UjBIcWxodTMtZmJtbzZqVWZ1bVdVWEpicmI3dktxdzdfOTZkQW94bWVvR19tR01OZ3QyOFZiNGRrN0I4TFdVLWZNNWZkZk4zYzI5bk8ycjI5SExjdlVFUDNsMVJLQks?oc=5",
    "summary": "US Treasury proposes a rule to crack down on high-tech investments in China, other adversaries AP News",
@@ -3282,30 +3688,15 @@
    "has_text": true
   },
   {
-   "title": "UN climate fund promises $20 million for Nepal flood recovery, far short of billions needed",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYmNLREtTRHBEem4wNm13eUJRd2h3T1haWGx2cUp0emRud1UwNkFZNzVneDJzdjk1MUE4S0R4eU1UcFk2Z1N0emxWdnY5dUQ5dm03UTVtVG5JWTVvMDhnbUUxWjdJUkJtUjAtRWZqdmYzY2J3SERWU2dDdEhaamhJRG5JZzl1dWRYVjFEamo4N3MzdTFaMTRJYjQ3ZUE2cm1CbWE5Sk1wWUcwbkE?oc=5",
-   "summary": "UN climate fund promises $20 million for Nepal flood recovery, far short of billions needed AP News",
-   "published": "2026-10-23T08:05:00+00:00",
+   "title": "A Ukrainian soldier blinded in war hopes to see his children again, in photos",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcU85bktua2ZfakJTai1lbGZvWm9LaXFUZWF4bktQWi0tVktLUEh1NWZGVmp5M1FpODJTU3FJTjQwQVhHNDlhUlQ4TzQ2YmRyNjVKa3hIVUg3Q2JCYU03dEpSYlFsSXkwR2tiUVZGMjIxNkYtMzFZOUlMR1VVd3JQQVZjbjl3dEF5MTh3c01tVm5VTDhrd0JWVDBJNVJETmJJeGgwbXZ3UWdHaUdLN0ZvclB3eHNyVndDZkdxdDNNV1BlSDZoU0E?oc=5",
+   "summary": "A Ukrainian soldier blinded in war hopes to see his children again, in photos AP News",
+   "published": "2026-10-23T07:25:00+00:00",
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
    "section": "top",
-   "id": "396134f6f802",
-   "article_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNYmNLREtTRHBEem4wNm13eUJRd2h3T1haWGx2cUp0emRud1UwNkFZNzVneDJzdjk1MUE4S0R4eU1UcFk2Z1N0emxWdnY5dUQ5dm03UTVtVG5JWTVvMDhnbUUxWjdJUkJtUjAtRWZqdmYzY2J3SERWU2dDdEhaamhJRG5JZzl1dWRYVjFEamo4N3MzdTFaMTRJYjQ3ZUE2cm1CbWE5Sk1wWUcwbkE?oc=5",
-   "has_text": false
-  },
-  {
-   "title": "South Korea proposes military talks with North Korea to calm rising border tensions",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQy0waVZoTDFvSXlOOGFKT0JNT09rZUxoYWdzYnRFMWxnczlnRWRsZ2oyVk15UEIwVzU5VkE5QVgySmVjTEJxVFNvZHYtdWNIYndNSkJ6UThmRXFLUl9Yc3lsd20xVUR2dmp0SEVSQzBpdjF3blk0SHFMLUFFYkhnU184Ym9seXZUWWN5ZzluYlE1ZjZuU3k1NG9vTXRxaDk4NjBTVG1QVFI?oc=5",
-   "summary": "South Korea proposes military talks with North Korea to calm rising border tensions AP News",
-   "published": "2026-10-23T07:04:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "cb8d5bba5482",
-   "article_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQQy0waVZoTDFvSXlOOGFKT0JNT09rZUxoYWdzYnRFMWxnczlnRWRsZ2oyVk15UEIwVzU5VkE5QVgySmVjTEJxVFNvZHYtdWNIYndNSkJ6UThmRXFLUl9Yc3lsd20xVUR2dmp0SEVSQzBpdjF3blk0SHFMLUFFYkhnU184Ym9seXZUWWN5ZzluYlE1ZjZuU3k1NG9vTXRxaDk4NjBTVG1QVFI?oc=5",
-   "has_text": false
+   "id": "5e18ea0c885d"
   },
   {
    "title": "In Netanyahu stronghold, signs of fraying loyalty emerge before election",
@@ -3315,7 +3706,7 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "top",
+   "section": "climate",
    "id": "470d0c72cabe",
    "article_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMHlXZmNFQ1Z5ejY2V3ZpN0FXRFJJYTJvMkVxNzZsTTljVXNJRkI0ZVFBYkpXejhoekNLbjJkZU5iNVBWd0d6bFRPekZWTnByU1JuY1I5ODJxRW1pMFY4eEhNd0RqU2RjQVhTN291YUt3ZkR2YmFpLUdRTHZmdDduYlFQVjA3b1BkRGwtczQ1RmhrVU9GV3prSUN0NmZ0eUdrajdBa1I4VEcxQQ?oc=5",
    "has_text": false
@@ -3334,19 +3725,6 @@
    "has_text": true
   },
   {
-   "title": "Caleb Williams throws 2 TD passes as the Bears beat Drake Maye and the Patriots 30-24",
-   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPelZNWUZuWnlwMDZOQVhrRlItTnFDOWRManA1SXVzSFh1Wm11ZHRaMG5oSjJLdks3Unl3b0NnNWVlUHZnSnhCLTFGTGRsLS1ocWdjUThhNEZhVHhiTURfelViYndBMTdiYU5xWlpqUF9YdzE2aEFZalNzTlpLeDB4WllnNUVORTg?oc=5",
-   "summary": "Caleb Williams throws 2 TD passes as the Bears beat Drake Maye and the Patriots 30-24 AP News",
-   "published": "2026-10-23T05:39:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "d4a7779a7353",
-   "article_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPelZNWUZuWnlwMDZOQVhrRlItTnFDOWRManA1SXVzSFh1Wm11ZHRaMG5oSjJLdks3Unl3b0NnNWVlUHZnSnhCLTFGTGRsLS1ocWdjUThhNEZhVHhiTURfelViYndBMTdiYU5xWlpqUF9YdzE2aEFZalNzTlpLeDB4WllnNUVORTg?oc=5",
-   "has_text": false
-  },
-  {
    "title": "Powerful earthquake in China’s Tibet region collapses hundreds of homes and kills at least 16 people",
    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORldaOFZPaTBpbVQ2N05EYjc0VlEzMVFUSHNTY0NZMTlUQnQwRTd2MTk0YU96N1N6WUlFZ2R5c3RnZ0FCNWkwemZlV1FmM3dfSVlFekRYc3AwQ2U4WmhESG5pT0xPT2NDUVNxLUZtMlFQNmFkYjN0TmRfUnF2azNnR3Z0aVVsZE16OGc?oc=5",
    "summary": "Powerful earthquake in China’s Tibet region collapses hundreds of homes and kills at least 16 people AP News",
@@ -3354,49 +3732,10 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "top",
+   "section": "climate",
    "id": "b7073a54f33a",
    "article_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxORldaOFZPaTBpbVQ2N05EYjc0VlEzMVFUSHNTY0NZMTlUQnQwRTd2MTk0YU96N1N6WUlFZ2R5c3RnZ0FCNWkwemZlV1FmM3dfSVlFekRYc3AwQ2U4WmhESG5pT0xPT2NDUVNxLUZtMlFQNmFkYjN0TmRfUnF2azNnR3Z0aVVsZE16OGc?oc=5",
    "has_text": false
-  },
-  {
-   "title": "How the death of 2 CIA agents in northern Mexico led to a treason case",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSFc3cmVRYVU4X3FaaWlLSTZuTFdlaGQxS2gyX2UtbnNaRHJESE85S1hrek54OFNZSm05R2pwUnFJUUpxbzZoV3lOcVZLdXFtQzBmM0NQMmhfX1dfSHg5b2pTMDM2dzR1cmRTS1lnUjNSWkNuTU9TMUFnSXlvQlhaeU9fVmxRZnJCZHRhdEpZc0lldw?oc=5",
-   "summary": "How the death of 2 CIA agents in northern Mexico led to a treason case AP News",
-   "published": "2026-10-23T05:23:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "fb285744ffb0",
-   "article_url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPSFc3cmVRYVU4X3FaaWlLSTZuTFdlaGQxS2gyX2UtbnNaRHJESE85S1hrek54OFNZSm05R2pwUnFJUUpxbzZoV3lOcVZLdXFtQzBmM0NQMmhfX1dfSHg5b2pTMDM2dzR1cmRTS1lnUjNSWkNuTU9TMUFnSXlvQlhaeU9fVmxRZnJCZHRhdEpZc0lldw?oc=5",
-   "has_text": false
-  },
-  {
-   "title": "Could experts have a solution to toxic algae?",
-   "link": "https://www.bbc.co.uk/news/articles/c9e8l640xl3do?at_medium=RSS&at_campaign=rss",
-   "summary": "Experts from the University of Bath are testing out a new invention at a lake in Wiltshire.",
-   "published": "2026-10-23T05:17:13+00:00",
-   "source": "bbc",
-   "outlet": "BBC News",
-   "counted": true,
-   "section": "climate",
-   "id": "2095ce34ac39",
-   "article_url": "https://www.bbc.co.uk/news/articles/c9e8l640xl3do?at_medium=RSS&at_campaign=rss",
-   "has_text": true
-  },
-  {
-   "title": "'Shock' of first England farmer hit by bird flu this season",
-   "link": "https://www.bbc.co.uk/news/articles/crpdg235g76no?at_medium=RSS&at_campaign=rss",
-   "summary": "The first farmer in England hit by bird flu this season tells of the \"emotional roller coaster\" of losing 32,000 hens.",
-   "published": "2026-10-23T05:10:30+00:00",
-   "source": "bbc",
-   "outlet": "BBC News",
-   "counted": true,
-   "section": "climate",
-   "id": "1e531b150029",
-   "article_url": "https://www.bbc.co.uk/news/articles/crpdg235g76no?at_medium=RSS&at_campaign=rss",
-   "has_text": true
   },
   {
    "title": "Blue Planet III: Moment octopus escapes death after hunt gone wrong",
@@ -3430,7 +3769,7 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "top",
+   "section": "climate",
    "id": "56f32c2e7abd",
    "article_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN1c2QzRJdFhyWkdOTHBSUzRLc3RXRktMMEMxOFpuaE5JVEpfblBYdWExdnpCQUJ4Y1R4MUIwNGxYeTJPQ2dSWm1VanVkME9GS0YwbkgtUXptSl9hYjBBNVBoaTBHOEdESkVmTjdCeXJ6WVBlcEJQMUZrdkdZRE1OYXZ1RUR5THd2NldXeEhZZFBnWnB1S1JnQ19CR3p5UURsQXc?oc=5",
    "has_text": false
@@ -3449,19 +3788,6 @@
    "has_text": true
   },
   {
-   "title": "A Ukrainian soldier lost his sight in war. Now he hopes to see his children again",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPM0lfRHBNRmlWY1RVMGtOemRtLVVpaDY5WjR2OHA1YjE2cjViUXItdnZaemdBVUh3cmtkLTBOS0JaZ3Y0Qm1HZGp1XzdtajNtdkxFeC12WlZYbXFGTEYzRXZnd0Z0eFFPTzN4WWxwWWZLOHBPRF8za0V1Q21taVRUd0doNzRMSjVqWldVTHNydG5nVzQzWXow?oc=5",
-   "summary": "A Ukrainian soldier lost his sight in war. Now he hopes to see his children again AP News",
-   "published": "2026-10-23T04:08:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "00e9e8abe031",
-   "article_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPM0lfRHBNRmlWY1RVMGtOemRtLVVpaDY5WjR2OHA1YjE2cjViUXItdnZaemdBVUh3cmtkLTBOS0JaZ3Y0Qm1HZGp1XzdtajNtdkxFeC12WlZYbXFGTEYzRXZnd0Z0eFFPTzN4WWxwWWZLOHBPRF8za0V1Q21taVRUd0doNzRMSjVqWldVTHNydG5nVzQzWXow?oc=5",
-   "has_text": false
-  },
-  {
    "title": "What to know about the weapons and tactics blamed for injuring French protesters",
    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNa0lTNHpUVUludlhoSDBsS2xCUzNjZDFyMTRiOS1NWVFlb1IyN3pzdkh5cWF3ZmwxSWl2dk1vS1hPTmpKOGVoOWxzdDRPZ0xjemYwVG1ESS1fbGNBVnozRTNKcW1Dc3hDbktRYkdaWjRXcURiN19CSlRqY1JGcjdlMkRkVjFwUGtsWnlWX21rRjZucWU5a19lV0NDeVBfbjlRZ0NRMWFuRQ?oc=5",
    "summary": "What to know about the weapons and tactics blamed for injuring French protesters AP News",
@@ -3469,7 +3795,7 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "top",
+   "section": "climate",
    "id": "badf78c4dd58",
    "article_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNa0lTNHpUVUludlhoSDBsS2xCUzNjZDFyMTRiOS1NWVFlb1IyN3pzdkh5cWF3ZmwxSWl2dk1vS1hPTmpKOGVoOWxzdDRPZ0xjemYwVG1ESS1fbGNBVnozRTNKcW1Dc3hDbktRYkdaWjRXcURiN19CSlRqY1JGcjdlMkRkVjFwUGtsWnlWX21rRjZucWU5a19lV0NDeVBfbjlRZ0NRMWFuRQ?oc=5",
    "has_text": false
@@ -3499,19 +3825,6 @@
    "has_text": false
   },
   {
-   "title": "Trump blasts 76ers star LeBron James as 'disgrace' for not standing still during national anthem",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNUgxR2FFOThLekhqb3BGZnVkRDJGVkxmcDNCN3VVM3M0YU1pYWhjMXJJc0FFZTFPc2thckdyenJGS2NuVkdOV0tSazM3blJTMFV0eXdOWWlWMjZGTUhBTUI3VFRHQ3ItSXRCWmlhY21GR1c4eXdScVExenAtU04teklRd05XbFRNbE9INVNKLUJ6dUxrYVR3?oc=5",
-   "summary": "Trump blasts 76ers star LeBron James as 'disgrace' for not standing still during national anthem AP News",
-   "published": "2026-10-23T03:12:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "9540632ee3e9",
-   "article_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNUgxR2FFOThLekhqb3BGZnVkRDJGVkxmcDNCN3VVM3M0YU1pYWhjMXJJc0FFZTFPc2thckdyenJGS2NuVkdOV0tSazM3blJTMFV0eXdOWWlWMjZGTUhBTUI3VFRHQ3ItSXRCWmlhY21GR1c4eXdScVExenAtU04teklRd05XbFRNbE9INVNKLUJ6dUxrYVR3?oc=5",
-   "has_text": false
-  },
-  {
    "title": "Takeaways from AP investigation into police shootings of alleged cow smugglers in India",
    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQOEJTX1FrUXVqa0NIV3FCcTNzTU5HSlk1RFJ5RFBtdkgwUHdrZklyMWs3bmZJZVBxUlJ3Ujc4Vjh0TWo2MG9aNDUwUHh1TnUweWowUUt3a3hZS19iZlJnMnZuc1ZWTC1PaklrTldWM3Y0ZU1OQVRTNC1idVB0MlV2Ujd2anY1cDFGSmd5WHNLTkYtNHhZblpzazM2enVwVmxRNkxlNDJRYzFrdHdlRExCYlFzOA?oc=5",
    "summary": "Takeaways from AP investigation into police shootings of alleged cow smugglers in India AP News",
@@ -3521,19 +3834,6 @@
    "counted": true,
    "section": "climate",
    "id": "8ec7011ce037"
-  },
-  {
-   "title": "In India, police shootings of alleged cow smugglers raise alarm about impunity and bias",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMXE2RkxOMmtnRkUyU2dwRldkVjRHc0s3ekVUbmlZRG5zX0hzS1pwdjVJSGlJaGtNTW1ZbmNVQklGRFdmZk1abnV0SVlqWDFmYlRfd2ZWeWhJWDFHSk9OZ09sTUJBNkpDRURvMlVhd0hSaldyRGMzYVRtRDlUNlVkX2hjalZuSGV4NWZyNWhLaDRYS0xKTEs3RzRpY0o5bVNmdG1TNEZR?oc=5",
-   "summary": "In India, police shootings of alleged cow smugglers raise alarm about impunity and bias AP News",
-   "published": "2026-10-23T03:01:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "c88cf4ef31bb",
-   "article_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMXE2RkxOMmtnRkUyU2dwRldkVjRHc0s3ekVUbmlZRG5zX0hzS1pwdjVJSGlJaGtNTW1ZbmNVQklGRFdmZk1abnV0SVlqWDFmYlRfd2ZWeWhJWDFHSk9OZ09sTUJBNkpDRURvMlVhd0hSaldyRGMzYVRtRDlUNlVkX2hjalZuSGV4NWZyNWhLaDRYS0xKTEs3RzRpY0o5bVNmdG1TNEZR?oc=5",
-   "has_text": false
   },
   {
    "title": "Trump announces he’ll use Defense Production Act to increase domestic gas production",
@@ -3556,7 +3856,7 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "top",
+   "section": "climate",
    "id": "285ba4ee82ca",
    "article_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQURhdzd6Z2ZZNlg1c1BaVmRNUlJJTUN4LWZCN29YeEFRWUl1eTJieGxRSHZIREJrTTlrUDduNjlZa1RhUl9yTUJtNnBsbjZ0MThuNkVEcnVuV2ljc1M3Y3MwakZTaGJoQTlMZ0YzZmZpajZDZjEyU1Q5d05JSF9EdlRPUTk0Vk9hTC1XWmVOMks2b0gxMXFmN19zY0U1al80eTBV?oc=5",
    "has_text": false
@@ -3569,7 +3869,7 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "top",
+   "section": "climate",
    "id": "744c8f5a395e",
    "article_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOa2NKV09fM19HaUhPdlNRZDJqc2dTYmdjMjRCWXpsaWJZTTJkdnNkV2VmM3NxeHFDTkQtNXozYkJGQ09VbUYxOUFlckQ4YmRsZ3NkazNMNGNqR2wwQVJ0Y3VfRkpRWFVpeEFEaGk5ZGJFUC05REFjd2ZCM2h2dnZpSUxubHZWRnFFd0FtSWY5c2puM2dOeldFTE95TG9SclBINVVjbDVPU3I?oc=5",
    "has_text": false
@@ -3595,35 +3895,9 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "top",
+   "section": "climate",
    "id": "50ab26ec3153",
    "article_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcWhtekhncDZSNm9mamtxRVJ3MVJKWXdXbWNsYnduWDdVQWpSQkFXWXZPY2RhWHZJUmNlbEVGUmk4cjA5b0ZkcmdEbk1OamVaRzRXblAxSHJfTDhaUjl3U3VFZ2x3SFROeWVHUmdBTGRuY1MtZmlsN29zMVdrS1ZwUW9MWlNHWUJSXzlJY1hEZ0RLLW5XVUhNSzNPWUZKMUpJdjV4bVV3?oc=5",
-   "has_text": false
-  },
-  {
-   "title": "Hall of Famer and Southern coach Marshall Faulk says he's been diagnosed with Parkinson's",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPc1ZBVl9uMWZNdHlYQXFDMlJJUE1SWjBHMXhhQlRka1FBbXhEVW4wanZWTVMwY1BXMWhpLVM4ZVJUV2dGQ3hUWVdOdndrd0N0ejQzUHBjRkJDYUk0dlVDU242Ti0wZ25RX0Q4dEpIMEQ1NEtlLVl5MTdtckJtcGxXcWpBVkJidERrOFlrUTlMUWNIR29xLXBpcFdXSHl1aTBoVnZETFdR?oc=5",
-   "summary": "Hall of Famer and Southern coach Marshall Faulk says he's been diagnosed with Parkinson's AP News",
-   "published": "2026-10-23T02:27:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "ae19021dfaf5",
-   "article_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPc1ZBVl9uMWZNdHlYQXFDMlJJUE1SWjBHMXhhQlRka1FBbXhEVW4wanZWTVMwY1BXMWhpLVM4ZVJUV2dGQ3hUWVdOdndrd0N0ejQzUHBjRkJDYUk0dlVDU242Ti0wZ25RX0Q4dEpIMEQ1NEtlLVl5MTdtckJtcGxXcWpBVkJidERrOFlrUTlMUWNIR29xLXBpcFdXSHl1aTBoVnZETFdR?oc=5",
-   "has_text": false
-  },
-  {
-   "title": "Ashley Hinson shows Republicans' midterm balancing act as Trump comes to boost Iowa turnout",
-   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaG5uUGpMN2p0bXJwZm5OdkN6MTUyOEhrb0VoTU9SS2dXQ2FyTXNONVV3QTg0T0Y5OEVQOG1QU3VxWjFzNzVkNExoZHF6WjVEV0RpakFueGxiWGNQYmk4amQ2VWNBXzdKdFRwZnJoLVd1OHE4LVlEc083OFdlUFYtRk1WSF95Q3NqdnNELVNYOE9fdlhldDlacjhXdlRma2Y0NGt1cA?oc=5",
-   "summary": "Ashley Hinson shows Republicans' midterm balancing act as Trump comes to boost Iowa turnout AP News",
-   "published": "2026-10-23T02:18:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "034be06ac1f8",
-   "article_url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPaG5uUGpMN2p0bXJwZm5OdkN6MTUyOEhrb0VoTU9SS2dXQ2FyTXNONVV3QTg0T0Y5OEVQOG1QU3VxWjFzNzVkNExoZHF6WjVEV0RpakFueGxiWGNQYmk4amQ2VWNBXzdKdFRwZnJoLVd1OHE4LVlEc083OFdlUFYtRk1WSF95Q3NqdnNELVNYOE9fdlhldDlacjhXdlRma2Y0NGt1cA?oc=5",
    "has_text": false
   },
   {
@@ -3634,7 +3908,7 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "top",
+   "section": "climate",
    "id": "c44e2ba3b103",
    "article_url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPd3djenRyV2xLaUc5U0MyM2JHZlcwbERmbHlhOWV2aEVBNkVYSllKZHVrN04xdjJGck5hS0lTZVNjakxfbzJFZ1N4TlVVOTNWU2FtYnhvWEl2Q0Vwbk9SbWM4RDZQWjN4WkFhaUdCNTU4MGZHU0xJRmhvZi1HWEFfOWJEWW51RWNqa1VmOFBhZXFRaWJzb0lFYWsyc2NBanlXRDNldkRZSXMtbUs1SEUzVWtNRXIzRU9wWDBhUGxfenFNMkctOUZEX1FhMTFzcUk?oc=5",
    "has_text": false
@@ -3647,7 +3921,7 @@
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
-   "section": "top",
+   "section": "climate",
    "id": "8d9347c3330c",
    "article_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRzUzLVdqTTBlY01SNmxEQTFJc2ZLR0w0dFVKbFh1U3RwQ21QZEhhalcyZnMweFRxb1I1Z2xKY0VoaEFVM2J4TEplX1lyQUVVdjVfbHNpV1BOMjBBc3BoMmdGaE03MHZPOHBrY252MmJRNUJ6bXJxMi1VNElKaDdJdU9tNEt1QVZa?oc=5",
    "has_text": false
@@ -3663,45 +3937,6 @@
    "section": "top",
    "id": "e5d98318d076",
    "article_url": "https://thehill.com/homenews/campaign/6167221-trump-supports-ramaswamy-controversial-advertisement/",
-   "has_text": false
-  },
-  {
-   "title": "Trump backs Ramaswamy on ad featuring Amy Acton’s estranged mother",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUHJha3luejFTWGJTeDZwUWtqN1F5WE90REVnTEhhSzhSZnkxUXJTMU5DMVRYX2hMajJjMU9BcU1aY05tUE1yVldGdXY4Mk5nTnRnWU5NUC1STmMwWnB2SDlpWjR6MEhkWk5ISlF4dmxuWkJJUXBrR1NuWjQ2eVptcm1HdXI0WWxrVlZ2blBRd1A5T3pKTFl6Ri1ndU9vVVgzS1Zrc0xycHk3cF9POVow?oc=5",
-   "summary": "Trump backs Ramaswamy on ad featuring Amy Acton’s estranged mother AP News",
-   "published": "2026-10-23T01:53:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "433082eac59b",
-   "article_url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUHJha3luejFTWGJTeDZwUWtqN1F5WE90REVnTEhhSzhSZnkxUXJTMU5DMVRYX2hMajJjMU9BcU1aY05tUE1yVldGdXY4Mk5nTnRnWU5NUC1STmMwWnB2SDlpWjR6MEhkWk5ISlF4dmxuWkJJUXBrR1NuWjQ2eVptcm1HdXI0WWxrVlZ2blBRd1A5T3pKTFl6Ri1ndU9vVVgzS1Zrc0xycHk3cF9POVow?oc=5",
-   "has_text": false
-  },
-  {
-   "title": "With lockout looming, the World Series could be Major League Baseball's last games for a while",
-   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBTTlBRb1pyRlh4M2R1UGlGT1hlLWVaSGRRNnBGanFzOUVNa2pkbzBJZDVBMnZMM05ockstZ3NkeE1BNGFxTm5SY0pwQkZ6b2tTcjFMdFJMVVY4Ylh4bmczMDlUN3lmMjdLTEo2M1NmYjdaRm1Vc3NTdHJTdw?oc=5",
-   "summary": "With lockout looming, the World Series could be Major League Baseball's last games for a while AP News",
-   "published": "2026-10-23T01:52:45+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "828cd5a0e09e",
-   "article_url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBTTlBRb1pyRlh4M2R1UGlGT1hlLWVaSGRRNnBGanFzOUVNa2pkbzBJZDVBMnZMM05ockstZ3NkeE1BNGFxTm5SY0pwQkZ6b2tTcjFMdFJMVVY4Ylh4bmczMDlUN3lmMjdLTEo2M1NmYjdaRm1Vc3NTdHJTdw?oc=5",
-   "has_text": false
-  },
-  {
-   "title": "Colorado, Utah communities flood as yet more moisture saturates US Southwest",
-   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZWZpZDAteTF0bmE2VzZlWDFwYVhFRTIwaW1MakxGZmtmbnY4ZVJqVlk0cURzZXllNGR0YkdBV19qVnppelo2ZEFxemt1NVg2SmdEcFJmdjByLWdMWnREeXFNdjEtYnNCbGhBWmQ0ZFpmNVZIWG5aV1A3a0F2T01KQ3NjcFd6WDVRbkNyd2tTT3BNUzM5MmZmUTBtWnU?oc=5",
-   "summary": "Colorado, Utah communities flood as yet more moisture saturates US Southwest AP News",
-   "published": "2026-10-23T01:52:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "top",
-   "id": "19e129a8b112",
-   "article_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZWZpZDAteTF0bmE2VzZlWDFwYVhFRTIwaW1MakxGZmtmbnY4ZVJqVlk0cURzZXllNGR0YkdBV19qVnppelo2ZEFxemt1NVg2SmdEcFJmdjByLWdMWnREeXFNdjEtYnNCbGhBWmQ0ZFpmNVZIWG5aV1A3a0F2T01KQ3NjcFd6WDVRbkNyd2tTT3BNUzM5MmZmUTBtWnU?oc=5",
    "has_text": false
   },
   {
@@ -3783,19 +4018,6 @@
    "has_text": false
   },
   {
-   "title": "First Ebola patients in Nigeria and Kenya might have crossed paths at Uganda airport",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNUtBRnZnWGNXZEU2U3hfWGN3aVZ6NTd6UnFWd2FfR3l4ZlAwVzY4S3VVV0Y1MGVXNjdyODBleEZwY2o2ODNsVnJ0b1c3MzkwRmltYUI0RXhtRXVhOFFFSzU3SndrQTloQXRJWFhGeXJQOEJoNWlCMGtEOXc0MGRCNXhNM0JsZDkzWWo4QmFZajNMekc1UmZV?oc=5",
-   "summary": "First Ebola patients in Nigeria and Kenya might have crossed paths at Uganda airport AP News",
-   "published": "2026-10-23T00:26:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "37c448e7e4ce",
-   "article_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNUtBRnZnWGNXZEU2U3hfWGN3aVZ6NTd6UnFWd2FfR3l4ZlAwVzY4S3VVV0Y1MGVXNjdyODBleEZwY2o2ODNsVnJ0b1c3MzkwRmltYUI0RXhtRXVhOFFFSzU3SndrQTloQXRJWFhGeXJQOEJoNWlCMGtEOXc0MGRCNXhNM0JsZDkzWWo4QmFZajNMekc1UmZV?oc=5",
-   "has_text": false
-  },
-  {
    "title": "Calley Means, a key MAHA advocate, resigns as a top RFK Jr. adviser",
    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMFQ2d1A4WE5xcGdreGIwUzlhN3VNcU9pNk5UcmFqdVlwcV9qeEw0WlBBbkZrUGxEMnFMVU9RQWZJUTZRTk9KXzJSWVZMRnpuWDdKclhBUWNnTVMyQlVDcUV1NE45MzJabW5EV1NVSkJUWWwzUTZrZWVkRnFJa0tqaEEzaExST2lGVEVFdXRIUHNIUQ?oc=5",
    "summary": "Calley Means, a key MAHA advocate, resigns as a top RFK Jr. adviser AP News",
@@ -3835,32 +4057,6 @@
    "has_text": false
   },
   {
-   "title": "West Virginia investigates climate, environmental groups over alleged ‘deceptive’ acts",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWVIxUFZFdnB5UmZ1WXduRHI2U1BoTlhIdVBxZlVzeUluQlU2a3ZkUnpybEZSakVOYVZWT0Q4WUpocm9PSTZHUjdqTktxcmd5Y2pwZ0JmRklncy05ZGwzV1FuSEl2c0JBNUZuREVfTzZXX2JSZlphT0NjOTVNSUhuaEROVDlKcDI3RXh1aVdHUkI4eDFSYWZFY0x3VlN3enJ4?oc=5",
-   "summary": "West Virginia investigates climate, environmental groups over alleged ‘deceptive’ acts AP News",
-   "published": "2026-10-23T00:05:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "dd2bc2ce2a5c",
-   "article_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWVIxUFZFdnB5UmZ1WXduRHI2U1BoTlhIdVBxZlVzeUluQlU2a3ZkUnpybEZSakVOYVZWT0Q4WUpocm9PSTZHUjdqTktxcmd5Y2pwZ0JmRklncy05ZGwzV1FuSEl2c0JBNUZuREVfTzZXX2JSZlphT0NjOTVNSUhuaEROVDlKcDI3RXh1aVdHUkI4eDFSYWZFY0x3VlN3enJ4?oc=5",
-   "has_text": false
-  },
-  {
-   "title": "Attack on actor Tiger Shroff is dark reminder of Bollywood's gangster past",
-   "link": "https://www.bbc.co.uk/news/articles/c6vgjk1lp7njo?at_medium=RSS&at_campaign=rss",
-   "summary": "The attack on Shroff has revived memories of the 1990s, when gangsters wielded influence over the industry.",
-   "published": "2026-10-22T23:55:39+00:00",
-   "source": "bbc",
-   "outlet": "BBC News",
-   "counted": true,
-   "section": "top",
-   "id": "954c381e8fac",
-   "article_url": "https://www.bbc.co.uk/news/articles/c6vgjk1lp7njo?at_medium=RSS&at_campaign=rss",
-   "has_text": true
-  },
-  {
    "title": "Canadian diplomats barred interacting with US midterm candidates: Reports",
    "link": "https://thehill.com/policy/international/6166951-canada-diplomats-barred-american-midterm-candidates/",
    "summary": "Canada has allegedly barred its diplomats from interacting with U.S. midterm candidates to avoid any allegations of election interference from the Trump administration, according to multiple reports. Written guidance issued earlier this week reportedly ordered Canadian officials based in the U.S. not to meet with candidates — or even be in the same room with…",
@@ -3871,6 +4067,19 @@
    "section": "top",
    "id": "c99b32065fee",
    "article_url": "https://thehill.com/policy/international/6166951-canada-diplomats-barred-american-midterm-candidates/",
+   "has_text": false
+  },
+  {
+   "title": "Plaintiffs in Trump arch project seek injunction to stop administration from beginning work Nov. 5",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWFA4U3l4am5RTlFocHl6Smc0MHI5eGtiNS1PYzdFLVpaQVJnVEgxQXBRYW9EMHFORDJEaEJwYXQ1MElFMi1LeGRlRlJpUFVRX3I4RlRpejVpcmg0bV80UUx6RDFZRmJqVlFXRld4ZHhLenI5OC1kdW14c29qdEdOTXZDMjJrbmVhZ04zWFh6ek1uQ2VZeW1sSW92RWI5NFdnbS0w?oc=5",
+   "summary": "Plaintiffs in Trump arch project seek injunction to stop administration from beginning work Nov. 5 AP News",
+   "published": "2026-10-22T23:37:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "52e783c1bad7",
+   "article_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOWFA4U3l4am5RTlFocHl6Smc0MHI5eGtiNS1PYzdFLVpaQVJnVEgxQXBRYW9EMHFORDJEaEJwYXQ1MElFMi1LeGRlRlJpUFVRX3I4RlRpejVpcmg0bV80UUx6RDFZRmJqVlFXRld4ZHhLenI5OC1kdW14c29qdEdOTXZDMjJrbmVhZ04zWFh6ek1uQ2VZeW1sSW92RWI5NFdnbS0w?oc=5",
    "has_text": false
   },
   {
@@ -3885,19 +4094,6 @@
    "id": "5b465f333256"
   },
   {
-   "title": "Surveillance and 'constant paranoia': Western diplomats tell BBC of life in war-time Moscow",
-   "link": "https://www.bbc.co.uk/news/articles/cj75p1xr7p7vo?at_medium=RSS&at_campaign=rss",
-   "summary": "Officials compare working in Russia since its full-scale invasion of Ukraine to the Cold War era.",
-   "published": "2026-10-22T23:16:20+00:00",
-   "source": "bbc",
-   "outlet": "BBC News",
-   "counted": true,
-   "section": "top",
-   "id": "34794b753085",
-   "article_url": "https://www.bbc.co.uk/news/articles/cj75p1xr7p7vo?at_medium=RSS&at_campaign=rss",
-   "has_text": true
-  },
-  {
    "title": "Fossil-Fueled Warming Drives Surge in European Heat Deaths",
    "link": "https://insideclimatenews.org/news/22102026/fossil-fueled-warming-drives-surge-in-european-heat-deaths/",
    "summary": "Heat-related deaths in Europe’s urban areas exceeded 50,000 in the summer of 2026, as repeated waves of record-breaking temperatures swept across the continent from late May through August. More than 32,000 of those deaths were attributable to human-caused global warming, driven primarily by the burning of fossil fuels, according to studies published in Nature Health. […]",
@@ -3909,6 +4105,19 @@
    "id": "d5cbc85d4001",
    "article_url": "https://insideclimatenews.org/news/22102026/fossil-fueled-warming-drives-surge-in-european-heat-deaths/",
    "has_text": true
+  },
+  {
+   "title": "California latest target in Department of Justice efforts to end public benefits fraud",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWUphZEJRTEZZcjJzNVdjYVlzY0NpWGg1bnE5dkw0Z1FVYTAwbVJmYXlmZFh6ckFCZDRkZkhHZFBENlNrdXBvT2JlbjVJVUptUmpFNC04WU1pRUdITjNYTE55bkxWbWp0enpVOHJnRDBzNVN4SVZjekd1UUJ3TWlIOHBrZzlmNldCVkg2LV9oNjY0ZDdHQmxHRTl4VWlkWXVGZDVFVjFwbDBFYlZhWGJKeXE2ZHRBVUUyTGdyYlFzVlpBVms?oc=5",
+   "summary": "California latest target in Department of Justice efforts to end public benefits fraud AP News",
+   "published": "2026-10-22T23:00:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "1345bf4bf038",
+   "article_url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWUphZEJRTEZZcjJzNVdjYVlzY0NpWGg1bnE5dkw0Z1FVYTAwbVJmYXlmZFh6ckFCZDRkZkhHZFBENlNrdXBvT2JlbjVJVUptUmpFNC04WU1pRUdITjNYTE55bkxWbWp0enpVOHJnRDBzNVN4SVZjekd1UUJ3TWlIOHBrZzlmNldCVkg2LV9oNjY0ZDdHQmxHRTl4VWlkWXVGZDVFVjFwbDBFYlZhWGJKeXE2ZHRBVUUyTGdyYlFzVlpBVms?oc=5",
+   "has_text": false
   },
   {
    "title": "Scoop: Some Freedom Caucus members want Brandon Gill out",
@@ -4025,6 +4234,19 @@
    "section": "top",
    "id": "ade40640d866",
    "article_url": "https://thehill.com/newsletters/defense-national-security/6166946-senators-urge-hegseth-rubio-to-release-funding-for-baltic-security-initiative/",
+   "has_text": false
+  },
+  {
+   "title": "A novel mRNA cancer vaccine helps reduce the chances of melanoma patients' tumors returning",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNa21rSEs4bmdSczAyejNYbnhOLUtnWjVRNTFHNHVqMGZOVTdhUDNRcDlzT2M2cWFpYkZtc3BpRXdCdDFKZEtwZ2llUFFaTktoZXJPanVDbGxWaVhjb0stT3IwUDNwSFJRd2w1UDhteHB5SWtnZHBWQUtKYmdGNE0yeTNpZ3NzUENMZTZPNVpfVHBNcngzQ3VPYmxvb2gtR1ZGZzI5OERsclVYLUU?oc=5",
+   "summary": "A novel mRNA cancer vaccine helps reduce the chances of melanoma patients' tumors returning AP News",
+   "published": "2026-10-22T22:23:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "3e827b251186",
+   "article_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNa21rSEs4bmdSczAyejNYbnhOLUtnWjVRNTFHNHVqMGZOVTdhUDNRcDlzT2M2cWFpYkZtc3BpRXdCdDFKZEtwZ2llUFFaTktoZXJPanVDbGxWaVhjb0stT3IwUDNwSFJRd2w1UDhteHB5SWtnZHBWQUtKYmdGNE0yeTNpZ3NzUENMZTZPNVpfVHBNcngzQ3VPYmxvb2gtR1ZGZzI5OERsclVYLUU?oc=5",
    "has_text": false
   },
   {
@@ -4171,19 +4393,6 @@
    "has_text": false
   },
   {
-   "title": "Josephine brings coastal flooding and strong winds to the Eastern Seaboard",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUU5yWkM5SHRqVXNHdGdyTnVGRFlOaFlOZWdLT1MtSHZ4OEtjdWVLZHI5MFVMeFJ3SVluUjZ4S05JWDF6akdwaHhCZVpfNGNab2Q0WG5RR2NPaGJSa1h0WERISno1LWRYY0NOUy1GMEpWem1CbDFtR0JaSVFjZFFBOVRDeWpIUGhWbmJfbVU4cWlBQTA2dnNN?oc=5",
-   "summary": "Josephine brings coastal flooding and strong winds to the Eastern Seaboard AP News",
-   "published": "2026-10-22T21:41:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "379356d67dba",
-   "article_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUU5yWkM5SHRqVXNHdGdyTnVGRFlOaFlOZWdLT1MtSHZ4OEtjdWVLZHI5MFVMeFJ3SVluUjZ4S05JWDF6akdwaHhCZVpfNGNab2Q0WG5RR2NPaGJSa1h0WERISno1LWRYY0NOUy1GMEpWem1CbDFtR0JaSVFjZFFBOVRDeWpIUGhWbmJfbVU4cWlBQTA2dnNN?oc=5",
-   "has_text": false
-  },
-  {
    "title": "NASA Invites Media to 2026 von Braun Space Exploration Symposium",
    "link": "https://www.nasa.gov/news-release/nasa-invites-media-to-2026-von-braun-space-exploration-symposium/",
    "summary": "Members of the media are invited to join NASA at the 2026 von Braun Space Exploration Symposium from Monday, Oct. 26, to Wednesday, Oct. 28, at the University of Alabama in Huntsville. This year’s symposium is focused on humanity’s return to the Moon, sustainable lunar infrastructure, advanced space propulsion, and the evolving space workforce. Panels […]",
@@ -4245,6 +4454,19 @@
    "id": "9950e97a3e1c",
    "article_url": "https://www.bbc.co.uk/news/articles/c30rlpkglkwpo?at_medium=RSS&at_campaign=rss",
    "has_text": true
+  },
+  {
+   "title": "Judge orders Trump to sit for a deposition in his defamation lawsuit against the BBC by Dec. 11",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTE5OWjZqUUw1RlBFbXM0Z1N2R1dqNVo0YkF1U3diZFhJeHZxdWZuZHJNTlZNQzBVY0ZHdkVoWW5nUGVxdTJGYmxncUlYbnM0YU9UR0ZtSllZM1otYTNWS2cyM0lDTlA2U3hYYVNpTVU0MmFIendPOVBJaW4tcDRnTElVeEdmdHppaTRPNHZfTQ?oc=5",
+   "summary": "Judge orders Trump to sit for a deposition in his defamation lawsuit against the BBC by Dec. 11 AP News",
+   "published": "2026-10-22T21:20:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "03639bd61bfc",
+   "article_url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTE5OWjZqUUw1RlBFbXM0Z1N2R1dqNVo0YkF1U3diZFhJeHZxdWZuZHJNTlZNQzBVY0ZHdkVoWW5nUGVxdTJGYmxncUlYbnM0YU9UR0ZtSllZM1otYTNWS2cyM0lDTlA2U3hYYVNpTVU0MmFIendPOVBJaW4tcDRnTElVeEdmdHppaTRPNHZfTQ?oc=5",
+   "has_text": false
   },
   {
    "title": "Collins calls for ad calling Jackson a ‘creep’ to be pulled",
@@ -4377,17 +4599,6 @@
    "has_text": false
   },
   {
-   "title": "The top photos of the week by AP photojournalists",
-   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQ1l1ZUljNHN6OWItWlo2X04xMDRYOHpzWUNaRWdOaDYyQlZjRG5RUEFTVTFlTUhVbWxtV25mTmp4NHlmQ1pUaUVUMXpOYV9jVjhHdThheEhvXzZzaWZxanZKWXBQQmpOSzdFRF9lemRwdmZ0eWhDRWdTSXMxNkN4WXRyM2k0M1hTVWdBZVpXVGZRN19nejZ2Wm5UYnRJMGo0TjlZ?oc=5",
-   "summary": "The top photos of the week by AP photojournalists AP News",
-   "published": "2026-10-22T20:46:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "1bed550558cd"
-  },
-  {
    "title": "Prominent Virginia senator charged over allegations she ran criminal cannabis scheme",
    "link": "https://www.bbc.co.uk/news/articles/cm20rer9dl8wo?at_medium=RSS&at_campaign=rss",
    "summary": "Democratic Senator L Louise Lucas and six other people, including her family members, are accused of illegally distributing the drug.",
@@ -4401,32 +4612,6 @@
    "has_text": true
   },
   {
-   "title": "How major US stock indexes fared Thursday 10/22/2026",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOd3kxOWhMbGlRX2gxSkxPOEJpSGhSUnQyUmlSUVdURzhyVlNLR3RyUE5uYmFGY3JGQU53ZlM2bjdNZW9JX3VaN3hNcWotOUx1N0dTT2JOYjY5dklEb3FVd0RESXJzemNpdWNRUk5Cclp4YU5xVTZYbFJqSG9rb2Joak80WTNRM1FoWXpQZGpTeGpKT1E?oc=5",
-   "summary": "How major US stock indexes fared Thursday 10/22/2026 AP News",
-   "published": "2026-10-22T20:31:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "fff83d6a45c1",
-   "article_url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOd3kxOWhMbGlRX2gxSkxPOEJpSGhSUnQyUmlSUVdURzhyVlNLR3RyUE5uYmFGY3JGQU53ZlM2bjdNZW9JX3VaN3hNcWotOUx1N0dTT2JOYjY5dklEb3FVd0RESXJzemNpdWNRUk5Cclp4YU5xVTZYbFJqSG9rb2Joak80WTNRM1FoWXpQZGpTeGpKT1E?oc=5",
-   "has_text": false
-  },
-  {
-   "title": "Trump World ups attacks on Politico despite correction on Wiles story",
-   "link": "https://thehill.com/homenews/media/6166450-trump-allies-criticize-politico-correction/",
-   "summary": "Trump administration officials and allies reupped criticism of Politico this week after the news outlet issued a correction on a story about White House chief of staff Susie Wiles. Politico updated their reporting Wednesday to note that the piece incorrectly stated Wiles played a direct role in setting up ousted press secretary Katie Zacharia’s viral…",
-   "published": "2026-10-22T20:12:32+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "b5e11cd839b0",
-   "article_url": "https://thehill.com/homenews/media/6166450-trump-allies-criticize-politico-correction/",
-   "has_text": false
-  },
-  {
    "title": "SpaceX $40 billion debt deal gets pricey as AI fears spread",
    "link": "https://www.semafor.com/article/10/22/2026/spacex-40b-debt-deal-will-cost-it-as-ai-fears-spread",
    "summary": "Musk is trying to raise money to fund a massive expansion in chips, data centers.",
@@ -4438,32 +4623,6 @@
    "id": "d89108392572",
    "article_url": "https://www.semafor.com/article/10/22/2026/spacex-40b-debt-deal-will-cost-it-as-ai-fears-spread",
    "has_text": true
-  },
-  {
-   "title": "Acton fundraising surges following controversial ad",
-   "link": "https://thehill.com/homenews/campaign/6166387-ohio-acton-democrats-donations-ramaswamy-ad/",
-   "summary": "Ohio gubernatorial candidate Amy Acton (D) has seen a surge in donations after she was the target of a controversial attack ad from her Republican opponent, Vivek Ramaswamy. Acton surged into second place on Democratic political fundraising site ActBlue’s “trending campaigns,” only behind James Talarico, the Texas Democrat running for Senate. Ramaswamy’s ad sparked bipartisan…",
-   "published": "2026-10-22T20:02:48+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "25d263fe177d",
-   "article_url": "https://thehill.com/homenews/campaign/6166387-ohio-acton-democrats-donations-ramaswamy-ad/",
-   "has_text": false
-  },
-  {
-   "title": "Carville says he still believes Trump will quit by Easter",
-   "link": "https://thehill.com/homenews/campaign/6166328-carville-trump-easter-2026-midterms/",
-   "summary": "Democratic strategist James Carville doubled down Wednesday on his prediction that President Trump will leave office by Easter next year. Fox News’s Laura Ingraham asked Carville during an interview on “The Ingraham Angle” if he stuck by the prediction he made earlier this year and why. Carville said he does, adding that Trump’s “not particularly…",
-   "published": "2026-10-22T20:02:16+00:00",
-   "source": "thehill",
-   "outlet": "The Hill",
-   "counted": true,
-   "section": "top",
-   "id": "8f00c2367387",
-   "article_url": "https://thehill.com/homenews/campaign/6166328-carville-trump-easter-2026-midterms/",
-   "has_text": false
   },
   {
    "title": "White House expects press briefing ‘soon’ as hiring search continues",
@@ -4502,6 +4661,32 @@
    "section": "climate",
    "id": "661844a95390",
    "article_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNR2Q0UlFzSVd1bFpQTmxmM2pMSXJ2cnhKQTBudFlyT0RiRW5ISTZld1BXU0J6MzJHSFhpUkpMalY5YU95V3BjeHJKb0dMbU5KNU5iNzJDc0tlenpaa3lQNnYzcVVmWjBOaDk1YzBTT2NYb1hrSW9HNXZfWDQ4WUEwMXYyd0ROSkNad1k4dFp3Vm0?oc=5",
+   "has_text": false
+  },
+  {
+   "title": "First Ebola patients in Nigeria and Kenya might have crossed paths at Uganda airport",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNUtBRnZnWGNXZEU2U3hfWGN3aVZ6NTd6UnFWd2FfR3l4ZlAwVzY4S3VVV0Y1MGVXNjdyODBleEZwY2o2ODNsVnJ0b1c3MzkwRmltYUI0RXhtRXVhOFFFSzU3SndrQTloQXRJWFhGeXJQOEJoNWlCMGtEOXc0MGRCNXhNM0JsZDkzWWo4QmFZajNMekc1UmZV?oc=5",
+   "summary": "First Ebola patients in Nigeria and Kenya might have crossed paths at Uganda airport AP News",
+   "published": "2026-10-22T19:55:08+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "37c448e7e4ce",
+   "article_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNUtBRnZnWGNXZEU2U3hfWGN3aVZ6NTd6UnFWd2FfR3l4ZlAwVzY4S3VVV0Y1MGVXNjdyODBleEZwY2o2ODNsVnJ0b1c3MzkwRmltYUI0RXhtRXVhOFFFSzU3SndrQTloQXRJWFhGeXJQOEJoNWlCMGtEOXc0MGRCNXhNM0JsZDkzWWo4QmFZajNMekc1UmZV?oc=5",
+   "has_text": false
+  },
+  {
+   "title": "Russian missiles pound Kyiv as Moscow says over 800 Ukrainian drones downed",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeldMenNBb3pveGlrZmlGLXZkaWNZaEhBUHMwSWh4dm5ZQW1IRWxEVGRxbFVDeUdwTnh2WW1jSXJ3T2U1cmh4cTR5bC1DSXdOSzJZb3hFaGNBNlAtclluMU4zMVBEVWpua1A2S2dBbXdjeWo1SFNUWGNvZ1dRRXhKSk4xTjlYUXFXNVM4NFctSmdxVHRqcjZrOWF4allidw?oc=5",
+   "summary": "Russian missiles pound Kyiv as Moscow says over 800 Ukrainian drones downed AP News",
+   "published": "2026-10-22T19:48:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "da5173e46138",
+   "article_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeldMenNBb3pveGlrZmlGLXZkaWNZaEhBUHMwSWh4dm5ZQW1IRWxEVGRxbFVDeUdwTnh2WW1jSXJ3T2U1cmh4cTR5bC1DSXdOSzJZb3hFaGNBNlAtclluMU4zMVBEVWpua1A2S2dBbXdjeWo1SFNUWGNvZ1dRRXhKSk4xTjlYUXFXNVM4NFctSmdxVHRqcjZrOWF4allidw?oc=5",
    "has_text": false
   },
   {
@@ -4557,19 +4742,6 @@
    "has_text": true
   },
   {
-   "title": "2 killed in fire that destroyed Mississippi senior living center",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTlBGb1hNeDZkYm1CcjFjcloyQ3lNVjZhQWVLb2tSNTRUSXd1VDMweHl1RnYtdy1aSHNiekJZaFQtd2RETllQVWU1MmNvWGlWYTlEUVJNY2dJbXlsdzhsNmt5SGl2UERSdmlnVy04RlhtUUU2S01CTGgwWWlQc2VrbWlxUkRkempWaWp2TWRJcFVTeGNIcXJET2d5RV90dw?oc=5",
-   "summary": "2 killed in fire that destroyed Mississippi senior living center AP News",
-   "published": "2026-10-22T18:59:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "c94c87790aa5",
-   "article_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTlBGb1hNeDZkYm1CcjFjcloyQ3lNVjZhQWVLb2tSNTRUSXd1VDMweHl1RnYtdy1aSHNiekJZaFQtd2RETllQVWU1MmNvWGlWYTlEUVJNY2dJbXlsdzhsNmt5SGl2UERSdmlnVy04RlhtUUU2S01CTGgwWWlQc2VrbWlxUkRkempWaWp2TWRJcFVTeGNIcXJET2d5RV90dw?oc=5",
-   "has_text": false
-  },
-  {
    "title": "Republican group places seven-figure ad buy in Mississippi",
    "link": "https://www.semafor.com/article/10/22/2026/republican-group-places-seven-figure-ad-buy-in-mississippi",
    "summary": "Senate Leadership Fund’s plans are the latest sign that Republicans are worrying about the typically red state.",
@@ -4596,19 +4768,6 @@
    "has_text": true
   },
   {
-   "title": "Gunfire and chaotic scenes in Kenyan border town as hundreds flee Ethiopia",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUGtVNjk0aGNfWFR0dFpqc3l2OEdVVDNYNDlVc0hnWS1vX21NanI3RG9STlVXSnJIV01xSGZOc2tKWHdfcl8za3NEOTN4cWlMa1NPRjJjeEdoTW0xckxKNHZ4NWJObGlGOHNJRFZ1a1JPUlVDMWk2Nm1mTTNnWVR5UGFQYjQ4cGQ5cHg5M1FTMkFFM0NlVUpodTdjck1EUQ?oc=5",
-   "summary": "Gunfire and chaotic scenes in Kenyan border town as hundreds flee Ethiopia AP News",
-   "published": "2026-10-22T18:47:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "cc5235a7e900",
-   "article_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUGtVNjk0aGNfWFR0dFpqc3l2OEdVVDNYNDlVc0hnWS1vX21NanI3RG9STlVXSnJIV01xSGZOc2tKWHdfcl8za3NEOTN4cWlMa1NPRjJjeEdoTW0xckxKNHZ4NWJObGlGOHNJRFZ1a1JPUlVDMWk2Nm1mTTNnWVR5UGFQYjQ4cGQ5cHg5M1FTMkFFM0NlVUpodTdjck1EUQ?oc=5",
-   "has_text": false
-  },
-  {
    "title": "Washington resident charged with conspiracy in Canada school shooting pleads not guilty",
    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSE1EZjVHdFJNMGtrSmxUS0tlSGJGUGsyNkExbjFudHloZUZkRUNKYlF2YzJoMXVfNC15TUdzN2VxeVR1eWVxNFZDb0RPTXFaMjhhdDNRZWFuR3BFdUtRUG94N004YnJkVGx0Y3BYU2RfUHlxMTQyN0F1aWNZMTZPWnVHNDcyZ05PTkZ2Q0pHRW1veWJQYlAtYkl2NTM?oc=5",
    "summary": "Washington resident charged with conspiracy in Canada school shooting pleads not guilty AP News",
@@ -4632,19 +4791,6 @@
    "section": "climate",
    "id": "2fbee2debac6",
    "article_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQamo1WlhRUTl4eGFicHo0cllPQ0s2Q051UDNTb1o1UGI1bUVsT1RIVGxIdXF4YmNGSWlxelpxQkE1NjVVTkhXTU5mRTNRRVVqQ2tBc2pRUktmcU4xRFFLQWdEby03NDBpR0VvWEhPWThhNGE0cVhCdFMxUlp5RVF2Njl1VUZYN0kxQ2tiOVhPQTZ5eUFDLWp0ak1BZDNqTUZfVFE?oc=5",
-   "has_text": false
-  },
-  {
-   "title": "March Madness is bigger for 2027. It's unclear exactly how that will look in terms of who gets bids",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQT2Y1V0ljc3JINzI2WkNHY3I4U3lhVDlDT0V1U2xxQ2FDQ2EtMDhfUGY0aW9OeWs1RkY0ZWR5QkY1Z1prRWRqUkN4NVlQdVNRMjlNcm9RNXZ2TmFONjd2TVk2aS1NSnVzWVU0bFlKOC1nNlBHRlBIZWZUbkVYcnFsN3JfYzFyQ1hEZjJwUnZR?oc=5",
-   "summary": "March Madness is bigger for 2027. It's unclear exactly how that will look in terms of who gets bids AP News",
-   "published": "2026-10-22T18:18:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "f14b487b3118",
-   "article_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQT2Y1V0ljc3JINzI2WkNHY3I4U3lhVDlDT0V1U2xxQ2FDQ2EtMDhfUGY0aW9OeWs1RkY0ZWR5QkY1Z1prRWRqUkN4NVlQdVNRMjlNcm9RNXZ2TmFONjd2TVk2aS1NSnVzWVU0bFlKOC1nNlBHRlBIZWZUbkVYcnFsN3JfYzFyQ1hEZjJwUnZR?oc=5",
    "has_text": false
   },
   {
@@ -4722,16 +4868,29 @@
    "id": "45b22a562e1b"
   },
   {
-   "title": "Inflation at the movies: Runtimes are longer, from ‘The Odyssey’ to ‘You Can See Everything’",
-   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQN0NQUHFNdkI2OHRsSktYTFNOZGpGVDRLMk96MkpjMkZrVnlXYURSUG44UG9xc3pCR3VqbzVPOGVWU05GSUh3YVZ3RG5qZnA4Qkh0MmtHNXUycGQ1RFF6WFl2YlFhajdJU0s5RUc4WWdLd18wQmNHZk1LckwwNWcwU1Z2aUl1V0NCVXc?oc=5",
-   "summary": "Inflation at the movies: Runtimes are longer, from ‘The Odyssey’ to ‘You Can See Everything’ AP News",
-   "published": "2026-10-22T17:13:00+00:00",
+   "title": "West Virginia investigates climate, environmental groups over alleged ‘deceptive’ acts",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWVIxUFZFdnB5UmZ1WXduRHI2U1BoTlhIdVBxZlVzeUluQlU2a3ZkUnpybEZSakVOYVZWT0Q4WUpocm9PSTZHUjdqTktxcmd5Y2pwZ0JmRklncy05ZGwzV1FuSEl2c0JBNUZuREVfTzZXX2JSZlphT0NjOTVNSUhuaEROVDlKcDI3RXh1aVdHUkI4eDFSYWZFY0x3VlN3enJ4?oc=5",
+   "summary": "West Virginia investigates climate, environmental groups over alleged ‘deceptive’ acts AP News",
+   "published": "2026-10-22T17:25:56+00:00",
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
    "section": "climate",
-   "id": "70fe53a7191d",
-   "article_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQN0NQUHFNdkI2OHRsSktYTFNOZGpGVDRLMk96MkpjMkZrVnlXYURSUG44UG9xc3pCR3VqbzVPOGVWU05GSUh3YVZ3RG5qZnA4Qkh0MmtHNXUycGQ1RFF6WFl2YlFhajdJU0s5RUc4WWdLd18wQmNHZk1LckwwNWcwU1Z2aUl1V0NCVXc?oc=5",
+   "id": "dd2bc2ce2a5c",
+   "article_url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWVIxUFZFdnB5UmZ1WXduRHI2U1BoTlhIdVBxZlVzeUluQlU2a3ZkUnpybEZSakVOYVZWT0Q4WUpocm9PSTZHUjdqTktxcmd5Y2pwZ0JmRklncy05ZGwzV1FuSEl2c0JBNUZuREVfTzZXX2JSZlphT0NjOTVNSUhuaEROVDlKcDI3RXh1aVdHUkI4eDFSYWZFY0x3VlN3enJ4?oc=5",
+   "has_text": false
+  },
+  {
+   "title": "Rush is on to patch a software vulnerability that could impact 70% of websites worldwide",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQXNid0stVGgtZWpqaVMyd01mNVgzZndaWHhnUTlFT3FKQW1PZ0daVDBfMWxSbThxUzdCSnFNT2U3YWFnMjZvMDVnVFVyUW1DZENvWnFZZU5jRFNCUnlsRE4zU25FZzNpUEUxcDhUYUs3Um1ZZW5tUEc1Z2FwdUF1d2lqVXZ1Z0JyVVkxR1FrZVJ4QTZVX3J4cGZRN2ZiUQ?oc=5",
+   "summary": "Rush is on to patch a software vulnerability that could impact 70% of websites worldwide AP News",
+   "published": "2026-10-22T17:25:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "406295ca3bd7",
+   "article_url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQXNid0stVGgtZWpqaVMyd01mNVgzZndaWHhnUTlFT3FKQW1PZ0daVDBfMWxSbThxUzdCSnFNT2U3YWFnMjZvMDVnVFVyUW1DZENvWnFZZU5jRFNCUnlsRE4zU25FZzNpUEUxcDhUYUs3Um1ZZW5tUEc1Z2FwdUF1d2lqVXZ1Z0JyVVkxR1FrZVJ4QTZVX3J4cGZRN2ZiUQ?oc=5",
    "has_text": false
   },
   {
@@ -4745,6 +4904,32 @@
    "section": "climate",
    "id": "8fa867e3618d",
    "article_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYW93dzdYRlFUeEhOUHBwWlhObXNER0RNN2NBckh0ZHBTY2VnRTk4XzRPZE4wRG0tOUExY0hHcFpyWkduWWUyR0ZRdjRJaFhWUlFjWGgtZW5UdEhtUTM4M2IweTlna0duR1BlVXcxRDkzNUczUk9kQVNBa0xwM21GNXE5Uzc0NS03QzliN1JJbXdzTk9oUDVvWjZ2RnpnaWU1NWV3?oc=5",
+   "has_text": false
+  },
+  {
+   "title": "Inflation at the movies: Runtimes are longer, from ‘The Odyssey’ to ‘You Can See Everything’",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQN0NQUHFNdkI2OHRsSktYTFNOZGpGVDRLMk96MkpjMkZrVnlXYURSUG44UG9xc3pCR3VqbzVPOGVWU05GSUh3YVZ3RG5qZnA4Qkh0MmtHNXUycGQ1RFF6WFl2YlFhajdJU0s5RUc4WWdLd18wQmNHZk1LckwwNWcwU1Z2aUl1V0NCVXc?oc=5",
+   "summary": "Inflation at the movies: Runtimes are longer, from ‘The Odyssey’ to ‘You Can See Everything’ AP News",
+   "published": "2026-10-22T17:13:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "70fe53a7191d",
+   "article_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQN0NQUHFNdkI2OHRsSktYTFNOZGpGVDRLMk96MkpjMkZrVnlXYURSUG44UG9xc3pCR3VqbzVPOGVWU05GSUh3YVZ3RG5qZnA4Qkh0MmtHNXUycGQ1RFF6WFl2YlFhajdJU0s5RUc4WWdLd18wQmNHZk1LckwwNWcwU1Z2aUl1V0NCVXc?oc=5",
+   "has_text": false
+  },
+  {
+   "title": "What to know about the AI-detected security bug impacting wide swaths of the internet",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbnlDSmd3bHZPMnVRaW9oTjhWWTJyalNBR2NNWEVjLVJOaE5WYWdsckk3UVdwRXlNbHJDVzNwSzFCRUF4MVpRalR2b3ktdGF3VUdwcGQ5aVcxSXk2ajRnQ1JTeWE3eUFOaVJLWklxa1o4QWJOQXhYYlFNZjhRLTFNdXhERHdycjBtcllZamYxb18waWtWTmxDMVYxSQ?oc=5",
+   "summary": "What to know about the AI-detected security bug impacting wide swaths of the internet AP News",
+   "published": "2026-10-22T17:10:57+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "5b6f76b7ef4f",
+   "article_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbnlDSmd3bHZPMnVRaW9oTjhWWTJyalNBR2NNWEVjLVJOaE5WYWdsckk3UVdwRXlNbHJDVzNwSzFCRUF4MVpRalR2b3ktdGF3VUdwcGQ5aVcxSXk2ajRnQ1JTeWE3eUFOaVJLWklxa1o4QWJOQXhYYlFNZjhRLTFNdXhERHdycjBtcllZamYxb18waWtWTmxDMVYxSQ?oc=5",
    "has_text": false
   },
   {
@@ -4785,17 +4970,6 @@
    "has_text": true
   },
   {
-   "title": "NASA’s Hubble Charts Path for Roman with Gravitational Lenses",
-   "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-charts-path-for-roman-with-gravitational-lenses/",
-   "summary": "This observation is one of many gravitational lensing images taken by Hubble in preparation for science with the new Nancy Grace Roman Space Telescope.",
-   "published": "2026-10-22T16:20:37+00:00",
-   "source": "nasa",
-   "outlet": "NASA",
-   "counted": false,
-   "section": "top",
-   "id": "5da2eff51c09"
-  },
-  {
    "title": "Stick it to them: Before social media, bumper stickers were the Twitter of the roads",
    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPaUxEYWVHTkR2ZS1UbXdXdnQ0S3FBbGMwSGxfVm1zMnBjTlFzSFMzN1E4cTFIVGM5MTh3TmtvdU82enNJdUk5SzNwMDE5bUxBdmNuRm5BcnlJNjdlZ1YySWwtQWpWdzRxV3RwdUdKSy1HR0tWQkZKZVFkaDNRZUo4emdFNnd1b0p1Q1hBcTB3SGRxVlk?oc=5",
    "summary": "Stick it to them: Before social media, bumper stickers were the Twitter of the roads AP News",
@@ -4818,45 +4992,6 @@
    "id": "f933891c89f2",
    "article_url": "https://www.axios.com/2026/10/22/us-canada-election-interference-tariffs-embassy",
    "has_text": true
-  },
-  {
-   "title": "Deportations climb under Trump but fall short of White House target, a new report finds",
-   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSEVoaXdRUEtDWnZ2SllUUTZoZy1MNHdEQzBNUFhudjhpelE1QTkzeno5QTdkU29Vc3V6SmdSQUNzSEtYU2RqWTVCc2hVYmtZWlVWYTd1dDd1OVdTck1wTHRndGpOQmY2dUNvUndPdXRlbHFlVHYxTnBaQmtzeDBHWll3bFJESkVKUm1iM2t4a3pBUktOLW5DZEhOSEZwLVV1TkpnNnln?oc=5",
-   "summary": "Deportations climb under Trump but fall short of White House target, a new report finds AP News",
-   "published": "2026-10-22T15:43:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "d1b98fa31aa1",
-   "article_url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSEVoaXdRUEtDWnZ2SllUUTZoZy1MNHdEQzBNUFhudjhpelE1QTkzeno5QTdkU29Vc3V6SmdSQUNzSEtYU2RqWTVCc2hVYmtZWlVWYTd1dDd1OVdTck1wTHRndGpOQmY2dUNvUndPdXRlbHFlVHYxTnBaQmtzeDBHWll3bFJESkVKUm1iM2t4a3pBUktOLW5DZEhOSEZwLVV1TkpnNnln?oc=5",
-   "has_text": false
-  },
-  {
-   "title": "European Union awards top rights prize to International Criminal Court days after Trump sanctions",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeUlQcXVrZnNtRVFtb0d0VldXeG1ya1htcVJyMXVjVklUYTZIZ0p6NXRORTdhY3dtLVRJbDdkSXN3Zm1NUnNTbkFrRVlnWng4VUJ6NVFselBpS0ZrNkhJdTlONVVnbVhYQnhrQ0thRW9oYmk3S1lEQmJaLTJadmhOdV9fSmwzN2diNVU0M0NwWFRITUxuTGlmQjhMdlNFOVZVbks4Wk9jZ2Z6Q1hE?oc=5",
-   "summary": "European Union awards top rights prize to International Criminal Court days after Trump sanctions AP News",
-   "published": "2026-10-22T15:43:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "a000028c29c2",
-   "article_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeUlQcXVrZnNtRVFtb0d0VldXeG1ya1htcVJyMXVjVklUYTZIZ0p6NXRORTdhY3dtLVRJbDdkSXN3Zm1NUnNTbkFrRVlnWng4VUJ6NVFselBpS0ZrNkhJdTlONVVnbVhYQnhrQ0thRW9oYmk3S1lEQmJaLTJadmhOdV9fSmwzN2diNVU0M0NwWFRITUxuTGlmQjhMdlNFOVZVbks4Wk9jZ2Z6Q1hE?oc=5",
-   "has_text": false
-  },
-  {
-   "title": "JJ Watt signs a multi-year deal to stay as CBS’ lead NFL analyst",
-   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNV1c5M0pnYXZXcnljN2FVUGFlRXJ2NjBjVHZReDFPRHRPTFhyZmhmNllhYXdFdzlMTjcwZlg4cUtUUHA0MFZ0cVVxQU9zRlBzTFFOVFQyTEN4dFRUaU01R3NoOVd1M1lla2EwYWQxcEZ0YVFRRElBb3IyeHJBcXRZcUpQdGFrM3FtWk9PdFpB?oc=5",
-   "summary": "JJ Watt signs a multi-year deal to stay as CBS’ lead NFL analyst AP News",
-   "published": "2026-10-22T15:26:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "6697babc40ee",
-   "article_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNV1c5M0pnYXZXcnljN2FVUGFlRXJ2NjBjVHZReDFPRHRPTFhyZmhmNllhYXdFdzlMTjcwZlg4cUtUUHA0MFZ0cVVxQU9zRlBzTFFOVFQyTEN4dFRUaU01R3NoOVd1M1lla2EwYWQxcEZ0YVFRRElBb3IyeHJBcXRZcUpQdGFrM3FtWk9PdFpB?oc=5",
-   "has_text": false
   },
   {
    "title": "Was van Gogh’s ‘The Starry Night’ a flight of fancy or a real sky?",
@@ -4898,6 +5033,30 @@
    "has_text": true
   },
   {
+   "title": "Quest Diagnostics reports cyber breach affecting ‘certain patient records’",
+   "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUERqTFZheDFjRWV4cGQ2N1FjUDNMMWZ1TUgzSlJMa2xPejAxLU9KckNkUjF6WXJlaWliUkdPR3NidFRJbzB1YlhMdHk0U0x3YWdTTE12S2JNLS1LLWg1NGdzemVpRzZVc0lwTnRINUIzbWFiQTFVSW9ha2ZacEhCWEZkS00?oc=5",
+   "summary": "Quest Diagnostics reports cyber breach affecting ‘certain patient records’ AP News",
+   "published": "2026-10-22T15:09:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "323cc4e3d445"
+  },
+  {
+   "title": "Ukraine’s strikes on Russian data centers disrupt key services and derail AI research",
+   "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYWpTNEFPQ2s1OU5QRS1HMzBDVExXeFRlOWUxRzNWamxYTjREcENTMmw1VWlrNkRpdnFNRUFXLVZTUjI3SkZqRlhIZVVXc2hhampybC1pbHVkT2Nhd290ZVlOWEt1TDA4YzgwUUxOM2k1OEE2UFZGWi1DRkU2ckwxVHNZR3pQb2tVN3I2MjFfQlhMZjhqSDdXTTFyRUJCUlFueGlF?oc=5",
+   "summary": "Ukraine’s strikes on Russian data centers disrupt key services and derail AI research AP News",
+   "published": "2026-10-22T14:44:00+00:00",
+   "source": "ap",
+   "outlet": "AP News",
+   "counted": true,
+   "section": "climate",
+   "id": "5b5b91b183a0",
+   "article_url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQYWpTNEFPQ2s1OU5QRS1HMzBDVExXeFRlOWUxRzNWamxYTjREcENTMmw1VWlrNkRpdnFNRUFXLVZTUjI3SkZqRlhIZVVXc2hhampybC1pbHVkT2Nhd290ZVlOWEt1TDA4YzgwUUxOM2k1OEE2UFZGWi1DRkU2ckwxVHNZR3pQb2tVN3I2MjFfQlhMZjhqSDdXTTFyRUJCUlFueGlF?oc=5",
+   "has_text": false
+  },
+  {
    "title": "Paid parental leave doesn't strain most employers, survey finds",
    "link": "https://www.semafor.com/article/10/22/2026/paid-parental-leave-doesnt-strain-most-employers-survey-finds",
    "summary": "A survey of employers in four states without public-sponsored leave programs found that 55% of employers reported no additional costs from offering it.",
@@ -4924,15 +5083,17 @@
    "has_text": true
   },
   {
-   "title": "Detained Myanmar leader Suu Kyi is allowed her first call with her son in 5 years",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQczRiRk9kckFEdVV6NFFtelBqdjc1b2ZNSnR4TnNzYTJYRkRoTklGc1BvQWF2YkR5SGFDcmRGY2ROOTllaFY0aXNIYTMzLTV2RVBSVWUxSEE5cHlHSzMxVS01aHZmQ3AxLXdRcjVSbzRvOVZhZ3FJWDhOdldubW1JSTk4ZlYxMzd3c01zTkxHLWQwbnRFcTV3UnNuVVNkM2RlVkE?oc=5",
-   "summary": "Detained Myanmar leader Suu Kyi is allowed her first call with her son in 5 years AP News",
-   "published": "2026-10-22T14:00:00+00:00",
+   "title": "Voters prioritize costs and Iran over investigating Trump for next Congress, AP-NORC poll finds",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUlZzVmJWWUprcG9oV3lXbGRTZ3dZNl9ZNnFfWDBtTEVJQ3EzamgyTWNRSE4tWEc3UjF1RVNpN3Naa0g0QUVXRFRyWHl4c1BLREtZeUpBVWlFa0VLb0VteWFxQ1ZiV0lqMEpDQVE2eGQ0YUVwckZXTVM5RUh3UlRWN0h3Y1BseWRPdXVENkNUcUxWTlNQd2x1Vnc3aWtVOXd2Vkt3NVBKX25iLTJhZ21QQ2Q2MDA?oc=5",
+   "summary": "Voters prioritize costs and Iran over investigating Trump for next Congress, AP-NORC poll finds AP News",
+   "published": "2026-10-22T14:12:00+00:00",
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
    "section": "climate",
-   "id": "49b88aeecb70"
+   "id": "e5ea0811663f",
+   "article_url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUlZzVmJWWUprcG9oV3lXbGRTZ3dZNl9ZNnFfWDBtTEVJQ3EzamgyTWNRSE4tWEc3UjF1RVNpN3Naa0g0QUVXRFRyWHl4c1BLREtZeUpBVWlFa0VLb0VteWFxQ1ZiV0lqMEpDQVE2eGQ0YUVwckZXTVM5RUh3UlRWN0h3Y1BseWRPdXVENkNUcUxWTlNQd2x1Vnc3aWtVOXd2Vkt3NVBKX25iLTJhZ21QQ2Q2MDA?oc=5",
+   "has_text": false
   },
   {
    "title": "Brazil's energy course may hold after election, but Amazon at risk",
@@ -4948,16 +5109,16 @@
    "has_text": true
   },
   {
-   "title": "Jeffries says Democrats ‘on the verge’ of winning the House. It puts speaker’s gavel in reach",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMlR6RE9SZHowUGJiTENBOGZfWXVHaDNfU0VEUHYtQUVaWllqbzR0bWRNd3ptZlZ3aTZtR3VBMWlCS2xUYmR0Um43eUJiSGhZNFpoVEROUmtVTl9wam5pY09SVEhFODVjNTVOcDhqSjBkY3pYU3JIckRoUjIzYjhFcU01UllnWE9CSWc5MmI3Q1BRRnRhU29qNVhBWFhNLUxSclk4RWZKUlpwYU9zaURXekJXQ3lndnpF?oc=5",
-   "summary": "Jeffries says Democrats ‘on the verge’ of winning the House. It puts speaker’s gavel in reach AP News",
-   "published": "2026-10-22T13:44:00+00:00",
+   "title": "Need a smile? This livestream features 6 puppies all day long",
+   "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORTNXVWJxZzVkNklGdGliM2owM2Fuc1N1akdDVXFQeGc2ZWVvNWVQanlJZnZtM3JTR2FtTXZzNjQ4XzY1c2tIZ2I2RG1tcGNXbkIwY0t3aExzblhtcURUVzFVVmNsZE1tWkJ5M0twbWxlcEdxZGQ3Tmo3ck1ON2dYdVg5ajZqd1lwUi1ZWnFn?oc=5",
+   "summary": "Need a smile? This livestream features 6 puppies all day long AP News",
+   "published": "2026-10-22T13:51:00+00:00",
    "source": "ap",
    "outlet": "AP News",
    "counted": true,
    "section": "climate",
-   "id": "f0e08bfeb9a6",
-   "article_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPMlR6RE9SZHowUGJiTENBOGZfWXVHaDNfU0VEUHYtQUVaWllqbzR0bWRNd3ptZlZ3aTZtR3VBMWlCS2xUYmR0Um43eUJiSGhZNFpoVEROUmtVTl9wam5pY09SVEhFODVjNTVOcDhqSjBkY3pYU3JIckRoUjIzYjhFcU01UllnWE9CSWc5MmI3Q1BRRnRhU29qNVhBWFhNLUxSclk4RWZKUlpwYU9zaURXekJXQ3lndnpF?oc=5",
+   "id": "218f60caac1c",
+   "article_url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORTNXVWJxZzVkNklGdGliM2owM2Fuc1N1akdDVXFQeGc2ZWVvNWVQanlJZnZtM3JTR2FtTXZzNjQ4XzY1c2tIZ2I2RG1tcGNXbkIwY0t3aExzblhtcURUVzFVVmNsZE1tWkJ5M0twbWxlcEdxZGQ3Tmo3ck1ON2dYdVg5ajZqd1lwUi1ZWnFn?oc=5",
    "has_text": false
   },
   {
@@ -4970,19 +5131,6 @@
    "counted": true,
    "section": "climate",
    "id": "d6e104ec3c0d"
-  },
-  {
-   "title": "Tests show Pope Leo XIV won’t need further treatment for lung cancer, Vatican says",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOOVRxRDNTQ0Q0OUFOR3AtaTJkN0tuUnBSWjlGNmpRNFFvZlZVRU1VbnpucG9yZS12dVhZblJsTENpTVdWTk90X0RBQTNnNzVWZk80cy1BNWJQbzlCeU16UTNNNVhGdXVlWkRRY256bkdIc2oxMWgzWE1IWXNjZmtoR2lkZ214emI0dktNdS1TblFGUXNa?oc=5",
-   "summary": "Tests show Pope Leo XIV won’t need further treatment for lung cancer, Vatican says AP News",
-   "published": "2026-10-22T13:31:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "efc2f94f873f",
-   "article_url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOOVRxRDNTQ0Q0OUFOR3AtaTJkN0tuUnBSWjlGNmpRNFFvZlZVRU1VbnpucG9yZS12dVhZblJsTENpTVdWTk90X0RBQTNnNzVWZk80cy1BNWJQbzlCeU16UTNNNVhGdXVlWkRRY256bkdIc2oxMWgzWE1IWXNjZmtoR2lkZ214emI0dktNdS1TblFGUXNa?oc=5",
-   "has_text": false
   },
   {
    "title": "Dubai introduces one frequent flyer mile for each minute in the city",
@@ -5076,17 +5224,6 @@
    "has_text": true
   },
   {
-   "title": "France reports first human case of livestock virus Shamonda in patient who later died",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMUd0ZUxrUVpmUmp6TkF0YlZQZnM3dERWbEJxMERaM1IxdEZTTHY0MzhiLUZXam0wMU8zM3RSamJEdzdFVUdVOXVvRkhuOV9mUkF0VmlLMnhOQWpOaUU2aDlqaFA1cUZUQlhNNXlXN2FYREZ4eEZ2VmJyZldXWGN3dlQtaEFGYVpDNHEyZmhCbkZGaERpdEVN?oc=5",
-   "summary": "France reports first human case of livestock virus Shamonda in patient who later died AP News",
-   "published": "2026-10-22T12:28:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "cd10ee5205e2"
-  },
-  {
    "title": "Economic worries abound ahead of Brazil runoff",
    "link": "https://www.semafor.com/article/10/22/2026/economic-worries-abound-ahead-of-brazil-runoff",
    "summary": "The number of unionized workers in Latin America’s biggest economy has shrunk by almost half in the last 15 years.",
@@ -5150,19 +5287,6 @@
    "id": "613e07de4b52",
    "article_url": "https://www.semafor.com/article/10/22/2026/metas-new-class-of-nonvoting-stock-lets-zuckerberg-fund-ai-without-losing-control",
    "has_text": true
-  },
-  {
-   "title": "A second female lawmaker in Australia is threatened days after alleged car attack",
-   "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeURScF91MnUzZ01MYnNYenI4dWo5bWpPUUx5Y0w3bHYyMkpUUTk3Zk9XSkJ1azRVb3dyMU1SUElabm5JdnFxQ2NKUXFqVkMxLVFxM01iRDh5Q09IOFkzeHlOTkVXUE50OVNtTFNraFNNTngtcmhFRU9CeFlCbkxWY2ExYllHMm52TzR0ek9BUDBMQk5OVjJqZzc3VXhkM2lfWjZSOHBqX0JHNnU3UHhzS1ZCaGQwNWs?oc=5",
-   "summary": "A second female lawmaker in Australia is threatened days after alleged car attack AP News",
-   "published": "2026-10-22T11:58:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "f299b98960d8",
-   "article_url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQeURScF91MnUzZ01MYnNYenI4dWo5bWpPUUx5Y0w3bHYyMkpUUTk3Zk9XSkJ1azRVb3dyMU1SUElabm5JdnFxQ2NKUXFqVkMxLVFxM01iRDh5Q09IOFkzeHlOTkVXUE50OVNtTFNraFNNTngtcmhFRU9CeFlCbkxWY2ExYllHMm52TzR0ek9BUDBMQk5OVjJqZzc3VXhkM2lfWjZSOHBqX0JHNnU3UHhzS1ZCaGQwNWs?oc=5",
-   "has_text": false
   },
   {
    "title": "Waze rejects Malaysia’s data risks claims after civil servants barred from using the app",
@@ -5263,17 +5387,6 @@
    "id": "13547675bd8f",
    "article_url": "https://www.semafor.com/article/10/22/2026/us-stock-futures-retreat-on-ai-concerns",
    "has_text": true
-  },
-  {
-   "title": "Australian coroner moved to tears by the death of a child denied insulin on religious grounds",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZ0s1RkZPTVVXOW1OYkV6ekRGcjJzT0NlRFFZazBHMlNBb29jaXBwSzdmZkZhZDlmVUhGQ19YLXlKcEZJbU52Z2pQLWlyQVVfRTRBVWxWMmxueW1kMXd4YV9Ga1VKdHVQRDByZ1N6blp1QTRjNFdmOFZVQV9QMHdkUFFBTm9ZbGR4R3k0VjZBelQxU3lCNXh4dUpIMzlrajNoaFVtNE10WXNISDlvd2pn?oc=5",
-   "summary": "Australian coroner moved to tears by the death of a child denied insulin on religious grounds AP News",
-   "published": "2026-10-22T10:23:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "99cedd4a51ef"
   },
   {
    "title": "Some schools are banning caffeine pouches. Here's what parents and students should know",
@@ -5428,167 +5541,6 @@
    "id": "0251ed91d881",
    "article_url": "https://www.bbc.co.uk/news/videos/c39wzvxxjejxo?at_medium=RSS&at_campaign=rss",
    "has_text": true
-  },
-  {
-   "title": "Women are protesting in Poland for free access to legal abortions",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNS3l0WldxYkt2dC1zMFBzckF6RjFfX0I4N1dGem5XSEQ4cmVOd1NWcWlSLVdmSDhTcTRlVXEtNVljbGx6TVl4c000dzhUTlN3d0JoQjZQRDFDRXdVdlZTTzVJc29ZWUIzNWZrT2FmTy1mWEpVQlVaclpYVmtTN3NYNERtQThaS2lOVGRmbFpFYkFEQ0NOaVJHZ0thU1YtY2NQTGU1TUJpaTJtdw?oc=5",
-   "summary": "Women are protesting in Poland for free access to legal abortions AP News",
-   "published": "2026-10-22T07:03:08+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "4e5b2fe21994",
-   "article_url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNS3l0WldxYkt2dC1zMFBzckF6RjFfX0I4N1dGem5XSEQ4cmVOd1NWcWlSLVdmSDhTcTRlVXEtNVljbGx6TVl4c000dzhUTlN3d0JoQjZQRDFDRXdVdlZTTzVJc29ZWUIzNWZrT2FmTy1mWEpVQlVaclpYVmtTN3NYNERtQThaS2lOVGRmbFpFYkFEQ0NOaVJHZ0thU1YtY2NQTGU1TUJpaTJtdw?oc=5",
-   "has_text": false
-  },
-  {
-   "title": "Warriors rookie Yaxel Lendeborg calls out Luka Doncic, both on court and after huge loss to Lakers",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSlBDbERPYkhuYkpNOUlVTjRkbThLbENlVGtMa3JadUF0RVFkR1FiWWtDZVhfOTllWXIzZVpLRGU1Tk5NazFRY0xhb3k4WWxJQ205VHVKc3B2RFBHc05TQzNQTDVIazU2d214djJEQnZxU2ZRLUkwaWV6MDVxSDF4U3RxN1VzVzF0dlhJcHk5cHo?oc=5",
-   "summary": "Warriors rookie Yaxel Lendeborg calls out Luka Doncic, both on court and after huge loss to Lakers AP News",
-   "published": "2026-10-22T06:40:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "908ff9d08a15",
-   "article_url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSlBDbERPYkhuYkpNOUlVTjRkbThLbENlVGtMa3JadUF0RVFkR1FiWWtDZVhfOTllWXIzZVpLRGU1Tk5NazFRY0xhb3k4WWxJQ205VHVKc3B2RFBHc05TQzNQTDVIazU2d214djJEQnZxU2ZRLUkwaWV6MDVxSDF4U3RxN1VzVzF0dlhJcHk5cHo?oc=5",
-   "has_text": false
-  },
-  {
-   "title": "Is the UK set to green-light a huge untapped oil field?",
-   "link": "https://www.bbc.co.uk/news/videos/cxnv0emj06v1o?at_medium=RSS&at_campaign=rss",
-   "summary": "Scotland editor James Cook visits Rosebank - the UK's largest known untapped oilfield - in the North Atlantic.",
-   "published": "2026-10-22T06:09:44+00:00",
-   "source": "bbc",
-   "outlet": "BBC News",
-   "counted": true,
-   "section": "climate",
-   "id": "3a5e058e165a",
-   "article_url": "https://www.bbc.co.uk/news/videos/cxnv0emj06v1o?at_medium=RSS&at_campaign=rss",
-   "has_text": true
-  },
-  {
-   "title": "Brady Tkachuk gets ice-cold reception in return to Ottawa with Florida Panthers",
-   "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcnowN2htN0I2WGJ5MVFRUFpHdUNwQTNWN01qdXMyTXgxeE02WU1sY2dhU283eVRJUkNRWFhyblNhXzlyOGpOeFUySzl0T2ZOVHJ4TDNRNG1FSWNnd1lsX21VeGE2T204akktb3hfM3VfQ001SWF6OElyMHJ0NGEzekdCR1NHTnFlYUk1dGFBaHV2MDd3RzB5S3ZIWmN4azU5VVRtcS1OemgtUQ?oc=5",
-   "summary": "Brady Tkachuk gets ice-cold reception in return to Ottawa with Florida Panthers AP News",
-   "published": "2026-10-22T05:20:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "d4af26531e24"
-  },
-  {
-   "title": "Walker Kessler has perfect Lakers debut with 12-for-12 shooting in 127-105 win over Warriors",
-   "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWHdyVzdqU2tJd2FlNm15b2YzRDVlekVtNzdsYnZIMlphMDF1UnVRSmRQellPSUNmWmlsUjRyZHRNdkI4VVZra1d2ejJ1QTN1dTNOZFhFaW9BSkk4YzQ4d0tJeE1FWmpZaXQ3SjVNUDNDWU9xMk1LVlotUmQxN013RC1XcEtEQzk5czlaVjh6UWpMdS03TFp2M3JjNzExalh4X1BobG45ZFUtREZh?oc=5",
-   "summary": "Walker Kessler has perfect Lakers debut with 12-for-12 shooting in 127-105 win over Warriors AP News",
-   "published": "2026-10-22T04:48:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "1dc1f0cba6d4",
-   "article_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWHdyVzdqU2tJd2FlNm15b2YzRDVlekVtNzdsYnZIMlphMDF1UnVRSmRQellPSUNmWmlsUjRyZHRNdkI4VVZra1d2ejJ1QTN1dTNOZFhFaW9BSkk4YzQ4d0tJeE1FWmpZaXQ3SjVNUDNDWU9xMk1LVlotUmQxN013RC1XcEtEQzk5czlaVjh6UWpMdS03TFp2M3JjNzExalh4X1BobG45ZFUtREZh?oc=5",
-   "has_text": false
-  },
-  {
-   "title": "Kansas Sen. Roger Marshall says the Ukraine war, not the Iran war, has caused high diesel prices",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNFlwUEhrRzY3LVNyRkJaZkdfb04wYURuSFpOV21ZMXhnM2poTjI4T0dtdjJNdEE2cXZvRm02N01JS2x2RzFzMzUxc1JCc2E4V0FjcVR2TTU5WTREV1BGbndhMS12czc3ZkY1S2dyRUowZ18tUGtNXzdzZ3JEYTZlTkZ5eUgycHBIRTNwaVZSMlNFaDI2TUlIYWZtMGp3ZTFmN3lFeU9SNmFjMm54UmwzWA?oc=5",
-   "summary": "Kansas Sen. Roger Marshall says the Ukraine war, not the Iran war, has caused high diesel prices AP News",
-   "published": "2026-10-22T04:13:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "a6ad6ab5207f",
-   "article_url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNFlwUEhrRzY3LVNyRkJaZkdfb04wYURuSFpOV21ZMXhnM2poTjI4T0dtdjJNdEE2cXZvRm02N01JS2x2RzFzMzUxc1JCc2E4V0FjcVR2TTU5WTREV1BGbndhMS12czc3ZkY1S2dyRUowZ18tUGtNXzdzZ3JEYTZlTkZ5eUgycHBIRTNwaVZSMlNFaDI2TUlIYWZtMGp3ZTFmN3lFeU9SNmFjMm54UmwzWA?oc=5",
-   "has_text": false
-  },
-  {
-   "title": "Coastal construction projects threaten the mangrove forest that protects Vietnam's biggest city",
-   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSmg1MDJXNWt0ZjFocS1VRkxOUkd2MnBvakd0bkpCWkZ3ZDlsa0xxXzJXYmRpQnEtUDFIQi03NXNJT19YUkxxcEVlRS1QbmJYSFBUUzQybXRMS1ZNY2Y2aGl6RXBHSWdMb2R0Z0FyTHA1Vmcyb3NqTzZKckVCeGxfMy0tQXltMl9vUGpmMVBpbmloX2RXaVJNZFNfc1lFUjg?oc=5",
-   "summary": "Coastal construction projects threaten the mangrove forest that protects Vietnam's biggest city AP News",
-   "published": "2026-10-22T04:11:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "df0a2da77c27",
-   "article_url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSmg1MDJXNWt0ZjFocS1VRkxOUkd2MnBvakd0bkpCWkZ3ZDlsa0xxXzJXYmRpQnEtUDFIQi03NXNJT19YUkxxcEVlRS1QbmJYSFBUUzQybXRMS1ZNY2Y2aGl6RXBHSWdMb2R0Z0FyTHA1Vmcyb3NqTzZKckVCeGxfMy0tQXltMl9vUGpmMVBpbmloX2RXaVJNZFNfc1lFUjg?oc=5",
-   "has_text": false
-  },
-  {
-   "title": "One Tech Tip: As Apple’s Duo phone is released, here are dos and don’ts for folding phones",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZ2tQaVNIbzd1RWNVZ0owX0Rxb1hUTU5udjRrSEk0bWJsUlpadnd1dDdyNFFRNzVWdkJGVEhrWmRFN2ZLMVlBY2hoVjNNdExjemdSSEczOTZ5Q2RXMWN1aHIzeXJFYmxsWnVacE9MRk1vY2ZRb2VkZGVyeC01bGpnanBZbGo2TWtIRHdrbE90Qk5Vb2JTMld3?oc=5",
-   "summary": "One Tech Tip: As Apple’s Duo phone is released, here are dos and don’ts for folding phones AP News",
-   "published": "2026-10-22T04:01:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "40f2087207c4"
-  },
-  {
-   "title": "Taiwan indicts 5 accused of trying to injure comedian who mocks Xi and Chinese Communist Party",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPamtfVkxwM2hZWm1zeHF1WjBqMVVkTTMzaFl2RHJXYm1QcXByMl9yeGE2QUl2VDY2OVkwdGU2M2lWcVVVUE1qQkg3M0VVMGxMcVI2MjZMSExXZGlxRGZGeldqVi0zZlk5bS1pY1FxUFZUV3JWOVpWYnZSLVEwVjRfQzY5dUpiR0NsMXhUS014dFpnS2pBNXVzUVhIRm8zTjJOVC1wbWdfOG85VzA?oc=5",
-   "summary": "Taiwan indicts 5 accused of trying to injure comedian who mocks Xi and Chinese Communist Party AP News",
-   "published": "2026-10-22T03:56:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "a27a32ac22dc",
-   "article_url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPamtfVkxwM2hZWm1zeHF1WjBqMVVkTTMzaFl2RHJXYm1QcXByMl9yeGE2QUl2VDY2OVkwdGU2M2lWcVVVUE1qQkg3M0VVMGxMcVI2MjZMSExXZGlxRGZGeldqVi0zZlk5bS1pY1FxUFZUV3JWOVpWYnZSLVEwVjRfQzY5dUpiR0NsMXhUS014dFpnS2pBNXVzUVhIRm8zTjJOVC1wbWdfOG85VzA?oc=5",
-   "has_text": false
-  },
-  {
-   "title": "LaMelo Ball and Giannis Antetokounmpo shine in debuts as Timberwolves outlast Heat",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNLXBsZ0FvV255am10aUxJeXdIZ2Z4X0dlR2p1UFphMTRXRktweGdKSzBGOEx1RHRHRUpsclN3eHdrVnV0NURPN0pidWlyb1NwbURodWpyNFhGSlFvTTJVVzBNQVBqbFRhNElzNHlGZFZNSHhLS3lZamlXNzJUSE9qNVNWeEpYNkJqYnhEVjR4UUJBOFRmdEw1OHVfM2Z3WC1lTjdrSmw0cGVNd29BOEFZcQ?oc=5",
-   "summary": "LaMelo Ball and Giannis Antetokounmpo shine in debuts as Timberwolves outlast Heat AP News",
-   "published": "2026-10-22T03:50:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "3d452c1616bb"
-  },
-  {
-   "title": "Enes Kanter Freedom refuses to sit in luxury suite of State Farm Arena and leaves WNBA Finals",
-   "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdzdOZlpMaG9vcGw0czJkTTZ0MkkweWpMZ3dacUs5S0xkU2QwV25LaWxPb1NMRUg4aThsMUl4TVlpY29sWDFGQXJ4Z19ERXV4S3oyd3dXM1ByaWx3S2VMSXdraHpKYW11eXJvcWZnaXlBSWw3VU5yUGxaMzFzZTNfcHBMSlM0UQ?oc=5",
-   "summary": "Enes Kanter Freedom refuses to sit in luxury suite of State Farm Arena and leaves WNBA Finals AP News",
-   "published": "2026-10-22T03:43:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "dfce3226b7e6"
-  },
-  {
-   "title": "Carney says Trump’s tariffs hurt Americans as US Embassy alleges Canadian interference",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPLWtDUVVQYXZ6WlJZNC1ER0dCcGVTcTg4R0RpdEN1VkZpb25KQzZuV2trZU84UVdPckpSWTNFR1IzMHlsckdKbURUOW5tdTRac2tBbm5hbUZxNTRRMjN1d3ZNYlFzNHhaUVhnclJQOThsb3R1VEY2YW9PcE12UUpXMC12cXFLOC1MRkJoSGVkT1R6N0YyVjR2U3Bva00tc2ptMHc?oc=5",
-   "summary": "Carney says Trump’s tariffs hurt Americans as US Embassy alleges Canadian interference AP News",
-   "published": "2026-10-22T02:10:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "d9dbb3d286d3",
-   "article_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPLWtDUVVQYXZ6WlJZNC1ER0dCcGVTcTg4R0RpdEN1VkZpb25KQzZuV2trZU84UVdPckpSWTNFR1IzMHlsckdKbURUOW5tdTRac2tBbm5hbUZxNTRRMjN1d3ZNYlFzNHhaUVhnclJQOThsb3R1VEY2YW9PcE12UUpXMC12cXFLOC1MRkJoSGVkT1R6N0YyVjR2U3Bva00tc2ptMHc?oc=5",
-   "has_text": false
-  },
-  {
-   "title": "Wisconsin Republican Tiffany says Zuckerberg money was the reason he tried to overturn 2020 election",
-   "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVzcxcnBlTzZ1bVN3am1mNExuR0xEbFFxbDhXYnFIVllOWkg5REE3eTNoSXpIbmxqQ29QRHZtOU1NQVBickxJaF9DS2pZMEcwa19kdzZQeERiUGpNdmZxakJsQzBhLWZzODgzSDU1NEtxcTFlZklGN1VHUEQ3U0ZnZ0NPZmxpZVMwaDFiY21xYTMzTDA5UWN5eDlRZ3phUXlMalE?oc=5",
-   "summary": "Wisconsin Republican Tiffany says Zuckerberg money was the reason he tried to overturn 2020 election AP News",
-   "published": "2026-10-22T02:04:00+00:00",
-   "source": "ap",
-   "outlet": "AP News",
-   "counted": true,
-   "section": "climate",
-   "id": "e2465567a25f",
-   "article_url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVzcxcnBlTzZ1bVN3am1mNExuR0xEbFFxbDhXYnFIVllOWkg5REE3eTNoSXpIbmxqQ29QRHZtOU1NQVBickxJaF9DS2pZMEcwa19kdzZQeERiUGpNdmZxakJsQzBhLWZzODgzSDU1NEtxcTFlZklGN1VHUEQ3U0ZnZ0NPZmxpZVMwaDFiY21xYTMzTDA5UWN5eDlRZ3phUXlMalE?oc=5",
-   "has_text": false
   }
  ]
 }
