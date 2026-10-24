@@ -1,0 +1,80 @@
+{
+  "slot": "2026-10-24 07:00 CT",
+  "date": "2026-10-24",
+  "category": "Government",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/show/trump-says-he-ordered-suit-to-block-alaska-senate-results-if-gop-loses",
+  "source_domain": "pbs.org/newshour",
+  "headline": "The Alaska suit was Trump's idea. He says so himself.",
+  "summary": "Alaska's Senate ballot has two Dan Sullivans: the Republican senator and a retired teacher. On Thursday the Justice Department sued to stop Alaska certifying the result if the senator loses by less than the other Sullivan's votes. Asked about it Friday, Trump said: \"I'm the one that said do it.\" The vote is November 3.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "Can a president order a lawsuit?"
+  },
+  "cover_answer": "He says he did. A former DOJ lawyer says it has no role.",
+  "table_question": "Who settles a close call: the referee, or the losing team's coach?",
+  "photo_subject": "Donald Trump",
+  "ages": {
+    "5-7": {
+      "chip": "Good one to bring up",
+      "shield": false,
+      "script": "In Alaska, two men named Dan Sullivan both want the same job, and both names are on the voting paper. The president told his lawyers to ask a judge to hold the result if his Dan loses by a whisker, like asking a teacher to recheck a race where two runners wore the same number. The grown-ups have it.",
+      "why": "Same name, same job, a recheck. The judge is the grown-up.",
+      "why_long": "A child this age takes one vivid feature for the whole event, so the script gives them the one that is true and harmless: two men, one name, one job. Two runners wearing the same number is a race they can picture, and the judge stays a grown-up who checks. Expect \"so who wins?\" Nobody yet. The vote is November 3."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Senator Dan Sullivan is in a tight race, and a third name on the ballot is also Dan Sullivan. The Justice Department sued: if the senator loses by fewer votes than that Sullivan gets, hold the result. Trump says he ordered it. Picture a referee's boss phoning in the call before kickoff.",
+      "why": "A call phoned in before kickoff is a fairness test.",
+      "why_long": "At this age a child is testing whether adults follow the rules they set. Alaska's top court said in June that both Sullivans stay, and now the president says he ordered a new challenge before a vote is cast. The word Incumbent by the senator's name is the fact they can check. Expect \"is that allowed?\" Becker says no."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Should a president tell the Justice Department who to sue? Trump says the Alaska suit was his call: \"I'm the one that said do it.\" It asks a judge to hold the result if the senator loses by less than the other Dan Sullivan's votes. Second: the ballot says Incumbent by his name. Confused?",
+      "why": "A real quote, a real lawsuit, the branch question. Hold both.",
+      "why_long": "A teenager can hold two true things: a same-name candidate could tip a close race, and a president who ordered the suit has a stake in its result. The script hands them both and asks which one the Incumbent label answers. Expect \"would he do this anywhere he's losing?\" Say you don't know. Capehart sees a pattern."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Is the other Dan a cheater?",
+        "a": "He says no. He is a retired teacher who ran on his own, and Alaska's top court let him stay on the list."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Can a president order a lawsuit?",
+        "a": "He says he did. David Becker, once at DOJ, says it has no role."
+      },
+      {
+        "q": "What if people tick the wrong Dan?",
+        "a": "The ballot prints Incumbent by the senator's name. Voters can rank both."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Doesn't the president run the Justice Department?",
+        "a": "It sits in his branch. Capehart on PBS: presidents don't direct its cases."
+      },
+      {
+        "q": "Could the suit actually stop the count?",
+        "a": "Law professor Derek Muller says the statute doesn't allow it."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#AlaskaSenate",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 8,
+    "13-17": 16
+  },
+  "photo": "data/images/2026-10-24-morning.jpg",
+  "photo_credit": "Photo: Daniel Torok, Wikimedia Commons, Public domain",
+  "caption": "He says he did. A former DOJ lawyer says it has no role.\n\nAlaska's Senate ballot has two Dan Sullivans: the Republican senator and a retired teacher. On Thursday the Justice Department sued to stop Alaska certifying the result if the senator loses by less than the other Sullivan's votes. Asked about it Friday, Trump said: \"I'm the one that said do it.\" The vote is November 3.\n\nSource: PBS NewsHour\nPhoto: Daniel Torok, Wikimedia Commons, Public domain\n\nSwipe for what to say at age 6, at 8, and at 16.\n\nThe dinner table question: Who settles a close call: the referee, or the losing team's coach? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #AlaskaSenate #DinnerTableNews"
+}
