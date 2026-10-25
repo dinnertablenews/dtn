@@ -1,0 +1,76 @@
+{
+  "slot": "2026-10-24 20:00 CT",
+  "date": "2026-10-24",
+  "category": "World",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/world/more-than-400000-protest-across-france-challenging-macron-as-paris-clashes-erupt",
+  "source_domain": "pbs.org/newshour",
+  "headline": "France marched again. Nearly 1,000 arrests.",
+  "summary": "More than 400,000 people marched across France on Saturday over school funding and the cost of living, a month into the unrest. The government counts 410,000; the CGT union says nearly 800,000. Paris was calm until the end, when masked protesters threw fireworks and police answered with tear gas and water cannon. Nearly 1,000 arrests.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Why are the kids in France marching?"
+  },
+  "cover_answer": "Not enough teachers. And everything costs more.",
+  "table_question": "If a protest is banned but peaceful, is it wrong to go?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "In France, a country across the ocean, 400,000 people walked through the streets on Saturday. That is enough people to fill five football stadiums. They want more teachers for their schools, and they want things to cost less. A few people fought with the police at the end, but most just walked and went home.",
+      "why": "Walking to ask for teachers is a thing a six-year-old gets. The tear gas can wait for a question.",
+      "why_long": "A six-year-old reasons from what is in front of them, and the one thing they can hold is a crowd walking to ask for teachers, so the script leads with the stadiums and keeps the fighting to one sentence at the end. Vygotsky's point: the words come from the adult first. Expect \"did anyone get hurt?\" Two people, badly. Most went home."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "It began last month at one high school short of staff. Students walked out, other schools joined, then workers angry about fuel prices. Saturday, 410,000 marched, and Macron promised to change university admissions. A protest is a petition you can see: more people, harder to ignore.",
+      "why": "One school, then a country. The petition is the mechanism.",
+      "why_long": "This age works out how one thing leads to another, so the script runs the chain: one school short of staff, a walkout, other schools, then workers, then 410,000 on a Saturday. The visible petition is a mechanism they know from school. Expect \"why did the police gas them?\" Some threw fireworks at the end. Most of the day was peaceful."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Macron ruled that only union-run protests are allowed: order, or silence? 410,000 marched anyway, legally. Second: a 16-year-old marched with her mother, scared after last week's violence, because staying home felt like letting Macron win. Would you have gone?",
+      "why": "A ban and a legal march, both true. Then a girl their age.",
+      "why_long": "A teenager can hold two true things at once: the government banned unofficial protests, and 410,000 marched legally anyway. The script hands them that pair, then a girl their own age who went back scared, because the question they will face is whether to show up. Expect \"would you have let me go?\" Answer it straight."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Why are the kids in France marching?",
+        "a": "Their schools don't have enough teachers, and everything costs too much. Marching is how you tell the government, loudly and together."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why did the police use tear gas?",
+        "a": "Some threw fireworks at them at the end. Until then it was peaceful."
+      },
+      {
+        "q": "Did the marching work?",
+        "a": "A bit. Macron promised to change university admissions. Not how."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Can a president just ban protests?",
+        "a": "He decreed it. Unions call the bans a breach of the constitution."
+      },
+      {
+        "q": "Would you have let me go?",
+        "a": "Depends on the march. Most of Saturday was calm. Two were badly hurt."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#FranceProtests",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 12,
+    "13-17": 14
+  },
+  "caption": "Not enough teachers. And everything costs more.\n\nMore than 400,000 people marched across France on Saturday over school funding and the cost of living, a month into the unrest. The government counts 410,000; the CGT union says nearly 800,000. Paris was calm until the end, when masked protesters threw fireworks and police answered with tear gas and water cannon. Nearly 1,000 arrests.\n\nSource: PBS NewsHour\n\nSwipe for what to say at age 7, at 12, and at 14.\n\nThe dinner table question: If a protest is banned but peaceful, is it wrong to go? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #FranceProtests #DinnerTableNews"
+}
