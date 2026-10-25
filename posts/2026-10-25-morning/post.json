@@ -1,0 +1,76 @@
+{
+  "slot": "2026-10-25 07:00 CT",
+  "date": "2026-10-25",
+  "category": "World",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo",
+  "source_domain": "bbc.com",
+  "headline": "410,000 marched in France. Nearly 1,000 arrests.",
+  "summary": "Hundreds of thousands marched across France on Saturday, the second weekend of protests over school funding and the cost of living. The interior ministry counted 410,000; the unions said about 800,000. Most of the day was calm. Then came clashes at the end in Paris and other cities, nearly 1,000 arrests and two people seriously injured.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "How do you count 410,000 people?"
+  },
+  "cover_answer": "Nobody can. Police said 410,000. Unions said 800,000.",
+  "table_question": "Two sides count the same crowd. Whose number do you trust?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "In France, a country across the ocean, a huge crowd walked through the streets on Saturday. 410,000 people, enough to fill a big football stadium five times. They want more teachers in their schools, and they want food and petrol to cost less. A few fought with the police at the end. Most just walked and went home.",
+      "why": "A crowd asking for teachers is a picture a six-year-old can hold. The fighting is one sentence.",
+      "why_long": "A six-year-old reads your face before your words and keeps one vivid picture, so the script hands them a crowd walking to ask for teachers and leaves the fighting to one plain sentence. Cantor found this age fears what it can see, and there is nothing here to picture. Expect \"will they come here?\" No. It is their schools, in France."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "410,000 marched across France on Saturday over short-staffed schools and rising prices. That is the government's count. The unions say 800,000. Nobody counts a crowd one by one. Each side guesses, like jellybeans in a jar, and the low guess was the government's. At the end, fireworks met tear gas in Paris.",
+      "why": "Two counts, one crowd: a fairness puzzle. The jar is the mechanism.",
+      "why_long": "This age is working out whether grown-ups apply rules fairly, and two counts of one crowd is exactly that puzzle, so the script gives them the jar and lets them weigh who guessed and why. Expect \"so who's lying?\" Maybe nobody. A guess leans toward the guesser, and the honest move is to say both numbers out loud."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Who gets to say what a protest was? A student in Lyon counted 150 of them, mostly students, before the tear gas came. The interior minister counted 500 rioters at the back of the Paris march. Second: 70,000 police were out and last week's looting didn't repeat. Peace kept, or a side picked?",
+      "why": "Two accounts of one afternoon, both true. Then the price of the peace.",
+      "why_long": "A teenager can hold a student's 150 and a minister's 500 rioters as two true descriptions of one afternoon, and Kuhn's point is that weighing them is practised by arguing with you. The script asks who gets to define a protest, then whether 70,000 police kept the peace or picked a side. Expect \"which side are you on?\" Say, then say why."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Why are they so angry?",
+        "a": "Their schools don't have enough teachers, and everything costs more. They walk together so the government hears."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "How do you count 410,000 people?",
+        "a": "You don't, one by one. Police guessed 410,000. Unions, 800,000."
+      },
+      {
+        "q": "Why did the police use tear gas?",
+        "a": "At the end, masked groups threw fireworks. Until then it was calm."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Can a president ban a protest?",
+        "a": "Macron decreed it. Unions say the bans break the constitution."
+      },
+      {
+        "q": "Is 1,000 arrests a lot?",
+        "a": "Last weekend: 2,500, and 2,000 shops hit. No looting this time."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#FranceProtests",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 8,
+    "13-17": 15
+  },
+  "caption": "Nobody can. Police said 410,000. Unions said 800,000.\n\nHundreds of thousands marched across France on Saturday, the second weekend of protests over school funding and the cost of living. The interior ministry counted 410,000; the unions said about 800,000. Most of the day was calm. Then came clashes at the end in Paris and other cities, nearly 1,000 arrests and two people seriously injured.\n\nSource: BBC News\n\nSwipe for what to say at age 6, at 8, and at 15.\n\nThe dinner table question: Two sides count the same crowd. Whose number do you trust? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #FranceProtests #DinnerTableNews"
+}
