@@ -1,0 +1,76 @@
+{
+  "slot": "2026-10-25 12:00 CT",
+  "date": "2026-10-25",
+  "category": "Climate",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/c84g10r00221o",
+  "source_domain": "bbc.com",
+  "headline": "Storm Boelo hit Ireland. 41,000 homes lost power.",
+  "summary": "Storm Boelo crossed Ireland and Britain on Saturday night, the second named storm in two days. Gusts reached 83mph in Donegal and 84mph in Wales. By Sunday morning 41,000 homes in the Republic of Ireland and 7,000 in Northern Ireland had no power. Belfast and Dublin cancelled flights. Crews expect most of it back by evening.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "Is this climate change?"
+  },
+  "cover_answer": "The BBC doesn't say. One weekend proves nothing either way.",
+  "table_question": "Would you call off a Halloween parade for a storm that might not come?",
+  "ages": {
+    "5-7": {
+      "chip": "Good one to bring up",
+      "script": "A big windstorm called Boelo blew across Ireland and Britain last night, far across the ocean from us. The wind went 83 miles an hour, faster than a car on the highway, and it pushed trees onto the power lines. This morning 41,000 homes had no electricity. Repair crews say most of it will be back on by tonight.",
+      "why": "Wind, a tree, a dark house, then the repair truck. The ending is the part they keep.",
+      "why_long": "A seven-year-old reasons from what is in front of them, and wind is something they have felt on their face, so the script gives them the car on the highway for the speed and the tree on the wire for the cause. Cantor found this age fears what it can see, so the repair crew comes last. Expect \"will the wind come here?\" No."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Storm Austen on Friday, Storm Boelo on Saturday night: two storms in two days. Wind at 83mph dropped trees on power lines, so 41,000 homes in Ireland woke up with no electricity. The amber warning came first. It works like a traffic light: yellow means take care, amber means change your plans.",
+      "why": "Wind, tree, wire, dark house: a chain they can run. The light is the mechanism.",
+      "why_long": "This age is working out cause and effect and whether grown-ups follow their own rules, so the script hands them the chain, wind to tree to wire to dark kitchen, then the warning that ran ahead of it. The traffic light is a rule they already know. Expect \"did the warning work?\" Mostly. Trains stopped first. The wires fell."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Is this climate change? The BBC's reports don't say, and one wild weekend proves nothing either way. What they do say: a 24-hour amber warning over most of Scotland is unusual, not unheard of. Second: 41,000 homes went dark, most back by tonight. A system failing, or working?",
+      "why": "Answer the big question honestly, then hand them the one with data.",
+      "why_long": "A teenager can hold two true things: their question has no answer in these reports, and the reports still speak. The script says so, then hands them the second, a warning the BBC called unusual and a power cut with a promise. Expect \"so you don't believe in it?\" Say what you believe, then what the articles show."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Will the wind come here?",
+        "a": "No. It's across the ocean, in Ireland and Britain. Our weather is our own."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why do the lights go out in a storm?",
+        "a": "Wind drops trees on the wires. Crews clear them, then reconnect."
+      },
+      {
+        "q": "Can planes fly in 80mph wind?",
+        "a": "Not all. Dublin cancelled 24 flights, Belfast 17. The rest flew."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Is this climate change?",
+        "a": "The BBC's reports don't say. One weekend proves nothing."
+      },
+      {
+        "q": "Is a 24-hour amber alert a big deal?",
+        "a": "Unusual, not unprecedented, the BBC said: that long, that wide."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#StormBoelo",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 11,
+    "13-17": 15
+  },
+  "caption": "The BBC doesn't say. One weekend proves nothing either way.\n\nStorm Boelo crossed Ireland and Britain on Saturday night, the second named storm in two days. Gusts reached 83mph in Donegal and 84mph in Wales. By Sunday morning 41,000 homes in the Republic of Ireland and 7,000 in Northern Ireland had no power. Belfast and Dublin cancelled flights. Crews expect most of it back by evening.\n\nSource: BBC News\n\nSwipe for what to say at age 7, at 11, and at 15.\n\nThe dinner table question: Would you call off a Halloween parade for a storm that might not come? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #StormBoelo #DinnerTableNews"
+}

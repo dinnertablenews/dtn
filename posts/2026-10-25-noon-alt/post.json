@@ -1,0 +1,80 @@
+{
+  "slot": "2026-10-25 12:00 CT",
+  "date": "2026-10-25",
+  "category": "Culture",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo",
+  "source_domain": "bbc.com",
+  "headline": "Hitler's Eagle's Nest burned all night. A man is held.",
+  "summary": "The Kehlsteinhaus, the house the Nazis finished for Hitler in 1938 on a mountain above Berchtesgaden, caught fire at 9:15 on Friday night. Some 200 firefighters fought it on steep ground and it burned into Saturday morning. Nobody was hurt. Police are holding a man, 33, while they investigate. Local media say it is largely destroyed.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "Should a Hitler house exist?"
+  },
+  "cover_answer": "Germany kept it as a warning. Local media say it's gone.",
+  "table_question": "Keep a bad man's house so people remember, or tear it down?",
+  "photo_subject": "Kehlsteinhaus",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": true,
+      "script": "You might hear that an old house on top of a mountain in Germany caught fire. It was built long ago for Hitler, a leader who did terrible things, and people kept it so nobody would forget. The fire was high up, like a bonfire on a mountaintop, and 200 firefighters climbed to it in the dark. Nobody was hurt. The grown-ups have it.",
+      "why": "Only if it comes up. The fire on the mountain is the picture, and nobody hurt is the ending.",
+      "why_long": "A six-year-old takes one vivid feature for the whole event, and \"Hitler\" may already be a word they have heard with fear in it, so the script makes the fire the picture, a bonfire on a mountain, and keeps Hitler to one plain clause. Cantor found this age fears what it can see, not history. Expect \"was anyone inside?\" No."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "Hitler's mountaintop house in Germany survived the war and stayed open as an inn and, its own website says, a warning about the Nazis. On Friday night it caught fire. 200 firefighters climbed up, the slope was too steep, and it burned into Saturday. Police hold a man, 33. It was kept the way you keep a scar.",
+      "why": "Built, survived, kept as a warning, burned. The scar is the mechanism.",
+      "why_long": "This age is working out why rules and places exist, so the script runs the chain: built for Hitler, survived the war, kept as an inn and a warning, burned on Friday. The scar is the mechanism, a mark you keep so you remember. Expect \"why would anyone burn it?\" Police hold a man and have not said. Resist guessing for them."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Should a Hitler house exist? Germany kept the Eagle's Nest since 1945 as an inn and, its website says, a warning about the Nazi dictatorship. On Friday night it burned; police hold a man, 33. Second question: if someone set it on purpose, is that vandalism or an argument? Where is your line?",
+      "why": "A Nazi building and a warning about Nazis, the same building. Then their line.",
+      "why_long": "A teenager can hold two true things: a building made for Hitler is gone, and so is a place that taught people what he did. The script asks whether such a house should exist, then whether burning it is vandalism or an argument. Kuhn found they learn to argue by arguing with someone honest. Expect \"what would you do with it?\" Answer."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Who was Hitler?",
+        "a": "A leader in Germany long ago who started a war and had millions of people killed. He lost. People kept his old house so nobody forgets."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why keep Hitler's house at all?",
+        "a": "As an inn and a warning. Its own website says so."
+      },
+      {
+        "q": "Did the man do it on purpose?",
+        "a": "Police don't know yet. They're holding a man, 33, while they check."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Should a Hitler house exist?",
+        "a": "Germany said yes, as a warning, for 80 years. Now it's mostly gone."
+      },
+      {
+        "q": "Isn't it good that it's gone?",
+        "a": "Some will say so. It was a lesson site. Ask what that is for first."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#EaglesNest",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 10,
+    "13-17": 14
+  },
+  "photo": "data/images/2026-10-25-noon-alt.jpg",
+  "photo_credit": "Photo: DominikCK1999, Wikimedia Commons, CC BY 4.0",
+  "caption": "Germany kept it as a warning. Local media say it's gone.\n\nThe Kehlsteinhaus, the house the Nazis finished for Hitler in 1938 on a mountain above Berchtesgaden, caught fire at 9:15 on Friday night. Some 200 firefighters fought it on steep ground and it burned into Saturday morning. Nobody was hurt. Police are holding a man, 33, while they investigate. Local media say it is largely destroyed.\n\nSource: BBC News\nPhoto: DominikCK1999, Wikimedia Commons, CC BY 4.0\n\nSwipe for what to say at age 6, at 10, and at 14.\n\nThe dinner table question: Keep a bad man's house so people remember, or tear it down? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #EaglesNest #DinnerTableNews"
+}
