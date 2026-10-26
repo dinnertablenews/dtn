@@ -1,0 +1,79 @@
+{
+  "slot": "2026-10-26 12:00 CT",
+  "date": "2026-10-26",
+  "category": "World",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/ckm23y3mg1yyo",
+  "source_domain": "bbc.com",
+  "headline": "Lula lost round one. Then he won Brazil by 4.4 million.",
+  "summary": "Brazil's president took 51.79% in Sunday's runoff, 4.4 million votes clear of Flávio Bolsonaro, three weeks after losing the first round. Nobody had done that since civilian rule returned in 1985. Polls stayed open two extra hours at both camps' request. Bolsonaro calls the result impossible and wants it annulled. He turns 81 on Tuesday.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "Can the loser just refuse the result?"
+  },
+  "cover_answer": "He can say it. The electoral court already confirmed Lula.",
+  "table_question": "If the game got two extra minutes, does the win still count?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "Brazil picked its president on Sunday, and Lula won. He's 80, and he lost the first vote three weeks ago, so most people thought he was out. Then far more people turned up to vote, and he won by 4.4 million votes, enough to fill about 50 football stadiums. The other man is cross about it, but the count is finished.",
+      "why": "The comeback is the story. Lost, then won, and the bigger crowd explains it.",
+      "why_long": "A six-year-old reasons from what is in front of them, so the script hands over a race lost and then won, with the bigger crowd as the reason. The stadiums make 4.4 million a thing they can see. Expect \"why is the other man cross?\" He lost and says it wasn't fair. The judges checked and say it was."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Bolsonaro beat Lula in round one on 4 October, 47% to 45%. But 33 million Brazilians skipped it, so Lula's team spent three weeks getting them to the polls. On Sunday far more turned out, and Lula won 51.79% to 48.21%. Round one was the heat. Only the final counts.",
+      "why": "Lost the heat, won the final. The turnout chain is one they can follow.",
+      "why_long": "This age is working out cause and effect, so the script gives the chain in order: lost round one, 33 million stayed home, three weeks of chasing them, a bigger crowd, a win. The heat and the final is the mechanism. Expect \"was keeping the polls open cheating?\" Both sides asked for it. Then only one side complained."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Can the loser just refuse the result? Bolsonaro calls Sunday's vote \"impossible\": a judge, once Lula's lawyer, kept polls open two extra hours. But both camps asked, and the court's president, named by Bolsonaro's father, says it changed nothing. Who rules on a close election?",
+      "why": "The judge was Lula's lawyer, and both sides asked. Let them weigh it.",
+      "why_long": "A teenager can hold two true things at once: the judge who extended voting was once Lula's lawyer, and Bolsonaro's own camp asked for the extra hours. The script asks who rules on fairness. In the articles it is a court president the other side appointed. Expect \"could it still be overturned?\" Lawyers told the BBC the chance is remote."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Why did he lose and then win?",
+        "a": "More people voted the second time. The second vote is the one that picks the president."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why did they keep voting longer?",
+        "a": "Both sides asked. Lula's said buses failed in two cities, Bolsonaro's said heavy rain in the south. A judge gave two more hours."
+      },
+      {
+        "q": "Can Bolsonaro cancel the result?",
+        "a": "He can ask. Lawyers told the BBC the chance is remote. The margin was 4.4 million."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Can the loser just refuse the result?",
+        "a": "He can say it. The electoral court confirmed Lula and the count stands."
+      },
+      {
+        "q": "Why does Trump care who runs Brazil?",
+        "a": "He backed Bolsonaro's jailed father and put tariffs on Brazil."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#Lula",
+    "#DinnerTableNews"
+  ],
+  "photo_subject": "Luiz Inácio Lula da Silva",
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 9,
+    "13-17": 13
+  },
+  "photo": "data/images/2026-10-26-noon.jpg",
+  "photo_credit": "Photo: Ricardo Stuckert/PR, Wikimedia Commons, CC BY 2.0",
+  "caption": "He can say it. The electoral court already confirmed Lula.\n\nBrazil's president took 51.79% in Sunday's runoff, 4.4 million votes clear of Flávio Bolsonaro, three weeks after losing the first round. Nobody had done that since civilian rule returned in 1985. Polls stayed open two extra hours at both camps' request. Bolsonaro calls the result impossible and wants it annulled. He turns 81 on Tuesday.\n\nSource: BBC News\nPhoto: Ricardo Stuckert/PR, Wikimedia Commons, CC BY 2.0\n\nSwipe for what to say at age 6, at 9, and at 13.\n\nThe dinner table question: If the game got two extra minutes, does the win still count? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #Lula #DinnerTableNews"
+}

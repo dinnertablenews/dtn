@@ -1,0 +1,76 @@
+{
+  "slot": "2026-10-26 12:00 CT",
+  "date": "2026-10-26",
+  "category": "Government",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/politics/california-election-officials-frustrated-rattled-by-doj-demand-to-sequester-noncitizen-ballots",
+  "source_domain": "pbs.org/newshour",
+  "headline": "DOJ wants 20,000 California ballots set aside. Judges balk.",
+  "summary": "Justice Department letters reached California's registrars on Friday, naming about 20,000 voters it calls likely noncitizens and demanding their ballots be set aside within 48 hours. Noncitizen voting is illegal and rare. The state says the lists have errors. On Sunday a 9th Circuit judge said: \"I don't see how we have jurisdiction.\"",
+  "cover_question": {
+    "band": "13-17",
+    "q": "Who gets to say whose vote counts?"
+  },
+  "cover_answer": "Counties count them. The DOJ's list is now before judges.",
+  "table_question": "If someone says the game is rigged, do you stop playing to check?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "The government in Washington sent letters to the people who count votes in California. It says about 20,000 voters might not be allowed to vote, and wants their ballots kept apart, like 20,000 envelopes in a separate box. The counters say the list has mistakes, and judges are looking at it. The people whose job this is are on it.",
+      "why": "The separate box is the whole idea. Who is on the list, and why, waits for later.",
+      "why_long": "A six-year-old takes one vivid feature for the whole event, so the script gives them the box of envelopes and the counters checking the list, and keeps the threats of prosecution off the card. Expect \"did they cheat?\" Nobody knows yet, and the list already has names on it that don't belong. The judges are checking."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "The DOJ sued on 15 October to stop California counting mail ballots from people it calls likely noncitizens. On Friday it sent each county a list and 48 hours. Mendocino's list named people who don't live there. A hall monitor's list, some names from the wrong school, and the counties kept counting.",
+      "why": "Wrong names on a list is a fairness call this age makes at once.",
+      "why_long": "This age is working out rules and who keeps them, so the script gives the chain: a lawsuit, a list, a 48-hour deadline, names that don't belong, counties counting on. The hall monitor with the wrong school is the mechanism. Expect \"what if some really aren't allowed?\" Then those votes shouldn't count. The fight is over checking."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Who gets to say whose vote counts? The DOJ gave California's counties 48 hours to set aside 20,000 ballots and warned clerks they could face charges. Noncitizen voting is illegal and rare: Trump's 1,500 in Nevada came to zero. Is a list enough to pull a ballot?",
+      "why": "Let them weigh the reason against the Nevada number first.",
+      "why_long": "A teenager can hold two true things at once: voting as a noncitizen is a crime, and the government's last headline number came to zero. The script asks whether a list is enough to pull a ballot. Expect \"why letters three weeks out?\" Napa's registrar says: to raise doubts about the result. Say whether you buy it."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Did somebody cheat?",
+        "a": "Nobody knows yet. The list has mistakes on it, and judges are checking before anything happens."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why can't they just check the list?",
+        "a": "Counties are. The state says the list names people who don't live there."
+      },
+      {
+        "q": "Do lots of people vote who aren't allowed?",
+        "a": "No, it's rare. Trump claimed 1,500 in Nevada. The check found zero."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Who gets to say whose vote counts?",
+        "a": "Counties count under state law, and courts settle fights over it. The DOJ's list is in court now."
+      },
+      {
+        "q": "Can a clerk really be prosecuted for counting?",
+        "a": "The LA prosecutor says yes, for knowingly counting a noncitizen's vote. Napa's registrar is counting anyway."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#CaliforniaBallots",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 9,
+    "13-17": 15
+  },
+  "caption": "Counties count them. The DOJ's list is now before judges.\n\nJustice Department letters reached California's registrars on Friday, naming about 20,000 voters it calls likely noncitizens and demanding their ballots be set aside within 48 hours. Noncitizen voting is illegal and rare. The state says the lists have errors. On Sunday a 9th Circuit judge said: \"I don't see how we have jurisdiction.\"\n\nSource: PBS NewsHour\n\nSwipe for what to say at age 7, at 9, and at 15.\n\nThe dinner table question: If someone says the game is rigged, do you stop playing to check? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #CaliforniaBallots #DinnerTableNews"
+}
