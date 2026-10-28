@@ -1,0 +1,77 @@
+{
+  "slot": "2026-10-28 12:00 CT",
+  "date": "2026-10-28",
+  "category": "Security",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/nation/authorities-say-serial-killer-ted-bundy-is-responsible-for-the-1974-murder-of-another-utah-teenage-girl",
+  "source_domain": "pbs.org/newshour",
+  "headline": "DNA tied Ted Bundy to a 1974 murder. 52 years to the day.",
+  "summary": "Melissa Smith was 17 when a hunter found her body in the Utah woods on October 27, 1974. On Tuesday, 52 years to the day, Utah said DNA from her autopsy closely matches a profile tied to Ted Bundy. The link came through Laura Aime, a Bundy victim identified in April. Bundy was executed in 1989. A third Utah girl's case is still open.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "Why solve it if he's already dead?"
+  },
+  "cover_answer": "For her family. Utah had 444 unsolved deaths in April.",
+  "table_question": "Would you keep a box for 52 years in case it mattered one day?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": true,
+      "script": "In 1974, a long time ago, a man in Utah killed a teenage girl named Melissa, and the police could not prove who. They kept a tiny piece of evidence safe for 52 years, longer than most grown-ups have been alive. This week a test on it showed it was him. He died a long time ago, so he can't hurt anyone, and the grown-ups have it.",
+      "why": "Only if it comes up. One box kept safe, one man long gone.",
+      "why_long": "A six-year-old takes one vivid feature for the whole event, so the card keeps the box and the test and leaves the number of victims out. Cantor found this age fears harm it can picture, which is why the script ends on a man who has been gone for decades. Expect \"could it happen to me?\" No. He died before you were born."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "In 1974 a hunter found Melissa Smith, 17, dead in the Utah woods. The case went cold, but police kept the evidence. In April, DNA tied Ted Bundy to another Utah girl, Laura Aime. Tuesday they said Melissa's evidence matches too, like a puzzle piece you can only place once the one beside it is down.",
+      "why": "One kept box, one earlier match, one more piece placed.",
+      "why_long": "This age is working out cause and effect, so the script runs one chain: evidence kept, a match in April on Laura Aime's case, and a comparison only possible after it. The puzzle piece is the mechanism, and it answers what this age asks first, which is why it took 52 years. Expect \"is the man in jail?\" No. He was executed in 1989."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Why solve it if he's already dead? Ted Bundy was executed in 1989, and on Tuesday Utah said DNA ties him to Melissa Smith, 17, killed in 1974, so her family finally has an answer. Second: Utah counted 444 unsolved deaths in April. Who decides which get a second look?",
+      "why": "An answer, no punishment. Let them say if it counts.",
+      "why_long": "A teenager can hold two true things: nobody can be punished, and the answer still matters to a family that waited 52 years. The script hands them that pair, then the 444, so the second question is about choosing, which is where they test whether you argue honestly. Expect \"why him and not the others?\" The articles don't say. Say so."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Could that happen to me?",
+        "a": "No. The man died before you were born. You're safe, and we're right here."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why did it take 52 years?",
+        "a": "Tests got better. April's match on another Utah girl gave them a comparison."
+      },
+      {
+        "q": "Is the man in jail?",
+        "a": "No. Ted Bundy was executed in Florida in 1989."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why solve it if he's already dead?",
+        "a": "For her family. A sheriff said it tells other cold cases there is hope."
+      },
+      {
+        "q": "How did DNA from 1974 still work?",
+        "a": "Police kept the evidence. April's match in another case did the rest."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#TedBundy",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 9,
+    "13-17": 16
+  },
+  "caption": "For her family. Utah had 444 unsolved deaths in April.\n\nMelissa Smith was 17 when a hunter found her body in the Utah woods on October 27, 1974. On Tuesday, 52 years to the day, Utah said DNA from her autopsy closely matches a profile tied to Ted Bundy. The link came through Laura Aime, a Bundy victim identified in April. Bundy was executed in 1989. A third Utah girl's case is still open.\n\nSource: PBS NewsHour\n\nSwipe for what to say at age 6, at 9, and at 16.\n\nThe dinner table question: Would you keep a box for 52 years in case it mattered one day? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #TedBundy #DinnerTableNews"
+}
