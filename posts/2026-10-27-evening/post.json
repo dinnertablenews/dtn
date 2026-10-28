@@ -1,0 +1,79 @@
+{
+  "slot": "2026-10-27 20:00 CT",
+  "date": "2026-10-27",
+  "category": "World",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/world/no-clear-winner-in-israeli-election-exit-polls-indicate-as-netanyahus-fate-hangs-in-the-balance",
+  "source_domain": "pbs.org/newshour",
+  "headline": "Israel voted. Exit polls say nobody has 61 seats.",
+  "summary": "Israel voted Tuesday for the first time since the October 7 attack. Exit polls give Netanyahu's bloc 50 seats, Gadi Eisenkot's opposition 52 to 53, and Arab-led parties 17 to 18. Nobody has the 61 needed to govern. More than 74% of voters had turned out by 8 p.m., the most in decades. Final results come in the next few days.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "How can a vote have no winner?"
+  },
+  "cover_answer": "Nobody got enough seats. Now they have to make a deal.",
+  "table_question": "Would you team up with someone you said you'd never work with?",
+  "ages": {
+    "5-7": {
+      "chip": "Good one to bring up",
+      "script": "Israel, a country far away, picked its leaders on Tuesday. More people voted than in a long time, but no side got enough to be in charge. Think of a tug of war where neither team can pull the rope over the line. Now the grown-ups there have to talk until they agree on who leads.",
+      "why": "One rope, two teams, nobody over the line. That is the whole story.",
+      "why_long": "A six-year-old reasons from what is in front of them, so the script turns 120 seats into a rope nobody can pull over the line. The word election stays out; the picture does the work. Expect \"who's the boss then?\" The old one, until they agree on a new one."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "A leader in Israel needs 61 of 120 seats. Exit polls give Netanyahu's bloc 50, Gadi Eisenkot's 52 or 53, and Arab-led parties 17 or 18. Nobody is over 61, so the parties now bargain, like picking teams when nobody has enough players. Both blocs have refused the Arab parties so far.",
+      "why": "The 61 rule, three numbers that miss it, and the team nobody will pick.",
+      "why_long": "This age is working out rules and whether adults keep them, so the script hands them one rule, 61 of 120, and three numbers that fall short of it. The team-picking is the chain: nobody has enough, so somebody has to be asked. Expect \"why won't they pick the Arab parties?\" Neither has wanted to, and the sums may now force it."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Would you take help from a group you promised never to work with? Exit polls say neither Netanyahu's bloc nor Eisenkot's has 61 seats, and the Arab-led parties, with 17 or 18, could decide it. Both have refused them until now. Second: 74% voted, the most in decades. A win for anyone?",
+      "why": "The promise against the arithmetic, then what turnout buys.",
+      "why_long": "A teenager can hold a promise and the sums that break it at once, so the script gives them both: two blocs that refused the Arab parties, and 17 seats neither can govern without. Then it asks what a record turnout bought. Expect \"so who actually won?\" Nobody yet, and say so. Results come in days; a government may take weeks."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "How can a vote have no winner?",
+        "a": "Nobody got enough seats, so the leaders have to make a deal."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Is Netanyahu still the leader?",
+        "a": "Yes, for now. He stays in charge until a new government is agreed."
+      },
+      {
+        "q": "Why won't they pick the Arab parties?",
+        "a": "Neither side has wanted to. Now those 17 seats may decide it."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Could they just vote again?",
+        "a": "Yes. If nobody can build 61 seats, Israel holds another election."
+      },
+      {
+        "q": "Why does this one matter so much?",
+        "a": "First vote since October 7, and a verdict on Netanyahu's 17 years."
+      }
+    ]
+  },
+  "photo_subject": "Benjamin Netanyahu",
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#IsraelElection",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 11,
+    "13-17": 13
+  },
+  "photo": "data/images/2026-10-27-evening.jpg",
+  "photo_credit": "Photo: Avi Ohayon, Wikimedia Commons, CC BY-SA 3.0",
+  "caption": "Nobody got enough seats. Now they have to make a deal.\n\nIsrael voted Tuesday for the first time since the October 7 attack. Exit polls give Netanyahu's bloc 50 seats, Gadi Eisenkot's opposition 52 to 53, and Arab-led parties 17 to 18. Nobody has the 61 needed to govern. More than 74% of voters had turned out by 8 p.m., the most in decades. Final results come in the next few days.\n\nSource: PBS NewsHour\nPhoto: Avi Ohayon, Wikimedia Commons, CC BY-SA 3.0\n\nSwipe for what to say at age 7, at 11, and at 13.\n\nThe dinner table question: Would you team up with someone you said you'd never work with? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #IsraelElection #DinnerTableNews"
+}
