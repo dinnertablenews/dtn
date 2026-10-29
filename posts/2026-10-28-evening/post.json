@@ -1,0 +1,79 @@
+{
+  "slot": "2026-10-28 20:00 CT",
+  "date": "2026-10-28",
+  "category": "Economy",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/cr15jxzv4w24o",
+  "source_domain": "bbc.com",
+  "headline": "The Fed held rates. Two of twelve wanted them higher.",
+  "summary": "The Federal Reserve kept its rate at 3.75% to 4% on Wednesday, less than a week before the midterms. It raised the rate in September for the first time in three years. Ten of twelve voted to hold; Lisa Cook and Beth Hammack wanted a quarter point more. Chair Kevin Warsh said inflation is still too high. The next vote is December 8 and 9.",
+  "photo_subject": "Kevin Warsh",
+  "cover_question": {
+    "band": "5-7",
+    "q": "What's an interest rate?"
+  },
+  "cover_answer": "The price of borrowing money. The Fed left it where it was.",
+  "table_question": "Should a referee listen to the crowd before making a call?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "Today twelve grown-ups in Washington decided how much it costs to borrow money, the way a shop decides what it charges to rent you a bike for an hour. They said: keep the price the same. Ten of them wanted that, and two wanted it a little higher. Nothing changes at our house, and the grown-ups have it.",
+      "why": "Renting a bike is a price they know. Twelve people and a vote is the whole story.",
+      "why_long": "A six-year-old reasons from what is in front of them, so the script turns an interest rate into a bike rental, a price for borrowing something for a while. The word belongs to the adult for now; the child keeps the picture. Expect \"do we borrow money?\" Yes, most families do, for the house or the car, and the price stayed the same today."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Prices rose 3.7% in the year to September, up from 2.4% before the Iran war pushed up gas. The Fed's one tool is the interest rate, a thermostat. Turn it up and borrowing costs more, so people spend less and prices cool. It went up in September. Wednesday it stayed put, to see if the room is cooling.",
+      "why": "One dial, one chain. Waiting is a choice too.",
+      "why_long": "This age is working out cause and effect, so the script runs one chain: gas up, prices up, rate up, spending down. The thermostat is the mechanism, and it carries the hard part, that turning the dial and then waiting is itself a decision. Expect \"why not turn it up more?\" Two of the twelve wanted to. The other ten want more data first."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Should the Fed raise rates a week before an election? The White House warned against it. Wednesday it held, 10 to 2. Chair Kevin Warsh said politics played no role. Second: Trump is trying to fire Lisa Cook, who voted to raise. Is the Fed independent if the president can fire its members?",
+      "why": "No politics, says the chair. A firing is underway. Let them weigh it.",
+      "why_long": "A teenager can hold two true things at once: the chair says politics played no role, and the president is trying to fire a governor who voted against him. The script hands them both and asks what independence means with a firing underway. Expect \"so who's right?\" Say you don't know, and that the December vote will tell them something."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "What's an interest rate?",
+        "a": "The extra you pay back when you borrow money. Like renting a bike: you pay a bit for the time you had it."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why not just make prices stop going up?",
+        "a": "No switch for prices. The Fed's one dial is borrowing cost."
+      },
+      {
+        "q": "Who were the two who wanted it higher?",
+        "a": "Lisa Cook, a Fed governor, and Beth Hammack of the Cleveland Fed."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Did politics decide it?",
+        "a": "Warsh says no. The White House had warned against a hike."
+      },
+      {
+        "q": "Can Trump actually fire Lisa Cook?",
+        "a": "He's trying, over mortgage fraud claims. Not settled yet."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#FederalReserve",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 12,
+    "13-17": 13
+  },
+  "photo": "data/images/2026-10-28-evening.jpg",
+  "photo_credit": "Photo: Federalreserve, Wikimedia Commons, Public domain",
+  "caption": "The price of borrowing money. The Fed left it where it was.\n\nThe Federal Reserve kept its rate at 3.75% to 4% on Wednesday, less than a week before the midterms. It raised the rate in September for the first time in three years. Ten of twelve voted to hold; Lisa Cook and Beth Hammack wanted a quarter point more. Chair Kevin Warsh said inflation is still too high. The next vote is December 8 and 9.\n\nSource: BBC News\nPhoto: Federalreserve, Wikimedia Commons, Public domain\n\nSwipe for what to say at age 6, at 12, and at 13.\n\nThe dinner table question: Should a referee listen to the crowd before making a call? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #FederalReserve #DinnerTableNews"
+}
