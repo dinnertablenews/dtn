@@ -1,0 +1,79 @@
+{
+  "slot": "2026-10-29 12:00 CT",
+  "date": "2026-10-29",
+  "category": "Good news",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/sport/baseball/articles/c5x2v991l0lvo",
+  "source_domain": "bbc.com",
+  "headline": "Milwaukee won the World Series. Its first, after 57 years.",
+  "summary": "The Milwaukee Brewers beat the Tampa Bay Rays 4-1 in Game 5 on Wednesday. It is the first World Series title in the franchise's 57-year history. William Contreras was the series MVP: he hit .381 and got 10 umpire calls overturned on challenge. Manager Pat Murphy is 67. The Rays have now lost all three World Series they have reached.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "Is a win sweeter after 57 years?"
+  },
+  "cover_answer": "Yes. Some fans waited their whole lives for Wednesday.",
+  "table_question": "Would you rather win once after 57 years, or a little every year?",
+  "ages": {
+    "5-7": {
+      "chip": "Good one to bring up",
+      "script": "A baseball team from Milwaukee called the Brewers won the biggest prize in baseball on Wednesday. They had tried for 57 years, longer than most mums and dads have been alive, and never won it before. Their best hitter, William Contreras, got 10 umpire calls changed by asking for a second look. Some things take a long time, and then they happen.",
+      "why": "One team, one long wait, one happy ending. A fact they can hold all day.",
+      "why_long": "A six-year-old takes one vivid feature for the whole event, so the script gives them one: a team that tried for 57 years and finally won. Fifty-seven means nothing to them on its own, so it is measured against the grown-ups at the table. Expect \"who did they beat?\" The Rays, who have now lost all three World Series they played in."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "The Brewers beat the Rays 4-1 in Game 5 on Wednesday, their first World Series title in 57 years. William Contreras was the MVP: he hit .381 and got 10 umpire calls overturned by challenging them. A challenge is instant replay you ask for: say the call was wrong, and a tracking system checks.",
+      "why": "Challenge the call, the machine checks, the call flips. Ten times.",
+      "why_long": "This age is working out rules and whether adults apply them fairly, so the script lands on the challenge system: a player who thinks the umpire got it wrong asks, and a machine checks. Contreras asked and the call flipped ten times. Expect \"can the umpire be wrong that often?\" Umpires are people. That is why the challenge is there."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Is a win sweeter after 57 years? The Brewers had never won the World Series, and on Wednesday they beat the Rays 4-1 in Game 5. Their manager, Pat Murphy, is 67. Second: the Rays have now lost all three World Series they reached. Is that worse than never getting there?",
+      "why": "Waiting and losing, both true at once. Let them say which one bites.",
+      "why_long": "A teenager can hold two true things at once: a title is sweeter after 57 years, and three lost finals might be worse than none. The script asks them to weigh the wait against the loss, and they will test whether you argue it honestly. Expect \"would you rather lose the final or never reach it?\" Pick one and say why."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "What's a World Series?",
+        "a": "The last big contest of the baseball year. Two teams play until one has won four games. The Brewers got to four first."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "What's a challenge?",
+        "a": "A player asks for a check on a pitch. A machine decides."
+      },
+      {
+        "q": "Why did it take 57 years?",
+        "a": "Lots of teams, one trophy a year. Fifty-seven tries, one win."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Is a win sweeter after 57 years?",
+        "a": "Yes. Some fans waited their whole lives for it."
+      },
+      {
+        "q": "Is losing three finals worse than never getting there?",
+        "a": "Only two other teams ever lost their first three. Decide which hurts more."
+      }
+    ]
+  },
+  "photo_subject": "William Contreras",
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#Brewers",
+    "#DinnerTableNews"
+  ],
+  "photo": "data/images/2026-10-29-noon.jpg",
+  "photo_credit": "Photo: D. Benjamin Miller, Wikimedia Commons, CC0",
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 12,
+    "13-17": 17
+  },
+  "caption": "Yes. Some fans waited their whole lives for Wednesday.\n\nThe Milwaukee Brewers beat the Tampa Bay Rays 4-1 in Game 5 on Wednesday. It is the first World Series title in the franchise's 57-year history. William Contreras was the series MVP: he hit .381 and got 10 umpire calls overturned on challenge. Manager Pat Murphy is 67. The Rays have now lost all three World Series they have reached.\n\nSource: BBC News\nPhoto: D. Benjamin Miller, Wikimedia Commons, CC0\n\nSwipe for what to say at age 7, at 12, and at 17.\n\nThe dinner table question: Would you rather win once after 57 years, or a little every year? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #Brewers #DinnerTableNews"
+}
