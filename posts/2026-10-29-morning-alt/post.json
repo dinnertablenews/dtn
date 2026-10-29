@@ -1,0 +1,77 @@
+{
+  "slot": "2026-10-29 07:00 CT",
+  "date": "2026-10-29",
+  "category": "World",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/c6p3g84kjqjlo",
+  "source_domain": "bbc.com",
+  "headline": "A train hit a stopped train in Spain. At least 68 died.",
+  "summary": "A high-speed train from Madrid to Seville ran into a stopped train on Wednesday morning, 140km south of Madrid. At least 68 people died and dozens were hurt. The transport minister said a computer failure halted six trains, then a control centre told them to move again with no speed limit. It is Spain's second deadly rail crash this year.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "How can a train hit a stopped one?"
+  },
+  "cover_answer": "A control room told it to go. Nobody set a speed limit.",
+  "table_question": "When a machine fails and a person then errs, who carries the blame?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": true,
+      "script": "Two trains crashed into each other in Spain on Wednesday, far away across the ocean. A lot of people were hurt and some died. Trains follow signals the way cars follow traffic lights, and something went wrong with the signals. The grown-ups in Spain are finding out exactly what, so they can fix it.",
+      "why": "Only if it comes up. Far away, a reason, and someone fixing it.",
+      "why_long": "A six-year-old reasons from what is in front of them, so the first move is distance: Spain, across an ocean. The second is a mechanism they trust, the traffic light, because what frightens this age is a thing with no reason, and a signal that broke is a reason. Expect \"could our train crash?\" Very rarely, and the grown-ups have it."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "On Wednesday morning a high-speed train from Madrid to Seville ran into a train stopped on the track ahead. At least 68 people died. Trains run on signals the way cars run on traffic lights: a computer failed, six trains stopped, and a control room told them to go again with no speed limit.",
+      "why": "Computer failed, control room said go, no speed limit. One chain.",
+      "why_long": "This age is working out chains of cause and effect, so the script hands them one: a computer failed, six trains stopped, a control room said go, nobody set a speed limit. The traffic light shows where the chain broke. Expect \"whose fault was it?\" The minister blames the control room; a union says he is blaming one worker."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "When a computer fails and then a person does, who is to blame? Spain's minister says a control room let six halted trains go again with no speed limit, and one hit a stopped train. A union says he is scapegoating one manager. Second: 46 died on this line in January. Is twice a system failure?",
+      "why": "Machine error, then human error. Let them argue who owns it.",
+      "why_long": "A teenager can reason about a system they cannot see, so the script hands them the chain and two readings of it: a control-room error, or a railway that let one error become 68 deaths. Kuhn's point is that argument is practised against someone who argues back, so take a side. Expect \"will anyone resign?\" A union wants the minister out."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Could our train crash?",
+        "a": "Trains crash very rarely. This one happened because a signal went wrong far away in Spain, and the grown-ups are fixing it."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "How can a train hit a stopped one?",
+        "a": "A computer failed, then a control room said go with no speed limit."
+      },
+      {
+        "q": "Will they find out why?",
+        "a": "The prime minister promised to, and to fix any safety failure."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Was it the computer or the person?",
+        "a": "Both: the computer failed, then the control room said go."
+      },
+      {
+        "q": "Why does the election matter here?",
+        "a": "Spain votes next month. Vox won't let mourning gag criticism."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#SpainTrainCrash",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 10,
+    "13-17": 16
+  },
+  "caption": "A control room told it to go. Nobody set a speed limit.\n\nA high-speed train from Madrid to Seville ran into a stopped train on Wednesday morning, 140km south of Madrid. At least 68 people died and dozens were hurt. The transport minister said a computer failure halted six trains, then a control centre told them to move again with no speed limit. It is Spain's second deadly rail crash this year.\n\nSource: BBC News\n\nSwipe for what to say at age 6, at 10, and at 16.\n\nThe dinner table question: When a machine fails and a person then errs, who carries the blame? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #SpainTrainCrash #DinnerTableNews"
+}
