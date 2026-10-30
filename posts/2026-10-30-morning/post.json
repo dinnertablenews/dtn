@@ -1,0 +1,76 @@
+{
+  "slot": "2026-10-30 07:00 CT",
+  "date": "2026-10-30",
+  "category": "Technology",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/cwg7xp8kx4v5o",
+  "source_domain": "bbc.com",
+  "headline": "Hackers hit Binance for $6.3bn. Likely a record.",
+  "summary": "Binance, the world's biggest crypto exchange, said Thursday that hackers got at $6.3bn of digital assets, which may be the largest hack in history. About half was frozen before it could be spent. Early checks point to one engineer's compromised laptop. Two analytics firms blame a North Korean unit. Binance says it will cover all losses.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "How do you steal $6.3 billion?"
+  },
+  "cover_answer": "Through one engineer's laptop, Binance says.",
+  "table_question": "A thief took your money and a company paid it back. Were you robbed?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "Thieves on the internet got into a big company called Binance on Thursday and took money out, like a hand slipping into a till when nobody is looking. It was more than six billion dollars, the most ever taken that way. Nobody was hurt. Binance says it will pay everyone back, and the police are hunting the thieves.",
+      "why": "A till, a hand, nobody hurt, someone paying it back.",
+      "why_long": "A child this age reasons from what is in front of them, so the script turns a hack into a hand in a till, a theft they can picture, and leaves the number as a very big one. What frightens this age is harm to people, so nobody hurt comes before the money. Expect \"did they take our money?\" No. Only money kept at that one company."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Binance holds people's digital money like a bank holds dollars. On Thursday someone got into one engineer's laptop, Binance says, and pulled out $6.3bn, the most ever in one hack. Other crypto firms froze half before it was spent, like a bank blocking a stolen card. Binance says it will cover every loss.",
+      "why": "Laptop, withdrawal, frozen card. One chain.",
+      "why_long": "This age is working out chains of cause and effect, so the script hands them one: a laptop is broken into, the laptop can move money, the money goes, other companies freeze half of it. The blocked card is a mechanism they know. Expect \"is the money gone?\" Half is frozen. The rest is with the hackers, and Binance says it will pay."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "If a company is robbed of $6.3bn and pays everyone back, was anyone hurt? Binance says it will cover all losses; a trader told Axios a smaller exchange would have collapsed. Second: two analytics firms blame a North Korean hacking unit. If a state runs heists for income, is it crime or policy?",
+      "why": "A victim who pays, a thief that is a state. Two things to hold.",
+      "why_long": "A teenager can hold two true things at once: a theft with no visible victim because the company will pay, and a thief that may be a government. The script asks who is hurt when nobody is out of pocket, and whether a state heist is crime or policy. Expect \"why would North Korea do this?\" Axios says it runs hacking at industrial scale."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Did they take our money?",
+        "a": "No. Only money kept at that one company, far away. Binance says it will pay those people back."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "How do you steal $6.3 billion?",
+        "a": "Binance says someone got into one engineer's laptop and took it out."
+      },
+      {
+        "q": "Is the money gone?",
+        "a": "Half was frozen before it was spent. Half is still with the hackers."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Who pays if Binance covers it?",
+        "a": "Binance. A trader told Axios its insurance can take it."
+      },
+      {
+        "q": "Why would North Korea do this?",
+        "a": "For money, Axios says, at industrial scale. Nobody has proved this one."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#Binance",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 9,
+    "13-17": 15
+  },
+  "caption": "Through one engineer's laptop, Binance says.\n\nBinance, the world's biggest crypto exchange, said Thursday that hackers got at $6.3bn of digital assets, which may be the largest hack in history. About half was frozen before it could be spent. Early checks point to one engineer's compromised laptop. Two analytics firms blame a North Korean unit. Binance says it will cover all losses.\n\nSource: BBC News\n\nSwipe for what to say at age 7, at 9, and at 15.\n\nThe dinner table question: A thief took your money and a company paid it back. Were you robbed? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #Binance #DinnerTableNews"
+}
