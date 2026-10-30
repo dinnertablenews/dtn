@@ -3318,5 +3318,24 @@
   "publish_run": 41047828014,
   "published": "https://www.instagram.com/p/DfHi4mlkfux/",
   "published_at": "2026-10-30T12:07:33+0000"
+ },
+ {
+  "slug": "2026-10-30-noon",
+  "date": "2026-10-30",
+  "slot": "noon",
+  "category": "Economy",
+  "headline": "Europe's top central banker is leaving eight months early.",
+  "photo": true,
+  "cover_band": "13-17",
+  "publish_target": "2026-10-30T11:59-05:00",
+  "chosen": "primary",
+  "alternate": {
+   "folder": "posts/2026-10-30-noon-alt",
+   "category": "World",
+   "headline": "A train hit a stopped train in Spain. At least 69 died.",
+   "photo": false
+  },
+  "published": null,
+  "note": "Run fired at 11:12 CT for the 12:00 noon slot; target drawn once at 11:13 CT: 11:59. Rule 3 count: the last Good news entry is 2026-10-29-noon (the Brewers) and two stories have run since (10-29-evening, 10-30-morning), so this slot is not the positive one; the count stands at 3 after this slot and tomorrow morning is the fifth. Rule 1: #1 (AP News, Axios, BBC News, PBS NewsHour; 4 outlets, 7 items), Netanyahu's party calling the election stolen, is the Israeli election of 2026-10-27-evening moved on; #2 (4 outlets), #3 (3 outlets) and #13 (2 outlets), the Alaska spoiler candidate, the DOJ subpoenas and the governor on certification, are the same-name story of 2026-10-24-morning moved on; #4 (AP News, PBS NewsHour, Semafor; 3 outlets), the aid convoy entering Oleshky under the truce, is the truce 2026-10-23-noon announced, now begun, seven days ago to the slot; #6 Patrick Stewart ran 10-29-evening, #7 the Brewers 10-29-noon, #8 Binance this morning, #14 Serbia's students 10-25-evening. All barred. Rule 5: every remaining cluster sits at two outlets, so the category tie-break runs: in the last 7 days of the log World appears five times, Government four, Good news three, Culture three, Security twice, Health, Climate, Economy and Technology once. Economy is the least-run category with a cluster in the tie, so #10 (AP News, Semafor; 2 outlets, 2 items), Christine Lagarde stepping down from the ECB, takes the slot over #5 (AP News, BBC News; 2 outlets, 6 items), the Spain train crash, World, and #9, #11 and #12, all Government, and #15, the White House Halloween, Culture. Rule 2: today's lead subject so far is Binance; Lagarde is no clash. Written from the Semafor text (step down in February, eight months before her tenure was set to end; rumoured since the beginning of the year; a leadership contest as Europe faces inflationary pressures largely sparked by the war in Iran; rates likely held, a hike expected as early as December; Reuters reporting she could be confirmed to lead the World Economic Forum as early as next month; batted away suggestions of a French presidential run; European officials want her successor appointed before France's presidential election in April, which the far right is expected to win). The AP item had no text; its headline supplies 'resigns' and 'allowing EU leaders to choose successor before French election'. One article with text, so the post gives no rate figure and no inflation number. Photo: Christine Lagarde, a public figure leaving a post, not a death, arrest or scandal; the last two entries ran no photo; commons.yml returned the ECB's 2019 portrait (Lemrich / European Central Bank, Attribution), a single photograph, no zoom needed. Rule 8: the alternate is the highest remaining cluster whose category is not Economy: #5, the Spain train crash, World. Fifth time as the alternate and never run, so it stays fair game; passes rules 1, 2 and 6; the primary is not a hard story, so the hard alternate stands on rank. Carried over from the morning alternate against the same BBC News texts, with the newest BBC piece (the leaked control-centre recordings, 'at normal speed?' 'Yes', 397 and 147 passengers, Puente calling the order inexplicable, the Semaf strike, 29 November) confirming every number; the cover question recast for the 13-17 band: 'Machine error or human error?'; 'he hit a stopped train' changed to 'that train hit a stopped one' because the articles do not give the driver's sex. 5-7 shielded. No photo. Cover band rotation: last entry 8-12, so 13-17 on both. Drawn ages 7, 10, 13 on the primary and 7, 9, 14 on the alternate. Primary render: WHY TOO LONG on all three why_long notes against a 325-character summary, then TOO LOW on the 8-12 (142px) and 13-17 (83px) cards, then 13px on the 8-12, until the scripts came down to 292, 303 and 316 characters and the 8-12 and 13-17 Try answers to one line each. Pillow under /usr/local/bin/python was the broken system copy and had to be reinstalled before the photo cover would render. Alternate render exit 0 on the first pass. All ten slides looked at; headlines and cover questions two lines each. voice.py clean on both. Reel built for the primary, 13.6s."
  }
 ]
