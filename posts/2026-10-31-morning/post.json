@@ -1,0 +1,76 @@
+{
+  "slot": "2026-10-31 07:00 CT",
+  "date": "2026-10-31",
+  "category": "Government",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/politics/appeals-court-rejects-justice-department-request-for-california-to-set-aside-disputed-ballots",
+  "source_domain": "pbs.org/newshour",
+  "headline": "A court said no to the DOJ on California's ballots. Again.",
+  "summary": "The Justice Department says about 20,000 California voters may not be citizens and wants their ballots held back until it checks. On Friday a 9th Circuit panel said no, 2-1: there is no workable way to pull those ballots without wrecking the count. A district judge said the same Wednesday. The DOJ says it will go to the Supreme Court.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "Why not pull the 20,000 ballots?"
+  },
+  "cover_answer": "Once counted, a ballot can't be traced back to the voter.",
+  "table_question": "Which is worse: one wrong vote counted, or one right vote lost?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "Grown-ups in California are voting right now, mostly by mail. Washington said some ballots might belong to people who aren't allowed to vote, and asked to pull them out. A court said no. They're mixed in now, like sugar stirred into tea, and nobody's vote gets lost.",
+      "why": "Sugar in tea is something a six-year-old has watched. The mixing is the whole ruling, and the judges can wait.",
+      "why_long": "A child this age takes one vivid feature for the whole event, so the script gives them one picture, sugar stirred in, and a calm ending. That picture is the panel's finding in a form a six-year-old can test at breakfast. Expect \"Did the bad people vote?\" Say nobody knows, and the state thinks most people on the list are allowed to."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "The DOJ has a list of about 20,000 California voters it says may not be citizens, and asked a court to hold their ballots back. California says the list is full of errors. Two judges of three said no: once a ballot is counted, nobody can tell whose it was. Like pulling five tests from a graded, shuffled stack.",
+      "why": "Kids this age can follow a chain: a list, a request, a ruling. The shuffled stack shows why the answer had to be no.",
+      "why_long": "At this age a child is working out cause and effect, so the script runs the chain from list to request to ruling, and the shuffled stack shows why the court could not say yes. Expect \"What if some really weren't citizens?\" Say that is the dissenting judge's point, and the other two decided wrecking the count was the bigger harm."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "If a list of 20,000 suspected noncitizen voters might be mostly wrong, who carries the risk: the state, or the people on it? The DOJ says every illegal ballot cancels a citizen's vote. The 9th Circuit said, 2-1, that pulling those ballots would wreck the count. Which mistake is worse?",
+      "why": "Teenagers can weigh two real harms against each other. Give them both and let them argue the split before you pick a side.",
+      "why_long": "A teenager can hold two true things at once: an ineligible vote dilutes a real one, and a bad list can strip real voters of theirs. The script puts both on the table and asks which error is worse, the question the three judges split on. Expect \"Which side are you on?\" Answer honestly, then ask what they would need to know first."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Did somebody cheat?",
+        "a": "Nobody knows yet. The state says most people on the list are allowed to vote. The grown-ups are checking."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why not pull the 20,000 ballots?",
+        "a": "Once counted, a ballot can't be traced back to its voter."
+      },
+      {
+        "q": "Is it illegal for a noncitizen to vote?",
+        "a": "Yes. The fight is over whether the list of 20,000 is right."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why did one judge disagree?",
+        "a": "He said refusing to separate the ballots encourages breaking federal law."
+      },
+      {
+        "q": "So is this over?",
+        "a": "No. The DOJ says it will go to the Supreme Court. Voting ends Tuesday."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#NinthCircuit",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 10,
+    "13-17": 14
+  },
+  "caption": "Once counted, a ballot can't be traced back to the voter.\n\nThe Justice Department says about 20,000 California voters may not be citizens and wants their ballots held back until it checks. On Friday a 9th Circuit panel said no, 2-1: there is no workable way to pull those ballots without wrecking the count. A district judge said the same Wednesday. The DOJ says it will go to the Supreme Court.\n\nSource: PBS NewsHour\n\nSwipe for what to say at age 6, at 10, and at 14.\n\nThe dinner table question: Which is worse: one wrong vote counted, or one right vote lost? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #NinthCircuit #DinnerTableNews"
+}
