@@ -1,0 +1,77 @@
+{
+  "slot": "2026-11-01 07:00 CT",
+  "date": "2026-11-01",
+  "category": "Health",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/world/congos-ebola-deaths-top-5000-as-fear-of-continent-wide-spread-mounts",
+  "source_domain": "pbs.org/newshour",
+  "headline": "Ebola has killed 5,026 in Congo since May.",
+  "summary": "Congo's health ministry says 5,026 people have died of Ebola since May, out of 10,351 infected. This strain, Bundibugyo, has no vaccine and no treatment. A third of the dead never reached a clinic. Nurses at one treatment center walked out Friday over four months of unpaid wages. Cases have turned up in Uganda, Kenya and Nigeria.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "Why isn't there a shot for this one?"
+  },
+  "cover_answer": "Not for this strain. Vaccine trials are running.",
+  "table_question": "Would you keep doing a job you weren't paid for, if people needed you?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": true,
+      "script": "A sickness called Ebola is making people very ill in Congo, a country in Africa, across the whole ocean from us. It only spreads by touching a sick person's blood or sick, so the doctors there are very careful. It is not here, and the grown-ups have it.",
+      "why": "Shielded. Only if they hear it. Distance and one clear rule about how it spreads are the whole script; the number stays out. A six-year-old keeps one detail from a story, so make it far away.",
+      "why_long": "A five-year-old takes one vivid detail for the whole event, so the death count stays out and two facts stay in: it spreads by touch, and it is across the ocean. Cantor found that physical facts like far away calm this age better than odds do. Expect \"could it come here?\" Say no, it is not here, and the doctors are watching."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "Since May, Ebola has infected 10,351 people in Congo and killed 5,026, nearly half. This strain has no vaccine, so stopping it means finding everyone a sick person touched, like a contact list. Eight in ten new cases come from people nobody was tracking. Nurses there haven't been paid in four months.",
+      "why": "Infected, died, half: numbers they can hold. The contact list makes an invisible chain a thing they've done.",
+      "why_long": "This age is building chains of cause and effect, so the script gives them one: no vaccine, so you trace every contact, and eight in ten new cases come from people nobody traced. The unpaid nurses are a fairness question they will argue well. Expect \"why don't they just pay them?\" Say the nurses are tired of asking."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Would you keep working an Ebola ward after four months without pay? Nurses in Ituri walked out Friday. Second: a nurse was killed last week by locals who said health workers were spreading the virus. When half of the sick die and nobody trusts the clinic, what gets the next person through the door?",
+      "why": "Pay and trust are the two levers here, and both are arguable. Let them answer the first question before you say what you'd do.",
+      "why_long": "A teenager can hold two things at once: the nurses have a case, and walking out leaves five patients with nobody. The second question is harder, because the people attacking health workers are frightened too. Kuhn calls arguing a skill you practise, so let them run it. Expect \"would you stay?\" Answer honestly."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Could I get Ebola?",
+        "a": "No. It's in Congo, in Africa, very far away, and it only spreads by touching a sick person's blood or sick. You're safe."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why isn't there a shot for this one?",
+        "a": "This strain has no vaccine or treatment yet. Trials are under way."
+      },
+      {
+        "q": "Why do so many people die from it?",
+        "a": "Nearly half who catch it die. A third of the dead never reached a clinic."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why are nurses on strike during an outbreak?",
+        "a": "Four months unpaid. One said feeding his family is now a real problem."
+      },
+      {
+        "q": "Why would anyone attack a nurse?",
+        "a": "Locals accused them of poisoning water. Fear and rumour, in a war zone."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#Ebola",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 9,
+    "13-17": 13
+  },
+  "caption": "Not for this strain. Vaccine trials are running.\n\nCongo's health ministry says 5,026 people have died of Ebola since May, out of 10,351 infected. This strain, Bundibugyo, has no vaccine and no treatment. A third of the dead never reached a clinic. Nurses at one treatment center walked out Friday over four months of unpaid wages. Cases have turned up in Uganda, Kenya and Nigeria.\n\nSource: PBS NewsHour\n\nSwipe for what to say at age 6, at 9, and at 13.\n\nThe dinner table question: Would you keep doing a job you weren't paid for, if people needed you? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #Ebola #DinnerTableNews"
+}
