@@ -1,0 +1,79 @@
+{
+  "slot": "2026-10-31 20:00 CT",
+  "date": "2026-10-31",
+  "category": "Government",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/politics/virginia-and-d-c-sue-over-trumps-arch-adding-to-legal-challenges-as-government-wants-work-to-begin",
+  "source_domain": "pbs.org/newshour",
+  "headline": "DC and Virginia sued to stop Trump's 250-foot arch.",
+  "summary": "DC and Virginia sued Saturday to block the arch Trump wants beside the bridge to Arlington National Cemetery. It would stand 250 feet, 100 feet taller than the Statue of Liberty. Their filing says three years of construction would snarl traffic and slow ambulances. That makes three lawsuits. Work could start next week.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Why don't they want the big arch?"
+  },
+  "cover_answer": "They say three years of building would jam the roads.",
+  "table_question": "Should your neighbors get a vote on what you build?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "The president wants to build a giant stone arch near Washington, taller than the Statue of Liberty. The city next to it and the state across the river asked a judge to stop it. They say the building work would jam the roads for three years, like a traffic cone that never moves. A judge decides, and nothing changes for you.",
+      "why": "A statue-sized thing and a traffic jam. Two pictures they already have. They can't follow a lawsuit, and the cone does that work for them.",
+      "why_long": "A child this age takes one vivid feature for the whole event, so the script gives them two they already own: something taller than the Statue of Liberty, and a traffic jam that lasts three years. Who sued whom never comes up. Expect \"will they build it?\" Say a judge decides, and nobody knows yet."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "Trump wants a 250-foot arch at the bridge to Arlington cemetery, 100 feet taller than the Statue of Liberty. DC and Virginia sued Saturday: three years of building would jam the road and slow ambulances. They want a judge to pause it, like a hall monitor holding the line.",
+      "why": "Plan, objection, judge. The hall monitor is the pause they know.",
+      "why_long": "This age is working out rules and who enforces them, so the script runs the chain: a plan, two governments that object, a judge who can pause it. The hall monitor is the pause they know. Expect \"can a judge really stop the president?\" She can pause the work while the case is heard, and one said she would decide fast."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Who gets a say when the federal government builds on federal land in your city? DC and Virginia say nobody asked them, and sued. The White House says the arch honors veterans. Second: the judge asked what the rush was beyond \"bedazzling the city.\" Is hurry a reason to stop it?",
+      "why": "Veterans and traffic, both real. Let them pick which one carries.",
+      "why_long": "A teenager can hold two true things at once: the arch is meant to honor veterans, and two governments say it would jam their roads for three years and nobody asked them. The script asks who gets a say, which is the legal question. Expect \"isn't the judge biased?\" She asked a pointed question. Say whether a judge may."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Why don't they want the big arch?",
+        "a": "They say building it would jam the roads for three years and make it slower for ambulances to get through. A judge will decide."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Who's suing who?",
+        "a": "DC and Virginia are suing the Park Service, which would build it."
+      },
+      {
+        "q": "Can a judge really stop the president's building?",
+        "a": "A judge can pause work while the case is heard. One said she'd be quick."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Who gets a say on federal land in a city?",
+        "a": "DC and Virginia say nobody consulted them. A judge sorts it out."
+      },
+      {
+        "q": "Does \"bedazzle the city\" count as a reason?",
+        "a": "Her word, asking what the urgency was. Decide if \"priority\" answers it."
+      }
+    ]
+  },
+  "photo_subject": "Arlington Memorial Bridge",
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#TriumphalArch",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 9,
+    "13-17": 13
+  },
+  "photo": "data/images/2026-10-31-evening-alt.jpg",
+  "photo_credit": "Photo: Antony-22, Wikimedia Commons, CC BY-SA 4.0",
+  "caption": "They say three years of building would jam the roads.\n\nDC and Virginia sued Saturday to block the arch Trump wants beside the bridge to Arlington National Cemetery. It would stand 250 feet, 100 feet taller than the Statue of Liberty. Their filing says three years of construction would snarl traffic and slow ambulances. That makes three lawsuits. Work could start next week.\n\nSource: PBS NewsHour\nPhoto: Antony-22, Wikimedia Commons, CC BY-SA 4.0\n\nSwipe for what to say at age 6, at 9, and at 13.\n\nThe dinner table question: Should your neighbors get a vote on what you build? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #TriumphalArch #DinnerTableNews"
+}
