@@ -1,0 +1,76 @@
+{
+  "slot": "2026-11-02 12:00 CT",
+  "date": "2026-11-02",
+  "category": "Technology",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/cq1kd1nee80eo",
+  "source_domain": "bbc.com",
+  "headline": "Hackers set store freezers to 122F across Europe.",
+  "summary": "Supermarkets in seven European countries found their freezers at 122F Monday. Some 40 Delhaize stores in Belgium and Luxembourg were hit, and shops in Sweden, Ireland, the Netherlands, Estonia and Finland. The fridges run over the internet; the hackers flipped them to defrost. One Belgian store lost €100,000 of food. Nobody knows who.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "Why is a freezer on the internet?"
+  },
+  "cover_answer": "So repairmen can fix it from a desk. Hackers used that door.",
+  "table_question": "What in your house should never be connected to the internet?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "Overnight, somebody far away reached into supermarket freezers in Europe and turned them up to 122 degrees, hotter than the hottest summer day. The ice cream melted and the stores had to throw the food out. Nobody got hurt. The fixers are pulling the freezers off the internet, and the grown-ups have it.",
+      "why": "Melted ice cream is a thing they have seen. How a stranger reached the switch is a grown-up problem, and the script says so.",
+      "why_long": "A six-year-old takes one vivid feature, so the script gives them one they can picture: ice cream melting in a freezer turned up to hot. How a stranger reached the switch is beyond this age; the script hands it to the fixers. Expect \"could they melt ours?\" Say they got in through the internet, and the stores are shutting the door."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Most supermarket fridges in Europe are online so a repair company can fix them from its office. Overnight someone else got in and set dozens to defrost, like turning the thermostat to 122 while the house sleeps. By morning, stores in seven countries were binning food. The maker says the fix needs new parts.",
+      "why": "Internet, switch, melt, bin. A thermostat is a dial they have turned.",
+      "why_long": "This age is working out cause and effect, and this story is one clean chain: internet door, defrost switch, warm freezer, food in the bin. A thermostat is a dial they have turned, so a stranger at it is easy to picture, and \"who is allowed to touch it\" is the rule they go to. Expect \"did they catch them?\" Not yet. Nobody knows who."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Why is a freezer on the internet? So a technician can fix it from a desk, and that is the door the hackers used to set dozens to defrost across seven countries overnight. Second: the same trick hit hundreds of French stores last month, and the fix is new hardware, not a patch. Was a month long enough?",
+      "why": "The convenience and the hole are the same door. Let them judge the month first.",
+      "why_long": "A teenager can hold two true things at once: the internet link is why a broken fridge gets fixed by morning, and how a stranger set it to defrost. The script hands them both, then a timeline, France in October and this on November 2, and asks if a month was enough. Expect \"so who did it?\" Nobody knows. Three agencies are looking."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Did the ice cream melt?",
+        "a": "Yes, in some stores. They threw it out, and the fixers are putting the freezers right."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why would anyone melt ice cream?",
+        "a": "Nobody has said. One Belgian store lost €100,000 of food."
+      },
+      {
+        "q": "Can they do it to our fridge?",
+        "a": "Only if it's on the internet and someone finds the door."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why is a freezer on the internet?",
+        "a": "So repair companies can fix it remotely. That same door let the hackers in."
+      },
+      {
+        "q": "Who did it?",
+        "a": "Nobody knows. Belgian, Swedish and UK cyber agencies are on it."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#FreezerHack",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 11,
+    "13-17": 13
+  },
+  "caption": "So repairmen can fix it from a desk. Hackers used that door.\n\nSupermarkets in seven European countries found their freezers at 122F Monday. Some 40 Delhaize stores in Belgium and Luxembourg were hit, and shops in Sweden, Ireland, the Netherlands, Estonia and Finland. The fridges run over the internet; the hackers flipped them to defrost. One Belgian store lost €100,000 of food. Nobody knows who.\n\nSource: BBC News\n\nSwipe for what to say at age 6, at 11, and at 13.\n\nThe dinner table question: What in your house should never be connected to the internet? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #FreezerHack #DinnerTableNews"
+}
