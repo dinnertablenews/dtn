@@ -1,0 +1,77 @@
+{
+  "slot": "2026-11-01 20:00 CT",
+  "date": "2026-11-01",
+  "category": "Health",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/politics/connecticut-sen-chris-murphy-is-in-the-hospital-after-having-a-stroke-his-office-says",
+  "source_domain": "pbs.org/newshour",
+  "headline": "Sen. Chris Murphy had a stroke. He's awake and alert.",
+  "summary": "Connecticut Sen. Chris Murphy, 53, felt his arm go numb at his son's hockey game Saturday. A local hospital found he'd had a stroke and moved him to Johns Hopkins. His office says he is awake, alert and responding to treatment, and expects a full recovery. Three other Senate Democrats have had strokes since 2022. All three still serve.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Is he going to be okay?"
+  },
+  "cover_answer": "His office says yes. Awake, alert and getting better.",
+  "table_question": "Should your boss know how sick you are, or just that you're out?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": true,
+      "script": "A man named Chris Murphy, who helps make laws for our country, was at his son's hockey game when his arm went numb, like when your foot falls asleep. Doctors found he'd had a stroke: blood stopped reaching part of his brain for a bit. He's awake now, and his doctors think he'll get all better. The grown-ups have it.",
+      "why": "Shielded. Only if they hear it. A numb arm is a feeling they know, so the stroke gets one plain sentence and the recovery gets two. A six-year-old reads your face before your words, so say it calmly.",
+      "why_long": "A six-year-old reasons from what is in front of them, so the script opens on a feeling they have had: a foot gone to sleep. The stroke gets one sentence and the recovery gets two, because Cantor found this age takes the ending for the whole story. Expect \"could that happen to you?\" Say it is rare, and that he got help fast."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Sen. Chris Murphy, 53, felt his arm go numb at his son's hockey game Saturday. That's a warning sign, like a smoke alarm: he got to a hospital fast, doctors found a stroke and moved him to Johns Hopkins, a bigger one. He's awake and alert, and his office expects a full recovery.",
+      "why": "Numb arm, hospital, bigger hospital, recovery: a chain with a happy end. The smoke alarm turns a scary word into a sign you act on.",
+      "why_long": "This age is working out cause and effect, so the script hands them one chain: numb arm, hospital, bigger hospital, recovery. A stroke is invisible, so the smoke alarm gives them a sign they can act on. Expect \"what if it happens to Grandpa?\" Say the sign is the same for anyone, and that getting help fast is the whole point."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Chris Murphy's office says he'll recover fully. It did not say how bad the stroke was. Is a senator's health his own business, or the voters'? Second: John Fetterman had a stroke in 2022 and now works with live captions on a tablet. Where's the line between recovered enough to serve and not?",
+      "why": "Privacy and the public's right to know are both real, and the office's silence on severity makes it live. Let them pick a side before you do.",
+      "why_long": "A teenager can hold two true things at once: a man in a hospital bed is owed privacy, and a senator's health is public business. The office's silence on how bad it was keeps the question live, and Fetterman's captions make the second one concrete. Expect \"would you tell people?\" Answer for yourself, then ask what they'd tell a boss."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Is he going to be okay?",
+        "a": "Yes, his office says. He's awake, and his doctors think he'll get all better."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "What is a stroke?",
+        "a": "Blood stops reaching part of the brain. His first sign was a numb arm."
+      },
+      {
+        "q": "Can he still be a senator?",
+        "a": "Yes. Three other senators had strokes in 2022, and all three still serve."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Is a senator's health his own business, or the voters'?",
+        "a": "Both. His office said he'll recover, and left out how bad it was."
+      },
+      {
+        "q": "Why does it matter two days before an election?",
+        "a": "He's not on the ballot, but he'd spent weeks campaigning for others."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#ChrisMurphy",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 11,
+    "13-17": 15
+  },
+  "caption": "His office says yes. Awake, alert and getting better.\n\nConnecticut Sen. Chris Murphy, 53, felt his arm go numb at his son's hockey game Saturday. A local hospital found he'd had a stroke and moved him to Johns Hopkins. His office says he is awake, alert and responding to treatment, and expects a full recovery. Three other Senate Democrats have had strokes since 2022. All three still serve.\n\nSource: PBS NewsHour\n\nSwipe for what to say at age 6, at 11, and at 15.\n\nThe dinner table question: Should your boss know how sick you are, or just that you're out? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #ChrisMurphy #DinnerTableNews"
+}
