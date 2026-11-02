@@ -1,0 +1,77 @@
+{
+  "slot": "2026-11-02 07:00 CT",
+  "date": "2026-11-02",
+  "category": "Security",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/nation/dozens-injured-at-least-6-dead-in-halloween-weekend-gun-violence-at-nightlife-districts-across-u-s",
+  "source_domain": "pbs.org/newshour",
+  "headline": "Halloween weekend gunfire in six cities. Six dead.",
+  "summary": "Gunfire hit nightlife districts in half a dozen US cities over Halloween weekend. At least six people died and dozens were hurt. Dallas was worst: four dead and 15 injured in three shootings in Deep Ellum inside 75 minutes. In Birmingham one person died outside Legion Field after a game that drew nearly 70,000. Police made some arrests.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "Was it one person doing all of it?"
+  },
+  "cover_answer": "No. Six cities, separate shootings. Nobody knows why yet.",
+  "table_question": "Do more police make a place safer, or just feel safer?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": true,
+      "script": "Some grown-ups got hurt by guns on Halloween weekend, in a few cities, late at night where the restaurants and music are. Police came fast, like the crossing guard who steps in when something goes wrong, and took some people away to ask questions. It was after trick-or-treating. The grown-ups have it.",
+      "why": "Shielded. Only if they hear it. Late at night, after trick-or-treat, police there: three fences between this and their own Halloween.",
+      "why_long": "Cantor found what frightens a child this age is physical and near: could it happen to me, here. So the script builds fences: late at night, after trick-or-treat, grown-ups, police there. The crossing guard makes the police the vivid part, not the gun. Expect \"could it happen at my school?\" Say these were late-night streets for adults."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "Gunfire hit nightlife districts in six cities over Halloween weekend. At least six died. Dallas was worst: three shootings in Deep Ellum in 75 minutes, four dead, 15 hurt, extra police already posted. Some arrests; now police work backwards, like retracing steps for a lost shoe.",
+      "why": "Extra police, still four dead: a chain that doesn't close, which is honest. Retracing steps is something they've done.",
+      "why_long": "This age wants the chain to close, and this one doesn't: extra police were posted in Deep Ellum and four people died anyway. Saying so is the honest version. Retracing your steps for a lost shoe is what police do when the why is missing. Expect \"will they catch them?\" Say some are arrested already, and the why is still open."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Dallas police had put extra officers in Deep Ellum before Saturday night. Four people still died there in 75 minutes. What would have stopped it that more police didn't? Second: in Birmingham, one person died outside a game 70,000 had just left. Is a crowd that big safe anywhere, or do we accept the odds?",
+      "why": "Neither question has a clean answer, and they'll know it. Let them say what they'd try first.",
+      "why_long": "A teenager can reason about what is not in front of them, which is where this story lives: more police did not stop Dallas, and 70,000 people had mostly gone home when Birmingham's shooting began. Kuhn calls argument a practised skill, and \"what would have worked\" is the practice. Expect \"would you let me go?\" Answer it straight."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Did someone get hurt on Halloween?",
+        "a": "Yes, some grown-ups, late at night, in a few cities. Police are there."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Was it one person doing all of it?",
+        "a": "No. Separate shootings in six cities. Dallas's three may not be linked."
+      },
+      {
+        "q": "Were kids there?",
+        "a": "It doesn't say. Late night, and most families had left Birmingham's game."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why didn't the extra police stop it?",
+        "a": "Nobody has said. Dallas had three shootings across a spread-out area."
+      },
+      {
+        "q": "Is this normal now?",
+        "a": "Six cities in a weekend is a lot. The article doesn't call it a trend."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#HalloweenWeekend",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 10,
+    "13-17": 14
+  },
+  "caption": "No. Six cities, separate shootings. Nobody knows why yet.\n\nGunfire hit nightlife districts in half a dozen US cities over Halloween weekend. At least six people died and dozens were hurt. Dallas was worst: four dead and 15 injured in three shootings in Deep Ellum inside 75 minutes. In Birmingham one person died outside Legion Field after a game that drew nearly 70,000. Police made some arrests.\n\nSource: PBS NewsHour\n\nSwipe for what to say at age 6, at 10, and at 14.\n\nThe dinner table question: Do more police make a place safer, or just feel safer? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #HalloweenWeekend #DinnerTableNews"
+}
