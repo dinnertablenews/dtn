@@ -1,0 +1,77 @@
+{
+  "slot": "2026-11-03 07:00 CT",
+  "date": "2026-11-03",
+  "category": "Science",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/nation/evidence-suggests-parts-of-jet-broke-off-before-florida-crash-ntsb-investigator-says",
+  "source_domain": "pbs.org/newshour",
+  "headline": "The Florida jet likely broke up in the air. Nine died.",
+  "summary": "A Learjet 60 flying from Austin to the Bahamas dived into a road in Greenacres, Florida, on Sunday, killing all nine aboard. At 35,000 feet the pilot reported ice and turbulence, then a drop of 20,000 feet a minute. On Monday the NTSB said evidence at the site shows the jet was breaking up before it hit. Weather is a main focus.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "How do they know it broke apart?"
+  },
+  "cover_answer": "Clues in the wreckage. They expect pieces far from the site.",
+  "table_question": "Would you rather have a fast answer or a right one?",
+  "ages": {
+    "5-7": {
+      "shield": true,
+      "chip": "Bring it up if it fits the day",
+      "script": "On Sunday a small jet flying over Florida went into a storm, higher up than the tallest mountain, and fell. Everybody on the plane died. It hit a road, and nobody on the ground died. Grown-ups whose whole job is finding out why planes crash are there now, picking up every piece.",
+      "why": "The storm is the cause and the pickers-up are the grown-ups. One picture, one job, nothing left for a six-year-old to carry.",
+      "why_long": "A six-year-old takes one vivid feature for the whole event, and here it is a plane falling from the sky, so the script gives the storm as the cause and the investigators as the grown-ups with the job. Expect \"could our plane fall?\" Say these people are picking up every piece so they can say why, and so it does not happen again."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "At 35,000 feet the pilot reported ice on the jet and turbulence throwing it 700 feet at a time, then a mayday: dropping 20,000 feet a minute. The NTSB says the wreckage shows the jet broke apart before it hit, so the search widens, like hunting a thrown ball outward from where it landed.",
+      "why": "Ice, turbulence, mayday, breakup: a chain to follow, then a search to picture.",
+      "why_long": "This age is working out chains of cause and effect, so the script hands them one in the order the pilot lived it: ice, turbulence, a climb, a mayday, a breakup. The widening search is the method they want next, because this age wants to know how adults know. Expect \"so what caused it?\" Nobody knows yet, and that is the point."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Have you seen the video? The clip of the Learjet diving into a Florida road is everywhere, and nine people died in it, one a 20-year-old copilot. Second: the NTSB says the jet likely broke up before impact and won't name a cause until it has the pieces. Why is slow right here?",
+      "why": "They've seen the clip. Ask what they make of it before you say a word.",
+      "why_long": "A teenager can hold two true things at once: the video is real and the cause is unknown. Kuhn's point is that arguing well is practised, and this clip invites a verdict the NTSB refuses to give until it has the debris and the recorder. Expect \"it was obviously the storm.\" Say maybe, and ask what would change their mind."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Did the people get hurt?",
+        "a": "Yes. Everyone on the plane died. The people on the ground are okay, and the grown-ups are finding out why it happened."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "How do they know it broke apart?",
+        "a": "Clues in the wreckage. They expect pieces far from the crater."
+      },
+      {
+        "q": "Did the storm do it?",
+        "a": "Maybe. The pilot reported ice; the NTSB won't name a cause yet."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why won't they just say what happened?",
+        "a": "Nobody knows. There is a storm to check and a recorder to find."
+      },
+      {
+        "q": "Was the copilot too young?",
+        "a": "She was 20, rated to fly that Learjet since 2023. Nothing yet says it mattered."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#NTSB",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 8,
+    "13-17": 13
+  },
+  "caption": "Clues in the wreckage. They expect pieces far from the site.\n\nA Learjet 60 flying from Austin to the Bahamas dived into a road in Greenacres, Florida, on Sunday, killing all nine aboard. At 35,000 feet the pilot reported ice and turbulence, then a drop of 20,000 feet a minute. On Monday the NTSB said evidence at the site shows the jet was breaking up before it hit. Weather is a main focus.\n\nSource: PBS NewsHour\n\nSwipe for what to say at age 6, at 8, and at 13.\n\nThe dinner table question: Would you rather have a fast answer or a right one? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #NTSB #DinnerTableNews"
+}
