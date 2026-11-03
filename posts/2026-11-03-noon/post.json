@@ -1,0 +1,79 @@
+{
+  "slot": "2026-11-03 12:00 CT",
+  "date": "2026-11-03",
+  "category": "Government",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/politics/midterm-elections-come-to-a-close-in-referendum-on-trumps-presidency",
+  "source_domain": "pbs.org/newshour",
+  "photo_subject": "United States Capitol",
+  "headline": "Election Day. 57 million people already voted.",
+  "summary": "Americans vote Tuesday on who runs the 435-member House and the 100-member Senate for the last two years of Trump's term. More than 57 million voted early. Democrats need a net gain of three seats for the House and four for the Senate. Trump told a Kansas crowd Sunday to pretend he is on the ballot.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "Is this really a vote on Trump?"
+  },
+  "cover_answer": "He says pretend he's on the ballot. So yes, mostly.",
+  "table_question": "If your team loses, is it the captain's fault?",
+  "ages": {
+    "5-7": {
+      "chip": "Good one to bring up",
+      "script": "Today is Election Day. Grown-ups all over the country go to a voting place, mark a paper and put it in a box, like voting for the class pet. Tonight people count every paper to see who gets to make the rules in Washington. More than 57 million grown-ups did theirs before today. The grown-ups have it.",
+      "why": "A paper in a box is a thing they can do themselves. The class pet makes counting the whole story.",
+      "why_long": "A six-year-old reasons from what is in front of them, so the script makes the election a paper in a box and a count, the class-pet vote they have stood in. Who should win is beyond this age and the script never goes there. Expect \"who did you vote for?\" Tell them, or say it is private and why."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "For two years Congress has said yes to most of what Trump asked. Today voters pick who sits there. Democrats need three more House seats and four in the Senate to take over, like tug of war where one step wins. Then the other side can call the hearings.",
+      "why": "Seats, a number, hearings: one chain. Tug of war they have lost by a step.",
+      "why_long": "This age is working out chains of cause and effect, so the script hands them one: seats, a number to beat, and what the winner gets to do. Tug of war is a game they have lost by one step, which is why three seats can matter. Expect \"who's winning?\" Nobody knows until the count, which can take days."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Is a midterm a vote on the president? Trump told a Kansas crowd Sunday to pretend he is on the ballot, and 88% of Republican TV ads ran where he won in 2024. Second: a president's party almost always loses seats at the midterm. If it happens tonight, what does it prove?",
+      "why": "Two true things: Trump made it about him, and the losing is usual. Let them weigh which.",
+      "why_long": "A teenager can hold two true things at once: Trump asked for this to be a vote on him, and the president's party loses seats at most midterms. The script hands them both and asks what tonight proves. Expect \"will he accept it if he loses?\" He hasn't said so, and courts have turned back his lawsuits."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Can I vote?",
+        "a": "Not yet. Grown-ups vote. You can come with me and watch the paper go in the box."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Who's winning?",
+        "a": "Nobody knows until the count. It can take hours, sometimes days."
+      },
+      {
+        "q": "Why does Trump care? He's not running.",
+        "a": "A Democratic House could investigate his team. He said pretend he's on the ballot."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Is this really a vote on Trump?",
+        "a": "He says pretend he's on the ballot. So yes, mostly."
+      },
+      {
+        "q": "Will Trump accept the result?",
+        "a": "He hasn't said he will. Courts have blocked his election lawsuits so far."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#Midterms",
+    "#DinnerTableNews"
+  ],
+  "photo": "data/images/2026-11-03-noon.jpg",
+  "photo_credit": "Photo: Martin Falbisoner, Wikimedia Commons, CC BY-SA 3.0",
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 9,
+    "13-17": 16
+  },
+  "caption": "He says pretend he's on the ballot. So yes, mostly.\n\nAmericans vote Tuesday on who runs the 435-member House and the 100-member Senate for the last two years of Trump's term. More than 57 million voted early. Democrats need a net gain of three seats for the House and four for the Senate. Trump told a Kansas crowd Sunday to pretend he is on the ballot.\n\nSource: PBS NewsHour\nPhoto: Martin Falbisoner, Wikimedia Commons, CC BY-SA 3.0\n\nSwipe for what to say at age 6, at 9, and at 16.\n\nThe dinner table question: If your team loses, is it the captain's fault? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #Midterms #DinnerTableNews"
+}
