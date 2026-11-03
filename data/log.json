@@ -3564,5 +3564,27 @@
   "publish_run": 41487467725,
   "published": "https://www.instagram.com/p/DfP6PFACZX3/",
   "published_at": "2026-11-02T18:05:37+0000"
+ },
+ {
+  "slug": "2026-11-02-evening",
+  "slot": "evening",
+  "date": "2026-11-02",
+  "category": "Good news",
+  "headline": "He walked 31,000 miles home. It took 28 years.",
+  "cluster_headline": "Karl Bushby embraces his mother as he completes his 28-year walk around world",
+  "outlet": "PBS NewsHour",
+  "photo": false,
+  "photo_subject": null,
+  "cover_band": "5-7",
+  "publish_target": "2026-11-02T19:55-06:00",
+  "chosen": "primary",
+  "alternate": {
+   "folder": "posts/2026-11-02-evening-alt",
+   "category": "Economy",
+   "headline": "South Africa and Rwanda lose their US trade deal.",
+   "photo": true,
+   "photo_subject": "Donald Trump"
+  },
+  "note": "Run fired at 18:11 CT for the 20:00 evening slot: the clocks fell back Sunday, so the 00:10 UTC firing lands an hour earlier on the wall. Target drawn once at 18:12 CT: 19:55. Rule 3 count: the last Good news entry is 2026-10-31-evening (Oleshky) and five stories have run since (11-01 morning, noon, evening; 11-02 morning, noon), so this slot is the positive one, carried from noon. #13 (AP News, PBS NewsHour; 2 outlets) qualifies: Karl Bushby finishing a 28-year, 31,000-mile walk around the world at his mother's door in Hull. The count resets. Rule 1: #1 (AP News, Axios, PBS NewsHour, The Hill; 4 outlets), the Supreme Court refusing the DOJ's California ballots request, is the 9th Circuit refusal of 2026-10-31-morning moved on; #7, the freezers, ran at noon; #14, the Sullivan FBI visit, is this morning's Alaska story moved on. #4, the Reflecting Pool speech, was noon's alternate and never ran, so it stayed fair game but sits below the pick. Rule 2: lead subject Karl Bushby, nothing in today's log. Rule 8: the positive slot takes the highest remaining cluster of any other category. #1 is barred, so #2 (AP News, BBC News, Semafor, plus two Canada-trade items from The Hill and AP that the cluster swept in and this post ignores): Trump dropping South Africa and Rwanda from AGOA from January 1, Economy. Lead subject Trump; the only Trump post today was noon's alternate, which did not run. #3, the Stevens endorsement, Government, three outlets, sits below it. Facts: for the primary, PBS NewsHour (AP) had text, truncated near the end; AP's link had none. Leaned on PBS for Punta Arenas on Nov. 1, 1998, 31,000 miles, four continents and 30 countries, the Bering Strait ice and the Caspian and Channel swims, the 2008 crash and the pandemic, Dimitry Kieffer and the airlift, the decade of Russian visas, ages 29 and 57, the son and the 12-year-old granddaughter, the father's birthday card, the basement line, 'Where have you been?' and the banner. 'More than once around the whole Earth' on the 5-7 card is a comparison, not a story fact. For the alternate, Semafor and BBC News had text; AP's and The Hill's had none. Leaned on Semafor for Greer's statement, the January 1 2027 date, the $1.7 billion and $44 million figures, Parks Tau's reply, the M23 sanctions, Schneidman's China and EU line and AGOA's 2000 start; BBC supplied the Rwanda troops detail and the Bozell quote, neither used. Photos: the last two entries had none, so both posts asked. The primary asked commons.yml for Karl Bushby; the article's lead image was uploaded today with no licence recorded, so commons.py rejected it and the primary runs without a photo. The alternate asked for Donald Trump and got the official 2025 portrait (Daniel Torok, public domain), one photograph, no zoom needed. Cover band rotates from noon's 13-17 to 5-7. Render: the primary's 8-12 and 13-17 cards failed TOO LOW on the first pass (120px each); cut the scripts to about 275 and 255 characters and the four Try answers to one line. The alternate's three cards failed (37, 178, 155px); cut the 5-7 script to about 330, the 8-12 script to about 285 over two passes, the 13-17 script to about 300 and its why line to two lines, all Try answers to one line. Both exit 0. reel.py ran clean for the primary, 14.2s. Environment: pip on PATH is the 3.13 python again; installed with python3 -m pip for 3.11, and pillow force-reinstalled over the apt copy."
  }
 ]
