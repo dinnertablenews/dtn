@@ -3664,5 +3664,27 @@
   "publish_run": 41746085006,
   "published": "https://www.instagram.com/p/DfTWa6NlnW_/",
   "published_at": "2026-11-04T02:09:31+0000"
+ },
+ {
+  "slug": "2026-11-04-morning",
+  "slot": "morning",
+  "date": "2026-11-04",
+  "category": "Government",
+  "headline": "Democrats took Congress. Trump says veto.",
+  "cluster_headline": "Democrats win the US House and Senate as voters deliver a strong rebuke to Trump and Republicans",
+  "outlet": "PBS NewsHour",
+  "photo": false,
+  "photo_subject": null,
+  "cover_band": "8-12",
+  "publish_target": "2026-11-04T07:09-06:00",
+  "chosen": "primary",
+  "alternate": {
+   "folder": "posts/2026-11-04-morning-alt",
+   "category": "World",
+   "headline": "South Africa votes. The ANC may have its worst day ever.",
+   "photo": false,
+   "photo_subject": "Cyril Ramaphosa"
+  },
+  "note": "Run fired at 05:12 CT for the 07:00 morning slot: the 11:10 UTC firing lands an hour earlier on the wall since the clocks fell back. Target drawn once at 05:14 CT: 07:09. Rule 3 count: the last Good news entry is 2026-11-02-evening (Karl Bushby) and three stories have run since (11-03 morning, noon, evening), so this is not the positive slot; the count stands at 4 after this slot and noon is the positive one. Rule 4: morning takes #1, which is the midterm result as a whole: 6 outlets (AP News, Axios, BBC News, PBS NewsHour, Semafor, The Hill), 55 items, the top-six listing all House seat calls in Texas and Tennessee. Clusters #2 through #6, #8 and #12 through #15 are the same night split by race; #4 (AP News, PBS NewsHour, Semafor) carries the outcome, Democrats winning both chambers, and the post leads with that as the cluster's headline. Government. Rule 1: Election Day itself ran yesterday noon as the vote; the result is a new event. Rule 2: nothing in today's log; lead subject is the Democratic Party and Congress. Not a hard story, no Shield. Rule 8: the alternate is #10 (AP News, BBC News; 2 items), South Africa's local elections and the ANC's decline, World, the highest remaining cluster of another category: #7 is the AP voter poll (Government, same night), #9 is the Learjet crash investigation, which ran 2026-11-03-morning moved on. Lead subject the ANC and Ramaphosa, in no log entry. The AGOA alternate from the last four slots stays fair game but ranks below. Facts: for the primary, PBS NewsHour (AP) had 6,000 characters on the House and Senate result; the AP item had none and Semafor's was a Monday preview. Also read the PBS Maine piece (Jackson over Collins), Semafor on Texas and the BBC on Ohio; the post uses only the PBS House text and attributes to PBS NewsHour. For the alternate, the BBC had 6,000 characters and the AP item none; everything in the post is from the BBC text (nearly 300 municipalities, 257 in the audit, 39 clean, 70% in 2004 and 40% at the last national election, Ipsos 30% down from 46% in 2021, Soweto's Monday water, Alexandra's 18-year-old and the 33-year-old, Sandton, Verwoerd's 'worst it's ever done'). Photo: none on the primary; the story has no one subject, and the institution it is about is Congress, whose Commons image is the Capitol, which ran yesterday noon. The alternate set photo_subject Cyril Ramaphosa (the last two entries had one photo between them, and the last three subjects were the Capitol, none, none), but the commons.yml dispatch failed three times on GitHub's side (502, 500, 500), so the alternate runs with no photo; photo_subject stays in post.json as the record of the choice. Cover band 8-12, next after evening's 5-7; both posts share it. Drawn ages 6, 11, 15 on the primary and 7, 12, 14 on the alternate. Primary headline first came out three lines on the cover ('Democrats won the House and the Senate. Trump says veto.', 56 characters) and was cut to 'Democrats took Congress. Trump says veto.', two lines; cover question 'Does Trump have to quit now?', two lines. Primary render exit 0 on the third pass after the 8-12 card ran 143 px and the 13-17 card 178 px past the slide, then 84 and 61; scripts cut to under 300 characters and the why lines and Try answers to one line each. The 5-7 and 8-12 why lines then took a third sentence on the developmental reason and still passed. Alternate render exit 0 on the fourth pass (5-7 37 px, 8-12 237 px, 13-17 249 px past; then 37, 142, 83; then 37, 13); the 8-12 why line took a second sentence after. All ten JPGs looked at. Reel built for the primary on the second try (the first ran on the old headline and was stopped), 13.9 s, exit 0."
  }
 ]
