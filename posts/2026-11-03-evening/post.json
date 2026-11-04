@@ -1,0 +1,77 @@
+{
+  "slot": "2026-11-03 20:00 CT",
+  "date": "2026-11-03",
+  "category": "Sports",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/world/spanish-police-investigating-after-soccer-player-dies-following-on-field-collision",
+  "source_domain": "pbs.org/newshour",
+  "headline": "A striker died after a collision. The keeper got a red card.",
+  "summary": "Jesús de Miguel, 30, a Tenerife forward, was chasing a long ball Monday when Andorra's goalkeeper ran out to midfield and struck him in the chest. He died Tuesday morning after a cardiac arrest. Spanish law treats any accidental death as a police matter, so a file is open. The prosecutor says charges are unlikely: it happened in play.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Did the goalie do it on purpose?"
+  },
+  "cover_answer": "No. He went for the ball. Red card, probably no charge.",
+  "table_question": "If an accident is your fault but not your crime, what do you owe?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": true,
+      "script": "A soccer player in Spain named Jesús was running for the ball when the other team's goalie ran the other way and crashed into him, like two kids meeting at a corner at full speed. He got hurt inside his chest and died the next day. That almost never happens, and the grown-ups are finding out how it did.",
+      "why": "Shielded. Only if they hear it. Two kids at a corner is a crash they have walked away from. The death gets one sentence, the rareness the last word.",
+      "why_long": "A six-year-old reasons from what is in front of them, so the collision is two kids meeting at a corner, a crash they have survived. Cantor found this age fears what could happen to them, so the death gets one sentence and the rareness the last word. Expect \"could that happen at my game?\" Almost never: the sport stopped for a day."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "Andorra's goalkeeper ran to midfield for a long ball and hit Tenerife's Jesús de Miguel in the chest. Red card, match abandoned. De Miguel died Tuesday morning. In Spain any accidental death gets a police file, like a school's accident form, and the prosecutor expects no charges.",
+      "why": "Keeper out, collision, red card, death, file: a chain in order. The form makes the file a routine, not a verdict.",
+      "why_long": "This age is working out whether adults apply rules consistently, so the script gives the chain, then the rule: in Spain every accidental death gets a police file. The accident form makes that routine, not a verdict on the keeper. Expect \"so was it his fault?\" The referee called a foul; the prosecutor expects no charges. Both hold."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Should a man answer for a death that was nobody's crime? Andorra's keeper ran out for a long ball and hit Jesús de Miguel in the chest. De Miguel died; the prosecutor expects no charges. Second: the keeper got a red card, then deleted his Instagram. What does he owe, and what is he owed?",
+      "why": "Two true things: he caused a death, and he committed no crime. The deleted Instagram starts the second question.",
+      "why_long": "A teenager can hold two true things at once: the keeper caused a death, and he committed no crime. The script hands them both, then the deleted Instagram, where the internet's verdict begins. Let them argue the keeper's side first. Expect \"would you have sent him off?\" The referee did, and the prosecutor expects no charges."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Did the goalie do it on purpose?",
+        "a": "No. He ran to kick the ball away and crashed into him. He still got sent off."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Was it the goalkeeper's fault?",
+        "a": "Foul, the referee said: a straight red. The prosecutor expects no charges."
+      },
+      {
+        "q": "Why are the police involved?",
+        "a": "Spanish law: every non-natural death gets a file. It's automatic."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why a police case if nobody did anything wrong?",
+        "a": "Spanish law requires one for any non-natural death. Process, not verdict."
+      },
+      {
+        "q": "Why did the keeper delete his Instagram?",
+        "a": "The articles don't say. A stranger with his surname got racist abuse."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#CDTenerife",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 11,
+    "13-17": 16
+  },
+  "caption": "No. He went for the ball. Red card, probably no charge.\n\nJesús de Miguel, 30, a Tenerife forward, was chasing a long ball Monday when Andorra's goalkeeper ran out to midfield and struck him in the chest. He died Tuesday morning after a cardiac arrest. Spanish law treats any accidental death as a police matter, so a file is open. The prosecutor says charges are unlikely: it happened in play.\n\nSource: PBS NewsHour\n\nSwipe for what to say at age 6, at 11, and at 16.\n\nThe dinner table question: If an accident is your fault but not your crime, what do you owe? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #CDTenerife #DinnerTableNews"
+}
