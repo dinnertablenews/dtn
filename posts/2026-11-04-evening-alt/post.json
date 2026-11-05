@@ -1,0 +1,79 @@
+{
+  "slot": "2026-11-04 20:00 CT",
+  "date": "2026-11-04",
+  "category": "World",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/c6z98z5z91ppo",
+  "source_domain": "bbc.com",
+  "headline": "Israel's vote is official. Nobody has a majority.",
+  "summary": "Israel's president took the certified results of last week's election on Wednesday and began asking party leaders who should try to form a government. Netanyahu's bloc won 53 of 120 seats, rival Gadi Eisenkot's 48, and two Arab-led alliances a record 19. Officials found no evidence that the vote was stolen, as Netanyahu's camp claimed. Whoever gets the nod has 28 days.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "So who won, then?"
+  },
+  "cover_answer": "Nobody. One leader gets 28 days to build a team.",
+  "table_question": "If you got the most votes but not half, did you win?",
+  "photo_subject": "Isaac Herzog",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "Israel had a big vote last week to pick who runs the country, and no side got enough seats to win on its own. The president, Isaac Herzog, is asking each group who they'd pick, and one leader gets 28 days to build a big enough team. Like picking teams at recess when nobody has enough players. The grown-ups have it.",
+      "why": "Picking teams at recess is a thing they do every day. Keep the arguing off this card; at seven one loud detail becomes the whole story.",
+      "why_long": "A seven-year-old takes one vivid feature for the whole event, so the script gives them recess teams with nobody holding enough players yet, and leaves the stolen-vote claims off the card; one loud word would become the story. Expect \"why don't they just vote again?\" They might, early next year, if nobody can build the team."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Israel's parliament has 120 seats, and you need 61 to govern. Netanyahu's side won 53, Gadi Eisenkot's 48, and two Arab-led groups 19, so nobody has it. Netanyahu's camp said the vote was stolen; officials found no evidence. Now the president, a referee after a draw, picks one leader to try for 61 in 28 days.",
+      "why": "Seats they can add up, a referee who checks the claim, a clock. At eight they want to know the rule was applied, and it was.",
+      "why_long": "This age is working out rules and whether adults keep to them, so the script gives them numbers they can add: 53, 48 and 19 against the 61 needed. Then the referee: officials checked the stolen-vote claim and found nothing, so the result stands. Expect \"what if nobody gets to 61?\" A new election early next year, which is why the president told the parties to bend."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Netanyahu lost his majority and said Arab-led parties stole the vote. Officials found no evidence. What should happen to a leader who calls a clean vote stolen? Second: Arab-led parties won a record 19 seats, and all but one Jewish party vowed not to work with them. Position or problem?",
+      "why": "Two true things: the claim was checked and failed, and 19 seats are sidelined. At thirteen they can hold both.",
+      "why_long": "A teenager can hold two true things at once: the stolen-election claim was checked and found empty, and 19 seats won fairly are being kept out of every coalition by promises made before the vote. The script hands them both and asks what each says about the rules. Expect \"would you work with them?\" Say what you think and why; they are testing whether you argue honestly."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "So who won, then?",
+        "a": "Nobody. One leader gets 28 days to build a big enough team."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why isn't the one with the most seats the winner?",
+        "a": "You need 61 of 120. With 53, the president picks who tries."
+      },
+      {
+        "q": "Was the vote really stolen?",
+        "a": "Officials checked every claim and found no evidence."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why won't anyone work with the Arab parties?",
+        "a": "The BBC says all but one Jewish party promised not to. It doesn't say why."
+      },
+      {
+        "q": "Can the president pick whoever he wants?",
+        "a": "Mostly. He picks whoever he thinks can build a coalition."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#IsraelElection",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 8,
+    "13-17": 13
+  },
+  "photo": "data/images/2026-11-04-evening-alt.jpg",
+  "photo_credit": "Photo: Avi Ohayon, Wikimedia Commons, CC BY-SA 3.0",
+  "caption": "Nobody. One leader gets 28 days to build a team.\n\nIsrael's president took the certified results of last week's election on Wednesday and began asking party leaders who should try to form a government. Netanyahu's bloc won 53 of 120 seats, rival Gadi Eisenkot's 48, and two Arab-led alliances a record 19. Officials found no evidence that the vote was stolen, as Netanyahu's camp claimed. Whoever gets the nod has 28 days.\n\nSource: BBC News\nPhoto: Avi Ohayon, Wikimedia Commons, CC BY-SA 3.0\n\nSwipe for what to say at age 7, at 8, and at 13.\n\nThe dinner table question: If you got the most votes but not half, did you win? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #IsraelElection #DinnerTableNews"
+}
