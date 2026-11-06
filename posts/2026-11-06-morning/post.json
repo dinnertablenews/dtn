@@ -1,0 +1,80 @@
+{
+  "slot": "2026-11-06 07:00 CT",
+  "date": "2026-11-06",
+  "category": "Government",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/cqrkyyd2j8mvo",
+  "source_domain": "bbc.com",
+  "headline": "Newsom cut all 548 California death sentences to life.",
+  "summary": "Gov. Gavin Newsom commuted the sentences of all 548 people on California's death row to life without parole on Thursday, the largest mass commutation in US history. California has not executed anyone since 2006. Nearly 400 of the commutations need sign-off from the state Supreme Court. Some victims' families object.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "Does that mean they go free?"
+  },
+  "cover_answer": "No. They stay in prison until they die.",
+  "table_question": "Can a punishment be too harsh, even for the worst crime?",
+  "photo_subject": "Gavin Newsom",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": true,
+      "script": "In California, 548 people were in prison waiting to be put to death for terrible crimes. The governor said no one will be put to death. They stay in prison for the rest of their lives, behind a door that stays locked for good. The grown-ups have it.",
+      "why": "Shielded. Only if they hear it. The locked door is the whole picture: nobody gets killed, nobody gets out. At seven the fear is both, and the script closes both. They read your face before the words, so say it flat.",
+      "why_long": "A seven-year-old takes one vivid feature for the whole event, so the script gives them the door that stays locked: nobody is killed, nobody gets out. Shielded, because 'put to death' is not a thing this age can do anything with. Expect \"what did they do?\" Terrible things, and the grown-ups have it."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "California had 548 people sentenced to death, but it hasn't executed anyone since 2006. Governor Newsom changed every sentence to life in prison, no parole. He says the system has convicted innocent people. For nearly 400 the state's top court must agree: a second referee checking the call.",
+      "why": "Sentence, commutation, court sign-off: a chain. At 12 they ask who gets the final say.",
+      "why_long": "A 12-year-old is working out rules and who applies them, so the script hands them the chain: a death sentence, no executions since 2006, a governor changing every one, a top court signing off on most. The second referee is the check. Expect \"what if one didn't do it?\" His argument: it has got it wrong before."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "California's voters kept the death penalty in 2012 and 2016. Newsom just commuted all 548 sentences. Can one official overrule the voters? Second: he says an imperfect system can't be trusted to kill. Is life without parole harsher anyway?",
+      "why": "Voters said keep it; the governor said no. Two legitimate authorities in conflict. At 17 they can hold both and pick a side with reasons.",
+      "why_long": "A teenager can hold two true things: California's voters kept the death penalty twice, and the constitution lets the governor commute. The script sets them against each other, then flips the frame: which is harsher? Expect \"would you have done it?\" Answer straight. They are testing whether you argue honestly."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Did they do something really bad?",
+        "a": "Yes, the worst things. That's why they're in prison for life. Nobody is getting out."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Does that mean they go free?",
+        "a": "No. Life in prison with no parole means no release, ever."
+      },
+      {
+        "q": "Can a governor just do that?",
+        "a": "For some. For nearly 400, four of the state's seven top judges must agree."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Isn't he ignoring what voters wanted?",
+        "a": "Voters kept it twice. He says clemency is his power. Both are true."
+      },
+      {
+        "q": "What do the victims' families say?",
+        "a": "Split. Marc Klaas, whose daughter was murdered, objects. Robin Maher of the Death Penalty Information Center says some feel relief."
+      }
+    ]
+  },
+  "photo": "data/images/2026-11-06-morning.jpg",
+  "photo_credit": "Photo: Charles Ommanney – Office of the Governor of California, Wikimedia Commons, Public domain",
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#GavinNewsom",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 12,
+    "13-17": 17
+  },
+  "caption": "No. They stay in prison until they die.\n\nGov. Gavin Newsom commuted the sentences of all 548 people on California's death row to life without parole on Thursday, the largest mass commutation in US history. California has not executed anyone since 2006. Nearly 400 of the commutations need sign-off from the state Supreme Court. Some victims' families object.\n\nSource: BBC News\nPhoto: Charles Ommanney – Office of the Governor of California, Wikimedia Commons, Public domain\n\nSwipe for what to say at age 7, at 12, and at 17.\n\nThe dinner table question: Can a punishment be too harsh, even for the worst crime? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #GavinNewsom #DinnerTableNews"
+}
