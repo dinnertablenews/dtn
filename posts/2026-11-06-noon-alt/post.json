@@ -1,0 +1,77 @@
+{
+  "slot": "2026-11-06 12:00 CT",
+  "date": "2026-11-06",
+  "category": "Security",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/cmpqg08nz3pqo",
+  "source_domain": "bbc.com",
+  "headline": "Fake bomb threats hit 21 flights across Europe. Again.",
+  "summary": "Bomb threats hit at least 21 flights and several airports across Europe on Thursday, the second wave this week. Fighter jets escorted planes into Rome and Sofia. An Aer Lingus flight from Dublin landed at a French air base. No explosives were found anywhere. Britain's transport secretary called them malicious hoaxes.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "Who sends a fake bomb threat?"
+  },
+  "cover_answer": "Nobody knows yet. One analyst calls it a stress test.",
+  "table_question": "If a warning is probably fake, do you still have to act on it?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": true,
+      "script": "Some planes in Europe got a message saying there was a bomb on board. It was a lie. The pilots landed, the police checked the planes and the bags, and found nothing. Like a fire drill with no fire: everyone practised, everyone was safe. The grown-ups have it.",
+      "why": "Shielded. Only if they hear it. The fire drill is the whole picture. At six they fear what they can picture, so the plane in the script is on the ground and already checked. Say it flat.",
+      "why_long": "Shielded: a six-year-old reasons from what is in front of them, and 'bomb on a plane' is a picture they can do nothing with. If it reaches them, the script gives them the fire drill: a check, no fire, everyone fine. Expect \"will it happen on our plane?\" No. Nothing was found on any of them."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "On Thursday someone emailed bomb threats about at least 21 planes across Europe, the second time this week. Nobody can tell a hoax from a real one by reading it, so the rule is the same every time: the captain runs the checklist, lands, and police search the plane. Nothing was found.",
+      "why": "Threat, checklist, land, search, nothing: a chain. At eight the rule running every time is the point.",
+      "why_long": "An eight-year-old is working out rules and whether grown-ups follow them every time, so the script hands over the chain: threat, checklist, land, search, nothing found. The rule runs whether the message is true or not; that's what makes it a rule. Expect \"why can't they tell it's fake?\" They can't, not by reading it."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "At least 21 flights got bomb threats on Thursday, all hoaxes, Europe's second wave this week. Who does that, and why? Nobody knows. A Brussels analyst thinks the aim is chaos, or a test of how fast each country reacts. A diversion costs up to $250,000. How do you fight a weapon made of your own rules?",
+      "why": "Nobody knows who or why, and the script says so. Open questions suit 13.",
+      "why_long": "A teenager can reason about what is not in front of them: someone, somewhere, typing an email that grounds a plane, for no reward anyone can see. The script hands over who and why, and the harder question under it: how a system defends itself when its rules are the weapon. Expect \"so what's the answer?\" I don't know."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Could a bomb be on our plane?",
+        "a": "No. Someone sent fake messages. Nothing was found on any plane."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why did fighter jets fly next to them?",
+        "a": "An escort. The air force stays with the plane until it lands."
+      },
+      {
+        "q": "Did they find a bomb?",
+        "a": "No. Nothing was found on any of them."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Who sends a fake bomb threat?",
+        "a": "Unknown. A Brussels analyst sees chaos, or a test of response times."
+      },
+      {
+        "q": "Why not just ignore a fake?",
+        "a": "Because it's only known to be fake after the search."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#BombHoaxes",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 8,
+    "13-17": 13
+  },
+  "caption": "Nobody knows yet. One analyst calls it a stress test.\n\nBomb threats hit at least 21 flights and several airports across Europe on Thursday, the second wave this week. Fighter jets escorted planes into Rome and Sofia. An Aer Lingus flight from Dublin landed at a French air base. No explosives were found anywhere. Britain's transport secretary called them malicious hoaxes.\n\nSource: BBC News\n\nSwipe for what to say at age 6, at 8, and at 13.\n\nThe dinner table question: If a warning is probably fake, do you still have to act on it? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #BombHoaxes #DinnerTableNews"
+}
