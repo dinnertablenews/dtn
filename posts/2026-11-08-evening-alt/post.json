@@ -1,0 +1,79 @@
+{
+  "slot": "2026-11-08 20:00 CT",
+  "date": "2026-11-08",
+  "category": "World",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o",
+  "source_domain": "bbc.com",
+  "headline": "Paraguay fired its president. Now he's charged.",
+  "summary": "Paraguay's Senate voted 44-0 Friday to remove Santiago Peña, and police put him under house arrest minutes later. Ueno Bank had collapsed days earlier, leaving more than half the country unable to reach its money. Peña held shares in the bank's owner until last year and denies wrongdoing. Prosecutors are questioning him over misuse of funds.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "Can they arrest a president?"
+  },
+  "cover_answer": "Yes. They fired him first, which took his immunity away.",
+  "table_question": "Should a referee be allowed to own part of a team?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "In Paraguay, in South America, a bank app broke and over half the people couldn't get their money out, like a piggy bank with the slot glued shut. Lawmakers decided the president let it happen, so they voted him out and police took him home under arrest. The new president promised everyone their money. The grown-ups have it.",
+      "why": "The glued piggy bank is the whole story at seven. A kid this age can't follow a bank, but knows being locked out of their own money.",
+      "why_long": "A seven-year-old reasons from what is in front of them, so the script hands them a piggy bank with the slot glued shut and a promise to fix it, and leaves the politics to the older cards. Expect \"will they get their money back?\" The new president promised they will. Three million people are still waiting."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Ueno was Paraguay's biggest bank app, and the president once owned shares in the company behind it. When it collapsed, three million people couldn't reach their savings, and crowds filled the streets. The Senate voted 44-0 to remove him. He's under house arrest. A referee who owns part of a team.",
+      "why": "Shares, a collapse, a vote, an arrest: a chain they follow at eight.",
+      "why_long": "An eight-year-old is working out cause and effect and whether the rules apply to the people in charge, so the script runs the chain: the shares, the collapse, the crowds, the 44-0 vote, the arrest. The referee who owns part of a team is the mechanism. Expect \"did he steal the money?\" Nobody has proved that. He denies it."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Should a president own shares in a bank his government regulates? Peña held them until last year. The bank collapsed, half the country couldn't reach its money, and his own party voted him out, 44-0. Second: he says he betrayed nobody's trust. What does a 44-0 vote prove, and what doesn't it?",
+      "why": "A 44-0 vote and a denial. At 17 they can hold both and weigh them.",
+      "why_long": "A 17-year-old can hold two true things at once, so the script gives a unanimous vote and a flat denial and asks what each proves. Weighing a vote as evidence is the practice. Expect \"why did his own party turn on him?\" The articles don't say. Half the country lost access to its money, and 44 of 45 senators voted yes."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Will they get their money back?",
+        "a": "The new president promised they will. Three million are waiting."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Can they arrest a president?",
+        "a": "Yes. Senators removed him first, which took away his immunity."
+      },
+      {
+        "q": "Why did the bank run out of money?",
+        "a": "Nobody has said in full. There are claims of lending to insiders."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Is this corruption or just a bank failing?",
+        "a": "Senators charged conflicts of interest. He denies it."
+      },
+      {
+        "q": "Why did his own party turn on him?",
+        "a": "The articles don't say. 44 of 45 senators voted yes."
+      }
+    ]
+  },
+  "photo_subject": "Palacio de los López",
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#Paraguay",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 8,
+    "13-17": 17
+  },
+  "photo": "data/images/2026-11-08-evening-alt.jpg",
+  "photo_credit": "Photo: MosheA, Wikimedia Commons, CC0",
+  "caption": "Yes. They fired him first, which took his immunity away.\n\nParaguay's Senate voted 44-0 Friday to remove Santiago Peña, and police put him under house arrest minutes later. Ueno Bank had collapsed days earlier, leaving more than half the country unable to reach its money. Peña held shares in the bank's owner until last year and denies wrongdoing. Prosecutors are questioning him over misuse of funds.\n\nSource: BBC News\nPhoto: MosheA, Wikimedia Commons, CC0\n\nSwipe for what to say at age 7, at 8, and at 17.\n\nThe dinner table question: Should a referee be allowed to own part of a team? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #Paraguay #DinnerTableNews"
+}
