@@ -1,0 +1,76 @@
+{
+  "slot": "2026-11-10 07:00 CT",
+  "date": "2026-11-10",
+  "category": "Security",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/world/france-blames-iran-for-last-months-cyberattack-on-supermarket-fridges",
+  "source_domain": "pbs.org/newshour",
+  "headline": "Hackers turned up the fridges. France blames Iran.",
+  "summary": "Early on October 12, someone took remote control of the cooling software in about 700 of France's 10,000 supermarkets and ran the fridges up to 50C for six hours. Stores threw out the food. Intermarché alone lost tens of millions of euros. Paris prosecutors on Monday blamed Iran's Revolutionary Guard. France summoned Iran's ambassador.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "Why would Iran go after fridges?"
+  },
+  "cover_answer": "Sabotage, France says. Iran hasn't answered yet.",
+  "table_question": "Can you attack a country without hurting a single person?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "In France last month, hackers got into the computers that run the fridges in hundreds of supermarkets and turned the cold off. The food got hotter than a bath, and the shops threw it all away. France says the hackers work for Iran's army. No one got hurt that we know of, and the grown-ups are on it.",
+      "why": "A hot fridge and food in the bin: a thing they can picture from their own kitchen. The hacking and the countries stay in the background.",
+      "why_long": "A seven-year-old takes one vivid feature for the whole event, so the script gives them a fridge hotter than a bath and food in the bin, which they know from home. Iran and France get a sentence each. Expect 'could our fridge do that?' Shop fridges run from a computer far away were the target. Open yours together and feel the cold."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Supermarket fridges run on software a manager can set from anywhere. Hackers got in and ran about 700 stores' fridges up to 50 degrees for six hours. France traced it to Iran's Revolutionary Guard. A thermostat you can reach from your phone, a stranger can too.",
+      "why": "A thermostat a stranger can reach: a mechanism they know. At ten the how comes first.",
+      "why_long": "At ten they are working out cause and effect, so the script runs one chain: a thermostat reachable from anywhere, a stranger at the dial, six hours at 50 degrees, food in the bin. The thermostat they know. Expect 'how do they know it was Iran?' Farsi in the attack and computers traced to Iran, the prosecutor says. Iran hasn't answered."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Is heating a fridge an act of war? France calls it sabotage, summoned Iran's ambassador and wants EU sanctions, but nobody was shot. Second: France has not shown its evidence, and hackers hide where they are. How sure should a country be before it names another?",
+      "why": "A real attack, and a case France has not laid out. At fifteen they can hold both.",
+      "why_long": "A teenager can hold two true things at once: shops lost tens of millions to a deliberate attack, and the government naming Iran has not shown its working. The script asks them to set the standard of proof. Expect 'so what happens to Iran?' An ambassador summoned, sanctions sought, warrants requested. Whether it costs Iran is open."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Did anyone get hurt?",
+        "a": "The reports say food was thrown out and some fires started. Nobody is reported hurt."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "How do you hack a fridge?",
+        "a": "Shop fridges run on software set from anywhere. Get in, and you set it too."
+      },
+      {
+        "q": "Why would Iran do that?",
+        "a": "France calls it sabotage and has not said more. Iran has not answered."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why would Iran go after fridges?",
+        "a": "Sabotage, France says: wreck something ordinary, stay deniable."
+      },
+      {
+        "q": "Is this a war?",
+        "a": "France didn't call it one. It summoned the ambassador and wants sanctions."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#FridgeHack",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 9,
+    "13-17": 14
+  },
+  "caption": "Sabotage, France says. Iran hasn't answered yet.\n\nEarly on October 12, someone took remote control of the cooling software in about 700 of France's 10,000 supermarkets and ran the fridges up to 50C for six hours. Stores threw out the food. Intermarché alone lost tens of millions of euros. Paris prosecutors on Monday blamed Iran's Revolutionary Guard. France summoned Iran's ambassador.\n\nSource: PBS NewsHour\n\nSwipe for what to say at age 7, at 9, and at 14.\n\nThe dinner table question: Can you attack a country without hurting a single person? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #FridgeHack #DinnerTableNews"
+}

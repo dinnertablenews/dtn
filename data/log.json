@@ -4064,5 +4064,28 @@
   "publish_run": 42727951612,
   "published": "https://www.instagram.com/p/DfixJL2iYGA/",
   "published_at": "2026-11-10T01:51:39+0000"
+ },
+ {
+  "slug": "2026-11-10-morning",
+  "slot": "morning",
+  "date": "2026-11-10",
+  "category": "Government",
+  "headline": "A Republican forced a vote to impeach Hegseth.",
+  "cluster_headline": "Republican congressman to force impeachment vote on Defence Secretary Hegseth",
+  "outlet": "BBC News",
+  "photo": false,
+  "photo_subject": null,
+  "cover_band": "13-17",
+  "publish_target": "2026-11-10T07:10-06:00",
+  "chosen": "primary",
+  "alternate": {
+   "folder": "posts/2026-11-10-morning-alt",
+   "category": "Security",
+   "headline": "Hackers turned up the fridges. France blames Iran.",
+   "photo": false,
+   "cluster_headline": "France blames Iran for last month's cyberattack on supermarket fridges",
+   "outlet": "PBS NewsHour"
+  },
+  "note": "Run fired at 05:13 CT for the 07:00 morning slot, an hour early on the wall since the clocks fell back. Target drawn once at 05:15 CT: 07:10. Rule 3 count: the last Good news entry is 2026-11-09-morning (Curley) and two stories have run since (11-09 noon and evening), so this is not the positive slot; the count stands at 3 after this slot. Rule 1: #1 (AP News, Axios, BBC News, PBS NewsHour, Semafor, The Hill; 6 outlets, 20 items), Trump saying the FBI is investigating Jensen Huang's affair, is the 2026-11-08-evening story moved on and barred. Rule 4: morning takes the next cluster, #2 (AP News, Axios, PBS NewsHour, The Hill; 4 outlets, 6 items), Massie forcing a House vote to impeach Hegseth; #11 (BBC News, The Hill) is the same story split off, 5 outlets between them. Hegseth has appeared in passed-over lists since 11-06 but never ran; lead subject Hegseth, nothing else in today's log. Not a hard story. Rule 8, the alternate: #3 (AP News, Axios, BBC News, PBS NewsHour; 4 outlets), France blaming Iran's Revolutionary Guard for hacking supermarket fridges, is the highest remaining cluster outside Government. Security; never run; lead subject France. Not hard either. Passed over: #4 Thune and GOP leadership (Government, same as the primary); #5 Dana White declining the press secretary job, the 11-08-morning story moved on; #6 Russia's independent newspaper closing (3 outlets, ranked below #3); #7 the Supreme Court and the Big Bend wall; #8 Biden's memoir; #9 Delhi smog; #10 Russell Brand sentenced, the 11-05-evening story moved on; #12 the 24-team playoff; #13 and #14 Trump on the Iran war; #15 Krakow. Facts: for the primary, BBC News (4,707 characters) is the attributed outlet, with PBS NewsHour (6,000) and Axios (2,660) also read; the AP and The Hill items had no text. For the alternate, PBS NewsHour (AP, 3,896) is the attributed outlet, with BBC News (3,082) and Axios (2,316) also read. Photo: Thomas Massie dispatched for the primary (the man forcing the vote, not the man facing it, since impeachment is a scandal about Hegseth); Commons returned a 546x728 file and commons.py rejected it as too small, so no photo. None for the alternate: no single public subject. Last two log entries had one photo between them, so the attempt was allowed. Cover band: the last entry was 8-12, so both posts lead with 13-17. Render: the first pass overflowed every age card; scripts cut to 260-300 characters and Try answers to one line until both exited 0. Reel built for the primary, 14.2s."
  }
 ]
