@@ -1,0 +1,77 @@
+{
+  "slot": "2026-11-09 20:00 CT",
+  "date": "2026-11-09",
+  "category": "World",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/cv2d6dpge65go",
+  "source_domain": "bbc.com",
+  "headline": "A boat headed for Spain sank off Senegal. 39 people died.",
+  "summary": "A small wooden boat carrying migrants toward Spain's Canary Islands capsized off Senegal, between Dakar and Saint-Louis. At least 39 people died and one was rescued. Senegal's president urged young people not to risk the crossing and promised to go after the smugglers. Off Crete the same day, 13 more people died when another boat sank.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "Why get on a boat that might sink?"
+  },
+  "cover_answer": "For work. One in four young people in Senegal has no job.",
+  "table_question": "Would you take a dangerous trip if staying meant no job?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": true,
+      "script": "A boat full of people sank in the ocean near Senegal, a country in Africa, and many of them died. They were trying to get to Spain to find work. The boat was small and made of wood, like a rowing boat with far too many people in it. Rescuers are out looking now, and you are safe at home.",
+      "why": "Shielded. Only if they hear it. The small boat and the rescuers are the story; the count stays off.",
+      "why_long": "A seven-year-old takes one vivid feature for the whole event, so this waits until they hear it, and then the feature is a small wooden boat, rescuers at work and you safe at home. Expect 'could our boat sink?' Say nobody crosses an ocean in a rowing boat, and that the grown-ups who do this work are out there now."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "A wooden boat left Senegal, in West Africa, for Spain's Canary Islands and capsized. At least 39 people died. One in four young Senegalese has no job, so smugglers sell the trip. The president wants arrests and jobs, like a lifeguard who pulls people out and asks why they jump.",
+      "why": "No jobs, a smuggler, a boat: one chain they can follow.",
+      "why_long": "Between eight and twelve a child is working out cause and effect, so the script gives them one chain: no jobs, a smuggler selling the trip, a small boat, the odds. The lifeguard is the mechanism: pull people out, then ask why they jump. Expect 'why don't they take a plane?' Say the report doesn't explain it, and look it up together."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Would you get on that boat? One in four young people in Senegal has no job, and about 21 died this year for every 100 who reached the Canary Islands. This weekend 39 died off Senegal, 13 more off Crete. Second: El Hierro declared an emergency after 3,300 arrivals. Who should carry that?",
+      "why": "The odds and the island: two true things to hold at once.",
+      "why_long": "A teenager can hold two true things at once: a crossing that kills about 21 for every 100 who arrive, and an island that took in a third of its population in a month. The script asks them to sit in both seats before picking one. Expect 'so what's the answer?' Say the president named two, arrests and jobs, and ask which comes first."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Did kids drown?",
+        "a": "We don't know. The report names no children. Rescuers are looking."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why get on a boat that might sink?",
+        "a": "For work. One in four young Senegalese has no job. Smugglers sell it."
+      },
+      {
+        "q": "Can't someone stop the boats?",
+        "a": "Senegal stopped a boat with 142 people Friday. Thousands got through."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why is the Atlantic route getting busier?",
+        "a": "Tighter Mediterranean controls may have diverted boats this way."
+      },
+      {
+        "q": "Why doesn't Spain just let them in legally?",
+        "a": "The article doesn't go there. It does say El Hierro declared an emergency."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#Senegal",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 8,
+    "13-17": 15
+  },
+  "caption": "For work. One in four young people in Senegal has no job.\n\nA small wooden boat carrying migrants toward Spain's Canary Islands capsized off Senegal, between Dakar and Saint-Louis. At least 39 people died and one was rescued. Senegal's president urged young people not to risk the crossing and promised to go after the smugglers. Off Crete the same day, 13 more people died when another boat sank.\n\nSource: BBC News\n\nSwipe for what to say at age 6, at 8, and at 15.\n\nThe dinner table question: Would you take a dangerous trip if staying meant no job? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #Senegal #DinnerTableNews"
+}
