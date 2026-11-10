@@ -1,0 +1,76 @@
+{
+  "slot": "2026-11-10 12:00 CT",
+  "date": "2026-11-10",
+  "category": "Security",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo",
+  "source_domain": "bbc.com",
+  "headline": "Fridges in 700 French shops hit 50C. France blames Iran.",
+  "summary": "On October 11, hackers got into the software that sets the temperature in supermarket fridges across France. Hundreds of stores were hit; some fridges reached 50C overnight. Millions of euros of food went in the bin. On Monday France named Iran's Revolutionary Guard, summoned Iran's ambassador and promised EU sanctions. Iran has not responded.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Can a fridge get hacked?"
+  },
+  "cover_answer": "Yes, if a computer far away runs it. These did.",
+  "table_question": "Should you have to show your proof before you blame someone?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "In France, hackers got into the computer that keeps supermarket fridges cold and turned the cold off. The fridges got hotter than any summer day here, and the shops had to throw the food away. France says the hackers work for Iran's military. Nobody got hurt, and the grown-ups are sorting it out.",
+      "why": "A fridge gone hot and food in the bin: one picture from their own kitchen. Iran and France get a sentence each.",
+      "why_long": "At six what frightens is what could reach them at home, so the script says whose fridges were hit, far away, and that nobody got hurt. The hot fridge is the one picture they keep. Expect 'could ours do that?' Shop fridges run from a computer somewhere else were the target. Open yours together and feel the cold."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "French supermarkets set their fridges through software, from anywhere. On October 11 hackers got in and set hundreds of stores' fridges to 50C overnight, and the food spoiled. France blames Iran's Revolutionary Guard. A remote control works for whoever holds it.",
+      "why": "A remote control in the wrong hands: a mechanism they know at ten.",
+      "why_long": "At ten they are working out cause and effect, so the script runs one chain: software a manager reaches from anywhere, a stranger reaching it instead, 50C overnight, food in the bin. The remote control they know. Expect 'how do they know it was Iran?' The prosecutor cites Farsi and computers traced to Iran. France has not shown the rest."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "France says Iran did it but has not said how it knows. Is a government's word enough to name an attacker and sanction a country? Hackers hide where they are, and other groups claimed this one. Second: fridges last month, blood banks last week. Where does sabotage become war?",
+      "why": "A real attack, an unproven accusation: at seventeen they can hold both.",
+      "why_long": "A teenager can hold two true things at once: shops lost millions to a deliberate attack, and the government naming Iran has kept its evidence to itself. The script asks them to set the standard of proof, argument as a skill practised. Expect 'is this a war?' France called it sabotage and a major attack, and wants sanctions. It did not say war."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Can a fridge get hacked?",
+        "a": "A shop fridge can, because a computer far away sets how cold it is. Someone got into that computer."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "How do they know it was Iran?",
+        "a": "Farsi and computers in Iran, prosecutors say. Nothing more shown yet."
+      },
+      {
+        "q": "Why fridges?",
+        "a": "Sabotage, France says: wreck what everyone uses. Then blood banks."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Is this an act of war?",
+        "a": "France said sabotage and wants sanctions. It did not say war."
+      },
+      {
+        "q": "Why won't France show its evidence?",
+        "a": "It hasn't said why. Prosecutors cite Farsi and Iranian IP addresses."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#RevolutionaryGuard",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 10,
+    "13-17": 17
+  },
+  "caption": "Yes, if a computer far away runs it. These did.\n\nOn October 11, hackers got into the software that sets the temperature in supermarket fridges across France. Hundreds of stores were hit; some fridges reached 50C overnight. Millions of euros of food went in the bin. On Monday France named Iran's Revolutionary Guard, summoned Iran's ambassador and promised EU sanctions. Iran has not responded.\n\nSource: BBC News\n\nSwipe for what to say at age 6, at 10, and at 17.\n\nThe dinner table question: Should you have to show your proof before you blame someone? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #RevolutionaryGuard #DinnerTableNews"
+}
