@@ -1,0 +1,77 @@
+{
+  "slot": "2026-11-10 20:00 CT",
+  "date": "2026-11-10",
+  "category": "Security",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/nation/u-s-charges-3-men-with-plotting-terror-attacks-including-planned-assault-on-uk-airbase",
+  "source_domain": "pbs.org/newshour",
+  "headline": "The US charged three men with plotting attacks for Iran.",
+  "summary": "An indictment unsealed in Manhattan Tuesday accuses three men of plotting nearly 20 attacks on Jewish communities in Europe and the US for Iran-backed groups, plus a September assault on RAF Fairford, a British base that housed US bombers. Only one is in custody. Prosecutors say he directed money from jail in coded messages.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "Did anyone get hurt?"
+  },
+  "cover_answer": "Not at the base. Police stopped the vans on the way.",
+  "table_question": "Should planning something bad be punished like doing it?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": true,
+      "script": "Some men far away planned to hurt people, and the police found out before anyone at the base was hurt. One of them is already in jail in New York, and a court will decide what happens to him. It's like a teacher stopping a fight before the first push. The grown-ups have it.",
+      "why": "The police found out first: the whole story at this age, and only if they hear it. Iran and the airbase stay off the card.",
+      "why_long": "A seven-year-old takes one vivid feature for the whole event and reads your face before your words, so this script is only for a child who has heard it, and it hands them one thing: the police found out first. Iran never comes up. Expect 'could it happen at my school?' The plans were far away, and they were stopped."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "Three men were charged Tuesday with planning nearly 20 attacks on Jewish communities for Iran-backed groups, plus a raid on a British airbase with US bombers. Police stopped three vans near it in September. One man is in jail; prosecutors say he sent coded orders out, like notes the teacher can't read.",
+      "why": "A plan, a stop, a charge: one chain. The passed note they know.",
+      "why_long": "At 12 they are working out cause and effect, so the script runs one chain: a plan, three vans spotted, five arrests, a charge. The note passed in class is the mechanism they know for orders sent from jail. Expect 'is he guilty?' Not yet. A charge is an accusation, and he pleaded not guilty before."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Why charge two men you can't arrest? Tuesday's indictment names three, one in custody, as Iran-backed operatives who plotted attacks on Jewish communities and on a British base used by US bombers. Second: Iran denies it. What is a public charge worth if no trial comes?",
+      "why": "Iran denies it, the US charges it: both in the article. Hold both.",
+      "why_long": "The script asks what a charge does when two of the three men are free, then hands them two truths: the US says Iran-backed groups ran this, and Iran denies the airbase plot. At 16 they can hold both, and are testing whether you will say 'we don't know yet'. Expect 'why Jewish people?' The charge says revenge for the war."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Are the bad guys coming here?",
+        "a": "No. One man is in jail in New York, and the plans were stopped before they happened. The grown-ups have it."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Did anyone get hurt?",
+        "a": "Not at the base. Police saw three vans heading for it and arrested five men."
+      },
+      {
+        "q": "How do you give orders from jail?",
+        "a": "Prosecutors say code words in calls from jail. A charge, not yet proven."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why charge men who aren't even caught?",
+        "a": "A public accusation, naming the plot and its sponsor. One is in custody."
+      },
+      {
+        "q": "Is this Iran, or three guys?",
+        "a": "Prosecutors say Iran-tied groups; Iran denies it. A trial would test both."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#RAFFairford",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 12,
+    "13-17": 16
+  },
+  "caption": "Not at the base. Police stopped the vans on the way.\n\nAn indictment unsealed in Manhattan Tuesday accuses three men of plotting nearly 20 attacks on Jewish communities in Europe and the US for Iran-backed groups, plus a September assault on RAF Fairford, a British base that housed US bombers. Only one is in custody. Prosecutors say he directed money from jail in coded messages.\n\nSource: PBS NewsHour\n\nSwipe for what to say at age 7, at 12, and at 16.\n\nThe dinner table question: Should planning something bad be punished like doing it? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #RAFFairford #DinnerTableNews"
+}
