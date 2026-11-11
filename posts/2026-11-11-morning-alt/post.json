@@ -1,0 +1,77 @@
+{
+  "slot": "2026-11-11 07:00 CT",
+  "date": "2026-11-11",
+  "category": "Security",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/c6d7q77xgw0vo",
+  "source_domain": "bbc.com",
+  "headline": "A US soldier is accused of spying for Russia.",
+  "summary": "British counterterror police arrested a 41-year-old US Army soldier near Gloucester on Tuesday on suspicion of spying for Russia. The BBC understands he was based at Imjin Barracks, NATO's Allied Rapid Reaction Corps headquarters. Police can hold him for up to 14 days without charge. It is not linked to the Iran threats to US bases.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "How does a soldier end up a spy?"
+  },
+  "cover_answer": "Nobody's said. Police have 14 days to find out.",
+  "table_question": "If a teammate gave away your plays, could you trust them again?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": true,
+      "script": "A soldier from our country who works in England got arrested. The police think he may have been giving secrets to Russia, which is against the rules for a soldier, like a player handing the other team your playbook. The grown-ups are checking what happened. He is at a police station, and nobody got hurt.",
+      "why": "Only if they hear it. A playbook handed to the other team is the one picture; NATO and the barracks stay off the card.",
+      "why_long": "A seven-year-old takes one vivid feature for the whole event and reads your face before your words, so this script is only for a child who has heard it, and it hands them one picture: a playbook handed to the other team. NATO never comes up. Expect 'will he go to jail?' The grown-ups are still checking, and nobody got hurt."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "A US Army soldier, 41, was arrested in England on Tuesday, suspected of helping Russia's spies. Soldiers are trusted with secrets, and the rule is they stay inside. If they get out, people on your side can get hurt, so British police and the FBI worked together. Police have 14 days to charge him.",
+      "why": "A trust, a rule, what happens when it breaks. Suspected, not guilty.",
+      "why_long": "At 12 they are working out rules and whether adults apply them, so the script hands over the chain: secrets stay inside, a soldier is suspected of passing them out, and two countries' police act together. The 14 days is a rule they can check. Expect 'is he going to jail?' Not yet. Nobody has said what he passed."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "How does a senior soldier end up suspected of spying for Russia? The articles don't say what he passed or why, only that he is 41 and was trusted with secrets. Second: the AP counts around 200 incidents in Europe blamed on Russia since it invaded Ukraine. Is one arrest news, or a pattern?",
+      "why": "One arrest and a pattern of 200, both true. Suspected is not guilty.",
+      "why_long": "A teenager can hold two true things: a man is suspected, not convicted, and the AP counts around 200 incidents in Europe blamed on Russia since it invaded Ukraine. The script asks whether one arrest is news or a pattern, and at 17 they are testing whether you will say 'we don't know yet'. Expect 'what secrets?' Nobody has said."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "What's a spy?",
+        "a": "Someone who secretly collects information for another country. For a soldier, that is against the rules, and it's what the police are checking."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why did British police arrest an American?",
+        "a": "He was in England, and British law covers it. They worked with the FBI."
+      },
+      {
+        "q": "What secrets did he give away?",
+        "a": "Nobody has said. The articles only say he was trusted with secrets."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "How does a soldier end up a spy?",
+        "a": "The articles don't say what or why. Police have 14 days to charge him."
+      },
+      {
+        "q": "Is this connected to the Iran threats at UK bases?",
+        "a": "Police say no. Those were about Iran. This one is Russia, and separate."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#USArmy",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 12,
+    "13-17": 17
+  },
+  "caption": "Nobody's said. Police have 14 days to find out.\n\nBritish counterterror police arrested a 41-year-old US Army soldier near Gloucester on Tuesday on suspicion of spying for Russia. The BBC understands he was based at Imjin Barracks, NATO's Allied Rapid Reaction Corps headquarters. Police can hold him for up to 14 days without charge. It is not linked to the Iran threats to US bases.\n\nSource: BBC News\n\nSwipe for what to say at age 7, at 12, and at 17.\n\nThe dinner table question: If a teammate gave away your plays, could you trust them again? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #USArmy #DinnerTableNews"
+}
