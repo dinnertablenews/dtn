@@ -1,0 +1,77 @@
+{
+  "slot": "2026-11-11 12:00 CT",
+  "date": "2026-11-11",
+  "category": "Security",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo",
+  "source_domain": "bbc.com",
+  "headline": "US charges 3 men over a plot on a UK air base.",
+  "summary": "US prosecutors charged three men Tuesday as Iran-backed operatives behind nearly 20 attacks in Europe and the US, many on Jewish communities. In September, they say, one sent three vans, some with barrels of fuel, toward RAF Fairford, a British base housing US bombers. A farmer spotted the vans. Only one man is in custody. Iran denies it.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Did the bad guys get caught?"
+  },
+  "cover_answer": "One is in jail. The other two are in Iran, the US says.",
+  "table_question": "If a plan gets stopped but still scares people, did it fail?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": true,
+      "script": "Some men wanted to hurt an airplane base in England where American pilots were. They sent trucks with fuel toward it at night, but a farmer saw them and the police stopped them. Nobody got hurt. Now police in our country have named three men they say planned it, and one is locked up. The grown-ups caught it, and it is far away from us.",
+      "why": "Only if they hear it. Trucks stopped, nobody hurt. Iran stays off.",
+      "why_long": "A seven-year-old reads your face before your words and takes one vivid feature for the whole event, so this script is only for a child who has heard it, and the feature it hands them is the trucks being stopped. Iran and the Jewish communities stay off. Expect 'could they come here?' The police here are the ones who caught them."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "In September three vans drove toward RAF Fairford, a British base holding US bombers. A farmer saw them and called police. On Tuesday the US charged three men with planning it for Iran. One is in a New York jail; prosecutors say he sent coded messages from there, like notes passed in class.",
+      "why": "A plot, a farmer, a charge sheet: a chain without the stabbing.",
+      "why_long": "At 8 they are working out cause and effect, so the script hands over the chain: vans toward a base, a farmer's phone call, a charge sheet six weeks later. The coded messages from jail become notes passed in class, a rule they know gets broken. Expect 'did they catch all of them?' One. The other two are in Iran, the articles say."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Can a man in a New York jail run a terror plot in England? US prosecutors say one did, by coded messages through relatives, and charged him and two men in Iran. Second: the US pulled its bombers out of Fairford after the vans. Did the plot fail, or half work?",
+      "why": "Stopped and still costly, both true. Did it fail or half work?",
+      "why_long": "A teenager can hold two true things: the vans never reached the base, and the US moved its bombers out anyway. The script asks whether a plot that fails and still shifts an air force half worked, and at 14 they want to see you say 'both'. Expect 'why would Iran do this?' Prosecutors call it retaliation for the war; Iran denies it."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Did the bad guys get caught?",
+        "a": "One is locked up in America. The police say the other two are in Iran. The trucks were stopped and nobody got hurt."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "What were the vans for?",
+        "a": "Prosecutors say barrels of fuel and metal to use as shrapnel. Police found fuel, no explosives."
+      },
+      {
+        "q": "How can he plan it from jail?",
+        "a": "Coded messages to relatives, who passed money on, prosecutors say."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why would Iran attack a British base?",
+        "a": "US bombers struck Iran from Fairford. Iran called such bases legitimate targets in July; it denies this plot."
+      },
+      {
+        "q": "Is one man in jail really the whole case?",
+        "a": "No. The other two are in Iran. Britain arrested seven over the vans; two were in court last month."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#RAFFairford",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 8,
+    "13-17": 14
+  },
+  "caption": "One is in jail. The other two are in Iran, the US says.\n\nUS prosecutors charged three men Tuesday as Iran-backed operatives behind nearly 20 attacks in Europe and the US, many on Jewish communities. In September, they say, one sent three vans, some with barrels of fuel, toward RAF Fairford, a British base housing US bombers. A farmer spotted the vans. Only one man is in custody. Iran denies it.\n\nSource: BBC News\n\nSwipe for what to say at age 7, at 8, and at 14.\n\nThe dinner table question: If a plan gets stopped but still scares people, did it fail? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #RAFFairford #DinnerTableNews"
+}

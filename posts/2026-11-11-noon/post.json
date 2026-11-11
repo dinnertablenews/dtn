@@ -1,0 +1,80 @@
+{
+  "slot": "2026-11-11 12:00 CT",
+  "date": "2026-11-11",
+  "category": "Good news",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/cwe9kzv0g0v7o",
+  "source_domain": "bbc.com",
+  "headline": "Kenya's last Ebola patient went home.",
+  "summary": "Kenya discharged its last Ebola patient on Wednesday, the seventh to recover since the country's first case in October. No new case since October 20. All 135 traced contacts have finished 21 days in isolation. A 42-day clock now runs: no new cases by the end of it and Kenya is declared Ebola-free. Four of the seven were health workers.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Is the Ebola germ gone now?"
+  },
+  "cover_answer": "Not yet. Kenya counts 42 days with nobody sick first.",
+  "table_question": "When is something over: when it ends, or when you're sure it ended?",
+  "photo_subject": "Aden Duale",
+  "ages": {
+    "5-7": {
+      "chip": "Good one to bring up",
+      "script": "In Kenya, in Africa, people caught a germ called Ebola and got very sick. Doctors looked after them, and on Wednesday the last one went home better, seven in all. Now Kenya counts 42 days with nobody new getting sick, like counting sleeps till a holiday, before it can say the germ is gone. It is far from us, and the doctors have it.",
+      "why": "The ending first, then a countdown they know. Deaths stay off.",
+      "why_long": "A six-year-old takes one vivid feature for the whole event, and Ebola is a frightening word, so the script leads with the ending: the last patient went home. The 42 days becomes counting sleeps. Cantor found distance is what reassures at this age, so the script says far away. Expect 'could I catch it?' No."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "A businessman caught Ebola in Congo and flew to Kenya in October. He died, and it spread to people near him. Kenya kept 135 contacts apart for 21 days, as long as the virus can hide. The last patient went home Wednesday, and a 42-day timer started: no new case by then and Kenya is Ebola-free.",
+      "why": "A traveller, a contact list, a timer: a chain they can check.",
+      "why_long": "At 11 they are working out chains of cause and effect, so the script hands over the chain: a traveller, a virus that can hide for 21 days, 135 contacts kept apart that long, and a 42-day timer that starts only when the last patient leaves. Expect 'why 42?' The WHO sets it, and it is twice the 21 days the virus can hide."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "When is an outbreak over: when the last patient leaves, or 42 days later with nobody new? Kenya hit the first on Wednesday: seven recovered, two dead. Second: Saudi Arabia stopped giving Kenyans visas last month. Caution, or a penalty for doing the work?",
+      "why": "Over and not over, both true. Visa ban: caution or penalty?",
+      "why_long": "A teenager can hold two true things at once: Kenya has no patients left, and next door in Congo more than 5,000 have died with no vaccine. At 14 they test whether you argue the visa ban honestly: caution, or a penalty for a country that did the work. Expect 'could it come here?' Kenya screened arrivals and quarantined them. It worked."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Is the Ebola germ gone now?",
+        "a": "Almost. Seven people got better and went home. The rule is 42 days with nobody new sick, and then Kenya can say it's gone."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "How did Ebola get to Kenya?",
+        "a": "A businessman caught it in Congo and flew to Nairobi. Every Kenyan case traces back to him."
+      },
+      {
+        "q": "Why 42 days?",
+        "a": "The WHO's rule. The virus can hide for 21 days; 42 is twice that."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Is Kenya actually safe now?",
+        "a": "No patients, no new case since October 20. The 42 days cover how long it can hide."
+      },
+      {
+        "q": "Why did Saudi Arabia stop giving Kenyans visas?",
+        "a": "Ebola, in late October. Kenya's minister asked such countries to think again."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#Ebola",
+    "#DinnerTableNews"
+  ],
+  "photo": "data/images/2026-11-11-noon.jpg",
+  "photo_credit": "Photo: U.S. Secretary of Defense, Wikimedia Commons, Public domain",
+  "photo_zoom": 1.0,
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 11,
+    "13-17": 14
+  },
+  "caption": "Not yet. Kenya counts 42 days with nobody sick first.\n\nKenya discharged its last Ebola patient on Wednesday, the seventh to recover since the country's first case in October. No new case since October 20. All 135 traced contacts have finished 21 days in isolation. A 42-day clock now runs: no new cases by the end of it and Kenya is declared Ebola-free. Four of the seven were health workers.\n\nSource: BBC News\nPhoto: U.S. Secretary of Defense, Wikimedia Commons, Public domain\n\nSwipe for what to say at age 6, at 11, and at 14.\n\nThe dinner table question: When is something over: when it ends, or when you're sure it ended? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #Ebola #DinnerTableNews"
+}
