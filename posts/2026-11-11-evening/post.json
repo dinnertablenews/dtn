@@ -1,0 +1,77 @@
+{
+  "slot": "2026-11-11 20:00 CT",
+  "date": "2026-11-11",
+  "category": "Security",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/cqr7gr0010r2o",
+  "source_domain": "bbc.com",
+  "headline": "His house was in the paper. Bessent moved to a base.",
+  "summary": "Treasury Secretary Scott Bessent has left his Georgetown home for a military base after Iran-linked threats, US media reported Wednesday. A source told CBS the move followed a Wall Street Journal photo that let people locate his house. Bessent runs the sanctions campaign against Iran. Hegseth and Rubio already live on bases.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "Why can't police guard his house?"
+  },
+  "cover_answer": "A base has walls and soldiers. His house was online.",
+  "table_question": "Should a newspaper show where a powerful person lives?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": true,
+      "script": "A man called Scott Bessent has a big job: he looks after America's money. Some people far away said they wanted to hurt him, so he moved out of his house and onto an army base, where soldiers guard the gate like a castle wall. He is safe there. The grown-ups whose job this is are watching, and it is nothing to do with our house.",
+      "why": "Only if they hear it. The guarded gate, not the threat, is the picture.",
+      "why_long": "A six-year-old reads your face before your words and takes one vivid feature for the whole event, so this script is only for a child who has heard it, and the feature it gets is the guarded gate. Cantor found that at this age a threat to a grown-up reads as a threat to the house. Expect 'could someone find our house?' No."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "Scott Bessent runs the US Treasury, and since August his job has been cutting Iran off from the world's banks. US intelligence says Iran is going after American officials. Then a newspaper ran a photo of his house, and a photo of a front door gives away a street. So he moved onto a base.",
+      "why": "Job, warning, photo, move: a chain with a link they can test.",
+      "why_long": "At 10 they follow chains of cause and effect, so the script hands over the whole one: a job that squeezes Iran's banks, a warning from US intelligence, a photo in a newspaper, a move to a base. The photo is the link they can test: a front door gives away a street. Expect 'can he just leave?' Yes. The government moved him."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Should a paper print a photo showing where a cabinet secretary lives? The Journal did, readers found Bessent's house, and now he lives on a base. Second: Bolton and Milley are on Iran's list too, reportedly, and lost their guards last year. Protection for the office, or for the man?",
+      "why": "A free press and his safety, both true. Then: who gets guarded?",
+      "why_long": "A teenager can hold two true things: a newspaper is free to show an official's house, and the photo is why he no longer lives there. At 15 they test whether you will argue the second question honestly: Bolton and Milley lost their guards from the same government. Expect 'who decides who gets protected?' The president."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Why did he have to move?",
+        "a": "Some people wanted to hurt him, so the government gave him a safer place to live, with soldiers at the gate. He is fine."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why can't police guard his house?",
+        "a": "One gate, soldiers on it, no photos of it in the paper. Hegseth and Rubio live on bases too."
+      },
+      {
+        "q": "Did Iran really say it would hurt him?",
+        "a": "Reports say threats linked to Iran; what was said is not public."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Is the Journal to blame for this?",
+        "a": "The photo raised the alarm, a source told CBS. The threats came first."
+      },
+      {
+        "q": "Why does Iran want him in particular?",
+        "a": "He runs the sanctions. The UAE and Turkey cut off Iran's top bank."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#ScottBessent",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 10,
+    "13-17": 13
+  },
+  "caption": "A base has walls and soldiers. His house was online.\n\nTreasury Secretary Scott Bessent has left his Georgetown home for a military base after Iran-linked threats, US media reported Wednesday. A source told CBS the move followed a Wall Street Journal photo that let people locate his house. Bessent runs the sanctions campaign against Iran. Hegseth and Rubio already live on bases.\n\nSource: BBC News\n\nSwipe for what to say at age 6, at 10, and at 13.\n\nThe dinner table question: Should a newspaper show where a powerful person lives? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #ScottBessent #DinnerTableNews"
+}
