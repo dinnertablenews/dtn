@@ -1,0 +1,80 @@
+{
+  "slot": "2026-11-13 12:00 CT",
+  "date": "2026-11-13",
+  "category": "Government",
+  "outlet": "Axios",
+  "source_url": "https://www.axios.com/2026/11/13/schumer-van-hollen-senate-majority-leader",
+  "source_domain": "axios.com",
+  "headline": "Van Hollen runs against Schumer. The vote is Dec. 1.",
+  "summary": "Senator Chris Van Hollen of Maryland announced Thursday he is running against Chuck Schumer to lead Senate Democrats, who take the majority in January. Schumer, leader since 2017, says he has the votes. Van Hollen says more than 10 senators back him and calls himself the underdog. Senators vote by secret ballot on December 1.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Who gets to pick the leader?"
+  },
+  "cover_answer": "Senate Democrats, by secret ballot, on December 1.",
+  "table_question": "Would you run for captain if you expected to lose?",
+  "photo_subject": "Chris Van Hollen",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "In the Senate, the Democrats pick one person to lead them, the way a class picks a line leader. Chuck Schumer has had the job since 2017. On Thursday Chris Van Hollen said he wants it, and on December 1 the senators choose in secret. Nothing changes at our house either way.",
+      "why": "Line leader is a job they have held. Two names, one date.",
+      "why_long": "A six-year-old reasons from what is in front of them, and a line leader is: one person picked by the group, until the group picks again. The script keeps the two names as names and the date as the one fact. Expect \"who will win?\" Schumer says he has the votes, and nobody knows until December 1."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Democrats won the Senate, so from January their leader runs it. Chuck Schumer has led them since 2017. Chris Van Hollen says voters asked for change, so the leader should too. The December 1 vote is a secret ballot, folded paper in a box, so nobody has to tell the leader how they voted.",
+      "why": "Win, job, challenger, secret vote: a chain with a reason at each link.",
+      "why_long": "At ten they test whether rules apply to everyone, and a secret ballot is a rule with a reason: nobody has to tell the leader how they voted. The script hands them the chain, Democrats won so their leader runs the Senate, then the mechanism, folded paper. Expect \"is it mean to run against him?\" No. It's how the job is filled."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Van Hollen says he's the underdog. Schumer says he has the votes. Why run a race you expect to lose? Axios says it gives activists three weeks to pressure senators before the ballot. Second: Democrats just won big. Does that argue for keeping the leader, or for change?",
+      "why": "Losing on purpose can still move things. They can test that.",
+      "why_long": "A teenager can reason about what is not in front of them, and here it is a race run for the pressure it puts on, not the win. The script asks whether a loss can be worth running, and whether a big win argues for the leader or for change. Expect \"who's going to win?\" Axios names nine backers for Schumer, one for Van Hollen."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Who gets to pick the leader?",
+        "a": "The Democratic senators. They vote in secret on December 1."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Is it mean to run against him?",
+        "a": "No. That's how the job gets filled."
+      },
+      {
+        "q": "What's a majority leader?",
+        "a": "The leader of the party with the most senators. Democrats, from January."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why run if you expect to lose?",
+        "a": "Axios: it gives activists three weeks to lean on senators before the vote."
+      },
+      {
+        "q": "Who's backing whom?",
+        "a": "Axios: nine backers for Schumer, one for Van Hollen, who claims 10-plus."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#Schumer",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 9,
+    "13-17": 14
+  },
+  "photo": "data/images/2026-11-13-noon-alt.jpg",
+  "photo_credit": "Photo: U.S. Senate Photographic Studio, Wikimedia Commons, Public domain",
+  "photo_zoom": 1.0,
+  "caption": "Senate Democrats, by secret ballot, on December 1.\n\nSenator Chris Van Hollen of Maryland announced Thursday he is running against Chuck Schumer to lead Senate Democrats, who take the majority in January. Schumer, leader since 2017, says he has the votes. Van Hollen says more than 10 senators back him and calls himself the underdog. Senators vote by secret ballot on December 1.\n\nSource: Axios\nPhoto: U.S. Senate Photographic Studio, Wikimedia Commons, Public domain\n\nSwipe for what to say at age 6, at 9, and at 14.\n\nThe dinner table question: Would you run for captain if you expected to lose? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #Schumer #DinnerTableNews"
+}

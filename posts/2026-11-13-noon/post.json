@@ -1,0 +1,77 @@
+{
+  "slot": "2026-11-13 12:00 CT",
+  "date": "2026-11-13",
+  "category": "Security",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/cm20v66jq611o",
+  "source_domain": "bbc.com",
+  "headline": "A Brooklyn building fell into a pit. Eight people died.",
+  "summary": "A three-storey apartment building on Flatbush Avenue in Brooklyn collapsed Wednesday into the construction pit next door. Eight people died, six adults and two children, and 18 were hurt. More than 250 firefighters dug through the night. The city says the 1930s building had no violations on record and is checking 100 other sites.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Could our house fall down?"
+  },
+  "cover_answer": "No. It happens so rarely that when it does, it's the news.",
+  "table_question": "When something goes wrong, do you stop everything until you know why?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": true,
+      "script": "A building in New York fell down on Wednesday, into a big hole where workers were digging next door. Some people died. Firefighters got there in one minute, about the time it takes to tie your shoes, and worked all night getting people out. Buildings almost never fall. Our house is fine, and the grown-ups have it.",
+      "why": "Only if they hear it. The one-minute arrival is the fact to hold; the cause stays out.",
+      "why_long": "A six-year-old takes one vivid feature for the whole event, and here it is a building falling. The script hands them a different one: firefighters there in one minute, working all night. The comparison is a shoe-tie, not a hole, because this age fears what it can picture. Expect \"could our house fall?\" No, said like you mean it."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "On Wednesday a 1930s apartment building in Brooklyn collapsed into the construction pit next door. Eight people died, two of them children. Nobody knows yet whether the digging caused it, so the city is checking 100 other sites by the same developer, like a referee stopping play to look at the replay.",
+      "why": "The chain is dig, fall, investigate. The 100 sites is the fairness piece.",
+      "why_long": "At ten they build chains of cause and effect, and this one is missing its first link: nobody knows whether the digging caused the fall. The script says so and hands them the city's chain instead: no violations on record, 100 sites checked, charges if a rule was broken. Expect \"did the builders do it?\" Nobody knows, and say so."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Should the city check 100 other sites because one building fell? New York is, after a 1930s block in Flatbush collapsed into the pit next door and eight people died. Nobody has said why. Second: the DA is already talking charges. Justice moving fast, or a verdict before the evidence?",
+      "why": "The cause is unknown and the city is acting anyway. They can argue the order.",
+      "why_long": "A teenager can hold two true things: the cause is unknown, and the city is already checking 100 sites while the DA talks about charges. The script asks whether acting before the evidence is caution or prejudgment, an argument worth practising. Expect \"who's to blame?\" Nobody has been named, and no violations were on record."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Could our house fall down?",
+        "a": "No. Buildings almost never fall. That's why it's on the news. Our house is fine."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Did the diggers next door make it fall?",
+        "a": "Nobody knows yet. The city says the building had no violations on record."
+      },
+      {
+        "q": "Why check 100 other sites?",
+        "a": "Same developer. They want to be sure nothing is wrong there too."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Can the builders go to jail?",
+        "a": "Only if the investigation finds a crime. The DA says they're looking."
+      },
+      {
+        "q": "How does a 90-year-old building just fall?",
+        "a": "Nobody has said. It stood 90 years, then fell during digging next door."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#Flatbush",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 8,
+    "13-17": 16
+  },
+  "caption": "No. It happens so rarely that when it does, it's the news.\n\nA three-storey apartment building on Flatbush Avenue in Brooklyn collapsed Wednesday into the construction pit next door. Eight people died, six adults and two children, and 18 were hurt. More than 250 firefighters dug through the night. The city says the 1930s building had no violations on record and is checking 100 other sites.\n\nSource: BBC News\n\nSwipe for what to say at age 6, at 8, and at 16.\n\nThe dinner table question: When something goes wrong, do you stop everything until you know why? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #Flatbush #DinnerTableNews"
+}
