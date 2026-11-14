@@ -1,0 +1,80 @@
+{
+  "slot": "2026-11-13 20:00 CT",
+  "date": "2026-11-13",
+  "category": "Technology",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o",
+  "source_domain": "bbc.com",
+  "headline": "Outlook went down for a day. In more than 70 countries.",
+  "summary": "Microsoft's Outlook and Teams stopped working Thursday afternoon and stayed mostly down for nearly 24 hours, in more than 70 countries. Hospitals, schools, courts and the US House lost their email. Microsoft blames a network upgrade that went wrong, not hackers. It said sorry Friday and has no date for a full fix.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "How does email just stop?"
+  },
+  "cover_answer": "Microsoft says its own upgrade broke it. Not hackers.",
+  "table_question": "If everyone relies on one thing, whose job is it to have a backup?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "A company called Microsoft runs the email lots of grown-ups use at work. On Thursday it stopped, all over the world, for almost a whole day, like a mailbox with the slot taped shut. Nobody did it on purpose. Some schools used paper instead. Most of it works again now, and the grown-ups have it.",
+      "why": "The taped mailbox is the whole event. Nobody being bad is the line that matters.",
+      "why_long": "A seven-year-old takes one vivid feature for the whole event, so the script gives them a taped-up mailbox: everyone fine, no letters moving. They read a parent's face before the words, so the words say nobody did it on purpose. Expect \"will my tablet stop too?\" No, and most of it already works."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Microsoft was upgrading its network Thursday, and the upgrade broke Outlook and Teams for more than 430 million people, for nearly a day. Police in Britain said phone, not online forms. One mistake reached that far because so many people use one company, like a town drinking from one well.",
+      "why": "Upgrade, break, phone instead is a chain they can follow. The well is the mechanism.",
+      "why_long": "At twelve they are building cause-and-effect chains, and this one is clean: an upgrade, a break, a day of phone calls instead. The well is the mechanism, one source for the whole town, and it says why a mistake in one place reached 70 countries. Expect \"was it hackers?\" Microsoft says no, its own upgrade."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "If one company's mistake can take email from hospitals, courts and the US House in 70 countries for a day, is that company too big? Microsoft's own upgrade did it. Second: Matt Saunders of Adaptavist told the BBC a second system is almost impossible in practice. Then what is the plan?",
+      "why": "Too big, and no backup possible, are two true things. Let them pick which bothers them.",
+      "why_long": "A teenager can hold two true things at once: Microsoft's size is why the failure reached so far, and that same size is why a backup is nearly impossible. The script hands them both and asks what the plan is, a question the articles leave open. Expect \"will Microsoft get in trouble?\" The articles don't say."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Will my tablet stop working too?",
+        "a": "No. This was work email at big companies, and most of it is fixed."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "How does email just stop?",
+        "a": "Microsoft changed its network, and the change broke it, for a day."
+      },
+      {
+        "q": "Was it hackers?",
+        "a": "Microsoft says no. Its own upgrade did it, not a cyberattack."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why does everyone use the same company?",
+        "a": "Cheaper and simpler, until it breaks. A backup is nearly impossible."
+      },
+      {
+        "q": "Will Microsoft get in trouble?",
+        "a": "The articles don't say. It apologised and promised a full report."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#MicrosoftOutage",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 12,
+    "13-17": 13
+  },
+  "photo_subject": "Microsoft",
+  "photo": "data/images/2026-11-13-evening.jpg",
+  "photo_credit": "Photo: Jelson25, Wikimedia Commons, Public domain",
+  "photo_zoom": 1.0,
+  "caption": "Microsoft says its own upgrade broke it. Not hackers.\n\nMicrosoft's Outlook and Teams stopped working Thursday afternoon and stayed mostly down for nearly 24 hours, in more than 70 countries. Hospitals, schools, courts and the US House lost their email. Microsoft blames a network upgrade that went wrong, not hackers. It said sorry Friday and has no date for a full fix.\n\nSource: BBC News\nPhoto: Jelson25, Wikimedia Commons, Public domain\n\nSwipe for what to say at age 7, at 12, and at 13.\n\nThe dinner table question: If everyone relies on one thing, whose job is it to have a backup? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #MicrosoftOutage #DinnerTableNews"
+}
