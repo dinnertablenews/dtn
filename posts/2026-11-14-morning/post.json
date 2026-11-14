@@ -1,0 +1,77 @@
+{
+  "slot": "2026-11-14 07:00 CT",
+  "date": "2026-11-14",
+  "category": "Government",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo",
+  "source_domain": "bbc.com",
+  "headline": "For four hours Friday, no US plane could take off.",
+  "summary": "The FAA stopped every takeoff in the US at 3:54 pm Eastern on Friday and reopened the sky at 8:15. Nearly 8,000 flights were cancelled and 8,500 delayed. Transportation Secretary Sean Duffy says the old switches that link the air traffic control centres got overloaded with data and went down. No cyberattack, he says. Nobody was in danger.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "Why not replace the old system?"
+  },
+  "cover_answer": "Money. Duffy asked Congress for $50 billion to replace it.",
+  "table_question": "Would you fix something expensive before it breaks, or after?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "On Friday the people who guide airplanes from the ground lost their way of talking to each other, so for four hours no plane in America could take off. Like a crossing guard holding up the stop sign on every street at once. The planes already flying all landed safely. Nobody was hurt, and the grown-ups have it.",
+      "why": "The crossing guard is the whole event. Every plane landed is the line that matters. A six-year-old reads your face before the words, so say it plainly.",
+      "why_long": "A six-year-old takes one vivid picture for the whole event, so the script hands them a crossing guard holding up every street at once: the planes waited, and nobody fell. They read a parent's face before the words, so say it plainly. Expect \"can our plane still go?\" Yes. The sky reopened Friday night."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Air traffic controllers talk to planes and to each other through old switches and routers. On Friday those got too much data and went down, so the FAA stopped every takeoff in the US for four hours. Like a school with one old phone line: too many calls at once and it goes dead.",
+      "why": "Overload, shutdown, no takeoffs is a chain they can follow. The one phone line is the mechanism.",
+      "why_long": "At ten they are building chains of cause and effect, and this one has clean links: too much data, the switches went down, every takeoff stopped. The one old phone line is the mechanism, and it says why one part took out the whole country. Expect \"why don't they just buy new ones?\" Duffy asked Congress for $50 billion. Not yet."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Would you get on a plane tomorrow? Sean Duffy, who runs US air traffic, says the system \"is going to continue to fail\" and wants $50 billion to fix it. Second: Mullin says new technology plugged into the old system overwhelmed it. Stop adding until the old part goes?",
+      "why": "Safe today, failing tomorrow: two true things. Let them pick one.",
+      "why_long": "A thirteen-year-old can hold two true things at once: the sky was safe on Friday, every plane landed, and the man who runs it says it will keep failing. The script hands them both and asks what they would do with that, which is what Duffy is asking Congress. Expect \"so is flying dangerous?\" Both secretaries say nobody was in danger."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Did any planes crash?",
+        "a": "No. Every plane in the air landed safely. The grown-ups on the ground stopped the others from taking off until they fixed it."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "What is a ground stop?",
+        "a": "Planes in the air keep flying. Planes on the ground wait until it's lifted."
+      },
+      {
+        "q": "Did people sleep at the airport?",
+        "a": "Some did. Duffy said tens of thousands were stranded Friday night."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why not replace the old system?",
+        "a": "Money, Duffy says. He wants $50 billion from Congress to rebuild it."
+      },
+      {
+        "q": "Was it hackers?",
+        "a": "Mullin says zero evidence. New gear added to the old system overloaded it."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#GroundStop",
+    "#DinnerTableNews"
+  ],
+  "photo_subject": "Federal Aviation Administration",
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 10,
+    "13-17": 13
+  },
+  "caption": "Money. Duffy asked Congress for $50 billion to replace it.\n\nThe FAA stopped every takeoff in the US at 3:54 pm Eastern on Friday and reopened the sky at 8:15. Nearly 8,000 flights were cancelled and 8,500 delayed. Transportation Secretary Sean Duffy says the old switches that link the air traffic control centres got overloaded with data and went down. No cyberattack, he says. Nobody was in danger.\n\nSource: BBC News\n\nSwipe for what to say at age 6, at 10, and at 13.\n\nThe dinner table question: Would you fix something expensive before it breaks, or after? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #GroundStop #DinnerTableNews"
+}
