@@ -1,0 +1,76 @@
+{
+  "slot": "2026-11-14 12:00 CT",
+  "date": "2026-11-14",
+  "category": "World",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do",
+  "source_domain": "bbc.com",
+  "headline": "Trump, Putin and Xi will sit at one table next week.",
+  "summary": "The White House says Trump, Putin and Xi will meet together on the sidelines of the APEC summit in Shenzhen, China, next week. The three have never sat down as a group. Spokeswoman Olivia Wales says Trump wants to talk about cutting nuclear weapons. A senior US official told AP not to expect a deal. Moscow and Beijing have not commented.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Are they friends?"
+  },
+  "cover_answer": "Not really. That's why they're meeting.",
+  "table_question": "Would you sit down to talk with someone you don't trust?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "Next week the president flies to China to sit down with China's president and Russia's president, all three in one room for the first time. Like three team captains meeting mid-field before the game. He wants to talk about the world having fewer of its biggest weapons. Nobody is fighting, they're talking, and the grown-ups have it.",
+      "why": "Three captains mid-field is the whole event. Talking, not fighting, is the line that matters.",
+      "why_long": "A seven-year-old takes one picture for the whole event, so the script gives them three captains meeting mid-field: nobody fighting, everyone talking. \"Biggest weapons\" is the phrase they will catch, so the calm line comes straight after it. Expect \"are they friends?\" Not really. That's why they're meeting."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "The treaty that capped US and Russian nuclear weapons ran out in February. China has been adding weapons. Trump wants a new deal with all three, so next week he, Putin and Xi sit at one table for the first time. Like two teams whose referee quit, writing rules with a third.",
+      "why": "Treaty out, no cap, deal with three is a chain they can follow. The referee who quit is the mechanism.",
+      "why_long": "At eleven the chain is the point: the treaty ran out, nothing caps the weapons, Trump wants a deal that adds China, so three leaders meet. The referee who quit is the mechanism, and it says why a new rulebook needs every team's signature. Expect \"will they agree?\" A senior US official told AP not to expect a deal."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Is three men at a table worth anything if no deal follows? A senior US official told AP not to expect one; the White House says Trump wants to talk about cutting nuclear weapons. Second: Moscow and Beijing haven't confirmed it. Who needs this meeting most?",
+      "why": "No deal expected, and the meeting matters anyway. Let them pick.",
+      "why_long": "A fifteen-year-old can hold two true things at once: no deal is expected, and three leaders who have never shared a table are about to. The script hands them both and asks who needs the meeting most, which is what Moscow and Beijing's silence puts in play. Expect \"so is it just a photo?\" Honest answer: nobody can say until it happens."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Are they friends?",
+        "a": "Not really. They run three big countries that argue about a lot. Sitting down to talk is how grown-ups work on that."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Will they agree on something?",
+        "a": "A US official told AP not to expect a deal. The room is the point."
+      },
+      {
+        "q": "Why does China have to be in it?",
+        "a": "China is building more, and Trump says any new deal has to include it."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why isn't Ukraine on the agenda?",
+        "a": "BBC says it's understood Ukraine won't come up and Iran might. The articles don't say why."
+      },
+      {
+        "q": "Why does Europe care?",
+        "a": "Last month the US agreed to buy Russian diesel and paused sanctions on Russia's biggest oil buyers. Europe read that as going soft."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#APEC",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 11,
+    "13-17": 15
+  },
+  "caption": "Not really. That's why they're meeting.\n\nThe White House says Trump, Putin and Xi will meet together on the sidelines of the APEC summit in Shenzhen, China, next week. The three have never sat down as a group. Spokeswoman Olivia Wales says Trump wants to talk about cutting nuclear weapons. A senior US official told AP not to expect a deal. Moscow and Beijing have not commented.\n\nSource: BBC News\n\nSwipe for what to say at age 7, at 11, and at 15.\n\nThe dinner table question: Would you sit down to talk with someone you don't trust? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #APEC #DinnerTableNews"
+}

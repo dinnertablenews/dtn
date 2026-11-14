@@ -1,0 +1,76 @@
+{
+  "slot": "2026-11-14 12:00 CT",
+  "date": "2026-11-14",
+  "category": "Security",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo",
+  "source_domain": "bbc.com",
+  "headline": "A riverboat rolled over in New Orleans. Nobody is missing.",
+  "summary": "The tanker Atlantic Asphalt hit the American Heritage, a cruise boat docked in New Orleans, on Friday afternoon. The riverboat listed, then tipped onto its side in the Mississippi. Some 130 people were aboard. All are accounted for; 32 went to hospital, none critical. The Coast Guard says the tanker seems to have lost steering.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Did everyone get off the boat?"
+  },
+  "cover_answer": "Yes. About 130 people, and nobody is missing.",
+  "table_question": "If a rescue goes perfectly, was it luck or practice?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "On Friday in New Orleans a big tanker ship ran into a riverboat that was tied up at the dock. The riverboat leaned over and lay down on its side in the river, like a toy boat tipped in the bath. About 130 people were on it, and the tugboat drivers and police nearby got every one of them out. Nobody is badly hurt, and nobody is missing.",
+      "why": "The toy boat in the bath is the whole event. Every person out is the line that matters.",
+      "why_long": "A six-year-old takes the one picture, a boat on its side, for the whole event, so the script gives them the toy boat in the bath and then every person out. What frightens them is what they can see, so the words go to the people pulling others out. Expect \"could our boat tip over?\" You are not on a boat. This one was hit."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "The Coast Guard thinks the tanker lost its steering. A ship that can't steer is a shopping cart with a jammed wheel: it keeps going, and it hit the American Heritage at its dock in New Orleans. The riverboat took on water and rolled onto its side. Tug crews and police got 130 people out.",
+      "why": "No steering, hit, water, roll, rescue is a chain they can follow. The jammed wheel is the mechanism.",
+      "why_long": "At eleven the chain is the thing: no steering, the ship kept going, it hit the docked boat, the boat took on water and rolled, the crews nearby went in. The jammed wheel is the mechanism: it says why the crew could not just stop. Expect \"why did the steering break?\" Nobody knows yet. The Coast Guard is looking."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "How does a ship hit a boat that isn't moving? The Coast Guard says it looks like a loss of steering, and that's all so far. Second: the mayor called zero missing a \"miracle on the Mississippi\", then credited the tug crews and police who jumped in. Miracle, or a job well done?",
+      "why": "Miracle and job well done: two true things. Let them pick which word to keep.",
+      "why_long": "A thirteen-year-old can hold two true things at once: about 130 people came off a boat lying on its side with nobody missing, and nobody can yet say why a tanker hit a boat that was not moving. The script asks whether \"miracle\" and \"job well done\" can both be right. Expect \"will someone get in trouble?\" The articles don't say."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Did everyone get off the boat?",
+        "a": "Yes. About 130 people, and nobody is missing. Thirty-two went to hospital and none of them is badly hurt."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Did the boat sink?",
+        "a": "It rolled onto its side. Some people went in the river in life jackets."
+      },
+      {
+        "q": "Why did the tanker lose steering?",
+        "a": "Nobody knows yet. The governor promised an investigation."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "How does a ship hit a boat that isn't moving?",
+        "a": "The Coast Guard thinks it lost its steering. That's all so far."
+      },
+      {
+        "q": "Who gets the blame?",
+        "a": "Nobody yet. The governor promised an investigation."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#NewOrleans",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 11,
+    "13-17": 13
+  },
+  "caption": "Yes. About 130 people, and nobody is missing.\n\nThe tanker Atlantic Asphalt hit the American Heritage, a cruise boat docked in New Orleans, on Friday afternoon. The riverboat listed, then tipped onto its side in the Mississippi. Some 130 people were aboard. All are accounted for; 32 went to hospital, none critical. The Coast Guard says the tanker seems to have lost steering.\n\nSource: BBC News\n\nSwipe for what to say at age 6, at 11, and at 13.\n\nThe dinner table question: If a rescue goes perfectly, was it luck or practice? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #NewOrleans #DinnerTableNews"
+}
