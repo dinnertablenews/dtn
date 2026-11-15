@@ -1,0 +1,76 @@
+{
+  "slot": "2026-11-15 12:00 CT",
+  "date": "2026-11-15",
+  "category": "Government",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/c6j9mn7l14y0o",
+  "source_domain": "bbc.com",
+  "headline": "The golf course stays open. The judge gave it two weeks.",
+  "summary": "Trump said East Potomac Golf Links would close Sunday for a 15-month rebuild. Saturday, Judge Ana Reyes blocked the closure until November 28. She wrote that the government broke at least two laws to meet an arbitrary deadline, and that its reasons were pretext. The National Park Service runs the 106-year-old public course in Washington.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Does the president own it?"
+  },
+  "cover_answer": "No. It's a public park, and the public is still using it.",
+  "table_question": "If you're sure your plan is better, can you skip the rules to do it?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "There's a golf course in Washington that anyone can play on, two miles from the White House, about 35 football fields away. The president wants to close it for more than a year and build a fancier one. A judge said not yet, so people were out playing on it this weekend. Nobody is in trouble, and the grown-ups have it.",
+      "why": "A park that stays open is a story a seven-year-old can hold. The football fields put it somewhere.",
+      "why_long": "A seven-year-old reasons from what is in front of them, so the script gives one scene, people playing on the course this weekend, and one measurement they can picture, 35 football fields. A judge saying \"not yet\" is a rule they know from home. Expect \"why does he want to close it?\" He says the old course is falling apart."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "The course is 106 years old and public. In October the Park Service cut hundreds of trees and told the judge 15 hours before. Trump announced the closure anyway. On Saturday Judge Ana Reyes blew the whistle: play stops while the call is checked, and she says the government broke at least two laws.",
+      "why": "A whistle they know from the field, and a fairness call they can make.",
+      "why_long": "At nine the question is whether adults follow their own rules, and here a government did not: trees cut on 15 hours' notice, a closure announced over the judge's head, a whistle. They trust a referee because the whistle applies to both sides. Expect \"can he ignore her?\" She is already asking whether his lawyers misled her."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "If the new course would be better, does it matter how the government gets there? Judge Reyes wrote that it broke at least two laws to meet an arbitrary deadline, and is asking whether its lawyers misled her. Trump calls the course \"Trash Island\". Second: should a president pick which park gets rebuilt?",
+      "why": "Ends against means, with a real judge and a real deadline.",
+      "why_long": "A thirteen-year-old can hold two true things: the course might come out better, and the government broke the law to get there. The script asks whether the end justifies the route, then widens to who gets to choose. Expect \"what happens on November 28?\" The order runs out. The judge can extend it or let the closure go ahead."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Does the president own it?",
+        "a": "No. It belongs to everyone, and the National Park Service looks after it. He is the president, not the owner."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why did the judge say no?",
+        "a": "The government broke at least two laws to hit a deadline it picked itself."
+      },
+      {
+        "q": "What happens on November 28?",
+        "a": "Her order runs out. She can extend it or let the closure go ahead."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Can the president just close a park?",
+        "a": "Not this one, this month. The judge found the closure broke the law."
+      },
+      {
+        "q": "Is a nicer golf course worth a fight?",
+        "a": "Trump says it's falling apart. The judge says people use it every day."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#EastPotomacPark",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 9,
+    "13-17": 13
+  },
+  "caption": "No. It's a public park, and the public is still using it.\n\nTrump said East Potomac Golf Links would close Sunday for a 15-month rebuild. Saturday, Judge Ana Reyes blocked the closure until November 28. She wrote that the government broke at least two laws to meet an arbitrary deadline, and that its reasons were pretext. The National Park Service runs the 106-year-old public course in Washington.\n\nSource: BBC News\n\nSwipe for what to say at age 7, at 9, and at 13.\n\nThe dinner table question: If you're sure your plan is better, can you skip the rules to do it? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #EastPotomacPark #DinnerTableNews"
+}

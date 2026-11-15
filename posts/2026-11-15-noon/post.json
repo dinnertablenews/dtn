@@ -1,0 +1,76 @@
+{
+  "slot": "2026-11-15 12:00 CT",
+  "date": "2026-11-15",
+  "category": "Health",
+  "outlet": "KFF Health News",
+  "source_url": "https://kffhealthnews.org/public-health/us-measles-elimination-status-lost-outbreaks-continuous-spread-year-paho-cdc/",
+  "source_domain": "kffhealthnews.org",
+  "headline": "The US kept measles out for 25 years. Not anymore.",
+  "summary": "The Pan American Health Organization decided this week that measles is spreading in the US again without a break. The US was declared free of it in 2000. This year has 5,412 confirmed cases, the most since 1991. Thirteen people have died in two years, one a 7-month-old in New York. Two vaccine doses stop about 97% of infections.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Can I catch measles?"
+  },
+  "cover_answer": "Not if you've had both shots. They stop about 97% of it.",
+  "table_question": "If your choice puts other people at risk, is it still your choice?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "Measles is a sickness with a high fever and a rash, and it catches on in a room the way a yawn does. For 25 years the US had almost none, because nearly everyone got two shots against it. This year more than 5,000 people caught it, most of them with no shots. Your shots are why the grown-ups aren't worried about you.",
+      "why": "The yawn is the one picture a six-year-old keeps. The shots are a thing they already did.",
+      "why_long": "A six-year-old takes one vivid feature for the whole event, so the script gives them the yawn, which they have seen cross a table, then a thing they already did: the shots. Cantor found this age fears a threat to its own body, so the last line answers that first. Expect \"did anyone die?\" Yes, 13 people in two years."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "The US was declared free of measles in 2000. Outbreaks still came from abroad, but with 95% vaccinated each died out within a year. Fewer kids have had the shots since the pandemic, and a Utah outbreak passed a year in June. The rule is a stopwatch: 12 months of one virus, and the status is gone.",
+      "why": "The stopwatch is a rule with a number in it, so they can check it.",
+      "why_long": "At eight the chain is the thing: fewer shots, an outbreak that keeps going, a stopwatch past 12 months, a status taken away. A rule with a number in it is one they can check against the facts, which this age does to every rule adults state. Expect \"is it dangerous now?\" 1 in 5 unvaccinated people who catch it go to hospital."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Whose fault is it when a disease comes back? The health department says the vaccine gap opened years before this administration. Scientists say it cut money for kids' shots and spread doubt. Second: is a shot a personal choice or a duty to the baby next door?",
+      "why": "Two true explanations, then a fairness call with a baby in it.",
+      "why_long": "A fourteen-year-old can hold two true things: rates were falling before this administration, and it then cut money for shots and sowed doubt. The script gives both and refuses to pick, which they test you on. The baby next door makes the duty concrete: no shot before a year old. Expect \"so what now?\" The articles don't say."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Can I catch measles?",
+        "a": "Not if you've had both shots. They stop about 97% of it. Nearly everyone who got sick this year had no shots."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "What does \"eliminated\" mean if people still got it?",
+        "a": "Outbreaks came from abroad and died out within a year. This one didn't."
+      },
+      {
+        "q": "Why does it need 95% of people?",
+        "a": "Babies under one can't get the shot. Everyone else having it protects them."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Whose fault is it?",
+        "a": "HHS says the gaps opened years ago. Scientists blame cuts and doubt from the top."
+      },
+      {
+        "q": "Does losing the status change anything?",
+        "a": "Axios calls it largely symbolic. Canada and the UK lost theirs this year too."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#Measles",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 8,
+    "13-17": 14
+  },
+  "caption": "Not if you've had both shots. They stop about 97% of it.\n\nThe Pan American Health Organization decided this week that measles is spreading in the US again without a break. The US was declared free of it in 2000. This year has 5,412 confirmed cases, the most since 1991. Thirteen people have died in two years, one a 7-month-old in New York. Two vaccine doses stop about 97% of infections.\n\nSource: KFF Health News\n\nSwipe for what to say at age 6, at 8, and at 14.\n\nThe dinner table question: If your choice puts other people at risk, is it still your choice? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #Measles #DinnerTableNews"
+}
