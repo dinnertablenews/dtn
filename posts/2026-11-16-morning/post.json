@@ -1,0 +1,76 @@
+{
+  "slot": "2026-11-16 07:00 CT",
+  "date": "2026-11-16",
+  "category": "Technology",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/cmdx1vpprk9vo",
+  "source_domain": "bbc.com",
+  "headline": "Did Nvidia chips get to China? The buyer says it's checking.",
+  "summary": "Megaspeed, the biggest buyer of Nvidia chips in south-east Asia, says Alice Huang, the suspected Chinese spy linked to Nvidia's former boss, left it in August 2025. It has hired outside lawyers to investigate itself. Nvidia can't sell its best chips to China. Megaspeed is suspected of giving Chinese companies a back door to them.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "Can a company investigate itself?"
+  },
+  "cover_answer": "It can try. Singapore and Congress are checking too.",
+  "table_question": "If you're accused of cheating, who checks: you or the teacher?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "A company called Nvidia makes the fastest computer chips in the world, the tiny brains inside a computer. America has a rule: don't sell them to China. A company in Singapore bought more of them than anyone nearby, and people think it let Chinese companies use them anyway. Lawyers are checking now, and the grown-ups have it.",
+      "why": "A rule, and someone who may have broken it. That is a whole story at this age.",
+      "why_long": "A seven-year-old reasons from what is in front of them, so the script gives one object, a chip, the brain of a computer, and one rule about it, and leaves the spy out. Piaget: the rule is what they can hold; who checks on it is beyond them, so that goes to the lawyers. Expect \"what's a chip?\" A computer's brain. That's enough."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Nvidia can't sell its best chips to China. Megaspeed, in Singapore, bought more than anyone nearby. The suspicion: Chinese companies got at them through a back door. Think of a hall pass: who borrowed one? It says it followed the rules and hired lawyers to check.",
+      "why": "A ban, a back door and a hall pass: a chain they can follow.",
+      "why_long": "At ten a child is working out whether rules have gaps and who uses them, so the script hands them the chain: a ban, a buyer next door, a back door. The hall pass turns it into a question from school: who borrowed one. Expect \"did they do it?\" Nobody has proved it. Singapore found too little evidence to charge."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Can a company investigate itself? Megaspeed hired its own lawyers after Singapore, Congress and the US Treasury secretary pointed at it. Second: Nvidia's boss resigned over affairs with a woman the US suspects, but hasn't shown, is a spy. Should suspicion cost a job?",
+      "why": "Two questions, and the second has no safe answer.",
+      "why_long": "A fourteen-year-old can hold two true things: a company's own lawyers are not a neutral referee, and nobody has shown the chips reached China or that she was a spy. Kuhn found arguing is a practised skill, so the second question is a case still open: what counts as enough? Expect \"was she a spy?\" Justice does not know yet."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "What's a spy?",
+        "a": "Someone who secretly finds things out for another country. Nobody knows yet if she was one."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why can't China have the chips?",
+        "a": "A US export rule bans it. China calls that a technological blockade."
+      },
+      {
+        "q": "How would chips get there anyway?",
+        "a": "The suspicion: through its data centres in three nearby countries."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Can a company investigate itself?",
+        "a": "It can hire lawyers to. Singapore and Congress are checking too."
+      },
+      {
+        "q": "Was she really a spy?",
+        "a": "Nobody has said so. The Justice Department hasn't decided."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#Megaspeed",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 10,
+    "13-17": 14
+  },
+  "caption": "It can try. Singapore and Congress are checking too.\n\nMegaspeed, the biggest buyer of Nvidia chips in south-east Asia, says Alice Huang, the suspected Chinese spy linked to Nvidia's former boss, left it in August 2025. It has hired outside lawyers to investigate itself. Nvidia can't sell its best chips to China. Megaspeed is suspected of giving Chinese companies a back door to them.\n\nSource: BBC News\n\nSwipe for what to say at age 7, at 10, and at 14.\n\nThe dinner table question: If you're accused of cheating, who checks: you or the teacher? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #Megaspeed #DinnerTableNews"
+}
