@@ -1,0 +1,77 @@
+{
+  "slot": "2026-11-17 12:00 CT",
+  "date": "2026-11-17",
+  "category": "Security",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/nation/judge-sets-march-retrial-date-for-lindsay-clancy-in-deaths-of-her-3-children",
+  "source_domain": "pbs.org/newshour",
+  "headline": "She killed her three children. Was she sick, or guilty?",
+  "summary": "Lindsay Clancy strangled her three children at home in Duxbury, Massachusetts, in January 2023. She has never denied it. Her lawyers say she had postpartum psychosis. At her first trial, 11 of 12 jurors would have found her not guilty by reason of insanity. One held out, so no verdict. On Monday a judge set a second trial for March 29.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Why would a mom do that?"
+  },
+  "cover_answer": "Her lawyers say a rare illness made her mind sick.",
+  "table_question": "Eleven say yes and one says no. Do you decide, or start over?",
+  "ages": {
+    "5-7": {
+      "shield": true,
+      "chip": "Bring it up if it fits the day",
+      "script": "A mom in Massachusetts hurt her three children so badly that they died. Her lawyers say a rare illness some moms get right after a baby is born made her mind very sick, the way a high fever makes your body do strange things. She is in a hospital now, and a judge and a jury will decide what happens. You are safe.",
+      "why": "Shielded. If it comes up, the illness did it, and the grown-ups have it.",
+      "why_long": "Shielded: a six-year-old reasons from what is in front of them, and here that is a mother and a child. Cantor found the fear this age can't put down is a parent turning on them. If they hear it, the script puts the harm inside an illness and hands the rest to the judge. Expect \"could you get it?\" It is rare, and only after a baby."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "Lindsay Clancy killed her three children. The trial asked whether an illness after childbirth meant she didn't know what she was doing. A jury is 12 referees who must all make one call. Eleven said too ill to be guilty, one said no, so it runs again in March.",
+      "why": "Twelve referees, one holdout, no call: a rule a kid can test.",
+      "why_long": "At eight a child is working out rules and whether adults keep them. The script hands over one chain: all 12 must agree, 11 did, one didn't, so the rule is start over. The referee is the anchor: a call needing every official is a rule they know. Expect \"why can one person block it?\" Because all 12 must be sure before anyone is jailed."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Can you be guilty of murder if an illness was running your mind? Lindsay Clancy killed her three children. Her lawyers say postpartum psychosis; prosecutors say she planned it. Eleven of 12 jurors leaned toward insanity, one held out, so she is tried again in March. Second: is that fair, or stubborn?",
+      "why": "Two true things at fifteen: she did it, and she may not have known it.",
+      "why_long": "At fifteen they can hold two true things: she did it, and she may not have known what she was doing. The script gives both, then a question with no safe side: is a retrial after 11 to 1 justice or stubbornness? Kuhn's point: arguing a side you didn't pick is how the skill grows. Expect \"what if she's found not guilty?\" I don't know."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Why would a mom do that?",
+        "a": "Her lawyers say a rare illness after her baby was born made her mind very sick. She's in a hospital now."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why do the trial again?",
+        "a": "All 12 must agree. Eleven did, one didn't, so no verdict and one more try."
+      },
+      {
+        "q": "Will she go to jail?",
+        "a": "Nobody knows yet. She's in a psychiatric hospital. A new jury decides in March."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Is it fair to try her twice?",
+        "a": "The judge said yes. Double jeopardy only bars a retrial after a verdict."
+      },
+      {
+        "q": "What is postpartum psychosis?",
+        "a": "A rare mental illness that can hit mothers after childbirth. Her lawyers say it drove her."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#LindsayClancy",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 8,
+    "13-17": 15
+  },
+  "caption": "Her lawyers say a rare illness made her mind sick.\n\nLindsay Clancy strangled her three children at home in Duxbury, Massachusetts, in January 2023. She has never denied it. Her lawyers say she had postpartum psychosis. At her first trial, 11 of 12 jurors would have found her not guilty by reason of insanity. One held out, so no verdict. On Monday a judge set a second trial for March 29.\n\nSource: PBS NewsHour\n\nSwipe for what to say at age 6, at 8, and at 15.\n\nThe dinner table question: Eleven say yes and one says no. Do you decide, or start over? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #LindsayClancy #DinnerTableNews"
+}
