@@ -1,0 +1,77 @@
+{
+  "slot": "2026-11-16 20:00 CT",
+  "date": "2026-11-16",
+  "category": "Technology",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/science/trump-administration-moves-to-block-china-from-indirect-access-to-american-ai-tech",
+  "source_domain": "pbs.org/newshour",
+  "headline": "China can't buy the best US chips. Now it can't rent them.",
+  "summary": "The US already bans selling its most advanced AI chips to China. Chinese companies rented them instead, from data centers in places like Malaysia. On Monday the Commerce Department closed that door: data centers serving China, Russia, Iran or Cuba must now name their customers, and chip sales to five countries need a license.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "How do you rent a computer chip?"
+  },
+  "cover_answer": "Over the internet. The chip stays put; the work travels.",
+  "table_question": "If you're banned from buying something, is renting it cheating?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "America makes the best computer chips for teaching computers to think, and it won't sell those to China. So some companies in China used them over the internet instead, like bouncing on a neighbour's trampoline instead of buying one. Today America said that has to stop too. It's a rule about machines, and the grown-ups have it.",
+      "why": "At six the trampoline is the whole idea, and it's a small one.",
+      "why_long": "A six-year-old reasons from what is in front of them, so the script hands over a trampoline, not an export control. Cantor found that what frightens a child this age is what they can picture, and there is nothing to picture here but a machine. Expect \"can we still use our computer?\" Yes. Nothing at home changes."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "The US won't sell its best AI chips to China. But a chip in a Malaysian data center can be rented over the internet, so the ban had a hole. On Monday the Commerce Department patched it: data centers serving China must name their customers. A locked door is no use with the window open.",
+      "why": "A ban, a hole, a patch: a chain a twelve-year-old can run, and the window makes the hole visible.",
+      "why_long": "At twelve a child is tracing cause and effect and checking whether adults apply a rule all the way through. The script gives the chain, a ban, a hole, a patch, and the open window makes the hole visible. Expect \"why didn't they close it before?\" A congressman proposed it last year. The bill has passed one chamber."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Can a country keep its technology to itself once the technology lives in the cloud? China can't buy US chips, so its AI firms rented them from Malaysia. Monday's rule says that counts too. Second: it came days after Nvidia's CEO quit over ties to a firm suspected of just this. A fix, or a headline?",
+      "why": "Two true things, and at seventeen they can hold both: the hole was real, and so is the timing.",
+      "why_long": "At seventeen they can hold two true things at once: the loophole was real, and the rule arrived the week a scandal made it urgent. Kuhn found that arguing well is practised, so the script ends on a case and leaves the verdict to them. Expect \"so was it the scandal?\" The AP puts the two side by side and does not say. Nor should you."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Will China be mad at us?",
+        "a": "Maybe. Countries argue about rules a lot. Nobody is in danger."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "How do you rent a computer chip?",
+        "a": "Over the internet. The chip sits in another country; you send it work."
+      },
+      {
+        "q": "Why those five countries?",
+        "a": "The rule says chips leak from there to places they're banned."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Does this actually stop China?",
+        "a": "Not alone. The AP says many in Congress think the rules still leak."
+      },
+      {
+        "q": "Is this about the Nvidia scandal?",
+        "a": "Partly. It came days after Nvidia's CEO quit over ties to Megaspeed."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#ExportControls",
+    "#DinnerTableNews"
+  ],
+  "photo_subject": "Herbert C. Hoover Building",
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 12,
+    "13-17": 17
+  },
+  "caption": "Over the internet. The chip stays put; the work travels.\n\nThe US already bans selling its most advanced AI chips to China. Chinese companies rented them instead, from data centers in places like Malaysia. On Monday the Commerce Department closed that door: data centers serving China, Russia, Iran or Cuba must now name their customers, and chip sales to five countries need a license.\n\nSource: PBS NewsHour\n\nSwipe for what to say at age 6, at 12, and at 17.\n\nThe dinner table question: If you're banned from buying something, is renting it cheating? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #ExportControls #DinnerTableNews"
+}
