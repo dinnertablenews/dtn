@@ -1,0 +1,79 @@
+{
+  "slot": "2026-11-17 07:00 CT",
+  "date": "2026-11-17",
+  "category": "Technology",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/nation/united-airlines-says-it-resolved-a-technology-issue-that-delayed-departing-flights",
+  "source_domain": "pbs.org/newshour",
+  "headline": "United couldn't weigh its planes. 418 flights ran late.",
+  "summary": "For about 90 minutes Monday afternoon, United Airlines pilots couldn't get the number that tells them a plane's final weight before takeoff, so planes waited at the gate. FlightAware counted 418 delayed United flights. United says there's no sign it was a cyberattack. It came three days after a bad router grounded every flight in the US.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "Why does a plane get weighed?"
+  },
+  "cover_answer": "Pilots need its weight to take off safely. So they waited.",
+  "table_question": "If the checklist computer breaks, do you guess or do you wait?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "Yesterday, planes from one airline couldn't leave for a while. The computer that tells the pilot how heavy the plane is stopped working, and a pilot won't take off without that number, like a bus driver who won't go until everyone is sitting down. It was fixed in about an hour and a half, and everyone was safe.",
+      "why": "At seven the bus driver waiting is the whole story, and it ends with everyone safe.",
+      "why_long": "A seven-year-old takes one vivid feature for the whole event, so the script makes that feature the pilot who waits, not the broken computer. Cantor found that what frightens a child this age is what they can picture, and a bus driver waiting for everyone to sit down is a picture of care. Expect \"did any planes crash?\" No. None."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "A United pilot in Houston asked the tower to let him wait at the gate for a computer. It's the system that works out a plane's final weight, which a pilot needs before takeoff. It was down about 90 minutes, and 418 flights ran late. One empty box stops the whole checklist.",
+      "why": "A broken box, a stuck checklist, 418 late planes: a chain an eight-year-old can run.",
+      "why_long": "At eight a child is tracing cause and effect and testing whether rules hold when they cost something. The script gives one chain, a computer down, a checklist box empty, a plane at the gate, and the pilot who keeps the rule with 418 flights late is the point. Expect \"why not guess?\" Because the rule is for the day the guess is wrong."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Should a pilot take off without the computer's number? United's weight system went down Monday and pilots sat at the gate 90 minutes rather than guess. Second: Outlook, a router that grounded every US flight, Chase's app, then United: five days. Bad luck, or a pattern?",
+      "why": "Two true things at fifteen: careful pilots, and systems that keep failing.",
+      "why_long": "At fifteen they can hold two true things: the pilots did the careful thing, and the week's fourth big outage says people are being asked for it a lot. The script lists the four failures and lets them argue whether it's a pattern; arguing from evidence is practised. Expect \"is flying safe?\" Yes. The gate is where the caution showed."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Were the people on the planes scared?",
+        "a": "Probably just bored. The planes stayed at the gate, and the ones already flying were fine."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why not just guess the weight?",
+        "a": "Pilots need the final weight to take off safely. No number, no takeoff."
+      },
+      {
+        "q": "Was it hackers?",
+        "a": "United says there's no sign of that. Chase called its problem a software bug."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why does a plane get weighed?",
+        "a": "Pilots use the final weight to check it can take off safely."
+      },
+      {
+        "q": "Is it all connected?",
+        "a": "Nobody has said so. United, Chase and the FAA each gave a different cause."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#UnitedAirlines",
+    "#DinnerTableNews"
+  ],
+  "photo_subject": "United Airlines",
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 8,
+    "13-17": 15
+  },
+  "photo": "data/images/2026-11-17-morning-alt.jpg",
+  "photo_credit": "Photo: N509FZ, Wikimedia Commons, CC BY-SA 4.0",
+  "caption": "Pilots need its weight to take off safely. So they waited.\n\nFor about 90 minutes Monday afternoon, United Airlines pilots couldn't get the number that tells them a plane's final weight before takeoff, so planes waited at the gate. FlightAware counted 418 delayed United flights. United says there's no sign it was a cyberattack. It came three days after a bad router grounded every flight in the US.\n\nSource: PBS NewsHour\nPhoto: N509FZ, Wikimedia Commons, CC BY-SA 4.0\n\nSwipe for what to say at age 7, at 8, and at 15.\n\nThe dinner table question: If the checklist computer breaks, do you guess or do you wait? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #UnitedAirlines #DinnerTableNews"
+}

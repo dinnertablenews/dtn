@@ -1,0 +1,79 @@
+{
+  "slot": "2026-11-17 07:00 CT",
+  "date": "2026-11-17",
+  "category": "Economy",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/cry49plv8v3go",
+  "source_domain": "bbc.com",
+  "headline": "Trump wants Nvidia's old boss back. The board says no.",
+  "summary": "Jensen Huang quit as Nvidia's CEO last Thursday after two affairs came out, one with a woman suspected of spying for China. More than 175,000 people, Elon Musk among them, signed a letter asking the board to take him back. Trump said Monday he \"would certainly not mind.\" The board told the BBC it isn't considering it. Shares fell 4.1%.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "Can a petition get a boss his job back?"
+  },
+  "cover_answer": "No. The board hires the boss, and this board says no.",
+  "table_question": "If the best player broke the team rules, would you let them back?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "The man who ran the company that makes the fastest computer chips quit last week because he broke his company's rules. Lots of people, even the president, signed a letter asking for him back. The company's bosses said no. Like a team: the players can ask, but the coach picks the captain. The grown-ups have it.",
+      "why": "At seven the letter and the no are the whole story. The rules he broke can stay grown-up rules.",
+      "why_long": "A seven-year-old reasons from what is in front of them, and here that is a letter asking and a boss saying no, which every child has lived through. The rules he broke stay grown-up rules: this age takes one vivid feature for the whole event. Expect \"what rule did he break?\" A rule about who you can be close to at work. That is enough."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Nvidia's boss quit after breaking the company's rules. 175,000 people signed a petition to bring him back, Elon Musk too, and Trump said he wouldn't mind. But the board hires and fires the boss. The petition is the crowd, the board is the referee, and the call stands.",
+      "why": "A quit, a petition, a no: a chain an eleven-year-old can run. The referee holds the whistle.",
+      "why_long": "At eleven a child is working out who gets to decide what, and whether the loudest voice wins. Piaget's point is that this age reasons well about rules it can see in play, so the script runs the chain, a quit, a petition, a no, and the referee holds the whistle. Expect \"what if everyone wants him back?\" The board still decides."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Should a company take back a boss who broke its rules because he's the best at the job? Musk says Nvidia's deals were \"a handshake with Jensen.\" A professor calls that the genius theory. Second: Trump holds Nvidia stock. Does that change what his opinion is worth?",
+      "why": "Two true things at seventeen: brilliant at the job, and he broke the rules.",
+      "why_long": "At seventeen they can hold two true things, Huang was brilliant at the job and broke its rules, and they can reason about what is not in the room: what a president's stock holding does to his opinion. The script hands them a professor's label to knock down. Expect \"would you take him back?\" Answer with a reason, then hear theirs."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Why did he quit?",
+        "a": "He broke rules at his company about who you can be close to at work. So he left, and the grown-ups are sorting out who runs it now."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Can a petition get someone their job back?",
+        "a": "Not by itself. The board hires and fires the boss. Signatures aren't a vote."
+      },
+      {
+        "q": "Why does the president care who runs a chip company?",
+        "a": "Nvidia makes the chips that run AI, and Trump owns Nvidia stock."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Can a petition get a boss his job back?",
+        "a": "No. The board hires the CEO, and it says it isn't considering him."
+      },
+      {
+        "q": "Why did the stock fall if people want him back?",
+        "a": "Uncertainty. Nobody knows who'll run it. Shares fell 4.1% Monday."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#JensenHuang",
+    "#DinnerTableNews"
+  ],
+  "photo_subject": "Nvidia",
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 11,
+    "13-17": 17
+  },
+  "photo": "data/images/2026-11-17-morning.jpg",
+  "photo_credit": "Photo: Coolcaesar, Wikimedia Commons, CC BY-SA 4.0",
+  "caption": "No. The board hires the boss, and this board says no.\n\nJensen Huang quit as Nvidia's CEO last Thursday after two affairs came out, one with a woman suspected of spying for China. More than 175,000 people, Elon Musk among them, signed a letter asking the board to take him back. Trump said Monday he \"would certainly not mind.\" The board told the BBC it isn't considering it. Shares fell 4.1%.\n\nSource: BBC News\nPhoto: Coolcaesar, Wikimedia Commons, CC BY-SA 4.0\n\nSwipe for what to say at age 7, at 11, and at 17.\n\nThe dinner table question: If the best player broke the team rules, would you let them back? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #JensenHuang #DinnerTableNews"
+}
