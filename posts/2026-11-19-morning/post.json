@@ -1,0 +1,76 @@
+{
+  "slot": "2026-11-19 07:00 CT",
+  "date": "2026-11-19",
+  "category": "Economy",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/economy/anthropic-prices-its-ipo-at-83-per-share-valuing-the-ai-giant-at-1-5-trillion",
+  "source_domain": "pbs.org/newshour",
+  "headline": "Anthropic raised $81 billion. It still loses money.",
+  "summary": "Anthropic priced its stock at $83 a share on Wednesday, above the $70 to $78 it had planned. That values the maker of the Claude AI tool at $1.5 trillion and raises $81 billion, more than SpaceX did in June. The shares trade on the Nasdaq from Thursday under the ticker ANT. The company owes $6.2 billion and is not profitable.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "It loses money. Why buy it?"
+  },
+  "cover_answer": "Buyers bet on what it earns later. A bet can lose.",
+  "table_question": "Would you buy a piece of a company that hasn't made money yet?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "A company that makes a computer helper called Claude let people buy pieces of it today. Think of a pizza cut into 980 million slices, with every slice costing 83 dollars. People bought all of them, and the company will use the money to build bigger computers. Nothing changes for you.",
+      "why": "A pizza in slices is a size they can hold. A trillion is not.",
+      "why_long": "A seven-year-old reasons from what is in front of them, so the script hands over a pizza cut into 980 million slices at 83 dollars each and leaves the trillion out. The slice is the vivid feature they will keep. Expect 'can we buy one?' Grown-ups can, from Thursday, and it can lose money as easily as it gains it."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Anthropic makes the Claude AI tool. Building AI takes giant computers, and it has pledged $900 billion for them. So on Wednesday it sold pieces of itself, called shares: 980 million at $83 each, for $81 billion. Like a pizza sold by the slice to pay for the oven.",
+      "why": "Need computers, sell shares, get cash. A chain they can run.",
+      "why_long": "At eight a child is working out cause and effect, so the script runs the chain: computers cost money, the company sells pieces of itself, the pieces bring in 81 billion dollars. The pizza is a split they can see. Expect 'is Anthropic rich now?' It has the cash. It also owes 6.2 billion and will spend 70 billion in a year."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Is $1.5 trillion a bet or a bubble? Buyers paid $83 a share for what they think Anthropic earns later, after it spends $900 billion on computers. Second: it promises to weigh \"the long-term benefit of humanity\" against profit. Who checks that?",
+      "why": "Two things at once: a record price, and no profit yet.",
+      "why_long": "A seventeen-year-old can hold two true things: buyers paid 83 dollars a share, and the company loses money. The script gives them both, then asks who checks a promise to weigh humanity against profit. Expect 'so is it a bubble?' The report says some investors fear one. Nobody knows until it pops or doesn't."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Can I buy a piece?",
+        "a": "Grown-ups can, from Thursday, through a grown-up's account. A piece cost 83 dollars on Wednesday. Its price can go down as well as up."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "What's a share?",
+        "a": "A tiny piece of a company. Own one, own a sliver of Anthropic. You can sell it on."
+      },
+      {
+        "q": "Who gets the $81 billion?",
+        "a": "Mostly the company, for computers. Workers can now sell theirs too."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "It loses money. Why buy it?",
+        "a": "Buyers paid for future profit, not today's. Wrong bet, and the price falls."
+      },
+      {
+        "q": "Why sell shares instead of borrowing?",
+        "a": "It already owes $6.2 billion. Shares raise cash without adding debt."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#AnthropicIPO",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 8,
+    "13-17": 17
+  },
+  "caption": "Buyers bet on what it earns later. A bet can lose.\n\nAnthropic priced its stock at $83 a share on Wednesday, above the $70 to $78 it had planned. That values the maker of the Claude AI tool at $1.5 trillion and raises $81 billion, more than SpaceX did in June. The shares trade on the Nasdaq from Thursday under the ticker ANT. The company owes $6.2 billion and is not profitable.\n\nSource: PBS NewsHour\n\nSwipe for what to say at age 7, at 8, and at 17.\n\nThe dinner table question: Would you buy a piece of a company that hasn't made money yet? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #AnthropicIPO #DinnerTableNews"
+}
