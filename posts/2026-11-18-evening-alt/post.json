@@ -1,0 +1,76 @@
+{
+  "slot": "2026-11-18 20:00 CT",
+  "date": "2026-11-18",
+  "category": "Culture",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/nation/will-people-skip-work-and-hurt-the-u-s-economy-to-play-grand-theft-auto-6",
+  "source_domain": "pbs.org/newshour",
+  "headline": "GTA VI scored a 99. The sick-day stat has no source.",
+  "summary": "'Grand Theft Auto VI' unlocks at midnight on Nov. 19, 13 years after the last one. Critics gave it a 99 on Metacritic, tying a Zelda record from 1998. A viral claim says 1.5 million Americans will skip work to play it, costing $1 billion. PolitiFact found no survey behind either number. On a normal day 3.9 million US workers are absent anyway.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "Is it really the best game ever made?"
+  },
+  "cover_answer": "Critics tied it with a 1998 Zelda. It's not a kids' game.",
+  "table_question": "Would you call in sick for something you'd waited 13 years for?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "A video game that took 13 years to make comes out tonight. That's longer than you have been alive. It is so big that downloading it uses more than a quarter of what a whole house uses on the internet in a month. It's a grown-up game about stealing cars, so it isn't for kids. Nothing changes for you.",
+      "why": "Thirteen years and a month of internet are sizes they can hold.",
+      "why_long": "A seven-year-old takes one vivid feature for the whole story, so the script gives them two sizes they can hold: longer than their own life, and a quarter of the house's internet for a month. 'Grown-up game' is the only judgment they need. Expect 'why can't I play it?' Because it is about stealing cars and shooting, and that is for adults."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "A viral post says 1.5 million Americans will skip work Thursday to play GTA VI, costing $1 billion. PolitiFact found no survey behind either number. One economist called it 'social media clickbait'. Check it like a referee checks a replay: 3.9 million US workers miss a normal day, double the claim.",
+      "why": "A claim goes viral, someone traces it, no source.",
+      "why_long": "At ten a child is working out rules and whether adults apply them, so the script hands over a chain: a number goes viral, a fact-checker traces it, nobody can find the survey. The replay is the mechanism, a check before the call stands. Expect 'so is the number wrong?' Nobody knows the real one. A number with no source is a guess."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Can a 99 out of 100 be trusted when every reviewer got a free early copy and the Game Awards nominated it eight times before anyone else played it? Second: the lead, Lucia, just got out of prison. Does a crime game with real characters change what you'd let a younger kid see?",
+      "why": "A record score, and the system that produced it.",
+      "why_long": "A sixteen-year-old can hold two true things: the 99 is real, and everyone who gave it got an early copy from the publisher. The script asks them to weigh a record against the system that produced it, then turns to who should play. Expect 'are the reviews rigged?' No evidence of that. Early access is normal, and it shapes what gets said first."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Why can't I play it?",
+        "a": "It's about stealing cars and shooting. That's a grown-up game, and this one stays that way."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Is it really the best game ever made?",
+        "a": "A 99 from critics, tying a 1998 Zelda record. Best is still an opinion."
+      },
+      {
+        "q": "Will people really skip work to play it?",
+        "a": "Some will. Nobody can find a survey behind the 1.5 million number."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why do reviews come out before the game?",
+        "a": "Publishers send early copies. One critic played 100 hours first."
+      },
+      {
+        "q": "Did it really cost a billion dollars to make?",
+        "a": "Rockstar hasn't said. Some estimates put it over $1 billion."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#GTAVI",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 10,
+    "13-17": 16
+  },
+  "caption": "Critics tied it with a 1998 Zelda. It's not a kids' game.\n\n'Grand Theft Auto VI' unlocks at midnight on Nov. 19, 13 years after the last one. Critics gave it a 99 on Metacritic, tying a Zelda record from 1998. A viral claim says 1.5 million Americans will skip work to play it, costing $1 billion. PolitiFact found no survey behind either number. On a normal day 3.9 million US workers are absent anyway.\n\nSource: PBS NewsHour\n\nSwipe for what to say at age 7, at 10, and at 16.\n\nThe dinner table question: Would you call in sick for something you'd waited 13 years for? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #GTAVI #DinnerTableNews"
+}
