@@ -1,0 +1,80 @@
+{
+  "slot": "2026-11-20 07:00 CT",
+  "date": "2026-11-20",
+  "category": "World",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo",
+  "source_domain": "bbc.com",
+  "headline": "World court: Myanmar committed genocide.",
+  "summary": "The UN's top court ruled 9-6 on Thursday that Myanmar committed genocide against the Rohingya. In 2017 its army killed about 10,000 people and drove 700,000 into Bangladesh. No state had ever been found guilty of genocide before. The court ordered reparations. It has no prison and no police; enforcement falls to the UN Security Council.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "Who makes Myanmar obey?"
+  },
+  "cover_answer": "No one, directly. The UN Security Council, if it chooses.",
+  "table_question": "Does saying 'that was wrong' matter if nothing changes?",
+  "photo_subject": "Peace Palace",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": true,
+      "script": "In a country far away called Myanmar, soldiers hurt a group of people called the Rohingya. Most of them ran to the next country over, the way you'd run to a neighbour's house. On Thursday the world's top judges said out loud that it was wrong. You are safe here, and the grown-ups have it.",
+      "why": "One piece they can hold: the judges said it was wrong, out loud.",
+      "why_long": "A seven-year-old takes one vivid feature for the whole event, so the script picks it: judges saying out loud that it was wrong. Cantor found this age fears it happening to them, so 'far away' and 'you are safe' get said plainly. Expect 'did the bad soldiers go to jail?' No. These judges have no jail, and that is the honest answer."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "In 2017 Myanmar's army attacked the Rohingya, a Muslim minority. The judges found about 10,000 killed and 700,000 driven into Bangladesh. They voted 9 to 6: genocide, a first for any country. The court is a referee with a whistle and no handcuffs. It can call the foul. It can't put anyone in prison.",
+      "why": "A referee who saw everything and can't enforce the call.",
+      "why_long": "At eight a child is testing whether rules get applied, and this hands them a referee who made the call and cannot enforce it. The chain runs: attack, evidence, a 9 to 6 vote, then the gap. Expect 'so what happens now?' Myanmar must pay and let people home. Whether it does is up to the countries that lean on it."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Who makes Myanmar obey? No one, directly. The court can't jail a general; it leans on the Security Council and other countries. Is a ruling nobody can enforce worth seven years in court? Second: six of fifteen judges voted no. Does the split weaken it, or is that what honest judging looks like?",
+      "why": "Two things to hold: a historic ruling, and six judges who voted no.",
+      "why_long": "At fifteen they can hold two true things: the court's first finding of state genocide, and six judges who read the same evidence and voted no. Kuhn says argument is a practised skill, so the script asks whether the split is a flaw or honest judging. Expect 'is Israel next?' That case is pending and this ruling says nothing about it."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Could that happen to us?",
+        "a": "No. It happened far away, to a group their own soldiers turned on. You are safe at home."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "What if Myanmar just ignores it?",
+        "a": "Other countries have to lean on it. Britain called a UN meeting."
+      },
+      {
+        "q": "What is genocide?",
+        "a": "Trying to destroy a whole group of people for who they are."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Who makes Myanmar obey?",
+        "a": "No one, directly. It leans on the Security Council and other countries."
+      },
+      {
+        "q": "Does this mean Israel is next?",
+        "a": "South Africa's case is still pending. This ruling doesn't decide it."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#Rohingya",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 8,
+    "13-17": 15
+  },
+  "photo": "data/images/2026-11-20-morning.jpg",
+  "photo_credit": "Photo: Thomas Wolf, www.foto-tw.de, Wikimedia Commons, CC BY-SA 3.0 de",
+  "caption": "No one, directly. The UN Security Council, if it chooses.\n\nThe UN's top court ruled 9-6 on Thursday that Myanmar committed genocide against the Rohingya. In 2017 its army killed about 10,000 people and drove 700,000 into Bangladesh. No state had ever been found guilty of genocide before. The court ordered reparations. It has no prison and no police; enforcement falls to the UN Security Council.\n\nSource: BBC News\nPhoto: Thomas Wolf, www.foto-tw.de, Wikimedia Commons, CC BY-SA 3.0 de\n\nSwipe for what to say at age 7, at 8, and at 15.\n\nThe dinner table question: Does saying 'that was wrong' matter if nothing changes? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #Rohingya #DinnerTableNews"
+}
