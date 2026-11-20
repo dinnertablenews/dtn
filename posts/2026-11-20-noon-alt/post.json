@@ -1,0 +1,77 @@
+{
+  "slot": "2026-11-20 12:00 CT",
+  "date": "2026-11-20",
+  "category": "Government",
+  "outlet": "Axios",
+  "source_url": "https://www.axios.com/2026/11/19/trump-national-cyber-director-sean-cairncross-leaving",
+  "source_domain": "axios.com",
+  "headline": "Planes, banks, the NSA went down. The cyber chief is out.",
+  "summary": "Sean Cairncross is out as national cyber director. Two White House officials told Axios that chief of staff Stephen Miller pushed him out for lacking strong cyber credentials. Kirsten Davies, the Pentagon's chief information officer, takes over as acting director. Officials told Congress the outages came from updates, not attacks.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Did someone break the computers?"
+  },
+  "cover_answer": "No. The fixes broke them, officials say.",
+  "table_question": "Something breaks on your watch, by accident. Do you lose the job?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": false,
+      "script": "This month some big computers stopped working, like the ones that help planes take off and some at banks. The people who checked told Congress that nobody attacked them. They broke while being fixed, like a bike wheel that wobbles after you tighten the wrong bolt. The president's computer-safety boss lost his job on Thursday, and the grown-ups have it.",
+      "why": "Broken, not attacked, is the whole story at this age. The wheel carries it.",
+      "why_long": "A seven-year-old sorts the world into on purpose and by accident, and the script draws that line: the computers broke while being fixed, and nobody attacked them. Cantor found this age fears harm that could reach them, so the bike wheel keeps it small. Expect 'did a plane crash?' No. The articles say nothing about anyone hurt."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "The national cyber director is the government's safety officer for computers. The NSA, air traffic control and some banks went down. Officials told Congress it was updates, not hackers. The chief of staff still decided Sean Cairncross lacked the background. Kirsten Davies took over.",
+      "why": "Outages, a hearing, a new boss. They'll ask if that's fair.",
+      "why_long": "At eleven a child is checking whether adults apply rules consistently. One case: officials told Congress the outages were not attacks, and the man in charge lost his job the next day. The job description comes first, so fairness has a footing. Expect 'so was it his fault?' Axios says his boss thought he lacked the credentials."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Officials say the outages weren't attacks. So why does the cyber director lose his job over them? Axios's answer: the chief of staff thought he lacked strong cyber credentials, and the search began two weeks ago. Second: is swapping the boss after a bad week a fix or a show?",
+      "why": "Not attacks, officials say. Then why the firing? Let them argue it.",
+      "why_long": "A fourteen-year-old can reason about what isn't in the room: a search Axios says began two weeks ago, and a firing after a string of outages. The script puts them side by side and asks which explains the decision. Kuhn says argument improves with practice, so let them argue first. Expect 'is the new one better?' Axios says she is."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Did someone break the computers?",
+        "a": "No. Officials told Congress the computers broke during updates. Nobody attacked them."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "What does a cyber director do?",
+        "a": "Coordinates how every government agency protects its computers."
+      },
+      {
+        "q": "Was it his fault?",
+        "a": "Officials say updates, not attacks. Nobody in the articles blames him."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "If it wasn't an attack, why fire him?",
+        "a": "Credentials, two White House officials told Axios. The search began two weeks ago."
+      },
+      {
+        "q": "Who replaces him?",
+        "a": "Kirsten Davies, the Pentagon's chief information officer, as acting director."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#SeanCairncross",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 11,
+    "13-17": 14
+  },
+  "caption": "No. The fixes broke them, officials say.\n\nSean Cairncross is out as national cyber director. Two White House officials told Axios that chief of staff Stephen Miller pushed him out for lacking strong cyber credentials. Kirsten Davies, the Pentagon's chief information officer, takes over as acting director. Officials told Congress the outages came from updates, not attacks.\n\nSource: Axios\n\nSwipe for what to say at age 7, at 11, and at 14.\n\nThe dinner table question: Something breaks on your watch, by accident. Do you lose the job? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #SeanCairncross #DinnerTableNews"
+}
