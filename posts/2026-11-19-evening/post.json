@@ -1,0 +1,79 @@
+{
+  "slot": "2026-11-19 20:00 CT",
+  "date": "2026-11-19",
+  "category": "Good news",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/science/nasas-voyager-1-calls-earth-from-more-than-16-billion-miles-or-one-light-day-away",
+  "source_domain": "pbs.org/newshour",
+  "headline": "Voyager 1 called home. The call took a day to arrive.",
+  "summary": "Voyager 1 is one light-day from Earth, 16 billion miles out. Its call reached Earth on Thursday exactly 24 hours after the probe sent it, which is how long radio takes to cross that distance. The probe launched in 1977 and left the sun's bubble in 2012. It is 49 years old and still runs on plutonium. Its twin gets there in 2035.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "Why did the call take a day?"
+  },
+  "cover_answer": "Radio moves at light speed. It still needed 24 hours.",
+  "table_question": "You can send one message to the stars. What's on it?",
+  "photo_subject": "Voyager 1",
+  "ages": {
+    "5-7": {
+      "chip": "Good one to bring up",
+      "script": "A spaceship called Voyager 1 left Earth almost 50 years ago. It is so far away now that when it calls home, the call takes a whole day to get here. If it yelled hello, you'd hear it tomorrow. It carries a gold record of Earth sounds, in case anyone out there finds it. It is still going.",
+      "why": "A day's wait for a hello is a distance they can feel. Sixteen billion miles isn't.",
+      "why_long": "A six-year-old reasons from what is in front of them, and 16 billion miles is in front of no one. A hello that takes a day to come back is a wait they have lived through, so the script makes that the whole distance and leaves the number out. Expect 'is it lonely?' It's a machine, and the people who built it still listen for it."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Radio travels at the speed of light, the fastest anything can go. Voyager 1 is so far out that even at that speed, its call took 24 hours to reach Earth. One light-day is the distance light covers in a day, 16 billion miles. Voyager flies 38,000 mph, so it needed 49 years to get there.",
+      "why": "Fastest thing there is, and still a day late. That gap is the whole idea.",
+      "why_long": "At eleven a child is working out cause and effect, and this chain is clean: light has a top speed, the probe is far away, so even the fastest thing we have takes a day to arrive. The 38,000 mph against 49 years lets them check it. Expect 'why not build a faster one?' Nothing goes faster than light. That is the ceiling."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Voyager 1 hasn't sent science data since Saturday. The carrier signal still comes, so NASA knows where it is, not what it sees. Keep paying to listen to a 49-year-old probe? Second: it carries a record Carl Sagan built to last a billion years. Who was that message really for?",
+      "why": "A record for aliens, built by people who knew the aliens might never come.",
+      "why_long": "A fifteen-year-old can hold two true things: Voyager is a triumph, and it has gone partly quiet since Saturday. The script gives them both, a budget question, then Sagan's record, a message its makers knew might never be read. Expect 'so was it pointless?' The record was for us as much as for them. Let them argue it."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Will it come back?",
+        "a": "No. It's flying away from us forever, and that was always the plan. It calls home as it goes."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why did the call take a day?",
+        "a": "Radio goes at light speed, the fastest anything can go. Voyager is so far that even light needs 24 hours to get there."
+      },
+      {
+        "q": "How does it still have power?",
+        "a": "A lump of plutonium gives off heat, and the heat makes electricity. It has run that way since 1977."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Is it broken?",
+        "a": "Partly. No science data since Saturday. The carrier signal still arrives."
+      },
+      {
+        "q": "Will anyone ever find the record?",
+        "a": "Almost certainly not. NASA built it to last a billion years anyway."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#Voyager1",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 11,
+    "13-17": 15
+  },
+  "photo": "data/images/2026-11-19-evening.jpg",
+  "photo_credit": "Photo: National Aeronautics and Space Administration (NASA), Wikimedia Commons, Public domain",
+  "caption": "Radio moves at light speed. It still needed 24 hours.\n\nVoyager 1 is one light-day from Earth, 16 billion miles out. Its call reached Earth on Thursday exactly 24 hours after the probe sent it, which is how long radio takes to cross that distance. The probe launched in 1977 and left the sun's bubble in 2012. It is 49 years old and still runs on plutonium. Its twin gets there in 2035.\n\nSource: PBS NewsHour\nPhoto: National Aeronautics and Space Administration (NASA), Wikimedia Commons, Public domain\n\nSwipe for what to say at age 6, at 11, and at 15.\n\nThe dinner table question: You can send one message to the stars. What's on it? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #Voyager1 #DinnerTableNews"
+}
