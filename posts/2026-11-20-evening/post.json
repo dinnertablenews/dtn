@@ -1,0 +1,81 @@
+{
+  "slot": "2026-11-20 20:00 CT",
+  "date": "2026-11-20",
+  "category": "Government",
+  "outlet": "Axios",
+  "source_url": "https://www.axios.com/2026/11/19/trump-national-cyber-director-sean-cairncross-leaving",
+  "source_domain": "axios.com",
+  "headline": "The cyber chief is out. The Pentagon's tech boss is in.",
+  "summary": "The White House named Kirsten Davies national cyber director Thursday, after firing Sean Cairncross. Two White House officials told Axios that chief of staff Stephen Miller pushed him out over his cyber credentials. Davies ran cybersecurity at the Pentagon. Officials told Congress the outages were updates, not attacks.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "Why fire him if nobody attacked?"
+  },
+  "cover_answer": "His boss said he lacked the credentials.",
+  "table_question": "When something breaks, do you change the rules or change the boss?",
+  "photo_subject": "White House",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": false,
+      "script": "The president picked a new boss to keep the government's computers safe. She did that job for the Pentagon before. Some big computers broke this month, like the ones that help planes take off, and nobody attacked them. They broke while being fixed, like a bike that wobbles after you tighten the wrong bolt. The grown-ups have it.",
+      "why": "Broken, not attacked, is the whole story. The bike carries it.",
+      "why_long": "A seven-year-old sees one picture at a time, so the script hands them one: a bike that wobbles after the wrong bolt gets tightened. Broken by a fix, not by a bad guy, is a line this age can hold, and it takes the fear out of 'computers'. A new boss is a thing they know from school. Expect 'is she nice?' Nobody knows."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Planes, banks, Microsoft and the NSA had outages. Officials told Congress: updates, not hackers. The White House fired its cyber director the next day anyway, over his credentials. Kirsten Davies, the Pentagon's cyber chief, takes over. Like swapping the referee after a messy game the ref didn't cause.",
+      "why": "Outages, hearing, firing. The chain carries the fairness question.",
+      "why_long": "An eight-year-old is testing whether adults apply rules the same way every time. The script lays the chain in order: outages, a hearing that said no attack, a firing the next day. The referee swapped after a messy game is the mechanism. Expect 'so was it his fault?' Axios says his boss said he lacked the credentials."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Officials say the outages were updates, not attacks. Is firing the cyber director a fix or a signal? Axios says the search for his replacement began two weeks ago. Second: Kirsten Davies ran cybersecurity at the Pentagon, but this job needs a Senate vote she hasn't had. Does experience beat process?",
+      "why": "A bad week, and an earlier search. Let them decide.",
+      "why_long": "A fifteen-year-old can hold two truths at once: a bad week of outages and a replacement search begun two weeks ago. The script asks which explains the firing, then a second tension: experience against a Senate vote she hasn't had. Kuhn says arguing is practised: let them go first. Expect 'is she better?' Axios says so."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Who keeps the computers safe?",
+        "a": "Lots of people. The president just picked them a new boss."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why fire him if nobody attacked?",
+        "a": "Credentials, his boss said. The search began two weeks ago."
+      },
+      {
+        "q": "What does a cyber director do?",
+        "a": "Coordinates how the whole government protects its computers."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Is she actually qualified?",
+        "a": "More than he had, Axios says: Pentagon, Unilever, Siemens."
+      },
+      {
+        "q": "Doesn't this job need Senate approval?",
+        "a": "Yes. The Senate cleared her for the Pentagon, not this job."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#KirstenDavies",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 8,
+    "13-17": 15
+  },
+  "photo": "data/images/2026-11-20-evening.jpg",
+  "photo_credit": "Photo: Cezary p and MattWade, Wikimedia Commons, CC BY-SA 4.0",
+  "photo_zoom": 2.1,
+  "caption": "His boss said he lacked the credentials.\n\nThe White House named Kirsten Davies national cyber director Thursday, after firing Sean Cairncross. Two White House officials told Axios that chief of staff Stephen Miller pushed him out over his cyber credentials. Davies ran cybersecurity at the Pentagon. Officials told Congress the outages were updates, not attacks.\n\nSource: Axios\nPhoto: Cezary p and MattWade, Wikimedia Commons, CC BY-SA 4.0\n\nSwipe for what to say at age 7, at 8, and at 15.\n\nThe dinner table question: When something breaks, do you change the rules or change the boss? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #KirstenDavies #DinnerTableNews"
+}
