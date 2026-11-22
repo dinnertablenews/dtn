@@ -1,0 +1,80 @@
+{
+  "slot": "2026-11-22 12:00 CT",
+  "date": "2026-11-22",
+  "category": "Security",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/politics/ap-source-fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database",
+  "source_domain": "pbs.org/newshour",
+  "headline": "Hackers got into the FBI's crime database, a source says.",
+  "summary": "The FBI is investigating an apparent hack of the National Crime Information Center, the database police across the US use to check warrants, fugitives, missing persons and stolen property. A source confirmed it to AP on Saturday. The FBI declined to comment, and how far the hackers got is not known. Trump told Fox News: \"It's not good.\"",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Did someone steal from the police?"
+  },
+  "cover_answer": "It looks like it. Someone got into a police computer list.",
+  "table_question": "If you found a list you weren't meant to see, what would you do?",
+  "photo_subject": "J. Edgar Hoover Building",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": false,
+      "script": "Police all over the country share one big computer list of people they are looking for and things that got stolen. Someone sneaked into that list without permission, like a kid peeking in the teacher's grade book. The FBI, the top police, is finding out who did it and what they took. Nobody is hurt, and the grown-ups have it.",
+      "why": "A list is a thing they own: a class list, a chore chart. Peeking is the wrong they already know, so the hack needs no computer talk.",
+      "why_long": "A six-year-old reasons from what is in front of them, and no computer is. So the script turns the NCIC into a list, and the hack into peeking at the grade book, a wrong they already judge. Expect 'did they take my name?' No: it is a list of grown-ups the police are looking for, and the FBI is checking it."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Every US police department checks one shared list, the NCIC: wanted people, missing people, stolen cars. Someone apparently broke in, and the FBI is working out how far they got. Like a school's attendance file, the copying isn't the danger. It's what a stranger does with the names.",
+      "why": "Break in, copy, use is a chain they can follow. The attendance file puts the names where they live.",
+      "why_long": "At eleven they are building cause and effect, and this story is a chain with a missing link: break in, copy, then what? The attendance file puts real names in a place they know, so the stakes land without a threat. Expect 'did they catch them?' Not yet, and the FBI won't say what was taken. Not knowing is where an investigation starts."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Who checks the police's own security? The FBI runs the database every cop leans on, someone got in, and it won't say what was taken. Trump called it \"not good,\" then said it might expose the \"Russia hoax.\" Second: when the victim is the government, who decides what the public hears?",
+      "why": "A serious breach and a president reading it for his own grievances. They can hold both at once.",
+      "why_long": "A fourteen-year-old can hold two true things: a breach of the database every cop uses, and a president who called it 'not good' and then hoped it would expose his old enemies. Kuhn's point is that argument is practised, so let them say which matters more before you do. Expect 'so was it Russia?' Nobody has said who did it. Say so."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Did someone steal from the police?",
+        "a": "It looks like someone copied from a police computer list. The FBI is finding out what. You are safe, and the police still have their list."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "What's in that database?",
+        "a": "Wanted people, missing people, stolen cars, criminal records."
+      },
+      {
+        "q": "Is this the same as the outages last week?",
+        "a": "Officials say those came from upgrades, not hackers. No link yet."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why won't the FBI say what was taken?",
+        "a": "It declined to comment, and may not know yet. The scope wasn't clear."
+      },
+      {
+        "q": "Hasn't this happened before?",
+        "a": "Twice this year: a job portal, then a surveillance system."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#FBI",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 11,
+    "13-17": 14
+  },
+  "photo": "data/images/2026-11-22-noon.jpg",
+  "photo_credit": "Photo: ajay_suresh, derivative work by Georgfotoart, Wikimedia Commons, CC BY 2.0",
+  "caption": "It looks like it. Someone got into a police computer list.\n\nThe FBI is investigating an apparent hack of the National Crime Information Center, the database police across the US use to check warrants, fugitives, missing persons and stolen property. A source confirmed it to AP on Saturday. The FBI declined to comment, and how far the hackers got is not known. Trump told Fox News: \"It's not good.\"\n\nSource: PBS NewsHour\nPhoto: ajay_suresh, derivative work by Georgfotoart, Wikimedia Commons, CC BY 2.0\n\nSwipe for what to say at age 6, at 11, and at 14.\n\nThe dinner table question: If you found a list you weren't meant to see, what would you do? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #FBI #DinnerTableNews"
+}
