@@ -4997,5 +4997,26 @@
   "publish_run": 44966148654,
   "published": "https://www.instagram.com/p/DgBrWf4lSUx/",
   "published_at": "2026-11-22T01:57:30+0000"
+ },
+ {
+  "slug": "2026-11-22-morning",
+  "slot": "morning",
+  "date": "2026-11-22",
+  "category": "Good news",
+  "headline": "A rare moth set a record in Essex. The plan took 21 years.",
+  "cluster_headline": "Record-breaking sightings of rare moth in Essex",
+  "outlet": "BBC News",
+  "photo": false,
+  "photo_subject": "Fisher's estuarine moth",
+  "cover_band": "13-17",
+  "publish_target": "2026-11-22T06:55-06:00",
+  "chosen": "primary",
+  "alternate": {
+   "folder": "posts/2026-11-22-morning-alt",
+   "category": "Economy",
+   "headline": "A typical card charges 22%. Trump wants a 10% cap.",
+   "photo": true
+  },
+  "note": "Run fired at 05:11 CT for the 07:00 morning slot (the scheduler fires at 11:11 UTC; the clocks have gone back, so that is now 05:11). Target drawn once at 05:12 CT: 06:55. Rule 3 count: the last Good news entry is 2026-11-19-evening (Voyager 1) and six stories have run since, the count having carried at 6 from last evening, so this is the positive slot. #7 (BBC News, 1 outlet), Fisher's estuarine moth counted 111 times at Abbotts Hall, is the one cluster in the top 15 that qualifies: a 21-year recovery with a record on the end of it. The rest of the top 15: Trump's credit card cap, COP31 in deadlock, the FBI database hack, Trump on the hack, Mexico detaining El Chapo Isidro, the Zacharia bar investigation, five one-outlet game reports (Utah, the Kings ending an 8-game skid, Verstappen's third Las Vegas win, Stanford, the Mammoth), dozens missing in an Indonesian factory fire, the COP31 draft, and a Google News placeholder. The Kings and Verstappen are wins, but a game report is not the uplifting story the rule means. Rules 1 and 2: nothing has run today and the moth has never run. Rule 8, positive slot: the alternate is the highest remaining cluster of any other category, #1 (AP News, Axios, PBS NewsHour, The Hill; 4 outlets), Trump on Fox News saying he would work with Democrats on a 10% card interest cap, category Economy. It was 11-21-evening's alternate and never ran, so it stays fair game; written fresh for the 13-17 cover. Articles: the BBC text for the moth, the only article in the cluster; PBS NewsHour (AP) and Axios text for the cap, leaned on PBS. Photos: the last two entries had none, so both posts could take one. Primary: commons.yml found no infobox image for 'Fisher's estuarine moth' and no article under 'Gortyna borelii', so no photo. Alternate: Donald Trump, the official portrait. Reel built for the primary, 14.8s, no REEL line."
  }
 ]

@@ -1,0 +1,80 @@
+{
+  "slot": "2026-11-22 07:00 CT",
+  "date": "2026-11-22",
+  "category": "Economy",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/politics/trump-vows-to-work-with-democrats-to-cap-credit-card-interest-rates-at-10",
+  "source_domain": "pbs.org/newshour",
+  "headline": "A typical card charges 22%. Trump wants a 10% cap.",
+  "summary": "Trump told Fox News on Saturday he would work with the incoming Democratic Congress to cap credit card interest at 10%. The median rate is 22.2%, by the New York Fed's count. He proposed the cap in January; banks fought it and the Republican Congress left it alone. Elizabeth Warren, in line to chair Senate Banking, said yes.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "Who loses if a 10% cap passes?"
+  },
+  "cover_answer": "Banks, and the risky borrowers they say they'd drop.",
+  "table_question": "If you lend a friend $10, how much extra is fair to ask back?",
+  "photo_subject": "Donald Trump",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": false,
+      "script": "The president said this weekend that banks charge grown-ups too much extra for using a credit card. A credit card lets a grown-up buy something now and pay the bank back later, plus a bit extra, like borrowing ten crayons and giving back twelve. He wants the extra to be smaller. Bills are a grown-up job, and the grown-ups have it.",
+      "why": "They have seen you tap a card. The crayons make the extra a thing they can count.",
+      "why_long": "A six-year-old reasons from what they have watched, and they have watched you tap a card. The script starts there and turns interest into ten crayons paid back as twelve, one countable extra. Expect 'do we give the bank extra?' Answer plainly, then end where the script ends: bills are grown-up work."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Don't pay your card off and the bank charges interest, 22% a year on a typical card. Trump says he'd work with Democrats to cap that at 10%, and Elizabeth Warren, the Senate's next banking chair, said yes. A cap is a speed limit for banks: charge less, never more. Banks say they'd issue fewer cards.",
+      "why": "Owe, wait, pay more is a chain. A speed limit is a rule they know.",
+      "why_long": "A ten-year-old is building cause and effect, and this is a chain: owe, wait, pay more, then a rule that stops the last step at 10%. The speed limit is the mechanism; fewer cards is a second link to test. Expect 'so is the cap good or bad?' Both are true: $160 billion in interest in 2024, and some people would lose cards."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Who loses if a 10% cap passes? Researchers found Americans would save about $100 billion a year and banks would still profit. Banks say they'd cancel the riskiest borrowers' cards and trim rewards. Second: Trump promised this in 2024 and his party did nothing, so what changed, apart from who won?",
+      "why": "A saving with a cost attached, then a promise with a date on it.",
+      "why_long": "A fifteen-year-old can hold two true things: a cap saves about $100 billion a year, and banks say the riskiest borrowers lose their cards. The script hands them both, then the timeline: promised in 2024, stalled under his party, moving as Democrats win. Expect 'so he only means it now?' Ask what would change their mind."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "What's a credit card?",
+        "a": "A card a grown-up uses to buy something now and pay the bank later. Pay late and the bank adds extra. The extra is what the argument is about."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "What's interest?",
+        "a": "Rent on borrowed money. Owe $100 at 22% for a year and you owe $22 more."
+      },
+      {
+        "q": "Why don't banks just charge less?",
+        "a": "They say the extra covers people who never pay back."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Who loses if a 10% cap passes?",
+        "a": "Banks, and the riskier borrowers they say they'd drop."
+      },
+      {
+        "q": "Why is he saying this now?",
+        "a": "Promised in 2024, parked by his party. Democrats take Congress in January."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#CreditCards",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 8,
+    "13-17": 15
+  },
+  "photo": "data/images/2026-11-22-morning-alt.jpg",
+  "photo_credit": "Photo: Daniel Torok, Wikimedia Commons, Public domain",
+  "caption": "Banks, and the risky borrowers they say they'd drop.\n\nTrump told Fox News on Saturday he would work with the incoming Democratic Congress to cap credit card interest at 10%. The median rate is 22.2%, by the New York Fed's count. He proposed the cap in January; banks fought it and the Republican Congress left it alone. Elizabeth Warren, in line to chair Senate Banking, said yes.\n\nSource: PBS NewsHour\nPhoto: Daniel Torok, Wikimedia Commons, Public domain\n\nSwipe for what to say at age 7, at 8, and at 15.\n\nThe dinner table question: If you lend a friend $10, how much extra is fair to ask back? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #CreditCards #DinnerTableNews"
+}
