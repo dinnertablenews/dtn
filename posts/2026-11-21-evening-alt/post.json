@@ -1,0 +1,80 @@
+{
+  "slot": "2026-11-21 20:00 CT",
+  "date": "2026-11-21",
+  "category": "Economy",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/politics/trump-vows-to-work-with-democrats-to-cap-credit-card-interest-rates-at-10",
+  "source_domain": "pbs.org/newshour",
+  "headline": "Trump wants a 10% cap on card interest. Warren says yes.",
+  "summary": "Trump said Saturday on Fox News he would work with the incoming Democratic Congress to cap credit card interest rates at 10%. The median rate is 22.2%. He promised the cap in 2024 and proposed it in January; banks fought it and the Republican Congress let it sit. Elizabeth Warren, in line to chair Senate Banking, said let's do it.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "Who decides what a card charges?"
+  },
+  "cover_answer": "The card company. Congress could write a 10% ceiling.",
+  "table_question": "Is there a price so high it should be against the rules?",
+  "photo_subject": "Donald Trump",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": false,
+      "script": "The president said today that banks charge people too much extra when they borrow money with a credit card. A credit card is like borrowing a toy and giving back the toy plus a sticker, and right now the sticker is big. The grown-ups are arguing about how big it should be. Bills are a grown-up job, and the grown-ups have it.",
+      "why": "A card is a thing they have seen you tap. The sticker is the whole idea of interest.",
+      "why_long": "A six-year-old reasons from what they have watched, and they have watched you tap a card. The script starts there and makes interest a sticker on a borrowed toy, one concrete thing in place of a percentage. Expect ‘do we owe a sticker?’ Answer plainly, pay it or not, and end where the script ends: bills are grown-up work."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "A credit card lets you buy now and pay later. Don't pay it all and the bank charges interest, 22% a year on a typical card. Trump wants Congress to cap it at 10%, and Elizabeth Warren, the Senate's next banking chair, said yes. A cap is a ceiling on the bank, like a rent limit. Banks say they'd issue fewer cards.",
+      "why": "Buy, owe, pay more is a chain they can follow.",
+      "why_long": "A ten-year-old is building cause and effect, and this story is a chain: buy now, owe later, pay more. The ceiling is the mechanism, and the bank's answer, fewer cards, is a second link to test. Expect ‘so is the cap good or bad?’ Both are true: cardholders paid $160 billion in interest in 2024, and some would lose their cards."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "If a 10% cap saves $100 billion a year in interest, who loses? Banks say they'd cancel cards for the riskiest borrowers; credit unions put it at 47 million people. Trump promised this in 2024; his party's Congress did nothing. Second: is a promise that moves only when the other side wins still a promise?",
+      "why": "A saving with a cost attached, and a promise with a timeline.",
+      "why_long": "A fifteen-year-old can hold two true things: a cap saves $100 billion a year, and banks say 47 million people could lose a card. The script hands them both, then the timeline: promised in 2024, stalled under his own party, moving now that Democrats take Congress. Expect ‘so he only means it now?’ Let them argue it."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "What's a credit card?",
+        "a": "A card that lets a grown-up buy now and pay the bank later. Pay late and the bank adds extra. The extra is what the fight is about."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Who decides what a card charges?",
+        "a": "The card company, for now. Congress could cap it at 10% by law."
+      },
+      {
+        "q": "What's interest?",
+        "a": "Rent on borrowed money. Owe $100 at 22% and you owe $22 more a year."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Who loses if the cap passes?",
+        "a": "Banks, and people with weak credit, who banks say would lose cards."
+      },
+      {
+        "q": "Why didn't it happen when his party ran Congress?",
+        "a": "Banks fought it and Republicans did little. Democrats take over in January."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#CreditCards",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 11,
+    "13-17": 14
+  },
+  "photo": "data/images/2026-11-21-evening-alt.jpg",
+  "photo_credit": "Photo: Daniel Torok, Wikimedia Commons, Public domain",
+  "caption": "The card company. Congress could write a 10% ceiling.\n\nTrump said Saturday on Fox News he would work with the incoming Democratic Congress to cap credit card interest rates at 10%. The median rate is 22.2%. He promised the cap in 2024 and proposed it in January; banks fought it and the Republican Congress let it sit. Elizabeth Warren, in line to chair Senate Banking, said let's do it.\n\nSource: PBS NewsHour\nPhoto: Daniel Torok, Wikimedia Commons, Public domain\n\nSwipe for what to say at age 6, at 11, and at 14.\n\nThe dinner table question: Is there a price so high it should be against the rules? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #CreditCards #DinnerTableNews"
+}
