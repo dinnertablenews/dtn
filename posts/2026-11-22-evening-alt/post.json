@@ -1,0 +1,80 @@
+{
+  "slot": "2026-11-22 20:00 CT",
+  "date": "2026-11-22",
+  "category": "Government",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/c6vg29g7dlyno",
+  "source_domain": "bbc.com",
+  "headline": "258 seats. Democrats' biggest House majority since 1992.",
+  "summary": "Democrats have won at least 258 House seats, the most for either party since 1992, after Chuck Hubbard beat Virginia Foxx in North Carolina by 330 votes. A recount confirmed it and Foxx conceded on Sunday. Republicans hold 173 seats, with four races still open. Democrats also won the Senate, though Trump keeps his veto.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "Can 330 votes really decide it?"
+  },
+  "cover_answer": "Yes. The margin was 330 people. A recount checked it.",
+  "table_question": "If you lost by 330 votes, would you ask for a recount?",
+  "photo_subject": "United States Capitol",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": false,
+      "script": "In North Carolina, two people ran for one seat in Congress, where the country's rules get made. Chuck Hubbard won by 330 votes, about as many people as fit in a school gym. It was so close they counted every vote again, and the answer was the same. His team now has more seats than anyone since before you were born.",
+      "why": "A race is a thing they know: two runners, one winner, and a count that was checked. The gym makes 330 a room.",
+      "why_long": "A six-year-old reasons from the room they are in, so 330 votes becomes a gym full of people and Congress the place where rules are made. The recount carries the weight: checked and still winning is a fairness they feel at the finish line. Expect 'is he the boss now?' No. He is one of many, with the most chairs."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Each House seat goes to whoever gets the most votes. Chuck Hubbard got 330 more than Virginia Foxx, who had held the seat since 2005. State law gives a recount when the gap is under 1%, like a referee checking the replay, and the result held. That seat took Democrats to 258, the most since 1992.",
+      "why": "Most votes wins, under 1% gets a recount, the count held: a rule chain they can follow. The replay is one they've watched.",
+      "why_long": "At eleven they are testing whether rules apply to everyone, and this is a rule applied under pressure: a gap under 1% earns a recount, Foxx asked for one, lost again and conceded. The referee's replay is a check they have seen. Expect 'what if the recount flipped it?' Then Foxx wins. That is the point of the rule."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Does a bigger majority change what a party can do? Democrats hold 258 House seats and the Senate, so bills pass and investigations open, but Trump keeps the veto. Hubbard lost this seat by nine points in 2024 and won it on the cost of living. Second: what did 330 voters actually decide?",
+      "why": "Record majority, same veto. They can hold both and argue which one matters.",
+      "why_long": "A fourteen-year-old can hold a record majority and an unchanged veto in one thought, and the script asks them to. The second question, what 330 voters decided, is Kuhn's territory: an argument about mandates they make rather than inherit. Expect 'so can Democrats do anything?' No. Bills still need Trump's signature."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Who won?",
+        "a": "Chuck Hubbard, by 330 votes. His team has the most seats now."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Can 330 votes really decide it?",
+        "a": "Yes. Every vote counts once, and the recount gave the same answer."
+      },
+      {
+        "q": "What is a recount?",
+        "a": "Counting every ballot again. Foxx asked, lost again, and conceded."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Does a bigger majority actually change anything?",
+        "a": "Bills pass more easily. Trump can still veto, so the ceiling holds."
+      },
+      {
+        "q": "Why did Republicans lose so badly?",
+        "a": "Trump blamed inflation from the Iran war. Hubbard ran on prices."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#NorthCarolina",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 9,
+    "13-17": 15
+  },
+  "photo": "data/images/2026-11-22-evening-alt.jpg",
+  "photo_credit": "Photo: Martin Falbisoner, Wikimedia Commons, CC BY-SA 3.0",
+  "caption": "Yes. The margin was 330 people. A recount checked it.\n\nDemocrats have won at least 258 House seats, the most for either party since 1992, after Chuck Hubbard beat Virginia Foxx in North Carolina by 330 votes. A recount confirmed it and Foxx conceded on Sunday. Republicans hold 173 seats, with four races still open. Democrats also won the Senate, though Trump keeps his veto.\n\nSource: BBC News\nPhoto: Martin Falbisoner, Wikimedia Commons, CC BY-SA 3.0\n\nSwipe for what to say at age 7, at 9, and at 15.\n\nThe dinner table question: If you lost by 330 votes, would you ask for a recount? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #NorthCarolina #DinnerTableNews"
+}

@@ -1,0 +1,80 @@
+{
+  "slot": "2026-11-22 20:00 CT",
+  "date": "2026-11-22",
+  "category": "Science",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/science/mercury-gets-its-first-visitor-in-years-as-a-pair-of-spacecraft-loop-into-orbit",
+  "source_domain": "pbs.org/newshour",
+  "headline": "Eight years, 6 billion miles. Mercury has a visitor.",
+  "summary": "Two linked spacecraft, one European and one Japanese, slipped into orbit around Mercury on Saturday. The $2 billion BepiColombo mission launched in 2018 and looped past Earth, Venus and Mercury nine times to slow down, logging more than 6 billion miles. It is only the third visitor to the sun's closest planet, and the first since 2015.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "Why did it take eight years?"
+  },
+  "cover_answer": "It had to brake the whole way. The sun pulls hard.",
+  "table_question": "Is 'we don't know why' a good enough reason to spend $2 billion?",
+  "photo_subject": "BepiColombo",
+  "ages": {
+    "5-7": {
+      "chip": "Good one to bring up",
+      "shield": false,
+      "script": "Two robot spaceships just reached Mercury, the planet closest to the sun. They flew for eight years to get there, longer than you have been alive, and Mercury is only a bit bigger than our moon. In the daytime it gets hotter than the oven at home. Nobody is on board, just cameras and tools, and the grown-ups who built it have it.",
+      "why": "Eight years and a moon-sized planet are things they can measure against themselves. The oven puts the heat in the kitchen.",
+      "why_long": "A six-year-old takes one vivid feature for the whole event, so the script hands them a good one: a planet hotter than the oven, reached by robots with nobody inside. Eight years gets measured against their own life, the only ruler they trust. Expect 'can people go?' No. It is too hot, and these are cameras and tools."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Mercury sits next to the sun, and the sun's gravity pulls everything in. Fly straight at it and you arrive too fast to stop, so BepiColombo spent eight years looping past Earth, Venus and Mercury, nine fly-bys, each one a squeeze of the bike brake. On Saturday Mercury's weak gravity finally caught it.",
+      "why": "Fast in, can't stop, so loop and brake: a chain they can run. The bike brake is one they've squeezed.",
+      "why_long": "At eleven they want the cause behind the number, and eight years is a number begging for one. The script hands them the chain: the sun pulls, a direct flight arrives too fast, so nine fly-bys bleed off speed like a bike brake on a long hill. Expect 'what if the brake had failed?' The BBC's answer: it shoots past Mercury. No second try."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Why so few visits to the planet next door? Only two craft had been. Europe and Japan spent $2 billion because Mercury makes no sense: a huge metal core in a body barely bigger than our moon, ice in craters on an 800-degree world. Second: is 'we don't know why' worth $2 billion?",
+      "why": "A planet nobody visits, $2 billion to ask why. Let them weigh it first.",
+      "why_long": "A fourteen-year-old can hold two true things: Mercury is close and almost unvisited, and getting there cost $2 billion and eight years. The script puts the planet's puzzles beside the bill and asks whether not knowing is reason enough, an argument they can practise on you. Expect 'what do we get?' Data in the spring, PBS says."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Is it hot there?",
+        "a": "Very. Over 800 degrees in the daytime, hotter than an oven. The robots are built to stay cool, and no people are on board."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why did it take eight years?",
+        "a": "It flew past Earth, Venus and Mercury nine times to slow down."
+      },
+      {
+        "q": "What's it going to look at?",
+        "a": "Craters, volcanoes, its metal core, and ice near the poles."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why spend $2 billion on the smallest planet?",
+        "a": "Its huge core and surface hollows are unexplained. Two craft had been."
+      },
+      {
+        "q": "Is it going to work?",
+        "a": "It's in orbit, the hard part. The two craft separate next month."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#BepiColombo",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 9,
+    "13-17": 14
+  },
+  "photo": "data/images/2026-11-22-evening.jpg",
+  "photo_credit": "Photo: ESA–C. Carreau, Wikimedia Commons, CC BY-SA 3.0 igo",
+  "caption": "It had to brake the whole way. The sun pulls hard.\n\nTwo linked spacecraft, one European and one Japanese, slipped into orbit around Mercury on Saturday. The $2 billion BepiColombo mission launched in 2018 and looped past Earth, Venus and Mercury nine times to slow down, logging more than 6 billion miles. It is only the third visitor to the sun's closest planet, and the first since 2015.\n\nSource: PBS NewsHour\nPhoto: ESA–C. Carreau, Wikimedia Commons, CC BY-SA 3.0 igo\n\nSwipe for what to say at age 6, at 9, and at 14.\n\nThe dinner table question: Is 'we don't know why' a good enough reason to spend $2 billion? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #BepiColombo #DinnerTableNews"
+}
