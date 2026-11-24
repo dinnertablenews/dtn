@@ -1,0 +1,79 @@
+{
+  "slot": "2026-11-24 12:00 CT",
+  "date": "2026-11-24",
+  "category": "Government",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o",
+  "source_domain": "bbc.com",
+  "headline": "Trump called Nvidia's board. Huang has his job back.",
+  "summary": "Nvidia's board reinstated Jensen Huang on Monday, six days after saying it would not. Trump says he spoke to the board and \"convinced\" it, and that the falling stock price \"probably\" moved him. Shares rose 31%. Huang quit Nov. 12 over an affair with a suspected Chinese spy. Democrats and some Republicans want investigations.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Why did he get his job back?"
+  },
+  "cover_answer": "The president asked the company to. It said yes.",
+  "table_question": "A ref changes a call after the boss yells. Does it still count?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "The boss of the company that makes the fastest computer chips quit two weeks ago for breaking its rules. On Monday he got his job back, because the president asked. It is like a captain let back on the team because the principal said so. Grown-ups are still arguing about whether that was fair. That is their job.",
+      "why": "Quit, asked back, back: the whole shape at this age. The rules stay grown-up rules.",
+      "why_long": "A six-year-old reasons from what is in front of them, and here that is a job lost and handed back, a thing they have seen on a team. The anchor is the captain let back on because the principal said so: a grown-up overruling the coach. Expect 'was that cheating?' Not cheating. Plenty of grown-ups think it was wrong, though."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Nvidia's boss quit two weeks ago for breaking its rules. The board, the referee that hires and fires the boss, said last Tuesday it would not take him back. Then the president phoned, said Huang was no danger, and Monday the board flipped. Shares jumped 31%. Congress wants to know why.",
+      "why": "No, a phone call, yes. The chain is the story.",
+      "why_long": "At 9 a child is working out whether rules apply to everyone, and this is a referee reversing a call after the most powerful person watching spoke up. The script hands over the chain: quit, no, phone call, yes, shares up 31%. Expect 'is the president allowed to do that?' He can ask. Whether he should have is Congress's fight."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Should a president tell a company who its boss is? Trump says he \"convinced\" Nvidia's board to bring Huang back, and that the falling market \"probably\" pushed him to. Shares rose 31%. Second: Trump has bought Nvidia stock 85 times. Does that change the call?",
+      "why": "Two true things: the market wanted Huang back, and the president owns the stock.",
+      "why_long": "At 14 they can hold two true things at once: the market wanted Huang back, and a president who owns Nvidia shares pushed for it. The script hands them Trump's own 'probably so' and the 85 purchases, then asks whether a good outcome excuses the method. Expect 'is that illegal?' Nobody says so yet. Congress is investigating."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Why did he get his job back?",
+        "a": "The president asked the company to take him back. On Monday it said yes."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Can the president pick a company's boss?",
+        "a": "No. The board does. Trump asked, and the board listened."
+      },
+      {
+        "q": "Why does everyone care about one man?",
+        "a": "Nvidia makes the chips that run AI. Its stock jumped 31% Monday."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Is it a security risk to have him back?",
+        "a": "Trump says no. Congress isn't sure. Nvidia's own inquiry isn't finished."
+      },
+      {
+        "q": "Did Trump make money on this?",
+        "a": "His shares fell, then rose Monday. The White House says a trust holds them."
+      }
+    ]
+  },
+  "photo_subject": "Nvidia",
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#Nvidia",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 9,
+    "13-17": 14
+  },
+  "photo": "data/images/2026-11-24-noon.jpg",
+  "photo_credit": "Photo: Coolcaesar, Wikimedia Commons, CC BY-SA 4.0",
+  "caption": "The president asked the company to. It said yes.\n\nNvidia's board reinstated Jensen Huang on Monday, six days after saying it would not. Trump says he spoke to the board and \"convinced\" it, and that the falling stock price \"probably\" moved him. Shares rose 31%. Huang quit Nov. 12 over an affair with a suspected Chinese spy. Democrats and some Republicans want investigations.\n\nSource: BBC News\nPhoto: Coolcaesar, Wikimedia Commons, CC BY-SA 4.0\n\nSwipe for what to say at age 6, at 9, and at 14.\n\nThe dinner table question: A ref changes a call after the boss yells. Does it still count? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #Nvidia #DinnerTableNews"
+}
