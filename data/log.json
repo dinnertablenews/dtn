@@ -5114,5 +5114,28 @@
   "publish_run": 45215932097,
   "published": "https://www.instagram.com/p/DgF-0VXFg_9/",
   "published_at": "2026-11-23T18:04:33+0000"
+ },
+ {
+  "slug": "2026-11-23-evening",
+  "slot": "evening",
+  "date": "2026-11-23",
+  "category": "Good news",
+  "headline": "Miley Cyrus got married. It started with a blind date.",
+  "cluster_headline": "Miley Cyrus marries Maxx Morando in California ceremony",
+  "outlet": "BBC News",
+  "photo": false,
+  "photo_subject": "Miley Cyrus",
+  "cover_band": "8-12",
+  "publish_target": "2026-11-23T19:54-06:00",
+  "chosen": "primary",
+  "alternate": {
+   "folder": "posts/2026-11-23-evening-alt",
+   "category": "World",
+   "headline": "A Russian warship sank in Libya. Ukraine says it did it.",
+   "photo": true,
+   "cluster_headline": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
+   "outlet": "BBC News"
+  },
+  "note": "Run fired at 18:11 CT for the 20:00 evening slot. Target drawn once at 18:12 CT: 19:54. Rule 3 count: the last Good news entry is 11-22 morning's Essex moth and four stories have run since (11-22 noon and evening, 11-23 morning and noon), so this is the positive slot and the count resets to 0. The only uplifting cluster in the top 15 is #6 (AP News, BBC News; 2 outlets), Miley Cyrus marrying Maxx Morando in Palm Springs: a wedding, a blind date and a proposal kept secret, with nothing hard under it. Nothing else in the top 15 is a science result, a rescue, a record or a recovery; #12, the Indonesian factory fire, is a search for 34 missing workers, and #9 is Paolo Bulgari's death. Rule 1 on the top 15: #1, the House majority, ran this morning; #2 and #7, COP31, ran at noon; #3, the warship in Benghazi, was noon's alternate, which never counts as having run. Rule 2: today's lead subjects are the House Democrats and the UN climate talks; Miley Cyrus repeats neither. Rule 8: the alternate is the highest remaining cluster of another category, #3, the Russian corvette sunk in Benghazi (AP News, BBC News, The Hill; 3 outlets), World; it passed rules 1, 2 and 6 at noon and still does, and it ranks above #4, the Seattle airport ICE arrest, which also has 3 outlets. Articles: BBC text for the wedding (2,562 characters), the only piece in the cluster with text; the AP item had none. Everything in the post is from it: the date, the dress, the dog, the Japan proposal, both quotes, the blind date from British Vogue, the 2018 marriage. For the warship, only the BBC piece has text and it predates Zelenskyy's claim; the claim rests on the AP and BBC headlines and the Merkury and the two sea drones on The Hill's RSS summary, as at noon. The alternate's copy is noon's, with the cover question moved to the 8-12 band and the 8-12 why_long matched to the drawn age. Photos: the last two entries had no photo, so both posts could take one. Primary: Miley Cyrus, a public figure on a happy story; commons.yml found the Wikipedia infobox image at 322x483 and rejected it as too small, so no photo. Alternate: Volodymyr Zelenskyy, the 2022 official portrait, single artist, not a composite. Both renders exit 0 after cutting the primary's 8-12 and 13-17 scripts to seven lines, the why lines to two, and the Try answers to one line each; the first pass ran 120px over on both cards. All ten JPGs looked at: headlines and cover questions two lines each. Ages drawn 6, 12, 14 and 6, 10, 15; the why_long lines name the drawn ages. Reel built for the primary, 13.4s, no REEL line."
  }
 ]

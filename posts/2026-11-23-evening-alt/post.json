@@ -1,0 +1,80 @@
+{
+  "slot": "2026-11-23 20:00 CT",
+  "date": "2026-11-23",
+  "category": "World",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo",
+  "source_domain": "bbc.com",
+  "headline": "A Russian warship sank in Libya. Ukraine says it did it.",
+  "summary": "The Russian corvette Merkury had stopped at the naval base in Benghazi, Libya, for fuel when it blew up at dawn on Sunday. Satellite images show it capsized, only the bow showing. Libya's eastern government says nobody was hurt and Libya is not in this war. Zelenskyy says Ukrainian drones did it. Benghazi is over 2,000 km from Moscow.",
+  "cover_question": {
+    "band": "8-12",
+    "q": "Why was a Russian ship in Libya?"
+  },
+  "cover_answer": "It stopped for fuel. Libya's east had a deal with Russia.",
+  "table_question": "If a friend's fight ended up in your yard, whose problem is it?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "shield": true,
+      "script": "A Russian navy ship stopped in a country called Libya to fill up with fuel. At sunrise on Sunday it exploded and tipped over in the water, like a toy boat in the bath, and nobody was hurt. Russia and Ukraine are at war, and Ukraine says its robot boats did it. It is very far from here, and the grown-ups have it.",
+      "why": "Don't bring it up. If it comes home from school, the toy boat and 'nobody was hurt' are the two things a six-year-old can hold.",
+      "why_long": "A six-year-old takes one vivid feature for the whole event, and here it is a ship on fire, so the script swaps it for a toy boat in the bath and puts 'nobody was hurt' in the same breath. Cantor found the image, not the politics, frightens at this age. Expect 'could that happen to our boat?' No. This is a war far away."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "Russia and Ukraine are at war, and Russia's ships still need fuel. This one stopped in Benghazi, Libya, and Ukraine says its sea drones, boats with nobody aboard, hit it at dawn. Libya says it isn't in the war and is angry the fight came to its harbour, like finding a playground fight on your lawn.",
+      "why": "Fuel stop, drone, sinking, angry host: four links they can follow. The lawn is the fairness question.",
+      "why_long": "At ten a child is building chains of cause and effect, and this one has four links: a ship stops for fuel, drones with nobody aboard hit it, it sinks, and the harbour's owner says it never signed up for a war. The lawn is Libya's own complaint. Expect 'will Libya join the war?' It says it is not in it and wants it looked into."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "If you let a warship park in your harbour, are you in the war? Libya's eastern government let Russia's navy use Benghazi, then called the strike an attack on its sovereignty and said Libya is not in the war. Second: Ukraine claims the strike. The Kremlin won't confirm. Why would each want that?",
+      "why": "Two governments, one harbour, one sunk ship. 'Not our war' and 'we rented the dock' are both true.",
+      "why_long": "A teenager can reason about what is not in front of them: a harbour deal, a war 2,000 km away. The script asks them to hold 'we are not in this war' and 'we let the navy use the dock' at once, because Libya's eastern government holds both. Expect 'so is Libya lying?' Not necessarily. Ask whether both can stay true after Sunday."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Did anyone drown?",
+        "a": "No. Libya says nobody on the ship was hurt. A few people on another boat got small injuries and are OK."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why was a Russian ship in Libya?",
+        "a": "It stopped for fuel under a deal with Libya's eastern government."
+      },
+      {
+        "q": "How do you hit a ship with a drone?",
+        "a": "Small boats with no crew. Libyan officials say two hit it."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Does Libya want Russia's navy there?",
+        "a": "Depends which Libya. The east made the deal; Tripoli warns against it."
+      },
+      {
+        "q": "Why won't Russia say anything?",
+        "a": "The Kremlin warned of 'escalation' and wouldn't discuss the attack."
+      }
+    ]
+  },
+  "photo_subject": "Volodymyr Zelenskyy",
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#Benghazi",
+    "#DinnerTableNews"
+  ],
+  "photo": "data/images/2026-11-23-evening-alt.jpg",
+  "photo_credit": "Photo: Press Service of the President of Ukraine, Wikimedia Commons, CC BY 4.0",
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 10,
+    "13-17": 15
+  },
+  "caption": "It stopped for fuel. Libya's east had a deal with Russia.\n\nThe Russian corvette Merkury had stopped at the naval base in Benghazi, Libya, for fuel when it blew up at dawn on Sunday. Satellite images show it capsized, only the bow showing. Libya's eastern government says nobody was hurt and Libya is not in this war. Zelenskyy says Ukrainian drones did it. Benghazi is over 2,000 km from Moscow.\n\nSource: BBC News\nPhoto: Press Service of the President of Ukraine, Wikimedia Commons, CC BY 4.0\n\nSwipe for what to say at age 6, at 10, and at 15.\n\nThe dinner table question: If a friend's fight ended up in your yard, whose problem is it? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #Benghazi #DinnerTableNews"
+}
