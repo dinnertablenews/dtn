@@ -1,0 +1,79 @@
+{
+  "slot": "2026-11-25 12:00 CT",
+  "date": "2026-11-25",
+  "category": "Good news",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/c6x2e0j3kx28o",
+  "source_domain": "bbc.com",
+  "headline": "Pakistan's first astronaut. On China's rocket.",
+  "summary": "Shenzhou-24 lifted off from the Gobi desert on Wednesday with three astronauts for China's Tiangong space station. One is Muhammad Zeeshan Ali, a 40-year-old Pakistani fighter pilot and the first foreigner on a Chinese crewed flight. Pakistan has no spacecraft. He will test seeds and bacteria in orbit, then come home after a few days.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Why did China give him a ride?"
+  },
+  "cover_answer": "Pakistan has no rocket. China does, and invited him.",
+  "table_question": "Does a gift count less if the giver gets something too?",
+  "photo_subject": "Tiangong space station",
+  "ages": {
+    "5-7": {
+      "chip": "Good one to bring up",
+      "script": "A rocket took off from a desert in China this morning with three people inside. One of them is the first astronaut Pakistan has ever had, Muhammad Zeeshan Ali, who used to fly fighter jets. A few minutes after liftoff, about as long as brushing your teeth, it was declared a success. He will float up there a few days, test some seeds, and come home.",
+      "why": "One rocket, one first. Brushing teeth puts minutes at a size they can feel.",
+      "why_long": "A six-year-old reasons from what is in front of them, so the script gives them one person, one rocket and a desert they can picture. Minutes are too abstract on their own; brushing teeth is a span they know. Expect 'can I go?' Not yet. Pakistan waited until this morning, and Ali trained in China and had to learn Chinese first."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Pakistan has no spacecraft, so it cannot send anyone to space on its own. China has a space station, Tiangong, and wants other countries to use it, so it trained two Pakistani pilots and gave one a seat. It works like a carpool: the family with the car decides who rides.",
+      "why": "No rocket, a neighbour with one, a seat. The carpool is the mechanism: at ten they can follow a three-link chain if they can see who decides.",
+      "why_long": "A ten-year-old is working out cause and effect, and who gets to decide. The script hands over the chain: Pakistan has no spacecraft, China has a station it wants used, so China picks who rides. The carpool shows who decides. Expect 'why does China want to share?' It wants the station seen as everyone's, and the moon by 2030."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Is a ride to space a gift or a message? China trained Pakistan's pilots, flew one to Tiangong, and said it hopes the flight strengthens ties with Islamabad. Second: Ali said he carries \"the hopes of 250 million Pakistanis.\" Does it matter whose rocket got him there?",
+      "why": "Two true things: a real first for Pakistan, and a diplomatic move by Beijing.",
+      "why_long": "A sixteen-year-old can hold two true things at once, and this one is two: a Pakistani pilot aboard Tiangong for the first time, and Beijing saying it is about ties with Islamabad. The script gives both and asks which carries the day. Expect 'so is it just propaganda?' Partly. The 250 million people he named are also real."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Why did China give him a ride?",
+        "a": "Pakistan has no rocket. China does, and asked him to come along."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "How long will he be up there?",
+        "a": "Several days. Two of his crewmates stay six months."
+      },
+      {
+        "q": "What will he do in space?",
+        "a": "Test how space radiation affects seeds, and how bacteria use light."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Is a ride to space a gift or a message?",
+        "a": "Both. Beijing said it hopes the flight strengthens ties with Pakistan."
+      },
+      {
+        "q": "Does one flight make Pakistan a space power?",
+        "a": "No. It has no spacecraft of its own. Two of its pilots trained in China."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#Shenzhou24",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 10,
+    "13-17": 16
+  },
+  "photo": "data/images/2026-11-25-noon.jpg",
+  "photo_credit": "Photo: Shujianyang, Wikimedia Commons, CC BY-SA 4.0",
+  "caption": "Pakistan has no rocket. China does, and invited him.\n\nShenzhou-24 lifted off from the Gobi desert on Wednesday with three astronauts for China's Tiangong space station. One is Muhammad Zeeshan Ali, a 40-year-old Pakistani fighter pilot and the first foreigner on a Chinese crewed flight. Pakistan has no spacecraft. He will test seeds and bacteria in orbit, then come home after a few days.\n\nSource: BBC News\nPhoto: Shujianyang, Wikimedia Commons, CC BY-SA 4.0\n\nSwipe for what to say at age 6, at 10, and at 16.\n\nThe dinner table question: Does a gift count less if the giver gets something too? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #Shenzhou24 #DinnerTableNews"
+}

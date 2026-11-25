@@ -5245,5 +5245,29 @@
   "publish_run": 45603483948,
   "published": "https://www.instagram.com/p/DgKlRc9G0W7/",
   "published_at": "2026-11-25T12:57:27+0000"
+ },
+ {
+  "slug": "2026-11-25-noon",
+  "slot": "noon",
+  "date": "2026-11-25",
+  "category": "Good news",
+  "headline": "Pakistan's first astronaut. On China's rocket.",
+  "cluster_headline": "China's Shenzhou-24 carries Pakistan's first astronaut into space",
+  "outlet": "BBC News",
+  "photo": true,
+  "photo_subject": "Tiangong space station",
+  "cover_band": "5-7",
+  "publish_target": "2026-11-25T12:08-06:00",
+  "chosen": "primary",
+  "alternate": {
+   "folder": "posts/2026-11-25-noon-alt",
+   "category": "Government",
+   "headline": "Deported by mistake in 2025. He flew to Spain on his own.",
+   "photo": false,
+   "photo_subject": null,
+   "cluster_headline": "Kilmar Ábrego García arrives in Spain, ending Trump deportation battle",
+   "outlet": "BBC News"
+  },
+  "note": "Run fired at 10:11 CT for the 12:00 noon slot. Target drawn once at 10:11 CT: 12:08. Rule 3 count: the last Good news entry is 11-23 evening's Miley Cyrus wedding and four stories have run since (11-24 morning, noon and evening, 11-25 morning), so this is the positive slot. Rule 1 on the top 15: #1 (AP News, Axios, PBS NewsHour, Semafor, The Hill; 5 outlets, 15 items) is the Iowa lead azide detonation, which ran yesterday morning; #2 (4 outlets, 15 items) is Huang's Nvidia return, which ran yesterday noon; #4 is the turkey pardon, this morning's post. All three are out. #7, the Huawei verdict, was this morning's alternate and never ran, so it stays fair game. Rule 2: today's lead subject is Trump (the turkeys), which bars nothing in the top 15 that rule 1 left in. Rule 3: the most uplifting cluster in the top 15 is #8 (AP News, BBC News; 2 outlets, 5 items), China's Shenzhou-24 carrying Muhammad Zeeshan Ali, Pakistan's first astronaut, to the Tiangong station; #11 (Melania Trump reuniting nine Ukrainian and Russian children) and #14 (the Macy's parade) also qualify but had no article text and rank below it. Labelled Good news; the count resets. Rule 8: the alternate is the highest remaining cluster of another category that passes rules 1, 2 and 6: #3 (AP News, BBC News, The Hill; 3 outlets, 4 items), Kilmar Ábrego García arriving in Spain after leaving the US on his own, Government. Ábrego García is the lead subject, not Trump. It is a hard story for the 5-7 card (a prison, a gang), so that card carries the Shield. #5, the Mississippi plane crash that killed two children, ranks level with it and was passed over: it is a death story with no public subject and nothing for a child to do with it. #6, the Solomon Islands treaty, had text but ranks below #3. Articles: the primary leans on BBC News (2,631 characters: the 08:18 launch from Jiuquan in the Gobi desert, the 'complete success', Tang Hongbo and Wu Yi, the 'hopes of 250 million Pakistanis', the seed and bacteria experiments, the short stay and the two crew up since May, the six-month rotation, the moon by 2030, Pakistan having no spacecraft, Khurram Dawood, the Chinese language), with the BBC video pages for his age, 40, and the 'first foreign national to board Tiangong'; the AP item had no text. The alternate leans on BBC News (2,559 characters: the 2019 protection order, the March 2025 deportation to Cecot, the Supreme Court order, the dismissed trafficking charges, Uganda, Ghana and Liberia, Costa Rica, Van Hollen's 'a free man', Maryland and the US-citizen wife), with The Hill's RSS lines for the Wednesday arrival and the Madrid flight; the AP items had no text. Photos: the last two entries were a photo (Pope Francis) and none (turkeys), so a photo was open, and the positive story takes one: Tiangong space station, a spacecraft, not a person. commons.yml returned 500 on the first dispatch and queued on the second; it found Chinese_Tiangong_Space_Station.jpg (2160x2160, CC BY-SA 4.0, Shujianyang), a single artist, no photo_zoom needed. The alternate takes none: Ábrego García is a private individual and the story is his deportation. Cover band 5-7, next after this morning's 13-17. Renders: Playwright and Pillow had to be installed for the 3.11 interpreter again. First pass ran 60 and 120px over on the primary's 5-7 and 8-12 cards and 37, 260 and 151px over on the alternate's three, plus six WHY TOO LONG lines against summaries cut to 336 and 326; cut over four passes to seven- and eight-line scripts and one-line Try answers until both exit 0. The primary's headline rendered on three lines ('Pakistan has its first astronaut. China gave him the seat.') and became 'Pakistan's first astronaut. On China's rocket.' The alternate's 13-17 question 'If the government admits a mistake, what does it owe him?' wrapped to two lines in the band and became 'What does the government owe him?' All ten JPGs looked at: headlines and cover questions two lines each. Ages drawn 6, 10, 16 and 7, 11, 14; the why_long lines name the drawn ages. voice.py flagged five rule-of-three candidates; all were read and kept: Uganda, Ghana and Liberia are the three countries the BBC names, and the other two are commas around an appositive. Reel built for the primary, 13.9s, caption 1,869 characters, no REEL line."
  }
 ]
