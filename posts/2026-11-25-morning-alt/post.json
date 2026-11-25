@@ -1,0 +1,76 @@
+{
+  "slot": "2026-11-25 07:00 CT",
+  "date": "2026-11-25",
+  "category": "Technology",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/nation/u-s-jury-finds-chinese-tech-giant-huawei-guilty-of-conspiracy-to-steal-trade-secrets-bank-fraud",
+  "source_domain": "pbs.org/newshour",
+  "headline": "A jury found Huawei guilty. Huawei calls it a win.",
+  "summary": "A New York jury convicted Huawei on Tuesday of conspiring to steal trade secrets and of bank fraud, and acquitted it of racketeering, the top charge. Prosecutors said the Chinese telecom giant sold routers with Cisco's code inside and photographed a rival's device at a trade show. Huawei calls the acquittal a vindication and will appeal.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "Can a company commit a crime?"
+  },
+  "cover_answer": "A jury decided it. Huawei says it will appeal.",
+  "table_question": "Is copying still cheating if the thing you copied wasn't a secret?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "A big company from China that makes phones got in trouble in a New York court. A jury said it copied other companies' secret work, like copying a friend's drawing and saying you made it. The company says it didn't and will ask another court to look again. It isn't allowed to sell to American phone networks anyway, so nothing changes for us.",
+      "why": "Copying a drawing is the whole case at this age.",
+      "why_long": "A seven-year-old reasons from what is in front of them, and a trade secret is not; a copied drawing is. The script turns a two-month trial into one playground rule they already know, and the last line answers the question they will not ask out loud: does this touch us? Expect 'did they go to jail?' No. It was a company."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "Prosecutors said Huawei spent years taking rivals' secrets: it sold routers with Cisco's code inside, and a worker photographed the inside of a rival's device at a trade show. The jury, the referee here, called two fouls and waved off the biggest one, racketeering. Huawei says the no is what matters.",
+      "why": "Copy, catch, charge, verdict. A referee who gives both sides a call.",
+      "why_long": "A ten-year-old is working out whether rules apply to everyone, and this is a referee calling two fouls and waving off the third. The script hands over the chain, copied code to trade-show photo to the 2019 charges to Tuesday, and a split verdict both sides claim. Expect 'so who won?' Both say they did. That is a split decision."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Can a company commit a crime, or only the people in it? Huawei's lawyer said a few of its 200,000 employees did wrong and the firm fixed it; the prosecutor said the tone was set at the top. Second: the US barred Huawei from its networks years before this verdict. So what was the trial for?",
+      "why": "Two true things: a jury found a pattern, and the real punishment came years ago.",
+      "why_long": "A thirteen-year-old can hold two true things at once: a jury found a pattern of theft, and the sanction that hurt Huawei came years before the verdict. The script hands them the 200,000 and 'tone at the top', then asks what the trial was for. Expect 'is this just America versus China?' Beijing says so. The Cisco code says something too."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Did they go to jail?",
+        "a": "No. It's a company, not a person. The court decides what it pays."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "What's a trade secret?",
+        "a": "A company's private recipe for how its product works."
+      },
+      {
+        "q": "Why do both sides say they won?",
+        "a": "Prosecutors won two charges. Huawei beat the biggest one."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Can a company commit a crime?",
+        "a": "Like a person: a jury weighed the evidence. Huawei will appeal."
+      },
+      {
+        "q": "Is this just the US picking on China?",
+        "a": "China says so. The jury saw Cisco's code in Huawei's routers."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#Huawei",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 10,
+    "13-17": 13
+  },
+  "caption": "A jury decided it. Huawei says it will appeal.\n\nA New York jury convicted Huawei on Tuesday of conspiring to steal trade secrets and of bank fraud, and acquitted it of racketeering, the top charge. Prosecutors said the Chinese telecom giant sold routers with Cisco's code inside and photographed a rival's device at a trade show. Huawei calls the acquittal a vindication and will appeal.\n\nSource: PBS NewsHour\n\nSwipe for what to say at age 7, at 10, and at 13.\n\nThe dinner table question: Is copying still cheating if the thing you copied wasn't a secret? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #Huawei #DinnerTableNews"
+}
