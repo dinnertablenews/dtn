@@ -5299,5 +5299,29 @@
   "publish_run": 45727826251,
   "published": "https://www.instagram.com/p/DgL_k6gjBHX/",
   "published_at": "2026-11-26T02:06:38+0000"
+ },
+ {
+  "slug": "2026-11-26-morning",
+  "slot": "morning",
+  "date": "2026-11-26",
+  "category": "Culture",
+  "headline": "Macy's moved the parade to Saturday. First time ever.",
+  "cluster_headline": "Macy's postpones Thanksgiving parade due to severe weather",
+  "outlet": "BBC News",
+  "photo": true,
+  "photo_subject": "Macy's Thanksgiving Day Parade",
+  "cover_band": "13-17",
+  "publish_target": "2026-11-26T07:08-06:00",
+  "chosen": "primary",
+  "alternate": {
+   "folder": "posts/2026-11-26-morning-alt",
+   "category": "Security",
+   "headline": "A fishing trip, then a plane crash. Six of one family died.",
+   "photo": false,
+   "photo_subject": null,
+   "cluster_headline": "Small plane crash off Mississippi coast kills extended family of 6 on fishing trip",
+   "outlet": "PBS NewsHour"
+  },
+  "note": "Run fired at 05:11 CT for the 07:00 morning slot. Target drawn once at 05:12 CT: 07:08. Rule 3 count: the last Good news entry is 2026-11-25-noon, Pakistan's first astronaut, and one story has run since (yesterday evening's Huawei verdict), so this is not the positive slot; the count stands at 2 after this slot. Rule 1 on the top 15: #1 (AP News, Axios, BBC News, PBS NewsHour, The Hill; 5 outlets, 18 items), the Army calling the Iowa lead azide detonation a success, is the same event as 2026-11-24-morning with the headline moved on, and so is #4 (Vance defending the detonation, the shelter-in-place order lifted); both out. #10 and #14, Ábrego García in Spain, were the noon and evening alternates yesterday, which never count as having run, but they rank below the pick anyway. Rule 4: with #1 out, morning takes #2 (AP News, BBC News, PBS NewsHour, The Hill; 4 outlets, 7 items), Macy's postponing its 100th Thanksgiving Day Parade to Saturday for a nor'easter, the first postponement in the parade's history. Category Culture. Lead subject Macy's, nothing has run today, so rule 2 is clear. Facts from BBC News (the fullest text) with the PBS NewsHour AP text and Axios second; the AP items and The Hill items have no text. Facts as the articles give them: postponed Wednesday with the balloons already being inflated (PBS/AP); gusts to 60 mph in the high wind warning (BBC), 55 mph (Axios); the balloon rule, no flying above 23 mph sustained or 34 mph gusts, announced in 1998 after the 1997 Cat in the Hat balloon hit a lamppost and critically injured a spectator (Axios; PBS says a woman was left in a coma); balloons flew low in 2019 (Axios); the NYPD has the final say (Axios); the parade was not held 1942 to 1944 so rubber and helium went to the war (BBC); NBC airs the 2025 parade on Thursday (all three); the new start is 8:30 a.m. Saturday (PBS/AP); balloons deflated and stored at a facility in New Jersey (BBC). 'A balloon as big as a house' and the lifeguard's flag are comparisons. No shield. Rule 8: the alternate is #3 (AP News, BBC News, PBS NewsHour, The Hill; 4 outlets), the Cessna 210 crash off Pascagoula that killed six members of a Fort Myers family flying home from a fishing trip, the highest remaining cluster not in Culture. It passed over yesterday evening at 3 outlets and has never run. Category Security, the way the Brooklyn collapse and the tanker went. The primary is not a hard story, so rule 8's preference does not apply. Facts from PBS NewsHour (the AP story in full) with BBC News second; the AP and The Hill items have no text. The two sources disagree on the boys' ages (PBS/AP: 12 and 10, with a 16-year-old; BBC: 8 and 10), so the post says 'two boys' and gives no ages for them; the 16-year-old is PBS/AP only. Names are left out of the post entirely. The 5-7 card is shielded: six deaths including children. 'Think how many you've seen in the sky that landed fine' and the referee's replay are comparisons. Brent Stokes and Michael Knox both received private pilot certificates in 2023 (PBS/AP). Photo on the primary: Macy's Thanksgiving Day Parade, an institution; the last two log entries were photo true then false, and it is not among the last three subjects. commons.yml returned the Wikipedia infobox image, a 2005 parade photo by cisc1970, CC BY 2.0, one photograph, so no photo_zoom. No photo on the alternate: the victims are private individuals and it is a death. Cover band 13-17 by rotation after yesterday evening's 8-12; render drew 7, 10 and 14 for the primary and 6, 12 and 16 for the alternate. Primary cover question 'Why not fly the balloons lower?', alternate 'Why would a plane just fall?', both two lines under two-line headlines. The render rule fired on the 8-12 and 13-17 cards of both posts (178px and 61px on the primary, 178px and 237px on the alternate) and took four rounds of cuts: the developmental sentence came off the why lines of both posts' 8-12 and 13-17 cards and survived on both 5-7 cards; scripts lost a clause each; Try answers were cut to one line. Both renders exit 0, all ten JPGs checked. site.py build passes. Reel built for the primary, 14.2s, caption 1,805 characters, no REEL line."
  }
 ]
