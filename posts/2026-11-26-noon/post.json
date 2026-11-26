@@ -1,0 +1,79 @@
+{
+  "slot": "2026-11-26 12:00 CT",
+  "date": "2026-11-26",
+  "category": "Technology",
+  "outlet": "BBC News",
+  "source_url": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo",
+  "source_domain": "bbc.com",
+  "headline": "A million satellites to run AI in space. The FCC said yes.",
+  "summary": "The FCC approved SpaceX's plan to put up to a million solar-powered satellites in low orbit to process data for AI. The project is called Starmind. Starlink, the company's internet network, has more than 10,000. Deployment must start by 2033, with half up by 2038. The first one is due next year; how many will follow is unclear.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Why not on Earth?"
+  },
+  "cover_answer": "Free sunshine, and no neighbors to say no.",
+  "table_question": "Something useful that nobody wants next door: where should it go?",
+  "ages": {
+    "5-7": {
+      "chip": "Good one to bring up",
+      "script": "A company called SpaceX got a yes to send up to a million satellites into space to do computer work for AI. They would fly far higher than any airplane and run on sunshine. Down here, those computers fill big buildings that need lots of power and water, and some towns don't want them nearby. Nothing changes for you.",
+      "why": "One picture, far higher than any airplane, and sunshine for power. A million is just a sound at five; an airplane they have watched.",
+      "why_long": "A five-year-old reasons from what they can see, and nobody can see a satellite. So the script puts them above the airplane, the highest thing a child has watched, and runs them on sunshine they already know. A million is a sound at this age; the one going up next year is a number they can hold. Expect 'can we see it?' Not yet."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "AI needs huge computer buildings that use so much power and water that towns have started saying no. SpaceX's answer: put them in orbit, where the sun powers them and nobody lives next door. The FCC, the referee for who uses orbit, said yes to up to a million. Starlink has more than 10,000.",
+      "why": "Problem, answer, referee, scale. 10,000 against a million, and they size it.",
+      "why_long": "A child this age builds chains of cause and effect and wants each link to hold. The script hands over one with no gaps: the buildings use power and water, the towns say no, the company looks up, the referee lets it. Then two numbers, 10,000 and a million, and they size it. Expect 'will it work?' Nobody knows. Nothing has flown."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Is it a win when the company with the most satellites gets a licence for a million more? Starlink has more than 10,000; critics say orbit is crowded, Musk says it isn't. Second: the FCC called this a boost for \"America's super intelligence economy.\" Regulator, or cheerleader?",
+      "why": "A real problem on the ground, a regulator in the company's words. Both true.",
+      "why_long": "A teenager can hold two true things at once: ground data centres are a real problem towns vote on, and the agency approving the fix wrote its statement in the company's voice. The script asks who is crowding orbit, then what a referee should sound like, and lets them argue. Expect 'so, good or bad?' Nothing has flown yet."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Why not on Earth?",
+        "a": "Down here they fill big buildings and need lots of power and water. Up there the sun is free, and there are no neighbors."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "What's a data center?",
+        "a": "A big building full of computers. It needs lots of power and water."
+      },
+      {
+        "q": "Could they crash into each other?",
+        "a": "More craft, more chance of a crash, the BBC reports. Musk denies it."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why does the FCC get to decide?",
+        "a": "It licenses US use of orbit and the airwaves. 10% up by 2035, half by 2038."
+      },
+      {
+        "q": "Is a million even real?",
+        "a": "Unclear, says the BBC. Firms ask for more than they use."
+      }
+    ]
+  },
+  "photo_subject": "SpaceX",
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#Starmind",
+    "#DinnerTableNews"
+  ],
+  "photo": "data/images/2026-11-26-noon.jpg",
+  "photo_credit": "Photo: Alexander Hatley from Spring, Texas, USA, Wikimedia Commons, CC BY 2.0",
+  "ages_named": {
+    "5-7": 6,
+    "8-12": 9,
+    "13-17": 16
+  },
+  "caption": "Free sunshine, and no neighbors to say no.\n\nThe FCC approved SpaceX's plan to put up to a million solar-powered satellites in low orbit to process data for AI. The project is called Starmind. Starlink, the company's internet network, has more than 10,000. Deployment must start by 2033, with half up by 2038. The first one is due next year; how many will follow is unclear.\n\nSource: BBC News\nPhoto: Alexander Hatley from Spring, Texas, USA, Wikimedia Commons, CC BY 2.0\n\nSwipe for what to say at age 6, at 9, and at 16.\n\nThe dinner table question: Something useful that nobody wants next door: where should it go? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #Starmind #DinnerTableNews"
+}

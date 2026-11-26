@@ -1,0 +1,76 @@
+{
+  "slot": "2026-11-26 12:00 CT",
+  "date": "2026-11-26",
+  "category": "Security",
+  "outlet": "PBS NewsHour",
+  "source_url": "https://www.pbs.org/newshour/nation/small-plane-crash-off-mississippi-coast-kills-extended-family-of-6-on-fishing-trip",
+  "source_domain": "pbs.org/newshour",
+  "headline": "A fishing trip, then a plane crash. Six of one family died.",
+  "summary": "A small plane carrying six members of a Florida family went down off Pascagoula, Mississippi, on Tuesday. They were flying home from a fishing trip. The pilot, his 16-year-old son, his sister, her husband and their two boys died. Air traffic control lost contact at 3:45 p.m. No distress call was heard. The NTSB will investigate.",
+  "cover_question": {
+    "band": "5-7",
+    "q": "Could our plane fall?"
+  },
+  "cover_answer": "Almost never. No one knows yet why this one did.",
+  "table_question": "Is it kinder to tell someone bad news right away, or to wait?",
+  "ages": {
+    "5-7": {
+      "shield": true,
+      "script": "A small plane with a family on it fell into the sea near Mississippi, and the people on it died. Planes almost never fall; think how many you've seen in the sky that landed fine. Nobody knows yet why this one did. The grown-ups whose job is checking planes are finding out, and we are all right.",
+      "why": "Say it once, plainly, then the sky full of planes that landed. A five-year-old reads your face first, so the calm has to be real.",
+      "why_long": "Cantor's work says a child this age is scared by what they can picture, and a plane falling is easy to picture. So the script says the hard thing once, then puts a bigger picture beside it: every plane they have ever watched land. The names and the fishing stay out. Expect 'were there kids on it?' Yes. Then 'are we safe?' Yes."
+    },
+    "8-12": {
+      "chip": "Bring it up if it fits the day",
+      "script": "Air traffic control lost the plane at 3:45 p.m., and no distress call is on the recordings. Tracking data shows it at 9,000 feet, then dropping fast in a right turn. Now the NTSB does what a referee does with a replay: it gathers the recordings and the wreckage before it says what happened.",
+      "why": "Lost contact, no call, a fast drop, a replay. The ending left open.",
+      "why_long": "A child this age builds chains of cause and effect and wants the last link. There is none yet, so the script gives the links there are, the lost contact, the silent radio, the drop from 9,000 feet, and hands the ending to the referee with the replay. Expect 'what do you think happened?' I don't know. An expert mentioned ice."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "A controller warned the pilot of rain just before contact was lost, and a Boeing safety veteran says ice can cost a small plane its lift. First: knowing that little, is it fair to ask what the pilot should have done? Second: both men aboard got their licences in 2023. Does that matter, or only feel like it does?",
+      "why": "Two facts that look like answers and aren't yet.",
+      "why_long": "A teenager can hold two true things at once: there are facts that look like explanations, the weather warning and the 2023 licences, and there is no explanation yet. The script asks them to tell the difference, the skill Kuhn says argument trains. Expect 'so was it the pilot's fault?' The honest answer is that nobody has said."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Could our plane fall?",
+        "a": "Planes almost never do. This was a small private plane, and the people who study crashes are finding out why."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why didn't they call for help?",
+        "a": "None is on the recordings. It fell fast from 9,000 feet; maybe no time."
+      },
+      {
+        "q": "How did they find them?",
+        "a": "Life jackets, a raft and the cabin floated. Divers found the plane below."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Why would a plane just fall?",
+        "a": "No one knows yet. A controller warned of rain; an expert says ice can form."
+      },
+      {
+        "q": "Was the pilot new?",
+        "a": "He got his licence in 2023, as did his brother-in-law. Neither explains it."
+      }
+    ]
+  },
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#Pascagoula",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 11,
+    "13-17": 14
+  },
+  "caption": "Almost never. No one knows yet why this one did.\n\nA small plane carrying six members of a Florida family went down off Pascagoula, Mississippi, on Tuesday. They were flying home from a fishing trip. The pilot, his 16-year-old son, his sister, her husband and their two boys died. Air traffic control lost contact at 3:45 p.m. No distress call was heard. The NTSB will investigate.\n\nSource: PBS NewsHour\n\nSwipe for what to say at age 7, at 11, and at 14.\n\nThe dinner table question: Is it kinder to tell someone bad news right away, or to wait? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #Pascagoula #DinnerTableNews"
+}
