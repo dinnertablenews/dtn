@@ -1,0 +1,77 @@
+{
+  "slot": "2026-11-27 07:00 CT",
+  "date": "2026-11-27",
+  "category": "Government",
+  "outlet": "Axios",
+  "source_url": "https://www.axios.com/2026/11/26/trump-gdp-investigation-economy-statistics",
+  "source_domain": "axios.com",
+  "headline": "Growth was 4.3%, not 3.4%. Trump wants an investigation.",
+  "summary": "The Commerce Department revised third-quarter growth on Wednesday to 4.3%, up from the 3.4% it reported a week before the midterms. On Thursday Trump called the first number fake and demanded an investigation. The agency publishes three estimates over three months, on a set schedule. The first revision averages half a point either way.",
+  "cover_question": {
+    "band": "13-17",
+    "q": "Was the first number a lie?"
+  },
+  "cover_answer": "No. A first count, revised on the usual schedule.",
+  "table_question": "You guess a number, then learn more. Is changing it cheating?",
+  "ages": {
+    "5-7": {
+      "chip": "Bring it up if it fits the day",
+      "script": "The people who count how much the whole country makes gave a number this fall. On Wednesday, with more facts in, they made it bigger, and the president is angry the first one was smaller. It's like counting the kids on the bus before the last two climb on. The counters always do a second count, and the grown-ups have it.",
+      "why": "One count, then a better count. The bus makes the fix ordinary, which is the point.",
+      "why_long": "A five-year-old reasons from what is in front of them, so the script hands them one picture: counting the bus before the last two kids climb on. The fix is the normal part, and that is what the president's anger could hide. They read a parent's face before the words, so say it plainly. Expect 'did they cheat?' No. They counted again."
+    },
+    "8-12": {
+      "chip": "Good one to bring up",
+      "script": "The government counts the economy three times over three months. The first count, a week before the election, said 3.4%. Wednesday's said 4.3%. Trump says the low one was on purpose. Think of a referee whose replay check was booked before the game.",
+      "why": "A chain with dates. The referee was booked before the game.",
+      "why_long": "A child this age is working out rules and whether adults apply them evenly. The chain is complete: a first estimate, an election, a second estimate on schedule, then a president calling the first one fake. The referee works because the replay check was on the calendar before the game. Expect 'so who's right?' The second number."
+    },
+    "13-17": {
+      "chip": "Ask first, then talk",
+      "script": "Was the first number a lie? The first estimate said 3.4%; Wednesday's said 4.3%. Trump calls it a purposeful error, though revisions run on a schedule and this one made his economy look better. Second: in 2025 he fired the jobs-data chief over a weak report. What happens to a number nobody trusts?",
+      "why": "The fix helped him and he still called it fake. Let them sit with that.",
+      "why_long": "A teenager can hold two true things at once: the first number was wrong, and wrong in the usual way, on the usual schedule. The script adds a third fact to test them: the revision made the president's economy look better and he called it fake anyway. Expect 'does it matter, it's just a number?' Yes. Businesses and the Fed plan by it."
+    }
+  },
+  "questions": {
+    "5-7": [
+      {
+        "q": "Did they cheat?",
+        "a": "No. They counted once, then counted again with more facts. They do that every time."
+      }
+    ],
+    "8-12": [
+      {
+        "q": "Why not wait for the right number?",
+        "a": "People want an early look, so the first guess comes fast."
+      },
+      {
+        "q": "Who's right, Trump or the counters?",
+        "a": "The revision came on schedule. Trump offered no evidence."
+      }
+    ],
+    "13-17": [
+      {
+        "q": "Was the first number a lie?",
+        "a": "No. A first estimate, revised on schedule."
+      },
+      {
+        "q": "Can he fire them?",
+        "a": "He fired the jobs-data chief in 2025. The articles don't say."
+      }
+    ]
+  },
+  "photo_subject": "Bureau of Economic Analysis",
+  "hashtags": [
+    "#Parenting",
+    "#KidsAndNews",
+    "#GDP",
+    "#DinnerTableNews"
+  ],
+  "ages_named": {
+    "5-7": 7,
+    "8-12": 8,
+    "13-17": 14
+  },
+  "caption": "No. A first count, revised on the usual schedule.\n\nThe Commerce Department revised third-quarter growth on Wednesday to 4.3%, up from the 3.4% it reported a week before the midterms. On Thursday Trump called the first number fake and demanded an investigation. The agency publishes three estimates over three months, on a set schedule. The first revision averages half a point either way.\n\nSource: Axios\n\nSwipe for what to say at age 7, at 8, and at 14.\n\nThe dinner table question: You guess a number, then learn more. Is changing it cheating? Tell us what your kid said, and how old they are.\n\n#Parenting #KidsAndNews #GDP #DinnerTableNews"
+}
