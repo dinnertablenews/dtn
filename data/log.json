@@ -5432,5 +5432,29 @@
   "publish_run": 46032677875,
   "published": "https://www.instagram.com/p/DgQQ2rIoWFH/",
   "published_at": "2026-11-27T17:54:29+0000"
+ },
+ {
+  "slug": "2026-11-27-evening",
+  "date": "2026-11-27",
+  "slot": "evening",
+  "category": "World",
+  "headline": "A DEA tip line for Mexico. Mexico calls it meddling.",
+  "cluster_headline": "Mexico's government is slamming a DEA crime tip line as foreign interference. Others are thrilled.",
+  "outlet": "PBS NewsHour",
+  "photo": true,
+  "photo_subject": "Claudia Sheinbaum",
+  "cover_band": "8-12",
+  "publish_target": "2026-11-27T19:51-06:00",
+  "chosen": "primary",
+  "alternate": {
+   "folder": "posts/2026-11-27-evening-alt",
+   "category": "Security",
+   "headline": "A ship ran the Iran blockade. The US shot out its engine.",
+   "cluster_headline": "U.S. military says it disabled another ship that tried to breach naval blockade on Iranian ports",
+   "outlet": "PBS NewsHour",
+   "photo": false,
+   "photo_subject": null
+  },
+  "note": "Run fired at 18:11 CT for the 20:00 evening slot. Target drawn once at 18:11 CT: 19:51. Rule 3 count: the last Good news entry is 2026-11-25-noon, Pakistan's first astronaut, and six stories have run since (Huawei, the Macy's parade, the SpaceX satellites, the king tides, Andy Taylor, the GDP revision), so this is the positive slot. Nothing in the top 15 qualifies: the ranking is storm outages, a DEA tip line, the parade's cost to marching bands, Quebec's religious-symbols ban upheld, the Iran blockade, EU budget talks, Zelensky on Trump and Putin, the EPA's lead result, and single-outlet items. The count carries at 7 and tomorrow morning tries again. Rule 1: #1, hundreds of thousands without power after the Thanksgiving storms (BBC, The Hill), is the same weather event as 2026-11-26-morning's Macy's parade post and 2026-11-26-evening's king tides with the headline moved on, and the BBC text covers both; excluded. #3 and #15, the parade's cost to bands, are the Macy's story continued; excluded. #8 and #14, the EPA lead result, are the Iowa detonation from 2026-11-24-morning; excluded. Rule 5: #2, the DEA tip line (PBS/AP text, The Hill RSS only), and #4, the Quebec ruling (PBS, BBC), both have two outlets and both are World, so the diversity tie-break does not separate them and rank order takes #2. Rule 2: lead subject Sheinbaum, no repeat of Andy Taylor or Trump. Alternate: #5, the Iran blockade ship (PBS/AP text, The Hill RSS only), the highest remaining cluster whose category is not World, Security, shielded at 5-7. The primary is not a hard story, so a hard alternate is allowed. Photos: the last two entries were none and Trump, so the primary takes Claudia Sheinbaum (Commons returned the 2025 cropped portrait, 2356x3145, CC BY 4.0, single image, zoom 1.0). None on the alternate: a disabled merchant ship has no public-figure or landmark subject. Both renders exit 0; the primary's 8-12 card took three rounds of cuts and the 13-17 card four, the alternate's 8-12 and 13-17 three each, and the primary headline was reworded once to hold two lines on the cover. reel.py built the primary's reel in one pass, 13.9s."
  }
 ]
