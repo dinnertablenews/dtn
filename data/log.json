@@ -5459,5 +5459,29 @@
   "publish_run": 46087527329,
   "published": "https://www.instagram.com/p/DgRHcNbkb2s/",
   "published_at": "2026-11-28T01:51:34+0000"
+ },
+ {
+  "slug": "2026-11-28-morning",
+  "date": "2026-11-28",
+  "slot": "morning",
+  "category": "Good news",
+  "headline": "A drone and a dog are checking on 76 orcas.",
+  "cluster_headline": "Using a drone and a poop-sniffing dog, scientists perform health checks on endangered orcas",
+  "outlet": "PBS NewsHour",
+  "photo": true,
+  "photo_subject": "Orca",
+  "cover_band": "13-17",
+  "publish_target": "2026-11-28T07:00-06:00",
+  "chosen": "primary",
+  "alternate": {
+   "folder": "posts/2026-11-28-morning-alt",
+   "category": "Security",
+   "headline": "A ship ran the US blockade of Iran. A plane stopped it.",
+   "photo": false,
+   "photo_subject": null,
+   "cluster_headline": "U.S. military says it disabled another ship that tried to breach naval blockade on Iranian ports",
+   "outlet": "PBS NewsHour"
+  },
+  "note": "Rule 3: the last Good news entry is 2026-11-25-noon and seven stories have run since, so this slot is the positive one. The most uplifting cluster in the top 15 is #12, the orca health checks (PBS text, AP RSS only), labelled Good news; #15, the NFL tripleheader, and #6, Mamdani's surgery, were the other candidates and neither is a rescue or a recovery. Rule 1: no orca story in the last 7 days. Rule 2: nothing has run today. Excluded from the alternate search: #10, the DEA tip line, ran 2026-11-27-evening; #5 and #4/#7, the postponed parade and the storm outages, are 2026-11-26-morning's Macy's story continued; #8, the lead azide detonation, ran 2026-11-24-morning. Alternate: the slot is positive, so rule 8 takes the highest remaining cluster of any other category, which is #1, the Iran blockade ship (AP x2, PBS text, The Hill RSS), Security, shielded at 5-7. It was 2026-11-27-evening's alternate and did not run, so it stays fair game. Photos: the last two entries both had photos (Trump, Sheinbaum), but the positive story may take one more freely. The first dispatch, Southern resident orcas, returned a NOAA research-boat photo with a caption strip burned into the bottom edge and the orca cut off by the disc, so it was replaced by a second dispatch for Orca: Killerwhales_jumping.jpg, Robert Pittman, public domain, 2186x1453, a single image, zoom 1.0. None on the alternate: a disabled merchant ship has no public-figure or landmark subject. Both renders exit 0: the primary's 8-12 and 13-17 cards took five rounds of cuts and the headline was shortened once to hold two lines on the cover; the alternate's 8-12 and 13-17 cards took three rounds. The articles are not reachable from here, so both posts are written from the PBS NewsHour text in data/articles.json. reel.py built the primary's reel in one pass after the final render, 13.7s."
  }
 ]
